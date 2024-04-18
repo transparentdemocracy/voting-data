@@ -1,6 +1,8 @@
 # Visualizing voting in the Belgian federal parliament (chamber)
 
-This project visualizes the voting behavior of the politicians in the Belgian federal parliament (Chamber) in 2024.
+We believe that in a democracy, it should be transparent and easily understandable what politicians, who represent the people, voted for.
+
+This project currently visualizes the voting behavior of the politicians in the Belgian federal parliament (Chamber) in 2024.
 
 ## First prototype: textual summary of recent voting behavior
 
@@ -12,6 +14,11 @@ As a first visualization, the fetched voting behavior is summarized as text in h
 The first full prototype we are aiming at, is a voting quiz that helps you decide which political party and individual politicians represented best your own preferences.
 
 This as opposed to most voting quizes in the Belgian media currently, except for De Morgen / HLN, and with the added benefit of being able to understand which individual politicians are most aligned with your preferences.
+
+Contrary to voting quizes in the media, we want to keep voting behavior transparent also after the upcoming elections.
+
+On longer term, we want to expand to visualizing voting behavior in the federal senate, the Flemish and other Belgian governments and the European government.
+
 
 ## Convinced of this project's potential?
 
