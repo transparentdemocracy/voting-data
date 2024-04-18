@@ -31,3 +31,8 @@ tracked in [this project's issues](https://github.com/transparentdemocracy/votin
 
 If you are interested to work on a certain feature, let us know via the above links.
 When done, and when needing to set up this project to run locally, check the [contributing.md](https://github.com/transparentdemocracy/voting-data/blob/main/contributing.md).
+
+If you want to bring ideas too, welcome!
+
+You can create [Github issues](https://github.com/transparentdemocracy/voting-data/issues) if they are relevant to this repository.
+We also have a public [discussion channel](https://github.com/orgs/transparentdemocracy/discussions) here on Github and a private discussion channel on Slack.
