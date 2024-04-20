@@ -5,14 +5,14 @@ import re
 from pypdf import PdfReader
 from bs4 import BeautifulSoup
 
-import nltk
 from nltk.tokenize import wordpunct_tokenize, WhitespaceTokenizer
 
 from model import Motion, Proposal, VoteType
 
-
 logger = logging.getLogger(__name__)
-# logging.basicConfig(level=logging.INFO) # or DEBUG for debugging info. To write to file: filename='example.log', encoding='utf-8', 
+
+
+# logging.basicConfig(level=logging.INFO) # or DEBUG for debugging info. To write to file: filename='example.log', encoding='utf-8',
 
 
 class FederalChamberVotingPdfExtractor():
@@ -29,15 +29,16 @@ class FederalChamberVotingPdfExtractor():
 		or to understand why code below is not working as expected.
 		"""
 		pdf_reader = PdfReader(voting_report)
-		print(pdf_reader.pages[page_number - 1].extract_text()) # index selection based on page_number: indexing is 0-based of course!
-	
+		print(pdf_reader.pages[
+				  page_number - 1].extract_text())  # index selection based on page_number: indexing is 0-based of course!
+
 	def extract(self, voting_report: str) -> List[Motion]:
 		logger.info("Starting extraction on %s", voting_report)
 		pdf_reader = PdfReader(voting_report)
 
 		# Find out where the sections of the document start, because they will each be processed differently further below:
 		first_page_idx_of_votes, first_page_idx_of_votes_by_name = self.find_start_pages(pdf_reader)
-		
+
 		# Extract the voting on proposals: how much yes, how much no, etc.
 		proposals = self.extract_votes(pdf_reader, first_page_idx_of_votes)
 
@@ -67,7 +68,7 @@ class FederalChamberVotingPdfExtractor():
 		logging.debug(f"First page number of votes: {first_page_idx_of_votes + 1}.")
 		logging.debug(f"First page number of votes by name: {first_page_idx_of_votes_by_name + 1}.")
 		return first_page_idx_of_votes, first_page_idx_of_votes_by_name
-	
+
 	def is_page_containing_votes(self, page_text: str) -> bool:
 		return "(Stemming/vote " in page_text
 
@@ -78,7 +79,7 @@ class FederalChamberVotingPdfExtractor():
 			or "DETAIL DES VOTES NOM INATIFS" in page_text \
 			or "Naamstemming:" in page_text \
 			or "Vote nominatif -" in page_text
-	
+
 	def extract_votes(self, pdf_reader: PdfReader, first_page_idx_of_votes: int) -> List[Proposal]:
 		proposal_number: Optional[int] = None
 		proposal_description_lines: Optional[list] = None
@@ -89,11 +90,12 @@ class FederalChamberVotingPdfExtractor():
 			page_text = page.extract_text()
 			if self.is_page_containing_votes(page_text):
 				for page_line in page_text.split('\n'):
-					
+
 					# If we detect a proposal that is voted:
-					match = re.match(r"(\d{2})\s(.*)", page_line) # line might start with 2 digits, indicating the number of the law to vote.
+					match = re.match(r"(\d{2})\s(.*)",
+									 page_line)  # line might start with 2 digits, indicating the number of the law to vote.
 					if match is not None and len(match.groups()) == 2:
-						
+
 						# If it is a new proposal:
 						if int(match.groups()[0]) != proposal_number:
 							logging.debug("Found a new proposal.")
@@ -101,18 +103,20 @@ class FederalChamberVotingPdfExtractor():
 							proposal_number = int(match.groups()[0])
 							logging.debug(f"Extracted vote number: #{proposal_number}.")
 							proposal_description_lines = [
-								match.groups()[1] # The vote description starts immediately on the same line, after the number of the vote.
+								match.groups()[1]
+								# The vote description starts immediately on the same line, after the number of the vote.
 							]
-							proposal_description = None # we'll set this later, when all vote_description_lines are gathered.
+							proposal_description = None  # we'll set this later, when all vote_description_lines are gathered.
 
 						# If the vote number re-occurs, this is to introduce the proposal description in a second language,
 						# let's capture that and add it to the proposal we are currently processing:
 						else:
 							proposal_description_lines.append("\r\n\r\n" + match.groups()[1])
-						
+
 					# All lines coming after the detection of a vote, if they don't start mentioning voting amounts (amount of yes votes, etc.) and if they are not empty,
 					# are parts of the vote description that we want to remember:
-					elif proposal_number is not None and not page_line.startswith("(Stemming/vote") and self.is_not_empty_line(page_line):
+					elif proposal_number is not None and not page_line.startswith(
+							"(Stemming/vote") and self.is_not_empty_line(page_line):
 						# A new line of vote description is to be added for later processing:
 						proposal_description_lines.append(page_line)
 
@@ -120,10 +124,13 @@ class FederalChamberVotingPdfExtractor():
 					# then finish processing the processing of the vote and save it.
 					elif page_line.startswith("(Stemming/vote"):
 						# If the proposal has not yet been saved:
-							# (this is a protection against saving the proposal multiple times, when "(Stemming/vote)" appears multiple times, due to voting on amendments.)
+						# (this is a protection against saving the proposal multiple times, when "(Stemming/vote)" appears multiple times, due to voting on amendments.)
 						if number_of_last_proposal_saved < proposal_number:
 							logging.debug("Finishing processing of the proposal vote.")
-							proposal_description = (" ".join(proposal_description_lines)).split("Quelqu'un demande -t-il la parole")[0].split("Vraagt iemand het woord")[0].split("Stemming over amendement")[0]
+							proposal_description = \
+								(" ".join(proposal_description_lines)).split("Quelqu'un demande -t-il la parole")[
+									0].split(
+									"Vraagt iemand het woord")[0].split("Stemming over amendement")[0]
 							logging.info(f"Saving proposal # {proposal_number}.")
 							logging.info(f"Description: {proposal_description}.")
 							proposals.append(Proposal(proposal_number, proposal_description))
@@ -134,8 +141,9 @@ class FederalChamberVotingPdfExtractor():
 				break
 
 		return proposals
-	
-	def extract_votes_by_name(self, pdf_reader: PdfReader, first_page_idx_of_votes_by_name: int, proposals: List[Proposal]) -> List[Motion]:
+
+	def extract_votes_by_name(self, pdf_reader: PdfReader, first_page_idx_of_votes_by_name: int,
+							  proposals: List[Proposal]) -> List[Motion]:
 		current_vote_type: Optional[VoteType] = None
 		vote_number: Optional[int] = None
 		vote_cancelled: bool = False
@@ -147,13 +155,13 @@ class FederalChamberVotingPdfExtractor():
 		vote_names_abstention: Optional[list] = None
 		vote_names_lines: Optional[list] = None
 		motions: List[Motion] = []
-		
+
 		for page_idx, page in enumerate(pdf_reader.pages[first_page_idx_of_votes_by_name:]):
 			logging.debug(f"Processing page number {first_page_idx_of_votes_by_name + page_idx + 1}.")
 			page_text = page.extract_text()
 			if self.is_page_containing_votes_by_name(page_text):
 				for page_line in page_text.split('\n'):
-					if "Vote nominatif" in page_line or "Naamstemming:" in page_line: # or instead of and, to be more robust against things like "Naa mstemming:"
+					if "Vote nominatif" in page_line or "Naamstemming:" in page_line:  # or instead of and, to be more robust against things like "Naa mstemming:"
 						logging.debug("Found a new vote.")
 						# If this is not the first vote in the document, first finish processing of the preceding vote.
 						logging.debug("Finishing processing of previous vote.")
@@ -167,11 +175,13 @@ class FederalChamberVotingPdfExtractor():
 							logging.info(f"Yes votes: {num_votes_yes}, by {vote_names_yes}.")
 							logging.info(f"No votes: {num_votes_no}, by {vote_names_no}.")
 							logging.info(f"Abstention votes: {num_votes_abstention}, by {vote_names_abstention}.")
-							logging.info("-"*50)
+							logging.info("-" * 50)
 
 							matching_proposals = [proposal for proposal in proposals if proposal.number == vote_number]
 							if len(matching_proposals) == 1:
-								motion = Motion(matching_proposals[0], num_votes_yes, vote_names_yes, num_votes_no, vote_names_no, num_votes_abstention, vote_names_abstention, vote_cancelled)
+								motion = Motion(matching_proposals[0], num_votes_yes, vote_names_yes, num_votes_no,
+												vote_names_no, num_votes_abstention, vote_names_abstention,
+												vote_cancelled)
 								logging.info(f"Saving vote # {vote_number}: {motion}.")
 								motions.append(motion)
 
@@ -180,7 +190,8 @@ class FederalChamberVotingPdfExtractor():
 						if "annulé" in page_line or "geannuleerd" in page_line:
 							vote_cancelled = True
 							logging.debug("Vote was found to be cancelled.")
-							vote_number = int(page_line.rstrip().split(' ')[-2]) # robust against different spellings of Naamstemming and Vote nominatif: just taking last word, # ignoring (annulé/geannuleerd) at the end of the line
+							vote_number = int(page_line.rstrip().split(' ')[
+												  -2])  # robust against different spellings of Naamstemming and Vote nominatif: just taking last word, # ignoring (annulé/geannuleerd) at the end of the line
 						else:
 							vote_number = int(page_line.rstrip().split(' ')[-1])
 						logging.debug(f"Extracted vote number: #{vote_number}.")
@@ -201,7 +212,7 @@ class FederalChamberVotingPdfExtractor():
 						current_vote_type = VoteType.NO
 						num_votes_no = int(self.word_before("Nee", page_line))
 						vote_names_lines = []
-					
+
 					elif "Abstentions" in page_line and "Onthoudingen" in page_line:
 						# Finishing processing of no votes:
 						logging.debug("Finishing processing of no votes.")
@@ -211,7 +222,7 @@ class FederalChamberVotingPdfExtractor():
 						current_vote_type = VoteType.ABSTENTION
 						num_votes_abstention = int(self.word_before("Onthoudingen", page_line))
 						vote_names_lines = []
-					
+
 					elif current_vote_type is not None and self.is_not_empty_line(page_line):
 						# A new line of politician names for a yes/no/abstention vote to be added for later processing:
 						vote_names_lines.append(page_line)
@@ -223,10 +234,10 @@ class FederalChamberVotingPdfExtractor():
 
 	def word_before(self, word, page_line):
 		return self.word_near(word, page_line, -1)
-	
+
 	def word_after(self, word, page_line):
 		return self.word_near(word, page_line, +1)
-	
+
 	def word_near(self, word, page_line, words_distance):
 		if ' ' in word:
 			raise ValueError("Word cannot contain a space, given we split on spaces during finding of word.")
@@ -235,15 +246,16 @@ class FederalChamberVotingPdfExtractor():
 			return words[words.index(word) + words_distance]
 		else:
 			return None
-	
+
 	def get_politician_names(self, vote_name_lines):
 		vote_names_text = "".join([line for line in vote_name_lines if self.is_not_empty_line(line)])
-		vote_names = vote_names_text.split(", ") # always last name, then first name in one word.
-		vote_names = [name.strip() for name in vote_names] # clean trailing spaces in names
+		vote_names = vote_names_text.split(", ")  # always last name, then first name in one word.
+		vote_names = [name.strip() for name in vote_names]  # clean trailing spaces in names
 		return vote_names
-	
+
 	def is_not_empty_line(self, page_line):
 		return len(page_line.replace(' ', '')) > 0
+
 
 class FederalChamberVotingHtmlExtractor():
 	"""
@@ -262,47 +274,93 @@ class FederalChamberVotingHtmlExtractor():
 
 		return self.extract_motions(tokenized_text)
 
-	def extract_motions(self, tokenized_text) -> List[Motion]:
-		votings = tokenized_text.find_occurrences(['Naamstemming:'])
+	def extract_motions(self, tokenized_text) -> list[Motion]:
+		tokens = tokenized_text.tokens
+		votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
 
-		bounds = zip(votings, votings[1:] + [len(tokenized_text.tokens)])
-		voting_sequences = [ tokenized_text.tokens[start:end] for start,end in bounds ]
+		bounds = zip(votings, votings[1:] + [len(tokens)])
+		voting_sequences = [tokens[start:end] for start, end in bounds]
+
+		result = []
 
 		for seq in voting_sequences:
 			motion_nr = seq[1]
-			yes_voters = self.get_yet_votes(seq)
-			no_voters = self.get_no_votes(seq)
-			abstention_voters = self.get_abstention_votes(seq)
 
-		raise Exception("TODO: convert motions")
+			yes_start = get_sequence(seq, ["Oui"])
+			no_start = get_sequence(seq, ["Non"])
+			abstention_start = get_sequence(seq, ["Abstentions"])
+
+			if not (yes_start < no_start < abstention_start):
+				print("XXX", yes_start, no_start, abstention_start, len(seq))
+				for i in range(len(seq)):
+					print(i, seq[i])
+				raise Exception("Could not parse voting sequence: %s", (" ".join(seq)))
+
+			yes_count = int(seq[yes_start + 1], 10)
+			no_count = int(seq[no_start + 1], 10)
+			abstention_count = int(seq[abstention_start + 1], 10)
+
+			yes_voters = get_names(seq[yes_start + 3: no_start], yes_count)
+			no_voters = get_names(seq[no_start + 3:abstention_start], no_count)
+			abstention_voters = get_names(seq[abstention_start + 3:], abstention_count)
+
+			result.append(Motion(Proposal(0, "todo"),
+								 num_votes_yes=yes_count,
+								 vote_names_yes=yes_voters,
+								 num_votes_no=no_count,
+								 vote_names_no=no_voters,
+								 num_votes_abstention=abstention_count,
+								 vote_names_abstention=abstention_voters,
+								 cancelled=False))
+
+		return result
 
 
 class TokenizedText:
+
 	def __init__(self, text):
 		self.text = text
 		self.tokens = WhitespaceTokenizer().tokenize(text)
 
-	def find_sequence(self, query, start_pos = 0):
-		if query[0] not in self.tokens:
-			return -1
-		pos = start_pos
-		while query[0] in self.tokens[pos:]:
-				next_pos = self.tokens.index(query[0], pos)
-				if next_pos != -1:
-						if self.tokens[next_pos:next_pos+len(query)] == query:
-								return next_pos
-				pos = next_pos + 1
 
+def get_names(sequence, count):
+	names = [n.strip() for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
+
+	if len(names) != count:
+		raise Exception("subsequence did not yield expected count %d: %s" % (count, names))
+
+
+def find_sequence(tokens, query, start_pos=0):
+	"""@return index where the token sequence 'query' occurs in given tokens or -1 if the query sequence is not found"""
+	if query[0] not in tokens:
 		return -1
+	pos = start_pos
+	while query[0] in tokens[pos:]:
+		next_pos = tokens.index(query[0], pos)
+		if next_pos != -1:
+			if tokens[next_pos:next_pos + len(query)] == query:
+				return next_pos
+		pos = next_pos + 1
 
-	def find_occurrences(self, query):
-		result = []
-		pos = self.find_sequence(query)
-		while pos > -1:
-			result.append(pos)
-			pos = self.find_sequence(query, pos + 1)
-		
-		return result
+	return -1
+
+
+def get_sequence(tokens, query):
+	"""@return like find_sequence but raises ValueError if the query was not found"""
+	pos = find_sequence(tokens, query)
+	if pos >= 0:
+		return pos
+	raise ValueError("query %s not found in tokens %s" % (str(query), str(tokens)))
+
+
+def find_occurrences(tokens, query):
+	result = []
+	pos = find_sequence(tokens, query)
+	while pos > -1:
+		result.append(pos)
+		pos = find_sequence(tokens, query, pos + 1)
+
+	return result
 
 
 if __name__ == "__main__":
