@@ -36,3 +36,12 @@ If you want to bring ideas too, welcome!
 
 You can create [Github issues](https://github.com/transparentdemocracy/voting-data/issues) if they are relevant to this repository.
 We also have a public [discussion channel](https://github.com/orgs/transparentdemocracy/discussions) here on Github and a private discussion channel on Slack.
+
+
+## Testing
+
+Use these commands to run unit tests:
+
+    cd src
+    python -munittest
+
