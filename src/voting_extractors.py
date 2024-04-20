@@ -329,6 +329,8 @@ def get_names(sequence, count):
 	if len(names) != count:
 		raise Exception("subsequence did not yield expected count %d: %s" % (count, names))
 
+	return names
+
 
 def find_sequence(tokens, query, start_pos=0):
 	"""@return index where the token sequence 'query' occurs in given tokens or -1 if the query sequence is not found"""
