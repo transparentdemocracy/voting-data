@@ -14,17 +14,23 @@ class TestFederalChamberVotingPdfExtractor(unittest.TestCase):
 		actual = FederalChamberVotingPdfExtractor().extract('../data/input/ip298.pdf')
 
 		self.assertEqual(13, len(actual))
+
 		self.assertEqual(10, actual[0].proposal.number)
 		expected_description = 'Motions déposées en conclusion des  interpellations de'
 		self.assertEqual(expected_description, actual[0].proposal.description[:len(expected_description)])
+
 		self.assertEqual(16, actual[0].num_votes_yes)
 		self.assertEqual(16, len(actual[0].vote_names_yes))
 		self.assertEqual(['Bury Katleen', 'Creyelman Steven'], actual[0].vote_names_yes[:2])
+
 		self.assertEqual(116, actual[0].num_votes_no, )
 		self.assertEqual(116, len(actual[0].vote_names_no))
 		self.assertEqual(["Anseeuw Björn", "Aouasti Khalil"], actual[0].vote_names_no[:2])
+
 		self.assertEqual(1, actual[0].num_votes_abstention)
+		self.assertEqual(1, len(actual[0].vote_names_abstention))
 		self.assertEqual(['Özen Özlem'], actual[0].vote_names_abstention)
+
 		self.assertEqual(False, actual[0].cancelled)
 
 
