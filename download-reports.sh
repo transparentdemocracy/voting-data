@@ -10,7 +10,7 @@ download_plenary_report_pdf() {
 download_plenary_report_html() {
   to=${1:300}
   for i in $(seq -w 300); do
-    curl https://www.dekamer.be/doc/PCRI/html/55/ip289x.html -o data/input/ip${i}x.html
+    curl https://www.dekamer.be/doc/PCRI/html/55/ip${i}x.html -o data/input/ip${i}x.html
   done
 }
 
