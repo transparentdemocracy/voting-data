@@ -5,6 +5,9 @@ import re
 from pypdf import PdfReader
 from bs4 import BeautifulSoup
 
+import nltk
+from nltk.tokenize import wordpunct_tokenize, WhitespaceTokenizer
+
 from model import Motion, Proposal, VoteType
 
 
@@ -29,6 +32,7 @@ class FederalChamberVotingPdfExtractor():
 		print(pdf_reader.pages[page_number - 1].extract_text()) # index selection based on page_number: indexing is 0-based of course!
 	
 	def extract(self, voting_report: str) -> List[Motion]:
+		logger.info("Starting extraction on %s", voting_report)
 		pdf_reader = PdfReader(voting_report)
 
 		# Find out where the sections of the document start, because they will each be processed differently further below:
@@ -248,18 +252,58 @@ class FederalChamberVotingHtmlExtractor():
 	"""
 
 	def extract(self, voting_report: str) -> List[Motion]:
-		with open(voting_report, "r", encoding="cp1251") as file:
+		with open(voting_report, "r", encoding="cp1252") as file:
 			html_content = file.read()
 
-		soup = BeautifulSoup(html_content)
+		soup = BeautifulSoup(html_content, "html.parser")
 		text = soup.get_text()
 
-		print(text)
+		tokenized_text = TokenizedText(text)
 
-		return self.extract_motions(text)
+		return self.extract_motions(tokenized_text)
 
-	def extract_motions(self, text) -> List[Motion]:
-		raise Exception("TODO parse text into motions")
+	def extract_motions(self, tokenized_text) -> List[Motion]:
+		votings = tokenized_text.find_occurrences(['Naamstemming:'])
+
+		bounds = zip(votings, votings[1:] + [len(tokenized_text.tokens)])
+		voting_sequences = [ tokenized_text.tokens[start:end] for start,end in bounds ]
+
+		for seq in voting_sequences:
+			motion_nr = seq[1]
+			yes_voters = self.get_yet_votes(seq)
+			no_voters = self.get_no_votes(seq)
+			abstention_voters = self.get_abstention_votes(seq)
+
+		raise Exception("TODO: convert motions")
+
+
+class TokenizedText:
+	def __init__(self, text):
+		self.text = text
+		self.tokens = WhitespaceTokenizer().tokenize(text)
+
+	def find_sequence(self, query, start_pos = 0):
+		if query[0] not in self.tokens:
+			return -1
+		pos = start_pos
+		while query[0] in self.tokens[pos:]:
+				next_pos = self.tokens.index(query[0], pos)
+				if next_pos != -1:
+						if self.tokens[next_pos:next_pos+len(query)] == query:
+								return next_pos
+				pos = next_pos + 1
+
+		return -1
+
+	def find_occurrences(self, query):
+		result = []
+		pos = self.find_sequence(query)
+		while pos > -1:
+			result.append(pos)
+			pos = self.find_sequence(query, pos + 1)
+		
+		return result
+
 
 if __name__ == "__main__":
 	voting_extractor = FederalChamberVotingPdfExtractor()

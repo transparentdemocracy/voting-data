@@ -3,7 +3,7 @@ import os
 import logging
 
 from voting_serializers import MotionToMarkdownSerializer
-from voting_extractors import FederalChamberVotingExtractor
+from voting_extractors import FederalChamberVotingPdfExtractor
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO) # or DEBUG to see debugging info as well.
@@ -23,7 +23,7 @@ def convert_to_markdown():
         try:
             # Extract the interesting voting info:
             logging.debug(f"Processing input report {input_report}...")
-            voting_extractor = FederalChamberVotingExtractor()
+            voting_extractor = FederalChamberVotingPdfExtractor()
             voting_serializer = MotionToMarkdownSerializer()
             # if input_report.endswith("ip298.pdf"):
             motions = voting_extractor.extract(input_report)
