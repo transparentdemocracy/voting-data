@@ -3,6 +3,7 @@ import logging
 import re
 
 from pypdf import PdfReader
+from bs4 import BeautifulSoup
 
 from model import Motion, Proposal, VoteType
 
@@ -106,16 +107,16 @@ class FederalChamberVotingPdfExtractor():
 							proposal_description_lines.append("\r\n\r\n" + match.groups()[1])
 						
 					# All lines coming after the detection of a vote, if they don't start mentioning voting amounts (amount of yes votes, etc.) and if they are not empty,
-	 				# are parts of the vote description that we want to remember:
+					# are parts of the vote description that we want to remember:
 					elif proposal_number is not None and not page_line.startswith("(Stemming/vote") and self.is_not_empty_line(page_line):
 						# A new line of vote description is to be added for later processing:
 						proposal_description_lines.append(page_line)
 
 					# If the page line starts mentioning voting amounts (amount of yes votes, etc.):
-	 				# then finish processing the processing of the vote and save it.
+					# then finish processing the processing of the vote and save it.
 					elif page_line.startswith("(Stemming/vote"):
 						# If the proposal has not yet been saved:
-	  					# (this is a protection against saving the proposal multiple times, when "(Stemming/vote)" appears multiple times, due to voting on amendments.)
+							# (this is a protection against saving the proposal multiple times, when "(Stemming/vote)" appears multiple times, due to voting on amendments.)
 						if number_of_last_proposal_saved < proposal_number:
 							logging.debug("Finishing processing of the proposal vote.")
 							proposal_description = (" ".join(proposal_description_lines)).split("Quelqu'un demande -t-il la parole")[0].split("Vraagt iemand het woord")[0].split("Stemming over amendement")[0]
@@ -240,6 +241,25 @@ class FederalChamberVotingPdfExtractor():
 	def is_not_empty_line(self, page_line):
 		return len(page_line.replace(' ', '')) > 0
 
+class FederalChamberVotingHtmlExtractor():
+	"""
+	Extract voting behavior from a voting report on the Belgian federal chamber's website,
+	for example at https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
+	"""
+
+	def extract(self, voting_report: str) -> List[Motion]:
+		with open(voting_report, "r", encoding="cp1251") as file:
+			html_content = file.read()
+
+		soup = BeautifulSoup(html_content)
+		text = soup.get_text()
+
+		print(text)
+
+		return self.extract_motions(text)
+
+	def extract_motions(self, text) -> List[Motion]:
+		raise Exception("TODO parse text into motions")
 
 if __name__ == "__main__":
 	voting_extractor = FederalChamberVotingPdfExtractor()
