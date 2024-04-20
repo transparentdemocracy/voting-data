@@ -6,7 +6,7 @@ This project currently visualizes the voting behavior of the politicians in the 
 
 ## First prototype: textual summary of recent voting behavior
 
-As a first visualization, the fetched voting behavior is summarized as text in https://github.com/transparentdemocracy/voting-data/tree/main/data/output, per plenary session in the Chamber.
+As a first visualization, the fetched voting behavior is summarized as text in [this directory](https://github.com/transparentdemocracy/voting-data/tree/main/data/output), per plenary session in the Chamber.
 
 
 ## Next prototype: a voting quiz

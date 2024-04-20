@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 # logging.basicConfig(level=logging.INFO) # or DEBUG for debugging info. To write to file: filename='example.log', encoding='utf-8', 
 
 
-class FederalChamberVotingExtractor():
+class FederalChamberVotingPdfExtractor():
 	"""
 	Extract voting behavior from a voting report on the Belgian federal chamber's website,
 	for example at https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
@@ -242,7 +242,7 @@ class FederalChamberVotingExtractor():
 
 
 if __name__ == "__main__":
-	voting_extractor = FederalChamberVotingExtractor()
+	voting_extractor = FederalChamberVotingPdfExtractor()
 
 	# Inspect a page:
 	voting_extractor.print_page("../data/input/ip298.pdf", 0)
