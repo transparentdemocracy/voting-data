@@ -1,18 +1,16 @@
-from typing import List, Optional, Tuple
+import glob
 import logging
 import re
+from dataclasses import dataclass, field
+from typing import List, Optional, Tuple
 
-from pypdf import PdfReader
 from bs4 import BeautifulSoup
-
-from nltk.tokenize import wordpunct_tokenize, WhitespaceTokenizer
+from nltk.tokenize import WhitespaceTokenizer
+from pypdf import PdfReader
 
 from model import Motion, Proposal, VoteType
 
 logger = logging.getLogger(__name__)
-
-
-# logging.basicConfig(level=logging.INFO) # or DEBUG for debugging info. To write to file: filename='example.log', encoding='utf-8',
 
 
 class FederalChamberVotingPdfExtractor():
@@ -257,11 +255,16 @@ class FederalChamberVotingPdfExtractor():
 		return len(page_line.replace(' ', '')) > 0
 
 
-class FederalChamberVotingHtmlExtractor():
+class FederalChamberVotingHtmlExtractor:
 	"""
 	Extract voting behavior from a voting report on the Belgian federal chamber's website,
 	for example at https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 	"""
+
+	def extract_all(self, file_pattern):
+		report_names = glob.glob(file_pattern)
+
+		return dict([(report, self.extract(report)) for report in report_names])
 
 	def extract(self, voting_report: str) -> List[Motion]:
 		with open(voting_report, "r", encoding="cp1252") as file:
@@ -272,9 +275,9 @@ class FederalChamberVotingHtmlExtractor():
 
 		tokenized_text = TokenizedText(text)
 
-		return self.extract_motions(tokenized_text)
+		return self.extract_motions(voting_report, tokenized_text)
 
-	def extract_motions(self, tokenized_text) -> list[Motion]:
+	def extract_motions(self, report, tokenized_text) -> list[Motion]:
 		tokens = tokenized_text.tokens
 		votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
 
@@ -285,6 +288,7 @@ class FederalChamberVotingHtmlExtractor():
 
 		for seq in voting_sequences:
 			motion_nr = seq[1]
+			ctx = MotionContext(report, motion_nr)
 
 			yes_start = get_sequence(seq, ["Oui"])
 			no_start = get_sequence(seq, ["Non"])
@@ -300,9 +304,9 @@ class FederalChamberVotingHtmlExtractor():
 			no_count = int(seq[no_start + 1], 10)
 			abstention_count = int(seq[abstention_start + 1], 10)
 
-			yes_voters = get_names(seq[yes_start + 3: no_start], yes_count)
-			no_voters = get_names(seq[no_start + 3:abstention_start], no_count)
-			abstention_voters = get_names(seq[abstention_start + 3:], abstention_count)
+			yes_voters = self.get_names(ctx, seq[yes_start + 3: no_start], yes_count)
+			no_voters = self.get_names(ctx, seq[no_start + 3:abstention_start], no_count)
+			abstention_voters = self.get_names(ctx, seq[abstention_start + 3:], abstention_count)
 
 			result.append(Motion(Proposal(0, "todo"),
 								 num_votes_yes=yes_count,
@@ -311,9 +315,19 @@ class FederalChamberVotingHtmlExtractor():
 								 vote_names_no=no_voters,
 								 num_votes_abstention=abstention_count,
 								 vote_names_abstention=abstention_voters,
-								 cancelled=False))
+								 cancelled=False,
+								 parse_problems=ctx.problems))
 
 		return result
+
+	def get_names(self, ctx, sequence, count):
+		names = [n.strip() for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
+
+		if len(names) != count:
+			ctx.problems.append("vote count (%d) does not match voters %s" % (count, str(names)))
+			return None
+
+		return names
 
 
 class TokenizedText:
@@ -321,15 +335,6 @@ class TokenizedText:
 	def __init__(self, text):
 		self.text = text
 		self.tokens = WhitespaceTokenizer().tokenize(text)
-
-
-def get_names(sequence, count):
-	names = [n.strip() for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
-
-	if len(names) != count:
-		raise Exception("subsequence did not yield expected count %d: %s" % (count, names))
-
-	return names
 
 
 def find_sequence(tokens, query, start_pos=0):
@@ -345,6 +350,13 @@ def find_sequence(tokens, query, start_pos=0):
 		pos = next_pos + 1
 
 	return -1
+
+
+@dataclass
+class MotionContext:
+	report: str
+	motion_nr: int
+	problems: list[str] = field(default_factory=list)
 
 
 def get_sequence(tokens, query):
@@ -369,7 +381,7 @@ if __name__ == "__main__":
 	voting_extractor = FederalChamberVotingPdfExtractor()
 
 	# Inspect a page:
-	voting_extractor.print_page("../data/input/ip298.pdf", 0)
+	voting_extractor.print_page("../data/input/pdf/ip298.pdf", 0)
 
 	# Extract the interesting voting info:
-	voting_extractor.extract("../data/input/ip298.pdf")
+	voting_extractor.extract("../data/input/pdf/ip298.pdf")

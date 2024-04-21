@@ -1,6 +1,10 @@
 import logging
+import os
 import unittest
 
+import sys
+
+from src.model import ParseProblem
 from voting_extractors import FederalChamberVotingPdfExtractor, FederalChamberVotingHtmlExtractor, TokenizedText, \
 	find_sequence, find_occurrences
 
@@ -11,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG)
 class TestFederalChamberVotingPdfExtractor(unittest.TestCase):
 
 	def test_extract(self):
-		actual = FederalChamberVotingPdfExtractor().extract('../data/input/ip298.pdf')
+		actual = FederalChamberVotingPdfExtractor().extract('../data/input/pdf/ip298.pdf')
 
 		self.assertEqual(13, len(actual))
 
@@ -36,9 +40,22 @@ class TestFederalChamberVotingPdfExtractor(unittest.TestCase):
 
 class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
+	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
+	def test_extract_all_does_not_throw(self):
+		actual = FederalChamberVotingHtmlExtractor().extract_all('../data/input/html/*.html')
+
+		self.assertEqual(len(actual), 300)
+
+	def test_extract_ip67(self):
+		actual = FederalChamberVotingHtmlExtractor().extract('../data/input/html/ip067x.html')
+
+		self.assertEqual(len(actual), 18)
+		self.assertEqual(actual[0].parse_problems,
+						 ["vote count (51) does not match voters []"])
+
 	@unittest.skip("WIP")
 	def test_extract_ip298(self):
-		actual = FederalChamberVotingHtmlExtractor().extract('../data/input/ip298x.html')
+		actual = FederalChamberVotingHtmlExtractor().extract('../data/input/html/ip298x.html')
 
 		self.assertEqual(28, len(actual))
 		# self.assertEqual(10, actual[0].proposal.number)

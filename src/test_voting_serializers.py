@@ -8,7 +8,7 @@ from voting_serializers import MotionToMarkdownSerializer
 class TestMotionToMarkdownSerializer(unittest.TestCase):
 
 	def test_serialize_motions(self):
-		motions = FederalChamberVotingPdfExtractor().extract('../data/input/ip298.pdf')
+		motions = FederalChamberVotingPdfExtractor().extract('../data/input/pdf/ip298.pdf')
 		expected_markdown = open('../data/output/plenary 298.md', 'r').read()
 
 		with tempfile.NamedTemporaryFile(delete=False) as temp_file:

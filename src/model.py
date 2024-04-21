@@ -1,7 +1,13 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import Enum
 from typing import List
 
+
+@dataclass
+class ParseProblem:
+    report: str
+    vote_nr: str
+    description: str
 
 @dataclass
 class Politician:
@@ -22,9 +28,10 @@ class Motion:
     vote_names_yes: List[str]
     num_votes_no: int
     vote_names_no: List[str]
-    num_votes_abstention: int 
+    num_votes_abstention: int
     vote_names_abstention: List[str]
     cancelled: bool
+    parse_problems: list[str] = field(default_factory=list)
 
 
 class VoteType(Enum):
