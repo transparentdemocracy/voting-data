@@ -46,6 +46,14 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 		self.assertEqual(len(actual), 300)
 
+		all_motions = [motion for motions in actual.values() for motion in motions]
+		self.assertEqual(len(all_motions), 2842)
+
+		motions_with_problems = list(filter(lambda m: len(m.parse_problems) > 0, all_motions))
+
+		# TODO: Improve how we handle parsing problems
+		self.assertEqual(len(motions_with_problems), 17)
+
 	def test_extract_ip67(self):
 		actual = FederalChamberVotingHtmlExtractor().extract('../data/input/html/ip067x.html')
 
@@ -53,7 +61,6 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(actual[0].parse_problems,
 						 ["vote count (51) does not match voters []"])
 
-	@unittest.skip("WIP")
 	def test_extract_ip298(self):
 		actual = FederalChamberVotingHtmlExtractor().extract('../data/input/html/ip298x.html')
 
@@ -76,6 +83,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(['Arens Josy', 'Daems Greet'], motion0.vote_names_abstention[:2])
 
 		self.assertEqual(False, motion0.cancelled)
+		self.assertEqual(True, actual[11].cancelled)
 
 
 class TestTokenizedText(unittest.TestCase):

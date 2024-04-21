@@ -9,6 +9,7 @@ from nltk.tokenize import WhitespaceTokenizer
 from pypdf import PdfReader
 
 from model import Motion, Proposal, VoteType
+from src.model import MotionId
 
 logger = logging.getLogger(__name__)
 
@@ -41,7 +42,7 @@ class FederalChamberVotingPdfExtractor():
 		proposals = self.extract_votes(pdf_reader, first_page_idx_of_votes)
 
 		# Extract the voting on proposals by name of individual politicians:
-		motions = self.extract_votes_by_name(pdf_reader, first_page_idx_of_votes_by_name, proposals)
+		motions = self.extract_votes_by_name(pdf_reader, voting_report, first_page_idx_of_votes_by_name, proposals)
 
 		return motions
 
@@ -140,7 +141,7 @@ class FederalChamberVotingPdfExtractor():
 
 		return proposals
 
-	def extract_votes_by_name(self, pdf_reader: PdfReader, first_page_idx_of_votes_by_name: int,
+	def extract_votes_by_name(self, pdf_reader: PdfReader, report: str, first_page_idx_of_votes_by_name: int,
 							  proposals: List[Proposal]) -> List[Motion]:
 		current_vote_type: Optional[VoteType] = None
 		vote_number: Optional[int] = None
@@ -177,7 +178,7 @@ class FederalChamberVotingPdfExtractor():
 
 							matching_proposals = [proposal for proposal in proposals if proposal.number == vote_number]
 							if len(matching_proposals) == 1:
-								motion = Motion(matching_proposals[0], num_votes_yes, vote_names_yes, num_votes_no,
+								motion = Motion(MotionId(report, len(motions) + 1), matching_proposals[0], num_votes_yes, vote_names_yes, num_votes_no,
 												vote_names_no, num_votes_abstention, vote_names_abstention,
 												vote_cancelled)
 								logging.info(f"Saving vote # {vote_number}: {motion}.")
@@ -261,8 +262,9 @@ class FederalChamberVotingHtmlExtractor:
 	for example at https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 	"""
 
-	def extract_all(self, file_pattern):
+	def extract_all(self, file_pattern, limit=None):
 		report_names = glob.glob(file_pattern)
+		report_names = report_names[:limit if limit is not None else len(report_names)]
 
 		return dict([(report, self.extract(report)) for report in report_names])
 
@@ -287,17 +289,15 @@ class FederalChamberVotingHtmlExtractor:
 		result = []
 
 		for seq in voting_sequences:
-			motion_nr = seq[1]
-			ctx = MotionContext(report, motion_nr)
+			motion_nr = seq[4]
+			ctx = MotionContext(report, int(motion_nr, 10))
 
+			cancelled = sum([1 if "geannuleerd" in token else 0 for token in seq[4:8]]) > 0
 			yes_start = get_sequence(seq, ["Oui"])
 			no_start = get_sequence(seq, ["Non"])
 			abstention_start = get_sequence(seq, ["Abstentions"])
 
 			if not (yes_start < no_start < abstention_start):
-				print("XXX", yes_start, no_start, abstention_start, len(seq))
-				for i in range(len(seq)):
-					print(i, seq[i])
 				raise Exception("Could not parse voting sequence: %s", (" ".join(seq)))
 
 			yes_count = int(seq[yes_start + 1], 10)
@@ -308,14 +308,16 @@ class FederalChamberVotingHtmlExtractor:
 			no_voters = self.get_names(ctx, seq[no_start + 3:abstention_start], no_count)
 			abstention_voters = self.get_names(ctx, seq[abstention_start + 3:], abstention_count)
 
-			result.append(Motion(Proposal(0, "todo"),
+			result.append(Motion(
+								MotionId(report=report, nr=motion_nr),
+								Proposal(0, "todo"),
 								 num_votes_yes=yes_count,
 								 vote_names_yes=yes_voters,
 								 num_votes_no=no_count,
 								 vote_names_no=no_voters,
 								 num_votes_abstention=abstention_count,
 								 vote_names_abstention=abstention_voters,
-								 cancelled=False,
+								 cancelled=cancelled,
 								 parse_problems=ctx.problems))
 
 		return result
