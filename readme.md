@@ -6,7 +6,7 @@ This project currently visualizes the voting behavior of the politicians in the 
 
 ## First prototype: textual summary of recent voting behavior
 
-As a first visualization, the fetched voting behavior is summarized as text in https://github.com/transparentdemocracy/voting-data/tree/main/data/output, per plenary session in the Chamber.
+As a first visualization, the fetched voting behavior is summarized as text in [this directory](https://github.com/transparentdemocracy/voting-data/tree/main/data/output), per plenary session in the Chamber.
 
 
 ## Next prototype: a voting quiz
@@ -36,3 +36,12 @@ If you want to bring ideas too, welcome!
 
 You can create [Github issues](https://github.com/transparentdemocracy/voting-data/issues) if they are relevant to this repository.
 We also have a public [discussion channel](https://github.com/orgs/transparentdemocracy/discussions) here on Github and a private discussion channel on Slack.
+
+
+## Testing
+
+Use these commands to run unit tests:
+
+    cd src
+    python -munittest
+
