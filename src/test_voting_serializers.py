@@ -2,7 +2,7 @@ import tempfile
 import unittest
 
 from voting_extractors import FederalChamberVotingPdfExtractor
-from voting_serializers import MotionToMarkdownSerializer
+from voting_serializers import PlenaryReportToMarkdownSerializer
 
 
 class TestMotionToMarkdownSerializer(unittest.TestCase):
@@ -14,6 +14,6 @@ class TestMotionToMarkdownSerializer(unittest.TestCase):
 		with tempfile.NamedTemporaryFile(delete=False) as temp_file:
 			markdown_output_path = temp_file.name
 
-			MotionToMarkdownSerializer().serialize_motions(motions, 298, markdown_output_path)
+			PlenaryReportToMarkdownSerializer().serialize(motions, 298, markdown_output_path)
 
 			self.assertEqual(open(markdown_output_path).read(), expected_markdown)

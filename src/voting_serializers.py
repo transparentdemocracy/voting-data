@@ -1,35 +1,49 @@
+import json
 from typing import List
-from model import Motion
+
+from src.model import Motion, Plenary
 
 
-class MotionToMarkdownSerializer:
-    def serialize_motions(self, motions: List[Motion], plenary_number: int, output_file_path: str) -> None:
-        if len(motions) > 0:
-            heading = f"# Plenary gathering {plenary_number}\n\n"
-            with open(output_file_path, "w", encoding="utf-8") as output_file:
-                output_file.write(heading)
-            for motion in motions:
-                self.serialize(motion, output_file_path)
+class PlenaryReportToMarkdownSerializer:
+    def serialize(self, plenary: Plenary, output_file_path: str) -> None:
+        plenary_markdown = f"# Plenary gathering {plenary.id}\n\n"
+        plenary_markdown += f"Source (HTML report): {plenary.pdf_report_url}\n\n"
+        plenary_markdown += f"PDF-formatted alternative: {plenary.html_report_url}\n\n"
+        
+        for motion in plenary.motions:
+            plenary_markdown += self.__serialize(motion)
+        
+        with open(output_file_path, "w", encoding="utf-8") as output_file:
+            output_file.write(plenary_markdown)
     
-    def serialize(self, motion: Motion, output_file_path: str) -> None:
-        result = f"## Motion {motion.proposal.number}\n\n"
-        result += motion.proposal.description
-        result += "\n\n"
+    def __serialize(self, motion: Motion) -> None:
+        motion_markdown = f"## Motion {motion.proposal.number}\n\n"
+        motion_markdown += motion.proposal.description
+        motion_markdown += "\n\n"
 
-        result += f"### Yes votes ({motion.num_votes_yes})\n"
-        result += "\n"
-        result += ", ".join(motion.vote_names_yes)
-        result += "\n\n"
+        motion_markdown += f"### Yes votes ({motion.num_votes_yes})\n"
+        motion_markdown += "\n"
+        motion_markdown += ", ".join(motion.vote_names_yes)
+        motion_markdown += "\n\n"
 
-        result += f"### No votes ({motion.num_votes_no})\n"
-        result += "\n"
-        result += ", ".join(motion.vote_names_no)
-        result += "\n\n"
+        motion_markdown += f"### No votes ({motion.num_votes_no})\n"
+        motion_markdown += "\n"
+        motion_markdown += ", ".join(motion.vote_names_no)
+        motion_markdown += "\n\n"
 
-        result += f"### Abstentions ({motion.num_votes_abstention})\n"
-        result += "\n"
-        result += ", ".join(motion.vote_names_abstention)
-        result += "\n\n\n"
+        motion_markdown += f"### Abstentions ({motion.num_votes_abstention})\n"
+        motion_markdown += "\n"
+        motion_markdown += ", ".join(motion.vote_names_abstention)
+        motion_markdown += "\n\n\n"
 
-        with open(output_file_path, "a", encoding="utf-8") as output_file:
-            output_file.write(result)
+        return motion_markdown
+
+
+class PlenaryReportToJsonSerializer:
+    def serialize(self, plenary: Plenary, output_file_path: str) -> None:
+        plenary_json = json.dumps(
+            plenary, 
+            default=lambda o: o.__dict__, 
+            indent=4)
+        with open(output_file_path, "w", encoding="utf-8") as output_file:
+            output_file.write(plenary_json)

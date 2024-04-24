@@ -1,5 +1,6 @@
 import glob
 import logging
+import os
 import re
 from dataclasses import dataclass, field
 from typing import List, Optional, Tuple
@@ -8,8 +9,7 @@ from bs4 import BeautifulSoup
 from nltk.tokenize import WhitespaceTokenizer
 from pypdf import PdfReader
 
-from model import Motion, Proposal, VoteType
-from src.model import MotionId
+from src.model import Motion, Plenary, Proposal, VoteType
 
 logger = logging.getLogger(__name__)
 
@@ -178,7 +178,7 @@ class FederalChamberVotingPdfExtractor():
 
 							matching_proposals = [proposal for proposal in proposals if proposal.number == vote_number]
 							if len(matching_proposals) == 1:
-								motion = Motion(MotionId(report, len(motions) + 1), matching_proposals[0], num_votes_yes, vote_names_yes, num_votes_no,
+								motion = Motion(matching_proposals[0], num_votes_yes, vote_names_yes, num_votes_no,
 												vote_names_no, num_votes_abstention, vote_names_abstention,
 												vote_cancelled)
 								logging.info(f"Saving vote # {vote_number}: {motion}.")
@@ -256,20 +256,28 @@ class FederalChamberVotingPdfExtractor():
 		return len(page_line.replace(' ', '')) > 0
 
 
+class TokenizedText:
+
+	def __init__(self, text):
+		self.text = text
+		self.tokens = WhitespaceTokenizer().tokenize(text)
+
+
 class FederalChamberVotingHtmlExtractor:
 	"""
 	Extract voting behavior from a voting report on the Belgian federal chamber's website,
 	for example at https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 	"""
 
-	def extract_all(self, file_pattern, limit=None):
+	def extract_from_all_plenary_reports(self, file_pattern: str, limit: int = None) -> List[Plenary]:
 		report_names = glob.glob(file_pattern)
-		report_names = report_names[:limit if limit is not None else len(report_names)]
+		if limit is not None:
+			report_names = report_names[:limit]
 
-		return dict([(report, self.extract(report)) for report in report_names])
+		return [self.extract(report_name) for report_name in report_names]
 
-	def extract(self, voting_report: str) -> List[Motion]:
-		with open(voting_report, "r", encoding="cp1252") as file:
+	def extract_from_plenary_report(self, plenary_report: str) -> Plenary:
+		with open(plenary_report, "r", encoding="cp1252") as file:
 			html_content = file.read()
 
 		soup = BeautifulSoup(html_content, "html.parser")
@@ -277,20 +285,30 @@ class FederalChamberVotingHtmlExtractor:
 
 		tokenized_text = TokenizedText(text)
 
-		return self.extract_motions(voting_report, tokenized_text)
+		return self.__extract_plenary(plenary_report, tokenized_text)
 
-	def extract_motions(self, report, tokenized_text) -> list[Motion]:
+	def __extract_plenary(self, plenary_report: str, tokenized_text: TokenizedText) -> Plenary:
+		plenary_id = int(os.path.split(plenary_report)[1][2:5]) # example: ip278x.html -> 278
+		motions = self.__extract_motions(plenary_report, tokenized_text)
+		return Plenary(
+			int(plenary_id), 
+			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_id}.pdf",
+			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_id}x.html",
+			motions
+		)
+
+	def __extract_motions(self, plenary_report: str, tokenized_text: TokenizedText) -> List[Motion]:
 		tokens = tokenized_text.tokens
 		votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
 
 		bounds = zip(votings, votings[1:] + [len(tokens)])
 		voting_sequences = [tokens[start:end] for start, end in bounds]
 
-		result = []
+		motions = []
 
 		for seq in voting_sequences:
 			motion_nr = seq[4]
-			ctx = MotionContext(report, int(motion_nr, 10))
+			ctx = MotionContext(plenary_report, int(motion_nr, 10))
 
 			cancelled = sum([1 if "geannuleerd" in token else 0 for token in seq[4:8]]) > 0
 			yes_start = get_sequence(seq, ["Oui"])
@@ -308,19 +326,19 @@ class FederalChamberVotingHtmlExtractor:
 			no_voters = self.get_names(ctx, seq[no_start + 3:abstention_start], no_count)
 			abstention_voters = self.get_names(ctx, seq[abstention_start + 3:], abstention_count)
 
-			result.append(Motion(
-								MotionId(report=report, nr=motion_nr),
-								Proposal(0, "todo"),
-								 num_votes_yes=yes_count,
-								 vote_names_yes=yes_voters,
-								 num_votes_no=no_count,
-								 vote_names_no=no_voters,
-								 num_votes_abstention=abstention_count,
-								 vote_names_abstention=abstention_voters,
-								 cancelled=cancelled,
-								 parse_problems=ctx.problems))
+			motions.append(Motion(
+				Proposal(motion_nr, "todo"),
+				num_votes_yes=yes_count,
+				vote_names_yes=yes_voters,
+				num_votes_no=no_count,
+				vote_names_no=no_voters,
+				num_votes_abstention=abstention_count,
+				vote_names_abstention=abstention_voters,
+				cancelled=cancelled,
+				parse_problems=ctx.problems)
+			)
 
-		return result
+		return motions
 
 	def get_names(self, ctx, sequence, count):
 		names = [n.strip() for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
@@ -330,13 +348,6 @@ class FederalChamberVotingHtmlExtractor:
 			return None
 
 		return names
-
-
-class TokenizedText:
-
-	def __init__(self, text):
-		self.text = text
-		self.tokens = WhitespaceTokenizer().tokenize(text)
 
 
 def find_sequence(tokens, query, start_pos=0):

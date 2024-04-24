@@ -41,8 +41,8 @@ class TestFederalChamberVotingPdfExtractor(unittest.TestCase):
 class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
-	def test_extract_all_does_not_throw(self):
-		actual = FederalChamberVotingHtmlExtractor().extract_all('../data/input/html/*.html')
+	def test_extract_from_all_plenary_reports_does_not_throw(self):
+		actual = FederalChamberVotingHtmlExtractor().extract_from_all_plenary_reports('../data/input/html/*.html')
 
 		self.assertEqual(len(actual), 300)
 
@@ -55,7 +55,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(len(motions_with_problems), 17)
 
 	def test_extract_ip67(self):
-		actual = FederalChamberVotingHtmlExtractor().extract('../data/input/html/ip067x.html')
+		actual = FederalChamberVotingHtmlExtractor().extract('./data/input/ip067x.html')
 
 		self.assertEqual(len(actual), 18)
 		self.assertEqual(actual[0].parse_problems,
