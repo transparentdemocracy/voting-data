@@ -9,7 +9,7 @@ from nltk.tokenize import WhitespaceTokenizer
 from pypdf import PdfReader
 
 from model import Motion, Proposal, VoteType
-from src.model import MotionId
+from src.model import Plenary
 
 logger = logging.getLogger(__name__)
 
@@ -47,7 +47,7 @@ class FederalChamberVotingPdfExtractor():
 		return motions
 
 	def find_start_pages(self, pdf_reader: PdfReader) -> Tuple[int, int]:
-		logging.debug("Finding start pages of important sections in the document.")
+		logger.debug("Finding start pages of important sections in the document.")
 		first_page_idx_of_votes = None
 		first_page_idx_of_votes_by_name = None
 		for page_idx, page in enumerate(pdf_reader.pages):
@@ -64,8 +64,8 @@ class FederalChamberVotingPdfExtractor():
 			raise RuntimeError("No page with votes could be found.")
 		if first_page_idx_of_votes_by_name is None:
 			raise RuntimeError("No page with votes by name could be found.")
-		logging.debug(f"First page number of votes: {first_page_idx_of_votes + 1}.")
-		logging.debug(f"First page number of votes by name: {first_page_idx_of_votes_by_name + 1}.")
+		logger.debug(f"First page number of votes: {first_page_idx_of_votes + 1}.")
+		logger.debug(f"First page number of votes by name: {first_page_idx_of_votes_by_name + 1}.")
 		return first_page_idx_of_votes, first_page_idx_of_votes_by_name
 
 	def is_page_containing_votes(self, page_text: str) -> bool:
@@ -85,7 +85,7 @@ class FederalChamberVotingPdfExtractor():
 		number_of_last_proposal_saved = -1
 		proposals = []
 		for page_idx, page in enumerate(pdf_reader.pages[first_page_idx_of_votes:]):
-			logging.debug(f"Processing page number {first_page_idx_of_votes + page_idx + 1}.")
+			logger.debug(f"Processing page number {first_page_idx_of_votes + page_idx + 1}.")
 			page_text = page.extract_text()
 			if self.is_page_containing_votes(page_text):
 				for page_line in page_text.split('\n'):
@@ -97,10 +97,10 @@ class FederalChamberVotingPdfExtractor():
 
 						# If it is a new proposal:
 						if int(match.groups()[0]) != proposal_number:
-							logging.debug("Found a new proposal.")
+							logger.debug("Found a new proposal.")
 							# Start extraction of the proposal number and description.
 							proposal_number = int(match.groups()[0])
-							logging.debug(f"Extracted vote number: #{proposal_number}.")
+							logger.debug(f"Extracted vote number: #{proposal_number}.")
 							proposal_description_lines = [
 								match.groups()[1]
 								# The vote description starts immediately on the same line, after the number of the vote.
@@ -125,13 +125,13 @@ class FederalChamberVotingPdfExtractor():
 						# If the proposal has not yet been saved:
 						# (this is a protection against saving the proposal multiple times, when "(Stemming/vote)" appears multiple times, due to voting on amendments.)
 						if number_of_last_proposal_saved < proposal_number:
-							logging.debug("Finishing processing of the proposal vote.")
+							logger.debug("Finishing processing of the proposal vote.")
 							proposal_description = \
 								(" ".join(proposal_description_lines)).split("Quelqu'un demande -t-il la parole")[
 									0].split(
 									"Vraagt iemand het woord")[0].split("Stemming over amendement")[0]
-							logging.info(f"Saving proposal # {proposal_number}.")
-							logging.info(f"Description: {proposal_description}.")
+							logger.info(f"Saving proposal # {proposal_number}.")
+							logger.info(f"Description: {proposal_description}.")
 							proposals.append(Proposal(proposal_number, proposal_description))
 							number_of_last_proposal_saved = proposal_number
 
@@ -156,68 +156,69 @@ class FederalChamberVotingPdfExtractor():
 		motions: List[Motion] = []
 
 		for page_idx, page in enumerate(pdf_reader.pages[first_page_idx_of_votes_by_name:]):
-			logging.debug(f"Processing page number {first_page_idx_of_votes_by_name + page_idx + 1}.")
+			logger.debug(f"Processing page number {first_page_idx_of_votes_by_name + page_idx + 1}.")
 			page_text = page.extract_text()
 			if self.is_page_containing_votes_by_name(page_text):
 				for page_line in page_text.split('\n'):
 					if "Vote nominatif" in page_line or "Naamstemming:" in page_line:  # or instead of and, to be more robust against things like "Naa mstemming:"
-						logging.debug("Found a new vote.")
+						logger.debug("Found a new vote.")
 						# If this is not the first vote in the document, first finish processing of the preceding vote.
-						logging.debug("Finishing processing of previous vote.")
+						logger.debug("Finishing processing of previous vote.")
 						if current_vote_type == VoteType.ABSTENTION:
 							# Finishing processing of abstention votes: (if we have already started processing an earlier vote.)
-							logging.debug("Finishing processing of abstention votes.")
+							logger.debug("Finishing processing of abstention votes.")
 							vote_names_abstention = self.get_politician_names(vote_names_lines)
 
 							# Saving the vote we just finished processing:
-							logging.info(f"Cancelled: {vote_cancelled}.")
-							logging.info(f"Yes votes: {num_votes_yes}, by {vote_names_yes}.")
-							logging.info(f"No votes: {num_votes_no}, by {vote_names_no}.")
-							logging.info(f"Abstention votes: {num_votes_abstention}, by {vote_names_abstention}.")
-							logging.info("-" * 50)
+							logger.info(f"Cancelled: {vote_cancelled}.")
+							logger.info(f"Yes votes: {num_votes_yes}, by {vote_names_yes}.")
+							logger.info(f"No votes: {num_votes_no}, by {vote_names_no}.")
+							logger.info(f"Abstention votes: {num_votes_abstention}, by {vote_names_abstention}.")
+							logger.info("-" * 50)
 
 							matching_proposals = [proposal for proposal in proposals if proposal.number == vote_number]
 							if len(matching_proposals) == 1:
-								motion = Motion(MotionId(report, len(motions) + 1), matching_proposals[0], num_votes_yes, vote_names_yes, num_votes_no,
+								motion = Motion(len(motions), matching_proposals[0], num_votes_yes, vote_names_yes,
+												num_votes_no,
 												vote_names_no, num_votes_abstention, vote_names_abstention,
 												vote_cancelled)
-								logging.info(f"Saving vote # {vote_number}: {motion}.")
+								logger.info(f"Saving vote # {vote_number}: {motion}.")
 								motions.append(motion)
 
 						# Processing the new vote:
-						logging.debug("Processing the new vote.")
+						logger.debug("Processing the new vote.")
 						if "annulé" in page_line or "geannuleerd" in page_line:
 							vote_cancelled = True
-							logging.debug("Vote was found to be cancelled.")
+							logger.debug("Vote was found to be cancelled.")
 							vote_number = int(page_line.rstrip().split(' ')[
 												  -2])  # robust against different spellings of Naamstemming and Vote nominatif: just taking last word, # ignoring (annulé/geannuleerd) at the end of the line
 						else:
 							vote_number = int(page_line.rstrip().split(' ')[-1])
-						logging.debug(f"Extracted vote number: #{vote_number}.")
+						logger.debug(f"Extracted vote number: #{vote_number}.")
 
 					elif "Oui" in page_line and "Ja" in page_line:
 						# Starting to process yes votes:
-						logging.debug("Starting to process yes votes.")
+						logger.debug("Starting to process yes votes.")
 						current_vote_type = VoteType.YES
 						num_votes_yes = int(self.word_before("Ja", page_line))
 						vote_names_lines = []
 
 					elif "Non" in page_line and "Nee" in page_line:
 						# Finishing processing of yes votes:
-						logging.debug("Finishing processing of yes votes.")
+						logger.debug("Finishing processing of yes votes.")
 						vote_names_yes = self.get_politician_names(vote_names_lines)
 						# Starting to process no votes:
-						logging.debug("Starting to process no votes.")
+						logger.debug("Starting to process no votes.")
 						current_vote_type = VoteType.NO
 						num_votes_no = int(self.word_before("Nee", page_line))
 						vote_names_lines = []
 
 					elif "Abstentions" in page_line and "Onthoudingen" in page_line:
 						# Finishing processing of no votes:
-						logging.debug("Finishing processing of no votes.")
+						logger.debug("Finishing processing of no votes.")
 						vote_names_no = self.get_politician_names(vote_names_lines)
 						# Starting to process abstention votes:
-						logging.debug("Starting to process abstention votes.")
+						logger.debug("Starting to process abstention votes.")
 						current_vote_type = VoteType.ABSTENTION
 						num_votes_abstention = int(self.word_before("Onthoudingen", page_line))
 						vote_names_lines = []
@@ -262,25 +263,27 @@ class FederalChamberVotingHtmlExtractor:
 	for example at https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 	"""
 
-	def extract_all(self, file_pattern, limit=None):
+	def extract_all(self, file_pattern, limit=None) -> List[Plenary]:
 		report_names = glob.glob(file_pattern)
 		report_names = report_names[:limit if limit is not None else len(report_names)]
 
-		return dict([(report, self.extract(report)) for report in report_names])
+		return [self.parse_plenary_report(report_name) for report_name in report_names]
 
-	def extract(self, voting_report: str) -> List[Motion]:
+	def parse_plenary_report(self, voting_report: str) -> Plenary:
 		with open(voting_report, "r", encoding="cp1252") as file:
 			html_content = file.read()
 
-		soup = BeautifulSoup(html_content, "html.parser")
-		text = soup.get_text()
+		html = BeautifulSoup(html_content, "html.parser")
+		return self._parse_plenary_report(voting_report, html)
 
-		tokenized_text = TokenizedText(text)
+	def _parse_plenary_report(self, report, html) -> Plenary:
+		# this extracts the proposal texts (a bit rough, some cleanups still needed)
+		motion_blocks_by_nr = self.get_motion_blocks_by_nr(report, html)
 
-		return self.extract_motions(voting_report, tokenized_text)
-
-	def extract_motions(self, report, tokenized_text) -> list[Motion]:
+		# this parses the votes (very rough, could be improved by leveraging html structure instead going by text tokens)
+		tokenized_text = TokenizedText(text=html.get_text())
 		tokens = tokenized_text.tokens
+
 		votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
 
 		bounds = zip(votings, votings[1:] + [len(tokens)])
@@ -289,8 +292,8 @@ class FederalChamberVotingHtmlExtractor:
 		result = []
 
 		for seq in voting_sequences:
-			motion_nr = seq[4]
-			ctx = MotionContext(report, int(motion_nr, 10))
+			motion_nr = int(seq[4], 10)
+			ctx = MotionContext(report, motion_nr)
 
 			cancelled = sum([1 if "geannuleerd" in token else 0 for token in seq[4:8]]) > 0
 			yes_start = get_sequence(seq, ["Oui"])
@@ -308,19 +311,66 @@ class FederalChamberVotingHtmlExtractor:
 			no_voters = self.get_names(ctx, seq[no_start + 3:abstention_start], no_count)
 			abstention_voters = self.get_names(ctx, seq[abstention_start + 3:], abstention_count)
 
+			proposal_text = "\n".join([el.text for el in motion_blocks_by_nr[motion_nr][1:]]) \
+				if motion_nr in motion_blocks_by_nr \
+				else "??? text not found ???"
+
 			result.append(Motion(
-								MotionId(report=report, nr=motion_nr),
-								Proposal(0, "todo"),
-								 num_votes_yes=yes_count,
-								 vote_names_yes=yes_voters,
-								 num_votes_no=no_count,
-								 vote_names_no=no_voters,
-								 num_votes_abstention=abstention_count,
-								 vote_names_abstention=abstention_voters,
-								 cancelled=cancelled,
-								 parse_problems=ctx.problems))
+				Proposal(str(motion_nr), proposal_text),
+				num_votes_yes=yes_count,
+				vote_names_yes=yes_voters,
+				num_votes_no=no_count,
+				vote_names_no=no_voters,
+				num_votes_abstention=abstention_count,
+				vote_names_abstention=abstention_voters,
+				cancelled=cancelled,
+				parse_problems=ctx.problems))
+
+		name_match = re.search("ip(\\d*)x.html", report)
+		if not name_match:
+			raise Exception("html report name should be ip(nnn)x.html")
+
+		return Plenary(int(name_match.group(1), 10), result)
+
+	def get_motion_blocks_by_nr(self, report, html):
+		result = dict()
+		vote_re = re.compile("\\(Stemming/vote \\(?(.*)\\)")
+
+		for block in self.get_motion_blocks(html):
+			match = vote_re.search(block[0].strip())
+			if match is not None:
+				logger.debug("%s: found stemming %s" % (report, match.group(1)))
+				nr = int(match.group(1), 10)
+				result[nr] = block[1:]
 
 		return result
+
+	def get_motion_blocks(self, html):
+		try:
+			naamstemmingen = next(filter(lambda s: s and "Naamstemmingen" in s.text, html.find_all('span')))
+		except StopIteration:
+			return []
+
+		paragraphs = naamstemmingen.find_all_next()
+
+		sections = []
+		in_text = False
+		current = ['unknown']
+		for el in paragraphs:
+			if in_text:
+				if el.name == 'table':  # table indicates start of vote section
+					in_text = False
+					span_in_table = el.find('span')
+					if span_in_table:
+						current[0] = span_in_table.text
+						sections.append(current)
+				else:
+					current.append(el)
+			else:
+				in_text = True
+				current = ['unknown', el]
+
+		return list(filter(lambda section: "Stemming/vote" in section[0], sections))
 
 	def get_names(self, ctx, sequence, count):
 		names = [n.strip() for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
