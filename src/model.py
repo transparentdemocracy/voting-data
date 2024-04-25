@@ -17,18 +17,11 @@ class Politician:
 
 @dataclass
 class Proposal:
-    number: int
+    id: str
     description: str
-
-
-@dataclass
-class MotionId:
-    report: str
-    nr: int
 
 @dataclass
 class Motion:
-    id: MotionId
     proposal: Proposal
     num_votes_yes: int
     vote_names_yes: List[str]
@@ -38,6 +31,11 @@ class Motion:
     vote_names_abstention: List[str]
     cancelled: bool
     parse_problems: list[str] = field(default_factory=list)
+
+@dataclass
+class Plenary:
+    session_nr: int
+    motions: list[Motion]
 
 class VoteType(Enum):
     YES = "YES"
