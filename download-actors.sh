@@ -24,7 +24,7 @@ download_actors() {
   for file in data/input/actors/pages/*.json; do
     for gaabId in $(cat "$file"|jq '.items[].gaabId'); do
       echo "downloading $gaabId"
-      curl -fsS --header 'Accept: application/json' "https://data.dekamer.be/v0/actr?start=$start" -o data/input/actors/actor/$gaabId.json
+      curl -fsS --header 'Accept: application/json' "https://data.dekamer.be/v0/actr/$gaabId" -o data/input/actors/actor/$gaabId.json
     done
   done
 }
