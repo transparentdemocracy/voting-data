@@ -15,5 +15,5 @@ download_plenary_report_html() {
 }
 
 max_plenary_nr=${1:-300}
-download_plenary_report_pdf ${max_plenary_nr}
+# download_plenary_report_pdf ${max_plenary_nr}
 download_plenary_report_html ${max_plenary_nr}

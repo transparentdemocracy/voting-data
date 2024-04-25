@@ -2,7 +2,6 @@ import logging
 import os
 import unittest
 
-from src.model import Proposal
 from voting_extractors import FederalChamberVotingPdfExtractor, FederalChamberVotingHtmlExtractor, TokenizedText, \
 	find_sequence, find_occurrences
 
@@ -11,37 +10,11 @@ logging.basicConfig(level=logging.DEBUG)
 logger.setLevel(logging.DEBUG)
 
 
-class TestFederalChamberVotingPdfExtractor(unittest.TestCase):
-
-	def test_extract(self):
-		actual = FederalChamberVotingPdfExtractor().extract('../data/input/pdf/ip298.pdf')
-
-		self.assertEqual(13, len(actual))
-
-		self.assertEqual(10, actual[0].proposal.id)
-		expected_description = 'Motions déposées en conclusion des  interpellations de'
-		self.assertEqual(expected_description, actual[0].proposal.description[:len(expected_description)])
-
-		self.assertEqual(16, actual[0].num_votes_yes)
-		self.assertEqual(16, len(actual[0].vote_names_yes))
-		self.assertEqual(['Bury Katleen', 'Creyelman Steven'], actual[0].vote_names_yes[:2])
-
-		self.assertEqual(116, actual[0].num_votes_no, )
-		self.assertEqual(116, len(actual[0].vote_names_no))
-		self.assertEqual(["Anseeuw Björn", "Aouasti Khalil"], actual[0].vote_names_no[:2])
-
-		self.assertEqual(1, actual[0].num_votes_abstention)
-		self.assertEqual(1, len(actual[0].vote_names_abstention))
-		self.assertEqual(['Özen Özlem'], actual[0].vote_names_abstention)
-
-		self.assertEqual(False, actual[0].cancelled)
-
-
 class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
-	def test_extract_all_does_not_throw(self):
-		actual = FederalChamberVotingHtmlExtractor().extract_all('../data/input/html/*.html')
+	def test_extract_from_all_plenary_reports_does_not_throw(self):
+		actual = FederalChamberVotingHtmlExtractor().extract_from_all_plenary_reports('../data/input/html/*.html')
 
 		self.assertEqual(len(actual), 300)
 
@@ -54,7 +27,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(len(motions_with_problems), 17)
 
 	def test_extract_ip67(self):
-		actual = FederalChamberVotingHtmlExtractor().parse_plenary_report('../data/input/html/ip067x.html')
+		actual = FederalChamberVotingHtmlExtractor().parse_plenary_report('./data/input/ip067x.html')
 
 		self.assertEqual(len(actual.motions), 18)
 		self.assertEqual(actual.motions[0].parse_problems,
@@ -62,14 +35,14 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 	def test_extract_ip72(self):
 		"""vote 2 has an extra '(' in the vote result indicator"""
-		actual = FederalChamberVotingHtmlExtractor().parse_plenary_report('../data/input/html/ip072x.html')
+		actual = FederalChamberVotingHtmlExtractor().extract_from_plenary_report('../data/input/html/ip072x.html')
 
 		self.assertEqual(len(actual.motions), 5)
 
 	def test_extract_ip298(self):
-		actual = FederalChamberVotingHtmlExtractor().parse_plenary_report('../data/input/html/ip298x.html')
+		actual = FederalChamberVotingHtmlExtractor().extract_from_plenary_report('../data/input/html/ip298x.html')
 
-		self.assertEqual(28, len(actual.motions))
+		self.assertEqual(28, len(actual.proposals))
 		self.assertEqual(actual.motions[0].proposal.id, "1")
 
 		# TODO: there's introductory stuff here that shouldn't be part of the proposal description

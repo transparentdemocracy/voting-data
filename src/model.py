@@ -34,14 +34,15 @@ class Motion:
 
 @dataclass
 class Plenary:
-    session_nr: int
-    motions: list[Motion]
+    id: int
+    pdf_report_url: str
+    html_report_url: str
+    motions: List[Motion]
 
 class VoteType(Enum):
     YES = "YES"
     NO = "NO"
     ABSTENTION = "ABSTENTION"
-
 
 @dataclass
 class Vote:

@@ -1,5 +1,6 @@
 import glob
 import logging
+import os
 import re
 from dataclasses import dataclass, field
 from typing import List, Optional, Tuple
@@ -8,8 +9,7 @@ from bs4 import BeautifulSoup
 from nltk.tokenize import WhitespaceTokenizer
 from pypdf import PdfReader
 
-from model import Motion, Proposal, VoteType
-from src.model import Plenary
+from model import Motion, Plenary, Proposal, VoteType
 
 logger = logging.getLogger(__name__)
 
@@ -176,7 +176,7 @@ class FederalChamberVotingPdfExtractor():
 							logger.info(f"Abstention votes: {num_votes_abstention}, by {vote_names_abstention}.")
 							logger.info("-" * 50)
 
-							matching_proposals = [proposal for proposal in proposals if proposal.number == vote_number]
+							matching_proposals = [proposal for proposal in proposals if proposal.id == vote_number]
 							if len(matching_proposals) == 1:
 								motion = Motion(len(motions), matching_proposals[0], num_votes_yes, vote_names_yes,
 												num_votes_no,
@@ -257,31 +257,51 @@ class FederalChamberVotingPdfExtractor():
 		return len(page_line.replace(' ', '')) > 0
 
 
+class TokenizedText:
+
+	def __init__(self, text):
+		self.text = text
+		self.tokens = WhitespaceTokenizer().tokenize(text)
+
+
 class FederalChamberVotingHtmlExtractor:
 	"""
 	Extract voting behavior from a voting report on the Belgian federal chamber's website,
 	for example at https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 	"""
 
-	def extract_all(self, file_pattern, limit=None) -> List[Plenary]:
+	def extract_from_all_plenary_reports(self, file_pattern: str, limit: int = None) -> List[Plenary]:
 		report_names = glob.glob(file_pattern)
-		report_names = report_names[:limit if limit is not None else len(report_names)]
+		if limit is not None:
+			report_names = report_names[:limit]
 
-		return [self.parse_plenary_report(report_name) for report_name in report_names]
+		return [self.extract(report_name) for report_name in report_names]
 
-	def parse_plenary_report(self, voting_report: str) -> Plenary:
-		with open(voting_report, "r", encoding="cp1252") as file:
+	def extract_from_plenary_report(self, plenary_report: str) -> Plenary:
+		with open(plenary_report, "r", encoding="cp1252") as file:
 			html_content = file.read()
 
 		html = BeautifulSoup(html_content, "html.parser")
-		return self._parse_plenary_report(voting_report, html)
+		return self._parse_plenary_report(plenary_report, html)
 
 	def _parse_plenary_report(self, report, html) -> Plenary:
 		# this extracts the proposal texts (a bit rough, some cleanups still needed)
 		motion_blocks_by_nr = self.get_motion_blocks_by_nr(report, html)
 
-		# this parses the votes (very rough, could be improved by leveraging html structure instead going by text tokens)
-		tokenized_text = TokenizedText(text=html.get_text())
+		return self.__extract_plenary(report, html)
+
+	def __extract_plenary(self, plenary_report: str, html) -> Plenary:
+		plenary_id = int(os.path.split(plenary_report)[1][2:5]) # example: ip278x.html -> 278
+		motions = self.__extract_motions(plenary_report, html)
+		return Plenary(
+			int(plenary_id),
+			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_id}.pdf",
+			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_id}x.html",
+			motions
+		)
+
+	def __extract_motions(self, plenary_report: str, html) -> List[Motion]:
+		tokenized_text = TokenizedText(html.text)
 		tokens = tokenized_text.tokens
 
 		votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
@@ -289,11 +309,12 @@ class FederalChamberVotingHtmlExtractor:
 		bounds = zip(votings, votings[1:] + [len(tokens)])
 		voting_sequences = [tokens[start:end] for start, end in bounds]
 
-		result = []
+		motion_blocks_by_nr = self.get_motion_blocks_by_nr(plenary_report, html)
+		motions = []
 
 		for seq in voting_sequences:
 			motion_nr = int(seq[4], 10)
-			ctx = MotionContext(report, motion_nr)
+			ctx = MotionContext(plenary_report, motion_nr)
 
 			cancelled = sum([1 if "geannuleerd" in token else 0 for token in seq[4:8]]) > 0
 			yes_start = get_sequence(seq, ["Oui"])
@@ -315,7 +336,7 @@ class FederalChamberVotingHtmlExtractor:
 				if motion_nr in motion_blocks_by_nr \
 				else "??? text not found ???"
 
-			result.append(Motion(
+			motions.append(Motion(
 				Proposal(str(motion_nr), proposal_text),
 				num_votes_yes=yes_count,
 				vote_names_yes=yes_voters,
@@ -326,11 +347,11 @@ class FederalChamberVotingHtmlExtractor:
 				cancelled=cancelled,
 				parse_problems=ctx.problems))
 
-		name_match = re.search("ip(\\d*)x.html", report)
+		name_match = re.search("ip(\\d*)x.html", plenary_report)
 		if not name_match:
 			raise Exception("html report name should be ip(nnn)x.html")
 
-		return Plenary(int(name_match.group(1), 10), result)
+		return Plenary(int(name_match.group(1), 10), "todo", "todo", motions)
 
 	def get_motion_blocks_by_nr(self, report, html):
 		result = dict()
@@ -380,13 +401,6 @@ class FederalChamberVotingHtmlExtractor:
 			return None
 
 		return names
-
-
-class TokenizedText:
-
-	def __init__(self, text):
-		self.text = text
-		self.tokens = WhitespaceTokenizer().tokenize(text)
 
 
 def find_sequence(tokens, query, start_pos=0):
