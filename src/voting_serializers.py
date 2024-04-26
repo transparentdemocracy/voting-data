@@ -16,23 +16,23 @@ class PlenaryReportToMarkdownSerializer:
             output_file.write(plenary_markdown)
     
     def __serialize(self, motion: Motion) -> None:
-        motion_markdown = f"## Motion {motion.proposal.number}\n\n"
+        motion_markdown = f"## Motion {motion.proposal.id}\n\n"
         motion_markdown += motion.proposal.description
         motion_markdown += "\n\n"
 
         motion_markdown += f"### Yes votes ({motion.num_votes_yes})\n"
         motion_markdown += "\n"
-        motion_markdown += ", ".join(motion.vote_names_yes)
+        motion_markdown += ", ".join(motion.vote_names_yes if motion.vote_names_yes is not None else ['???'])
         motion_markdown += "\n\n"
 
         motion_markdown += f"### No votes ({motion.num_votes_no})\n"
         motion_markdown += "\n"
-        motion_markdown += ", ".join(motion.vote_names_no)
+        motion_markdown += ", ".join(motion.vote_names_no if motion.vote_names_no is not None else ['???'])
         motion_markdown += "\n\n"
 
         motion_markdown += f"### Abstentions ({motion.num_votes_abstention})\n"
         motion_markdown += "\n"
-        motion_markdown += ", ".join(motion.vote_names_abstention)
+        motion_markdown += ", ".join(motion.vote_names_abstention if motion.vote_names_abstention is not None else ['???'])
         motion_markdown += "\n\n\n"
 
         return motion_markdown
