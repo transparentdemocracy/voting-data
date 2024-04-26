@@ -42,7 +42,8 @@ def extract_voting_data_from_plenary_reports():
             voting_serializer.serialize(plenary, os.path.join(json_dir, f"plenary {plenary.id}.json"))
                 
         except Exception:
-            logging.warning("failed to process %s", voting_report, exc_info=True) # TODO rare errors to fix + in some pdfs, no motions could be extracted - to fix.
+            # TODO rare errors to fix + in some documents, no motions could be extracted - to fix.
+            logging.warning("failed to process %s", voting_report, exc_info=True)
 
 if __name__ == "__main__":
     extract_voting_data_from_plenary_reports()

@@ -2,7 +2,7 @@ import logging
 import os
 import unittest
 
-from voting_extractors import FederalChamberVotingPdfExtractor, FederalChamberVotingHtmlExtractor, TokenizedText, \
+from voting_extractors import FederalChamberVotingHtmlExtractor, TokenizedText, \
 	find_sequence, find_occurrences
 
 logger = logging.getLogger(__name__)

@@ -1,4 +1,9 @@
-The PDFs in this folder are all full reports of the plenary gatherings of the chamber of the Belgian federal government, since the start of 2024, until April 4th (last update of this folder).
+# Input files
+
+- `pdf` contains plenary reports in PDF format
+- `html` contains plenary reports in html format
+
+The files in this folder are all full reports of the plenary gatherings of the chamber of the Belgian federal government, since the start of 2024, until April 4th (last update of this folder).
 
 You can download them manually or use the download script.
 
