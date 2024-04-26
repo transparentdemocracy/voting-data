@@ -1,6 +1,7 @@
 import glob
 import logging
 import os
+import json
 
 from tqdm.auto import tqdm
 
@@ -12,6 +13,8 @@ logging.basicConfig(level=logging.INFO)  # or DEBUG to see debugging info as wel
 
 INPUT_REPORTS_PATH = "./data/input/html"
 OUTPUT_PATH = "./data/output"
+
+INPUT_ACTORS_PATH = "./data/input/actors/actor"
 
 
 def extract_voting_data_from_plenary_reports():
@@ -70,9 +73,43 @@ def print_html_extraction_problems():
 		print(problem)
 
 
+def print_relevant_actors():
+	actors_files = glob.glob(os.path.join(INPUT_ACTORS_PATH, "*.json"))
+
+	for actor_file in actors_files:
+		actor_json = json.load(open(actor_file, 'r'))
+		if len(actor_json['items']) != 1:
+			raise Exception('weird file: %s', actor_file)
+
+		actor = actor_json['items'][0]
+		name = actor['name']
+		first_name = actor['fName']
+		full_name = f"{name} {first_name}"
+
+		role = get_leg55_role(actor)
+		if role is None:
+			continue
+
+		print(actor_file, full_name)
+
+
+def get_leg55_role(actor):
+	is_active = lambda r: r['status'] == 'active'
+	has_leg55_plenum = lambda r: r['ouSummary']['fullNameNL'] == '/Wetgevende macht/Kvvcr/Leg 55/Plenum/PLENUMVERGADERING'
+	roles = list(filter(lambda r: has_leg55_plenum(r) and is_active(r), actor['role']))
+
+	if len(roles) == 0:
+		return None
+	if len(roles) > 1:
+		raise Exception('too many roles for ' + str(actor))
+
+	return roles[0]
+
 def main():
 	convert_plenary_reports_to_markdown_and_json()
 	# print_html_extraction_problems()
+
+	# print_relevant_actors()
 
 
 if __name__ == "__main__":
