@@ -1,0 +1,117 @@
+{
+    "id": 31,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/55/ip31.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/55/ip31x.html",
+    "motions": [
+        {
+            "proposal": {
+                "id": "1",
+                "description": "??? text not found ???"
+            },
+            "num_votes_yes": 88,
+            "vote_names_yes": null,
+            "num_votes_no": 44,
+            "vote_names_no": [
+                "Anseeuw Bj\u00f6rn",
+                "Boukili Nabil",
+                "Bury Katleen",
+                "Buysrogge Peter",
+                "Daems Greet",
+                "D'Amico Roberto",
+                "De Roover Peter",
+                "De Spiegeleer Pieter",
+                "De Vuyst Steven",
+                "De Wit Sophie",
+                "Dedecker Jean-Marie",
+                "Depoorter Kathleen",
+                "Depoortere Ortwin",
+                "Dewulf Nathalie",
+                "D'Haese Christoph",
+                "Donn\u00e9 Joy",
+                "Francken Theo",
+                "Gijbels Frieda",
+                "Gilissen Erik",
+                "Hedebouw Raoul",
+                "Houtmeyers Katrien",
+                "Ingels Yngvild",
+                "Loones Sander",
+                "Merckx Sofie",
+                "Metsu Koen",
+                "Ponthier Annick",
+                "Raskin Wouter",
+                "Ravyts Kurt",
+                "Roggeman Tomas",
+                "Safai Darya",
+                "Samyn Ellen",
+                "Sneppe Dominiek",
+                "Spooren Jan",
+                "Troosters Frank",
+                "Van Bossuyt Anneleen",
+                "Van Camp Yoleen",
+                "Van der Donckt Wim",
+                "Van Grieken Tom",
+                "Van Langenhove Dries",
+                "Van Lommel Reccino",
+                "Van Peel Valerie",
+                "Van Vaerenbergh Kristien",
+                "Verreyt Hans",
+                "Warmoes Thierry"
+            ],
+            "num_votes_abstention": 0,
+            "vote_names_abstention": [],
+            "cancelled": false,
+            "parse_problems": [
+                "vote count (88) does not match voters ['Aouasti Khalil', 'Arens Josy', 'Bayet Hugues', 'Ben Achour Malik', 'Bertels Jan', 'Bihed Mathieu', 'Bogaert Hendrik', 'Bombled Christophe', 'Briers Jan', 'Calvo Kristof', 'Chanson Julie', 'Cogolati Samuel', 'Crombez John', 'Dallemagne Georges', 'De Caluw\u00e9 Robby', 'De Jonge Tania', 'de Laveleye S\u00e9verine', 'Deliz\u00e9e Jean-Marc', 'Delvaux Bram', 'De Maegd Michel', 'Demon Franky', 'Depraetere Melissa', 'De Smet Fran\u00e7ois', 'De Vriendt Wouter', 'Dewael Patrick', 'Dierick Leen', 'Dock Magali', 'Farih Nawal', 'Flahaut Andr\u00e9', 'Fonck Catherine', 'Friart Beno\u00eet', 'Gabri\u00ebls Katja', 'Galant Isabelle', 'Gilkinet Georges', 'Gilson Nathalie', 'Jadin Kattrin', 'Jirofl\u00e9e Karin', 'Kitir Meryame', 'Laaouej Ahmed', 'Lachaert Egbert', 'Lacroix Christophe', 'Lanjri Nahima', 'Leroy Marie-Colline', 'Leysen Christian', 'Liekens Goedele', 'Mahdi Sammy', 'Mathe\u00ef Steven', 'Matz Vanessa', '\u00d6zen \u00d6zlem', 'Piedboeuf Beno\u00eet', 'Pivin Philippe', 'Pr\u00e9vot Maxime', 'Reuter Florence', 'Rigot Herv\u00e9', 'Rohonyi Sophie', 'Schlitz Sarah', 'Scourneau Vincent', 'Segers Ben', 'Senesael Daniel', 'Slegers Bercy', 'Soors Jessika', 'Taquin Caroline', 'Th\u00e9mont Sophie', 'Thibaut C\u00e9cile', 'Tillieux Eliane', 'Tison Philippe', 'Vanbesien Dieter', 'Van den Bergh Jef', 'Vandenbroucke Joris', 'Vanden Burre Gilles', 'Vandenput Tim', 'Van der Straeten Tinne', 'Van Hecke Stefaan', 'Van Hoof Els', 'Van Quickenborne Vincent', 'Vanrobaeys Anja', 'Verduyckt Kris', 'Verhaert', 'Marianne', 'Verhelst Kathleen', 'Verherstraeten Servais', 'Vicaire Albert', 'Zanchetta Laurence']"
+            ]
+        },
+        {
+            "proposal": {
+                "id": "2",
+                "description": "??? text not found ???"
+            },
+            "num_votes_yes": 112,
+            "vote_names_yes": null,
+            "num_votes_no": 1,
+            "vote_names_no": [
+                "Francken Theo"
+            ],
+            "num_votes_abstention": 14,
+            "vote_names_abstention": [
+                "Bury Katleen",
+                "De Spiegeleer Pieter",
+                "Depoortere Ortwin",
+                "Dewulf Nathalie",
+                "Gilissen Erik",
+                "Ponthier Annick",
+                "Ravyts Kurt",
+                "Samyn Ellen",
+                "Sneppe Dominiek",
+                "Troosters Frank",
+                "Van Grieken Tom",
+                "Van Langenhove Dries",
+                "Van Lommel Reccino",
+                "Verreyt Hans"
+            ],
+            "cancelled": false,
+            "parse_problems": [
+                "vote count (112) does not match voters ['Anseeuw Bj\u00f6rn', 'Aouasti Khalil', 'Arens Josy', 'Bayet Hugues', 'Ben Achour Malik', 'Bertels Jan', 'Bihed Mathieu', 'Bogaert Hendrik', 'Bombled Christophe', 'Boukili Nabil', 'Briers Jan', 'Buysrogge Peter', 'Calvo Kristof', 'Chanson Julie', 'Cogolati Samuel', 'Crombez John', 'Daems Greet', 'Dallemagne Georges', \"D'Amico Roberto\", 'De Caluw\u00e9 Robby', 'Dedecker Jean-Marie', 'De Jonge Tania', 'de Laveleye S\u00e9verine', 'Deliz\u00e9e Jean-Marc', 'Delvaux Bram', 'De Maegd Michel', 'Demon Franky', 'Depoorter Kathleen', 'Depraetere Melissa', 'De Roover Peter', 'De Smet Fran\u00e7ois', 'De Vriendt Wouter', 'De Vuyst Steven', 'Dewael Patrick', 'De Wit Sophie', \"D'Haese Christoph\", 'Dierick Leen', 'Dock Magali', 'Donn\u00e9 Joy', 'Farih Nawal', 'Flahaut Andr\u00e9', 'Fonck Catherine', 'Friart Beno\u00eet', 'Gabri\u00ebls Katja', 'Galant Isabelle', 'Gijbels Frieda', 'Gilkinet Georges', 'Gilson Nathalie', 'Hedebouw Raoul', 'Houtmeyers Katrien', 'Ingels Yngvild', 'Jadin Kattrin', 'Jirofl\u00e9e Karin', 'Kir Emir', 'Kitir Meryame', 'Laaouej Ahmed', 'Lachaert Egbert', 'Lacroix Christophe', 'Lanjri Nahima', 'Leroy Marie-Colline', 'Leysen Christian', 'Liekens Goedele', 'Loones Sander', 'Mahdi Sammy', 'Mathe\u00ef Steven', 'Matz Vanessa', 'Merckx Sofie', 'Metsu Koen', '\u00d6zen \u00d6zlem', 'Piedboeuf Beno\u00eet', 'Pivin Philippe', 'Pr\u00e9vot Maxime', 'Raskin Wouter', 'Reuter Florence', 'Rigot Herv\u00e9', 'Roggeman Tomas', 'Rohonyi Sophie', 'Safai Darya', 'Schlitz Sarah', 'Scourneau Vincent', 'Segers Ben', 'Senesael Daniel', 'Slegers Bercy', 'Soors Jessika', 'Spooren Jan', 'Taquin Caroline', 'Th\u00e9mont Sophie', 'Thibaut C\u00e9cile', 'Tillieux Eliane', 'Tison Philippe', 'Vanbesien Dieter', 'Van Bossuyt Anneleen', 'Van Camp Yoleen', 'Van den Bergh Jef', 'Vandenbroucke Joris', 'Vanden Burre Gilles', 'Vandenput Tim', 'Van der Donckt Wim', 'Van der Straeten Tinne', 'Van Hecke Stefaan', 'Van Hoof Els', 'Van Peel Valerie', 'Van Quickenborne Vincent', 'Vanrobaeys Anja', 'Van Vaerenbergh Kristien', 'Verduyckt Kris', 'Verhaert', 'Marianne', 'Verhelst Kathleen', 'Verherstraeten Servais', 'Vicaire Albert', 'Warmoes Thierry', 'Zanchetta Laurence']"
+            ]
+        },
+        {
+            "proposal": {
+                "id": "3",
+                "description": "??? text not found ???"
+            },
+            "num_votes_yes": 127,
+            "vote_names_yes": null,
+            "num_votes_no": 0,
+            "vote_names_no": [],
+            "num_votes_abstention": 0,
+            "vote_names_abstention": [],
+            "cancelled": false,
+            "parse_problems": [
+                "vote count (127) does not match voters ['Anseeuw Bj\u00f6rn', 'Aouasti Khalil', 'Arens Josy', 'Bayet Hugues', 'Ben Achour Malik', 'Bertels Jan', 'Bihed Mathieu', 'Bogaert Hendrik', 'Bombled Christophe', 'Boukili Nabil', 'Briers Jan', 'Bury Katleen', 'Buysrogge Peter', 'Calvo Kristof', 'Chanson Julie', 'Cogolati Samuel', 'Crombez John', 'Daems Greet', 'Dallemagne Georges', \"D'Amico Roberto\", 'De Caluw\u00e9 Robby', 'Dedecker Jean-Marie', 'De Jonge Tania', 'de Laveleye S\u00e9verine', 'Deliz\u00e9e Jean-Marc', 'Delvaux Bram', 'De Maegd Michel', 'Demon Franky', 'Depoorter Kathleen', 'Depoortere Ortwin', 'Depraetere Melissa', 'De Roover Peter', 'De Smet Fran\u00e7ois', 'De Spiegeleer Pieter', 'De Vriendt Wouter', 'De Vuyst Steven', 'Dewael Patrick', 'De Wit Sophie', 'Dewulf Nathalie', \"D'Haese Christoph\", 'Dierick Leen', 'Dock Magali', 'Donn\u00e9 Joy', 'Farih Nawal', 'Flahaut Andr\u00e9', 'Fonck Catherine', 'Francken Theo', 'Friart Beno\u00eet', 'Gabri\u00ebls Katja', 'Galant Isabelle', 'Gijbels Frieda', 'Gilissen Erik', 'Gilkinet Georges', 'Gilson Nathalie', 'Hedebouw Raoul', 'Houtmeyers Katrien', 'Ingels Yngvild', 'Jadin Kattrin', 'Jirofl\u00e9e Karin', 'Kir Emir', 'Kitir Meryame', 'Laaouej Ahmed', 'Lachaert Egbert', 'Lacroix Christophe', 'Lanjri Nahima', 'Leroy Marie-Colline', 'Leysen Christian', 'Liekens Goedele', 'Loones Sander', 'Mahdi Sammy', 'Mathe\u00ef Steven', 'Matz Vanessa', 'Merckx Sofie', 'Metsu Koen', '\u00d6zen \u00d6zlem', 'Piedboeuf Beno\u00eet', 'Pivin Philippe', 'Ponthier Annick', 'Pr\u00e9vot Maxime', 'Raskin Wouter', 'Ravyts Kurt', 'Reuter Florence', 'Rigot Herv\u00e9', 'Roggeman Tomas', 'Rohonyi Sophie', 'Safai Darya', 'Samyn Ellen', 'Schlitz Sarah', 'Scourneau Vincent', 'Segers Ben', 'Senesael Daniel', 'Slegers Bercy', 'Soors Jessika', 'Sneppe Dominiek', 'Spooren Jan', 'Taquin Caroline', 'Th\u00e9mont Sophie', 'Thibaut C\u00e9cile', 'Tillieux Eliane', 'Tison Philippe', 'Troosters Frank', 'Vanbesien Dieter', 'Van Bossuyt Anneleen', 'Van Camp Yoleen', 'Van den Bergh Jef', 'Vandenbroucke Joris', 'Vanden Burre Gilles', 'Vandenput Tim', 'Van der Donckt Wim', 'Van der Straeten Tinne', 'Van Grieken Tom', 'Van Hecke Stefaan', 'Van Hoof Els', 'Van Langenhove Dries', 'Van Lommel Reccino', 'Van Peel Valerie', 'Van Quickenborne Vincent', 'Vanrobaeys Anja', 'Van Vaerenbergh Kristien', 'Verduyckt Kris', 'Verhaert', 'Marianne', 'Verhelst Kathleen', 'Verherstraeten Servais', 'Verreyt Hans', 'Vicaire Albert', 'Warmoes Thierry', 'Zanchetta Laurence']"
+            ]
+        }
+    ]
+}
