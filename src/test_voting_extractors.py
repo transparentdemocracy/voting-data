@@ -27,7 +27,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(len(motions_with_problems), 17)
 
 	def test_extract_ip67(self):
-		actual = FederalChamberVotingHtmlExtractor().parse_plenary_report('./data/input/ip067x.html')
+		actual = FederalChamberVotingHtmlExtractor().extract_from_plenary_report('../data/input/html/ip067x.html')
 
 		self.assertEqual(len(actual.motions), 18)
 		self.assertEqual(actual.motions[0].parse_problems,
@@ -42,7 +42,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 	def test_extract_ip298(self):
 		actual = FederalChamberVotingHtmlExtractor().extract_from_plenary_report('../data/input/html/ip298x.html')
 
-		self.assertEqual(28, len(actual.proposals))
+		self.assertEqual(28, len(actual.motions))
 		self.assertEqual(actual.motions[0].proposal.id, "1")
 
 		# TODO: there's introductory stuff here that shouldn't be part of the proposal description

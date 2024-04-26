@@ -275,20 +275,16 @@ class FederalChamberVotingHtmlExtractor:
 		if limit is not None:
 			report_names = report_names[:limit]
 
-		return [self.extract(report_name) for report_name in report_names]
+		return [self.extract_from_plenary_report(report_name) for report_name in report_names]
 
 	def extract_from_plenary_report(self, plenary_report: str) -> Plenary:
 		with open(plenary_report, "r", encoding="cp1252") as file:
 			html_content = file.read()
 
 		html = BeautifulSoup(html_content, "html.parser")
-		return self._parse_plenary_report(plenary_report, html)
-
-	def _parse_plenary_report(self, report, html) -> Plenary:
 		# this extracts the proposal texts (a bit rough, some cleanups still needed)
-		motion_blocks_by_nr = self.get_motion_blocks_by_nr(report, html)
-
-		return self.__extract_plenary(report, html)
+		motion_blocks_by_nr = self.get_motion_blocks_by_nr(plenary_report, html)
+		return self.__extract_plenary(plenary_report, html)
 
 	def __extract_plenary(self, plenary_report: str, html) -> Plenary:
 		plenary_id = int(os.path.split(plenary_report)[1][2:5]) # example: ip278x.html -> 278
@@ -347,11 +343,7 @@ class FederalChamberVotingHtmlExtractor:
 				cancelled=cancelled,
 				parse_problems=ctx.problems))
 
-		name_match = re.search("ip(\\d*)x.html", plenary_report)
-		if not name_match:
-			raise Exception("html report name should be ip(nnn)x.html")
-
-		return Plenary(int(name_match.group(1), 10), "todo", "todo", motions)
+		return motions
 
 	def get_motion_blocks_by_nr(self, report, html):
 		result = dict()
