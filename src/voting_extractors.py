@@ -142,7 +142,7 @@ class FederalChamberVotingHtmlExtractor:
 		return list(filter(lambda section: "Stemming/vote" in section[0], sections))
 
 	def get_names(self, ctx, sequence, count):
-		names = [n.strip() for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
+		names = [n.strip().replace(".", "") for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
 
 		if len(names) != count:
 			ctx.problems.append("vote count (%d) does not match voters %s" % (count, str(names)))

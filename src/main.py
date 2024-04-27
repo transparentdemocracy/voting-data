@@ -1,7 +1,7 @@
 import glob
+import json
 import logging
 import os
-import json
 
 from tqdm.auto import tqdm
 
@@ -73,44 +73,83 @@ def print_html_extraction_problems():
 		print(problem)
 
 
-def print_relevant_actors():
+def get_relevant_actors():
 	actors_files = glob.glob(os.path.join(INPUT_ACTORS_PATH, "*.json"))
+	actors = []
 
-	for actor_file in actors_files:
+	for actor_file in tqdm(actors_files, desc="Processing actors..."):
 		actor_json = json.load(open(actor_file, 'r'))
 		if len(actor_json['items']) != 1:
 			raise Exception('weird file: %s', actor_file)
 
 		actor = actor_json['items'][0]
-		name = actor['name']
-		first_name = actor['fName']
-		full_name = f"{name} {first_name}"
 
 		role = get_leg55_role(actor)
 		if role is None:
 			continue
+		actors.append(actor)
 
-		print(actor_file, full_name)
+	logger.info(f"Returning {len(actors)} relevant actors out of {len(actors_files)}")
+	return actors
 
 
 def get_leg55_role(actor):
-	is_active = lambda r: r['status'] == 'active'
-	has_leg55_plenum = lambda r: r['ouSummary']['fullNameNL'] == '/Wetgevende macht/Kvvcr/Leg 55/Plenum/PLENUMVERGADERING'
-	roles = list(filter(lambda r: has_leg55_plenum(r) and is_active(r), actor['role']))
+	plenum_fullname = '/Wetgevende macht/Kvvcr/Leg 55/Plenum/PLENUMVERGADERING'
+
+	def has_leg55_plenum(r):
+		return r['ouSummary']['fullNameNL'] == plenum_fullname
+
+	roles = list(filter(has_leg55_plenum, actor['role']))
 
 	if len(roles) == 0:
 		return None
-	if len(roles) > 1:
-		raise Exception('too many roles for ' + str(actor))
 
-	return roles[0]
+	return roles[-1]
+
+
+def get_voter_names():
+	names = set()
+	json_files = glob.glob(os.path.join(OUTPUT_PATH, "plenary", "json", "*.json"))
+
+	total_votes = 0
+	for json_file in tqdm(json_files, "Processing plenary json files"):
+		plenary = json.load(open(json_file, 'r'))
+		for motion in plenary['motions']:
+			vote_names_yes = motion.get('vote_names_yes', []) or []
+			vote_names_no = motion.get('vote_names_no', []) or []
+			vote_names_abstention = motion.get('vote_names_abstention', []) or []
+
+			all_names = vote_names_yes + vote_names_no + vote_names_abstention
+			total_votes += len(all_names)
+			names.update(all_names)
+
+	logger.info(f"Got {len(names)} names from {total_votes} votes")
+
+	return names
+
+
+def analyze_voter_names():
+	actors = get_relevant_actors()
+	actor_names = [f"{a['name']} {a['fName']}" for a in actors]
+	assert len(set(actor_names)) == len(actor_names), "actor names should be unique"
+	actor_names = set(actor_names)
+
+	voter_names = get_voter_names()
+	print("actor names", len(actor_names))
+
+	unknown_voter_names = voter_names - set(actor_names)
+	print(f"these {len(unknown_voter_names)} actors have voted but we don't have them in our set:")
+	for n in unknown_voter_names:
+		print(n)
+
 
 def main():
-	convert_plenary_reports_to_markdown_and_json()
+	# TODO: make a CLI tool so we can choose which action to run without changing code.
+	extract_voting_data_from_plenary_reports()
+
 	# print_html_extraction_problems()
 
-	# print_relevant_actors()
-
+	# analyze_voter_names()
 
 if __name__ == "__main__":
 	main()

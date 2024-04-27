@@ -66,6 +66,14 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(False, motion0.cancelled)
 		self.assertEqual(True, actual.motions[11].cancelled)
 
+	def test_voter_dots_are_removed_from_voter_names(self):
+		actual = FederalChamberVotingHtmlExtractor().extract_from_plenary_report('../data/input/html/ip182x.html')
+
+		names = [name for m in actual.motions for name in m.vote_names_abstention ]
+
+		names_with_dots = [ name for name in names if "." in name ]
+		self.assertEqual([], names_with_dots)
+
 
 class TestTokenizedText(unittest.TestCase):
 

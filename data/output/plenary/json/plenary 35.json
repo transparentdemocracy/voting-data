@@ -78,7 +78,7 @@
                 "Reuter Florence",
                 "Scourneau Vincent",
                 "Liekens Goedele",
-                "Van Bossuyt Anneleen."
+                "Van Bossuyt Anneleen"
             ],
             "num_votes_no": 66,
             "vote_names_no": [
@@ -147,7 +147,7 @@
                 "Chanson Julie",
                 "Leroy Marie-Colline",
                 "Hedebouw Raoul",
-                "Hanus M\u00e9lissa."
+                "Hanus M\u00e9lissa"
             ],
             "num_votes_abstention": 33,
             "vote_names_abstention": [
@@ -183,7 +183,7 @@
                 "Creyelman Steven",
                 "Van Langenhove Dries",
                 "Vermeersch Wouter",
-                "Briers Jan."
+                "Briers Jan"
             ],
             "cancelled": false,
             "parse_problems": []
@@ -260,7 +260,7 @@
                 "Chanson Julie",
                 "Leroy Marie-Colline",
                 "Hedebouw Raoul",
-                "Hanus M\u00e9lissa."
+                "Hanus M\u00e9lissa"
             ],
             "num_votes_abstention": 16,
             "vote_names_abstention": [
@@ -279,11 +279,11 @@
                 "Van Hoof Els",
                 "Dallemagne Georges",
                 "Farih Nawal",
-                "Briers Jan."
+                "Briers Jan"
             ],
             "cancelled": false,
             "parse_problems": [
-                "vote count (69) does not match voters ['Friart Benoit', 'DHaese Christoph', 'Lachaert Egbert', 'Burton Emmanuel', 'Galant Isabelle', 'Dedecker Jean-Marie', 'Donn\u00e9 Joy', 'Gabriels Katja', 'Houtmeyers Katrien', 'Metsu Koen', 'Van Vaerenbergh Kristien', 'Dillen Marijke', 'De Maegd Michel', 'Gilson Nathalie', 'Dewael Patrick', 'De Spiegeleer Pieter', 'Loones Sander', 'De Jonge Tania', 'Francken Theo', 'Vandenput Tim', 'Van Grieken Tom', 'Van Quickenborne Vincent', 'Van der Donckt Wim', 'Raskin Wouter', 'Roggeman Tomas', 'Verhelst Kathleen', 'Van Camp Yoleen', 'Depoorter Kathleen', 'Ingels Yngvild', 'Van Peel Valerie', 'Anseeuw Bjorn', 'Leysen Christian', 'Verreyt Hans', 'Troosters Frank', 'Dewulf Nathalie', 'Van Lommel Reccino', 'Freilich Michael', 'Gijbels Frieda', 'Wollants Bert', 'Pas Barbara', 'Ponthier Annick', 'De Wit Sophie', 'Gilissen Erik', 'De Roover Peter', 'Delvaux Bram', 'Piedboeuf Beno\u00eet', 'Bombled Christophe', 'Dock Magali', 'Pivin Philippe', 'Bihet Mathieu', 'Sneppe Dominiek', 'Bury Katleen', 'Jadin Kattrin', 'Buysrogge Peter', 'Samyn Ellen', 'Ravyts Kurt', 'De Caluw\u00e9 Robby', 'Taquin Caroline', 'Depoortere Ortwin', 'Creyelman Steven', 'Van Langenhove Dries', 'Safai Darya', 'Vermeersch Wouter', 'Spooren Jan', 'Verhaert Marianne', 'Reuter Florence', 'Scourneau Vincent', 'Liekens Goedele', 'Van Bossuyt Anneleen', '.']"
+                "vote count (69) does not match voters ['Friart Benoit', 'DHaese Christoph', 'Lachaert Egbert', 'Burton Emmanuel', 'Galant Isabelle', 'Dedecker Jean-Marie', 'Donn\u00e9 Joy', 'Gabriels Katja', 'Houtmeyers Katrien', 'Metsu Koen', 'Van Vaerenbergh Kristien', 'Dillen Marijke', 'De Maegd Michel', 'Gilson Nathalie', 'Dewael Patrick', 'De Spiegeleer Pieter', 'Loones Sander', 'De Jonge Tania', 'Francken Theo', 'Vandenput Tim', 'Van Grieken Tom', 'Van Quickenborne Vincent', 'Van der Donckt Wim', 'Raskin Wouter', 'Roggeman Tomas', 'Verhelst Kathleen', 'Van Camp Yoleen', 'Depoorter Kathleen', 'Ingels Yngvild', 'Van Peel Valerie', 'Anseeuw Bjorn', 'Leysen Christian', 'Verreyt Hans', 'Troosters Frank', 'Dewulf Nathalie', 'Van Lommel Reccino', 'Freilich Michael', 'Gijbels Frieda', 'Wollants Bert', 'Pas Barbara', 'Ponthier Annick', 'De Wit Sophie', 'Gilissen Erik', 'De Roover Peter', 'Delvaux Bram', 'Piedboeuf Beno\u00eet', 'Bombled Christophe', 'Dock Magali', 'Pivin Philippe', 'Bihet Mathieu', 'Sneppe Dominiek', 'Bury Katleen', 'Jadin Kattrin', 'Buysrogge Peter', 'Samyn Ellen', 'Ravyts Kurt', 'De Caluw\u00e9 Robby', 'Taquin Caroline', 'Depoortere Ortwin', 'Creyelman Steven', 'Van Langenhove Dries', 'Safai Darya', 'Vermeersch Wouter', 'Spooren Jan', 'Verhaert Marianne', 'Reuter Florence', 'Scourneau Vincent', 'Liekens Goedele', 'Van Bossuyt Anneleen', '']"
             ]
         },
         {
@@ -442,7 +442,7 @@
                 "Liekens Goedele",
                 "Hedebouw Raoul",
                 "Van Bossuyt Anneleen",
-                "Hanus M\u00e9lissa."
+                "Hanus M\u00e9lissa"
             ],
             "num_votes_no": 0,
             "vote_names_no": [],
