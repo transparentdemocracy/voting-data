@@ -3,6 +3,7 @@ import json
 import logging
 import os
 
+import Levenshtein
 from tqdm.auto import tqdm
 
 from voting_extractors import FederalChamberVotingHtmlExtractor
@@ -128,19 +129,24 @@ def get_voter_names():
 	return names
 
 
-def analyze_voter_names():
+def get_actors_by_voter_name():
 	actors = get_relevant_actors()
 	actor_names = [f"{a['name']} {a['fName']}" for a in actors]
 	assert len(set(actor_names)) == len(actor_names), "actor names should be unique"
 	actor_names = set(actor_names)
+	actors_by_voter_name = dict([(f"{a['name']} {a['fName']}", a) for a in actors])
 
 	voter_names = get_voter_names()
-	print("actor names", len(actor_names))
 
 	unknown_voter_names = voter_names - set(actor_names)
-	print(f"these {len(unknown_voter_names)} actors have voted but we don't have them in our set:")
-	for n in unknown_voter_names:
-		print(n)
+	for voter_name in unknown_voter_names:
+		best_match = find_best_match(voter_name, actor_names)
+		logger.warning(f"Non-exact name match: {voter_name} <-> {best_match}")
+		actors_by_voter_name[voter_name] = actors_by_voter_name[best_match]
+
+
+def find_best_match(name, names):
+	return min([(Levenshtein.distance(name, compare_name), compare_name) for compare_name in names])[1]
 
 
 def main():
@@ -149,7 +155,8 @@ def main():
 
 	# print_html_extraction_problems()
 
-	# analyze_voter_names()
+	# get_actors_by_voter_name()
+
 
 if __name__ == "__main__":
 	main()
