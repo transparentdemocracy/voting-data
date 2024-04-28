@@ -14,7 +14,6 @@ logger = logging.getLogger(__name__)
 DATA_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "data"))
 PLENARY_JSON_DIR = os.path.join(DATA_DIR, "output", "plenary", "json")
 PLENARY_ENRICHMENT_JSON_DIR = os.path.join(DATA_DIR, "output", "plenary", "enriched-json")
-ACTOR_JSON_DIR = os.path.join(DATA_DIR, "input", "actors", "actor")
 
 
 def enrich_plenaries():

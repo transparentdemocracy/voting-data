@@ -48,10 +48,20 @@ def get_fraction(actor):
 	membership_roles = list(filter(lambda r: is_leg_55(r) and is_fraction_member(r), actor['role']))
 
 	if len(membership_roles) == 0:
-		logger.error(f"could not determine fraction for {actor['id']} {actor['name']} {actor['fName']}")
+		logger.info(f"could not determine fraction for {actor['id']} {actor['name']} {actor['fName']}")
 		return "unknown"
 
-	return membership_roles[-1]["ouSummary"]["fullNameNL"]
+	faction_full = membership_roles[-1]["ouSummary"]["fullNameNL"]
+	recognized_prefix = "/Wetgevende macht/Kvvcr/Leg 55/Politieke fracties/Erkende/"
+	non_recognized_prefix = "/Wetgevende macht/Kvvcr/Leg 55/Politieke fracties/Niet erkende/"
+
+	if faction_full.startswith(recognized_prefix):
+		return faction_full[len(recognized_prefix):]
+
+	if faction_full.startswith(non_recognized_prefix):
+		return faction_full[len(non_recognized_prefix):]
+
+	raise Exception(f"could not determine faction for {a['name']} {a['fName']}")
 
 
 def get_relevant_actors():
