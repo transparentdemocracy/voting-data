@@ -1,22 +1,23 @@
 import glob
-import json
 import logging
 import os
 
-import Levenshtein
 from tqdm.auto import tqdm
 
-from src.enrichment import enrich_plenaries
-from voting_extractors import FederalChamberVotingHtmlExtractor
-from voting_serializers import PlenaryReportToJsonSerializer, PlenaryReportToMarkdownSerializer
+from transparentdemocracy.voting_extractors import FederalChamberVotingHtmlExtractor
+from transparentdemocracy.voting_serializers import PlenaryReportToJsonSerializer, PlenaryReportToMarkdownSerializer
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)  # or DEBUG to see debugging info as well.
 
-INPUT_REPORTS_PATH = "./data/input/html"
-OUTPUT_PATH = "./data/output"
+DATA_PATH = "./data"
 
-INPUT_ACTORS_PATH = "./data/input/actors/actor"
+INPUT_REPORTS_PATH = os.path.join(DATA_PATH, "input", "html")
+INPUT_ACTORS_PATH = os.path.join(DATA_PATH, "input", "actors", "actor")
+
+OUTPUT_PATH = os.path.join(DATA_PATH, "output")
+MARKDOWN_OUTPUT_PATH = os.path.join(OUTPUT_PATH, "plenary", "markdown")
+JSON_OUTPUT_PATH = os.path.join(OUTPUT_PATH, "plenary", "json")
 
 
 def extract_voting_data_from_plenary_reports():
@@ -24,10 +25,8 @@ def extract_voting_data_from_plenary_reports():
 	voting_reports = glob.glob(os.path.join(INPUT_REPORTS_PATH, "*.html"))
 	logging.debug(f"Will process the following input reports: {voting_reports}.")
 
-	markdown_dir = os.path.join(OUTPUT_PATH, "plenary", "markdown")
-	json_dir = os.path.join(OUTPUT_PATH, "plenary", "json")
-	os.makedirs(markdown_dir, exist_ok=True)
-	os.makedirs(json_dir, exist_ok=True)
+	os.makedirs(MARKDOWN_OUTPUT_PATH, exist_ok=True)
+	os.makedirs(JSON_OUTPUT_PATH, exist_ok=True)
 
 	for voting_report in tqdm(voting_reports, desc="Processing plenary reports..."):
 		try:
@@ -39,11 +38,11 @@ def extract_voting_data_from_plenary_reports():
 			# Serialize the extracted voting info:
 			# ... to human-readable format:
 			voting_serializer = PlenaryReportToMarkdownSerializer()
-			voting_serializer.serialize(plenary, os.path.join(markdown_dir, f"plenary {plenary.id}.md"))
+			voting_serializer.serialize(plenary, os.path.join(MARKDOWN_OUTPUT_PATH, f"plenary {plenary.id}.md"))
 
 			# ... to machine-readable format:
 			voting_serializer = PlenaryReportToJsonSerializer()
-			voting_serializer.serialize(plenary, os.path.join(json_dir, f"plenary {plenary.id}.json"))
+			voting_serializer.serialize(plenary, os.path.join(JSON_OUTPUT_PATH, f"plenary {plenary.id}.json"))
 
 		except Exception:
 			# TODO rare errors to fix + in some documents, no motions could be extracted - to fix.
@@ -77,7 +76,7 @@ def print_html_extraction_problems():
 
 def main():
 	# TODO: make a CLI tool so we can choose which action to run without changing code.
-	# extract_voting_data_from_plenary_reports()
+	extract_voting_data_from_plenary_reports()
 
 	# print_html_extraction_problems()
 

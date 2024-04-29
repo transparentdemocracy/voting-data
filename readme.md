@@ -37,11 +37,39 @@ If you want to bring ideas too, welcome!
 You can create [Github issues](https://github.com/transparentdemocracy/voting-data/issues) if they are relevant to this repository.
 We also have a public [discussion channel](https://github.com/orgs/transparentdemocracy/discussions) here on Github and a private discussion channel on Slack.
 
+## Local development
+
+Execute these three steps to get started as a developer (details below):
+
+- Create virtual environment
+- Install requirements
+- Install the project in developer mode
+
+This will install the python modules so you can import them in your own projects and install command-line tools (see setup.py, look for td-...).
+
+### Create virtual environment
+
+Create a virtual environment and install the project in development mode. Note:
+if you're familiar with it you can also use conda or other environment management tools.
+
+    python -mvenv venv
+    . venv/bin/activate
+
+Note that you should run `. venv/bin/activate` (or equivalent) whenever you want to work in a new shell.
+
+### Install requirements
+
+    pip install -r requirements.txt
+
+### Install the project in developer mode
+
+    python setup.py develop --user
 
 ## Testing
 
-Use these commands to run unit tests:
+Run `./test.sh` to run unit tests.
 
-    cd src
-    python -munittest
+Note: one of the tests is rather slow, you can skip it by setting the SKIP_SLOW environment variable: `SKIP_SLOW=1 ./test.sh`
+
+    
 
