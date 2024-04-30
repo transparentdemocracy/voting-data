@@ -39,7 +39,7 @@ def extract_voting_data_from_plenary_reports():
 			# Serialize the extracted voting info:
 			# ... to human-readable format:
 			voting_serializer = PlenaryReportToMarkdownSerializer()
-			voting_serializer.serialize(plenary, os.path.join(markdown_dir, f"plenary {plenary.id}.md"))
+			voting_serializer.serialize(plenary, os.path.join(markdown_dir, f"plenary {plenary.id.serialize_in_3chars()}.md")) # TODO
 
 			# ... to machine-readable format:
 			voting_serializer = PlenaryReportToJsonSerializer()
