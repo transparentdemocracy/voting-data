@@ -7,7 +7,7 @@ from collections import Counter
 import Levenshtein
 from tqdm.auto import tqdm
 
-from src.actor import get_simplified_actors
+from transparentdemocracy.actor import get_simplified_actors
 
 logger = logging.getLogger(__name__)
 

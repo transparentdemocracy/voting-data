@@ -1,6 +1,6 @@
 import json
 
-from model import Motion, Plenary
+from transparentdemocracy.model import Motion, Plenary
 
 
 class PlenaryReportToMarkdownSerializer:

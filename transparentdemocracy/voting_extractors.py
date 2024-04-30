@@ -8,7 +8,7 @@ from typing import List
 from bs4 import BeautifulSoup
 from nltk.tokenize import WhitespaceTokenizer
 
-from model import Motion, Plenary, Proposal
+from transparentdemocracy.model import Motion, Plenary, Proposal
 
 logger = logging.getLogger(__name__)
 
