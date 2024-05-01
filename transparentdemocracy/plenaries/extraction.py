@@ -115,9 +115,9 @@ def __extract_motions(plenary_report: str, plenary_id: str, html) -> Tuple[Propo
 		no_count = int(seq[no_start + 1], 10)
 		abstention_count = int(seq[abstention_start + 1], 10)
 
-		yes_voter_names = get_names(seq[yes_start + 3: no_start], yes_count)
-		no_voter_names = get_names(seq[no_start + 3:abstention_start], no_count)
-		abstention_voter_names = get_names(seq[abstention_start + 3:], abstention_count)
+		yes_voter_names = get_names(seq[yes_start + 3: no_start], yes_count, 'yes')
+		no_voter_names = get_names(seq[no_start + 3:abstention_start], no_count, 'no')
+		abstention_voter_names = get_names(seq[abstention_start + 3:], abstention_count, 'abstention')
 
 		# Create the votes:
 		votes.extend(
@@ -215,11 +215,11 @@ def get_sequence(tokens, query):
 		return pos
 	raise ValueError("query %s not found in tokens %s" % (str(query), str(tokens)))
 
-def get_names(sequence, count):
+def get_names(sequence, count, log_type):
 	names = [n.strip().replace(".", "") for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
 
 	if len(names) != count:
-		logging.warning("vote count (%d) does not match voters %s" % (count, str(names)))
+		logging.warning("vote count (%d) does not match voters %s (%s)" % (count, str(names), log_type))
 		return None
 
 	return names

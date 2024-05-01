@@ -5,18 +5,18 @@ import os
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_report
 from transparentdemocracy.plenaries.serialization import MarkdownSerializer
 
-DATA_DIR = "./data"
+DATA_DIR = "../data"
 
 
 class TestMotionToMarkdownSerializer(unittest.TestCase):
 
 	def test_serialize(self):
-		plenary = extract_from_html_plenary_report(os.path.join(DATA_DIR, './input/pdf/ip298x.html'))
-		expected_markdown = open(os.path.join(DATA_DIR, '/output/markdown/plenary 298.md', 'r')).read()
+		tmp_markdown_output_dir = tempfile.mkdtemp("plenary-markdown-")
+		with open(os.path.join('fixtures', 'plenary 298.md'), 'r') as md_file:
+			expected_markdown = md_file.read()
+		plenary, votes = extract_from_html_plenary_report(os.path.join(DATA_DIR, 'input/plenary/html/ip298x.html'))
 
-		with tempfile.NamedTemporaryFile(delete=False) as temp_file:
-			markdown_output_path = temp_file.name
+		MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries([plenary])
 
-		MarkdownSerializer().serialize(plenary, markdown_output_path)
-
-		self.assertEqual(open(markdown_output_path).read(), expected_markdown)
+		with open(os.path.join(tmp_markdown_output_dir, 'plenary 298.md')) as plenary_file:
+			self.assertEqual(plenary_file.read(), expected_markdown)

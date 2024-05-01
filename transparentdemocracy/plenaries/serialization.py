@@ -5,12 +5,14 @@ from typing import List
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import OUTPUT_PATH
 
+DEFAULT_MARKDOWN_OUTPUT_PATH = os.path.join(OUTPUT_PATH, "plenary", "markdown")
+
 
 class MarkdownSerializer:
-    def __init__(self):
-        self.MARKDOWN_OUTPUT_PATH = os.path.join(OUTPUT_PATH, "plenary", "markdown")
-        os.makedirs(self.MARKDOWN_OUTPUT_PATH, exist_ok=True)
-    
+    def __init__(self, output_path=DEFAULT_MARKDOWN_OUTPUT_PATH):
+        self.output_path = output_path
+        os.makedirs(output_path, exist_ok=True)
+
     def serialize_plenaries(self, plenaries: List[Plenary]) -> None:
         for plenary in plenaries:
             markdown_result = ""
@@ -25,7 +27,7 @@ class MarkdownSerializer:
             for motion in plenary.motions:
                 markdown_result += self._serialize_motion(motion)
         
-            with open(os.path.join(self.MARKDOWN_OUTPUT_PATH, f"plenary {str(plenary.number).zfill(3)}.md"), "w", encoding="utf-8") as output_file:
+            with open(os.path.join(self.output_path, f"plenary {str(plenary.number).zfill(3)}.md"), "w", encoding="utf-8") as output_file:
                 output_file.write(markdown_result)
 
     def serialize_votes(self, votes: List[Vote]) -> None:
