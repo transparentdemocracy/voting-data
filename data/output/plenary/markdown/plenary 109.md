@@ -1,0 +1,7927 @@
+# Plenary gathering 109
+
+Legislature: 55
+
+Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip109.pdf
+
+PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip109x.html
+
+## Proposal 1
+
+Votes nominatifs
+Votes nominatifs
+Votes nominatifs
+
+
+ 
+ 
+
+26 Aangehouden amendementen en
+artikelen van het wetsontwerp houdende maatregelen ter beheersing van de
+COVID-19-pandemie en andere dringende maatregelen in het domein van de
+gezondheidzorg (1929/1-11)
+
+26 Aangehouden amendementen en
+artikelen van het wetsontwerp houdende maatregelen ter beheersing van de
+COVID-19-pandemie en andere dringende maatregelen in het domein van de
+gezondheidzorg (1929/1-11)
+26 Aangehouden amendementen en
+artikelen van het wetsontwerp houdende maatregelen ter beheersing van de
+COVID-19-pandemie en andere dringende maatregelen in het domein van de
+gezondheidzorg (1929/1-11)
+26 Aangehouden amendementen en
+artikelen van het wetsontwerp houdende maatregelen ter beheersing van de
+COVID-19-pandemie en andere dringende maatregelen in het domein van de
+gezondheidzorg (1929/1-11)
+26 Amendements et articles
+réservés du projet de loi portant des mesures de gestion de la pandémie
+COVID-19 et d'autres mesures urgentes dans le domaine des soins de santé
+(1929/1-11)
+
+26 Amendements et articles
+réservés du projet de loi portant des mesures de gestion de la pandémie
+COVID-19 et d'autres mesures urgentes dans le domaine des soins de santé
+(1929/1-11)
+26 Amendements et articles
+réservés du projet de loi portant des mesures de gestion de la pandémie
+COVID-19 et d'autres mesures urgentes dans le domaine des soins de santé
+(1929/1-11)
+26 Amendements et articles
+réservés du projet de loi portant des mesures de gestion de la pandémie
+COVID-19 et d'autres mesures urgentes dans le domaine des soins de santé
+(1929/1-11)
+ 
+ 
+
+Stemming over amendement nr. 28 van Kathleen
+Depoorter op artikel 2.(1929/11)
+Stemming over amendement nr. 28 van Kathleen
+Depoorter op artikel 2.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 28 de Kathleen
+Depoorter à l'article 2.(1929/11)
+Vote sur l'amendement n° 28 de Kathleen
+Depoorter à l'article 2.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 2
+
+
+(Stemming/vote 1)
+
+(Stemming/vote 1)
+(Stemming/vote 1)
+(Stemming/vote 1)
+
+
+
+Ja
+
+
+39
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+39
+
+39
+39
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+97
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+97
+
+97
+97
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+136
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+136
+
+136
+136
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 2 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 2 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 2 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 2 est adopté.
+ 
+ 
+
+(M. Maxime
+Prévot a voté comme son groupe pour les votes 1 à 13)
+(M. Maxime
+Prévot a voté comme son groupe pour les votes 1 à 13)
+
+ 
+ 
+
+Stemming over amendement nr. 29 van Kathleen
+Depoorter tot invoeging van een artikel 3/1 (n).(1929/11)
+Stemming over amendement nr. 29 van Kathleen
+Depoorter tot invoeging van een artikel 3/1 (n).(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 29 de Kathleen
+Depoorter tendant à insérer un article 3/1 (n).(1929/11)
+Vote sur l'amendement n° 29 de Kathleen
+Depoorter tendant à insérer un article 3/1 (n).(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 3
+
+
+(Stemming/vote 2)
+
+(Stemming/vote 2)
+(Stemming/vote 2)
+(Stemming/vote 2)
+
+
+
+Ja
+
+
+39
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+39
+
+39
+39
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+98
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+98
+
+98
+98
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+137
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+137
+
+137
+137
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen.
+Bijgevolg is het amendement verworpen.
+En conséquence, l'amendement est rejeté.
+En conséquence, l'amendement est rejeté.
+ 
+ 
+
+Stemming over amendement nr. 32 van
+Catherine Fonck tot invoeging van een artikel 3/1 (n).(1929/11)
+Stemming over amendement nr. 32 van
+Catherine Fonck tot invoeging van een artikel 3/1 (n).(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 32 de Catherine Fonck
+tendant à insérer un article 3/1 (n).(1929/11)
+Vote sur l'amendement n° 32 de Catherine Fonck
+tendant à insérer un article 3/1 (n).(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 4
+
+
+(Stemming/vote 3)
+
+(Stemming/vote 3)
+(Stemming/vote 3)
+(Stemming/vote 3)
+
+
+
+Ja
+
+
+54
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+54
+
+54
+54
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+137
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+137
+
+137
+137
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen.
+Bijgevolg is het amendement verworpen.
+En conséquence, l'amendement est rejeté.
+En conséquence, l'amendement est rejeté.
+ 
+ 
+
+Stemming over amendement nr. 34 van
+Catherine Fonck op artikel 7.(1929/11)
+Stemming over amendement nr. 34 van
+Catherine Fonck op artikel 7.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 34 de Catherine Fonck
+à l'article 7.(1929/11)
+Vote sur l'amendement n° 34 de Catherine Fonck
+à l'article 7.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 5
+
+
+(Stemming/vote 4)
+
+(Stemming/vote 4)
+(Stemming/vote 4)
+(Stemming/vote 4)
+
+
+
+Ja
+
+
+54
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+54
+
+54
+54
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+137
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+137
+
+137
+137
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 7 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 7 aangenomen.
+En conséquence, l'amendement est rejeté et
+l"article 7 est adopté. 
+En conséquence, l'amendement est rejeté et
+l"article 7 est adopté. 
+ 
+ 
+
+Stemming over amendement nr. 41 van Kathleen
+Depoorter op artikel 10.(1929/11)
+Stemming over amendement nr. 41 van Kathleen
+Depoorter op artikel 10.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 41 de Kathleen
+Depoorter à l'article 10.(1929/11)
+Vote sur l'amendement n° 41 de Kathleen
+Depoorter à l'article 10.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 6
+
+
+(Stemming/vote 5)
+
+(Stemming/vote 5)
+(Stemming/vote 5)
+(Stemming/vote 5)
+
+
+
+Ja
+
+
+44
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+44
+
+44
+44
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+84
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+84
+
+84
+84
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+10
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+10
+
+10
+10
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+138
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+138
+
+138
+138
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 10 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 10 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 10 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 10 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 21 van Kathleen
+Depoorter op artikel 12.(1929/11)
+Stemming over amendement nr. 21 van Kathleen
+Depoorter op artikel 12.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 21 de Kathleen
+Depoorter à l'article 12.(1929/11)
+Vote sur l'amendement n° 21 de Kathleen
+Depoorter à l'article 12.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 7
+
+
+(Stemming/vote 6)
+
+(Stemming/vote 6)
+(Stemming/vote 6)
+(Stemming/vote 6)
+
+
+
+Ja
+
+
+44
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+44
+
+44
+44
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+84
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+84
+
+84
+84
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+10
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+10
+
+10
+10
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+138
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+138
+
+138
+138
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 12 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 12 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 12 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 12 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 40 van Sofie
+Merckx tot invoeging van een artikel 15/1 (n).(1929/11)
+Stemming over amendement nr. 40 van Sofie
+Merckx tot invoeging van een artikel 15/1 (n).(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 40 de Sofie Merckx
+tendant à insérer un article 15/1 (n).(1929/11)
+Vote sur l'amendement n° 40 de Sofie Merckx
+tendant à insérer un article 15/1 (n).(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 8
+
+
+(Stemming/vote 7)
+
+(Stemming/vote 7)
+(Stemming/vote 7)
+(Stemming/vote 7)
+
+
+
+Ja
+
+
+10
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+10
+
+10
+10
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+105
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+105
+
+105
+105
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+22
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+22
+
+22
+22
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+137
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+137
+
+137
+137
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen.
+Bijgevolg is het amendement verworpen.
+En conséquence, l'amendement est rejeté.
+En conséquence, l'amendement est rejeté.
+ 
+ 
+
+Stemming over amendement nr. 22 van Kathleen
+Depoorter op artikel 16.(1929/11)
+Stemming over amendement nr. 22 van Kathleen
+Depoorter op artikel 16.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 22 de Kathleen
+Depoorter à l'article 16.(1929/11)
+Vote sur l'amendement n° 22 de Kathleen
+Depoorter à l'article 16.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 9
+
+
+(Stemming/vote 8)
+
+(Stemming/vote 8)
+(Stemming/vote 8)
+(Stemming/vote 8)
+
+
+
+Ja
+
+
+43
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+43
+
+43
+43
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+94
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+94
+
+94
+94
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+1
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+1
+
+1
+1
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+138
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+138
+
+138
+138
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen.
+Bijgevolg is het amendement verworpen.
+En conséquence, l'amendement est rejeté.
+En conséquence, l'amendement est rejeté.
+ 
+ 
+ 
+
+Stemming over amendement nr. 33 van Sophie
+Merckx op artikel 16.(1929/11)
+Stemming over amendement nr. 33 van Sophie
+Merckx op artikel 16.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 33 de Sophie Merckx à
+l'article 16.(1929/11)
+Vote sur l'amendement n° 33 de Sophie Merckx à
+l'article 16.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 10
+
+
+(Stemming/vote 9)
+
+(Stemming/vote 9)
+(Stemming/vote 9)
+(Stemming/vote 9)
+
+
+
+Ja
+
+
+53
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+53
+
+53
+53
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+136
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+136
+
+136
+136
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen.
+Bijgevolg is het amendement verworpen.
+En conséquence, l'amendement est rejeté.
+En conséquence, l'amendement est rejeté.
+ 
+ 
+
+Stemming over amendement nr. 27 van Kathleen
+Depoorter op artikel 16.(1929/11)
+Stemming over amendement nr. 27 van Kathleen
+Depoorter op artikel 16.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 27 de Kathleen
+Depoorter à l'article 16.(1929/11)
+Vote sur l'amendement n° 27 de Kathleen
+Depoorter à l'article 16.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 11
+
+
+(Stemming/vote 10)
+
+(Stemming/vote 10)
+(Stemming/vote 10)
+(Stemming/vote 10)
+
+
+
+Ja
+
+
+40
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+40
+
+40
+40
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+93
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+93
+
+93
+93
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+5
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+5
+
+5
+5
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+138
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+138
+
+138
+138
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 16 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 16 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 16 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 16 est adopté.
+ 
+ 
+
+Stemming over artikel 29.(1929/5)
+
+Stemming over artikel 29.(1929/5)
+(1929/5)
+
+Vote sur l'article 29.(1929/5)
+Vote sur l'article 29.(1929/5)
+(1929/5)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 12
+
+
+(Stemming/vote 11)
+
+(Stemming/vote 11)
+(Stemming/vote 11)
+(Stemming/vote 11)
+
+
+
+Ja
+
+
+134
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+134
+
+134
+134
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+0
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+0
+
+0
+0
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+3
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+3
+
+3
+3
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+137
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+137
+
+137
+137
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het artikel 29 aangenomen.
+Bijgevolg is het artikel 29 aangenomen.
+En conséquence, l'article 29 est adopté.
+En conséquence, l'article 29 est adopté.
+ 
+ 
+
+Stemming over artikel 30.(1929/5)
+Stemming over artikel 30.(1929/5)
+(1929/5)
+
+Vote sur l'article 30.(1929/5)
+Vote sur l'article 30.(1929/5)
+(1929/5)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 13
+
+
+(Stemming/vote 12)
+
+(Stemming/vote 12)
+(Stemming/vote 12)
+(Stemming/vote 12)
+
+
+
+Ja
+
+
+133
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+133
+
+133
+133
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+0
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+0
+
+0
+0
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+4
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+4
+
+4
+4
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+137
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+137
+
+137
+137
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het artikel 30 aangenomen.
+Bijgevolg is het artikel 30 aangenomen.
+En conséquence, l'article 30 est adopté.
+En conséquence, l'article 30 est adopté.
+ 
+ 
+
+Stemming over amendement
+nr. 42 van Frieda Gijbels op artikel 31.(1929/11)
+
+Stemming over amendement
+nr. 42 van Frieda Gijbels op artikel 31.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 42 de Frieda Gijbels à
+l'article 31.(1929/11)
+Vote sur l'amendement n° 42 de Frieda Gijbels à
+l'article 31.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 14
+
+
+(Stemming/vote 13)
+
+(Stemming/vote 13)
+(Stemming/vote 13)
+(Stemming/vote 13)
+
+
+
+Ja
+
+
+38
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+38
+
+38
+38
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+93
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+93
+
+93
+93
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+6
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+6
+
+6
+6
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+137
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+137
+
+137
+137
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 31 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 31 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 31 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 31 est adopté.
+ 
+ 
+
+(De heer
+Christophe D'Haese heeft zoals zijn fractie gestemd)
+(De heer
+Christophe D'Haese heeft zoals zijn fractie gestemd)
+(De heer
+Christophe D'Haese heeft zoals zijn fractie gestemd)
+
+ 
+ 
+
+Stemming over artikel 31.(1929/5)
+
+Stemming over artikel 31.(1929/5)
+(1929/5)
+
+Vote sur l'article 31.(1929/5)
+Vote sur l'article 31.(1929/5)
+(1929/5)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 15
+
+
+(Stemming/vote 14)
+
+(Stemming/vote 14)
+(Stemming/vote 14)
+(Stemming/vote 14)
+
+
+
+Ja
+
+
+109
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+109
+
+109
+109
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+0
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+0
+
+0
+0
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+27
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+27
+
+27
+27
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+136
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+136
+
+136
+136
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het artikel 31 aangenomen.
+Bijgevolg is het artikel 31 aangenomen.
+En conséquence, l'article 31 est adopté.
+En conséquence, l'article 31 est adopté.
+ 
+ 
+
+(Mme Özlem Özen a voté comme son
+groupe)
+(Mme Özlem Özen a voté comme son
+groupe)
+(Mme Özlem Özen a voté comme son
+groupe)
+
+ 
+ 
+
+Stemming over artikel 32.(1929/5)
+Stemming over artikel 32.(1929/5)
+(1929/5)
+
+Vote sur l'article 32.(1929/5)
+Vote sur l'article 32.(1929/5)
+(1929/5)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Heeft
+iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
+son vote?
+Heeft
+iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
+son vote?
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 16
+
+
+(Stemming/vote 15)
+
+(Stemming/vote 15)
+(Stemming/vote 15)
+(Stemming/vote 15)
+
+
+
+Ja
+
+
+119
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+119
+
+119
+119
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+17
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+17
+
+17
+17
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+1
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+1
+
+1
+1
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+137
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+137
+
+137
+137
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het artikel 32 aangenomen.
+Bijgevolg is het artikel 32 aangenomen.
+En conséquence, l'article 32 est adopté.
+En conséquence, l'article 32 est adopté.
+ 
+ 
+
+(Mme Özlem Özen a voté comme son
+groupe)
+(Mme Özlem Özen a voté comme son
+groupe)
+(Mme Özlem Özen a voté comme son
+groupe)
+ 
+
+ 
+
+Stemming over amendement
+nr. 43 van Frieda Gijbels op artikel 33.(1929/11)
+
+Stemming over amendement
+nr. 43 van Frieda Gijbels op artikel 33.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 43 de Frieda Gijbels à
+l'article 33.(1929/11)
+Vote sur l'amendement n° 43 de Frieda Gijbels à
+l'article 33.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de stemming
+/ Début du vote.
+Begin van de stemming
+/ Début du vote.
+
+Heeft
+iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
+son vote?
+Heeft
+iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
+son vote?
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 17
+
+
+(Stemming/vote 16)
+
+(Stemming/vote 16)
+(Stemming/vote 16)
+(Stemming/vote 16)
+
+
+
+Ja
+
+
+41
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+41
+
+41
+41
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+91
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+91
+
+91
+91
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+7
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+7
+
+7
+7
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+139
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+139
+
+139
+139
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 33 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 33 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 33 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 33 est adopté.
+ 
+ 
+
+(De heer Björn
+Anseeuw heeft zoals zijn fractie gestemd)
+(De heer Björn
+Anseeuw heeft zoals zijn fractie gestemd)
+(De heer Björn
+Anseeuw heeft zoals zijn fractie gestemd)
+
+ 
+ 
+
+Stemming over artikel 33.(1929/5)
+
+Stemming over artikel 33.(1929/5)
+(1929/5)
+
+Vote sur l'article 33.(1929/5)
+Vote sur l'article 33.(1929/5)
+(1929/5)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 18
+
+
+(Stemming/vote 17)
+
+(Stemming/vote 17)
+(Stemming/vote 17)
+(Stemming/vote 17)
+
+
+
+Ja
+
+
+111
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+111
+
+111
+111
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+0
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+0
+
+0
+0
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+28
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+28
+
+28
+28
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+139
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+139
+
+139
+139
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het artikel 33 aangenomen.
+Bijgevolg is het artikel 33 aangenomen.
+En conséquence, l'article 33 est adopté.
+En conséquence, l'article 33 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 39 van
+Catherine Fonck op artikel 39.(1929/11)
+Stemming over amendement nr. 39 van
+Catherine Fonck op artikel 39.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 39 de Catherine Fonck
+à l'article 39.(1929/11)
+Vote sur l'amendement n° 39 de Catherine Fonck
+à l'article 39.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 19
+
+
+(Stemming/vote 18)
+
+(Stemming/vote 18)
+(Stemming/vote 18)
+(Stemming/vote 18)
+
+
+
+Ja
+
+
+37
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+37
+
+37
+37
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+104
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+104
+
+104
+104
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+141
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+141
+
+141
+141
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 39 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 39 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 39 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 39 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 23 van Kathleen
+Depoorter op artikel 45.(1929/11)
+Stemming over amendement nr. 23 van Kathleen
+Depoorter op artikel 45.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 23 de Kathleen
+Depoorter à l'article 45.(1929/11)
+Vote sur l'amendement n° 23 de Kathleen
+Depoorter à l'article 45.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 20
+
+
+(Stemming/vote 19)
+
+(Stemming/vote 19)
+(Stemming/vote 19)
+(Stemming/vote 19)
+
+
+
+Ja
+
+
+58
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+58
+
+58
+58
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+82
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+82
+
+82
+82
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+140
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+140
+
+140
+140
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen.
+Bijgevolg is het amendement verworpen.
+En conséquence, l'amendement est rejeté.
+En conséquence, l'amendement est rejeté.
+ 
+ 
+
+Stemming over amendement nr. 35 van
+Catherine Fonck op artikel 45.(1929/11)
+Stemming over amendement nr. 35 van
+Catherine Fonck op artikel 45.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 35 de Catherine Fonck
+à l'article 45.(1929/11)
+Vote sur l'amendement n° 35 de Catherine Fonck
+à l'article 45.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 21
+
+
+(Stemming/vote 20)
+
+(Stemming/vote 20)
+(Stemming/vote 20)
+(Stemming/vote 20)
+
+
+
+Ja
+
+
+58
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+58
+
+58
+58
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+82
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+82
+
+82
+82
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+140
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+140
+
+140
+140
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 45 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 45 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 45 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 45 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 36 van
+Catherine Fonck op artikel 51.(1929/11)
+Stemming over amendement nr. 36 van
+Catherine Fonck op artikel 51.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 36 de Catherine Fonck
+à l'article 51.(1929/11)
+Vote sur l'amendement n° 36 de Catherine Fonck
+à l'article 51.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 22
+
+
+(Stemming/vote 21)
+
+(Stemming/vote 21)
+(Stemming/vote 21)
+(Stemming/vote 21)
+
+
+
+Ja
+
+
+58
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+58
+
+58
+58
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+82
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+82
+
+82
+82
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+140
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+140
+
+140
+140
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 51 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 51 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 51 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 51 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 30 van Catherine
+Fonck tot weglating van artikel 57.(1929/11)
+Stemming over amendement nr. 30 van Catherine
+Fonck tot weglating van artikel 57.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 30 de Catherine Fonck
+tendant à supprimer l'article 57.(1929/11)
+Vote sur l'amendement n° 30 de Catherine Fonck
+tendant à supprimer l'article 57.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 23
+
+
+(Stemming/vote 22)
+
+(Stemming/vote 22)
+(Stemming/vote 22)
+(Stemming/vote 22)
+
+
+
+Ja
+
+
+58
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+58
+
+58
+58
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+82
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+82
+
+82
+82
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+140
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+140
+
+140
+140
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 57 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 57 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 57 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 57 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 37 van
+Catherine Fonck op artikel 59.(1929/11)
+Stemming over amendement nr. 37 van
+Catherine Fonck op artikel 59.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 37 de Catherine Fonck
+à l'article 59.(1929/11)
+Vote sur l'amendement n° 37 de Catherine Fonck
+à l'article 59.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 24
+
+
+(Stemming/vote 23)
+
+(Stemming/vote 23)
+(Stemming/vote 23)
+(Stemming/vote 23)
+
+
+
+Ja
+
+
+58
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+58
+
+58
+58
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+82
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+82
+
+82
+82
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+140
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+140
+
+140
+140
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 59 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 59 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 59 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 59 est adopté.
+ 
+ 
+
+Stemming over artikel 60.(1929/5)
+
+Stemming over artikel 60.(1929/5)
+(1929/5)
+
+Vote sur l'article 60.(1929/5)
+Vote sur l'article 60.(1929/5)
+(1929/5)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 25
+
+
+(Stemming/vote 24)
+
+(Stemming/vote 24)
+(Stemming/vote 24)
+(Stemming/vote 24)
+
+
+
+Ja
+
+
+137
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+137
+
+137
+137
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+1
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+1
+
+1
+1
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+138
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+138
+
+138
+138
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is artikel 60 aangenomen.
+Bijgevolg is artikel 60 aangenomen.
+En conséquence, l''article 60 est adopté.
+En conséquence, l''article 60 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 24 van Frieda
+Gijbels op artikel 63.(1929/11)
+Stemming over amendement nr. 24 van Frieda
+Gijbels op artikel 63.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 24 de Frieda Gijbels à
+l'article 63.(1929/11)
+Vote sur l'amendement n° 24 de Frieda Gijbels à
+l'article 63.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 26
+
+
+(Stemming/vote 25)
+
+(Stemming/vote 25)
+(Stemming/vote 25)
+(Stemming/vote 25)
+
+
+
+Ja
+
+
+49
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+49
+
+49
+49
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+89
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+89
+
+89
+89
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+139
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+139
+
+139
+139
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 63 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 63 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 63 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 63 est adopté.
+ 
+ 
+
+(M. Malik Ben Achour a voté comme
+son groupe)
+(M. Malik Ben Achour a voté comme
+son groupe)
+(M. Malik Ben Achour a voté comme
+son groupe)
+
+ 
+ 
+
+Stemming over amendement nr. 31 van
+Catherine Fonck op artikel 65.(1929/11)
+Stemming over amendement nr. 31 van
+Catherine Fonck op artikel 65.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 31 de Catherine Fonck
+à l'article 65.(1929/11)
+Vote sur l'amendement n° 31 de Catherine Fonck
+à l'article 65.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de stemming
+/ Début du vote.
+Begin van de stemming
+/ Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 27
+
+
+(Stemming/vote 26)
+
+(Stemming/vote 26)
+(Stemming/vote 26)
+(Stemming/vote 26)
+
+
+
+Ja
+
+
+59
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+59
+
+59
+59
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+80
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+80
+
+80
+80
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+0
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+0
+
+0
+0
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+139
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+139
+
+139
+139
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 65 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 65 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 65 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 65 est adopté.
+ 
+ 
+
+(M. Malik Ben Achour a voté comme
+son groupe)
+(M. Malik Ben Achour a voté comme
+son groupe)
+(M. Malik Ben Achour a voté comme
+son groupe)
+
+ 
+ 
+
+Stemming over amendement nr. 38 van
+Catherine Fonck op artikel 66.(1929/11)
+Stemming over amendement nr. 38 van
+Catherine Fonck op artikel 66.(1929/11)
+(1929/11)
+
+Vote sur l'amendement n° 38 de Catherine Fonck
+à l'article 66.(1929/11)
+Vote sur l'amendement n° 38 de Catherine Fonck
+à l'article 66.(1929/11)
+(1929/11)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 28
+
+
+(Stemming/vote 27)
+
+(Stemming/vote 27)
+(Stemming/vote 27)
+(Stemming/vote 27)
+
+
+
+Ja
+
+
+59
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+59
+
+59
+59
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+80
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+80
+
+80
+80
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+1
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+1
+
+1
+1
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+140
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+140
+
+140
+140
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 66 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 66 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 66 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 66 est adopté.
+ 
+ 
+
+(M. Malik Ben Achour a voté comme
+son groupe)
+(M. Malik Ben Achour a voté comme
+son groupe)
+(M. Malik Ben Achour a voté comme
+son groupe)
+
+ 
+ 
+
+27 Geheel van het wetsontwerp
+houdende maatregelen ter beheersing van de COVID-19-pandemie en andere
+dringende maatregelen in het domein van de gezondheidzorg (1929/5)
+
+27 Geheel van het wetsontwerp
+houdende maatregelen ter beheersing van de COVID-19-pandemie en andere
+dringende maatregelen in het domein van de gezondheidzorg (1929/5)
+27 Geheel van het wetsontwerp
+houdende maatregelen ter beheersing van de COVID-19-pandemie en andere
+dringende maatregelen in het domein van de gezondheidzorg (1929/5)
+27 Geheel van het wetsontwerp
+houdende maatregelen ter beheersing van de COVID-19-pandemie en andere
+dringende maatregelen in het domein van de gezondheidzorg (1929/5)
+27 Ensemble du projet de loi
+portant des mesures de gestion de la pandémie COVID-19 et d'autres mesures
+urgentes dans le domaine des soins de santé (1929/5)
+
+27 Ensemble du projet de loi
+portant des mesures de gestion de la pandémie COVID-19 et d'autres mesures
+urgentes dans le domaine des soins de santé (1929/5)
+27 Ensemble du projet de loi
+portant des mesures de gestion de la pandémie COVID-19 et d'autres mesures
+urgentes dans le domaine des soins de santé (1929/5)
+27 Ensemble du projet de loi
+portant des mesures de gestion de la pandémie COVID-19 et d'autres mesures
+urgentes dans le domaine des soins de santé (1929/5)
+ 
+ 
+
+Quelqu'un demande-t-il la parole pour une
+déclaration avant le vote? (Non)
+Quelqu'un demande-t-il la parole pour une
+déclaration avant le vote? 
+ 
+(Non)
+(Non)
+
+
+Vraagt iemand het woord voor een
+stemverklaring? (Nee)
+Vraagt iemand het woord voor een
+stemverklaring? (Nee)
+ (Nee)
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 29
+
+
+(Stemming/vote 28)
+
+(Stemming/vote 28)
+(Stemming/vote 28)
+(Stemming/vote 28)
+
+
+
+Ja
+
+
+82
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+82
+
+82
+82
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+18
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+18
+
+18
+18
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+41
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+41
+
+41
+41
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+141
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+141
+
+141
+141
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg neemt de Kamer het wetsontwerp
+aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
+Bijgevolg neemt de Kamer het wetsontwerp
+aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
+En conséquence, la Chambre adopte le projet de
+loi. Il sera soumis à la sanction royale.
+En conséquence, la Chambre adopte le projet de
+loi. Il sera soumis à la sanction royale.
+ 
+ 
+
+Reden van onthouding? (Nee)
+Reden van onthouding? 
+(Nee)
+(Nee)
+
+
+Raison d'abstention? (Non)
+Raison d'abstention? 
+(Non)
+(Non)
+
+
+ 
+ 
+
+(De heer Jasper
+Pillen heeft zoals zijn fractie gestemd)
+(De heer Jasper
+Pillen heeft zoals zijn fractie gestemd)
+(De heer Jasper
+Pillen heeft zoals zijn fractie gestemd)
+
+(Mme Marie-Christine Marghem a voté
+comme son groupe)
+(Mme Marie-Christine Marghem a voté
+comme son groupe)
+(Mme Marie-Christine Marghem a voté
+comme son groupe)
+
+ 
+ 
+
+28 Aangehouden amendementen en artikelen van het
+wetsontwerp tot wijziging van het Belgisch Scheepvaartwetboek (1935/1-4)
+
+
+
+28 Aangehouden amendementen en artikelen van het
+wetsontwerp tot wijziging van het Belgisch Scheepvaartwetboek (1935/1-4)
+28 Aangehouden amendementen en artikelen van het
+wetsontwerp tot wijziging van het Belgisch Scheepvaartwetboek (1935/1-4)
+28 Aangehouden amendementen en artikelen van het
+wetsontwerp tot wijziging van het Belgisch Scheepvaartwetboek (1935/1-4)
+28 Amendements et articles
+réservés du projet de loi modifiant le Code belge de la Navigation (1935/1-4)
+
+28 Amendements et articles
+réservés du projet de loi modifiant le Code belge de la Navigation (1935/1-4)
+28 Amendements et articles
+réservés du projet de loi modifiant le Code belge de la Navigation (1935/1-4)
+28 Amendements et articles
+réservés du projet de loi modifiant le Code belge de la Navigation (1935/1-4)
+ 
+ 
+
+Stemming over amendement nr. 1 van Tomas
+Roggeman cs tot weglating van artikel 10.(1935/4)
+Stemming over amendement nr. 1 van Tomas
+Roggeman cs tot weglating van artikel 10.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 1 de Tomas Roggeman cs
+tendant à supprimer l'article 10.(1935/4)
+Vote sur l'amendement n° 1 de Tomas Roggeman cs
+tendant à supprimer l'article 10.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 30
+
+
+(Stemming/vote 29)
+
+(Stemming/vote 29)
+(Stemming/vote 29)
+(Stemming/vote 29)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+11
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+11
+
+11
+11
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+141
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+141
+
+141
+141
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 10 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 10 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 10 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 10 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 2 van Tomas
+Roggeman cs tot weglating van artikel 16.(1935/4)
+Stemming over amendement nr. 2 van Tomas
+Roggeman cs tot weglating van artikel 16.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 2 de Tomas Roggeman cs
+tendant à supprimer l'article 16.(1935/4)
+Vote sur l'amendement n° 2 de Tomas Roggeman cs
+tendant à supprimer l'article 16.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 31
+
+
+(Stemming/vote 30)
+
+(Stemming/vote 30)
+(Stemming/vote 30)
+(Stemming/vote 30)
+
+
+
+Ja
+
+
+55
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+55
+
+55
+55
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+84
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+84
+
+84
+84
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+2
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+2
+
+2
+2
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+141
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+141
+
+141
+141
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 16 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 16 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 16 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 16 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 3 van Tomas
+Roggeman cs tot weglating van artikel 18.(1935/4)
+Stemming over amendement nr. 3 van Tomas
+Roggeman cs tot weglating van artikel 18.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 3 de Tomas Roggeman cs
+tendant à supprimer l'article 18.(1935/4)
+Vote sur l'amendement n° 3 de Tomas Roggeman cs
+tendant à supprimer l'article 18.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 32
+
+
+(Stemming/vote 31)
+
+(Stemming/vote 31)
+(Stemming/vote 31)
+(Stemming/vote 31)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+12
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+12
+
+12
+12
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 18 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 18 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 18 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 18 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 4 van Tomas
+Roggeman cs tot weglating van artikel 19.(1935/4)
+Stemming over amendement nr. 4 van Tomas
+Roggeman cs tot weglating van artikel 19.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 4 de Tomas Roggeman cs
+tendant à supprimer l'article 19.(1935/4)
+Vote sur l'amendement n° 4 de Tomas Roggeman cs
+tendant à supprimer l'article 19.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 33
+
+
+(Stemming/vote 32)
+
+(Stemming/vote 32)
+(Stemming/vote 32)
+(Stemming/vote 32)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+12
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+12
+
+12
+12
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 19 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 19 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 19 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 19 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 5 van Tomas
+Roggeman cs tot weglating van artikel 24.(1935/4)
+Stemming over amendement nr. 5 van Tomas
+Roggeman cs tot weglating van artikel 24.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 5 de Tomas Roggeman cs
+tendant à supprimer l'article 24.(1935/4)
+Vote sur l'amendement n° 5 de Tomas Roggeman cs
+tendant à supprimer l'article 24.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 34
+
+
+(Stemming/vote 33)
+
+(Stemming/vote 33)
+(Stemming/vote 33)
+(Stemming/vote 33)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+12
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+12
+
+12
+12
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 24 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 24 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 24 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 24 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 6 van Tomas
+Roggeman cs tot weglating van artikel 26.(1935/4)
+Stemming over amendement nr. 6 van Tomas
+Roggeman cs tot weglating van artikel 26.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 6 de Tomas Roggeman cs
+tendant à supprimer l'article 26.(1935/4)
+Vote sur l'amendement n° 6 de Tomas Roggeman cs
+tendant à supprimer l'article 26.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 35
+
+
+(Stemming/vote 34)
+
+(Stemming/vote 34)
+(Stemming/vote 34)
+(Stemming/vote 34)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+12
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+12
+
+12
+12
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 26 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 26 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 26 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 26 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 7 van Tomas
+Roggeman cs tot weglating van artikel 52.(1935/4)
+Stemming over amendement nr. 7 van Tomas
+Roggeman cs tot weglating van artikel 52.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 7 de Tomas Roggeman cs
+tendant à supprimer l'article 52.(1935/4)
+Vote sur l'amendement n° 7 de Tomas Roggeman cs
+tendant à supprimer l'article 52.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 36
+
+
+(Stemming/vote 35)
+
+(Stemming/vote 35)
+(Stemming/vote 35)
+(Stemming/vote 35)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+12
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+12
+
+12
+12
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 52 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 52 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 52 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 52 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 8 van Tomas
+Roggeman cs tot weglating van artikel 62.(1935/4)
+Stemming over amendement nr. 8 van Tomas
+Roggeman cs tot weglating van artikel 62.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 8 de Tomas Roggeman cs
+tendant à supprimer l'article 62.(1935/4)
+Vote sur l'amendement n° 8 de Tomas Roggeman cs
+tendant à supprimer l'article 62.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 37
+
+
+(Stemming/vote 36)
+
+(Stemming/vote 36)
+(Stemming/vote 36)
+(Stemming/vote 36)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+12
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+12
+
+12
+12
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 62 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 62 aangenomen.
+En conséquence, l'amendement est rejeté et l'article
+62 est adopté.
+En conséquence, l'amendement est rejeté et l'article
+62 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 9 van Tomas
+Roggeman cs tot weglating van artikel 79.(1935/4)
+Stemming over amendement nr. 9 van Tomas
+Roggeman cs tot weglating van artikel 79.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 9 de Tomas Roggeman cs
+tendant à supprimer l'article 79.(1935/4)
+Vote sur l'amendement n° 9 de Tomas Roggeman cs
+tendant à supprimer l'article 79.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 38
+
+
+(Stemming/vote 37)
+
+(Stemming/vote 37)
+(Stemming/vote 37)
+(Stemming/vote 37)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+12
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+12
+
+12
+12
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 79 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 79 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 79 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 79 est adopté.
+ 
+ 
+
+Stemming over amendement
+nr. 10 van Tomas Roggeman cs tot weglating van de artikelen 81, 82 en 84.(1935/4)
+
+Stemming over amendement
+nr. 10 van Tomas Roggeman cs tot weglating van de artikelen 81, 82 en 84.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 10 de Tomas Roggeman
+cs tendant à supprimer les articles 81, 82 et 84.(1935/4)
+Vote sur l'amendement n° 10 de Tomas Roggeman
+cs tendant à supprimer les articles 81, 82 et 84.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 39
+
+
+(Stemming/vote 38)
+
+(Stemming/vote 38)
+(Stemming/vote 38)
+(Stemming/vote 38)
+
+
+
+Ja
+
+
+57
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+57
+
+57
+57
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+ 2
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+ 2
+
+ 2
+ 2
+ 
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en
+zijn de artikelen 81, 82 en 84 aangenomen.
+Bijgevolg is het amendement verworpen en
+zijn de artikelen 81, 82 en 84 aangenomen.
+En conséquence, l'amendement est rejeté et les
+articles 81, 82 et 84 est adopté.
+En conséquence, l'amendement est rejeté et les
+articles 81, 82 et 84 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 11 van Tomas
+Roggeman cs tot invoeging van een artikel 81/1 (n).(1935/4)
+Stemming over amendement nr. 11 van Tomas
+Roggeman cs tot invoeging van een artikel 81/1 (n).(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 11 de Tomas Roggeman
+cs tendant à insérer un article 81/1 (n).(1935/4)
+Vote sur l'amendement n° 11 de Tomas Roggeman
+cs tendant à insérer un article 81/1 (n).(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 40
+
+
+(Stemming/vote 39)
+
+(Stemming/vote 39)
+(Stemming/vote 39)
+(Stemming/vote 39)
+
+
+
+Ja
+
+
+ 57
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+ 57
+
+ 57
+ 
+ 
+57
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+ 83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+ 83
+
+ 83
+ 83
+ 
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+  2
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+  2
+
+  2
+  2
+  
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen.
+Bijgevolg is het amendement verworpen.
+En conséquence, l'amendement est rejeté.
+En conséquence, l'amendement est rejeté.
+ 
+ 
+
+Stemming over amendement nr. 12 van Tomas
+Roggeman cs tot invoeging van een artikel 81/2 (n).(1935/4)
+Stemming over amendement nr. 12 van Tomas
+Roggeman cs tot invoeging van een artikel 81/2 (n).(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 12 de Tomas Roggeman
+cs tendant à insérer un article 81/2 (n).(1935/4)
+Vote sur l'amendement n° 12 de Tomas Roggeman
+cs tendant à insérer un article 81/2 (n).(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 41
+
+
+(Stemming/vote 40)
+
+(Stemming/vote 40)
+(Stemming/vote 40)
+(Stemming/vote 40)
+
+
+
+Ja
+
+
+57
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+57
+
+57
+57
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+ 2
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+ 2
+
+ 2
+ 2
+ 
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+142
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+142
+
+142
+142
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen.
+Bijgevolg is het amendement verworpen.
+En conséquence, l'amendement est rejeté.
+En conséquence, l'amendement est rejeté.
+ 
+ 
+
+Stemming over amendement nr. 13 van Tomas
+Roggeman cs tot weglating van artikel 85.(1935/4)
+Stemming over amendement nr. 13 van Tomas
+Roggeman cs tot weglating van artikel 85.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 13 de Tomas Roggeman
+cs tendant à supprimer l'article 85.(1935/4)
+Vote sur l'amendement n° 13 de Tomas Roggeman
+cs tendant à supprimer l'article 85.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 42
+
+
+(Stemming/vote 41)
+
+(Stemming/vote 41)
+(Stemming/vote 41)
+(Stemming/vote 41)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+11
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+11
+
+11
+11
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+141
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+141
+
+141
+141
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 85 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 85 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 85 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 85 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 14 van Tomas
+Roggeman cs tot weglating van artikel 86.(1935/4)
+Stemming over amendement nr. 14 van Tomas
+Roggeman cs tot weglating van artikel 86.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 14 de Tomas Roggeman
+cs tendant à supprimer l'article 86.(1935/4)
+Vote sur l'amendement n° 14 de Tomas Roggeman
+cs tendant à supprimer l'article 86.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 43
+
+
+(Stemming/vote 42)
+
+(Stemming/vote 42)
+(Stemming/vote 42)
+(Stemming/vote 42)
+
+
+
+Ja
+
+
+47
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+47
+
+47
+47
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+11
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+11
+
+11
+11
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+141
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+141
+
+141
+141
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 86 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 86 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 86 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 86 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 15 van Tomas
+Roggeman cs tot weglating van artikel 88.(1935/4)
+Stemming over amendement nr. 15 van Tomas
+Roggeman cs tot weglating van artikel 88.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 15 de Tomas Roggeman
+cs tendant à supprimer l'article 88.(1935/4)
+Vote sur l'amendement n° 15 de Tomas Roggeman
+cs tendant à supprimer l'article 88.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 44
+
+
+(Stemming/vote 43)
+
+(Stemming/vote 43)
+(Stemming/vote 43)
+(Stemming/vote 43)
+
+
+
+Ja
+
+
+56
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+56
+
+56
+56
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+ 2
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+ 2
+
+ 2
+ 2
+ 
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+141
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+141
+
+141
+141
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 88 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 88 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 88 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 88 est adopté.
+ 
+ 
+
+Stemming over amendement nr. 16 van Tomas
+Roggeman cs tot weglating van artikel 95.(1935/4)
+Stemming over amendement nr. 16 van Tomas
+Roggeman cs tot weglating van artikel 95.(1935/4)
+(1935/4)
+
+Vote sur l'amendement n° 16 de Tomas Roggeman
+cs tendant à supprimer l'article 95.(1935/4)
+Vote sur l'amendement n° 16 de Tomas Roggeman
+cs tendant à supprimer l'article 95.(1935/4)
+(1935/4)
+
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+## Proposal 45
+
+
+(Stemming/vote 44)
+
+(Stemming/vote 44)
+(Stemming/vote 44)
+(Stemming/vote 44)
+
+
+
+Ja
+
+
+45
+
+
+Oui
+
+
+
+Ja
+
+Ja
+Ja
+
+
+45
+
+45
+45
+
+
+Oui
+
+Oui
+Oui
+
+
+
+Nee
+
+
+83
+
+
+Non
+
+
+
+Nee
+
+Nee
+Nee
+
+
+83
+
+83
+83
+
+
+Non
+
+Non
+Non
+
+
+
+Onthoudingen
+
+
+12
+
+
+Abstentions
+
+
+
+Onthoudingen
+
+Onthoudingen
+Onthoudingen
+
+
+12
+
+12
+12
+
+
+Abstentions
+
+Abstentions
+Abstentions
+
+
+
+Totaal
+
+
+140
+
+
+Total
+
+
+
+Totaal
+
+Totaal
+Totaal
+
+
+140
+
+140
+140
+
+
+Total
+
+Total
+Total
+
+ 
+ 
+
+Bijgevolg is het amendement verworpen en is
+artikel 95 aangenomen.
+Bijgevolg is het amendement verworpen en is
+artikel 95 aangenomen.
+En conséquence, l'amendement est rejeté et
+l'article 95 est adopté.
+En conséquence, l'amendement est rejeté et
+l'article 95 est adopté.
+ 
+ 
+
+29 Ensemble du projet de loi
+modifiant le Code belge de la Navigation (1935/3)
+
+29 Ensemble du projet de loi
+modifiant le Code belge de la Navigation (1935/3)
+29 Ensemble du projet de loi
+modifiant le Code belge de la Navigation (1935/3)
+29 Ensemble du projet de loi
+modifiant le Code belge de la Navigation (1935/3)
+29 Geheel van het wetsontwerp
+tot wijziging van het Belgisch Scheepvaartwetboek (1935/3)
+
+29 Geheel van het wetsontwerp
+tot wijziging van het Belgisch Scheepvaartwetboek (1935/3)
+29 Geheel van het wetsontwerp
+tot wijziging van het Belgisch Scheepvaartwetboek (1935/3)
+29 Geheel van het wetsontwerp
+tot wijziging van het Belgisch Scheepvaartwetboek (1935/3)
+ 
+ 
+
+Quelqu'un demande-t-il la parole pour une
+déclaration avant le vote? (Non)
+Quelqu'un demande-t-il la parole pour une
+déclaration avant le vote? 
+ 
+(Non)
+(Non)
+
+
+Vraagt iemand het woord voor een
+stemverklaring? (Nee)
+Vraagt iemand het woord voor een
+stemverklaring? (Nee)
+ (Nee)
+ 
+ 
+
+Begin van de
+stemming / Début du vote.
+Begin van de
+stemming / Début du vote.
+
+Einde van de
+stemming / Fin du vote.
+Einde van de
+stemming / Fin du vote.
+
+Uitslag van de
+stemming / Résultat du vote.
+Uitslag van de
+stemming / Résultat du vote.
+
+ 
+ 
+
+
+Motion # 1.
+
+Motion # 2.
+
+Motion # 3.
+
+Motion # 4.
+
+Motion # 5.
+
+Motion # 6.
+
+Motion # 7.
+
+Motion # 8.
+
+Motion # 9.
+
+Motion # 10.
+
+Motion # 11.
+
+Motion # 12.
+
+Motion # 13.
+
+Motion # 14.
+
+Motion # 15.
+
+Motion # 16.
+
+Motion # 17.
+
+Motion # 18.
+
+Motion # 19.
+
+Motion # 20.
+
+Motion # 21.
+
+Motion # 22.
+
+Motion # 23.
+
+Motion # 24.
+
+Motion # 25.
+
+Motion # 26.
+
+Motion # 27.
+
+Motion # 28.
+
+Motion # 29.
+
+Motion # 30.
+
+Motion # 31.
+
+Motion # 32.
+
+Motion # 33.
+
+Motion # 34.
+
+Motion # 35.
+
+Motion # 36.
+
+Motion # 37.
+
+Motion # 38.
+
+Motion # 39.
+
+Motion # 40.
+
+Motion # 41.
+
+Motion # 42.
+
+Motion # 43.
+
+Motion # 44.
+
+Motion # 45.
+

@@ -1,43 +1,48 @@
-from dataclasses import dataclass, field
+"""
+The data model behind the voting-data repository.
+
+It is split into two parts, which in the end result in two datasets:
+- plenaries and their topics: proposals, motions, interpellations.
+- votes cast during plenaries: by which politician, on which motion, which vote (yes/no/abstention).
+"""
+
+from dataclasses import dataclass
 from enum import Enum
 from typing import List
 
 
-@dataclass
-class ParseProblem:
-    report: str
-    vote_nr: str
-    description: str
-
-@dataclass
-class Politician:
-    first_name: str
-    last_name: str
-
+# Classes related to the plenaries and their "topics": proposals, motions (and later: interpellations).
 
 @dataclass
 class Proposal:
     id: str
+    number: str  # sequence number of the proposal in the series of proposals discussed during a plenary.
+    plenary_id: str
     description: str
 
 @dataclass
 class Motion:
-    proposal: Proposal
-    num_votes_yes: int
-    vote_names_yes: List[str]
-    num_votes_no: int
-    vote_names_no: List[str]
-    num_votes_abstention: int
-    vote_names_abstention: List[str]
+    id: str
+    number: str  # sequence number of the motion in the series of motions held towards the end of a plenary.
+    proposal_id: str
     cancelled: bool
-    parse_problems: list[str] = field(default_factory=list)
 
 @dataclass
 class Plenary:
-    id: int
+    id: str
+    number: int  # sequence number of the plenary in the series of plenaries during a legislature.
+    legislature: int
     pdf_report_url: str
     html_report_url: str
+    proposals: List[Proposal]
     motions: List[Motion]
+
+
+# Classes related to the detail of votes cast in plenaries:
+
+@dataclass
+class Politician:
+    full_name: str
 
 class VoteType(Enum):
     YES = "YES"
@@ -47,5 +52,5 @@ class VoteType(Enum):
 @dataclass
 class Vote:
     politician: Politician
-    motion: Motion
+    motion_id: str
     vote_type: VoteType

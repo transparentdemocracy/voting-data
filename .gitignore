@@ -165,6 +165,6 @@ cython_debug/
 # Visual Studio Code
 .vscode/
 
-data/input/pdf/
-data/input/html/
+data/input/plenary/pdf/
+data/input/plenary/html/
 data/input/actors/
