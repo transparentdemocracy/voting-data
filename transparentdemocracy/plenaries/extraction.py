@@ -13,58 +13,58 @@ from bs4 import BeautifulSoup
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
-from transparentdemocracy import DATA_PATH
-from transparentdemocracy.model import Motion, Plenary, Politician, Proposal, Vote, VoteType
-
+from transparentdemocracy import PLENARY_HTML_INPUT_PATH
+from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
+from transparentdemocracy.politicians.fetch_politicians import Politicians, PoliticianExtractor
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-OUTPUT_PATH = os.path.join(DATA_PATH, "output")
-MARKDOWN_OUTPUT_PATH = os.path.join(OUTPUT_PATH, "plenary", "markdown")
-JSON_OUTPUT_PATH = os.path.join(OUTPUT_PATH, "plenary", "json")
-
-
-def extract_voting_data_from_plenary_reports(
-		report_file_pattern: str,
+def extract_plenaries_from_html_reports(
+		report_file_pattern: str = os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"),
 		num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote]]:
+	politicians = PoliticianExtractor().extract_politicians()
 	plenaries = []
 	all_votes = []
 	logging.info(f"Report files must be found at: {report_file_pattern}.")
 	report_filenames = glob.glob(report_file_pattern)
 	if num_reports_to_process is not None:
 		report_filenames = report_filenames[:num_reports_to_process]
-	logging.info(f"Will process the following input reports: {report_filenames}.")
+	logging.debug(f"Will process the following input reports: {report_filenames}.")
 
 	for voting_report in tqdm(report_filenames, desc="Processing plenary reports..."):
 		try:
 			logging.debug(f"Processing input report {voting_report}...")
 			if voting_report.endswith(".html"):
-				plenary, votes = extract_from_html_plenary_report(voting_report)
+				plenary, votes = extract_from_html_plenary_report(voting_report, politicians)
 				plenaries.append(plenary)
 				all_votes.extend(votes)
 			else:
 				raise RuntimeError("Plenary reports in other formats than HTML cannot be processed.")
-				
+
 		except Exception:
 			logging.warning("Failed to process %s", voting_report, exc_info=True)
 
 	return plenaries, all_votes
 
-def extract_from_html_plenary_report(report_filename: str) -> Tuple[Plenary, List[Vote]]:
+
+def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
+	Plenary, List[Vote]]:
+	politicians = politicians or PoliticianExtractor().extract_politicians()
 	with open(report_filename, "r", encoding="cp1252") as file:
 		html_content = file.read()
 
 	html = BeautifulSoup(html_content, "html.parser")
-	
-	return __extract_plenary(report_filename, html)
 
-def __extract_plenary(report_filename: str, html) -> Tuple[Plenary, List[Vote]]:
-	plenary_number = os.path.split(report_filename)[1][2:5] # example: ip078x.html -> 078
+	return __extract_plenary(report_filename, html, politicians)
+
+
+def __extract_plenary(report_filename: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
+	plenary_number = os.path.split(report_filename)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
-	proposals, motions, votes = __extract_motions(report_filename, plenary_id, html)
-	
+	proposals, motions, votes = __extract_motions(report_filename, plenary_id, html, politicians)
+
 	return (
 		Plenary(
 			plenary_id,
@@ -78,7 +78,9 @@ def __extract_plenary(report_filename: str, html) -> Tuple[Plenary, List[Vote]]:
 		votes
 	)
 
-def __extract_motions(plenary_report: str, plenary_id: str, html) -> Tuple[Proposal, List[Motion], List[Vote]]:
+
+def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: Politicians) -> Tuple[
+	Proposal, List[Motion], List[Vote]]:
 	tokens = WhitespaceTokenizer().tokenize(html.text)
 
 	votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
@@ -100,7 +102,7 @@ def __extract_motions(plenary_report: str, plenary_id: str, html) -> Tuple[Propo
 		proposal_description = "\n".join([el.text for el in motion_blocks_by_nr[motion_number][1:]]) \
 			if motion_number in motion_blocks_by_nr \
 			else "??? text not found ???"
-		
+
 		cancelled = sum([1 if "geannuleerd" in token else 0 for token in seq[4:8]]) > 0
 
 		# Extract detailed votes:
@@ -121,9 +123,9 @@ def __extract_motions(plenary_report: str, plenary_id: str, html) -> Tuple[Propo
 
 		# Create the votes:
 		votes.extend(
-			create_votes_for_same_vote_type(yes_voter_names, VoteType.YES, motion_id) +
-			create_votes_for_same_vote_type(no_voter_names, VoteType.NO, motion_id) +
-			create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, motion_id)
+			create_votes_for_same_vote_type(yes_voter_names, VoteType.YES, motion_id, politicians) +
+			create_votes_for_same_vote_type(no_voter_names, VoteType.NO, motion_id, politicians) +
+			create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, motion_id, politicians)
 		)
 
 		# Create the proposal:
@@ -145,6 +147,7 @@ def __extract_motions(plenary_report: str, plenary_id: str, html) -> Tuple[Propo
 
 	return proposals, motions, votes
 
+
 def find_occurrences(tokens, query):
 	result = []
 	pos = find_sequence(tokens, query)
@@ -153,6 +156,7 @@ def find_occurrences(tokens, query):
 		pos = find_sequence(tokens, query, pos + 1)
 
 	return result
+
 
 def find_sequence(tokens, query, start_pos=0):
 	"""@return index where the token sequence 'query' occurs in given tokens or -1 if the query sequence is not found"""
@@ -168,6 +172,7 @@ def find_sequence(tokens, query, start_pos=0):
 
 	return -1
 
+
 def get_motion_blocks_by_nr(report, html):
 	result = dict()
 	vote_re = re.compile("\\(Stemming/vote \\(?(.*)\\)")
@@ -180,6 +185,7 @@ def get_motion_blocks_by_nr(report, html):
 			result[nr] = block[1:]
 
 	return result
+
 
 def get_motion_blocks(html):
 	try:
@@ -208,12 +214,14 @@ def get_motion_blocks(html):
 
 	return list(filter(lambda section: "Stemming/vote" in section[0], sections))
 
+
 def get_sequence(tokens, query):
 	"""@return like find_sequence but raises ValueError if the query was not found"""
 	pos = find_sequence(tokens, query)
 	if pos >= 0:
 		return pos
 	raise ValueError("query %s not found in tokens %s" % (str(query), str(tokens)))
+
 
 def get_names(sequence, count, log_type):
 	names = [n.strip().replace(".", "") for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
@@ -224,14 +232,24 @@ def get_names(sequence, count, log_type):
 
 	return names
 
-def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType, motion_id: str) -> List[Vote]:
+
+def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType, motion_id: str,
+									politicians: Politicians) -> List[Vote]:
 	if voter_names is None:
 		return []
 	else:
 		return [
 			Vote(
-				Politician(voter_name),
+				politicians.get_by_name(voter_name),
 				motion_id,
 				vote_type.value
 			) for voter_name in voter_names
 		]
+
+
+def main():
+	extract_plenaries_from_html_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
+
+
+if __name__ == "__main__":
+	main()

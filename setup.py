@@ -19,9 +19,11 @@ setuptools.setup(
 	install_requires=requirements,
 	entry_points={
 		'console_scripts': [
-			'td-main=transparentdemocracy.main:main',
-			'td-enrich=transparentdemocracy.enrichment:main',
-			'td-actors=transparentdemocracy.actor:main'
+			'td-plenaries-markdown=transparentdemocracy.plenaries.serialization:write_plenaries_markdown',
+			'td-plenaries-json=transparentdemocracy.plenaries.serialization:write_plenaries_json',
+			'td-votes-json=transparentdemocracy.plenaries.serialization:write_votes_json',
+			'td-politicians-json=transparentdemocracy.politicians.fetch_politicians:create_json',
+			'td-print-politicians-by-fraction=transparentdemocracy.politicians.fetch_politicians:print_politicians_by_fraction',
 		],
 	}
 )

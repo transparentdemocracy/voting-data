@@ -42,7 +42,9 @@ class Plenary:
 
 @dataclass
 class Politician:
+    id: int
     full_name: str
+    fraction: str
 
 class VoteType(Enum):
     YES = "YES"

@@ -2,22 +2,20 @@ import logging
 import os
 import unittest
 
-from transparentdemocracy.plenaries.extraction import extract_voting_data_from_plenary_reports, \
+from transparentdemocracy import PLENARY_HTML_INPUT_PATH
+from transparentdemocracy.plenaries.extraction import extract_plenaries_from_html_reports, \
 	extract_from_html_plenary_report
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 logger.setLevel(logging.INFO)
 
-DATA_DIR = os.path.join("..", "data")
-PLENARY_HTML_DIR = os.path.join(DATA_DIR, "input", "plenary", "html")
-
 
 class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):
-		actual = extract_voting_data_from_plenary_reports(os.path.join(PLENARY_HTML_DIR, "*.html"))
+		actual = extract_plenaries_from_html_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
 
 		self.assertEqual(len(actual), 300)
 
@@ -32,19 +30,19 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 	@unittest.skip(
 		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
 	def test_extract_ip67(self):
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_DIR, 'ip067x.html'))
+		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip067x.html'))
 
 		vote_types_motion_1 = set([v.vote_type for v in votes if v.motion_id == "55_067_1"])
 		self.assertTrue("NO" in vote_types_motion_1)
 
 	def test_extract_ip72(self):
 		"""vote 2 has an extra '(' in the vote result indicator"""
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_DIR, 'ip072x.html'))
+		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip072x.html'))
 
 		self.assertEqual(len(actual.motions), 5)
 
 	def test_extract_ip298(self):
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_DIR, 'ip298x.html'))
+		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip298x.html'))
 
 		self.assertEqual(28, len(actual.motions))
 		self.assertEqual(actual.motions[0].id, "55_298_1")
@@ -78,7 +76,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(True, actual.motions[11].cancelled)
 
 	def test_voter_dots_are_removed_from_voter_names(self):
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_DIR, 'ip182x.html'))
+		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip182x.html'))
 
 		names = [v.politician.full_name for v in votes]
 

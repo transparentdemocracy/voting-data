@@ -1,43 +1,69 @@
 import glob
 import itertools
 import json
-import os
 import logging
+import os
 
+import Levenshtein
 from tqdm.asyncio import tqdm
 
-from transparentdemocracy import DATA_PATH
+from transparentdemocracy import ACTOR_JSON_INPUT_PATH
+from transparentdemocracy.model import Politician
+from transparentdemocracy.politicians.serialization import JsonSerializer
 
 logger = logging.getLogger(__name__)
 
-INPUT_ACTORS_PATH = os.path.join(DATA_PATH, "input", "actors", "actor")
-# TODO there was a main method using this path, put it here?
 
-DATA_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "data"))
-ACTOR_JSON_DIR = os.path.join(DATA_DIR, "input", "actors", "actor")
+class Politicians:
+	def __init__(self, politicians):
+		if not politicians:
+			raise Exception("empty list of politicians")
+		self.politicians = politicians
+		self.politicians_by_name = dict((p.full_name, p) for p in politicians)
+
+	def get_by_name(self, name):
+		if name in self.politicians_by_name:
+			return self.politicians_by_name[name]
+		else:
+			result = self._find_best_match(name)
+			self.politicians_by_name[name] = result
+			logger.warning(f"Non exact name match: {name} -> {result.full_name}")
+
+	def _find_best_match(self, name):
+		best_name = min([(Levenshtein.distance(name, compare_name), compare_name) for compare_name in
+						 self.politicians_by_name.keys()])[1]
+		return self.politicians_by_name[best_name]
+
+	def print_by_fraction(self) -> None:
+		by_fraction = itertools.groupby(sorted(self.politicians, key=lambda p: p.fraction),
+										key=lambda a: a.fraction)
+		for k, v in by_fraction:
+			print(k)
+			for actor in v:
+				print(f" - {actor.full_name}")
 
 
-def get_simplified_actors():
-	return [simplify_actor(a) for a in get_relevant_actors()]
+class PoliticianExtractor(object):
+	def __init__(self, actors_path=ACTOR_JSON_INPUT_PATH):
+		self.actors_path = actors_path
+
+	def extract_politicians(self, pattern="*.json") -> Politicians:
+		return Politicians([simplify_actor(a) for a in get_relevant_actors(self.actors_path, pattern)])
 
 
-def print_actors_by_fraction():
-	actors = get_simplified_actors()
-	by_fraction = itertools.groupby(sorted(actors, key=lambda a: a['fraction']),
-									key=lambda a: a['fraction'])
-	for k, v in by_fraction:
-		print(k)
-		for actor in v:
-			print(f" - {actor['name']}")
+def print_politicians_by_fraction():
+	politicians = PoliticianExtractor().extract_politicians()
+
+	politicians.print_by_fraction()
 
 
 def simplify_actor(actor):
 	id = actor['id']
-	name = f"{actor['name']} {actor['fName']}"
+	full_name = f"{actor['name']} {actor['fName']}"
 	fraction = get_fraction(actor)
-	return dict(
+	return Politician(
 		id=id,
-		name=name,
+		full_name=full_name,
 		fraction=fraction
 	)
 
@@ -69,12 +95,13 @@ def get_fraction(actor):
 	raise Exception(f"could not determine faction for {a['name']} {a['fName']}")
 
 
-def get_relevant_actors():
-	actor_files = glob.glob(os.path.join(ACTOR_JSON_DIR, "*.json"))
+def get_relevant_actors(actors_path=(ACTOR_JSON_INPUT_PATH), pattern="*.json"):
+	actor_files = glob.glob(os.path.join(actors_path, pattern))
 	actors = []
 
 	for actor_file in tqdm(actor_files, desc="Processing actors..."):
-		actor_json = json.load(open(actor_file, 'r'))
+		with open(actor_file, 'r') as actor_fp:
+			actor_json = json.load(actor_fp)
 		if len(actor_json['items']) != 1:
 			raise Exception('weird file: %s', actor_file)
 
@@ -104,7 +131,11 @@ def get_leg55_role(actor):
 
 
 def main():
-	print_actors_by_fraction()
+	print_politicians_by_fraction()
+
+
+def create_json():
+	JsonSerializer().serialize_politicians(PoliticianExtractor().extract_politicians().politicians)
 
 
 if __name__ == "__main__":
