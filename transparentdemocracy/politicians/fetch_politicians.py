@@ -20,6 +20,7 @@ class Politicians:
 			raise Exception("empty list of politicians")
 		self.politicians = politicians
 		self.politicians_by_name = dict((p.full_name, p) for p in politicians)
+		self.politicians_by_id = dict((p.id, p) for p in politicians)
 
 	def get_by_name(self, name):
 		if name in self.politicians_by_name:
@@ -34,6 +35,9 @@ class Politicians:
 		best_name = min([(Levenshtein.distance(name, compare_name), compare_name) for compare_name in
 						 self.politicians_by_name.keys()])[1]
 		return self.politicians_by_name[best_name]
+
+	def __getitem__(self, item):
+		return self.politicians_by_id[item]
 
 	def print_by_party(self) -> None:
 		by_party = itertools.groupby(sorted(self.politicians, key=lambda p: p.party),

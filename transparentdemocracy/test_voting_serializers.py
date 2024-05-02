@@ -15,7 +15,7 @@ class TestMotionToMarkdownSerializer(unittest.TestCase):
 			expected_markdown = md_file.read()
 		plenary, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip298x.html'))
 
-		MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries([plenary])
+		MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries([plenary], votes)
 
 		with open(os.path.join(tmp_markdown_output_dir, 'plenary 298.md')) as plenary_file:
 			self.assertEqual(plenary_file.read(), expected_markdown)

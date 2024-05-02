@@ -1,10 +1,14 @@
+import itertools
 import json
 import os
 from typing import List
 
+import sys
+
 from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
+from transparentdemocracy.politicians.fetch_politicians import PoliticianExtractor, Politicians
 
 
 class MarkdownSerializer:
@@ -12,10 +16,12 @@ class MarkdownSerializer:
 		self.output_path = output_path
 		os.makedirs(output_path, exist_ok=True)
 
-	def serialize_plenaries(self, plenaries: List[Plenary]) -> None:
+	def serialize_plenaries(self, plenaries: List[Plenary], votes: List[Vote]) -> None:
+		politicians = PoliticianExtractor().extract_politicians()
+		votes_by_motion_id = dict([(k, list(v)) for k, v in itertools.groupby(votes, lambda v: v.motion_id)])
 		for plenary in plenaries:
 			markdown_result = ""
-			markdown_result = f"# Plenary gathering {plenary.number}\n\n"
+			markdown_result += f"# Plenary gathering {plenary.number}\n\n"
 			markdown_result += f"Legislature: {plenary.legislature}\n\n"
 			markdown_result += f"Source (HTML report): {plenary.pdf_report_url}\n\n"
 			markdown_result += f"PDF-formatted alternative: {plenary.html_report_url}\n\n"
@@ -24,7 +30,12 @@ class MarkdownSerializer:
 				markdown_result += self._serialize_proposal(proposal)
 
 			for motion in plenary.motions:
-				markdown_result += self._serialize_motion(motion)
+				motion_votes = dict(votes_by_motion_id).get(motion.id, None)
+				motion_votes = list(motion_votes) if motion_votes else []
+				# print("MMM", motion.id)
+				# print("VVV", votes[:5])
+
+				markdown_result += self._serialize_motion(motion, motion_votes)
 
 			with open(os.path.join(self.output_path, f"plenary {str(plenary.number).zfill(3)}.md"), "w",
 					  encoding="utf-8") as output_file:
@@ -43,12 +54,27 @@ class MarkdownSerializer:
 		markdown_result += "\n\n"
 		return markdown_result
 
-	def _serialize_motion(self, motion: Motion) -> None:
+	def _serialize_motion(self, motion: Motion, votes: List[Vote]) -> None:
 		markdown_result = f"Motion # {motion.number}."
 		if motion.cancelled:
 			markdown_result += " (cancelled)"
 		markdown_result += "\n\n"
+
+		yes_votes = [v for v in votes if v.vote_type == "YES"]
+		no_votes = [v for v in votes if v.vote_type == "NO"]
+		abstention_votes = [v for v in votes if v.vote_type == "ABSTENTION"]
+
+		markdown_result += " - YES: " + self.format_voter_names(yes_votes) + "\n"
+		markdown_result += " - NO: " + self.format_voter_names(no_votes) + "\n"
+		markdown_result += " - ABSTENTION: " + self.format_voter_names(abstention_votes) + "\n"
+		markdown_result += "\n"
+
 		return markdown_result
+
+	def format_voter_names(self, votes):
+		if len(votes) == 0:
+			return "--"
+		return ", ".join(v.politician.full_name for v in votes)
 
 	def _serialize_votes_for_type(votes: List[Vote], vote_type: VoteType):
 		markdown_result = ""
@@ -91,9 +117,9 @@ def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
 	write_votes_json(votes)
 
 
-def write_markdown():
+def write_plenaries_markdown():
 	plenaries, votes = extract_from_html_plenary_reports()
-	MarkdownSerializer().serialize_plenaries(plenaries)
+	MarkdownSerializer().serialize_plenaries(plenaries, votes)
 
 
 def write_plenaries_json():
