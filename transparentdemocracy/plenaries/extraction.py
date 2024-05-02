@@ -228,7 +228,6 @@ def get_names(sequence, count, log_type):
 
 	if len(names) != count:
 		logging.warning("vote count (%d) does not match voters %s (%s)" % (count, str(names), log_type))
-		return None
 
 	return names
 

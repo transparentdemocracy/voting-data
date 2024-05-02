@@ -4,8 +4,7 @@ from typing import List
 
 from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
-from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_report, \
-	extract_from_html_plenary_reports
+from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 
 
 class MarkdownSerializer:
@@ -73,13 +72,14 @@ class JsonSerializer:
 		self._serialize_list(plenaries, "plenaries.json")
 
 	def serialize_votes(self, votes: List[Vote]) -> None:
-		self._serialize_list(votes, "votes.json")
+		self._serialize_list([dict(
+			motion_id=v.motion_id,
+			vote_type=v.vote_type,
+			politician_id=v.politician.id) for v
+			in votes], "votes.json")
 
 	def _serialize_list(self, some_list: List, output_file: str) -> None:
-		list_json = json.dumps(
-			some_list,
-			default=lambda o: o.__dict__,
-			indent=4)
+		list_json = json.dumps(some_list, default=lambda o: o.__dict__)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
@@ -99,6 +99,7 @@ def write_markdown():
 def write_plenaries_json():
 	plenaries, votes = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_plenaries(plenaries)
+
 
 def write_votes_json():
 	plenaries, votes = extract_from_html_plenary_reports()
