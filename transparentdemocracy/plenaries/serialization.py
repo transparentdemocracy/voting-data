@@ -5,7 +5,7 @@ from typing import List
 
 import sys
 
-from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH
+from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH, PLENARY_HTML_INPUT_PATH
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 from transparentdemocracy.politicians.fetch_politicians import PoliticianExtractor, Politicians
@@ -41,13 +41,6 @@ class MarkdownSerializer:
 					  encoding="utf-8") as output_file:
 				output_file.write(markdown_result)
 
-	def serialize_votes(self, votes: List[Vote]) -> None:
-		markdown_result = ""
-		markdown_result += self._serialize_votes_for_type(votes, VoteType.YES)
-		markdown_result += self._serialize_votes_for_type(votes, VoteType.NO)
-		markdown_result += self._serialize_votes_for_type(votes, VoteType.ABSTENTION)
-		return markdown_result
-
 	def _serialize_proposal(self, proposal: Proposal) -> None:
 		markdown_result = f"## Proposal {proposal.number}\n\n"
 		markdown_result += proposal.description
@@ -60,31 +53,23 @@ class MarkdownSerializer:
 			markdown_result += " (cancelled)"
 		markdown_result += "\n\n"
 
-		yes_votes = [v for v in votes if v.vote_type == "YES"]
-		no_votes = [v for v in votes if v.vote_type == "NO"]
-		abstention_votes = [v for v in votes if v.vote_type == "ABSTENTION"]
+		markdown_result += self._serialize_votes(votes)
 
-		markdown_result += " - YES: " + self.format_voter_names(yes_votes) + "\n"
-		markdown_result += " - NO: " + self.format_voter_names(no_votes) + "\n"
-		markdown_result += " - ABSTENTION: " + self.format_voter_names(abstention_votes) + "\n"
 		markdown_result += "\n"
 
 		return markdown_result
 
-	def format_voter_names(self, votes):
-		if len(votes) == 0:
-			return "--"
-		return ", ".join(v.politician.full_name for v in votes)
-
-	def _serialize_votes_for_type(votes: List[Vote], vote_type: VoteType):
+	def _serialize_votes(self, votes: List[Vote]) -> None:
 		markdown_result = ""
-		votes_of_type = [vote for vote in votes if vote.vote_type == vote_type]
-		markdown_result += f"### {vote_type.name} votes"
-		if votes is None:
-			markdown_result += "???\n"
-		else:
-			markdown_result += f" ({len(votes_of_type)})\n"
-			markdown_result += ", ".join([vote.politician.full_name for vote in votes_of_type])
+		markdown_result += self._serialize_votes_for_type(votes, "YES", "Yes votes")
+		markdown_result += self._serialize_votes_for_type(votes, "NO", "No votes")
+		markdown_result += self._serialize_votes_for_type(votes, "ABSTENTION", "Abstentions")
+		return markdown_result
+
+	def _serialize_votes_for_type(self, votes: List[Vote], vote_type: VoteType, title: str):
+		filtered_votes = [v for v in votes if v.vote_type == vote_type]
+		markdown_result = f"### {title} ({len(filtered_votes)})\n\n"
+		markdown_result += ", ".join([vote.politician.full_name for vote in filtered_votes])
 		markdown_result += "\n\n"
 		return markdown_result
 
