@@ -96,13 +96,13 @@ class JsonSerializer:
 
 
 def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
-	write_markdown(plenaries)
+	write_markdown()
 
 	write_plenaries_json(plenaries)
 	write_votes_json(votes)
 
 
-def write_plenaries_markdown():
+def write_markdown():
 	plenaries, votes = extract_from_html_plenary_reports()
 	MarkdownSerializer().serialize_plenaries(plenaries, votes)
 
