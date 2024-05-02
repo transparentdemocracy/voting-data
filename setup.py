@@ -23,7 +23,7 @@ setuptools.setup(
 			'td-plenaries-json=transparentdemocracy.plenaries.serialization:write_plenaries_json',
 			'td-votes-json=transparentdemocracy.plenaries.serialization:write_votes_json',
 			'td-politicians-json=transparentdemocracy.politicians.fetch_politicians:create_json',
-			'td-print-politicians-by-fraction=transparentdemocracy.politicians.fetch_politicians:print_politicians_by_fraction',
+			'td-print-politicians-by-fraction=transparentdemocracy.politicians.fetch_politicians:print_politicians_by_party',
 		],
 	}
 )

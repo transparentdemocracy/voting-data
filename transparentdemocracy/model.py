@@ -44,7 +44,7 @@ class Plenary:
 class Politician:
     id: int
     full_name: str
-    fraction: str
+    party: str
 
 class VoteType(Enum):
     YES = "YES"

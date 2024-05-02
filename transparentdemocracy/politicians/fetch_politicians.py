@@ -35,10 +35,10 @@ class Politicians:
 						 self.politicians_by_name.keys()])[1]
 		return self.politicians_by_name[best_name]
 
-	def print_by_fraction(self) -> None:
-		by_fraction = itertools.groupby(sorted(self.politicians, key=lambda p: p.fraction),
-										key=lambda a: a.fraction)
-		for k, v in by_fraction:
+	def print_by_party(self) -> None:
+		by_party = itertools.groupby(sorted(self.politicians, key=lambda p: p.party),
+										key=lambda a: a.party)
+		for k, v in by_party:
 			print(k)
 			for actor in v:
 				print(f" - {actor.full_name}")
@@ -52,35 +52,35 @@ class PoliticianExtractor(object):
 		return Politicians([simplify_actor(a) for a in get_relevant_actors(self.actors_path, pattern)])
 
 
-def print_politicians_by_fraction():
+def print_politicians_by_party():
 	politicians = PoliticianExtractor().extract_politicians()
 
-	politicians.print_by_fraction()
+	politicians.print_by_party()
 
 
 def simplify_actor(actor):
 	id = actor['id']
 	full_name = f"{actor['name']} {actor['fName']}"
-	fraction = get_fraction(actor)
+	party = get_party(actor)
 	return Politician(
 		id=id,
 		full_name=full_name,
-		fraction=fraction
+		party=party
 	)
 
 
-def get_fraction(actor):
-	def is_fraction_member(role):
+def get_party(actor):
+	def is_party_member(role):
 		return role['functionSummary'][
 			'fullNameNL'] == "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid"
 
 	def is_leg_55(role):
 		return "Leg 55" in role["ouSummary"]["fullNameNL"]
 
-	membership_roles = list(filter(lambda r: is_leg_55(r) and is_fraction_member(r), actor['role']))
+	membership_roles = list(filter(lambda r: is_leg_55(r) and is_party_member(r), actor['role']))
 
 	if len(membership_roles) == 0:
-		logger.info(f"could not determine fraction for {actor['id']} {actor['name']} {actor['fName']}")
+		logger.info(f"could not determine party for {actor['id']} {actor['name']} {actor['fName']}")
 		return "unknown"
 
 	faction_full = membership_roles[-1]["ouSummary"]["fullNameNL"]
@@ -132,7 +132,7 @@ def get_leg55_role(actor):
 
 
 def main():
-	print_politicians_by_fraction()
+	print_politicians_by_party()
 
 
 def create_json():
