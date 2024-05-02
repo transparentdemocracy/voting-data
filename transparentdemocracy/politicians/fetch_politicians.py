@@ -28,6 +28,7 @@ class Politicians:
 			result = self._find_best_match(name)
 			self.politicians_by_name[name] = result
 			logger.warning(f"Non exact name match: {name} -> {result.full_name}")
+			return result
 
 	def _find_best_match(self, name):
 		best_name = min([(Levenshtein.distance(name, compare_name), compare_name) for compare_name in

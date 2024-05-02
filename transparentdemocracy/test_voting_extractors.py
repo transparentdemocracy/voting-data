@@ -3,7 +3,7 @@ import os
 import unittest
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
-from transparentdemocracy.plenaries.extraction import extract_plenaries_from_html_reports, \
+from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
 	extract_from_html_plenary_report
 
 logger = logging.getLogger(__name__)
@@ -15,7 +15,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):
-		actual = extract_plenaries_from_html_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
+		actual = extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
 
 		self.assertEqual(len(actual), 300)
 
@@ -82,4 +82,10 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 		names_with_dots = [name for name in names if "." in name]
 		self.assertEqual([], names_with_dots)
+
+	def test_votes_must_have_politician(self):
+		actual, votes = extract_from_html_plenary_reports()
+
+		for vote in votes:
+			self.assertIsNotNone(vote.politician)
 

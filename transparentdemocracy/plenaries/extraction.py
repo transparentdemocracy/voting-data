@@ -20,7 +20,7 @@ from transparentdemocracy.politicians.fetch_politicians import Politicians, Poli
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-def extract_plenaries_from_html_reports(
+def extract_from_html_plenary_reports(
 		report_file_pattern: str = os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"),
 		num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote]]:
 	politicians = PoliticianExtractor().extract_politicians()
@@ -248,7 +248,7 @@ def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType,
 
 
 def main():
-	extract_plenaries_from_html_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
+	extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
 
 
 if __name__ == "__main__":

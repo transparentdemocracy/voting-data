@@ -5,7 +5,7 @@ from typing import List
 from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_report, \
-	extract_plenaries_from_html_reports
+	extract_from_html_plenary_reports
 
 
 class MarkdownSerializer:
@@ -92,16 +92,16 @@ def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
 
 
 def write_markdown():
-	plenaries, votes = extract_plenaries_from_html_reports()
+	plenaries, votes = extract_from_html_plenary_reports()
 	MarkdownSerializer().serialize_plenaries(plenaries)
 
 
 def write_plenaries_json():
-	plenaries, votes = extract_plenaries_from_html_reports()
+	plenaries, votes = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_plenaries(plenaries)
 
 def write_votes_json():
-	plenaries, votes = extract_plenaries_from_html_reports()
+	plenaries, votes = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_votes(votes)
 
 
