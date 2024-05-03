@@ -1,11 +1,13 @@
 import itertools
 import json
 import os
+from dataclasses import asdict
 from typing import List
 
 import sys
 
 from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH, PLENARY_HTML_INPUT_PATH
+from transparentdemocracy.json_serde import DateTimeEncoder
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 from transparentdemocracy.politicians.fetch_politicians import PoliticianExtractor, Politicians
@@ -32,8 +34,6 @@ class MarkdownSerializer:
 			for motion in plenary.motions:
 				motion_votes = dict(votes_by_motion_id).get(motion.id, None)
 				motion_votes = list(motion_votes) if motion_votes else []
-				# print("MMM", motion.id)
-				# print("VVV", votes[:5])
 
 				markdown_result += self._serialize_motion(motion, motion_votes)
 
@@ -75,12 +75,12 @@ class MarkdownSerializer:
 
 
 class JsonSerializer:
-	def __init__(self):
-		self.plenary_output_json_path = PLENARY_JSON_OUTPUT_PATH
+	def __init__(self, output_path=PLENARY_JSON_OUTPUT_PATH):
+		self.plenary_output_json_path = output_path
 		os.makedirs(self.plenary_output_json_path, exist_ok=True)
 
 	def serialize_plenaries(self, plenaries: List[Plenary]) -> None:
-		self._serialize_list(plenaries, "plenaries.json")
+		self._serialize_plenaries(plenaries, "plenaries.json")
 
 	def serialize_votes(self, votes: List[Vote]) -> None:
 		self._serialize_list([dict(
@@ -89,10 +89,19 @@ class JsonSerializer:
 			politician_id=v.politician.id) for v
 			in votes], "votes.json")
 
+	def _serialize_plenaries(self, some_list: List[Plenary], output_file: str) -> None:
+		list_json = json.dumps([asdict(p) for p in some_list], cls=DateTimeEncoder)
+		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
+			output_file.write(list_json)
+
 	def _serialize_list(self, some_list: List, output_file: str) -> None:
 		list_json = json.dumps(some_list, default=lambda o: o.__dict__)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
+
+
+def to_plenary_dict(plenary: Plenary):
+	return dict(to_plenary_dict.__dict__)
 
 
 def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
@@ -117,5 +126,9 @@ def write_votes_json():
 	JsonSerializer().serialize_votes(votes)
 
 
-if __name__ == "__main__":
+def main():
 	write_markdown()
+
+
+if __name__ == "__main__":
+	main()

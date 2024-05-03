@@ -1,13 +1,14 @@
+import json
+import os
 import tempfile
 import unittest
-import os
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_report
-from transparentdemocracy.plenaries.serialization import MarkdownSerializer
+from transparentdemocracy.plenaries.serialization import MarkdownSerializer, JsonSerializer
 
 
-class TestMotionToMarkdownSerializer(unittest.TestCase):
+class TestPlenaryMarkdownSerializer(unittest.TestCase):
 
 	def test_serialize(self):
 		tmp_markdown_output_dir = tempfile.mkdtemp("plenary-markdown-")
@@ -19,3 +20,19 @@ class TestMotionToMarkdownSerializer(unittest.TestCase):
 
 		with open(os.path.join(tmp_markdown_output_dir, 'plenary 298.md')) as plenary_file:
 			self.assertEqual(plenary_file.read(), expected_markdown)
+
+
+class TestPlenaryJsonSerializer(unittest.TestCase):
+
+	def test_serialize(self):
+		tmp_json_output_dir = tempfile.mkdtemp("plenary-json")
+		serializer = JsonSerializer(tmp_json_output_dir)
+		plenary, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip298x.html'))
+
+		serializer.serialize_plenaries([plenary])
+
+		with open(os.path.join(tmp_json_output_dir, "plenaries.json")) as fp:
+			actual_json = json.load(fp)
+		self.assertEqual(actual_json[0]['id'], "55_298")
+		self.assertEqual(actual_json[0]['date'], "2024-04-04")
+
