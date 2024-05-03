@@ -60,6 +60,7 @@ Note that you should run `. venv/bin/activate` (or equivalent) whenever you want
 ### Install requirements
 
     pip install -r requirements.txt
+    pip install setuptools
 
 ### Install the project in developer mode
 
