@@ -7,6 +7,7 @@ It is split into two parts, which in the end result in two datasets:
 """
 
 from dataclasses import dataclass
+from datetime import date
 from enum import Enum
 from typing import List
 
@@ -31,6 +32,7 @@ class Motion:
 class Plenary:
     id: str
     number: int  # sequence number of the plenary in the series of plenaries during a legislature.
+    date: date
     legislature: int
     pdf_report_url: str
     html_report_url: str

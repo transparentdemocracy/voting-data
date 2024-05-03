@@ -2,7 +2,7 @@
 Extract info from HTML-formatted voting reports from the Belgian federal chamber's website,
 see https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 """
-
+import datetime
 import glob
 import logging
 import os
@@ -19,6 +19,10 @@ from transparentdemocracy.politicians.fetch_politicians import Politicians, Poli
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
+
+DAYS_NL = "maandag,dinsdag,woensdag,donderdag,vrijdag,zaterdag,zondag".split(",")
+MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktober,november,december".split(",")
+
 
 def extract_from_html_plenary_reports(
 		report_file_pattern: str = os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"),
@@ -51,12 +55,16 @@ def extract_from_html_plenary_reports(
 def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
 	Plenary, List[Vote]]:
 	politicians = politicians or PoliticianExtractor().extract_politicians()
-	with open(report_filename, "r", encoding="cp1252") as file:
-		html_content = file.read()
-
-	html = BeautifulSoup(html_content, "html.parser")
+	html = read_plenary_html(report_filename)
 
 	return __extract_plenary(report_filename, html, politicians)
+
+
+def read_plenary_html(report_filename):
+	with open(report_filename, "r", encoding="cp1252") as file:
+		html_content = file.read()
+	html = BeautifulSoup(html_content, "html.parser")
+	return html
 
 
 def __extract_plenary(report_filename: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
@@ -69,6 +77,7 @@ def __extract_plenary(report_filename: str, html, politicians: Politicians) -> T
 		Plenary(
 			plenary_id,
 			int(plenary_number),
+			get_plenary_date(report_filename, html),
 			legislature,
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
@@ -244,6 +253,29 @@ def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType,
 				vote_type.value
 			) for voter_name in voter_names
 		]
+
+
+def get_plenary_date(path, html):
+	first_table_paragraphs = [p.text for p in html.find('table').select('p')]
+	text_containing_weekday = [t.lower() for t in first_table_paragraphs if any([m in t.lower() for m in DAYS_NL])]
+	if len(text_containing_weekday) > 0:
+		for candidate in text_containing_weekday:
+			parts = re.split("\\s+", candidate)
+			if len(parts) == 4:
+				day = int(parts[1].strip())
+				month = MONTHS_NL.index(parts[2].strip()) + 1
+				year = int(parts[3].strip())
+				if month > 0:
+					return datetime.date.fromisoformat("%d-%02d-%02d" % (year, month, day))
+
+	matches = [re.match("(\\d)+-(\\d+)-(\\d{4})", t.strip()) for t in first_table_paragraphs]
+	for match in [m for m in matches if m]:
+		day = int(match.group(1), 10)
+		month = int(match.group(2), 10)
+		year = int(match.group(3), 10)
+		return datetime.date.fromisoformat("%d-%02d-%02d" % (year, month, day))
+
+	raise Exception(f"Could not find determine date for {path}")
 
 
 def main():

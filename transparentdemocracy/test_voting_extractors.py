@@ -1,6 +1,7 @@
 import logging
 import os
 import unittest
+from datetime import date
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
@@ -84,6 +85,22 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual([], names_with_dots)
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
+	def test_votes_must_have_politician(self):
+		actual, votes = extract_from_html_plenary_reports()
+
+		for vote in votes:
+			self.assertIsNotNone(vote.politician)
+
+	def test_plenary_date1(self):
+		plenary, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, "ip123x.html"))
+
+		self.assertEqual(plenary.date, date.fromisoformat("2021-07-19"))
+
+	def test_plenary_date2(self):
+		plenary, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, "ip007x.html"))
+
+		self.assertEqual(plenary.date, date.fromisoformat("2019-10-03"))
+
 	def test_votes_must_have_politician(self):
 		actual, votes = extract_from_html_plenary_reports()
 
