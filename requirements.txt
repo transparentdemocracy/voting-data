@@ -2,3 +2,4 @@ beautifulsoup4==4.12.3
 nltk==3.8.1
 tqdm==4.66.2
 python-Levenshtein==0.25.1
+openai==1.25.1

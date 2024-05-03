@@ -65,11 +65,19 @@ Note that you should run `. venv/bin/activate` (or equivalent) whenever you want
 
     python setup.py develop --user
 
+### Set up OpenAI
+
+Sign up for the OpenAI API at https://openai.com/index/openai-api.
+
+Create a new secret ket at https://platform.openai.com/api-keys
+
+Set the OPENAI_API_KEY environment variable to the secret key you just created.
+
+    export OPENAI_API_KEY=sk-...
+
 ## Testing
 
 Run `./test.sh` to run unit tests.
 
 Note: one of the tests is rather slow, you can skip it by setting the SKIP_SLOW environment variable: `SKIP_SLOW=1 ./test.sh`
-
-    
 
