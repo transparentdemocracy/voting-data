@@ -1,8 +1,11 @@
+import os
 import unittest
 
 from motions.motion_summarizer import MotionSummarizer
 
 class TestMotionSummarizer(unittest.TestCase):
+
+    @unittest.skipIf("OPENAI_API_KEY" not in os.environ, "test needs an openapi key")
     def test_summarize(self):
         motion_description = ("20 Wetsontwerp houdende instemming met het samenwerkingsakkoord van 7 februari 2024 tot "
                               "wijziging van het samenwerkingsakkoord van 19 maart 2020 tussen de Federale Staat, "
