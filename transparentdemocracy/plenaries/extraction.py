@@ -7,7 +7,7 @@ import glob
 import logging
 import os
 import re
-from typing import Tuple, List
+from typing import Tuple, List, Any
 
 from bs4 import BeautifulSoup
 from nltk.tokenize import WhitespaceTokenizer
@@ -15,7 +15,7 @@ from tqdm.auto import tqdm
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
-from transparentdemocracy.politicians.fetch_politicians import Politicians, PoliticianExtractor
+from transparentdemocracy.politicians.extraction import Politicians, PoliticianExtractor, load_politicians
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -27,7 +27,7 @@ MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktob
 def extract_from_html_plenary_reports(
 		report_file_pattern: str = os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"),
 		num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote]]:
-	politicians = PoliticianExtractor().extract_politicians()
+	politicians = load_politicians()
 	plenaries = []
 	all_votes = []
 	logging.info(f"Report files must be found at: {report_file_pattern}.")
@@ -54,7 +54,7 @@ def extract_from_html_plenary_reports(
 
 def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
 	Plenary, List[Vote]]:
-	politicians = politicians or PoliticianExtractor().extract_politicians()
+	politicians = politicians or load_politicians()
 	html = read_plenary_html(report_filename)
 
 	return __extract_plenary(report_filename, html, politicians)
@@ -71,7 +71,7 @@ def __extract_plenary(report_filename: str, html, politicians: Politicians) -> T
 	plenary_number = os.path.split(report_filename)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
-	proposals, motions, votes = __extract_motions(report_filename, plenary_id, html, politicians)
+	proposals, motions, votes, sections = __extract_motions(report_filename, plenary_id, html, politicians)
 
 	return (
 		Plenary(
@@ -82,14 +82,15 @@ def __extract_plenary(report_filename: str, html, politicians: Politicians) -> T
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
 			proposals,
-			motions
+			motions,
+			sections
 		),
 		votes
 	)
 
 
 def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: Politicians) -> Tuple[
-	Proposal, List[Motion], List[Vote]]:
+	Proposal, List[Motion], List[Vote], List[Any]]:
 	tokens = WhitespaceTokenizer().tokenize(html.text)
 
 	votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
@@ -126,9 +127,9 @@ def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: P
 		no_count = int(seq[no_start + 1], 10)
 		abstention_count = int(seq[abstention_start + 1], 10)
 
-		yes_voter_names = get_names(seq[yes_start + 3: no_start], yes_count, 'yes')
-		no_voter_names = get_names(seq[no_start + 3:abstention_start], no_count, 'no')
-		abstention_voter_names = get_names(seq[abstention_start + 3:], abstention_count, 'abstention')
+		yes_voter_names = get_names(seq[yes_start + 3: no_start], yes_count, 'yes', motion_id)
+		no_voter_names = get_names(seq[no_start + 3:abstention_start], no_count, 'no', motion_id)
+		abstention_voter_names = get_names(seq[abstention_start + 3:], abstention_count, 'abstention', motion_id)
 
 		# Create the votes:
 		votes.extend(
@@ -154,7 +155,26 @@ def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: P
 			cancelled
 		))
 
-	return proposals, motions, votes
+	sections = extract_sections(html)
+	return proposals, motions, votes, sections
+
+
+def extract_sections(html: BeautifulSoup) -> List[Any]:
+	assert html is not None
+
+	# TODO find sections marked by numbers-in-squares
+	# Each section contains a list of html elements that it contains
+	# Then detect features about each section. A feature refers to the html element (or elements) that explain how it was detected
+	# possible feature types:
+	# - type: wetsontwerp/interpellatie/... indicated right after the numbered square
+	# - link-to-proposal
+	# - number-of-articles,
+	# - links to documents (kamerstukken)
+	# - votes
+	# - language of html elements
+
+	# TODO: actually implement
+	return []
 
 
 def find_occurrences(tokens, query):
@@ -232,11 +252,12 @@ def get_sequence(tokens, query):
 	raise ValueError("query %s not found in tokens %s" % (str(query), str(tokens)))
 
 
-def get_names(sequence, count, log_type):
+def get_names(sequence, count, log_type, location="unknown location"):
 	names = [n.strip().replace(".", "") for n in (" ".join(sequence).strip()).split(",") if n.strip() != '']
 
 	if len(names) != count:
-		logging.warning("vote count (%d) does not match voters %s (%s)" % (count, str(names), log_type))
+		logging.warning(
+			"vote count (%d) ./does not match voters %s (%s) at %s" % (count, str(names), log_type, location))
 
 	return names
 
@@ -280,6 +301,7 @@ def get_plenary_date(path, html):
 
 def main():
 	extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
+	# extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html"))
 
 
 if __name__ == "__main__":

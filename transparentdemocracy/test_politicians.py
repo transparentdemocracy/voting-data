@@ -1,6 +1,6 @@
 import unittest
 
-from transparentdemocracy.politicians.fetch_politicians import PoliticianExtractor
+from transparentdemocracy.politicians.extraction import PoliticianExtractor
 
 
 class TestPoliticians(unittest.TestCase):

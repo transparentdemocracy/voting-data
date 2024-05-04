@@ -4,13 +4,10 @@ import os
 from dataclasses import asdict
 from typing import List
 
-import sys
-
-from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH, PLENARY_HTML_INPUT_PATH
+from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH
 from transparentdemocracy.json_serde import DateTimeEncoder
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
-from transparentdemocracy.politicians.fetch_politicians import PoliticianExtractor, Politicians
 
 
 class MarkdownSerializer:
@@ -19,7 +16,6 @@ class MarkdownSerializer:
 		os.makedirs(output_path, exist_ok=True)
 
 	def serialize_plenaries(self, plenaries: List[Plenary], votes: List[Vote]) -> None:
-		politicians = PoliticianExtractor().extract_politicians()
 		votes_by_motion_id = dict([(k, list(v)) for k, v in itertools.groupby(votes, lambda v: v.motion_id)])
 		for plenary in plenaries:
 			markdown_result = ""

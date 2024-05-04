@@ -7,7 +7,7 @@ import os
 import Levenshtein
 from tqdm.asyncio import tqdm
 
-from transparentdemocracy import ACTOR_JSON_INPUT_PATH
+from transparentdemocracy import ACTOR_JSON_INPUT_PATH, POLITICIANS_JSON_OUTPUT_PATH
 from transparentdemocracy.model import Politician
 from transparentdemocracy.politicians.serialization import JsonSerializer
 
@@ -41,7 +41,7 @@ class Politicians:
 
 	def print_by_party(self) -> None:
 		by_party = itertools.groupby(sorted(self.politicians, key=lambda p: p.party),
-										key=lambda a: a.party)
+									 key=lambda a: a.party)
 		for k, v in by_party:
 			print(k)
 			for actor in v:
@@ -120,6 +120,18 @@ def get_relevant_actors(actors_path=(ACTOR_JSON_INPUT_PATH), pattern="*.json"):
 	logger.info(f"Returning {len(actors)} relevant actors out of {len(actor_files)}")
 	return actors
 
+
+def load_politicians() -> Politicians:
+	with open(os.path.join(POLITICIANS_JSON_OUTPUT_PATH, "politicians.json")) as fp:
+		return Politicians([json_dict_to_politician(data) for data in json.load(fp)])
+
+
+def json_dict_to_politician(data):
+	return Politician(
+		int(data['id']),
+		data['full_name'],
+		data['party']
+	)
 
 def get_leg55_role(actor):
 	plenum_fullname = '/Wetgevende macht/Kvvcr/Leg 55/Plenum/PLENUMVERGADERING'

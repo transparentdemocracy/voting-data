@@ -12,7 +12,7 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
 
 	def test_serialize(self):
 		tmp_markdown_output_dir = tempfile.mkdtemp("plenary-markdown-")
-		with open(os.path.join('fixtures', 'plenary 298.md'), 'r') as md_file:
+		with open(os.path.join(os.path.dirname(__file__), 'fixtures', 'plenary 298.md'), 'r') as md_file:
 			expected_markdown = md_file.read()
 		plenary, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip298x.html'))
 

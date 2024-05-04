@@ -9,7 +9,7 @@ It is split into two parts, which in the end result in two datasets:
 from dataclasses import dataclass
 from datetime import date
 from enum import Enum
-from typing import List
+from typing import List, Any
 
 
 # Classes related to the plenaries and their "topics": proposals, motions (and later: interpellations).
@@ -38,6 +38,7 @@ class Plenary:
     html_report_url: str
     proposals: List[Proposal]
     motions: List[Motion]
+    sections: List[Any]
 
 
 # Classes related to the detail of votes cast in plenaries:
