@@ -165,6 +165,10 @@ cython_debug/
 # Visual Studio Code
 .vscode/
 
+# Mac folder attributes
+.DS_Store
+
+# Input data folders - we trust our source websites to be reliable and don't keep a duplicate.
 data/input/plenary/pdf/
 data/input/plenary/html/
 data/input/actors/

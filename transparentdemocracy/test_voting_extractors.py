@@ -28,6 +28,33 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		# TODO: Improve how we handle parsing problems
 		self.assertEqual(len(motions_with_problems), 17)
 
+	def test_extract_from_html_plenary_report__ip298x_html(self):
+		# Arrange
+		ip_298x_html = os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html")
+
+		# Act
+		plenary, votes = extract_from_html_plenary_report(ip_298x_html)
+
+		# Assert
+		# The plenary info is extracted correctly:
+		self.assertEqual(plenary.id, "55_298")
+		self.assertEqual(plenary.number, 298)
+		self.assertEqual(plenary.date, date(2024, 4, 4))
+		self.assertEqual(plenary.legislature, 55)
+		self.assertEqual(plenary.pdf_report_url, "https://www.dekamer.be/doc/PCRI/pdf/55/ip298.pdf")
+		self.assertEqual(plenary.html_report_url, "https://www.dekamer.be/doc/PCRI/html/55/ip298x.html")
+
+		# The proposals are extracted correctly:
+		self.assertEqual(len(plenary.proposals), 6)
+		self.assertEqual(plenary.proposals[0].id, "55_298_p01")
+		self.assertEqual(plenary.proposals[0].number, 1)
+		self.assertEqual(plenary.proposals[0].plenary_id, "55_298")
+		self.assertEqual(plenary.proposals[0].title_fr, "Projet de loi optimisant le fonctionnement de l'Organe central pour la Saisie et la Confiscation et de l'Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la loi sur les armes")
+		self.assertEqual(plenary.proposals[0].title_nl, "Wetsontwerp houdende optimalisatie van de werking van het Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en het Overlegorgaan voor de coördinatie van de invordering van niet-fiscale schulden in strafzaken en houdende wijziging van de Wapenwet")
+		self.assertEqual(plenary.proposals[0].document_reference, "3849/1-4")
+		self.assertTrue(plenary.proposals[0].description.startswith("Nous passons à la discussion des articles."))
+		self.assertTrue(plenary.proposals[0].description.endswith("De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden."))
+
 	@unittest.skip(
 		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
 	def test_extract_ip67(self):

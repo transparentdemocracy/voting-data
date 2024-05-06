@@ -19,6 +19,9 @@ class Proposal:
     id: str
     number: str  # sequence number of the proposal in the series of proposals discussed during a plenary.
     plenary_id: str
+    title_fr: str
+    title_nl: str
+    document_reference: str
     description: str
 
 @dataclass

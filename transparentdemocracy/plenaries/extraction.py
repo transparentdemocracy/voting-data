@@ -55,12 +55,11 @@ def extract_from_html_plenary_reports(
 def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
 	Plenary, List[Vote]]:
 	politicians = politicians or load_politicians()
-	html = read_plenary_html(report_filename)
-
+	html = __read_plenary_html(report_filename)
 	return __extract_plenary(report_filename, html, politicians)
 
 
-def read_plenary_html(report_filename):
+def __read_plenary_html(report_filename):
 	with open(report_filename, "r", encoding="cp1252") as file:
 		html_content = file.read()
 	html = BeautifulSoup(html_content, "html.parser")
@@ -71,13 +70,14 @@ def __extract_plenary(report_filename: str, html, politicians: Politicians) -> T
 	plenary_number = os.path.split(report_filename)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
-	proposals, motions, votes, sections = __extract_motions(report_filename, plenary_id, html, politicians)
+	proposals = __extract_proposals(html, plenary_id)
+	motions, votes, sections = __extract_motions(plenary_id, html, politicians)
 
 	return (
 		Plenary(
 			plenary_id,
 			int(plenary_number),
-			get_plenary_date(report_filename, html),
+			__get_plenary_date(report_filename, html),
 			legislature,
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
@@ -89,7 +89,69 @@ def __extract_plenary(report_filename: str, html, politicians: Politicians) -> T
 	)
 
 
-def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: Politicians) -> Tuple[
+def __extract_proposals(html, plenary_id: str) -> List[Proposal]:
+	proposals = []
+
+	# We'll be able to extract the proposals after the header of the proposals section in the plenary report:
+	proposals_section_header = [h1_span for h1_span in html.select("h1 span") if h1_span.text == "Projets de loi"][0].find_parent("h1")
+	
+	# Find all sibling h2 headers, until the next h1 header: 
+	# (Indeed, proposals_section_header.find_next_siblings("h2") returns headers that are not about proposals anymore, which are below next h1 section headers.)
+	proposal_headers = __find_next_siblings_before_tag(start_element=proposals_section_header, stop_tag_name="h1")
+	
+	# Extract the proposal number and titles (in Dutch and French):
+	for idx, proposal_header in enumerate(proposal_headers):
+		if idx % 2 == 0:
+			# The first h2 header in a sequence of two consecutive h2 headers should be the proposal title in French:
+			proposal_number, title_fr = [span.text.strip() for span in proposal_header.findChildren("span")]
+		
+		if idx % 2 == 1:
+			# The second h2 header in a sequence of two consecutive h2 headers should be the proposal title in Dutch:
+			proposal_number2, title_nl = [span.text.strip() for span in proposal_header.findChildren("span")]
+
+		# Quality check: both consecutive h2 headers must mention the same proposal number, otherwise we are processing headers of different proposals:		
+		assert proposal_number2 == proposal_number
+
+		# Extract the proposal document reference (for example, "... les armes (3849/1-4)" should result in "3849/1-4"):
+		doc_ref = title_nl.split(" ")[-1].replace("(", "").replace(")", "")
+
+		# Quality check: the document reference found in the Dutch title should be the same as in the French title:
+		doc_ref2 = title_nl.split(" ")[-1].replace("(", "").replace(")", "")
+		assert doc_ref2 == doc_ref
+
+		# Extract the description of the proposal, below the "Bespreking van de artikelen" header between the proposal title, and the next proposal title:
+		description_header = [
+			sibling_tag for sibling_tag in __find_next_siblings_before_tag(start_element=proposal_header, stop_tag_name="h2")
+			if sibling_tag["class"]=="Titre3NL" and sibling_tag.findChildren("span")
+		][0]
+		description = "\n".join([
+			description_span.text.strip() for description_span in __find_next_siblings_before_tag(description_header, "h2")
+		])
+
+		# Add a proposal with the extracted info:
+		proposals.append(Proposal(
+			f"{plenary_id}_p{proposal_number}",
+			proposal_number,
+			plenary_id,
+			title_fr,
+			title_nl,
+			doc_ref,
+			description
+		))
+
+	return proposals
+
+
+def __find_next_siblings_before_tag(start_element, stop_tag_name: str):
+	current_element = start_element
+	siblings = []
+	while (current_element.next_sibling.name != stop_tag_name):
+		siblings.append(current_element)
+		current_element = current_element.next_sibling
+	return siblings
+
+
+def __extract_motions(plenary_id: str, html, politicians: Politicians) -> Tuple[
 	Proposal, List[Motion], List[Vote], List[Any]]:
 	tokens = WhitespaceTokenizer().tokenize(html.text)
 
@@ -98,21 +160,12 @@ def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: P
 	bounds = zip(votings, votings[1:] + [len(tokens)])
 	voting_sequences = [tokens[start:end] for start, end in bounds]
 
-	motion_blocks_by_nr = get_motion_blocks_by_nr(plenary_report, html)
-	proposals = []
 	motions = []
 	votes = []
 
 	for seq in voting_sequences:
 		motion_number = int(seq[4], 10)
 		motion_id = f"{plenary_id}_{motion_number}"
-
-		proposal_id = motion_id
-		proposal_number = motion_number
-		proposal_description = "\n".join([el.text for el in motion_blocks_by_nr[motion_number][1:]]) \
-			if motion_number in motion_blocks_by_nr \
-			else "??? text not found ???"
-
 		cancelled = sum([1 if "geannuleerd" in token else 0 for token in seq[4:8]]) > 0
 
 		# Extract detailed votes:
@@ -138,15 +191,6 @@ def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: P
 			create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, motion_id, politicians)
 		)
 
-		# Create the proposal:
-		proposal = Proposal(
-			proposal_id,
-			proposal_number,
-			plenary_id,
-			proposal_description
-		)
-		proposals.append(proposal)
-
 		# Create the motion:
 		motions.append(Motion(
 			motion_id,
@@ -156,7 +200,7 @@ def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: P
 		))
 
 	sections = extract_sections(html)
-	return proposals, motions, votes, sections
+	return motions, votes, sections
 
 
 def extract_sections(html: BeautifulSoup) -> List[Any]:
@@ -276,7 +320,7 @@ def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType,
 		]
 
 
-def get_plenary_date(path, html):
+def __get_plenary_date(path, html):
 	first_table_paragraphs = [p.text for p in html.find('table').select('p')]
 	text_containing_weekday = [t.lower() for t in first_table_paragraphs if any([m in t.lower() for m in DAYS_NL])]
 	if len(text_containing_weekday) > 0:
