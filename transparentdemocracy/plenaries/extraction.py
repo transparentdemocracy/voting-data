@@ -9,7 +9,7 @@ import os
 import re
 from typing import Tuple, List, Any
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
@@ -62,7 +62,7 @@ def extract_from_html_plenary_report(report_filename: str, politicians: Politici
 def __read_plenary_html(report_filename):
 	with open(report_filename, "r", encoding="cp1252") as file:
 		html_content = file.read()
-	html = BeautifulSoup(html_content, "html.parser")
+	html = BeautifulSoup(html_content, "html.parser")   # "lxml")
 	return html
 
 
@@ -94,61 +94,128 @@ def __extract_proposals(html, plenary_id: str) -> List[Proposal]:
 
 	# We'll be able to extract the proposals after the header of the proposals section in the plenary report:
 	proposals_section_header = [h1_span for h1_span in html.select("h1 span") if h1_span.text == "Projets de loi"][0].find_parent("h1")
-	
+
 	# Find all sibling h2 headers, until the next h1 header: 
 	# (Indeed, proposals_section_header.find_next_siblings("h2") returns headers that are not about proposals anymore, which are below next h1 section headers.)
-	proposal_headers = __find_next_siblings_before_tag(start_element=proposals_section_header, stop_tag_name="h1")
+	proposal_headers = [
+		sibling for sibling in __find_siblings_between_elements(start_element=proposals_section_header, stop_element_name="h1", filter_tag_name="h2")
+		if type(sibling) is not NavigableString # = Text in the HTML that is not enclosed within tags
+	]
+	# print(proposal_headers)
+	
+	proposal_number = None
+	title_fr = None
+	title_nl = None
+	doc_ref = None
+	description = None
+	# TODO cleaner would be to write the for loop below in pairs of headers.
 	
 	# Extract the proposal number and titles (in Dutch and French):
 	for idx, proposal_header in enumerate(proposal_headers):
 		if idx % 2 == 0:
 			# The first h2 header in a sequence of two consecutive h2 headers should be the proposal title in French:
-			proposal_number, title_fr = [span.text.strip() for span in proposal_header.findChildren("span")]
-		
+			# print(proposal_header)
+			proposal_number, title_fr, doc_ref = __split_proposal_header(proposal_header)
+
 		if idx % 2 == 1:
 			# The second h2 header in a sequence of two consecutive h2 headers should be the proposal title in Dutch:
-			proposal_number2, title_nl = [span.text.strip() for span in proposal_header.findChildren("span")]
+			proposal_number2, title_nl, doc_ref2 = __split_proposal_header(proposal_header)
 
-		# Quality check: both consecutive h2 headers must mention the same proposal number, otherwise we are processing headers of different proposals:		
-		assert proposal_number2 == proposal_number
+			# Quality check: both consecutive h2 headers must mention the same proposal number, otherwise we are processing headers of different proposals:		
+			assert proposal_number2 == proposal_number
 
-		# Extract the proposal document reference (for example, "... les armes (3849/1-4)" should result in "3849/1-4"):
-		doc_ref = title_nl.split(" ")[-1].replace("(", "").replace(")", "")
+			# Quality check: the document reference found in the Dutch title should be the same as in the French title:
+			assert doc_ref2 == doc_ref
 
-		# Quality check: the document reference found in the Dutch title should be the same as in the French title:
-		doc_ref2 = title_nl.split(" ")[-1].replace("(", "").replace(")", "")
-		assert doc_ref2 == doc_ref
+			# Extract the description of the proposal, below the "Bespreking van de artikelen" header between the proposal title, and the next proposal title:
+			description_header = [
+				sibling_tag for sibling_tag in __find_siblings_between_elements(start_element=proposal_header, stop_element_name="h2", filter_class_name="Titre3NL")
+				if type(sibling_tag) is not NavigableString # otherwise .findChild() cannot be used next.
+				and sibling_tag.findChild("span").text.strip().replace("\n", " ") == "Bespreking van de artikelen"
+			][0]
+			description_nl = "\n".join([
+				description_span.text.strip().replace("\n", " ") for description_span in __find_siblings_between_elements(description_header, "h2", filter_class_name="NormalNL")
+			])
+			description_fr = "\n".join([
+				description_span.text.strip().replace("\n", " ") for description_span in __find_siblings_between_elements(description_header, "h2", filter_class_name="NormalFR")
+			])
 
-		# Extract the description of the proposal, below the "Bespreking van de artikelen" header between the proposal title, and the next proposal title:
-		description_header = [
-			sibling_tag for sibling_tag in __find_next_siblings_before_tag(start_element=proposal_header, stop_tag_name="h2")
-			if sibling_tag["class"]=="Titre3NL" and sibling_tag.findChildren("span")
-		][0]
-		description = "\n".join([
-			description_span.text.strip() for description_span in __find_next_siblings_before_tag(description_header, "h2")
-		])
-
-		# Add a proposal with the extracted info:
-		proposals.append(Proposal(
-			f"{plenary_id}_p{proposal_number}",
-			proposal_number,
-			plenary_id,
-			title_fr,
-			title_nl,
-			doc_ref,
-			description
-		))
+			# Add a proposal with the extracted info:
+			proposals.append(Proposal(
+				f"{plenary_id}_p{proposal_number}",
+				int(proposal_number),
+				plenary_id,
+				title_nl,
+				title_fr,
+				doc_ref,
+				description_nl,
+				description_fr
+			))
 
 	return proposals
 
 
-def __find_next_siblings_before_tag(start_element, stop_tag_name: str):
-	current_element = start_element
+def __find_siblings_between_elements(
+		start_element, 
+		stop_element_name: str, 
+		filter_tag_name: str = None,
+		filter_class_name: str = None):
+	"""
+	Find all sibling elements (tags) between two elements (tags), or until no siblings remain within the parent element.
+	The start and stop elements are not included in the results.
+
+	For example, with the following piece of HTML:
+
+	<h1>Header 1</h1>
+	<p>Paragraph 1</p>
+	<p>Paragraph 2</p>
+	<h1>Header 2</h1>
+
+	When calling __find_siblings_between_elements() with the first h1 element as start element,
+	and "h1" as stop element, the two paragraphs in between will be returned.
+	"""
 	siblings = []
-	while (current_element.next_sibling.name != stop_tag_name):
-		siblings.append(current_element)
-		current_element = current_element.next_sibling
+
+	# the start element is not included in the results:
+	next_sibling_element, next_sibling_element_name = __get_next_sibling_tag_name(start_element)
+
+	while (next_sibling_element_name is not None and next_sibling_element_name != stop_element_name):
+		if filter_tag_name and next_sibling_element_name == filter_tag_name:
+			siblings.append(next_sibling_element)
+		
+		if filter_class_name and type(next_sibling_element) is not NavigableString \
+			and "class" in next_sibling_element.attrs and filter_class_name in next_sibling_element.attrs["class"]:
+			siblings.append(next_sibling_element)
+		
+		if not filter_tag_name and not filter_class_name:
+			siblings.append(next_sibling_element)
+
+		next_sibling_element, next_sibling_element_name = __get_next_sibling_tag_name(next_sibling_element)
+
 	return siblings
+
+
+def __get_next_sibling_tag_name(element):
+	next_element = element.next_sibling
+	next_element_name = ""
+	if next_element is None:  # There just is no next element anymore.
+		next_element_name = None
+	elif type(next_element) is not NavigableString: # = Text in the HTML that is not enclosed within tags, it has no .name.
+		next_element_name = next_element.name
+	return next_element, next_element_name
+
+
+def __split_proposal_header(proposal_header):
+	# Extract the proposal number and title:
+	spans = [span.text.strip().replace("\n", " ") for span in proposal_header.findChildren("span")]
+	# TODO weirdly enough, sometimes the title occurs multiple times in the result, whereas only once in the html.
+	number, title = spans[:2]
+	
+	# Extract the proposal document reference (for example, "... les armes (3849/1-4)" should result in "3849/1-4"):
+	doc_ref = title.split(" ")[-1].replace("(", "").replace(")", "")
+	title = title.replace(f" ({doc_ref})", "")
+	
+	return number, title, doc_ref
 
 
 def __extract_motions(plenary_id: str, html, politicians: Politicians) -> Tuple[
@@ -195,7 +262,7 @@ def __extract_motions(plenary_id: str, html, politicians: Politicians) -> Tuple[
 		motions.append(Motion(
 			motion_id,
 			motion_number,
-			proposal_id,
+			"", # TODO fix proposal_id writing
 			cancelled
 		))
 

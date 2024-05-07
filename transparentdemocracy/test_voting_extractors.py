@@ -52,34 +52,18 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(plenary.proposals[0].title_fr, "Projet de loi optimisant le fonctionnement de l'Organe central pour la Saisie et la Confiscation et de l'Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la loi sur les armes")
 		self.assertEqual(plenary.proposals[0].title_nl, "Wetsontwerp houdende optimalisatie van de werking van het Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en het Overlegorgaan voor de coördinatie van de invordering van niet-fiscale schulden in strafzaken en houdende wijziging van de Wapenwet")
 		self.assertEqual(plenary.proposals[0].document_reference, "3849/1-4")
-		self.assertTrue(plenary.proposals[0].description.startswith("Nous passons à la discussion des articles."))
-		self.assertTrue(plenary.proposals[0].description.endswith("De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden."))
+		self.assertTrue(plenary.proposals[0].description_nl.startswith("Wij vatten de bespreking van de artikelen aan."))
+		self.assertTrue(plenary.proposals[0].description_fr.startswith("Nous passons à la discussion des articles."))
+		self.assertTrue(plenary.proposals[0].description_nl.endswith("De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden."))
+		self.assertTrue(plenary.proposals[0].description_fr.endswith("La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement."))
 
-	@unittest.skip(
-		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
-	def test_extract_ip67(self):
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip067x.html'))
+		# The motions are extracted correctly:
+		self.assertEqual(28, len(plenary.motions))
+		self.assertEqual(plenary.motions[0].id, "55_298_1") # TODO modify id creation so it doesn't clash with proposals and sections
+		self.assertEqual(False, plenary.motions[0].cancelled)
+		self.assertEqual(True, plenary.motions[11].cancelled)
 
-		vote_types_motion_1 = set([v.vote_type for v in votes if v.motion_id == "55_067_1"])
-		self.assertTrue("NO" in vote_types_motion_1)
-
-	def test_extract_ip72(self):
-		"""vote 2 has an extra '(' in the vote result indicator"""
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip072x.html'))
-
-		self.assertEqual(len(actual.motions), 5)
-
-	def test_extract_ip298(self):
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip298x.html'))
-
-		self.assertEqual(28, len(actual.motions))
-		self.assertEqual(actual.motions[0].id, "55_298_1")
-
-		# TODO: there's introductory stuff here that shouldn't be part of the proposal description
-		expected_description_start = "\nVotes\nnominatifs\nVotes\nnominatifs\n\n\xa0\n\xa0\n\xa0\n09.02 \xa0Sofie Merckx (PVDA-PTB): Mevrouw de voorzitster, mevrouw Verhaert moest ons\nverlaten en mevrouw Daems zal haar stemgedrag daarvoor aanpassen."
-		self.assertEqual(actual.proposals[0].description[:len(expected_description_start)],
-						 expected_description_start)
-
+		# The votes are extracted correctly:
 		yes_voters = [vote.politician.full_name for vote in votes if
 					  vote.vote_type == "YES" and vote.motion_id == "55_298_1"]
 		no_voters = [vote.politician.full_name for vote in votes if
@@ -100,8 +84,19 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(4, count_abstention)
 		self.assertEqual(['Arens Josy', 'Daems Greet'], abstention_voters[:2])
 
-		self.assertEqual(False, actual.motions[0].cancelled)
-		self.assertEqual(True, actual.motions[11].cancelled)
+	@unittest.skip(
+		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
+	def test_extract_ip67(self):
+		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip067x.html'))
+
+		vote_types_motion_1 = set([v.vote_type for v in votes if v.motion_id == "55_067_1"])
+		self.assertTrue("NO" in vote_types_motion_1)
+
+	def test_extract_ip72(self):
+		"""vote 2 has an extra '(' in the vote result indicator"""
+		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip072x.html'))
+
+		self.assertEqual(len(actual.motions), 5)
 
 	def test_voter_dots_are_removed_from_voter_names(self):
 		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip182x.html'))
@@ -133,4 +128,3 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 		for vote in votes:
 			self.assertIsNotNone(vote.politician)
-
