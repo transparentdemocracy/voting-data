@@ -17,11 +17,11 @@ from typing import List, Any
 @dataclass
 class Proposal:
     id: str
-    number: str  # sequence number of the proposal in the series of proposals discussed during a plenary.
+    document_reference: str # official reference in the parliament, as mentioned in plenary reports.
     plenary_id: str
+    plenary_agenda_item_number: str  # item number on the agenda in the plenary session during which the proposal was discussed. This is the number surrounded with a black border seen in all plenary reports.
     title_nl: str
     title_fr: str
-    document_reference: str
     description_nl: str
     description_fr: str
 

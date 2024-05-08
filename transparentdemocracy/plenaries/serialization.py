@@ -38,7 +38,7 @@ class MarkdownSerializer:
 				output_file.write(markdown_result)
 
 	def _serialize_proposal(self, proposal: Proposal) -> None:
-		markdown_result = f"## Proposal {proposal.number}\n\n"
+		markdown_result = f"## Proposal {proposal.plenary_agenda_item_number}\n\n"
 		markdown_result += proposal.description
 		markdown_result += "\n\n"
 		return markdown_result
