@@ -4,10 +4,12 @@ see https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&c
 """
 import datetime
 import glob
+import json
 import logging
 import os
 import re
-from typing import Tuple, List, Any
+from dataclasses import dataclass
+from typing import Tuple, List, Any, OrderedDict
 
 from bs4 import BeautifulSoup
 from nltk.tokenize import WhitespaceTokenizer
@@ -15,13 +17,30 @@ from tqdm.auto import tqdm
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
 from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
-from transparentdemocracy.politicians.extraction import Politicians, PoliticianExtractor, load_politicians
+from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
 DAYS_NL = "maandag,dinsdag,woensdag,donderdag,vrijdag,zaterdag,zondag".split(",")
 MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktober,november,december".split(",")
+
+
+@dataclass
+class BodyTextPart:
+	lang: str
+	text: str
+
+
+@dataclass
+class MotionData:
+	label: str
+	nl_title: str
+	nl_title_tags: List[Any]
+	fr_title: str
+	fr_title_tags: List[Any]
+	body_text_parts: List[BodyTextPart]
+	body: List[Any]
 
 
 def extract_from_html_plenary_reports(
@@ -57,7 +76,7 @@ def extract_from_html_plenary_report(report_filename: str, politicians: Politici
 	politicians = politicians or load_politicians()
 	html = read_plenary_html(report_filename)
 
-	return __extract_plenary(report_filename, html, politicians)
+	return _extract_plenary(report_filename, html, politicians)
 
 
 def read_plenary_html(report_filename):
@@ -67,12 +86,12 @@ def read_plenary_html(report_filename):
 	return html
 
 
-def __extract_plenary(report_filename: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
+def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
 	plenary_number = os.path.split(report_filename)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
-	proposals, motions, votes, sections = __extract_motions(report_filename, plenary_id, html, politicians)
-
+	proposals, motions, votes = _extract_motions(report_filename, plenary_id, html, politicians)
+	motion_data = _extract_motiondata(report_filename, html)
 	return (
 		Plenary(
 			plenary_id,
@@ -83,14 +102,14 @@ def __extract_plenary(report_filename: str, html, politicians: Politicians) -> T
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
 			proposals,
 			motions,
-			sections
+			motion_data
 		),
 		votes
 	)
 
 
-def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: Politicians) -> Tuple[
-	Proposal, List[Motion], List[Vote], List[Any]]:
+def _extract_motions(plenary_report: str, plenary_id: str, html, politicians: Politicians) -> Tuple[
+	Proposal, List[Motion], List[Vote]]:
 	tokens = WhitespaceTokenizer().tokenize(html.text)
 
 	votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
@@ -155,26 +174,132 @@ def __extract_motions(plenary_report: str, plenary_id: str, html, politicians: P
 			cancelled
 		))
 
-	sections = extract_sections(html)
-	return proposals, motions, votes, sections
+	return proposals, motions, votes
 
 
-def extract_sections(html: BeautifulSoup) -> List[Any]:
-	assert html is not None
+def _extract_motiondata(html: BeautifulSoup) -> List[MotionData]:
+	section1 = html.select('.WordSection1')[0]
 
-	# TODO find sections marked by numbers-in-squares
-	# Each section contains a list of html elements that it contains
-	# Then detect features about each section. A feature refers to the html element (or elements) that explain how it was detected
-	# possible feature types:
-	# - type: wetsontwerp/interpellatie/... indicated right after the numbered square
-	# - link-to-proposal
-	# - number-of-articles,
-	# - links to documents (kamerstukken)
-	# - votes
-	# - language of html elements
+	naamstemmingen = list(filter(lambda el: "Naamstemmingen" in el.text, section1.find_all("h1")))[0]
+	first_h2 = naamstemmingen.find_all_next("h2")[0]
 
-	# TODO: actually implement
-	return []
+	grouped_h2_tags = split_on_h2_tags_containing_bordered_span([first_h2] + first_h2.find_next_siblings())
+
+	motion_data = find_motion_datas(grouped_h2_tags)
+
+	# print(
+	# 	json.dumps([dict(label=m.label, nl_title=m.nl_title, fr_title=m.fr_title,
+	# 					 body_text_parts=[dict(lang=part.lang, text=part.text) for part in m.body_text_parts]) for m in
+	# 				motion_data], indent=2))
+
+	return motion_data
+
+
+def has_border(attr):
+	return "border:solid" in attr
+
+
+def contains_bordered_span(el):
+	return len(find_bordered_span(el)) == 1
+
+
+def find_bordered_span(el):
+	return el.find_all("span", style=has_border)
+
+
+def split_on_h2_tags_containing_bordered_span(tags):
+	groups = []
+	current_group = []
+
+	for tag in tags:
+		if tag.name == "h2" and contains_bordered_span(tag):
+			if current_group:
+				groups.append(current_group)
+				current_group = []
+		current_group.append(tag)
+
+	if current_group:
+		groups.append(current_group)
+
+	return groups
+
+
+def find_motion_datas(tag_groups):
+	""" Each of the tag groups starts with a H2 containing a bordered span"""
+	groups_by_bordered_span_value = OrderedDict()
+
+	for tag_group in tag_groups:
+		bordered_span = find_bordered_span(tag_group[0])[0]
+
+		groups_by_bordered_span_value.setdefault(bordered_span.text, []).append(tag_group)
+
+	result = []
+	for k, v in groups_by_bordered_span_value.items():
+		if len(v) != 2:
+			logger.warning("Motion did not have two groups of h2 tags that start with a bordered span:", k)
+
+		# Assumption: 	first group is always french
+
+		fr_h2_tags = [tag for tag in v[0] if tag.name == 'h2']
+		nl_h2_tags = [tag for tag in v[1] if tag.name == 'h2']
+
+		assert fr_h2_tags, "Motion should have fr h2 tags"
+		assert nl_h2_tags, "Motion should have nl h2 tags"
+
+		fr_title = "\n".join([tag.text for tag in fr_h2_tags])
+		nl_title = "\n".join([tag.text for tag in nl_h2_tags])
+
+		# Assumption: there are no h2 tags other than title elements
+		last_nl_h2_index = v[1].index(nl_h2_tags[-1])
+		if last_nl_h2_index == -1:
+			raise Exception("should not happen - nl h2 tag not found")
+
+		remaining_elements = v[1][last_nl_h2_index + 1:]
+		remaining_elements = [el for el in remaining_elements if el.text.strip() != ""]
+
+		body_text_parts = [create_body_text_part(el) for el in remaining_elements]
+
+		result.append(MotionData(k, nl_title, nl_h2_tags, fr_title, fr_h2_tags, body_text_parts, remaining_elements))
+
+	return result
+
+
+def create_body_text_part(el) -> BodyTextPart:
+	nl = False
+	fr = False
+
+	if 'NormalNL' in el.get('class'):
+		nl = True
+	if 'NormalFR' in el.get('class'):
+		fr = True
+
+	lang = "unknown"
+	if nl ^ fr:
+		lang = "nl" if nl else "fr"
+
+	# TODO: analyse elements with unknown language more
+
+	# TODO: detect and add structural insights (e.g. finding standard phrases like Begin van de stemming/Einde van de stemming/Uitslag van de stemming/...)
+
+	return BodyTextPart(lang, el.text)
+
+
+def _elements_between(element1, element2):
+	elements = []
+	current_element = element1
+
+	while current_element != element2:
+		current_element = current_element.find_next()
+		if current_element is None:
+			break
+
+		# avoid copying script tags, that could be bad
+		if current_element.name == "script":
+			continue
+
+		elements.append(current_element)
+
+	return elements
 
 
 def find_occurrences(tokens, query):
@@ -301,7 +426,9 @@ def get_plenary_date(path, html):
 
 def main():
 	extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
-	# extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html"))
+
+	# html = read_plenary_html(os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html"))
+	# _extract_sections(html)
 
 
 if __name__ == "__main__":

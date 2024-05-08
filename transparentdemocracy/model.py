@@ -38,7 +38,7 @@ class Plenary:
     html_report_url: str
     proposals: List[Proposal]
     motions: List[Motion]
-    sections: List[Any]
+    motion_data: List[Any]
 
 
 # Classes related to the detail of votes cast in plenaries:
