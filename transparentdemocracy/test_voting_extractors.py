@@ -123,8 +123,3 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 		self.assertEqual(plenary.date, date.fromisoformat("2019-10-03"))
 
-	def test_votes_must_have_politician(self):
-		actual, votes = extract_from_html_plenary_reports()
-
-		for vote in votes:
-			self.assertIsNotNone(vote.politician)

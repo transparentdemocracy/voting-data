@@ -7,15 +7,16 @@ import glob
 import logging
 import os
 import re
-from typing import Tuple, List, Any
+from dataclasses import dataclass
+from typing import Tuple, List, Any, OrderedDict
 
 from bs4 import BeautifulSoup, NavigableString
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
-from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
-from transparentdemocracy.politicians.extraction import Politicians, PoliticianExtractor, load_politicians
+from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType, MotionData, BodyTextPart
+from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -46,7 +47,8 @@ def extract_from_html_plenary_reports(
 			else:
 				raise RuntimeError("Plenary reports in other formats than HTML cannot be processed.")
 
-		except Exception:
+		except Exception as e:
+			raise e
 			logging.warning("Failed to process %s", voting_report, exc_info=True)
 
 	return plenaries, all_votes
@@ -56,7 +58,7 @@ def extract_from_html_plenary_report(report_filename: str, politicians: Politici
 	Plenary, List[Vote]]:
 	politicians = politicians or load_politicians()
 	html = __read_plenary_html(report_filename)
-	return __extract_plenary(report_filename, html, politicians)
+	return _extract_plenary(report_filename, html, politicians)
 
 
 def __read_plenary_html(report_filename):
@@ -66,13 +68,13 @@ def __read_plenary_html(report_filename):
 	return html
 
 
-def __extract_plenary(report_filename: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
+def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
 	plenary_number = os.path.split(report_filename)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposals(html, plenary_id)
-	motions, votes, sections = __extract_motions(plenary_id, html, politicians)
-
+	motions, votes = _extract_motions(plenary_id, html, politicians)
+	motion_data = _extract_motiondata(report_filename, html)
 	return (
 		Plenary(
 			plenary_id,
@@ -83,7 +85,7 @@ def __extract_plenary(report_filename: str, html, politicians: Politicians) -> T
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
 			proposals,
 			motions,
-			sections
+			motion_data
 		),
 		votes
 	)
@@ -95,21 +97,21 @@ def __extract_proposals(html, plenary_id: str) -> List[Proposal]:
 	# We'll be able to extract the proposals after the header of the proposals section in the plenary report:
 	proposals_section_header = [h1_span for h1_span in html.select("h1 span") if h1_span.text == "Projets de loi"][0].find_parent("h1")
 
-	# Find all sibling h2 headers, until the next h1 header: 
+	# Find all sibling h2 headers, until the next h1 header:
 	# (Indeed, proposals_section_header.find_next_siblings("h2") returns headers that are not about proposals anymore, which are below next h1 section headers.)
 	proposal_headers = [
 		sibling for sibling in __find_siblings_between_elements(start_element=proposals_section_header, stop_element_name="h1", filter_tag_name="h2")
 		if type(sibling) is not NavigableString # = Text in the HTML that is not enclosed within tags
 	]
 	# print(proposal_headers)
-	
+
 	proposal_number = None
 	title_fr = None
 	title_nl = None
 	doc_ref = None
 	description = None
 	# TODO cleaner would be to write the for loop below in pairs of headers.
-	
+
 	# Extract the proposal number and titles (in Dutch and French):
 	for idx, proposal_header in enumerate(proposal_headers):
 		if idx % 2 == 0:
@@ -121,7 +123,7 @@ def __extract_proposals(html, plenary_id: str) -> List[Proposal]:
 			# The second h2 header in a sequence of two consecutive h2 headers should be the proposal title in Dutch:
 			proposal_number2, title_nl, doc_ref2 = __split_proposal_header(proposal_header)
 
-			# Quality check: both consecutive h2 headers must mention the same proposal number, otherwise we are processing headers of different proposals:		
+			# Quality check: both consecutive h2 headers must mention the same proposal number, otherwise we are processing headers of different proposals:
 			assert proposal_number2 == proposal_number
 
 			# Quality check: the document reference found in the Dutch title should be the same as in the French title:
@@ -156,8 +158,8 @@ def __extract_proposals(html, plenary_id: str) -> List[Proposal]:
 
 
 def __find_siblings_between_elements(
-		start_element, 
-		stop_element_name: str, 
+		start_element,
+		stop_element_name: str,
 		filter_tag_name: str = None,
 		filter_class_name: str = None):
 	"""
@@ -182,11 +184,11 @@ def __find_siblings_between_elements(
 	while (next_sibling_element_name is not None and next_sibling_element_name != stop_element_name):
 		if filter_tag_name and next_sibling_element_name == filter_tag_name:
 			siblings.append(next_sibling_element)
-		
+
 		if filter_class_name and type(next_sibling_element) is not NavigableString \
 			and "class" in next_sibling_element.attrs and filter_class_name in next_sibling_element.attrs["class"]:
 			siblings.append(next_sibling_element)
-		
+
 		if not filter_tag_name and not filter_class_name:
 			siblings.append(next_sibling_element)
 
@@ -210,11 +212,11 @@ def __split_proposal_header(proposal_header):
 	spans = [span.text.strip().replace("\n", " ") for span in proposal_header.findChildren("span")]
 	# TODO weirdly enough, sometimes the title occurs multiple times in the result, whereas only once in the html.
 	number, title = spans[:2]
-	
+
 	# Extract the proposal document reference (for example, "... les armes (3849/1-4)" should result in "3849/1-4"):
 	doc_ref = title.split(" ")[-1].replace("(", "").replace(")", "")
 	title = title.replace(f" ({doc_ref})", "")
-	
+
 	return number, title, doc_ref
 
 
@@ -266,26 +268,162 @@ def __extract_motions(plenary_id: str, html, politicians: Politicians) -> Tuple[
 			cancelled
 		))
 
-	sections = extract_sections(html)
-	return motions, votes, sections
+	return motions, votes
 
 
-def extract_sections(html: BeautifulSoup) -> List[Any]:
-	assert html is not None
+def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionData]:
+	def is_start_naamstemmingen(el):
+		if el.name == "h1" and ("naamstemmingen" == el.text.lower().strip()):
+			return True
+		if el.name == "p" and ("naamstemmingen" == el.text.lower().strip()) and ("Titre1NL" in el.get("class")):
+			return True
+		return False
 
-	# TODO find sections marked by numbers-in-squares
-	# Each section contains a list of html elements that it contains
-	# Then detect features about each section. A feature refers to the html element (or elements) that explain how it was detected
-	# possible feature types:
-	# - type: wetsontwerp/interpellatie/... indicated right after the numbered square
-	# - link-to-proposal
-	# - number-of-articles,
-	# - links to documents (kamerstukken)
-	# - votes
-	# - language of html elements
+	start_naamstemmingen = list(filter(is_start_naamstemmingen, html.find_all()))
+	if not start_naamstemmingen:
+		if "naamstemmingen" in html.text.lower():
+			logger.info(f"no naamstemmingen found in {report_path}")
+		else:
+			# There aren't any naamstemmingen, not even logging it
+			pass
+		return []
 
-	# TODO: actually implement
-	return []
+	if len(start_naamstemmingen) > 1:
+		logger.info(f"multiple candidates for start of 'naamstemmingen' in {report_path}")
+		return []
+
+	def is_motion_title(el):
+		if el.name == "h2":
+			return True
+		if el.name == "p" and el.get("class") in ["Titre2NL", "Titre2FR"]:
+			return True
+		return False
+
+	motion_titles = list(filter(is_motion_title, start_naamstemmingen[0].find_next_siblings()))
+	if not motion_titles:
+		logger.warning(f"No motion titles after naamstemmingen in {report_path}")
+		return []
+	first_motion_title = motion_titles[0]
+
+	grouped_h2_tags = split_on_h2_tags_containing_bordered_span([first_motion_title] + first_motion_title.find_next_siblings())
+
+	motion_data = find_motion_datas(grouped_h2_tags)
+
+	# print(
+	# 	json.dumps([dict(label=m.label, nl_title=m.nl_title, fr_title=m.fr_title,
+	# 					 body_text_parts=[dict(lang=part.lang, text=part.text) for part in m.body_text_parts]) for m in
+	# 				motion_data], indent=2))
+
+	return motion_data
+
+
+def has_border(attr):
+	return "border:solid" in attr
+
+
+def contains_bordered_span(el):
+	return len(find_bordered_span(el)) == 1
+
+
+def find_bordered_span(el):
+	return el.find_all("span", style=has_border)
+
+
+# Looking for 'bordered spans' is a very flawed strategy, there's no consistency there
+# We'll be better off looking for recognisable fixed expressions like "Moties ingediend tot besluit van de interpellaties van"
+def split_on_h2_tags_containing_bordered_span(tags):
+	groups = []
+	current_group = []
+
+	for tag in tags:
+		if tag.name == "h2" and contains_bordered_span(tag):
+			if current_group:
+				groups.append(current_group)
+				current_group = []
+		current_group.append(tag)
+
+	if current_group:
+		groups.append(current_group)
+
+	return groups
+
+
+def find_motion_datas(tag_groups):
+	""" Each of the tag groups starts with a H2 containing a bordered span"""
+	groups_by_bordered_span_value = OrderedDict()
+
+	for tag_group in tag_groups:
+		bordered_span = find_bordered_span(tag_group[0])[0]
+
+		groups_by_bordered_span_value.setdefault(bordered_span.text, []).append(tag_group)
+
+	result = []
+	for k, v in groups_by_bordered_span_value.items():
+		if len(v) != 2:
+			logger.warning("Motion did not have two groups of h2 tags that start with a bordered span:", k)
+
+		# Assumption: 	first group is always french
+
+		fr_h2_tags = [tag for tag in v[0] if tag.name == 'h2']
+		nl_h2_tags = [tag for tag in v[1] if tag.name == 'h2']
+
+		assert fr_h2_tags, "Motion should have fr h2 tags"
+		assert nl_h2_tags, "Motion should have nl h2 tags"
+
+		fr_title = "\n".join([tag.text for tag in fr_h2_tags])
+		nl_title = "\n".join([tag.text for tag in nl_h2_tags])
+
+		# Assumption: there are no h2 tags other than title elements
+		last_nl_h2_index = v[1].index(nl_h2_tags[-1])
+		if last_nl_h2_index == -1:
+			raise Exception("should not happen - nl h2 tag not found")
+
+		remaining_elements = v[1][last_nl_h2_index + 1:]
+		remaining_elements = [el for el in remaining_elements if el.text.strip() != ""]
+
+		body_text_parts = [create_body_text_part(el) for el in remaining_elements]
+
+		result.append(MotionData(k, nl_title, nl_h2_tags, fr_title, fr_h2_tags, body_text_parts, remaining_elements))
+
+	return result
+
+
+def create_body_text_part(el) -> BodyTextPart:
+	nl = False
+	fr = False
+
+	if 'NormalNL' in el.get('class'):
+		nl = True
+	if 'NormalFR' in el.get('class'):
+		fr = True
+
+	lang = "unknown"
+	if nl ^ fr:
+		lang = "nl" if nl else "fr"
+
+	# TODO: analyse elements with unknown language more
+
+	# TODO: detect and add structural insights (e.g. finding standard phrases like Begin van de stemming/Einde van de stemming/Uitslag van de stemming/...)
+
+	return BodyTextPart(lang, el.text)
+
+
+def _elements_between(element1, element2):
+	elements = []
+	current_element = element1
+
+	while current_element != element2:
+		current_element = current_element.find_next()
+		if current_element is None:
+			break
+
+		# avoid copying script tags, that could be bad
+		if current_element.name == "script":
+			continue
+
+		elements.append(current_element)
+
+	return elements
 
 
 def find_occurrences(tokens, query):
@@ -412,7 +550,10 @@ def __get_plenary_date(path, html):
 
 def main():
 	extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
-	# extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html"))
+
+	# test_path = os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html")
+	# html = read_plenary_html(test_path)
+	# _extract_motiondata(test_path, html)
 
 
 if __name__ == "__main__":
