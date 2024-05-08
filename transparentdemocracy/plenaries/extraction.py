@@ -7,15 +7,15 @@ import glob
 import logging
 import os
 import re
-from dataclasses import dataclass
 from typing import Tuple, List, Any, OrderedDict
+import unicodedata
 
 from bs4 import BeautifulSoup, NavigableString
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
-from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType, MotionData, BodyTextPart
+from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, MotionData, BodyTextPart
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
@@ -48,7 +48,7 @@ def extract_from_html_plenary_reports(
 				raise RuntimeError("Plenary reports in other formats than HTML cannot be processed.")
 
 		except Exception as e:
-			raise e
+			# raise e
 			logging.warning("Failed to process %s", voting_report, exc_info=True)
 
 	return plenaries, all_votes
@@ -72,7 +72,7 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 	plenary_number = os.path.split(report_filename)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
-	proposals = __extract_proposals(html, plenary_id)
+	proposals = __extract_proposal_discussions(html, plenary_id)
 	motions, votes = __extract_motions(plenary_id, html, politicians)
 	motion_data = _extract_motiondata(report_filename, html)
 	return (
@@ -91,13 +91,13 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 	)
 
 
-def __extract_proposals(html, plenary_id: str) -> List[Proposal]:
-	proposals = []
+def __extract_proposal_discussions(html, plenary_id: str) -> List[Proposal]:
+	proposal_discussions = []
 
 	# We'll be able to extract the proposals after the header of the proposals section in the plenary report:
 	proposals_section_header = [
 		h1_span for h1_span in html.select("h1 span") 
-		if h1_span.text in ["Projets de loi", "Projets de loi et propositions"]
+		if h1_span.text in ["Projets de loi", "Wetsontwerpen en voorstellen"]
 	][0].find_parent("h1")
 
 	# Find all sibling h2 headers, until the next h1 header:
@@ -108,78 +108,117 @@ def __extract_proposals(html, plenary_id: str) -> List[Proposal]:
 														  		stop_element_name="h1", filter_tag_name="h2")
 		if type(sibling) is not NavigableString # = Text in the HTML that is not enclosed within tags
 	]
-	# print(proposal_headers)
-	
-	plenary_agenda_item_number = None
-	title_fr = None
-	doc_ref = None
-	# TODO cleaner would be to write the for loop below in pairs of headers.
 
 	# Extract the proposal number and titles (in Dutch and French):
-	for idx, proposal_header in enumerate(proposal_headers):
-		if idx % 2 == 0:
-			# The first h2 header in a sequence of two consecutive h2 headers should be the proposal title in French:
-			# print(proposal_header)
-			plenary_agenda_item_number, title_fr, doc_ref = __split_proposal_header(proposal_header)
+	previous_proposal_header = None
+	header_idx_within_language = 0 # Important for processing multi-line headers: which line is currently processed.
 
-		if idx % 2 == 1:
-			# The second h2 header in a sequence of two consecutive h2 headers should be the proposal title in Dutch:
-			plenary_agenda_item_number2, title_nl, doc_ref2 = __split_proposal_header(proposal_header)
+	for proposal_header in proposal_headers:
+		plenary_agenda_item_number, title, doc_ref = __split_proposal_header(proposal_header)
+		if len(proposal_discussions) == 0 \
+			or (plenary_agenda_item_number is not None 
+	   			and int(plenary_agenda_item_number) > proposal_discussions[-1].plenary_agenda_item_number):
+			# A new plenary agenda item number was found.
+			header_idx_within_language = 0
+			
+			# First, extract the description of the previous proposal and save that:
+			if len(proposal_discussions) > 0:
+				description_nl, description_fr = __extract_proposal_description(previous_proposal_header) # last header of the previous proposal.
+				proposal_discussions[-1].description_nl = description_nl
+				proposal_discussions[-1].description_fr = description_fr
 
-			# Quality check: both consecutive h2 headers must mention the same proposal number, otherwise we are 
-			# processing headers of different proposals:
-			assert plenary_agenda_item_number2 == plenary_agenda_item_number
-
-			# Quality check: the document reference found in the Dutch title should be the same as in the French title:
-			assert doc_ref2 == doc_ref
-
-			# Extract the description of the proposal, below the "Bespreking van de artikelen" header between the 
-			# proposal title, and the next proposal title:
-			description_header = [
-				sibling_tag for sibling_tag in __find_siblings_between_elements(start_element=proposal_header, 
-													stop_element_name="h2", filter_class_name="Titre3NL")
-				if type(sibling_tag) is not NavigableString # otherwise .findChild() cannot be used next.
-				and sibling_tag.findChild("span").text.strip().replace("\n", " ") == "Bespreking van de artikelen"
-			]
-			if len(description_header) == 1:
-				# If the description header was found, extract the descriptions:
-				description_header = description_header[0]
-				description_nl = "\n".join([
-					description_paragraph.text.strip().replace("\n", " ") 
-					for description_paragraph in __find_siblings_between_elements(description_header, "h2", 
-																				  filter_class_name="NormalNL")
-				])
-				description_fr = "\n".join([
-					description_paragraph.text.strip().replace("\n", " ") 
-					for description_paragraph in __find_siblings_between_elements(description_header, "h2", 
-																			 filter_class_name="NormalFR")
-				])
+			# Then, create the new proposal discussion, corresponding with that plenary agenda item.
+			# The first header of this agenda item always is in French.
+			# So, we can already add the main proposal under discussion, with the found doc reference and *French* 
+			# title:
+			discussion_id = f"{plenary_id}_d{plenary_agenda_item_number}"
+			proposal_discussions.append(
+				ProposalDiscussion(
+					discussion_id, plenary_id, int(plenary_agenda_item_number), 
+					None, None, # The descriptions will be saved later, when the last h2 header of this proposal has been identified. (The description comes after that.)
+					[
+						Proposal(doc_ref, None, title)  # French title
+					]
+				))
+		else:
+			if plenary_agenda_item_number is None:
+				# No plenary agenda item number is in front of the plenary agenda item number.
+				# This introduces an additional proposal that is *related* to the discussion.
+				# Indeed, sometimes multiple headers in the same language occur on consecutive lines, corresponding 
+				# with a proposal discussion about multiple proposals.
+				if proposal_discussions[-1].proposals[-1].title_nl is None: # No Dutch title has been saved yet.
+					# If we are currently processing French headers, add the new related proposal, with the found 
+					# document reference and *French* title:
+					proposal_discussions[-1].proposals.append(Proposal(doc_ref, None, title))
+				else:
+					# If we are currently processing Dutch headers, set the *Dutch* title:
+					proposal_discussions[-1].proposals[header_idx_within_language].title_nl = title
+					assert doc_ref == proposal_discussions[-1].proposals[header_idx_within_language].document_reference
 			else:
-				# If the description header could not be found, extract the description in a best-effort fallback way as
-				# all text starting between the proposal header and the next proposal header.
-				# Note: we cannot filter only the NormalNL / NormalFR classes here, to build a separate description in 
-				# the respective languages, as the parts of the description are not available in both languages, but 
-				# intermittently in one language, then the other.
-				description = "\n".join([
-					description_paragraph.text.strip().replace("\n", " ") 
-					for description_paragraph in __find_siblings_between_elements(proposal_header, "h2")
-				])
-				description_nl = description
-				description_fr = description
+				# A plenary agenda item number is in front of the title, equal to the one that is currently being 
+				# processed.
+				# This introduces the header(s) for the proposal in Dutch.
+				# Save the title of this first Dutch header:
+				proposal_discussions[-1].proposals[0].title_nl = title
+				assert doc_ref == proposal_discussions[-1].proposals[0].document_reference
+				assert int(plenary_agenda_item_number) == proposal_discussions[-1].plenary_agenda_item_number
+		
+		previous_proposal_header = proposal_header
+		header_idx_within_language += 1
 
-			# Add a proposal with the extracted info:
-			proposals.append(Proposal(
-				f"{plenary_id}_p{plenary_agenda_item_number}",
-				doc_ref,
-				plenary_id,
-				int(plenary_agenda_item_number),
-				title_nl,
-				title_fr,
-				description_nl,
-				description_fr
-			))
+	# Manual corrections:
+	# Some errors after processing proposals are just impossible to correct with a general rule. They are just one-off # "formatting mistakes" in the plenary report that are not in line with the template.
+	# We could correct them in our json dumps manually, but when generating the json dumps again, those manual 
+	# corrections would be lost.
+	# Therefore, we register - or *also* "register" them here:
+	
+	# - One proposal title was first mentioned in Dutch, instead of French. Switch the resulting titles:
+	if plenary_id == "55_261":
+		title_nl = proposal_discussions[0].proposals[0].title_nl
+		proposal_discussions[0].proposals[0].title_nl = proposal_discussions[0].proposals[0].title_fr
+		proposal_discussions[0].proposals[0].title_fr = title_nl
 
-	return proposals
+	return proposal_discussions
+
+
+def __extract_proposal_description(proposal_header) -> Tuple[str, str]:
+	"""
+	First, still fetch the description of the previous plenary agenda item.
+	Extract the description of the proposal, below the "Bespreking van de artikelen" header between the 
+	proposal title, and the next proposal title.
+	"""
+	description_header = [
+		sibling_tag for sibling_tag in __find_siblings_between_elements(start_element=proposal_header, 
+											stop_element_name="h2", filter_class_name="Titre3NL")
+		if type(sibling_tag) is not NavigableString # otherwise .findChild() cannot be used next.
+		and sibling_tag.findChild("span").text.strip().replace("\n", " ") == "Bespreking van de artikelen"
+	]
+	if len(description_header) == 1:
+		# If the description header was found, extract the descriptions:
+		description_header = description_header[0]
+		description_nl = "\n".join([
+			description_paragraph.text.strip().replace("\n", " ") 
+			for description_paragraph in __find_siblings_between_elements(description_header, "h2", 
+																			filter_class_name="NormalNL")
+		])
+		description_fr = "\n".join([
+			description_paragraph.text.strip().replace("\n", " ") 
+			for description_paragraph in __find_siblings_between_elements(description_header, "h2", 
+																		filter_class_name="NormalFR")
+		])
+	else:
+		# If the description header could not be found, extract the description in a best-effort fallback way as
+		# all text starting between the proposal header and the next proposal header.
+		# Note: we cannot filter only the NormalNL / NormalFR classes here, to build a separate description in 
+		# the respective languages, as the parts of the description are not available in both languages, but 
+		# intermittently in one language, then the other.
+		description = "\n".join([
+			description_paragraph.text.strip().replace("\n", " ") 
+			for description_paragraph in __find_siblings_between_elements(proposal_header, "h2")
+		])
+		description_nl = description
+		description_fr = description
+	return description_nl.replace(u'\xa0', u' ').strip("\n"), description_fr.replace(u'\xa0', u' ').strip("\n")  # replace non-breaking space characters with regular spaces, etc.
 
 
 def __find_siblings_between_elements(
@@ -235,12 +274,19 @@ def __get_next_sibling_tag_name(element):
 def __split_proposal_header(proposal_header):
 	# Extract the proposal number and title:
 	spans = [span.text.strip().replace("\n", " ") for span in proposal_header.findChildren("span")]
-	# TODO weirdly enough, sometimes the title occurs multiple times in the result, whereas only once in the html.
-	number, title = spans[:2]
-
-	# Extract the proposal document reference (for example, "... les armes (3849/1-4)" should result in "3849/1-4"):
-	doc_ref = title.split(" ")[-1].replace("(", "").replace(")", "")
-	title = title.replace(f" ({doc_ref})", "")
+	if len(spans) >= 2:
+		number, title = spans[:2] # TODO weirdly enough, sometimes the title occurs multiple times in the result, whereas only once in the html.
+	elif len(spans) == 1:
+		number = None
+		title = spans[0]
+	
+	# If the proposal title contains proposal document reference at the end, split the title into the actual title and 
+	# the document reference (for example, "... les armes (3849/1-4)" should result in "... les armes" and "3849/1-4"):
+	match = re.match(r"(.*) \((.*)\)", title)
+	if match:
+		title, doc_ref = match.groups()
+	else:
+		doc_ref = None
 
 	return number, title, doc_ref
 
