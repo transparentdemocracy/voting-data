@@ -73,7 +73,7 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposals(html, plenary_id)
-	motions, votes = _extract_motions(plenary_id, html, politicians)
+	motions, votes = __extract_motions(plenary_id, html, politicians)
 	motion_data = _extract_motiondata(report_filename, html)
 	return (
 		Plenary(
