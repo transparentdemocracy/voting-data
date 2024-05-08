@@ -1,8 +1,7 @@
 import itertools
 import json
 import os
-from dataclasses import asdict
-from typing import List
+from typing import List, Dict
 
 from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH
 from transparentdemocracy.json_serde import DateTimeEncoder
@@ -86,7 +85,7 @@ class JsonSerializer:
 			in votes], "votes.json")
 
 	def _serialize_plenaries(self, some_list: List[Plenary], output_file: str) -> None:
-		list_json = json.dumps([asdict(p) for p in some_list], cls=DateTimeEncoder)
+		list_json = json.dumps([self.to_dict(p) for p in some_list], default=lambda o: o.__dict__, cls=DateTimeEncoder)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
@@ -95,10 +94,17 @@ class JsonSerializer:
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
-
-def to_plenary_dict(plenary: Plenary):
-	return dict(to_plenary_dict.__dict__)
-
+	def to_dict(self, plenary: Plenary) -> Dict:
+		return dict(
+			id=plenary.id,
+			number=plenary.number,
+			date=plenary.date.isoformat(),
+			legislature=plenary.legislature,
+			pdf_report_url=plenary.pdf_report_url,
+			html_report_url=plenary.html_report_url,
+			proposals=plenary.proposals,
+			motions=plenary.motions,
+		)
 
 def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
 	write_markdown()
@@ -106,25 +112,20 @@ def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
 	write_plenaries_json(plenaries)
 	write_votes_json(votes)
 
-
 def write_markdown():
 	plenaries, votes = extract_from_html_plenary_reports()
 	MarkdownSerializer().serialize_plenaries(plenaries, votes)
-
 
 def write_plenaries_json():
 	plenaries, votes = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_plenaries(plenaries)
 
-
 def write_votes_json():
 	plenaries, votes = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_votes(votes)
 
-
 def main():
 	write_markdown()
-
 
 if __name__ == "__main__":
 	main()

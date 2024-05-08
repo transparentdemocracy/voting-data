@@ -15,7 +15,7 @@ from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
-from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
+from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType, MotionData, BodyTextPart
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
@@ -23,23 +23,6 @@ logging.basicConfig(level=logging.INFO)
 
 DAYS_NL = "maandag,dinsdag,woensdag,donderdag,vrijdag,zaterdag,zondag".split(",")
 MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktober,november,december".split(",")
-
-
-@dataclass
-class BodyTextPart:
-	lang: str
-	text: str
-
-
-@dataclass
-class MotionData:
-	label: str
-	nl_title: str
-	nl_title_tags: List[Any]
-	fr_title: str
-	fr_title_tags: List[Any]
-	body_text_parts: List[BodyTextPart]
-	body: List[Any]
 
 
 def extract_from_html_plenary_reports(
@@ -193,6 +176,7 @@ def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionDat
 			# There aren't any naamstemmingen, not even logging it
 			pass
 		return []
+
 	if len(start_naamstemmingen) > 1:
 		logger.info(f"multiple candidates for start of 'naamstemmingen' in {report_path}")
 		return []
@@ -204,7 +188,7 @@ def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionDat
 			return True
 		return False
 
-	motion_titles = list(filter(is_motion_title, start_naamstemmingen[0]))
+	motion_titles = list(filter(is_motion_title, start_naamstemmingen[0].find_next_siblings()))
 	if not motion_titles:
 		logger.warning(f"No motion titles after naamstemmingen in {report_path}")
 		return []

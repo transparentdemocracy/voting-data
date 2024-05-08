@@ -9,4 +9,4 @@ class DateTimeEncoder(JSONEncoder):
 		if isinstance(obj, datetime.date):
 			return obj.isoformat()
 		else:
-			return JSONEncoder.default(self, obj)
+			return obj.__dict__
