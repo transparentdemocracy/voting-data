@@ -4,7 +4,6 @@ see https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&c
 """
 import datetime
 import glob
-import json
 import logging
 import os
 import re
@@ -65,7 +64,8 @@ def extract_from_html_plenary_reports(
 			else:
 				raise RuntimeError("Plenary reports in other formats than HTML cannot be processed.")
 
-		except Exception:
+		except Exception as e:
+			raise e
 			logging.warning("Failed to process %s", voting_report, exc_info=True)
 
 	return plenaries, all_votes
@@ -177,13 +177,40 @@ def _extract_motions(plenary_report: str, plenary_id: str, html, politicians: Po
 	return proposals, motions, votes
 
 
-def _extract_motiondata(html: BeautifulSoup) -> List[MotionData]:
-	section1 = html.select('.WordSection1')[0]
+def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionData]:
+	def is_start_naamstemmingen(el):
+		if el.name == "h1" and ("naamstemmingen" == el.text.lower().strip()):
+			return True
+		if el.name == "p" and ("naamstemmingen" == el.text.lower().strip()) and ("Titre1NL" in el.get("class")):
+			return True
+		return False
 
-	naamstemmingen = list(filter(lambda el: "Naamstemmingen" in el.text, section1.find_all("h1")))[0]
-	first_h2 = naamstemmingen.find_all_next("h2")[0]
+	start_naamstemmingen = list(filter(is_start_naamstemmingen, html.find_all()))
+	if not start_naamstemmingen:
+		if "naamstemmingen" in html.text.lower():
+			logger.info(f"no naamstemmingen found in {report_path}")
+		else:
+			# There aren't any naamstemmingen, not even logging it
+			pass
+		return []
+	if len(start_naamstemmingen) > 1:
+		logger.info(f"multiple candidates for start of 'naamstemmingen' in {report_path}")
+		return []
 
-	grouped_h2_tags = split_on_h2_tags_containing_bordered_span([first_h2] + first_h2.find_next_siblings())
+	def is_motion_title(el):
+		if el.name == "h2":
+			return True
+		if el.name == "p" and el.get("class") in ["Titre2NL", "Titre2FR"]:
+			return True
+		return False
+
+	motion_titles = list(filter(is_motion_title, start_naamstemmingen[0]))
+	if not motion_titles:
+		logger.warning(f"No motion titles after naamstemmingen in {report_path}")
+		return []
+	first_motion_title = motion_titles[0]
+
+	grouped_h2_tags = split_on_h2_tags_containing_bordered_span([first_motion_title] + first_motion_title.find_next_siblings())
 
 	motion_data = find_motion_datas(grouped_h2_tags)
 
@@ -207,6 +234,8 @@ def find_bordered_span(el):
 	return el.find_all("span", style=has_border)
 
 
+# Looking for 'bordered spans' is a very flawed strategy, there's no consistency there
+# We'll be better off looking for recognisable fixed expressions like "Moties ingediend tot besluit van de interpellaties van"
 def split_on_h2_tags_containing_bordered_span(tags):
 	groups = []
 	current_group = []
@@ -427,8 +456,9 @@ def get_plenary_date(path, html):
 def main():
 	extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
 
-	# html = read_plenary_html(os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html"))
-	# _extract_sections(html)
+	# test_path = os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html")
+	# html = read_plenary_html(test_path)
+	# _extract_motiondata(test_path, html)
 
 
 if __name__ == "__main__":
