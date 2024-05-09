@@ -19,7 +19,7 @@ setuptools.setup(
 	install_requires=requirements,
 	entry_points={
 		'console_scripts': [
-			'td-plenaries-markdown=transparentdemocracy.plenaries.serialization:write_plenaries_markdown',
+			'td-plenaries-markdown=transparentdemocracy.plenaries.serialization:write_markdown',
 			'td-plenaries-json=transparentdemocracy.plenaries.serialization:write_plenaries_json',
 			'td-votes-json=transparentdemocracy.plenaries.serialization:write_votes_json',
 			'td-politicians-json=transparentdemocracy.politicians.fetch_politicians:create_json',

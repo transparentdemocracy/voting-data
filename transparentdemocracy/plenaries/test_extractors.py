@@ -1,6 +1,8 @@
 import logging
+import os
 import unittest
 
+import transparentdemocracy
 from transparentdemocracy.config import CONFIG
 from transparentdemocracy.model import MotionData
 from transparentdemocracy.plenaries.extraction import _extract_motiondata, _read_plenary_html
@@ -11,6 +13,10 @@ logger.setLevel(logging.INFO)
 
 
 class TestNewMotionDataExtraction(unittest.TestCase):
+
+	@classmethod
+	def setUpClass(cls):
+		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
 
 	def test_extract_ip298_happy_case(self):
 		motion_data = self.extract_motiondata('ip298x.html')

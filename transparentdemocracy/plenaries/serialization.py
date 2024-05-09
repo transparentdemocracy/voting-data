@@ -43,14 +43,14 @@ class MarkdownSerializer:
 		markdown_result += f"### Description in French:\n\n"
 		markdown_result += f"{proposal_discussion.description_fr}\n\n"
 		markdown_result += "\n\n"
-		
+
 		markdown_result += f"### Discussed proposals:"
 		for proposal in proposal_discussion.proposals:
 			self._serialize_proposal(proposal)
 		markdown_result += "\n\n"
 
 		return markdown_result
-	
+
 	def _serialize_proposal(self, proposal: Proposal) -> None:
 		markdown_result = f"## Proposal {proposal.document_reference}:\n\n"
 		markdown_result += f"Title (Dutch): {proposal.title_nl}"
@@ -86,8 +86,8 @@ class MarkdownSerializer:
 
 
 class JsonSerializer:
-	def __init__(self, output_path=CONFIG.plenary_json_output_path):
-		self.plenary_output_json_path = output_path
+	def __init__(self):
+		self.plenary_output_json_path = CONFIG.plenary_json_output_path()
 		os.makedirs(self.plenary_output_json_path, exist_ok=True)
 
 	def serialize_plenaries(self, plenaries: List[Plenary]) -> None:

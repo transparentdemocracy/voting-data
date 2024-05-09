@@ -3,10 +3,9 @@ import os
 import unittest
 from datetime import date
 
-from transparentdemocracy import CONFIG
 from transparentdemocracy.config import CONFIG
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
-	extract_from_html_plenary_report, _extract_plenary, _read_plenary_html, _get_plenary_date
+	extract_from_html_plenary_report, _read_plenary_html, _get_plenary_date
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -14,6 +13,10 @@ logger.setLevel(logging.INFO)
 
 
 class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
+
+	@classmethod
+	def setUpClass(cls):
+		CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "testdata")
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):

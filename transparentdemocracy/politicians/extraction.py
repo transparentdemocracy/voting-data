@@ -49,8 +49,8 @@ class Politicians:
 
 
 class PoliticianExtractor(object):
-	def __init__(self, actors_path=CONFIG.actor_json_input_path()):
-		self.actors_path = actors_path
+	def __init__(self):
+		self.actors_path = CONFIG.actor_json_input_path()
 
 	def extract_politicians(self, pattern="*.json") -> Politicians:
 		return Politicians([simplify_actor(a) for a in get_relevant_actors(self.actors_path, pattern)])

@@ -1,0 +1,570 @@
+{
+  "disclaimer": "De beschikbare gegevens zijn niet noodzakelijk up-to-date en compleet. De gegevens die in de huidige fase op deze site gepubliceerd worden, zijn test-gegevens.",
+  "items": [
+    {
+      "id": "7448",
+      "link": {
+        "href": "http://data.dekamer.be/v0/actr/7448",
+        "rel": "self"
+      },
+      "name": "Liekens",
+      "fName": "Goedele",
+      "initOtherForeName": "M.G.",
+      "otherForeName": "Maria Gertrude",
+      "languageCode": "N",
+      "titleNl": "Mevrouw",
+      "titleFr": "Madame",
+      "role": [
+        {
+          "id": 66598,
+          "beginDate": "20190526",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": "N",
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": null,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "C",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": null,
+            "code": null,
+            "fullNameNL": "/null",
+            "fullNameFR": "/null",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          },
+          "ouSummary": {
+            "id": 9839,
+            "code": "03.1.55.09.08.01",
+            "fullNameNL": "/Verkiezing/Kamer - Leg 55 (26 mei 2019)/Vlaams-Brabant/Open Vld/Titelvoerenden",
+            "fullNameFR": "/Election/Chambre - Leg 55 (26 mai 2019)/Brabant flamand/Open Vld/Effectifs",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 66599,
+          "rangNr": null,
+          "beginDate": "20190620",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": "N",
+          "chairNr": null,
+          "prestationDate": "20190620",
+          "beginSession": 20191,
+          "endSession": null,
+          "finalMotif": null,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 5238,
+            "code": "M.02",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Plenum lid",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre plenum",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Plenum lid",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre plenum"
+          },
+          "ouSummary": {
+            "id": 9935,
+            "code": "05.1.55.04.01.990",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Plenum/PLENUMVERGADERING",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Plénière/SEANCE PLENIERE",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 66813,
+          "rangNr": null,
+          "beginDate": "20190620",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 5492,
+            "code": "M.11",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre groupe",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Fractie lid",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre groupe"
+          },
+          "ouSummary": {
+            "id": 10009,
+            "code": "05.1.55.06.1.08",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Politieke fracties/Erkende/Open Vld",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Groupes politiques/Reconnus/Open Vld",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 67261,
+          "rangNr": null,
+          "beginDate": "20190710",
+          "endDate": "20231114",
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "passive",
+          "functionSummary": {
+            "id": 4160,
+            "code": "M.C.1.2.2",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+          },
+          "ouSummary": {
+            "id": 9942,
+            "code": "05.1.55.05.01.009",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Vaste commissies/Justitie",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Commissions Permanentes/Justice",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 67326,
+          "rangNr": null,
+          "beginDate": "20190710",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4159,
+            "code": "M.C.1.2.1",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Vast Lid",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Membre effectif",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Vast Lid - commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Membre effectif - commission"
+          },
+          "ouSummary": {
+            "id": 9944,
+            "code": "05.1.55.05.01.010",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Vaste commissies/Buitenlandse Betrekkingen",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Commissions Permanentes/Relations extérieures",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 67396,
+          "rangNr": null,
+          "beginDate": "20190710",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4160,
+            "code": "M.C.1.2.2",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+          },
+          "ouSummary": {
+            "id": 10169,
+            "code": "05.1.55.05.01.224",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Vaste commissies/Gezondheid en Gelijke Kansen",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Commissions Permanentes/Santé et Egalité des chances",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 67580,
+          "rangNr": null,
+          "beginDate": "20190919",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4160,
+            "code": "M.C.1.2.2",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+          },
+          "ouSummary": {
+            "id": 10001,
+            "code": "05.1.55.05.10.801",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Internationale afvaardigingen/Benelux Interparlementaire Assemblee",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Délégations internationales/Assemblée Interparlementaire Benelux",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 67581,
+          "rangNr": null,
+          "beginDate": "20190919",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4160,
+            "code": "M.C.1.2.2",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+          },
+          "ouSummary": {
+            "id": 9981,
+            "code": "05.1.55.05.05.019",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Adviescomités/Europese Aangelegenheden",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Comités d'avis/Questions européennes",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 67582,
+          "rangNr": null,
+          "beginDate": "20190919",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4159,
+            "code": "M.C.1.2.1",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Vast Lid",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Membre effectif",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Vast Lid - commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Membre effectif - commission"
+          },
+          "ouSummary": {
+            "id": 9980,
+            "code": "05.1.55.05.05.025",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Adviescomités/Maatschappelijke Emancipatie",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Comités d'avis/Emancipation sociale",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 67908,
+          "rangNr": null,
+          "beginDate": "20191003",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4160,
+            "code": "M.C.1.2.2",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+          },
+          "ouSummary": {
+            "id": 10003,
+            "code": "05.1.55.05.10.803",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Internationale afvaardigingen/Parlementaire vergadering van de Organisatie voor de Veiligheid en de Samenwerking in Europa",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Délégations internationales/Assemblée parlementaire de l'Organisation pour la Sécurité et la Coopération en Europe",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 68869,
+          "rangNr": null,
+          "beginDate": "20200716",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4159,
+            "code": "M.C.1.2.1",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Vast Lid",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Membre effectif",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Vast Lid - commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Membre effectif - commission"
+          },
+          "ouSummary": {
+            "id": 10219,
+            "code": "05.1.55.05.02.228",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Bijzondere commissies/Bijz. comm. Koloniaal Verleden",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Commissions spéciales/Comm. spéc. Passé Colonial",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 68942,
+          "rangNr": null,
+          "beginDate": "20200921",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4159,
+            "code": "M.C.1.2.1",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Vast Lid",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Membre effectif",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Vast Lid - commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Membre effectif - commission"
+          },
+          "ouSummary": {
+            "id": 10220,
+            "code": "05.1.55.05.08.229",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Werkgroepen/Voedselzekerheid",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Groupes de travail/Sécurité alimentaire",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        },
+        {
+          "id": 69931,
+          "rangNr": null,
+          "beginDate": "20231019",
+          "endDate": null,
+          "isActive": null,
+          "description_NL": null,
+          "description_FR": null,
+          "comment_NL": null,
+          "comment_FR": null,
+          "languageCode": null,
+          "chairNr": null,
+          "prestationDate": null,
+          "beginSession": null,
+          "endSession": null,
+          "finalMotif": 7909,
+          "theoreticalEndDate": null,
+          "successorRole": null,
+          "functionCode": null,
+          "mandateCode": "M",
+          "personSummary": {
+            "id": "7448",
+            "shortName": "Liekens, Goedele (M.G.)"
+          },
+          "status": "active",
+          "functionSummary": {
+            "id": 4160,
+            "code": "M.C.1.2.2",
+            "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+            "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+            "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+            "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+          },
+          "ouSummary": {
+            "id": 10293,
+            "code": "05.1.55.05.04.235",
+            "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 55/Commissies/Onderzoekscommissies/Onderzoekscommissie belast met de aanpak van seksueel misbruik in de Kerk en daarbuiten",
+            "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 55/Commissions/Commissions d'enquêtes/Commission d'enquête chargée des abus sexuels commis au sein et en dehors de l'Église",
+            "longFullNameNL": "/null",
+            "longFullNameFR": "/null"
+          }
+        }
+      ],
+      "summary": {
+        "id": "7448",
+        "shortName": "Liekens, Goedele (M.G.)"
+      }
+    }
+  ]
+}

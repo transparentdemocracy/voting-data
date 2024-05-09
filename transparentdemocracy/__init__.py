@@ -1,1 +1,1 @@
-from config import CONFIG
+from transparentdemocracy.config import CONFIG

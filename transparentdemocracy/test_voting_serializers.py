@@ -10,6 +10,10 @@ from transparentdemocracy.plenaries.serialization import MarkdownSerializer, Jso
 
 class TestPlenaryMarkdownSerializer(unittest.TestCase):
 
+	@classmethod
+	def setUpClass(cls):
+		CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "testdata")
+
 	@unittest.skip("broken because proposal parsing fails")
 	def test_serialize(self):
 		tmp_markdown_output_dir = tempfile.mkdtemp("plenary-markdown-")

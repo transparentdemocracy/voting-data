@@ -6,6 +6,9 @@ from dataclasses import dataclass
 class Config:
 	data_dir: str
 
+	def __init__(self, data_dir):
+		self.data_dir = data_dir
+
 	def resolve(self, *path):
 		return os.path.join(self.data_dir, *path)
 
@@ -23,7 +26,7 @@ class Config:
 		return self.resolve("output", "plenary", "json")
 
 	def politicians_json_output_path(self, *path):
-		return self.resolve("output", "politician", *path)
+		return self.resolve(self.data_dir, "output", "politician", *path)
 
 
 def _create_config():
