@@ -57,11 +57,11 @@ def extract_from_html_plenary_reports(
 def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
 	Plenary, List[Vote]]:
 	politicians = politicians or load_politicians()
-	html = __read_plenary_html(report_filename)
+	html = _read_plenary_html(report_filename)
 	return _extract_plenary(report_filename, html, politicians)
 
 
-def __read_plenary_html(report_filename):
+def _read_plenary_html(report_filename):
 	with open(report_filename, "r", encoding="cp1252") as file:
 		html_content = file.read()
 	html = BeautifulSoup(html_content, "html.parser")   # "lxml")
