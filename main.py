@@ -1,7 +1,7 @@
 import logging
 import os
 
-from transparentdemocracy import PLENARY_HTML_INPUT_PATH
+from transparentdemocracy import CONFIG
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 from transparentdemocracy.plenaries.serialization import serialize
 
@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 def main():
-	plenaries, votes = extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"), num_reports_to_process=None)
+	plenaries, votes = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"), num_reports_to_process=None)
 	serialize(plenaries, votes)
 	# enrich_plenaries()
 

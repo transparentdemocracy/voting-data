@@ -2,20 +2,21 @@
 Extract info from HTML-formatted voting reports from the Belgian federal chamber's website,
 see https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 """
+import collections
 import datetime
 import glob
 import logging
 import os
 import re
-from typing import Tuple, List, Any, OrderedDict
-import unicodedata
+from typing import Tuple, List, Any
 
 from bs4 import BeautifulSoup, NavigableString
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
-from transparentdemocracy import PLENARY_HTML_INPUT_PATH
-from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, MotionData, BodyTextPart
+from transparentdemocracy import CONFIG
+from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, MotionData, \
+	BodyTextPart
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
@@ -26,7 +27,7 @@ MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktob
 
 
 def extract_from_html_plenary_reports(
-		report_file_pattern: str = os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"),
+		report_file_pattern: str = CONFIG.plenary_html_input_path("*.html"),
 		num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote]]:
 	politicians = load_politicians()
 	plenaries = []
@@ -421,7 +422,7 @@ def split_on_h2_tags_containing_bordered_span(tags):
 
 def find_motion_datas(tag_groups):
 	""" Each of the tag groups starts with a H2 containing a bordered span"""
-	groups_by_bordered_span_value = OrderedDict()
+	groups_by_bordered_span_value = collections.OrderedDict()
 
 	for tag_group in tag_groups:
 		bordered_span = find_bordered_span(tag_group[0])[0]
@@ -620,9 +621,9 @@ def _get_plenary_date(path, html):
 
 
 def main():
-	extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
+	extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
-	# test_path = os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html")
+	# test_path = CONFIG.plenary_html_input_path(ip298x.html)
 	# html = read_plenary_html(test_path)
 	# _extract_motiondata(test_path, html)
 

@@ -1,9 +1,10 @@
 import os
 
+from config import CONFIG
+
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data")
 
 # input
-PLENARY_HTML_INPUT_PATH = os.path.join(DATA_PATH, "input", "plenary", "html")
 ACTOR_JSON_INPUT_PATH = os.path.join(DATA_PATH, "input", "actors", "actor")
 
 # output

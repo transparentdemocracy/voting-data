@@ -3,7 +3,7 @@ import os
 import unittest
 from datetime import date
 
-from transparentdemocracy import PLENARY_HTML_INPUT_PATH
+from transparentdemocracy import CONFIG
 from transparentdemocracy.config import CONFIG
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
 	extract_from_html_plenary_report, _extract_plenary, _read_plenary_html, _get_plenary_date
@@ -17,7 +17,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):
-		plenaries, all_votes = extract_from_html_plenary_reports(os.path.join(PLENARY_HTML_INPUT_PATH, "*.html"))
+		plenaries, all_votes = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
 		self.assertEqual(len(plenaries), 300)
 
@@ -32,7 +32,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 	def test_extract_from_html_plenary_report__ip298x_html__go_to_example_report(self):
 		# Plenary report 298 has long been our first go-to example plenary report to test our extraction against.
 		# Arrange
-		report_file_name = os.path.join(PLENARY_HTML_INPUT_PATH, "ip298x.html")
+		report_file_name = CONFIG.plenary_html_input_path("ip298x.html")
 
 		# Act
 		plenary, votes = extract_from_html_plenary_report(report_file_name)
@@ -99,7 +99,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		# taking the entire text after the proposal header in a best-effort as the description, both for Dutch and 
 		# French.
 		# Arrange
-		report_file_name = os.path.join(PLENARY_HTML_INPUT_PATH, "ip261x.html")
+		report_file_name = CONFIG.plenary_html_input_path("ip261x.html")
 
 		# Act
 		plenary, votes = extract_from_html_plenary_report(report_file_name)
@@ -134,7 +134,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 	@unittest.skip(
 		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
 	def test_extract_ip67(self):
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip067x.html'))
+		actual, votes = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip067x.html'))
 
 		vote_types_motion_1 = set([v.vote_type for v in votes if v.motion_id == "55_067_1"])
 		self.assertTrue("NO" in vote_types_motion_1)
@@ -144,12 +144,12 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 	)
 	def test_extract_ip72(self):
 		"""vote 2 has an extra '(' in the vote result indicator"""
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip072x.html'))
+		actual, votes = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip072x.html'))
 
 		self.assertEqual(len(actual.motions), 5)
 
 	def test_voter_dots_are_removed_from_voter_names(self):
-		actual, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, 'ip182x.html'))
+		actual, votes = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip182x.html'))
 
 		names = [v.politician.full_name for v in votes]
 
