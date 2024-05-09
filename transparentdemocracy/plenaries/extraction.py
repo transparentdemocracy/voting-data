@@ -2,7 +2,6 @@
 Extract info from HTML-formatted voting reports from the Belgian federal chamber's website,
 see https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 """
-import collections
 import datetime
 import glob
 import logging
@@ -373,8 +372,9 @@ def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionDat
 	def is_motion_title(el):
 		if el.name == "h2":
 			return True
-		if el.name == "p" and el.get("class") in ["Titre2NL", "Titre2FR"]:
+		if el.name == "p" and any([clazz in ["Titre2NL", "Titre2FR"] for clazz in ((el and el.get("class")) or [])]):
 			return True
+
 		return False
 
 	motion_titles = list(filter(is_motion_title, start_naamstemmingen[0].find_next_siblings()))
@@ -383,10 +383,9 @@ def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionDat
 		return []
 	first_motion_title = motion_titles[0]
 
-	grouped_h2_tags = split_on_h2_tags_containing_bordered_span(
-		[first_motion_title] + first_motion_title.find_next_siblings())
+	tag_groups = create_tag_groups([first_motion_title] + first_motion_title.find_next_siblings())
 
-	motion_data = find_motion_datas(grouped_h2_tags)
+	motion_data = find_motion_datas(report_path, tag_groups)
 
 	# print(
 	# 	json.dumps([dict(label=m.label, nl_title=m.nl_title, fr_title=m.fr_title,
@@ -394,6 +393,12 @@ def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionDat
 	# 				motion_data], indent=2))
 
 	return motion_data
+
+
+def get_class(el):
+	classes = el.get("class")
+	if not classes:
+		return []
 
 
 def has_border(attr):
@@ -408,17 +413,26 @@ def find_bordered_span(el):
 	return el.find_all("span", style=has_border)
 
 
-# Looking for 'bordered spans' is a very flawed strategy, there's no consistency there
-# We'll be better off looking for recognisable fixed expressions like "Moties ingediend tot besluit van de interpellaties van"
-def split_on_h2_tags_containing_bordered_span(tags):
+def create_tag_groups(tags):
+	""" Creates groups that consist of consecutive titles followed by non-titles"""
+
 	groups = []
 	current_group = []
 
+	# Iterate over tags
+	# Every time we switch from non-title to title a new group starts
+	last_was_title = True
 	for tag in tags:
-		if tag.name == "h2" and contains_bordered_span(tag):
-			if current_group:
+		if tag.text.strip() == "":  # ignore empty tags (see motion 23 of ip271)
+			continue
+		if is_level2_title(tag):
+			if not last_was_title and current_group:
 				groups.append(current_group)
 				current_group = []
+			last_was_title = True
+		else:
+			last_was_title = False
+
 		current_group.append(tag)
 
 	if current_group:
@@ -427,53 +441,75 @@ def split_on_h2_tags_containing_bordered_span(tags):
 	return groups
 
 
-def find_motion_datas(tag_groups):
+def is_level2_title(tag):
+	return (tag.name == "h2") or (
+			tag.name == "p" and any([clazz in ['Titre2FR', 'Titre2NL'] for clazz in tag.get("class")]))
+
+
+def find_motion_datas(report_path, tag_groups):
 	""" Each of the tag groups starts with a H2 containing a bordered span"""
-	groups_by_bordered_span_value = collections.OrderedDict()
-
-	for tag_group in tag_groups:
-		bordered_span = find_bordered_span(tag_group[0])[0]
-
-		groups_by_bordered_span_value.setdefault(bordered_span.text, []).append(tag_group)
 
 	result = []
-	for k, v in groups_by_bordered_span_value.items():
-		if len(v) != 2:
-			logger.warning("Motion did not have two groups of h2 tags that start with a bordered span:", k)
 
-		# Assumption: 	first group is always french
+	for tag_group in tag_groups:
+		# TODO: analyse group
+		# how many titles nl/fr? are they consecutive?
+		# can we find the motion number?
+		# ...
 
-		fr_h2_tags = [tag for tag in v[0] if tag.name == 'h2']
-		nl_h2_tags = [tag for tag in v[1] if tag.name == 'h2']
+		titles = [tag for tag in tag_group if is_level2_title(tag)]
 
-		assert fr_h2_tags, "Motion should have fr h2 tags"
-		assert nl_h2_tags, "Motion should have nl h2 tags"
+		fr_title_tags = [tag for tag in titles if is_french_title(tag)]
+		nl_title_tags = [tag for tag in titles if is_dutch_title(tag)]
 
-		fr_title = "\n".join([tag.text for tag in fr_h2_tags])
-		nl_title = "\n".join([tag.text for tag in nl_h2_tags])
+		if not fr_title_tags:
+			logger.warning(f"Ignoring group without french title tags in {report_path}")
+			continue
+		if not nl_title_tags:
+			logger.warning(f"Ignoring group without dutch title tags in {report_path}")
+			continue
 
-		# Assumption: there are no h2 tags other than title elements
-		last_nl_h2_index = v[1].index(nl_h2_tags[-1])
-		if last_nl_h2_index == -1:
-			raise Exception("should not happen - nl h2 tag not found")
+		fr_title = "\n".join([tag.text for tag in fr_title_tags])
+		nl_title = "\n".join([tag.text for tag in nl_title_tags])
 
-		remaining_elements = v[1][last_nl_h2_index + 1:]
-		remaining_elements = [el for el in remaining_elements if el.text.strip() != ""]
+		remaining_elements = [tag for tag in tag_group if not is_level2_title(tag) if tag.text.strip() != ""]
 
 		body_text_parts = [create_body_text_part(el) for el in remaining_elements]
 
-		result.append(MotionData(k, nl_title, nl_h2_tags, fr_title, fr_h2_tags, body_text_parts, remaining_elements))
+		result.append(MotionData("TODO - label", nl_title, nl_title_tags, fr_title, fr_title_tags, body_text_parts,
+								 remaining_elements))
 
 	return result
+
+
+def is_dutch_title(tag):
+	return tag_has_class(tag, "Titre2FR")
+
+
+def is_french_title(tag):
+	return tag_has_class(tag, "Titre2FR") or tag.select('span[lang="FR"]')
+
+
+def is_dutch_title(tag):
+	return tag_has_class(tag, "Titre2NL") or tag.select('span[lang="NL"]')
+
+
+def tag_has_class(tag, clazz):
+	class_values = tag.get("class") or []
+
+	if not class_values:
+		return False
+
+	return clazz in class_values
 
 
 def create_body_text_part(el) -> BodyTextPart:
 	nl = False
 	fr = False
 
-	if 'NormalNL' in el.get('class'):
+	if 'NormalNL' in (el.get('class') or []):
 		nl = True
-	if 'NormalFR' in el.get('class'):
+	if 'NormalFR' in (el.get('class') or []):
 		fr = True
 
 	lang = "unknown"

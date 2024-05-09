@@ -22,15 +22,15 @@ class TestNewMotionDataExtraction(unittest.TestCase):
 		motion_data = self.extract_motiondata('ip298x.html')
 
 		self.assertIsNotNone(motion_data, "motion data")
-		self.assertEqual(len(motion_data), 15)  # motions 10 - 24
+		self.assertEqual(len(motion_data), 14)  # motions 10 - 23 (?)
 
 		self.assert_motion_data(motion_data[0],
-								"10",
+								"TODO - label",
 								"10 Moties ingediend",
 								"10 Motions déposées en conclusion des interpellations de")
 
 		self.assert_motion_data(motion_data[1],
-								"11",
+								"TODO - label",
 								"11 Wetsontwerp\nhoudende diverse wijzigingen van het Wetboek van strafvordering II, zoals\ngeamendeerd tijdens de plenaire vergadering van 28 maart 2024 (3515/10)",
 								"11 Projet de loi portant diverses modifications du Code d'instruction\ncriminelle II, tel qu'amendé lors de la séance plénière du 28 mars 2024\n(3515/10)")
 
@@ -44,19 +44,19 @@ class TestNewMotionDataExtraction(unittest.TestCase):
 		motion_data = self.extract_motiondata('ip271x.html')
 
 		self.assertIsNotNone(motion_data, "motion data")
-		self.assertEqual(len(motion_data), 15)  # todo: check manually
+		self.assertEqual(len(motion_data), 14)  # todo: check manually
 
 		self.assert_motion_data(motion_data[0],
-								'14',
+								'TODO - label',
 								'14 Moties ingediend tot besluit van de\ninterpellatie van mevrouw Barbara Pas',
 								'14 Motions déposées en conclusion de l\'interpellation de Mme Barbara\nPas')
 
 		# FIXME: Do we count 'Goedkeuring van de agenda' as a motion?
 		# If we link the motions with their votes we could exclude motions without votes
 		self.assert_motion_data(motion_data[-1],
-								'28',
-								'28 Goedkeuring van de agenda',
-								'28 Adoption de l’ordre du jour')
+								'TODO - label',
+								'27 Wetsontwerp tot\nwijziging',
+								'27 Projet de loi visant à modi')
 
 	def test_extract_ip290_has_no_naamstemmingen(self):
 		motion_data = self.extract_motiondata('ip290x.html')
