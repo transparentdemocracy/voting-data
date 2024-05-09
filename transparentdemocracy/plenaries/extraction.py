@@ -79,7 +79,7 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 		Plenary(
 			plenary_id,
 			int(plenary_number),
-			__get_plenary_date(report_filename, html),
+			_get_plenary_date(report_filename, html),
 			legislature,
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
@@ -596,7 +596,7 @@ def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType,
 		]
 
 
-def __get_plenary_date(path, html):
+def _get_plenary_date(path, html):
 	first_table_paragraphs = [p.text for p in html.find('table').select('p')]
 	text_containing_weekday = [t.lower() for t in first_table_paragraphs if any([m in t.lower() for m in DAYS_NL])]
 	if len(text_containing_weekday) > 0:

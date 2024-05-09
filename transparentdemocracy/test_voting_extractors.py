@@ -4,8 +4,9 @@ import unittest
 from datetime import date
 
 from transparentdemocracy import PLENARY_HTML_INPUT_PATH
+from transparentdemocracy.config import CONFIG
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
-	extract_from_html_plenary_report
+	extract_from_html_plenary_report, _extract_plenary, _read_plenary_html, _get_plenary_date
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -50,17 +51,24 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(plenary.proposal_discussions[0].id, "55_298_d01")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_298")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 1)
-		self.assertTrue(plenary.proposal_discussions[0].description_nl.startswith("Wij vatten de bespreking van de artikelen aan."))
-		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith("De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden."))
-		self.assertTrue(plenary.proposal_discussions[0].description_fr.startswith("Nous passons à la discussion des articles."))
-		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith("La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement."))
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl, "Wetsontwerp houdende optimalisatie van de werking van het Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en het Overlegorgaan voor de coördinatie van de invordering van niet-fiscale schulden in strafzaken en houdende wijziging van de Wapenwet")
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr, "Projet de loi optimisant le fonctionnement de l'Organe central pour la Saisie et la Confiscation et de l'Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la loi sur les armes")
+		self.assertTrue(
+			plenary.proposal_discussions[0].description_nl.startswith("Wij vatten de bespreking van de artikelen aan."))
+		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
+			"De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden."))
+		self.assertTrue(
+			plenary.proposal_discussions[0].description_fr.startswith("Nous passons à la discussion des articles."))
+		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
+			"La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement."))
+		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl,
+						 "Wetsontwerp houdende optimalisatie van de werking van het Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en het Overlegorgaan voor de coördinatie van de invordering van niet-fiscale schulden in strafzaken en houdende wijziging van de Wapenwet")
+		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr,
+						 "Projet de loi optimisant le fonctionnement de l'Organe central pour la Saisie et la Confiscation et de l'Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la loi sur les armes")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].document_reference, "3849/1-4")
 
 		# The motions are extracted correctly:
 		self.assertEqual(28, len(plenary.motions))
-		self.assertEqual(plenary.motions[0].id, "55_298_1") # TODO modify id creation so it doesn't clash with proposals and sections
+		self.assertEqual(plenary.motions[0].id,
+						 "55_298_1")  # TODO modify id creation so it doesn't clash with proposals and sections
 		self.assertEqual(False, plenary.motions[0].cancelled)
 		self.assertEqual(True, plenary.motions[11].cancelled)
 
@@ -110,14 +118,19 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 		self.assertEqual(plenary.proposal_discussions[0].id, "55_261_d20")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_261")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 20)
-		self.assertTrue(plenary.proposal_discussions[0].description_nl.startswith("20.01  Peter De Roover (N-VA): Mevrouw de voorzitster, "))
-		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith("Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
-		self.assertTrue(plenary.proposal_discussions[0].description_fr.startswith("20.01  Peter De Roover (N-VA): Mevrouw de voorzitster, "))
-		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith("Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl, "Verzoek om advies van de Raad van State")
+		self.assertTrue(plenary.proposal_discussions[0].description_nl.startswith(
+			"20.01  Peter De Roover (N-VA): Mevrouw de voorzitster, "))
+		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
+			"Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
+		self.assertTrue(plenary.proposal_discussions[0].description_fr.startswith(
+			"20.01  Peter De Roover (N-VA): Mevrouw de voorzitster, "))
+		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
+			"Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
+		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl,
+						 "Verzoek om advies van de Raad van State")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr, "Demande d'avis du Conseil d'État")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].document_reference, None)
-		
+
 	@unittest.skip(
 		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
 	def test_extract_ip67(self):
@@ -151,12 +164,15 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 			self.assertIsNotNone(vote.politician)
 
 	def test_plenary_date1(self):
-		plenary, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, "ip123x.html"))
+		plenary_date = self.get_plenary_date("ip123x.html")
 
-		self.assertEqual(plenary.date, date.fromisoformat("2021-07-19"))
+		self.assertEqual(plenary_date, date.fromisoformat("2021-07-19"))
 
 	def test_plenary_date2(self):
-		plenary, votes = extract_from_html_plenary_report(os.path.join(PLENARY_HTML_INPUT_PATH, "ip007x.html"))
+		plenary_date = self.get_plenary_date("ip007x.html")
 
-		self.assertEqual(plenary.date, date.fromisoformat("2019-10-03"))
+		self.assertEqual(plenary_date, date.fromisoformat("2019-10-03"))
 
+	def get_plenary_date(self, filename):
+		path = CONFIG.plenary_html_input_path(filename)
+		return _get_plenary_date(path, _read_plenary_html(path))
