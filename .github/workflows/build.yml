@@ -1,4 +1,4 @@
-name: Hello World Workflow
+name: Run tests
 
 on:
   push:
@@ -11,17 +11,16 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    container:
-      image: python:3.9-alpine
     steps:
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: '3.x'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Add your requirements file here
+          python -m pip install -r requirements.txt
       - name: Run unit tests
         run: |
           python -m unittest
