@@ -25,8 +25,8 @@ class Config:
 	def enriched_votes_json_output_path(self):
 		return self.resolve("output", "plenary", "enriched-json")
 
-	def politicians_json_output_path(self):
-		return self.resolve("output", "politician")
+	def politicians_json_output_path(self, *path):
+		return self.resolve("output", "politician", *path)
 
 
 def _create_config():

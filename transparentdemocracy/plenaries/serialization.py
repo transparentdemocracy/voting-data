@@ -3,14 +3,14 @@ import json
 import os
 from typing import List, Dict
 
-from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH
+from transparentdemocracy import CONFIG
 from transparentdemocracy.json_serde import DateTimeEncoder
 from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 
 
 class MarkdownSerializer:
-	def __init__(self, output_path=PLENARY_MARKDOWN_OUTPUT_PATH):
+	def __init__(self, output_path=CONFIG.plenary_markdown_output_path()):
 		self.output_path = output_path
 		os.makedirs(output_path, exist_ok=True)
 
@@ -86,7 +86,7 @@ class MarkdownSerializer:
 
 
 class JsonSerializer:
-	def __init__(self, output_path=PLENARY_JSON_OUTPUT_PATH):
+	def __init__(self, output_path=CONFIG.plenary_json_output_path):
 		self.plenary_output_json_path = output_path
 		os.makedirs(self.plenary_output_json_path, exist_ok=True)
 

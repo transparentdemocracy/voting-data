@@ -122,7 +122,7 @@ def get_relevant_actors(actors_path=(CONFIG.actor_json_input_path()), pattern="*
 
 
 def load_politicians() -> Politicians:
-	with open(os.path.join(POLITICIANS_JSON_OUTPUT_PATH, "politicians.json")) as fp:
+	with open(CONFIG.politicians_json_output_path("politicians.json")) as fp:
 		return Politicians([json_dict_to_politician(data) for data in json.load(fp)])
 
 
