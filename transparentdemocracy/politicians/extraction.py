@@ -7,7 +7,7 @@ import os
 import Levenshtein
 from tqdm.asyncio import tqdm
 
-from transparentdemocracy import ACTOR_JSON_INPUT_PATH, POLITICIANS_JSON_OUTPUT_PATH
+from transparentdemocracy import POLITICIANS_JSON_OUTPUT_PATH, CONFIG
 from transparentdemocracy.model import Politician
 from transparentdemocracy.politicians.serialization import JsonSerializer
 
@@ -49,7 +49,7 @@ class Politicians:
 
 
 class PoliticianExtractor(object):
-	def __init__(self, actors_path=ACTOR_JSON_INPUT_PATH):
+	def __init__(self, actors_path=CONFIG.actor_json_input_path()):
 		self.actors_path = actors_path
 
 	def extract_politicians(self, pattern="*.json") -> Politicians:
@@ -100,7 +100,7 @@ def get_party(actor):
 	raise Exception(f"could not determine faction for {a['name']} {a['fName']}")
 
 
-def get_relevant_actors(actors_path=(ACTOR_JSON_INPUT_PATH), pattern="*.json"):
+def get_relevant_actors(actors_path=(CONFIG.actor_json_input_path()), pattern="*.json"):
 	actor_files = glob.glob(os.path.join(actors_path, pattern))
 	actors = []
 
