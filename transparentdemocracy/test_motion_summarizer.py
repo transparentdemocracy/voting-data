@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from motions.motion_summarizer import MotionSummarizer
+from transparentdemocracy.motions.motion_summarizer import MotionSummarizer
 from transparentdemocracy import CONFIG
 
 
