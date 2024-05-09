@@ -6,3831 +6,2825 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip293.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip293x.html
 
-## Proposal 1
-
-
- 
- 
- 
-27.03  Catherine Fonck (Les
-Engagés): Madame la présidente, j'assumerai un pairage pour ma collègue Sophie Wilmès.
-J'adapterai mon vote en conséquence.
-27.03
-27.03
-  Catherine Fonck 
-  Catherine Fonck 
- 
-(Les
-Engagés): Madame la présidente, j'assumerai un pairage pour ma collègue Sophie Wilmès.
-J'adapterai mon vote en conséquence.
- 
- 
- 
-27.04  Sofie Merckx (PVDA-PTB):
-Madame la présidente, nous avons été informés de l'absence de M. Hervé Rigot
-et c'est M. Roberto D'Amico qui fera un pairage. M. Jean-Marc Delizée
-est aussi absent et c'est Maria Vindevoghel qui adaptera son vote.
-27.04
-27.04
-  Sofie Merckx 
-  Sofie Merckx 
- 
-(PVDA-PTB):
-Madame la présidente, nous avons été informés de l'absence de M. Hervé Rigot
-et c'est M. Roberto D'Amico qui fera un pairage. M. Jean-Marc Delizée
-est aussi absent et c'est Maria Vindevoghel qui adaptera son vote.
- 
- 
- 
-La présidente:
-Merci beaucoup pour ces gestes.
-La présidente:
-Merci beaucoup pour ces gestes.
-présidente
- 
- 
- 
-28 Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "La ponctualité médiocre à la SNCB et le grand nombre de
-trains supprimés" (n° 477)
-28
-28
- Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "La ponctualité médiocre à la SNCB et le grand nombre de
-trains supprimés" (n° 477)
- Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "La ponctualité médiocre à la SNCB et le grand nombre de
-trains supprimés" (n° 477)
-
-28 Moties ingediend tot besluit van de
-interpellatie van de heer Frank Troosters over "Het ondermaatse
-stiptheidscijfer en het hoge aantal afgeschafte treinen bij de NMBS"
-(nr. 477)
-28
-28
-28
- Moties ingediend tot besluit van de
-interpellatie van de heer Frank Troosters over "Het ondermaatse
-stiptheidscijfer en het hoge aantal afgeschafte treinen bij de NMBS"
-(nr. 477)
- Moties ingediend tot besluit van de
-interpellatie van de heer Frank Troosters over "Het ondermaatse
-stiptheidscijfer en het hoge aantal afgeschafte treinen bij de NMBS"
-(nr. 477)
- Moties ingediend tot besluit van de
-interpellatie van de heer Frank Troosters over "Het ondermaatse
-stiptheidscijfer en het hoge aantal afgeschafte treinen bij de NMBS"
-(nr. 477)
-
-
- 
- 
- 
-Cette
-interpellation a été développée en réunion publique de la commission de la
-Mobilité, des Entreprises publiques et des Institutions fédérales du
-28 février 2024.
-Cette
-interpellation a été développée en réunion publique de la commission de la
-Mobilité, des Entreprises publiques et des Institutions fédérales du
-28 février 2024.
-
-Deze
-interpellatie werd gehouden in de openbare vergadering van de commissie voor
-Mobiliteit, Overheidsbedrijven en Federale Instellingen van 28 februari 2024.
-Deze
-interpellatie werd gehouden in de openbare vergadering van de commissie voor
-Mobiliteit, Overheidsbedrijven en Federale Instellingen van 28 februari 2024.
-
- 
- 
- 
-Deux motions
-ont été déposées (MOT n° 477/1):
-Deux motions
-ont été déposées (MOT n
-°
-°
- 477/1):
-
-- une
-motion de recommandation a été déposée par M. Frank Troosters;
-- une
-motion de recommandation a été déposée par M. Frank Troosters;
-
-- une
-motion pure et simple a été déposée par M. Olivier
-Vajda.
-- une
-motion pure et simple a été déposée par 
-M. Olivier
-Vajda
-.
-
-Twee
-moties werden ingediend (MOT nr. 477/1):
-Twee
-moties werden ingediend (MOT nr. 477/1):
-
-- een
-motie van aanbeveling werd ingediend door de heer Frank Troosters;
-- een
-motie van aanbeveling werd ingediend door de heer Frank Troosters;
-
-- een
-eenvoudige motie werd ingediend door de heer Olivier
-Vajda.
-- een
-eenvoudige motie werd ingediend door 
-de heer Olivier
-Vajda
-.
-
- 
- 
- 
-La motion
-pure et simple ayant la priorité de droit, je mets cette motion aux voix.
-La motion
-pure et simple ayant la priorité de droit, je mets cette motion aux voix.
-
-Daar de
-eenvoudige motie van rechtswege voorrang heeft, breng ik deze motie in
-stemming.
-Daar de
-eenvoudige motie van rechtswege voorrang heeft, breng ik deze motie in
-stemming.
-
- 
- 
- 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote?
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote?
-
-
-Vraagt
-iemand het woord voor een stemverklaring?
-Vraagt
-iemand het woord voor een stemverklaring?
-
-
-28.01 
-28.01
-28.01
- 
- 
-
-28.02  Frank Troosters (VB): Collega’s, op 10 december ging een eerste fase van het nieuwe
-vervoersplan van de NMBS voor de periode 2023-2026 van start. Dat plan moet
-uitvoering geven aan de ambitie van de minister van Mobiliteit, minister
-Gilkinet, om op termijn het aantal treinen met 2.000 extra treinen per week te
-verhogen. Dat is een beslissing die op de nodige scepsis kon rekenen, zowel bij
-het Vlaams Belang als bij andere politieke partijen van de oppositie en de
-meerderheid, en bij het spoorpersoneel. Er wordt openlijk getwijfeld of de
-nodige capaciteit inzake betrouwbaar rollend materieel en voldoende
-operationeel personeel bij de NMBS aanwezig is om dit plan succesvol te kunnen
-uitrollen.
-28.02
-28.02
-  Frank Troosters 
-  Frank Troosters 
- 
-(VB): Collega’s, op 10 december ging een eerste fase van het nieuwe
-vervoersplan van de NMBS voor de periode 2023-2026 van start. Dat plan moet
-uitvoering geven aan de ambitie van de minister van Mobiliteit, minister
-Gilkinet, om op termijn het aantal treinen met 2.000 extra treinen per week te
-verhogen. Dat is een beslissing die op de nodige scepsis kon rekenen, zowel bij
-het Vlaams Belang als bij andere politieke partijen van de oppositie en de
-meerderheid, en bij het spoorpersoneel. Er wordt openlijk getwijfeld of de
-nodige capaciteit inzake betrouwbaar rollend materieel en voldoende
-operationeel personeel bij de NMBS aanwezig is om dit plan succesvol te kunnen
-uitrollen.
- 
- 
- 
-Wij hebben in het verleden gezien dat men
-niet in staat was om het vervoersplan dat toen bestond bij de NMBS uit te
-voeren. De verhoging die men toen toch heeft doorgevoerd, heeft geleid tot een
-spectaculaire daling van de stiptheid en de stijging van het aantal afgeschafte
-treinen. Dat blijkt zich nu te herhalen. Volgens de cijfers van januari 2024
-was de stiptheid onder de 87 % gedaald. Dat is opmerkelijk lager dan de al
-slechte stiptheidscijfers van een jaar geleden. Het aantal afgeschafte treinen
-is geëxplodeerd. Verleden jaar waren dat er iets meer dan 3.000 en nu 6.081.
-Dat is bijzonder spectaculair en dat heeft mij genoodzaakt om de minister
-daarover te interpelleren en te bevragen. De antwoorden die ik kreeg waren
-weinig overtuigend dat er op korte termijn een oplossing zou komen.
-Wij hebben in het verleden gezien dat men
-niet in staat was om het vervoersplan dat toen bestond bij de NMBS uit te
-voeren. De verhoging die men toen toch heeft doorgevoerd, heeft geleid tot een
-spectaculaire daling van de stiptheid en de stijging van het aantal afgeschafte
-treinen. Dat blijkt zich nu te herhalen. Volgens de cijfers van januari 2024
-was de stiptheid onder de 87 % gedaald. Dat is opmerkelijk lager dan de al
-slechte stiptheidscijfers van een jaar geleden. Het aantal afgeschafte treinen
-is geëxplodeerd. Verleden jaar waren dat er iets meer dan 3.000 en nu 6.081.
-Dat is bijzonder spectaculair en dat heeft mij genoodzaakt om de minister
-daarover te interpelleren en te bevragen. De antwoorden die ik kreeg waren
-weinig overtuigend dat er op korte termijn een oplossing zou komen.
- 
- 
- 
-Vandaar deze motie waarin ik de regering
-vraag om onmiddellijk de nodige maatregelen te nemen opdat alle voorwaarden om
-een correcte dienst­verlening bij de NMBS te garanderen vervuld worden, opdat
-de stiptheidscijfers zouden verbeteren, opdat het aantal afschafte treinen
-wordt teruggedrongen tot een absoluut minimum en opdat het vertrouwen van de
-treinreizigers in de NMBS zou worden hersteld.
-Vandaar deze motie waarin ik de regering
-vraag om onmiddellijk de nodige maatregelen te nemen opdat alle voorwaarden om
-een correcte dienst­verlening bij de NMBS te garanderen vervuld worden, opdat
-de stiptheidscijfers zouden verbeteren, opdat het aantal afschafte treinen
-wordt teruggedrongen tot een absoluut minimum en opdat het vertrouwen van de
-treinreizigers in de NMBS zou worden hersteld.
- 
- 
- 
-Het Vlaams Belang, het spoorpersoneel en de
-treinreizigers hopen op uw steun.
-Het Vlaams Belang, het spoorpersoneel en de
-treinreizigers hopen op uw steun.
- 
- 
- 
-La présidente: Début du vote /
-Begin van de stemming.
-La présidente: 
-présidente
-Début du vote /
-Begin van de stemming.
+## Proposal discussion (agenda item 12)
 
-Tout le monde a-t-il voté et vérifié son vote? / Heeft
-iedereen gestemd en zijn stem nagekeken?
-Tout le monde a-t-il voté et vérifié son vote? / Heeft
-iedereen gestemd en zijn stem nagekeken?
+### Description in Dutch:
 
-Fin du
-vote / Einde van de stemming.
-Fin du
-vote / Einde van de stemming.
+Cette proposition a été adoptée par le Comité d’avis pour l’Émancipation sociale en application de l'art. 76 du Règlement.
 
-Résultat
-du vote / Uitslag van de stemming.
-Résultat
-du vote / Uitslag van de stemming.
+Dit voorstel is aangenomen door het Adviescomité voor de Maatschappelijke Emancipatie met toepassing van art. 76 van het Reglement.
 
- 
- 
- 
 
-## Proposal 2
 
+Discussion
 
-(Stemming/vote 1)
+Bespreking
 
-(Stemming/vote 1)
-(Stemming/vote 1)
-(Stemming/vote 1)
 
 
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3593/3)
 
-Ja
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (3593/3)
 
 
-83
 
+La discussion est ouverte.
 
-Oui
+De bespreking is geopend.
 
 
 
-Ja
+Mmes Platteau et Pisman, rapporteurs, renvoient au rapport écrit.
 
-Ja
-Ja
 
 
-83
+12.01  Kathleen Depoorter (N-VA): Mevrouw de voorzitster, collega's, de N-VA-fractie zal zich onthouden bij de stemming over het voorliggende voorstel van resolutie betreffende gender data bias. Ik overloop even met u waarom wij dat zullen doen.
 
-83
-83
 
 
-Oui
+Het studiewerk dat werd verricht en dat ook in de hoorzittingen aan bod is gekomen, bevat goede aandachtspunten. We zijn het er uiteraard mee eens dat er in het wetenschappelijk onderzoek – zopas kwam de vraag over endometriose aan de orde – meer aandacht mag zijn voor geslachts­specifieke pathologieën rond bijvoorbeeld de menopauze. Wel hebben we er een probleem mee dat er in de tekst ook voorstellen zijn geslopen die te maken hebben met deelstaatmaterie, zoals onderwijs. Daar zien we weer het vingertje van de federale Staat die een deelstaat zegt hoe die een en ander moet organiseren, en dat is een gevoelig punt voor de N-VA.
 
-Oui
-Oui
 
 
+Ik heb in de commissie ook aangegeven dat de extra toewijzing van projecten en middelen aan het IGVM en de range van de werkmaterie voor ons problematisch kan zijn, omdat wij een heel duidelijke afbakening van de functie van het instituut willen en het budget ongewijzigd willen behouden.
 
-Nee
 
 
-47
+Daarnaast gaat volgens ons de opdracht van het KCE vrij breed. Misschien is focus voor het KCE efficiënter. Een heel brede scope van werkingsmechanismen resulteert anders in een heel brede scope van outcome.
 
 
-Non
 
+Het verhaal van de quota voor academische aanstellingen, wetenschappelijke comités, besluitvormingsorganen komt natuurlijk weer naar boven. De N-VA is geen voorstander van de quota. Wij willen er absoluut voor pleiten dat de juiste man of vrouw op de juiste plaats zit en niet wegens gender voor een bepaalde functie wordt aanvaard.
 
 
-Nee
 
-Nee
-Nee
+Voorts ben ik het ermee eens dat het EMA en het FAGG mogelijke neveneffecten moeten monitoren. Maar zij moeten wel elke tendentieuze monitoring vermijden. De gewoonte om de huisarts dan wel de specialist te raadplegen hangt wel eens af van gender. Dat kan ook het geval zijn voor neveneffecten, waarvoor moet worden gewaarschuwd. Ook daarbij is enige voorzichtigheid geboden. Of nog, het ligt voor de hand dat de dosering voor een persoon van 100 kilogram niet dezelfde is als voor een persoon van 50 kilogram. Ik kan dus alleen maar de aanbeveling om te onderzoeken of er nood is aan gerichtere doseringen bijtreden. Maar, ook wat dat betreft mag er niet pamflettair worden gewerkt.
 
 
-47
 
-47
-47
+Hetzelfde geldt voor klinische studies. Al in mijn studententijd stelden meer mannelijke dan vrouwelijke studenten zich kandidaat voor deelname aan klinische studies, die toch een zeker risico inhouden, weliswaar een risico voor de wetenschap, en dat was weloverwogen. Vrouwelijke studenten wilden geen risico nemen met hun lichaam.  Men moet nog steeds zelf de afweging kunnen maken. Deelname van meer vrouwen aan klinische studies opleggen lijkt me dan ook gevaarlijk.
 
 
-Non
 
-Non
-Non
+Daarnaast vind ik het moeilijk dat de meerderheid in de wet op de patiëntenrechten geen rekening hield met de kinderen, maar in onderhavig voorstel van resolutie wel, om nog maar te zwijgen van het pleidooi voor transparantie van het FAGG. Ik raad u aan te beginnen met de minister. Zorg ervoor dat hij ook transparant communiceert. Moet ik u nog eraan herinneren hoe ik nog dossiers bij de Commissie voor de toegang tot bestuursdocumenten hangende heb? Ik vind het dus wel bijzonder dat u zo pro transparantie bent, collega's van de meerderheid.
 
 
 
-Onthoudingen
+Ten slotte roep ik op tot voorzichtigheid in verband met AI, vooraleer ons daarover uit te spreken. Wij moeten alert zijn. Ik vind het nogal moeilijk om een en ander op genderbias te schuiven. De N-VA-fractie zal zich dan ook onthouden om de redenen die ik net heb aangehaald.
 
 
-2
 
+De voorzitster: Mevrouw Depoorter, u hebt uw spreektijd met 25 seconden overschreden.
 
-Abstentions
 
 
+12.02  Eva Platteau (Ecolo-Groen): Mevrouw de voorzitster, beste collega's, ik ben heel blij, en onze fractie is heel blij, dat wij opnieuw een tekst kunnen voorleggen waaraan wij hard gewerkt hebben binnen het Adviescomité voor de Maatschappelijke Emancipatie. Na resoluties over intrafamiliaal geweld, alleenstaande ouders en vrouwelijk ondernemerschap brengen wij met dit Adviescomité opnieuw een maatschappelijk relevant thema op de politieke agenda, zijnde de genderdatakloof.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+Ik was onlangs in Stuttgart. Daar is een bekend automuseum. Enkelen onder u vragen zich misschien af wat een automuseum te maken heeft met dit thema, de genderdatakloof? Wel, in dat museum staat een crashtestauto met vier crashtestdummy's in. Die poppen hadden de grootte en het gewicht van een gemiddelde man: 1,80 meter, heel sterke en brede poppen. Sta daar maar eens naast als vrouw van 1,60 meter. Dan snap je en voel je waarom er gezegd wordt dat de veiligheid van auto's, die getest is op die mannelijke poppen, kleiner is voor vrouwen. De man is de norm bij die veiligheidsproeven en dit verklaart waarom vrouwen 73 % meer kans hebben te overlijden bij een frontale botsing, ook wanneer zij een autogordel dragen. Dat is toch een ontluisterend cijfer.
 
-2
 
-2
-2
 
+Die auto's zijn maar één voorbeeld. Het gaat erom dat onze dagelijkse leefwereld grotendeels ontworpen is door mannen, voor mannen. Dat heeft een enorme impact op het welzijn van vrouwen, op de gezondheid van vrouwen, op de economische positie van vrouwen. Dit is een fenomeen dat aan het licht gebracht is door het boek Onzichtbare vrouwen, waarom we leven in een wereld voor en door mannen ontworpen. Dit boek vormde dan ook de inspiratie om rond dit thema te werken binnen het Adviescomité.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Het begrip 'genderdatakloof' verwijst naar de historisch gegroeide leemte inzake kennis over vrouwen. De genderdatakloof is niet bewust ontstaan, maar is wel het gevolg van onbewuste processen, waardoor doorheen de geschiedenis minder data werden verzameld, ontsloten en geanalyseerd over vrouwen. "Data" moet ruim begrepen worden. Het gaat over data die vergaard zijn in wetenschappelijk onderzoek. Het gaat over statistieken die verzameld zijn door de overheid, voor beleid. Het gaat over proeven die gedaan worden bij de ontwikkeling van nieuwe producten. Het gaat ook over kennis en inzicht in de dagelijkse ervaringen van vrouwen.
 
 
-Totaal
 
+Het begrip genderdatabias' is dan het gevolg van die genderdatakloof. Het gaat over de vertekening die ontstaat wanneer data die niet van toepassing zijn op vrouwen, toch gegeneraliseerd worden naar vrouwen. Dat kan ongewenste en onrechtvaardige effecten hebben. Denk maar aan het pensioenstelsel, dat geschoeid is op de leest van een mannelijke carrière, waardoor wij een grote pensioenkloof hebben en een grote ongelijkheid tussen mannen en vrouwen.
 
-132
 
 
-Total
+Dat kan ook gevaarlijke gevolgen hebben, met name binnen de gezondheidszorg. Klinisch onderzoek wordt meestal enkel gedaan met mannelijke proefpersonen, waardoor we veel minder of zelfs helemaal geen specifieke kennis over vrouwen hebben. Ik raad iedereen aan om naar de podcast Geen kleine man te luisteren, want daarin wordt haarfijn uit de doeken gedaan waar het schoentje knelt. Door de genderdatabias in de gezondheidszorg is er veel minder geweten over bijwerkingen van geneesmiddelen bij vrouwen. Daardoor zijn de meeste patiënten met onverklaarbare klachten een vrouw en worden zij veel vaker fout gediagnosticeerd. Zeer veel typische vrouwenziekten blijven daardoor veel te lang onder de radar.
 
 
 
-Totaal
+Collega's de genderdatakloof is een maatschappelijk probleem. Vrouwen zijn geen minderheidsgroep, maar maken de helft van de wereldbevolking uit. Als de gezondheid en de levenskwaliteit van vrouwen daalt door de genderdatakloof, dan is dat een maatschappelijk probleem en dan moet de politiek reageren. Dat hebben we gedaan. We hebben daarnet een debat gehad over endometriose, een ziekte die een op de tien vrouwen treft, maar waar nog maar zeer recent bewustzijn rond bestaat en waar vrouwen nog steeds zeer lang op een diagnose moeten wachten. Gelukkig hebben we die ziekte op de agenda gezet. Met deze tekst geven we vanuit de politiek vandaag een structureel, algemeen antwoord over die genderdatakloof. De andere collega's die het woord zullen nemen, zullen ongetwijfeld zeer veel van de maatregelen die we in de resolutie hebben voorgesteld bespreken.
 
-Totaal
-Totaal
 
 
-132
+Ik wil alle leden van het Adviescomité bedanken voor de samenwerking. We hebben deze legislatuur met dit Adviescomité een mooi palmares neergezet. Ik wil er ook aan herinneren dat dit het vrouwelijkste Parlement was in de Belgische geschiedenis. In 2019 zijn er 63 vrouwen verkozen. Ik hoop dat dit de volgende legislatuur ook zo zal zijn en dat we ons werk kunnen verderzetten. Door de aanwezigheid van vrouwen in het Parlement zetten we vrouwenthema's ook op de politieke agenda.
 
-132
-132
 
 
-Total
+Mevrouw Depoorter, ik wil er ook op wijzen dat vertegenwoordiging van vrouwen in de politiek en daarbuiten er alleen gekomen is door de invoering van quota voor de kieslijsten, en daar plukt deze generatie vrouwen de vruchten van. Voor Ecolo-Groen is gendergelijkheid een belangrijk thema. Het is aan de politiek om de genderkloof te dichten en daar zullen wij ons voor blijven inspannen.
 
-Total
-Total
 
- 
- 
- 
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
 
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
+12.03  Laurence Zanchetta (PS): Madame la présidente, chers collègues, lutter contre les biais de genre dans la collecte des données, dans les statistiques qui sont mises à disposition, notamment, des pouvoirs publics, c'est lutter contre les discriminations, contre les politiques discriminatoires et aussi contre des prises en charge inadéquates, en particulier dans les soins de santé.
 
- 
- 
- 
-29 Proposition de résolution relative aux biais de genre dans les données
-(3593/3)
-29
-29
- Proposition de résolution relative aux biais de genre dans les données
-(3593/3)
- Proposition de résolution relative aux biais de genre dans les données
-(3593/3)
 
-29 Voorstel van
-resolutie betreffende gender data bias (3593/3)
-29
-29
-29
- Voorstel van
-resolutie betreffende gender data bias (3593/3)
- Voorstel van
-resolutie betreffende gender data bias (3593/3)
- Voorstel van
-resolutie betreffende gender data bias (3593/3)
 
+Lors des auditions que nous avons menées ces derniers mois, nous avons en effet constaté que l'un des domaines touchés par ces biais de genre dans les données est la santé. Dans les recherches et les essais cliniques, on remarque une sous-représentation des femmes, qui a des conséquences néfastes dans leur prise en charge, dues à un manque de connaissance des symptômes de certaines pathologies qui sont propres aux femmes – je pense notamment à l'endométriose ou au syndrome des ovaires polykystiques –, mais aussi à la méconnaissance des effets indésirables de certains traitements sur les femmes.
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
+Sur la base des nombreuses auditions menées, notre Comité d'avis pour l'émancipation a ainsi pu formuler une série de recommandations importantes. Nombre d'entre elles visent donc directement les collectes des données et les statistiques elles-mêmes, pour savoir ce dont on dispose, pour déterminer quelles sont celles où un biais de genre est constaté et pour pallier cette situation. La collaboration entre le Conseil Supérieur de Statistique et l'Institut pour l’égalité des femmes et des hommes (IEFH) sera indispensable dans ce cadre.
 
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
 
-## Proposal 3
 
+Ensuite, il faudra bien sûr avoir ce focus sur les biais de genre dans la santé, en impliquant le Centre Fédéral d’Expertise des Soins de Santé (KCE), mais également les entités fédérées. Il est en effet indispensable d'améliorer la diversité de genre au niveau de la recherche, tant en ce qui concerne les équipes que les projets, mais également de soutenir les carrières académiques et scientifiques des femmes. Il est aussi indispensable de sensibiliser la population, les prestataires de soins, les chercheurs, les universitaires à ces biais de genre dans les données, dans tous les domaines et, en particulier, dans celui de la santé publique.
 
-(Stemming/vote 2)
 
-(Stemming/vote 2)
-(Stemming/vote 2)
-(Stemming/vote 2)
 
+Des témoignages montrent également qu'il faut des concertations avec le secteur pharmaceutique, et celui des équipements médicaux. Par exemple, certains équipements d'imagerie médicale sont inadaptés à certaines morphologies, notamment celles des femmes. Ou encore, pour certains médicaments, des femmes signalent des effets secondaires différents ou disproportionnés.
 
 
-Ja
 
+Enfin, une partie importante des recommandations concerne également l’utilisation de l’intelligence artificielle car, là aussi, il existe des biais de genre dans les données utilisées qui peuvent conduire à des discriminations ou à des décisions erronées. Il faut évidemment tout mettre en œuvre pour les éviter.
 
-94
 
 
-Oui
+Le Comité d'avis pour l’émancipation sociale a fait ici un travail important dans ce domaine complexe qu’est le biais de genre dans les données. Ces biais peuvent clairement avoir des répercussions importantes sur la vie des citoyens et surtout des citoyennes. En effet, si mesurer c’est savoir, si les données peuvent aider à mener des politiques ou à prendre des décisions efficaces, elles doivent l’être au bénéfice de tous et de toutes. Leur collecte, leur analyse et leur communication doivent tenir compte de l’ensemble des individus et non d’une seule partie uniquement. C’est en ce sens que vont les recommandations formulées aujourd’hui et que nous soutiendrons.
 
 
 
-Ja
+12.04  Maria Vindevoghel (PVDA-PTB): Mevrouw de voorzitster, beste collega's, in de hoorzitting werd heel duidelijk dat de structurele ongelijkheid tussen mannen en vrouwen er de afgelopen decennia voor heeft gezorgd dat vrouwen zich een weg moeten banen door een wereld georganiseerd door mannen. Het gebrek aan data over genderverschillen is enorm en heeft grote gevolgen. Men kan niet veronderstellen dat alles wat voor mannen geldt, ook voor vrouwen geldt. Dat zorgt ervoor dat de perspectieven, ervaringen en noden van vrouwen heel vaak over het hoofd worden gezien.
 
-Ja
-Ja
 
-94
 
-94
-94
+Het feit dat vrouwen totaal andere symptomen hebben dan mannen als zij bijvoorbeeld een hartaanval krijgen en dat vrouwen hierdoor minder snel worden geholpen als zij een hartaanval krijgen, is een voorbeeld. Een ander voorbeeld is ADHD, dat verschilt bij mannen en vrouwen. Deze namiddag hebben wij ook het probleem van endometriose besproken. Dat illustreert ook heel goed dat er te weinig onderzoek gebeurt en dat er te weinig is geweten over dergelijke ziektes.
 
-Oui
 
-Oui
-Oui
 
+Er is op dat vlak heel wat werk te verzetten en de resolutie moet daarin stappen vooruit zetten. Dat is natuurlijk niet alleen zo in de gezondheidszorg, maar ook op de werkvloer en in de wetenschap. Er is nog heel veel werk.
 
-Nee
 
 
-0
+Wij zullen het voorliggende voorstel van resolutie steunen en wij roepen al op tot actie op volgende week 8 maart, de internationale vrouwendag, wanneer wij de strijd voor gelijke rechten voor mannen en vrouwen zullen voortzetten, ook op straat.
 
 
-Non
 
+12.05  Karin Jiroflée (Vooruit): Mevrouw de voorzitster, collega's, alle Belgen zijn gelijk voor de wet, maar blijkbaar niet voor de wetenschap. Ook nu nog kijken onderzoekers vaak door een exclusief mannelijke bril. Nieuwe producten, technologieën of medicijnen worden vooral bij of door mannen getest. Door wetenschapsland slingert een genderdatakloof met soms catastrofale gevolgen. Daarom stelden collega Platteau en ikzelf voor om dit historische tekort aan kennis over vrouwen verder in kaart te brengen binnen ons Adviescomité.
 
 
-Nee
 
-Nee
-Nee
+Het is algemeen bekend dat vrouwen ondervertegenwoordigd zijn in exacte wetenschappen en natuurwetenschappen. Ook het fenomeen van de leaky pipeline of het schaareffect, waarbij het aantal vrouwen in de academische wereld daalt bij elke carrièrestap, zal bij velen een belletje doen rinkelen.
 
-0
 
-0
-0
 
-Non
+Ook onder proefpersonen zijn vrouwen in de minderheid. Dat er zelfs bij proefdieren een opmerkelijk verschil vastgesteld wordt, tart toch iedere verbeelding. De gevolgen van dit alles laten zich raden. Vrouwen lopen een grotere kans op verkeerde diagnoses en foute doseringen. Bij medicijnen hebben ze 33 % meer kans op bijwerkingen. In de groep van personen met onverklaarbare klachten is de patiënt minstens zeven keer op de tien een vrouw. Het lijkt wel dat vrouw zijn de gezondheid kan schaden.
 
-Non
-Non
 
 
-Onthoudingen
+Ook in andere domeinen ontbreekt vaak specifieke kennis over de genderimpact. Zo moet men bijvoorbeeld bij de toepassing van AI vermijden dat datasets genderstereotypes versterken en voortzetten. Soms worden uit onderzoeken stukken genomen om verder onderzoek te doen, om verdere conclusies te trekken, die niet direct gelinkt waren aan het eerste onderzoek. Denk maar aan de data die men inzet voor het matchen van profielen aan vacatures. Als men slecht begint, kan men niet verwachten dat bij het hergebruik van die cijfers het goed gaat zitten.
 
 
-38
 
+We vragen dus aandacht voor het dichten van die genderdatakloof, in het bijzonder bij de productie van statistieken die beleidsmakers informeren. Immers, als een bepaalde bevolkingsgroep niet wordt meegenomen, weet men over hen zo goed als niets of loopt men cruciale informatie mis.
 
-Abstentions
 
 
+Een reflex naar alle doelgroepen kan overigens ook mannen ten goede komen. Soms worden immers ook zij benadeeld. Aandoeningen als osteoporose of anorexia worden bijvoorbeeld veel minder bij mannen gediagnosticeerd, omdat ze ten onrechte als typisch vrouwelijk worden beschouwd. Het is dus hoog tijd om die genderdatakloof te dichten, want meten is weten, zowel voor mannen als vrouwen.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
-38
+Tot slot wil ik als voorzitster van het Adviescomité voor de Maatschappelijke Emancipatie de collega's danken voor de goede samenwerking. We hopen dat onze federale regering met onze aanbevelingen aan de slag zal gaan.
 
-38
-38
 
-Abstentions
 
-Abstentions
-Abstentions
+12.06  Sophie Rohonyi (DéFI): Madame la présidente, chers collègues, nous avons beau être, en 2024, entourés de technologies qui nous dépassent parfois complètement, il n'en reste pas moins que nos connaissances scientifiques et médicales sur les femmes restent inférieures à celles qui se rapportent aux hommes en de nombreux domaines. La santé et la sécurité en font partie.
 
 
-Totaal
 
+Cette lacune entraîne, comme cela a été dit, des conséquences graves. En effet, les femmes en Belgique sont exposées à un risque deux fois plus élevé que les hommes de subir des effets secondaires néfastes en raison, notamment, du manque de représentation féminine dans les études cliniques. Comme certains collègues l'ont déjà évoqué, je ne vais pas y revenir. Cette sous-représentation est d'autant plus incompréhensible que les femmes peuvent être davantage touchées que les hommes par certaines maladies, lesquelles sont mal prises en charge par la médecine, par la recherche scientifique ou encore par le remboursement opéré par l'INAMI. Au demeurant, j'interroge souvent le ministre de la Santé à ce sujet, qu'il s'agisse de l'endométriose ou du cancer du sein, du syndrome sec (syndrome de Sjögren), de la fibromyalgie, du syndrome de fatigue chronique, de la maladie d'Alzheimer, dont 60 % des patients sont en fait des femmes, ou encore d'affections dont les symptômes varient en fonction du genre telles les maladies cardiovasculaires qui sont, actuellement, la première cause de mortalité féminine.
 
-132
 
 
-Total
+Il en découle qu'aujourd'hui, faute de politique de prévention, mais aussi de traitement adapté, la moitié de notre population est en péril. C'est tout simplement inacceptable et cela nécessitait que nous puissions nous y pencher au sein de notre Comité pour l'Émancipation sociale. En effet, notre rôle est justement d'éviter que, par manque de connaissance et de données, nous invisibilisions les femmes. Aujourd'hui et plus que jamais, nous devons encourager et renforcer la recherche médicale sur ces disparités fondées sur le genre. Cela passe non seulement, et c'est ce que prévoit le texte, par la sensibilisation des professionnels de santé à ces enjeux, mais aussi la nécessité de revoir nos équipements médicaux – souvent conçus selon des normes masculines, pensées par les hommes et pour les hommes –, mais aussi en engageant un dialogue avec le secteur pharmaceutique en vue de promouvoir une recherche qui soit beaucoup plus inclusive.
 
 
 
-Totaal
+Pour atteindre ces objectifs, il est donc essentiel d’intégrer ces questions dès l’enseignement supérieur, en garantissant une meilleure inclusivité dès le début du processus éducatif.
 
-Totaal
-Totaal
 
-132
 
-132
-132
+En outre, il est crucial de reconnaître que l’apprentissage de ces fameuses intelligences artificielles est sujet à des biais qui restent le reflet de toutes les discriminations constatées dans notre société. Dès lors, un contrôle régulier et une sensibilisation des ingénieurs tout au long du processus de développement et de mise sur le marché sont aujourd’hui indispensables.
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en sera donné connaissance au gouvernement. (3593/4)
-En conséquence, la Chambre adopte la
-proposition de résolution. 
-Il en sera donné connaissance au gouvernement. 
-(3593/4)
-(3593/4)
 
+Vous l’aurez compris, chers collègues, mon parti DéFI soutiendra cette proposition de résolution avec beaucoup d’enthousiasme. Nous espérons qu’à terme, cette prise de conscience se généralisera et que les femmes ne seront plus invisibilisées dans la recherche et, partant, dans notre société en général.
 
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. (3593/4)
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. 
-(3593/4)
-(3593/4)
 
 
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
- 
- 
- 
-30 Amendements et articles réservés du projet de loi portant dispositions
-diverses en matière de santé (3804/1-5)
-30
-30
- Amendements et articles réservés du projet de loi portant dispositions
-diverses en matière de santé (3804/1-5)
- Amendements et articles réservés du projet de loi portant dispositions
-diverses en matière de santé (3804/1-5)
+Vraagt nog iemand het woord? (Nee)
 
-30 Aangehouden
-amendementen en artikelen van het wetsontwerp houdende diverse bepalingen
-inzake gezondheid (3804/1-5)
-30
-30
-30
- Aangehouden
-amendementen en artikelen van het wetsontwerp houdende diverse bepalingen
-inzake gezondheid (3804/1-5)
- Aangehouden
-amendementen en artikelen van het wetsontwerp houdende diverse bepalingen
-inzake gezondheid (3804/1-5)
- Aangehouden
-amendementen en artikelen van het wetsontwerp houdende diverse bepalingen
-inzake gezondheid (3804/1-5)
 
 
- 
- 
- 
-Vote sur l'amendement n° 30 de Steven Creyelman
-cs à l'article 2. (3804/5)
-Vote sur l'amendement n° 30 de Steven Creyelman
-cs à l'article 2. 
-(3804/5)
-(3804/5)
+La discussion est close.
 
-Stemming over amendement nr. 30 van Steven
-Creyelman cs op artikel 2. (3804/5)
-Stemming over amendement nr. 30 van Steven
-Creyelman cs op artikel 2. (3804/5)
-(3804/5)
+De bespreking is gesloten.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
+Aucun amendement n'a été déposé.
 
-## Proposal 4
+Er werden geen amendementen ingediend.
 
 
-(Stemming/vote 3)
 
-(Stemming/vote 3)
-(Stemming/vote 3)
-(Stemming/vote 3)
+Le vote sur la proposition aura lieu ultérieurement.
 
+De stemming over het voorstel zal later plaatsvinden.
 
+### Description in French:
 
-Ja
+Cette proposition a été adoptée par le Comité d’avis pour l’Émancipation sociale en application de l'art. 76 du Règlement.
 
+Dit voorstel is aangenomen door het Adviescomité voor de Maatschappelijke Emancipatie met toepassing van art. 76 van het Reglement.
 
-15
 
 
-Oui
+Discussion
 
+Bespreking
 
 
-Ja
 
-Ja
-Ja
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3593/3)
 
-15
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (3593/3)
 
-15
-15
 
-Oui
 
-Oui
-Oui
+La discussion est ouverte.
 
+De bespreking is geopend.
 
-Nee
 
 
-93
+Mmes Platteau et Pisman, rapporteurs, renvoient au rapport écrit.
 
 
-Non
 
+12.01  Kathleen Depoorter (N-VA): Mevrouw de voorzitster, collega's, de N-VA-fractie zal zich onthouden bij de stemming over het voorliggende voorstel van resolutie betreffende gender data bias. Ik overloop even met u waarom wij dat zullen doen.
 
 
-Nee
 
-Nee
-Nee
+Het studiewerk dat werd verricht en dat ook in de hoorzittingen aan bod is gekomen, bevat goede aandachtspunten. We zijn het er uiteraard mee eens dat er in het wetenschappelijk onderzoek – zopas kwam de vraag over endometriose aan de orde – meer aandacht mag zijn voor geslachts­specifieke pathologieën rond bijvoorbeeld de menopauze. Wel hebben we er een probleem mee dat er in de tekst ook voorstellen zijn geslopen die te maken hebben met deelstaatmaterie, zoals onderwijs. Daar zien we weer het vingertje van de federale Staat die een deelstaat zegt hoe die een en ander moet organiseren, en dat is een gevoelig punt voor de N-VA.
 
-93
 
-93
-93
 
-Non
+Ik heb in de commissie ook aangegeven dat de extra toewijzing van projecten en middelen aan het IGVM en de range van de werkmaterie voor ons problematisch kan zijn, omdat wij een heel duidelijke afbakening van de functie van het instituut willen en het budget ongewijzigd willen behouden.
 
-Non
-Non
 
 
-Onthoudingen
+Daarnaast gaat volgens ons de opdracht van het KCE vrij breed. Misschien is focus voor het KCE efficiënter. Een heel brede scope van werkingsmechanismen resulteert anders in een heel brede scope van outcome.
 
 
-23
 
+Het verhaal van de quota voor academische aanstellingen, wetenschappelijke comités, besluitvormingsorganen komt natuurlijk weer naar boven. De N-VA is geen voorstander van de quota. Wij willen er absoluut voor pleiten dat de juiste man of vrouw op de juiste plaats zit en niet wegens gender voor een bepaalde functie wordt aanvaard.
 
-Abstentions
 
 
+Voorts ben ik het ermee eens dat het EMA en het FAGG mogelijke neveneffecten moeten monitoren. Maar zij moeten wel elke tendentieuze monitoring vermijden. De gewoonte om de huisarts dan wel de specialist te raadplegen hangt wel eens af van gender. Dat kan ook het geval zijn voor neveneffecten, waarvoor moet worden gewaarschuwd. Ook daarbij is enige voorzichtigheid geboden. Of nog, het ligt voor de hand dat de dosering voor een persoon van 100 kilogram niet dezelfde is als voor een persoon van 50 kilogram. Ik kan dus alleen maar de aanbeveling om te onderzoeken of er nood is aan gerichtere doseringen bijtreden. Maar, ook wat dat betreft mag er niet pamflettair worden gewerkt.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
-23
+Hetzelfde geldt voor klinische studies. Al in mijn studententijd stelden meer mannelijke dan vrouwelijke studenten zich kandidaat voor deelname aan klinische studies, die toch een zeker risico inhouden, weliswaar een risico voor de wetenschap, en dat was weloverwogen. Vrouwelijke studenten wilden geen risico nemen met hun lichaam.  Men moet nog steeds zelf de afweging kunnen maken. Deelname van meer vrouwen aan klinische studies opleggen lijkt me dan ook gevaarlijk.
 
-23
-23
 
-Abstentions
 
-Abstentions
-Abstentions
+Daarnaast vind ik het moeilijk dat de meerderheid in de wet op de patiëntenrechten geen rekening hield met de kinderen, maar in onderhavig voorstel van resolutie wel, om nog maar te zwijgen van het pleidooi voor transparantie van het FAGG. Ik raad u aan te beginnen met de minister. Zorg ervoor dat hij ook transparant communiceert. Moet ik u nog eraan herinneren hoe ik nog dossiers bij de Commissie voor de toegang tot bestuursdocumenten hangende heb? Ik vind het dus wel bijzonder dat u zo pro transparantie bent, collega's van de meerderheid.
 
 
-Totaal
 
+Ten slotte roep ik op tot voorzichtigheid in verband met AI, vooraleer ons daarover uit te spreken. Wij moeten alert zijn. Ik vind het nogal moeilijk om een en ander op genderbias te schuiven. De N-VA-fractie zal zich dan ook onthouden om de redenen die ik net heb aangehaald.
 
-131
 
 
-Total
+De voorzitster: Mevrouw Depoorter, u hebt uw spreektijd met 25 seconden overschreden.
 
 
 
-Totaal
+12.02  Eva Platteau (Ecolo-Groen): Mevrouw de voorzitster, beste collega's, ik ben heel blij, en onze fractie is heel blij, dat wij opnieuw een tekst kunnen voorleggen waaraan wij hard gewerkt hebben binnen het Adviescomité voor de Maatschappelijke Emancipatie. Na resoluties over intrafamiliaal geweld, alleenstaande ouders en vrouwelijk ondernemerschap brengen wij met dit Adviescomité opnieuw een maatschappelijk relevant thema op de politieke agenda, zijnde de genderdatakloof.
 
-Totaal
-Totaal
 
-131
 
-131
-131
+Ik was onlangs in Stuttgart. Daar is een bekend automuseum. Enkelen onder u vragen zich misschien af wat een automuseum te maken heeft met dit thema, de genderdatakloof? Wel, in dat museum staat een crashtestauto met vier crashtestdummy's in. Die poppen hadden de grootte en het gewicht van een gemiddelde man: 1,80 meter, heel sterke en brede poppen. Sta daar maar eens naast als vrouw van 1,60 meter. Dan snap je en voel je waarom er gezegd wordt dat de veiligheid van auto's, die getest is op die mannelijke poppen, kleiner is voor vrouwen. De man is de norm bij die veiligheidsproeven en dit verklaart waarom vrouwen 73 % meer kans hebben te overlijden bij een frontale botsing, ook wanneer zij een autogordel dragen. Dat is toch een ontluisterend cijfer.
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 2 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 2 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 16 de Catherine Fonck
-cs à l'article 6. (3804/5)
-Vote sur l'amendement n° 16 de Catherine Fonck
-cs à l'article 6. 
-(3804/5)
-(3804/5)
 
-Stemming over amendement nr. 16 van
-Catherine Fonck cs op artikel 6. (3804/5)
-Stemming over amendement nr. 16 van
-Catherine Fonck cs op artikel 6. 
-(3804/5)
-(3804/5)
+Die auto's zijn maar één voorbeeld. Het gaat erom dat onze dagelijkse leefwereld grotendeels ontworpen is door mannen, voor mannen. Dat heeft een enorme impact op het welzijn van vrouwen, op de gezondheid van vrouwen, op de economische positie van vrouwen. Dit is een fenomeen dat aan het licht gebracht is door het boek Onzichtbare vrouwen, waarom we leven in een wereld voor en door mannen ontworpen. Dit boek vormde dan ook de inspiratie om rond dit thema te werken binnen het Adviescomité.
 
- 
- 
- 
-30.01  Catherine Fonck (Les
-Engagés): Madame la présidente, derrière ces amendements numérotés se cachent
-des dossiers importants. Les amendements qui vont suivre, du n° 16 au
-n° 20, concernent, chers collègues, la décision que vous devez prendre
-pour oui ou non permettre que les enfants différents puissent bénéficier du
-remboursement de la logopédie, comme tous les autres enfants. 
-30.01
-30.01
-  Catherine Fonck 
-  Catherine Fonck 
- 
-(Les
-Engagés): Madame la présidente, derrière ces amendements numérotés se cachent
-des dossiers importants. Les amendements qui vont suivre, du n° 16 au
-n° 20, concernent, chers collègues, la décision que vous devez prendre
-pour oui ou non permettre que les enfants différents puissent bénéficier du
-remboursement de la logopédie, comme tous les autres enfants. 
- 
- 
- 
-Le ministre Vandenbroucke, depuis le débat de
-cet après-midi, a annoncé une note pour dans six semaines. À quoi servira cette
-note? À dire, comme il le répète inlassablement, que ce sont des compétences
-régionales, à opposer logopédie monodisciplinaire et pluridisciplinaire, à
-expliquer qu'il va demander une étude qui va encore prendre des mois. 
-Le ministre Vandenbroucke, depuis le débat de
-cet après-midi, a annoncé une note pour dans six semaines. À quoi servira cette
-note? À dire, comme il le répète inlassablement, que ce sont des compétences
-régionales, à opposer logopédie monodisciplinaire et pluridisciplinaire, à
-expliquer qu'il va demander une étude qui va encore prendre des mois. 
- 
- 
- 
-Nous allons parler vrai. Le ministre veut
-gagner du temps. Le 26 mai 2023, le cabinet du ministre a promis aux
-associations et aux familles de ces enfants une note avant l'été 2023!
-Cette note n'est jamais arrivée. Aucune avancée, rien. Et, tout à l'heure, le
-ministre a dit qu'il allait vraiment le faire. Cela fait cinq ans que, malgré
-les promesses successives, rien ne se passe. Le momentum, chers collègues, c'est maintenant. Il faut modifier cette
-loi maintenant. Les familles vont regarder vos votes. 
-Nous allons parler vrai. Le ministre veut
-gagner du temps. Le 26 mai 2023, le cabinet du ministre a promis aux
-associations et aux familles de ces enfants une note avant l'été 2023!
-Cette note n'est jamais arrivée. Aucune avancée, rien. Et, tout à l'heure, le
-ministre a dit qu'il allait vraiment le faire. Cela fait cinq ans que, malgré
-les promesses successives, rien ne se passe. Le momentum, chers collègues, c'est maintenant. Il faut modifier cette
-loi maintenant. Les familles vont regarder vos votes. 
-momentum
- 
- 
- 
-Ce ne sont pas mes amendements que vous
-voterez. Imaginez les visages de ces enfants, de ces familles, quand vous
-votez. Regardez-les droit dans les yeux et votez! Soutenez enfin le
-remboursement de la logopédie pour tous les enfants! Pour toutes ces familles,
-j'ose espérer que vous allez concrétiser cette avancée. (Applaudissements)
-Ce ne sont pas mes amendements que vous
-voterez. Imaginez les visages de ces enfants, de ces familles, quand vous
-votez. Regardez-les droit dans les yeux et votez! Soutenez enfin le
-remboursement de la logopédie pour tous les enfants! Pour toutes ces familles,
-j'ose espérer que vous allez concrétiser cette avancée. (Applaudissements)
-(Applaudissements)
- 
- 
- 
-30.02  Caroline Taquin (MR):
-Madame la présidente, je souhaitais intervenir pour justifier le vote que
-j'assume pour répondre aux différents parlementaires qui se sont exprimés tout
-à l'heure en affirmant que le combat n'était pas terminé. Le ministre s'est
-exprimé en promettant que, dans maximum six semaines, nous aurions une
-note, le résultat d'une étude sur le critère QI.
-30.02
-30.02
-  Caroline Taquin 
-  Caroline Taquin 
- 
-(MR):
-Madame la présidente, je souhaitais intervenir pour justifier le vote que
-j'assume pour répondre aux différents parlementaires qui se sont exprimés tout
-à l'heure en affirmant que le combat n'était pas terminé. Le ministre s'est
-exprimé en promettant que, dans maximum six semaines, nous aurions une
-note, le résultat d'une étude sur le critère QI.
- 
- 
- 
-Le MR est conscient également que, depuis
-cinq ans, le ministre aurait pu activer, accélérer l'étude qui était
-attendue et qui était une imposition dans la loi qui a été votée le
-8 mai 2019. Il est donc essentiel pour nous – c'est le message
-que j'essaie de faire passer depuis tout à l'heure – qu'une loi soit votée
-pour abroger la loi de 2019 qui imposait justement d'obtenir le résultat d'une
-étude.
-Le MR est conscient également que, depuis
-cinq ans, le ministre aurait pu activer, accélérer l'étude qui était
-attendue et qui était une imposition dans la loi qui a été votée le
-8 mai 2019. Il est donc essentiel pour nous – c'est le message
-que j'essaie de faire passer depuis tout à l'heure – qu'une loi soit votée
-pour abroger la loi de 2019 qui imposait justement d'obtenir le résultat d'une
-étude.
- 
- 
- 
-Cette loi qui a été déposée et qui est dans les
-mains des services a pour but d’abroger cette loi de 2019 et de supprimer cette
-discrimination relative au QI. Il est dommage d’en arriver là pour une loi
-votée en 2019, qui réclamait la même chose et qui a été dénaturée de sa
-fonction initiale. Ce projet de loi avait été déposé par David Clarinval
-et Benoît Piedbœuf. Ce projet avait été voté et il est regrettable que la
-loi n’ait pas été mise en application depuis tant d’années.
-Cette loi qui a été déposée et qui est dans les
-mains des services a pour but d’abroger cette loi de 2019 et de supprimer cette
-discrimination relative au QI. Il est dommage d’en arriver là pour une loi
-votée en 2019, qui réclamait la même chose et qui a été dénaturée de sa
-fonction initiale. Ce projet de loi avait été déposé par David Clarinval
-et Benoît Piedbœuf. Ce projet avait été voté et il est regrettable que la
-loi n’ait pas été mise en application depuis tant d’années.
- 
- 
- 
-Dès lors, nous ne voterons pas les amendements
-de Mme Fonck, mais nous ne sommes pas dupes et souhaitons maintenir la
-pression, solidairement entre parlementaires de la majorité, ne vous en
-déplaise. Vous avez le droit de vous exprimer, moi aussi, et je ne profiterai
-pas de la présence de familles au Parlement pour les duper.
-Dès lors, nous ne voterons pas les amendements
-de Mme Fonck, mais nous ne sommes pas dupes et souhaitons maintenir la
-pression, solidairement entre parlementaires de la majorité, ne vous en
-déplaise. Vous avez le droit de vous exprimer, moi aussi, et je ne profiterai
-pas de la présence de familles au Parlement pour les duper.
- 
- 
- 
-La présidente:
-Chacun a le droit de s’exprimer. Madame Taquin, je vous remercie.
-La présidente:
-Chacun a le droit de s’exprimer. Madame Taquin, je vous remercie.
-présidente
- 
- 
- 
-30.03  Daniel Senesael (PS):
-Madame la présidente, à la suite de l’intervention de tout à l’heure, notre
-groupe s’inscrit dans les propos tenus par notre collègue Mme Taquin. Je
-demande la cosignature de cette proposition et je m’engage, au nom du groupe, à
-ce que dans les six semaines, nous puissions revenir ici au sein de cette
-enceinte. 
-30.03
-30.03
-  Daniel Senesael 
-  Daniel Senesael 
- 
-(PS):
-Madame la présidente, à la suite de l’intervention de tout à l’heure, notre
-groupe s’inscrit dans les propos tenus par notre collègue Mme Taquin. Je
-demande la cosignature de cette proposition et je m’engage, au nom du groupe, à
-ce que dans les six semaines, nous puissions revenir ici au sein de cette
-enceinte. 
- 
- 
- 
-30.04  Peter
-De Roover (N-VA): Mevrouw de voorzitster, na
-enig aandringen van onze fractie heeft minister Vandenbroucke, na het nodige
-gedoe in de wandelgangen, gezegd dat er over zes weken een studie komt.
-Hij had het over een studie, of een nota.
-30.04
-30.04
-  
-  
- 
-Peter
-De Roover 
-Peter
-De Roover 
-(N-VA): Mevrouw de voorzitster, na
-enig aandringen van onze fractie heeft minister Vandenbroucke, na het nodige
-gedoe in de wandelgangen, gezegd dat er over zes weken een studie komt.
-Hij had het over een studie, of een nota.
- 
- 
- 
-We zijn vandaag 29 februari. De studie
-zou dus afgerond worden half april. De werkzaamheden eindigen hier op
-8 mei. Is er in godsnaam iemand die zich op deze manier laat uitlachen
-door minister Vandenbroucke? Voor wie houdt men ons wanneer men denkt dat wij
-geloven dat er tussen 15, 16, 17 of 18 april en 8 mei
-daadwerkelijk iets zal worden gerealiseerd? Hoever gaat de naïviteit van de
-collega's van de MR en cd&v wanneer ze zich op die manier bij de neus laten
-nemen?
-We zijn vandaag 29 februari. De studie
-zou dus afgerond worden half april. De werkzaamheden eindigen hier op
-8 mei. Is er in godsnaam iemand die zich op deze manier laat uitlachen
-door minister Vandenbroucke? Voor wie houdt men ons wanneer men denkt dat wij
-geloven dat er tussen 15, 16, 17 of 18 april en 8 mei
-daadwerkelijk iets zal worden gerealiseerd? Hoever gaat de naïviteit van de
-collega's van de MR en cd&v wanneer ze zich op die manier bij de neus laten
-nemen?
- 
- 
- 
-Het is klaar en duidelijk dat die belofte
-geen enkele betekenis heeft en op geen enkele manier zal leiden tot de
-goedkeuring van wat vandaag gewoon wel kan gebeuren door een ja-stem. Zo
-eenvoudig is het.
-Het is klaar en duidelijk dat die belofte
-geen enkele betekenis heeft en op geen enkele manier zal leiden tot de
-goedkeuring van wat vandaag gewoon wel kan gebeuren door een ja-stem. Zo
-eenvoudig is het.
- 
- 
- 
-Straks drukken wij hier op de knop. Nee,
-zegt men, wij gaan dat nu niet doen, want wij wachten op een nota. Over zes
-weken …
-Straks drukken wij hier op de knop. Nee,
-zegt men, wij gaan dat nu niet doen, want wij wachten op een nota. Over zes
-weken …
- 
- 
- 
-Nu, er zijn al wel technieken gebruikt om
-bij ons de indruk te wekken dat men het wel ernstig meent, maar dit is totaal
-ongeloofwaardig. Totaal ongeloofwaardig!
-Nu, er zijn al wel technieken gebruikt om
-bij ons de indruk te wekken dat men het wel ernstig meent, maar dit is totaal
-ongeloofwaardig. Totaal ongeloofwaardig!
- 
- 
- 
-Dat betekent dat al diegenen die straks op
-dit amendement "neen" zullen stemmen, ook definitief "neen"
-zeggen. Collega Fonck heeft het terecht uit de doeken gedaan. Dat betekent dat
-zij definitief "neen" zeggen tegen deze maatregel, die – en dat
-is het toppunt van alles – in dit Huis eigenlijk een heel brede consensus
-krijgt.
-Dat betekent dat al diegenen die straks op
-dit amendement "neen" zullen stemmen, ook definitief "neen"
-zeggen. Collega Fonck heeft het terecht uit de doeken gedaan. Dat betekent dat
-zij definitief "neen" zeggen tegen deze maatregel, die – en dat
-is het toppunt van alles – in dit Huis eigenlijk een heel brede consensus
-krijgt.
- 
- 
- 
-Wel, ongelooflijk. Als het Parlement nog
-enige betekenis heeft, wordt die vandaag weggeschoven.
-Wel, ongelooflijk. Als het Parlement nog
-enige betekenis heeft, wordt die vandaag weggeschoven.
- 
- 
- 
-30.05  Sofie Merckx (PVDA-PTB): Madame la présidente, je pense que tout a été dit sur le
-sujet, mais il est vrai que le moment est particulier. Je ne comprends pas
-pourquoi, dans six semaines, nous ferions ce que nous n’avons pas fait depuis
-cinq ans, alors que nous avions voté une loi, ici, juste avant la dernière
-dissolution des Chambres, qui prévoyait un remboursement des séances de
-logopédie pour les enfants dont le QI est inférieur à 86. 
-30.05
-30.05
-  
-  
- 
-Sofie Merckx 
-Sofie Merckx 
-(PVDA-PTB): Madame la présidente, je pense que tout a été dit sur le
-sujet, mais il est vrai que le moment est particulier. Je ne comprends pas
-pourquoi, dans six semaines, nous ferions ce que nous n’avons pas fait depuis
-cinq ans, alors que nous avions voté une loi, ici, juste avant la dernière
-dissolution des Chambres, qui prévoyait un remboursement des séances de
-logopédie pour les enfants dont le QI est inférieur à 86. 
- 
- 
- 
-Chers collègues, je crois que si vous voulez
-aujourd'hui montrer à ces personnes, à ces enfants, qu’ils comptent vraiment,
-c’est maintenant qu’il faut voter pour ces amendements.
-Chers collègues, je crois que si vous voulez
-aujourd'hui montrer à ces personnes, à ces enfants, qu’ils comptent vraiment,
-c’est maintenant qu’il faut voter pour ces amendements.
- 
- 
- 
-La présidente:
-Madame Taquin, je ne devrais pas vous rendre la parole, mais
-M. De Roover a largement dépassé son temps de parole. Je vous donne
-30 secondes.
-La présidente:
-Madame Taquin, je ne devrais pas vous rendre la parole, mais
-M. De Roover a largement dépassé son temps de parole. Je vous donne
-30 secondes.
-présidente
- 
- 
- 
-30.06  Caroline Taquin (MR):
-Je vous remercie, madame la présidente. 
-30.06
-30.06
-  Caroline Taquin 
-  Caroline Taquin 
- 
-(MR):
-Je vous remercie, madame la présidente. 
- 
- 
- 
-Le texte qui est déposé fera l’objet d’une
-demande de vote sur l’urgence lors de la prochaine séance plénière. Je suppose
-que ce texte et cette urgence seront soutenus à l’unanimité. 
-Le texte qui est déposé fera l’objet d’une
-demande de vote sur l’urgence lors de la prochaine séance plénière. Je suppose
-que ce texte et cette urgence seront soutenus à l’unanimité. 
- 
- 
- 
-La présidente:
-La présidente:
-présidente
-Begin van
-de stemming / Début du vote.
-Begin van
-de stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 5
-
-
-(Stemming/vote 4)
-
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
-
 
 
-Ja
+Het begrip 'genderdatakloof' verwijst naar de historisch gegroeide leemte inzake kennis over vrouwen. De genderdatakloof is niet bewust ontstaan, maar is wel het gevolg van onbewuste processen, waardoor doorheen de geschiedenis minder data werden verzameld, ontsloten en geanalyseerd over vrouwen. "Data" moet ruim begrepen worden. Het gaat over data die vergaard zijn in wetenschappelijk onderzoek. Het gaat over statistieken die verzameld zijn door de overheid, voor beleid. Het gaat over proeven die gedaan worden bij de ontwikkeling van nieuwe producten. Het gaat ook over kennis en inzicht in de dagelijkse ervaringen van vrouwen.
 
 
-53
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-53
-
-53
-53
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-71
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-71
-
-71
-71
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-2
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-2
-
-2
-2
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-126
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-126
-
-126
-126
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 6 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 6 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 6 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 6 aangenomen.
- 
- 
- 
-30.07  Peter De Roover (N-VA): Mevrouw de voorzitster, er zijn een aantal stemafspraken
-gemaakt. Het zijn er twee of drie, wat niet voldoende is om de meerderheid in
-aantal te doen zijn. Ik stel voor dat u de vergadering schorst en dat de
-stemmingen volgende week worden hernomen.
-30.07
-30.07
-  Peter De Roover 
-  Peter De Roover 
- 
-(N-VA): Mevrouw de voorzitster, er zijn een aantal stemafspraken
-gemaakt. Het zijn er twee of drie, wat niet voldoende is om de meerderheid in
-aantal te doen zijn. Ik stel voor dat u de vergadering schorst en dat de
-stemmingen volgende week worden hernomen.
- 
- 
- 
-La présidente:
-Je pense bien que nous sommes en nombre. Nous pouvons poursuivre les votes.
-La présidente:
-Je pense bien que nous sommes en nombre. Nous pouvons poursuivre les votes.
-présidente
- 
- 
- 
-Vote sur l'amendement n° 17 de Catherine Fonck
-cs tendant à insérer un article 7(n). (3804/5)
-Vote sur l'amendement n° 17 de Catherine Fonck
-cs tendant à insérer un article 7(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 17 van
-Catherine Fonck cs tot invoeging van een artikel 7(n). (3804/5)
-Stemming over amendement nr. 17 van
-Catherine Fonck cs tot invoeging van een artikel 7(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 18 de Catherine Fonck cs
-tendant à insérer un article 8(n). (3804/5)
-Vote sur l'amendement n° 18 de Catherine Fonck cs
-tendant à insérer un article 8(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 18 van
-Catherine Fonck cs tot invoeging van een artikel 8(n). (3804/5)
-Stemming over amendement nr. 18 van
-Catherine Fonck cs tot invoeging van een artikel 8(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 19 de Catherine Fonck
-cs tendant à insérer un article 9(n). (3804/5)
-Vote sur l'amendement n° 19 de Catherine Fonck
-cs tendant à insérer un article 9(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 19 van
-Catherine Fonck cs tot invoeging van een artikel 9(n). (3804/5)
-Stemming over amendement nr. 19 van
-Catherine Fonck cs tot invoeging van een artikel 9(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 20 de Catherine Fonck
-cs tendant à insérer un article 10(n). (3804/5)
-Vote sur l'amendement n° 20 de Catherine Fonck
-cs tendant à insérer un article 10(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 20 van
-Catherine Fonck cs tot invoeging van een artikel 10(n). (3804/5)
-Stemming over amendement nr. 20 van
-Catherine Fonck cs tot invoeging van een artikel 10(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 21 de Catherine Fonck
-tendant à insérer un article 10(n). (3804/5)
-Vote sur l'amendement n° 21 de Catherine Fonck
-tendant à insérer un article 10(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 21 van
-Catherine Fonck tot invoeging van een artikel 10(n). (3804/5)
-Stemming over amendement nr. 21 van
-Catherine Fonck tot invoeging van een artikel 10(n). (3804/5)
-(3804/5)
-
- 
- 
- 
-Begin van de stemming
-/ Début du vote.
-Begin van de stemming
-/ Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 6
-
-
-(Stemming/vote 5)
-
-(Stemming/vote 5)
-(Stemming/vote 5)
-(Stemming/vote 5)
-
-
-
-Ja
-
-
-27
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-27
-
-27
-27
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-76
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-76
-
-76
-76
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-3
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-3
-
-3
-3
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-106
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-106
-
-106
-106
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Nous étions bien en nombre pour voter.
-Nous étions bien en nombre pour voter.
- 
- 
- 
-(M. Emmanuel
-Burton a voté comme son groupe)
-(M. Emmanuel
-Burton a voté comme son groupe)
-(M. Emmanuel
-Burton a voté comme son groupe)
-
- 
- 
- 
-30.08  Valerie
-Van Peel (N-VA): Mevrouw de voorzitster, als ik
-het juist heb stelt het Reglement dat iedereen die aanwezig is in de plenaire
-vergadering moet stemmen. Als men nog geen kleur wil bekennen en men denkt dat
-het genoeg is om even achterover te leunen zodat geen enkele kiezer het kan zien:
-dat kan volgens het Reglement niet. Als men te bang is om kleur te bekennen
-over het amendement van collega Fonck, dan moet men het lef hebben om recht te
-staan en naar buiten gaan. 
-30.08
-30.08
-  
-  
- 
-Valerie
-Van Peel 
-Valerie
-Van Peel 
-(N-VA): Mevrouw de voorzitster, als ik
-het juist heb stelt het Reglement dat iedereen die aanwezig is in de plenaire
-vergadering moet stemmen. Als men nog geen kleur wil bekennen en men denkt dat
-het genoeg is om even achterover te leunen zodat geen enkele kiezer het kan zien:
-dat kan volgens het Reglement niet. Als men te bang is om kleur te bekennen
-over het amendement van collega Fonck, dan moet men het lef hebben om recht te
-staan en naar buiten gaan. 
- 
- 
- 
-Ik vraag dus om de stemming opnieuw te doen
-zodat iedereen kleur bekent. Heb het lef om te doen wat u moet doen, of gaat u
-braaf als een schaap doen wat u van bovenaf wordt opgelegd? Laat het zien of
-heb het lef om recht te staan. Ik vraag dus een nieuwe stemming volgens het Reglement.
-Ik vraag dus om de stemming opnieuw te doen
-zodat iedereen kleur bekent. Heb het lef om te doen wat u moet doen, of gaat u
-braaf als een schaap doen wat u van bovenaf wordt opgelegd? Laat het zien of
-heb het lef om recht te staan. 
-Ik vraag dus een nieuwe stemming volgens het Reglement.
-
- 
- 
- 
-La présidente:
-Nous allons poursuivre les votes. (Tumulte)
-La présidente:
-Nous allons poursuivre les votes. (Tumulte)
-présidente
-(Tumulte)
-
- 
- 
- 
-Vote sur l'amendement n° 22 de Catherine Fonck
-tendant à insérer un article 11(n). (3804/5)
-Vote sur l'amendement n° 22 de Catherine Fonck
-tendant à insérer un article 11(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 22 van
-Catherine Fonck tot invoeging van een artikel 11(n). (3804/5)
-Stemming over amendement nr. 22 van
-Catherine Fonck tot invoeging van een artikel 11(n). (3804/5)
-(3804/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen gestemd en zijn stem
-nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd en zijn stem
-nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 7
 
+Het begrip genderdatabias' is dan het gevolg van die genderdatakloof. Het gaat over de vertekening die ontstaat wanneer data die niet van toepassing zijn op vrouwen, toch gegeneraliseerd worden naar vrouwen. Dat kan ongewenste en onrechtvaardige effecten hebben. Denk maar aan het pensioenstelsel, dat geschoeid is op de leest van een mannelijke carrière, waardoor wij een grote pensioenkloof hebben en een grote ongelijkheid tussen mannen en vrouwen.
 
-(Stemming/vote 6)
 
-(Stemming/vote 6)
-(Stemming/vote 6)
-(Stemming/vote 6)
 
+Dat kan ook gevaarlijke gevolgen hebben, met name binnen de gezondheidszorg. Klinisch onderzoek wordt meestal enkel gedaan met mannelijke proefpersonen, waardoor we veel minder of zelfs helemaal geen specifieke kennis over vrouwen hebben. Ik raad iedereen aan om naar de podcast Geen kleine man te luisteren, want daarin wordt haarfijn uit de doeken gedaan waar het schoentje knelt. Door de genderdatabias in de gezondheidszorg is er veel minder geweten over bijwerkingen van geneesmiddelen bij vrouwen. Daardoor zijn de meeste patiënten met onverklaarbare klachten een vrouw en worden zij veel vaker fout gediagnosticeerd. Zeer veel typische vrouwenziekten blijven daardoor veel te lang onder de radar.
 
 
-Ja
 
+Collega's de genderdatakloof is een maatschappelijk probleem. Vrouwen zijn geen minderheidsgroep, maar maken de helft van de wereldbevolking uit. Als de gezondheid en de levenskwaliteit van vrouwen daalt door de genderdatakloof, dan is dat een maatschappelijk probleem en dan moet de politiek reageren. Dat hebben we gedaan. We hebben daarnet een debat gehad over endometriose, een ziekte die een op de tien vrouwen treft, maar waar nog maar zeer recent bewustzijn rond bestaat en waar vrouwen nog steeds zeer lang op een diagnose moeten wachten. Gelukkig hebben we die ziekte op de agenda gezet. Met deze tekst geven we vanuit de politiek vandaag een structureel, algemeen antwoord over die genderdatakloof. De andere collega's die het woord zullen nemen, zullen ongetwijfeld zeer veel van de maatregelen die we in de resolutie hebben voorgesteld bespreken.
 
-47
 
 
-Oui
+Ik wil alle leden van het Adviescomité bedanken voor de samenwerking. We hebben deze legislatuur met dit Adviescomité een mooi palmares neergezet. Ik wil er ook aan herinneren dat dit het vrouwelijkste Parlement was in de Belgische geschiedenis. In 2019 zijn er 63 vrouwen verkozen. Ik hoop dat dit de volgende legislatuur ook zo zal zijn en dat we ons werk kunnen verderzetten. Door de aanwezigheid van vrouwen in het Parlement zetten we vrouwenthema's ook op de politieke agenda.
 
-
-
-Ja
-
-Ja
-Ja
-
-47
-
-47
-47
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-77
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-77
-
-77
-77
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-2
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-2
-
-2
-2
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-126
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-126
-
-126
-126
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-30.09  Peter De Roover (N-VA): Mevrouw de voorzitster, het komt mij voor dat u onze
-aanwezigheid daarnet genegeerd hebt. Wij waren aanwezig. U hebt dat gezien. Wij
-hebben niet meegestemd. Dat kan niet. U hebt dus eigenlijk de eerste stemming,
-over amendement 16, afgesloten op een ogenblik dat u zich er niet van
-vergewist had of alle aanwezigen hun stem hadden uitgebracht. U hebt een
-formele vergissing begaan. U hebt namelijk de stemming afgesloten vooraleer die
-kon afgesloten worden. U had zich moeten richten tot de aanwezige leden met de
-vraag om hun stem uit te brengen. Kortom, u hebt het Reglement niet gevolgd bij
-de stemmingen over artikelen 16, 17, 18, 19 en 22. Dat betekent dat die
-stemming ongeldig is. Er zijn manifest leden in dit halfrond die niet gestemd
-hebben. U hebt daarvan geen kennisgenomen, dus u hebt de stemming te vroeg
-afgesloten. Ik vraag de
-toepassing van het Reglement. 
-30.09
-30.09
-  Peter De Roover 
-  Peter De Roover 
- 
-(N-VA): Mevrouw de voorzitster, het komt mij voor dat u onze
-aanwezigheid daarnet genegeerd hebt. Wij waren aanwezig. U hebt dat gezien. Wij
-hebben niet meegestemd. Dat kan niet. U hebt dus eigenlijk de eerste stemming,
-over amendement 16, afgesloten op een ogenblik dat u zich er niet van
-vergewist had of alle aanwezigen hun stem hadden uitgebracht. U hebt een
-formele vergissing begaan. U hebt namelijk de stemming afgesloten vooraleer die
-kon afgesloten worden. U had zich moeten richten tot de aanwezige leden met de
-vraag om hun stem uit te brengen. Kortom, u hebt het Reglement niet gevolgd bij
-de stemmingen over artikelen 16, 17, 18, 19 en 22. Dat betekent dat die
-stemming ongeldig is. Er zijn manifest leden in dit halfrond die niet gestemd
-hebben. U hebt daarvan geen kennisgenomen, dus u hebt de stemming te vroeg
-afgesloten. 
-Ik vraag de
-toepassing van het Reglement. 
-
- 
- 
- 
-La présidente:
-Il n'y a aucune obligation pour un parlementaire de voter, même s'il est
-présent dans la salle. Il n'y a aucune obligation réglementaire. Je peux
-demander à un parlementaire d'expliquer pourquoi il n'a pas voté. C'est autre
-chose. Ce n'est pas une obligation. C'est autre chose. Vous interprétez le
-Règlement de la manière qui vous arrange.
-La présidente:
-Il n'y a aucune obligation pour un parlementaire de voter, même s'il est
-présent dans la salle. Il n'y a aucune obligation réglementaire. Je peux
-demander à un parlementaire d'expliquer pourquoi il n'a pas voté. C'est autre
-chose. Ce n'est pas une obligation. C'est autre chose. Vous interprétez le
-Règlement de la manière qui vous arrange.
-présidente
- 
- 
- 
-Vote sur l'amendement n° 23 de Catherine Fonck
-tendant à insérer un article 11(n). (3804/5)
-Vote sur l'amendement n° 23 de Catherine Fonck
-tendant à insérer un article 11(n). 
-(3804/5)
-(3804/5)
 
-Stemming over amendement nr. 23 van
-Catherine Fonck tot invoeging van een artikel 11(n). (3804/5)
-Stemming over amendement nr. 23 van
-Catherine Fonck tot invoeging van een artikel 11(n). (3804/5)
-(3804/5)
 
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen gestemd en zijn stem
-nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd en zijn stem
-nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
+Mevrouw Depoorter, ik wil er ook op wijzen dat vertegenwoordiging van vrouwen in de politiek en daarbuiten er alleen gekomen is door de invoering van quota voor de kieslijsten, en daar plukt deze generatie vrouwen de vruchten van. Voor Ecolo-Groen is gendergelijkheid een belangrijk thema. Het is aan de politiek om de genderkloof te dichten en daar zullen wij ons voor blijven inspannen.
 
-## Proposal 8
 
 
-(Stemming/vote 7)
+12.03  Laurence Zanchetta (PS): Madame la présidente, chers collègues, lutter contre les biais de genre dans la collecte des données, dans les statistiques qui sont mises à disposition, notamment, des pouvoirs publics, c'est lutter contre les discriminations, contre les politiques discriminatoires et aussi contre des prises en charge inadéquates, en particulier dans les soins de santé.
 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
 
 
+Lors des auditions que nous avons menées ces derniers mois, nous avons en effet constaté que l'un des domaines touchés par ces biais de genre dans les données est la santé. Dans les recherches et les essais cliniques, on remarque une sous-représentation des femmes, qui a des conséquences néfastes dans leur prise en charge, dues à un manque de connaissance des symptômes de certaines pathologies qui sont propres aux femmes – je pense notamment à l'endométriose ou au syndrome des ovaires polykystiques –, mais aussi à la méconnaissance des effets indésirables de certains traitements sur les femmes.
 
-Ja
 
 
-15
+Sur la base des nombreuses auditions menées, notre Comité d'avis pour l'émancipation a ainsi pu formuler une série de recommandations importantes. Nombre d'entre elles visent donc directement les collectes des données et les statistiques elles-mêmes, pour savoir ce dont on dispose, pour déterminer quelles sont celles où un biais de genre est constaté et pour pallier cette situation. La collaboration entre le Conseil Supérieur de Statistique et l'Institut pour l’égalité des femmes et des hommes (IEFH) sera indispensable dans ce cadre.
 
 
-Oui
 
+Ensuite, il faudra bien sûr avoir ce focus sur les biais de genre dans la santé, en impliquant le Centre Fédéral d’Expertise des Soins de Santé (KCE), mais également les entités fédérées. Il est en effet indispensable d'améliorer la diversité de genre au niveau de la recherche, tant en ce qui concerne les équipes que les projets, mais également de soutenir les carrières académiques et scientifiques des femmes. Il est aussi indispensable de sensibiliser la population, les prestataires de soins, les chercheurs, les universitaires à ces biais de genre dans les données, dans tous les domaines et, en particulier, dans celui de la santé publique.
 
 
-Ja
 
-Ja
-Ja
+Des témoignages montrent également qu'il faut des concertations avec le secteur pharmaceutique, et celui des équipements médicaux. Par exemple, certains équipements d'imagerie médicale sont inadaptés à certaines morphologies, notamment celles des femmes. Ou encore, pour certains médicaments, des femmes signalent des effets secondaires différents ou disproportionnés.
 
-15
 
-15
-15
 
-Oui
+Enfin, une partie importante des recommandations concerne également l’utilisation de l’intelligence artificielle car, là aussi, il existe des biais de genre dans les données utilisées qui peuvent conduire à des discriminations ou à des décisions erronées. Il faut évidemment tout mettre en œuvre pour les éviter.
 
-Oui
-Oui
 
 
-Nee
+Le Comité d'avis pour l’émancipation sociale a fait ici un travail important dans ce domaine complexe qu’est le biais de genre dans les données. Ces biais peuvent clairement avoir des répercussions importantes sur la vie des citoyens et surtout des citoyennes. En effet, si mesurer c’est savoir, si les données peuvent aider à mener des politiques ou à prendre des décisions efficaces, elles doivent l’être au bénéfice de tous et de toutes. Leur collecte, leur analyse et leur communication doivent tenir compte de l’ensemble des individus et non d’une seule partie uniquement. C’est en ce sens que vont les recommandations formulées aujourd’hui et que nous soutiendrons.
 
 
-92
 
+12.04  Maria Vindevoghel (PVDA-PTB): Mevrouw de voorzitster, beste collega's, in de hoorzitting werd heel duidelijk dat de structurele ongelijkheid tussen mannen en vrouwen er de afgelopen decennia voor heeft gezorgd dat vrouwen zich een weg moeten banen door een wereld georganiseerd door mannen. Het gebrek aan data over genderverschillen is enorm en heeft grote gevolgen. Men kan niet veronderstellen dat alles wat voor mannen geldt, ook voor vrouwen geldt. Dat zorgt ervoor dat de perspectieven, ervaringen en noden van vrouwen heel vaak over het hoofd worden gezien.
 
-Non
 
 
+Het feit dat vrouwen totaal andere symptomen hebben dan mannen als zij bijvoorbeeld een hartaanval krijgen en dat vrouwen hierdoor minder snel worden geholpen als zij een hartaanval krijgen, is een voorbeeld. Een ander voorbeeld is ADHD, dat verschilt bij mannen en vrouwen. Deze namiddag hebben wij ook het probleem van endometriose besproken. Dat illustreert ook heel goed dat er te weinig onderzoek gebeurt en dat er te weinig is geweten over dergelijke ziektes.
 
-Nee
 
-Nee
-Nee
 
-92
+Er is op dat vlak heel wat werk te verzetten en de resolutie moet daarin stappen vooruit zetten. Dat is natuurlijk niet alleen zo in de gezondheidszorg, maar ook op de werkvloer en in de wetenschap. Er is nog heel veel werk.
 
-92
-92
 
-Non
 
-Non
-Non
+Wij zullen het voorliggende voorstel van resolutie steunen en wij roepen al op tot actie op volgende week 8 maart, de internationale vrouwendag, wanneer wij de strijd voor gelijke rechten voor mannen en vrouwen zullen voortzetten, ook op straat.
 
 
-Onthoudingen
 
+12.05  Karin Jiroflée (Vooruit): Mevrouw de voorzitster, collega's, alle Belgen zijn gelijk voor de wet, maar blijkbaar niet voor de wetenschap. Ook nu nog kijken onderzoekers vaak door een exclusief mannelijke bril. Nieuwe producten, technologieën of medicijnen worden vooral bij of door mannen getest. Door wetenschapsland slingert een genderdatakloof met soms catastrofale gevolgen. Daarom stelden collega Platteau en ikzelf voor om dit historische tekort aan kennis over vrouwen verder in kaart te brengen binnen ons Adviescomité.
 
-24
 
 
-Abstentions
+Het is algemeen bekend dat vrouwen ondervertegenwoordigd zijn in exacte wetenschappen en natuurwetenschappen. Ook het fenomeen van de leaky pipeline of het schaareffect, waarbij het aantal vrouwen in de academische wereld daalt bij elke carrièrestap, zal bij velen een belletje doen rinkelen.
 
 
 
-Onthoudingen
+Ook onder proefpersonen zijn vrouwen in de minderheid. Dat er zelfs bij proefdieren een opmerkelijk verschil vastgesteld wordt, tart toch iedere verbeelding. De gevolgen van dit alles laten zich raden. Vrouwen lopen een grotere kans op verkeerde diagnoses en foute doseringen. Bij medicijnen hebben ze 33 % meer kans op bijwerkingen. In de groep van personen met onverklaarbare klachten is de patiënt minstens zeven keer op de tien een vrouw. Het lijkt wel dat vrouw zijn de gezondheid kan schaden.
 
-Onthoudingen
-Onthoudingen
 
-24
 
-24
-24
+Ook in andere domeinen ontbreekt vaak specifieke kennis over de genderimpact. Zo moet men bijvoorbeeld bij de toepassing van AI vermijden dat datasets genderstereotypes versterken en voortzetten. Soms worden uit onderzoeken stukken genomen om verder onderzoek te doen, om verdere conclusies te trekken, die niet direct gelinkt waren aan het eerste onderzoek. Denk maar aan de data die men inzet voor het matchen van profielen aan vacatures. Als men slecht begint, kan men niet verwachten dat bij het hergebruik van die cijfers het goed gaat zitten.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+We vragen dus aandacht voor het dichten van die genderdatakloof, in het bijzonder bij de productie van statistieken die beleidsmakers informeren. Immers, als een bepaalde bevolkingsgroep niet wordt meegenomen, weet men over hen zo goed als niets of loopt men cruciale informatie mis.
 
-Totaal
 
 
-131
+Een reflex naar alle doelgroepen kan overigens ook mannen ten goede komen. Soms worden immers ook zij benadeeld. Aandoeningen als osteoporose of anorexia worden bijvoorbeeld veel minder bij mannen gediagnosticeerd, omdat ze ten onrechte als typisch vrouwelijk worden beschouwd. Het is dus hoog tijd om die genderdatakloof te dichten, want meten is weten, zowel voor mannen als vrouwen.
 
 
-Total
 
+Tot slot wil ik als voorzitster van het Adviescomité voor de Maatschappelijke Emancipatie de collega's danken voor de goede samenwerking. We hopen dat onze federale regering met onze aanbevelingen aan de slag zal gaan.
 
 
-Totaal
 
-Totaal
-Totaal
+12.06  Sophie Rohonyi (DéFI): Madame la présidente, chers collègues, nous avons beau être, en 2024, entourés de technologies qui nous dépassent parfois complètement, il n'en reste pas moins que nos connaissances scientifiques et médicales sur les femmes restent inférieures à celles qui se rapportent aux hommes en de nombreux domaines. La santé et la sécurité en font partie.
 
-131
 
-131
-131
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 24 de Catherine Fonck
-tendant à insérer un article 12(n). (3804/5)
-Vote sur l'amendement n° 24 de Catherine Fonck
-tendant à insérer un article 12(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 24 van
-Catherine Fonck tot invoeging van een artikel 12(n). (3804/5)
-Stemming over amendement nr. 24 van
-Catherine Fonck tot invoeging van een artikel 12(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 25 de Catherine Fonck
-tendant à insérer un article 13(n). (3804/5)
-Vote sur l'amendement n° 25 de Catherine Fonck
-tendant à insérer un article 13(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 25 van
-Catherine Fonck tot invoeging van een artikel 13(n). (3804/5)
-Stemming over amendement nr. 25 van
-Catherine Fonck tot invoeging van een artikel 13(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 26 de Catherine Fonck
-tendant à insérer un article 14(n). (3804/5)
-Vote sur l'amendement n° 26 de Catherine Fonck
-tendant à insérer un article 14(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 26 van
-Catherine Fonck tot invoeging van een artikel 14(n). (3804/5)
-Stemming over amendement nr. 26 van
-Catherine Fonck tot invoeging van een artikel 14(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 27 de Catherine Fonck
-tendant à insérer un article 15(n). (3804/5)
-Vote sur l'amendement n° 27 de Catherine Fonck
-tendant à insérer un article 15(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 27 van
-Catherine Fonck tot invoeging van een artikel 15(n). (3804/5)
-Stemming over amendement nr. 27 van
-Catherine Fonck tot invoeging van een artikel 15(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 28 de Catherine Fonck
-tendant à insérer un article 16(n). (3804/5)
-Vote sur l'amendement n° 28 de Catherine Fonck
-tendant à insérer un article 16(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 28 van
-Catherine Fonck tot invoeging van een artikel 16(n). (3804/5)
-Stemming over amendement nr. 28 van
-Catherine Fonck tot invoeging van een artikel 16(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 29 de Catherine Fonck
-tendant à insérer un article 17(n). (3804/5)
-Vote sur l'amendement n° 29 de Catherine Fonck
-tendant à insérer un article 17(n). 
-(3804/5)
-(3804/5)
-
-Stemming over amendement nr. 29 van
-Catherine Fonck tot invoeging van een artikel 17(n). (3804/5)
-Stemming over amendement nr. 29 van
-Catherine Fonck tot invoeging van een artikel 17(n). 
-(3804/5)
-(3804/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-31 Ensemble du projet de loi portant dispositions diverses en matière de
-santé (3804/4)
-31
-31
- Ensemble du projet de loi portant dispositions diverses en matière de
-santé (3804/4)
- Ensemble du projet de loi portant dispositions diverses en matière de
-santé (3804/4)
-
-31 Geheel van het
-wetsontwerp houdende diverse bepalingen inzake gezondheid (3804/4)
-31
-31
-31
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake gezondheid (3804/4)
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake gezondheid (3804/4)
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake gezondheid (3804/4)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 9
-
-
-(Stemming/vote 8)
-
-(Stemming/vote 8)
-(Stemming/vote 8)
-(Stemming/vote 8)
-
-
-
-Ja
-
-
-105
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-105
-
-105
-105
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-4
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-4
-
-4
-4
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-23
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-23
-
-23
-23
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-132
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-132
-
-132
-132
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3804/6)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3804/6)
-(3804/6)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3804/6)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3804/6)
-(3804/6)
- 
- 
- 
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
-
-Reden van onthouding? (Nee)
-Reden van onthouding? 
-(Nee)
-(Nee)
-
-
- 
- 
- 
-31.01  Sander Loones (N-VA): Mevrouw de voorzitster, ik wil even aansluiten op de
-procedurediscussie en verwijzen naar artikel 60 van het Kamerreglement,
-dat stelt dat ieder lid dat in de Kamer aanwezig is terwijl een punt in
-stemming wordt gebracht en dat niet stemt, door de voorzitter wordt verzocht de
-beweegredenen te doen kennen die hem nopen niet aan de stemming deel te nemen.
-Er is geen keuzevrijheid.
-31.01
-31.01
-  Sander Loones 
-  Sander Loones 
- 
-(N-VA): Mevrouw de voorzitster, ik wil even aansluiten op de
-procedurediscussie en verwijzen naar artikel 60 van het Kamerreglement,
-dat stelt dat ieder lid dat in de Kamer aanwezig is terwijl een punt in
-stemming wordt gebracht en dat niet stemt, door de voorzitter wordt verzocht de
-beweegredenen te doen kennen die hem nopen niet aan de stemming deel te nemen.
-Er is geen keuzevrijheid.
- 
- 
- 
-U hebt net gezegd dat u aan uw leden kunt
-vragen om te verklaren waarom ze niet gestemd hebben. Het Reglement zegt dat u
-dat móét doen. Ik wil u dus vragen artikel 60 toe te passen en de personen
-die niet gestemd hebben persoonlijk aan te spreken en hen te vragen naar hun
-motivatie om niet aan de stemming te hebben deelgenomen.
-U hebt net gezegd dat u aan uw leden kunt
-vragen om te verklaren waarom ze niet gestemd hebben. Het Reglement zegt dat u
-dat móét doen. Ik wil u dus vragen artikel 60 toe te passen en de personen
-die niet gestemd hebben persoonlijk aan te spreken en hen te vragen naar hun
-motivatie om niet aan de stemming te hebben deelgenomen.
- 
- 
- 
-La présidente:
-Je peux le demander. Il n'y a pas d'obligation.
-La présidente:
-Je peux le demander. Il n'y a pas d'obligation.
-présidente
- 
- 
- 
-32 Projet de loi portant des dispositions diverses en matière sociale
-(3663/4)
-32
-32
- Projet de loi portant des dispositions diverses en matière sociale
-(3663/4)
- Projet de loi portant des dispositions diverses en matière sociale
-(3663/4)
-
-32 Wetsontwerp
-houdende diverse bepalingen inzake sociale zaken (3663/4)
-32
-32
-32
- Wetsontwerp
-houdende diverse bepalingen inzake sociale zaken (3663/4)
- Wetsontwerp
-houdende diverse bepalingen inzake sociale zaken (3663/4)
- Wetsontwerp
-houdende diverse bepalingen inzake sociale zaken (3663/4)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
 
-## Proposal 10
+Cette lacune entraîne, comme cela a été dit, des conséquences graves. En effet, les femmes en Belgique sont exposées à un risque deux fois plus élevé que les hommes de subir des effets secondaires néfastes en raison, notamment, du manque de représentation féminine dans les études cliniques. Comme certains collègues l'ont déjà évoqué, je ne vais pas y revenir. Cette sous-représentation est d'autant plus incompréhensible que les femmes peuvent être davantage touchées que les hommes par certaines maladies, lesquelles sont mal prises en charge par la médecine, par la recherche scientifique ou encore par le remboursement opéré par l'INAMI. Au demeurant, j'interroge souvent le ministre de la Santé à ce sujet, qu'il s'agisse de l'endométriose ou du cancer du sein, du syndrome sec (syndrome de Sjögren), de la fibromyalgie, du syndrome de fatigue chronique, de la maladie d'Alzheimer, dont 60 % des patients sont en fait des femmes, ou encore d'affections dont les symptômes varient en fonction du genre telles les maladies cardiovasculaires qui sont, actuellement, la première cause de mortalité féminine.
 
 
-(Stemming/vote 9)
 
-(Stemming/vote 9)
-(Stemming/vote 9)
-(Stemming/vote 9)
+Il en découle qu'aujourd'hui, faute de politique de prévention, mais aussi de traitement adapté, la moitié de notre population est en péril. C'est tout simplement inacceptable et cela nécessitait que nous puissions nous y pencher au sein de notre Comité pour l'Émancipation sociale. En effet, notre rôle est justement d'éviter que, par manque de connaissance et de données, nous invisibilisions les femmes. Aujourd'hui et plus que jamais, nous devons encourager et renforcer la recherche médicale sur ces disparités fondées sur le genre. Cela passe non seulement, et c'est ce que prévoit le texte, par la sensibilisation des professionnels de santé à ces enjeux, mais aussi la nécessité de revoir nos équipements médicaux – souvent conçus selon des normes masculines, pensées par les hommes et pour les hommes –, mais aussi en engageant un dialogue avec le secteur pharmaceutique en vue de promouvoir une recherche qui soit beaucoup plus inclusive.
 
 
 
-Ja
+Pour atteindre ces objectifs, il est donc essentiel d’intégrer ces questions dès l’enseignement supérieur, en garantissant une meilleure inclusivité dès le début du processus éducatif.
 
 
-108
 
+En outre, il est crucial de reconnaître que l’apprentissage de ces fameuses intelligences artificielles est sujet à des biais qui restent le reflet de toutes les discriminations constatées dans notre société. Dès lors, un contrôle régulier et une sensibilisation des ingénieurs tout au long du processus de développement et de mise sur le marché sont aujourd’hui indispensables.
 
-Oui
 
 
+Vous l’aurez compris, chers collègues, mon parti DéFI soutiendra cette proposition de résolution avec beaucoup d’enthousiasme. Nous espérons qu’à terme, cette prise de conscience se généralisera et que les femmes ne seront plus invisibilisées dans la recherche et, partant, dans notre société en général.
 
-Ja
 
-Ja
-Ja
 
-108
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
-108
-108
+Vraagt nog iemand het woord? (Nee)
 
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-23
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-23
-
-23
-23
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-131
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-131
-
-131
-131
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3663/5)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3663/5)
-(3663/5)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3663/5)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3663/5)
-(3663/5)
- 
- 
- 
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
-
-Reden van onthouding? (Nee)
-Reden van onthouding? 
-(Nee)
-(Nee)
-
- 
- 
- 
-32.01  Peter De Roover (N-VA): Ik stel ook de collega's van de PVDA voor om een
-stemverklaring af te leggen. Op die manier …
-32.01
-32.01
-  Peter De Roover 
-  Peter De Roover 
- 
-(N-VA): Ik stel ook de collega's van de PVDA voor om een
-stemverklaring af te leggen. 
-Op die manier …
-
- 
- 
- 
-La présidente:
-Dans ce cas, je coupe le micro, car M. De Roover va profiter d’une
-soi-disant…
-La présidente:
-Dans ce cas, je coupe le micro, car M. De Roover va profiter d’une
-soi-disant…
-présidente
- 
- 
- 
-32.02  Christoph D'Haese (N-VA): Soi-disant?
-32.02
-32.02
-  Christoph D'Haese 
-  Christoph D'Haese 
- 
-(N-VA): Soi-disant?
-
- 
- 
- 
-La présidente:
-Oui, vous proposez à tous les collègues de s'exprimer sur cette dénomination,
-mais nous avons compris votre subterfuge! Je propose que nous avancions. Cela
-suffit maintenant!
-La présidente:
-Oui, vous proposez à tous les collègues de s'exprimer sur cette dénomination,
-mais nous avons compris votre subterfuge! Je propose que nous avancions. Cela
-suffit maintenant!
-présidente
- 
- 
- 
-33 Projet de loi sur la motivation des licenciements et des licenciements
-manifestement déraisonnables des travailleurs contractuels du secteur public
-(3754/4)
-33
-33
- Projet de loi sur la motivation des licenciements et des licenciements
-manifestement déraisonnables des travailleurs contractuels du secteur public
-(3754/4)
- Projet de loi sur la motivation des licenciements et des licenciements
-manifestement déraisonnables des travailleurs contractuels du secteur public
-(3754/4)
-
-33 Wetsontwerp tot
-motivering van ontslag en kennelijk onredelijk ontslag van contractuele
-werknemers in de overheidssector (3754/4)
-33
-33
-33
- Wetsontwerp tot
-motivering van ontslag en kennelijk onredelijk ontslag van contractuele
-werknemers in de overheidssector (3754/4)
- Wetsontwerp tot
-motivering van ontslag en kennelijk onredelijk ontslag van contractuele
-werknemers in de overheidssector (3754/4)
- Wetsontwerp tot
-motivering van ontslag en kennelijk onredelijk ontslag van contractuele
-werknemers in de overheidssector (3754/4)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
+La discussion est close.
 
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
+De bespreking is gesloten.
 
-## Proposal 11
 
 
-(Stemming/vote 10)
+Aucun amendement n'a été déposé.
 
-(Stemming/vote 10)
-(Stemming/vote 10)
-(Stemming/vote 10)
+Er werden geen amendementen ingediend.
 
 
 
-Ja
+Le vote sur la proposition aura lieu ultérieurement.
 
+De stemming over het voorstel zal later plaatsvinden.
 
-127
 
 
-Oui
+### Discussed proposals:
 
+## Proposal discussion (agenda item 13)
 
+### Description in Dutch:
 
-Ja
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3804/4)
+Het wetsontwerp telt 6 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen, de aangehouden artikelen en over het geheel zal later plaatsvinden.
 
-Ja
-Ja
+### Description in French:
 
-127
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3804/4)
+Le projet de loi compte 6 articles.
+La discussion des articles est close. Le vote sur les amendements et les articles réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
-127
-127
 
-Oui
 
-Oui
-Oui
+### Discussed proposals:
 
+## Proposal discussion (agenda item 14)
 
-Nee
+### Description in Dutch:
 
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3663/4)
+Het wetsontwerp telt 32 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-0
+### Description in French:
 
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3663/4)
+Le projet de loi compte 32 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Non
 
 
+### Discussed proposals:
 
-Nee
+## Proposal discussion (agenda item 15)
 
-Nee
-Nee
+### Description in Dutch:
 
-0
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3754/4)
+Het wetsontwerp telt 5 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-0
-0
+### Description in French:
 
-Non
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3754/4)
+Le projet de loi compte 5 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Non
-Non
 
 
-Onthoudingen
+### Discussed proposals:
 
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-127
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-127
-
-127
-127
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3754/5)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3754/5)
-(3754/5)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3754/5)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3754/5)
-(3754/5)
- 
- 
- 
-33.01  Peter De Roover (N-VA): Er is een Reglement en u moet dat volgen!
-33.01
-33.01
-  Peter De Roover 
-  Peter De Roover 
- 
-(N-VA): Er is een Reglement en u moet dat volgen!
- 
- 
- 
-La présidente:
-Il y a un Règlement et il y aussi un respect de cette institution, monsieur De
-Roover.
-La présidente:
-Il y a un Règlement et il y aussi un respect de cette institution, monsieur De
-Roover.
-présidente
- 
- 
- 
-(Les groupes N-VA et Vlaams Belang quittent
-l'hémicycle)
-(Les groupes N-VA et Vlaams Belang quittent
-l'hémicycle)
-(De N-VA-fractie en de Vlaams Belangfractie
-verlaten het halfrond)
-(De N-VA-fractie en de Vlaams Belangfractie
-verlaten het halfrond)
- 
- 
- 
-34 Projet de loi modifiant le Code d'instruction criminelle, la loi du
-22 mars 1999 relative à la procédure d'identification par analyse ADN
-en matière pénale et la loi du 5 août 1992 sur la fonction de police
-(nouvel intitulé) (3620/7)
-34
-34
- Projet de loi modifiant le Code d'instruction criminelle, la loi du
-22 mars 1999 relative à la procédure d'identification par analyse ADN
-en matière pénale et la loi du 5 août 1992 sur la fonction de police
-(nouvel intitulé) (3620/7)
- Projet de loi modifiant le Code d'instruction criminelle, la loi du
-22 mars 1999 relative à la procédure d'identification par analyse ADN
-en matière pénale et la loi du 5 août 1992 sur la fonction de police
-(nouvel intitulé) (3620/7)
-
-34 Wetsontwerp
-houdende wijziging van het Wetboek van strafvordering, van de wet van
-22 maart 1999 betreffende de identificatieprocedure via DNA-onderzoek
-in strafzaken en van de wet van 5 augustus 1992 op het politieambt
-(nieuw opschrift) (3620/7)
-34
-34
-34
- Wetsontwerp
-houdende wijziging van het Wetboek van strafvordering, van de wet van
-22 maart 1999 betreffende de identificatieprocedure via DNA-onderzoek
-in strafzaken en van de wet van 5 augustus 1992 op het politieambt
-(nieuw opschrift) (3620/7)
- Wetsontwerp
-houdende wijziging van het Wetboek van strafvordering, van de wet van
-22 maart 1999 betreffende de identificatieprocedure via DNA-onderzoek
-in strafzaken en van de wet van 5 augustus 1992 op het politieambt
-(nieuw opschrift) (3620/7)
- Wetsontwerp
-houdende wijziging van het Wetboek van strafvordering, van de wet van
-22 maart 1999 betreffende de identificatieprocedure via DNA-onderzoek
-in strafzaken en van de wet van 5 augustus 1992 op het politieambt
-(nieuw opschrift) (3620/7)
+## Proposal discussion (agenda item 16)
 
+### Description in Dutch:
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-(Non)
-(Non)
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3620/7)
+Het opschrift werd door de commissie gewijzigd in "wetsontwerp houdende wijziging van het Wetboek van strafvordering, van de wet van 22 maart 1999 betreffende de identificatieprocedure via DNA-onderzoek in strafzaken en van de wet van 5 augustus 1992 op het politieambt".
+Het wetsontwerp telt 24 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
+### Description in French:
 
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et véri
-fié son vote?
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3620/7)
+L’intitulé a été modifié par la commission en "projet de loi modifiant le Code d’instruction criminelle, la loi du 22 mars 1999 relative à la procédure d’identification par analyse ADN en matière pénale et la loi du 5 août 1992 sur la fonction de police".
+Le projet de loi compte 24 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
 
-## Proposal 12
 
+### Discussed proposals:
 
-(Stemming/vote 11)
+## Proposal discussion (agenda item 17)
 
-(Stemming/vote 11)
-(Stemming/vote 11)
-(Stemming/vote 11)
+### Description in Dutch:
 
+Discussion générale
 
+Algemene bespreking
 
-Ja
 
 
-82
+La discussion générale est ouverte.
 
+De algemene bespreking is geopend.
 
-Oui
 
 
+De rapporteurs, de heren Lacroix en Vandenput, verwijzen naar het schriftelijk verslag.
 
-Ja
 
-Ja
-Ja
 
-82
+17.01  Theo Francken (N-VA): Mevrouw de voorzitster, waar is de minister?
 
-82
-82
 
-Oui
 
-Oui
-Oui
+Ik wil heel graag de bespreking aangaan over de reserve van onze Defensie, omdat het een heel belangrijk thema is, maar het liefst in aanwezigheid van de minister. Het is haar voorstel en ik heb toch nog een paar vragen.
 
 
-Nee
 
+Heeft men haar gebeld? Heeft men haar kabinet gecontacteerd? Het zat er toch al een tijdje aan te komen dat wij tot dit punt zouden komen. Ik ben toch al lang ingeschreven als spreker. Zij wist dus dat ik zou tussenkomen. In de commissie ben ik hierover ook uitgebreid tussengekomen.
 
-0
 
 
-Non
+La présidente: La ministre de permanence est la secrétaire d'État Bertrand, qui est présente.
 
 
 
-Nee
+17.02  Theo Francken (N-VA): De minister is er dus niet?
 
-Nee
-Nee
 
-0
 
-0
-0
+Kunnen wij dit dan volgende week bespreken, in aanwezigheid van de minister? Het is toch niet netjes. Zij is ook niet verontschuldigd vandaag. Het is toch niet ernstig dat ik met mevrouw Bertrand een debat over een technisch wetsontwerp over de reserve moet hebben? Dat is niet leuk voor mevrouw Bertrand, maar dat is ook niet leuk voor mij. Dat is niet leuk voor Defensie.
 
-Non
 
-Non
-Non
 
+Mevrouw Bertrand, kent u de reserve bij Defensie? Kent u de techniciteit van het wetsontwerp?
 
-Onthoudingen
 
 
-0
+17.03 Staatssecretaris Alexia Bertrand: (…)
 
 
-Abstentions
 
+17.04  Theo Francken (N-VA): U zult kijken in uw dossier? Het heeft nochtans weinig begrotings­impact, op dat vlak valt het nog mee. Wij gaan naar 2 % van het bbp voor Defensie, maar dat heeft niets met dit wetsontwerp te maken.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+17.05 Staatssecretaris Alexia Bertrand: Ik heb een paar elementen van antwoord. Sorry, ik ben net aangekomen, maar ik vermoed dat uw vragen zullen gaan over de schietoefeningen en …
 
-0
 
-0
-0
 
-Abstentions
+17.06  Theo Francken (N-VA): (…)
 
-Abstentions
-Abstentions
 
 
-Totaal
+17.07 Staatssecretaris Alexia Bertrand: U hebt nog geen vraag gesteld?
 
 
-82
 
+Ik ken de elementen die in de commissie besproken zijn. Ik ben ook in contact met Defensie. Als er dus specifieke vragen zijn, geen probleem, ik zal erop antwoorden.
 
-Total
 
 
+De voorzitster: De regel is dat de regering hier vertegenwoordigd is. Dat is het geval door mevrouw de staatssecretaris.
 
-Totaal
 
-Totaal
-Totaal
 
-82
+17.08  Theo Francken (N-VA): Ja, maar er is de regeling en er is het fatsoen. Het fatsoen is wel degelijk dat de bevoegde minister aanwezig is.
 
-82
-82
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3620/8)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3620/8)
-(3620/8)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3620/8)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3620/8)
-(3620/8)
-
-
- 
- 
- 
-(MM. Denis
-Ducarme et Daniel Bacquelaine ont voté pour)
-(MM. Denis
-Ducarme et Daniel Bacquelaine ont voté pour)
-(MM. Denis
-Ducarme et Daniel Bacquelaine ont voté pour)
-
- 
- 
- 
-34.01  Sofie Merckx (PVDA-PTB):
-Madame la présidente, s'agissant du vote qui vient d’avoir lieu dans le chaos,
-nous n’avons pas bien suivi. En principe, mon groupe votait pour ce projet de
-loi n° 3620. 
-34.01
-34.01
-  Sofie Merckx 
-  Sofie Merckx 
- 
-(PVDA-PTB):
-Madame la présidente, s'agissant du vote qui vient d’avoir lieu dans le chaos,
-nous n’avons pas bien suivi. En principe, mon groupe votait pour ce projet de
-loi n° 3620. 
- 
- 
- 
-En ce qui concerne l’article 60 du
-Règlement de la Chambre, il est important de le lire encore une fois en
-français, peut-être. Cela fait 25 ans que j’habite en Wallonie. Il est
-indiqué: Tout membre qui, présent dans la Chambre lorsque la question est mise
-aux voix, s’abstient de voter, sera invité par le président (ou la présidente)
-(…)".
-En ce qui concerne l’article 60 du
-Règlement de la Chambre, il est important de le lire encore une fois en
-français, peut-être. Cela fait 25 ans que j’habite en Wallonie. Il est
-indiqué: Tout membre qui, présent dans la Chambre lorsque la question est mise
-aux voix, s’abstient de voter, sera invité par le président (ou la présidente)
-(…)".
- 
- 
- 
-Vous ne
-l'avez pas fait.
-Vous ne
-l'avez pas fait.
-
- 
- 
- 
-La présidente:
-Ce n’est pas une obligation.
-La présidente:
-Ce n’est pas une obligation.
-présidente
- 
- 
- 
-34.02  Sofie Merckx (PVDA-PTB):
-Vous n’avez pas invité les collègues à s’exprimer.
-34.02
-34.02
-  Sofie Merckx 
-  Sofie Merckx 
- 
-(PVDA-PTB):
-Vous n’avez pas invité les collègues à s’exprimer.
- 
- 
- 
-34.03  Servais
-Verherstraeten (cd&v): Ik moet mevrouw
-Merckx tegenspreken. Ik moet ook de collega’s die de zaal hebben verlaten
-tegenspreken. 
-34.03
-34.03
-  
-  
- 
-Servais
-Verherstraeten 
-Servais
-Verherstraeten 
-(cd&v): Ik moet mevrouw
-Merckx tegenspreken. Ik moet ook de collega’s die de zaal hebben verlaten
-tegenspreken. 
- 
- 
- 
-U hebt artikel 60 geciteerd, mevrouw
-Merckx. Ik stel voor dat u het boek van de heer Van der Hulst er eens bij
-neemt. Ik stel ook voor dat u de voetnoot leest die onder het artikel 60
-ter zake staat. Die zegt het volgende: "Volgens het verslag over de
-wijziging van dit artikel de dato 6 februari 1956, moet het als volgt
-worden verstaan: alle leden die op het ogenblik van de stemming aanwezig zijn
-en die niet stemmen, worden geacht een blanco stem te hebben uitgebracht."
-
-U hebt artikel 60 geciteerd, mevrouw
-Merckx. Ik stel voor dat u het boek van de heer Van der Hulst er eens bij
-neemt. Ik stel ook voor dat u de voetnoot leest die onder het artikel 60
-ter zake staat. Die zegt het volgende: "Volgens het verslag over de
-wijziging van dit artikel de dato 6 februari 1956, moet het als volgt
-worden verstaan: alle leden die op het ogenblik van de stemming aanwezig zijn
-en die niet stemmen, worden geacht een blanco stem te hebben uitgebracht."
-
- 
- 
- 
-De stemming is
-correct gebeurd.
-De stemming is
-correct gebeurd.
-
- 
- 
- 
-La présidente:
-Voilà, nous votons à présent sur la modification du Règlement de la Chambre des
-représentants. Nous n'allons pas jouer au ping-pong à propos des
-interprétations du Règlement. 
-La présidente:
-Voilà, nous votons à présent sur la modification du Règlement de la Chambre des
-représentants. Nous n'allons pas jouer au ping-pong à propos des
-interprétations du Règlement. 
-présidente
- 
- 
- 
-34.04  Nabil Boukili (PVDA-PTB):
-C'est un fait personnel! 
-34.04
-34.04
-  Nabil Boukili 
-  Nabil Boukili 
- 
-(PVDA-PTB):
-C'est un fait personnel! 
- 
- 
- 
-La présidente:
-M. Verherstraeten vous a répondu! 
-La présidente:
-M. Verherstraeten vous a répondu! 
-présidente
- 
- 
- 
-34.05  Sofie Merckx (PVDA-PTB):
-(…)
-34.05
-34.05
-  Sofie Merckx 
-  Sofie Merckx 
- 
-(PVDA-PTB):
-(…)
- 
- 
- 
-La présidente:
-Bon, vingt secondes, madame Merckx! 
-La présidente:
-Bon, vingt secondes, madame Merckx! 
-présidente
- 
- 
- 
-34.06  Sofie Merckx (PVDA-PTB):
-Monsieur Verherstraeten, vous avez raison. En effet, les votes des membres
-n'ayant pas voté sont comptabilisés comme des abstentions. 
-34.06
-34.06
-  Sofie Merckx 
-  Sofie Merckx 
- 
-(PVDA-PTB):
-Monsieur Verherstraeten, vous avez raison. En effet, les votes des membres
-n'ayant pas voté sont comptabilisés comme des abstentions. 
- 
- 
- 
-Néanmoins, cela n'invalide en rien l'indication
-du premier paragraphe, qui précise que la personne qui ne vote pas sera invitée
-par le président. Sinon, on aurait supprimé le paragraphe!  
-Néanmoins, cela n'invalide en rien l'indication
-du premier paragraphe, qui précise que la personne qui ne vote pas sera invitée
-par le président. Sinon, on aurait supprimé le paragraphe!  
-  
- 
- 
- 
-La présidente:
-Bien. Ceci nous permet de passer au vote sur la modification du Règlement.
-La présidente:
-Bien. Ceci nous permet de passer au vote sur la modification du Règlement.
-présidente
- 
- 
- 
-35 Proposition de modification du Règlement de la Chambre des
-représentants en ce qui concerne le contrôle des comptes de la Chambre par la
-Cour des comptes (3282/5)
-35
-35
- Proposition de modification du Règlement de la Chambre des
-représentants en ce qui concerne le contrôle des comptes de la Chambre par la
-Cour des comptes (3282/5)
- Proposition de modification du Règlement de la Chambre des
-représentants en ce qui concerne le contrôle des comptes de la Chambre par la
-Cour des comptes (3282/5)
-
-35 Voorstel tot
-wijziging van het Reglement van de Kamer van volksvertegenwoordigers, wat de
-controle van de rekeningen van de Kamer door het Rekenhof betreft (3282/5)
-35
-35
-35
- Voorstel tot
-wijziging van het Reglement van de Kamer van volksvertegenwoordigers, wat de
-controle van de rekeningen van de Kamer door het Rekenhof betreft (3282/5)
- Voorstel tot
-wijziging van het Reglement van de Kamer van volksvertegenwoordigers, wat de
-controle van de rekeningen van de Kamer door het Rekenhof betreft (3282/5)
- Voorstel tot
-wijziging van het Reglement van de Kamer van volksvertegenwoordigers, wat de
-controle van de rekeningen van de Kamer door het Rekenhof betreft (3282/5)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 13
-
-
-(Stemming/vote 12)
-
-(Stemming/vote 12)
-(Stemming/vote 12)
-(Stemming/vote 12)
-
-
-
-Ja
-
-
-93
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-93
-
-93
-93
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-93
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-93
-
-93
-93
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition. La présente modification sera publiée au Moniteur belge.
-En conséquence, la Chambre adopte la
-proposition. La présente modification sera publiée au Moniteur belge.
-Bijgevolg neemt de Kamer het voorstel aan.
-Deze wijziging zal worden bekendgemaakt in het Belgisch Staatsblad.
-Bijgevolg neemt de Kamer het voorstel aan.
-Deze wijziging zal worden bekendgemaakt in het Belgisch Staatsblad.
- 
- 
- 
-36 Proposition de rejet faite par la commission des Relations extérieures
-de la proposition de résolution relative à la plainte déposée par l’Afrique du
-Sud auprès de la Cour internationale de Justice (3779/1-3)
-36
-36
- Proposition de rejet faite par la commission des Relations extérieures
-de la proposition de résolution relative à la plainte déposée par l’Afrique du
-Sud auprès de la Cour internationale de Justice (3779/1-3)
- Proposition de rejet faite par la commission des Relations extérieures
-de la proposition de résolution relative à la plainte déposée par l’Afrique du
-Sud auprès de la Cour internationale de Justice (3779/1-3)
-
-36 Voorstel tot
-verwerping door de commissie voor Buitenlandse Betrekkingen van het voorstel
-van resolutie betreffende de klacht van Zuid-Afrika bij het Internationaal
-Gerechtshof (3779/1-3)
-36
-36
-36
- Voorstel tot
-verwerping door de commissie voor Buitenlandse Betrekkingen van het voorstel
-van resolutie betreffende de klacht van Zuid-Afrika bij het Internationaal
-Gerechtshof (3779/1-3)
- Voorstel tot
-verwerping door de commissie voor Buitenlandse Betrekkingen van het voorstel
-van resolutie betreffende de klacht van Zuid-Afrika bij het Internationaal
-Gerechtshof (3779/1-3)
- Voorstel tot
-verwerping door de commissie voor Buitenlandse Betrekkingen van het voorstel
-van resolutie betreffende de klacht van Zuid-Afrika bij het Internationaal
-Gerechtshof (3779/1-3)
-
-
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
+Het is niet dat mevrouw Dedonder hier elke week aanwezig moet zijn. Zij heeft een beperkte parlementaire agenda, in tegenstelling tot sommige van haar collega's die wij hier elke week zien, soms uren aan een stuk. Zij moet hier maar heel even zijn. Het geluk van een minister van Defensie is dat die, behalve voor het legercontingent en het budget, bijna nooit naar het Parlement moet komen. Het zou toch fatsoenlijk zijn om hier aanwezig te zijn als een wetsontwerp van haar voorligt? Dan moet er geen staatssecretaris antwoorden die op het vlak van Defensie – misschien vergis ik mij – niet helemaal dezelfde expertise heeft als de vakminister.
+
+
+
+Ik vraag dan ook graag de aanwezigheid van minister Dedonder. Zij is niet verontschuldigd. Wat is het probleem? Wenst zij niet meer met mij in een zaal te zitten om de spanning te snijden was de voorbije weken? Ik weet niet waarom. Ik blijf nochtans altijd vriendelijk.
+
+
+
+17.09  Denis Ducarme (MR): Madame la présidente, je suis un peu surpris. Nous avons quand même à traiter de deux dossiers qui sont assez techniques et qui ont valu des échanges assez poussés en commission. Si l'on aborde ces dossiers en séance plénière, après les débats en commission, c’est pour une raison précise, à savoir compléter l’analyse du projet avec le ministre responsable.
+
+
+
+Cela n’aurait pas posé de problème s’il s’était agi d’un projet européen à transposer dans notre droit. En l'occurrence, il s’agit du projet lié au changement de statut, à l’évolution de la réserve militaire belge. Pourquoi la ministre a-t-elle légitimement porté ce dossier de la réforme de la réserve? C’est sans doute lié au contexte international. C’est un dossier important. Aujourd’hui, si on souhaite avoir une augmentation des Belges au sein de la réserve, c’est parce qu’on doit élever notre sécurité, compte tenu du fait qu’à 2 000 kilomètres de nos frontières se déroule une guerre.
+
+
+
+Le dossier suivant n’est pas anodin non plus. On y donne au commandement en OPEX des missions judiciaires. C’est aussi un dossier un peu sensible. Avec toute la meilleure volonté du monde et avec toute la compétence que la secrétaire d’État a, elle ne pourra pas répondre précisément aux questions que nous allons aborder à ce sujet.
+
+
+
+17.10  Ahmed Laaouej (PS): Madame la présidente, j’ai entendu les arguments de nos deux collègues. Je me réjouis de leur intérêt pour les questions liées à la Défense et au statut des militaires.
+
+
+
+On peut reporter les points, cela ne pose pas de difficulté.
+
+
+
+La présidente: Nous reportons donc la discussion du projet n° 3537. (Assentiment)
+
+
+
+Le point suivant, le projet de loi réglant certaines activités militaires (n° 3546), est également reporté à la séance prochaine.
+
+### Description in French:
+
+Discussion générale
+
+Algemene bespreking
+
+
+
+La discussion générale est ouverte.
+
+De algemene bespreking is geopend.
+
+
+
+De rapporteurs, de heren Lacroix en Vandenput, verwijzen naar het schriftelijk verslag.
+
+
+
+17.01  Theo Francken (N-VA): Mevrouw de voorzitster, waar is de minister?
+
+
+
+Ik wil heel graag de bespreking aangaan over de reserve van onze Defensie, omdat het een heel belangrijk thema is, maar het liefst in aanwezigheid van de minister. Het is haar voorstel en ik heb toch nog een paar vragen.
+
+
+
+Heeft men haar gebeld? Heeft men haar kabinet gecontacteerd? Het zat er toch al een tijdje aan te komen dat wij tot dit punt zouden komen. Ik ben toch al lang ingeschreven als spreker. Zij wist dus dat ik zou tussenkomen. In de commissie ben ik hierover ook uitgebreid tussengekomen.
+
+
+
+La présidente: La ministre de permanence est la secrétaire d'État Bertrand, qui est présente.
+
+
+
+17.02  Theo Francken (N-VA): De minister is er dus niet?
+
+
+
+Kunnen wij dit dan volgende week bespreken, in aanwezigheid van de minister? Het is toch niet netjes. Zij is ook niet verontschuldigd vandaag. Het is toch niet ernstig dat ik met mevrouw Bertrand een debat over een technisch wetsontwerp over de reserve moet hebben? Dat is niet leuk voor mevrouw Bertrand, maar dat is ook niet leuk voor mij. Dat is niet leuk voor Defensie.
+
+
+
+Mevrouw Bertrand, kent u de reserve bij Defensie? Kent u de techniciteit van het wetsontwerp?
+
+
+
+17.03 Staatssecretaris Alexia Bertrand: (…)
+
+
+
+17.04  Theo Francken (N-VA): U zult kijken in uw dossier? Het heeft nochtans weinig begrotings­impact, op dat vlak valt het nog mee. Wij gaan naar 2 % van het bbp voor Defensie, maar dat heeft niets met dit wetsontwerp te maken.
+
+
+
+17.05 Staatssecretaris Alexia Bertrand: Ik heb een paar elementen van antwoord. Sorry, ik ben net aangekomen, maar ik vermoed dat uw vragen zullen gaan over de schietoefeningen en …
+
+
+
+17.06  Theo Francken (N-VA): (…)
+
+
+
+17.07 Staatssecretaris Alexia Bertrand: U hebt nog geen vraag gesteld?
+
+
+
+Ik ken de elementen die in de commissie besproken zijn. Ik ben ook in contact met Defensie. Als er dus specifieke vragen zijn, geen probleem, ik zal erop antwoorden.
+
+
+
+De voorzitster: De regel is dat de regering hier vertegenwoordigd is. Dat is het geval door mevrouw de staatssecretaris.
+
+
+
+17.08  Theo Francken (N-VA): Ja, maar er is de regeling en er is het fatsoen. Het fatsoen is wel degelijk dat de bevoegde minister aanwezig is.
+
+
+
+Het is niet dat mevrouw Dedonder hier elke week aanwezig moet zijn. Zij heeft een beperkte parlementaire agenda, in tegenstelling tot sommige van haar collega's die wij hier elke week zien, soms uren aan een stuk. Zij moet hier maar heel even zijn. Het geluk van een minister van Defensie is dat die, behalve voor het legercontingent en het budget, bijna nooit naar het Parlement moet komen. Het zou toch fatsoenlijk zijn om hier aanwezig te zijn als een wetsontwerp van haar voorligt? Dan moet er geen staatssecretaris antwoorden die op het vlak van Defensie – misschien vergis ik mij – niet helemaal dezelfde expertise heeft als de vakminister.
+
+
+
+Ik vraag dan ook graag de aanwezigheid van minister Dedonder. Zij is niet verontschuldigd. Wat is het probleem? Wenst zij niet meer met mij in een zaal te zitten om de spanning te snijden was de voorbije weken? Ik weet niet waarom. Ik blijf nochtans altijd vriendelijk.
+
+
+
+17.09  Denis Ducarme (MR): Madame la présidente, je suis un peu surpris. Nous avons quand même à traiter de deux dossiers qui sont assez techniques et qui ont valu des échanges assez poussés en commission. Si l'on aborde ces dossiers en séance plénière, après les débats en commission, c’est pour une raison précise, à savoir compléter l’analyse du projet avec le ministre responsable.
+
+
+
+Cela n’aurait pas posé de problème s’il s’était agi d’un projet européen à transposer dans notre droit. En l'occurrence, il s’agit du projet lié au changement de statut, à l’évolution de la réserve militaire belge. Pourquoi la ministre a-t-elle légitimement porté ce dossier de la réforme de la réserve? C’est sans doute lié au contexte international. C’est un dossier important. Aujourd’hui, si on souhaite avoir une augmentation des Belges au sein de la réserve, c’est parce qu’on doit élever notre sécurité, compte tenu du fait qu’à 2 000 kilomètres de nos frontières se déroule une guerre.
+
+
+
+Le dossier suivant n’est pas anodin non plus. On y donne au commandement en OPEX des missions judiciaires. C’est aussi un dossier un peu sensible. Avec toute la meilleure volonté du monde et avec toute la compétence que la secrétaire d’État a, elle ne pourra pas répondre précisément aux questions que nous allons aborder à ce sujet.
+
+
+
+17.10  Ahmed Laaouej (PS): Madame la présidente, j’ai entendu les arguments de nos deux collègues. Je me réjouis de leur intérêt pour les questions liées à la Défense et au statut des militaires.
+
+
+
+On peut reporter les points, cela ne pose pas de difficulté.
+
+
+
+La présidente: Nous reportons donc la discussion du projet n° 3537. (Assentiment)
+
+
+
+Le point suivant, le projet de loi réglant certaines activités militaires (n° 3546), est également reporté à la séance prochaine.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 18)
+
+### Description in Dutch:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Servais Verherstraeten, Nahima Lanjri, Wouter Beke, Nawal Farih, Christian Leysen, Melissa Depraetere, Guillaume Defossé, Kristof Calvo.
+
+
+
+Discussion de l'article unique
+
+Bespreking van het enig artikel
+
+
+
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3282/5)
+
+De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3282/5)
+
+
+
+La discussion de l'article unique est ouverte.
+
+De bespreking van het enig artikel is geopend.
+
+
+
+Le rapporteur, M.  Bihet, renvoie au rapport écrit.
+
+
+
+18.01  Sander Loones (N-VA): Mevrouw de voorzitster, collega's, ik zal het kort houden. Ik wilde eigenlijk als eerste het woord laten aan collega Verherstraeten, die de hoofdindiener is van deze reglementswijziging, die heel goed is.
+
+
+
+We hebben tijdens deze legislatuur wat turbulente tijden beleefd. Er was onduidelijkheid over de rekeningen van de Kamer en er werd een aantal beslissingen genomen die niet gevalideerd werden. Er zijn ook nog een aantal procedures lopende, in het bijzonder rond de pensioenen. Het Bureau heeft om assistentie verzocht bij het Rekenhof om de rekeningen en procedures van de Kamer te auditen, om na te gaan hoe bepaalde beslissingen in dit Huis genomen worden en hoe we die verder kunnen professionaliseren en verbeteren, zodat wat er in het verleden is gebeurd niet opnieuw voorvalt.
+
+
+
+Dat was een zeer waardevolle audit. Op voorstel van collega Verherstraeten maakten we daarvan een structurele aanpak. Er werden ook een aantal andere legislatieve en procedurele stappen gezet. Dit is de volgende, belangrijke stap om die aanpak te verankeren in het Reglement van dit Huis. Dat was mijn eerste punt.
+
+
+
+Ten tweede is het goed om zaken te laten analyseren door deskundige mensen. Er moet dan echter wel iets mee worden gedaan. Er ligt wel wat werk op de plank om dit Huis verder te professionaliseren. Verschillende instellingen zijn daarmee bezig, zoals uzelf, mevrouw de voorzitster, het Bestuurscomité en de diensten van de Kamer. Zij vergaderen daarover zeer regelmatig. Er wordt ook een stappenplan uitgewerkt om met die concrete input van het Rekenhof aan de slag te gaan.
+
+
+
+We zullen wellicht nog moeten bekijken hoe we die expertise van het Rekenhof met bijzondere regelmaat kunnen blijven betrekken doorheen het ganse proces. Ook daartoe ligt ongetwijfeld nog werk op de plank. Deze tekst, met dank aan collega Verherstraeten, geeft echter aan dat de boodschap is aangekomen en dat dit Parlement er actief mee aan de slag gaat.
+
+
+
+18.02  Servais Verherstraeten (cd&v): Mevrouw de voorzitster, ik dank de heer Loones voor zijn uiteenzetting. Hij heeft dat zeer goed samengevat.
+
+
+
+Collega’s, men spreekt soms over politieke vernieuwing. Ik denk dat transparantie en de bereidheid om transparantie te tonen en gecontroleerd te worden ook een vorm van politieke vernieuwing is. Door onze eigen Kamer te laten auditen door het Rekenhof, waarvan de expertise door meerderheid en oppositie wordt erkend, tonen we dat we niets te verbergen hebben.
+
+
+
+Ik denk dat de adviserende bevoegdheid inzake de begroting en dossiers met een belangrijke financiële weerslag, maar vooral ook de mogelijkheid om diensten en dotatiegerechtigde diensten te auditeren, cruciaal zijn. Ik denk ook dat het wisselend auditen van dotatiegerechtigde instellingen een goede zaak zou zijn, in het belang van die diensten.
+
+
+
+We zijn blij dat we ook een reglementaire vertaling geven aan wat we reeds bij wet hebben goedgekeurd, mevrouw de voorzitster. Wij zullen dit initiatief volmondig steunen.
+
+
+
+18.03  Marco Van Hees (PVDA-PTB): Madame la présidente, chers collègues, faire contrôler les comptes de la Chambre par la Cour des comptes, c'est l'évidence même. Les pouvoirs publics font l'objet de divers contrôles financiers, pourquoi le Parlement ferait-il exception?
+
+
+
+Pourtant, si ce texte parvient aujourd'hui en séance plénière, c'est en raison du scandale de mars 2023 sur les pensions dépassant le plafond légal, dont certaines n'apparaissaient même pas dans le budget de la Chambre.
+
+
+
+Finalement, ce texte reflète un problème profond qui perdure depuis un certain temps, depuis 1831, quand le type là au-dessus était encore souverain de ce pays. C'est cette forme d'entre-soi, d'autocontrôle, d'absence de transparence qui couve une série de privilèges que s'offre le monde politique. C'est finalement le principe "faites ce que je dis, pas ce que je fais".
+
+
+
+Décomposons la formule et prenons d'abord le "faites ce que je dis", qui est adressé aux citoyens. On a un Parlement qui vote une flopée de lois que la population doit rigoureusement appliquer. Ces lois sont votées à l'issue de débats publics et consignées dans des rapports publics – sauf quand il s'agit de passé colonial mais fermons cette parenthèse. Ces lois sont ensuite publiées au Moniteur et doivent être strictement respectées par le citoyen. Cela, c'est donc le "faites ce que je dis".
+
+
+
+Et puis, il y a le "ne faites pas ce que je fais". Cela, c'est le monde politique qui s'accorde des privilèges à lui-même, des privilèges qui lui garantissent un niveau de vie bien au-dessus de la masse des travailleurs auxquels il supprime régulièrement des droits ou des revenus. Comment ce monde politique s'accorde-t-il ces privilèges? Dans des réunions à huis clos. Où sont publiées les décisions prises dans ces réunions à huis clos? Elles ne sont pas publiées. Elles sont simplement reprises dans des procès-verbaux transmis à un petit comité de personnes. Et c'est à ce point en petit comité que, parfois, on ne retrouve même pas le procès-verbal consignant une règle qui a été adoptée. On en a eu l'exemple dans le dossier des pensions illégales où tout ce qu'on avait, c'était un petit document manuscrit qui faisait office de procès-verbal.
+
+
+
+Nous avons également constaté ce problème lors de l’audit de la Cour des comptes. Pour être clair, la Cour des comptes fait deux choses, pour la première fois depuis 1831. D’une part, elle réalise chaque année une analyse des comptes de la Chambre – analyse qui fait l’objet du présent texte – et, d’autre part, elle a réalisé en décembre dernier un audit ponctuel consistant en une analyse de la gestion financière de la Chambre.
+
+
+
+Cet audit a relevé une série de problèmes, notamment des problèmes relatifs à la procédure de passation des marchés publics, qui n’est pas toujours respectée, des paiements effectués sans approbation, de l’argent qui passe de la Chambre à l’ASBL gérant les pensions des parlementaires sans aucune explication, ou encore des collaborateurs payés à plus de 100 %. La Cour des comptes a conclu que le risque de fraude n’était pas maîtrisé à la Chambre.
+
+
+
+Chers collègues, il va sans dire qu’un fonctionne­ment opaque couvant des privilèges est davantage sujet à des irrégularités et à des fraudes qu’un fonctionnement transparent. C’est l’évidence même mais c’est un constat qu’il est apparemment difficile d’établir ici dans cette enceinte.
+
+
+
+En conclusion, nous soutenons, en toute logique, pleinement cette proposition par laquelle le Règlement de la Chambre intègre un contrôle de ses comptes par la Cour des comptes. Mais je suis bien évidemment obligé de signaler que ce contrôle est loin d’être suffisant pour mettre fin à toute cette opacité et tous ces privilèges qui perdurent dans ce Parlement. Voilà notre position, chers collègues.
+
+
+
+18.04  Christian Leysen (Open Vld): Beste collega's, ik ben lid van de commissie voor de Comptabiliteit. Ik viel van mijn stoel toen ik bij de start van mijn mandaat vernam dat die verantwoordelijk was voor de controle en verificatie van de rekeningen van de Kamer. Ik was ook verbaasd vast te stellen dat er voor deze instelling, die 200 miljoen euro per jaar uitgeeft, geen externe audit is en dat het de praktijk was om op twee dagen een relatief intransparant pak papier goed te keuren.
+
+
+
+Beste collega's, de Kamer heeft al te lang gedacht dat de regels die in het bedrijfsleven en overheidsinstellingen de evidentie zijn, niet op haar en haar beleidsorganen van toepassing waren. Men kan verantwoordelijkheid nemen en beslissingen nemen, maar het adagium luidt dat vertrouwen goed is, maar controle beter. Door die handelswijze is het niet verbazingwekkend dat er zaken misgaan. Dat kan overal gebeuren, zelfs met audits. Wat we hier echter hebben meegemaakt, namelijk dat er enkel een kasboekhouding en geen dubbele boekhouding is en dat bepaalde ambtenaren zich het recht hebben toegeëigend om zonder goedkeuring en budgettaire lijn bedragen aan zichzelf toe te kennen, kan echt niet. De beslissing om het Reglement te veranderen is dus wel het minimum minimorum.
+
+
+
+Mevrouw de voorzitster, beste collega's, een verdere hervorming van het beheer van de Kamer is noodzakelijk.
+
+
+
+Ik heb u een maand geleden trouwens een schrijven gericht om te vragen waarop de Kamer wacht om zichzelf te transformeren. Dit is geen zaak van meerderheid tegen oppositie, maar een collectieve verantwoordelijkheid, want alle grote partijen zitten mee in het bestuur van de Kamer. Ik kan ook niet begrijpen dat het uitblijft omdat bepaalde partijen dwarsliggen, aangezien het beheer voor ons een zaak van gemeenschap­pelijke collectieve verantwoordelijk­heid is.
+
+
+
+Mevrouw de voorzitster, om die reden heb ik mij veroorloofd om u een maand geleden een schrijven te richten met een vraag en een aantal suggesties.
+
+
+
+J'avais compris que toute lettre demandait réponse. Je n'ai pas eu d'accusé de réception. Je vous remets une copie en espérant avoir une réponse. Je crois qu'il est important que nous agissions.
+
+
+
+De burger begrijpt immers niet dat wij het nog met zulke ouderwetse beleidsstructuren doen. Ik bespaar u de toelichting, die trouwens ook aan alle bestuursleden is gestuurd. Zolang men niet de moed heeft een opsplitsing te doen tussen het ambtelijke en het politieke bestuur van de Kamer, zal er geen verbetering komen. Ik pleit er dan ook voor dat het ambtelijke bestuur wordt begeleid door een raad van bestuur die voor de helft bestaat uit niet-politici met ervaring.
+
+
+
+Mijn slogan in verband met deze stemming is ce n'est qu'un début, continuons le combat. Wachten kan niet meer. De kiezer zal trouwens een streng oordeel vellen indien er deze legislatuur geen duidelijk signaal meer komt. Wij zullen dit voorstel tot wijziging van het Reglement alleszins goedkeuren.
+
+
+
+18.05  Catherine Fonck (Les Engagés): Madame la présidente, beaucoup de choses ont déjà été dites et, effectivement, la proposition mérite tout notre soutien. C'est d'autant plus important que l'audit de la Cour des comptes a démontré l'ampleur du travail à réaliser à la Chambre pour remettre de l'ordre dans toute une série de choses.
+
+
+
+Si j'interviens, c'est aussi pour saluer l'initiative et le travail réalisé par le cd&v sur le contenu exact de cette proposition de loi. Merci, monsieur Verherstraeten, ainsi qu'à vos différents collègues.
+
+
+
+18.06  Sander Loones (N-VA): Mevrouw de voorzitster, ik wil het laatste punt nog eens kort echoën – ik heb dat al gedaan in mijn eerste woordje: er zijn leden die vanop de banken hard werken en met concrete voorstellen komen, er zijn ook leden die op de tribune staan.
+
+
+
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
+
+Vraagt nog iemand het woord? (Nee)
+
+
+
+La discussion est close.
+
+De bespreking is gesloten.
+
+
+
+Aucun amendement n'a été déposé.
+
+Er werden geen amendementen ingediend.
+
+
+
+L’article unique est adopté.
+
+Het enig artikel wordt aangenomen.
+
+
+
+La discussion de l’article unique est close. Le vote sur la proposition aura lieu ultérieurement.
+
+De bespreking van het enig artikel is gesloten. De stemming over het voorstel zal later plaatsvinden.
+
+### Description in French:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Servais Verherstraeten, Nahima Lanjri, Wouter Beke, Nawal Farih, Christian Leysen, Melissa Depraetere, Guillaume Defossé, Kristof Calvo.
+
+
+
+Discussion de l'article unique
+
+Bespreking van het enig artikel
+
+
+
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3282/5)
+
+De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3282/5)
+
+
+
+La discussion de l'article unique est ouverte.
+
+De bespreking van het enig artikel is geopend.
+
+
+
+Le rapporteur, M.  Bihet, renvoie au rapport écrit.
+
+
+
+18.01  Sander Loones (N-VA): Mevrouw de voorzitster, collega's, ik zal het kort houden. Ik wilde eigenlijk als eerste het woord laten aan collega Verherstraeten, die de hoofdindiener is van deze reglementswijziging, die heel goed is.
+
+
+
+We hebben tijdens deze legislatuur wat turbulente tijden beleefd. Er was onduidelijkheid over de rekeningen van de Kamer en er werd een aantal beslissingen genomen die niet gevalideerd werden. Er zijn ook nog een aantal procedures lopende, in het bijzonder rond de pensioenen. Het Bureau heeft om assistentie verzocht bij het Rekenhof om de rekeningen en procedures van de Kamer te auditen, om na te gaan hoe bepaalde beslissingen in dit Huis genomen worden en hoe we die verder kunnen professionaliseren en verbeteren, zodat wat er in het verleden is gebeurd niet opnieuw voorvalt.
+
+
+
+Dat was een zeer waardevolle audit. Op voorstel van collega Verherstraeten maakten we daarvan een structurele aanpak. Er werden ook een aantal andere legislatieve en procedurele stappen gezet. Dit is de volgende, belangrijke stap om die aanpak te verankeren in het Reglement van dit Huis. Dat was mijn eerste punt.
+
+
+
+Ten tweede is het goed om zaken te laten analyseren door deskundige mensen. Er moet dan echter wel iets mee worden gedaan. Er ligt wel wat werk op de plank om dit Huis verder te professionaliseren. Verschillende instellingen zijn daarmee bezig, zoals uzelf, mevrouw de voorzitster, het Bestuurscomité en de diensten van de Kamer. Zij vergaderen daarover zeer regelmatig. Er wordt ook een stappenplan uitgewerkt om met die concrete input van het Rekenhof aan de slag te gaan.
+
+
+
+We zullen wellicht nog moeten bekijken hoe we die expertise van het Rekenhof met bijzondere regelmaat kunnen blijven betrekken doorheen het ganse proces. Ook daartoe ligt ongetwijfeld nog werk op de plank. Deze tekst, met dank aan collega Verherstraeten, geeft echter aan dat de boodschap is aangekomen en dat dit Parlement er actief mee aan de slag gaat.
+
+
+
+18.02  Servais Verherstraeten (cd&v): Mevrouw de voorzitster, ik dank de heer Loones voor zijn uiteenzetting. Hij heeft dat zeer goed samengevat.
+
+
+
+Collega’s, men spreekt soms over politieke vernieuwing. Ik denk dat transparantie en de bereidheid om transparantie te tonen en gecontroleerd te worden ook een vorm van politieke vernieuwing is. Door onze eigen Kamer te laten auditen door het Rekenhof, waarvan de expertise door meerderheid en oppositie wordt erkend, tonen we dat we niets te verbergen hebben.
+
+
+
+Ik denk dat de adviserende bevoegdheid inzake de begroting en dossiers met een belangrijke financiële weerslag, maar vooral ook de mogelijkheid om diensten en dotatiegerechtigde diensten te auditeren, cruciaal zijn. Ik denk ook dat het wisselend auditen van dotatiegerechtigde instellingen een goede zaak zou zijn, in het belang van die diensten.
+
+
+
+We zijn blij dat we ook een reglementaire vertaling geven aan wat we reeds bij wet hebben goedgekeurd, mevrouw de voorzitster. Wij zullen dit initiatief volmondig steunen.
+
+
+
+18.03  Marco Van Hees (PVDA-PTB): Madame la présidente, chers collègues, faire contrôler les comptes de la Chambre par la Cour des comptes, c'est l'évidence même. Les pouvoirs publics font l'objet de divers contrôles financiers, pourquoi le Parlement ferait-il exception?
+
+
+
+Pourtant, si ce texte parvient aujourd'hui en séance plénière, c'est en raison du scandale de mars 2023 sur les pensions dépassant le plafond légal, dont certaines n'apparaissaient même pas dans le budget de la Chambre.
+
+
+
+Finalement, ce texte reflète un problème profond qui perdure depuis un certain temps, depuis 1831, quand le type là au-dessus était encore souverain de ce pays. C'est cette forme d'entre-soi, d'autocontrôle, d'absence de transparence qui couve une série de privilèges que s'offre le monde politique. C'est finalement le principe "faites ce que je dis, pas ce que je fais".
+
+
+
+Décomposons la formule et prenons d'abord le "faites ce que je dis", qui est adressé aux citoyens. On a un Parlement qui vote une flopée de lois que la population doit rigoureusement appliquer. Ces lois sont votées à l'issue de débats publics et consignées dans des rapports publics – sauf quand il s'agit de passé colonial mais fermons cette parenthèse. Ces lois sont ensuite publiées au Moniteur et doivent être strictement respectées par le citoyen. Cela, c'est donc le "faites ce que je dis".
+
+
+
+Et puis, il y a le "ne faites pas ce que je fais". Cela, c'est le monde politique qui s'accorde des privilèges à lui-même, des privilèges qui lui garantissent un niveau de vie bien au-dessus de la masse des travailleurs auxquels il supprime régulièrement des droits ou des revenus. Comment ce monde politique s'accorde-t-il ces privilèges? Dans des réunions à huis clos. Où sont publiées les décisions prises dans ces réunions à huis clos? Elles ne sont pas publiées. Elles sont simplement reprises dans des procès-verbaux transmis à un petit comité de personnes. Et c'est à ce point en petit comité que, parfois, on ne retrouve même pas le procès-verbal consignant une règle qui a été adoptée. On en a eu l'exemple dans le dossier des pensions illégales où tout ce qu'on avait, c'était un petit document manuscrit qui faisait office de procès-verbal.
+
+
+
+Nous avons également constaté ce problème lors de l’audit de la Cour des comptes. Pour être clair, la Cour des comptes fait deux choses, pour la première fois depuis 1831. D’une part, elle réalise chaque année une analyse des comptes de la Chambre – analyse qui fait l’objet du présent texte – et, d’autre part, elle a réalisé en décembre dernier un audit ponctuel consistant en une analyse de la gestion financière de la Chambre.
+
+
+
+Cet audit a relevé une série de problèmes, notamment des problèmes relatifs à la procédure de passation des marchés publics, qui n’est pas toujours respectée, des paiements effectués sans approbation, de l’argent qui passe de la Chambre à l’ASBL gérant les pensions des parlementaires sans aucune explication, ou encore des collaborateurs payés à plus de 100 %. La Cour des comptes a conclu que le risque de fraude n’était pas maîtrisé à la Chambre.
+
+
+
+Chers collègues, il va sans dire qu’un fonctionne­ment opaque couvant des privilèges est davantage sujet à des irrégularités et à des fraudes qu’un fonctionnement transparent. C’est l’évidence même mais c’est un constat qu’il est apparemment difficile d’établir ici dans cette enceinte.
+
+
+
+En conclusion, nous soutenons, en toute logique, pleinement cette proposition par laquelle le Règlement de la Chambre intègre un contrôle de ses comptes par la Cour des comptes. Mais je suis bien évidemment obligé de signaler que ce contrôle est loin d’être suffisant pour mettre fin à toute cette opacité et tous ces privilèges qui perdurent dans ce Parlement. Voilà notre position, chers collègues.
+
+
+
+18.04  Christian Leysen (Open Vld): Beste collega's, ik ben lid van de commissie voor de Comptabiliteit. Ik viel van mijn stoel toen ik bij de start van mijn mandaat vernam dat die verantwoordelijk was voor de controle en verificatie van de rekeningen van de Kamer. Ik was ook verbaasd vast te stellen dat er voor deze instelling, die 200 miljoen euro per jaar uitgeeft, geen externe audit is en dat het de praktijk was om op twee dagen een relatief intransparant pak papier goed te keuren.
+
+
+
+Beste collega's, de Kamer heeft al te lang gedacht dat de regels die in het bedrijfsleven en overheidsinstellingen de evidentie zijn, niet op haar en haar beleidsorganen van toepassing waren. Men kan verantwoordelijkheid nemen en beslissingen nemen, maar het adagium luidt dat vertrouwen goed is, maar controle beter. Door die handelswijze is het niet verbazingwekkend dat er zaken misgaan. Dat kan overal gebeuren, zelfs met audits. Wat we hier echter hebben meegemaakt, namelijk dat er enkel een kasboekhouding en geen dubbele boekhouding is en dat bepaalde ambtenaren zich het recht hebben toegeëigend om zonder goedkeuring en budgettaire lijn bedragen aan zichzelf toe te kennen, kan echt niet. De beslissing om het Reglement te veranderen is dus wel het minimum minimorum.
+
+
+
+Mevrouw de voorzitster, beste collega's, een verdere hervorming van het beheer van de Kamer is noodzakelijk.
+
+
+
+Ik heb u een maand geleden trouwens een schrijven gericht om te vragen waarop de Kamer wacht om zichzelf te transformeren. Dit is geen zaak van meerderheid tegen oppositie, maar een collectieve verantwoordelijkheid, want alle grote partijen zitten mee in het bestuur van de Kamer. Ik kan ook niet begrijpen dat het uitblijft omdat bepaalde partijen dwarsliggen, aangezien het beheer voor ons een zaak van gemeenschap­pelijke collectieve verantwoordelijk­heid is.
+
+
+
+Mevrouw de voorzitster, om die reden heb ik mij veroorloofd om u een maand geleden een schrijven te richten met een vraag en een aantal suggesties.
+
+
+
+J'avais compris que toute lettre demandait réponse. Je n'ai pas eu d'accusé de réception. Je vous remets une copie en espérant avoir une réponse. Je crois qu'il est important que nous agissions.
+
+
+
+De burger begrijpt immers niet dat wij het nog met zulke ouderwetse beleidsstructuren doen. Ik bespaar u de toelichting, die trouwens ook aan alle bestuursleden is gestuurd. Zolang men niet de moed heeft een opsplitsing te doen tussen het ambtelijke en het politieke bestuur van de Kamer, zal er geen verbetering komen. Ik pleit er dan ook voor dat het ambtelijke bestuur wordt begeleid door een raad van bestuur die voor de helft bestaat uit niet-politici met ervaring.
+
+
+
+Mijn slogan in verband met deze stemming is ce n'est qu'un début, continuons le combat. Wachten kan niet meer. De kiezer zal trouwens een streng oordeel vellen indien er deze legislatuur geen duidelijk signaal meer komt. Wij zullen dit voorstel tot wijziging van het Reglement alleszins goedkeuren.
+
+
+
+18.05  Catherine Fonck (Les Engagés): Madame la présidente, beaucoup de choses ont déjà été dites et, effectivement, la proposition mérite tout notre soutien. C'est d'autant plus important que l'audit de la Cour des comptes a démontré l'ampleur du travail à réaliser à la Chambre pour remettre de l'ordre dans toute une série de choses.
+
+
+
+Si j'interviens, c'est aussi pour saluer l'initiative et le travail réalisé par le cd&v sur le contenu exact de cette proposition de loi. Merci, monsieur Verherstraeten, ainsi qu'à vos différents collègues.
+
+
+
+18.06  Sander Loones (N-VA): Mevrouw de voorzitster, ik wil het laatste punt nog eens kort echoën – ik heb dat al gedaan in mijn eerste woordje: er zijn leden die vanop de banken hard werken en met concrete voorstellen komen, er zijn ook leden die op de tribune staan.
+
+
+
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
+
+Vraagt nog iemand het woord? (Nee)
+
+
+
+La discussion est close.
+
+De bespreking is gesloten.
+
+
+
+Aucun amendement n'a été déposé.
+
+Er werden geen amendementen ingediend.
+
+
+
+L’article unique est adopté.
+
+Het enig artikel wordt aangenomen.
+
+
+
+La discussion de l’article unique est close. Le vote sur la proposition aura lieu ultérieurement.
+
+De bespreking van het enig artikel is gesloten. De stemming over het voorstel zal later plaatsvinden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 19)
+
+### Description in Dutch:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Peter Mertens, Nabil Boukili, Steven De Vuyst, Raoul Hedebouw, Sofie Merckx.
+
+
+
+La commission des Relations extérieures propose de rejeter cette proposition de résolution. (3779/3)
+
+De commissie voor Buitenlandse Betrekkingen stelt voor dit voorstel van resolutie te verwerpen. (3779/3)
+
+
+
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, les auteurs.
+
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over dit voorstel tot verwerping, na de rapporteur en eventueel de indieners te hebben gehoord.
+
+
+
+19.01  Peter Mertens (PVDA-PTB): Mevrouw de voorzitster, collega's, Rafah is zo groot als Diksmuide. Het is een stad met nauwelijks 165.000 inwoners, maar op dit moment heeft men daar 1,4 miljoen mensen samengedreven. Men heeft maandenlang gezegd dat het zuiden van Gaza veilig zou zijn, maar die mensen zitten daar nu vast, in onwaarschijnlijke omstandigheden in een kleine stad.
+
+
+
+We horen nu dat Netanyahu toch van plan zou zijn om ook Rafah te bombarderen. Dat is niet te geloven. Men heeft de mensen uit hun huizen en van hun land verjaagd, stad na stad, zone na zone. Men heeft eerst het noorden van Gaza platgebombardeerd en vervolgens het zuiden. Men heeft honderdduizend slachtoffers gemaakt, waaronder 30.000 doden. Er zijn 13.000 kinderen gedood en de andere kinderen ondergaan de ergste foltering, namelijk hongersnood. Men heeft de grenzen gesloten voor humanitaire hulpgoederen en men hongert het Palestijnse volk uit. Nu ze allemaal zijn samengedreven en vastgezet in Rafah, kondigt men aan dat men Rafah wil bombarderen.
+
+
+
+Voor dit Parlement geldt er maar één vraag. Blijven wij toekijken of zullen we optreden? Wat moet Israël wel niet doen om gesanctioneerd te worden? Hoever moet Israël nog gaan? Dat is vandaag de echte vraag in deze assemblee.
+
+
+
+Men zal maar Palestijn zijn. Dan wordt men van zijn land, zijn geschiedenis en zijn toekomst beroofd.
+
+
+
+Saleh was een boer met een olijfgaard op de West Bank. Op een bepaald moment pikten Israëlische kolonisten de helft van zijn landgoed in en zeiden ze dat het nu van hen was. Dat soort annexatie dateert niet van dit jaar of van vorig jaar, maar is al 75 jaar aan de gang. Saleh vraagt zich af of het internationaal recht dan niet geldt voor de Palestijnen.
+
+
+
+Men zal maar Palestijn zijn. Men wordt immers ook beroofd van zijn geschiedenis. Musea, culturele centra, moskeeën, bibliotheken, universiteiten en kerken: alle culturele erfgoed wordt kapotgemaakt zodat er geen geschiedenis van Palestina meer overblijft, om te zeggen dat er nooit een Palestina heeft bestaan.
+
+
+
+Men zal maar Palestijn zijn. Men wordt immers ook nog eens beroofd van zijn toekomst. Alle onderwijsinstellingen zijn gebombardeerd. Er zijn op dit ogenblik 600.000 kinderen die niet naar school kunnen, waaronder 90.000 universitairen die niet naar de universiteit kunnen, omdat die kapot zijn gebombardeerd.
+
+
+
+Gaan we blijven kijken? Hoever moet Israël eigenlijk gaan vooraleer het eindelijk gesanctioneerd wordt?
+
+
+
+De vraag die dan rest, is waarom wij niet kunnen doen tegen Israël wat wij wel tegen Rusland hebben gedaan. Om Rusland aan te pakken heeft het nog geen maand geduurd om drie essentiële maatregelen te nemen. Er kwam een economisch embargo. Er werd geen handel meer gedreven met Rusland. Er kwam een militair embargo. Er werden geen wapentransporten meer gevoerd naar Rusland. Daarnaast is Poetin vervolgd voor het Internationaal Strafhof wegens oorlogsmisdaden.
+
+
+
+Wat moet Israël nog doen vooraleer we die drie maatregelen, dezelfde maatregelen die dit Parlement al heeft genomen, eindelijk toepassen op Israël? Wanneer komt er een economisch embargo in plaats van de handel te laten doorgaan alsof er niets aan de hand is? Wanneer komt er een militair embargo in plaats van wapentransporten toe te laten alsof er geen oorlogsmisdaden zijn? Wanneer zullen we de heer Netanyahu vervolgen als oorlogsmisdadiger?
+
+
+
+Gelukkig is er een generatie jongeren die nu overal opstaat en die de heer Netanyahu zal opjagen tot in zijn dromen en nooit met rust zal laten, die de heer Netanyahu zal opjagen tot hij vervolgd zal worden voor wat hij is, namelijk oorlogsmisdadiger. Netanyahu is de Pinochet van deze generatie. Deze generatie jongeren, in Palestina, in het Zuiden en hier ook in ons land, vraagt aan deze regering maar één ding: een economisch en militair embargo, en wel nu.
+
+
+
+Daarom vraag ik met aandrang om de resolutie die wij hebben ingediend om ons land te laten aansluiten bij de klacht van Zuid-Afrika voor het Internationaal Gerechtshof in Den Haag en om een interventieverklaring in te dienen als ondersteuning van die strafklacht, te steunen, en dat betekent stemmen tegen de verwerping van de resolutie. Het is een schande dat die resolutie in de commissie werd verworpen. Het is tijd, na vijf maanden, om nu te ageren. Wij kunnen niet wachten tot Rafah ook nog eens kapot wordt gebombardeerd. Wij moeten nu ageren. Dat kunt u doen, in eer en geweten, door tegen de verwerping van deze resolutie te stemmen.
+
+
+
+La présidente: Plus personne ne peut prendre la parole.
+
+Geen andere spreker mag het woord nemen.
+
+
+
+Le vote sur la proposition de rejet de cette proposition de résolution aura lieu ultérieurement.
+
+De stemming over het voorstel tot verwerping van dit voorstel van resolutie zal later plaatsvinden.
+
+### Description in French:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Peter Mertens, Nabil Boukili, Steven De Vuyst, Raoul Hedebouw, Sofie Merckx.
+
+
+
+La commission des Relations extérieures propose de rejeter cette proposition de résolution. (3779/3)
+
+De commissie voor Buitenlandse Betrekkingen stelt voor dit voorstel van resolutie te verwerpen. (3779/3)
+
+
+
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, les auteurs.
+
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over dit voorstel tot verwerping, na de rapporteur en eventueel de indieners te hebben gehoord.
+
+
+
+19.01  Peter Mertens (PVDA-PTB): Mevrouw de voorzitster, collega's, Rafah is zo groot als Diksmuide. Het is een stad met nauwelijks 165.000 inwoners, maar op dit moment heeft men daar 1,4 miljoen mensen samengedreven. Men heeft maandenlang gezegd dat het zuiden van Gaza veilig zou zijn, maar die mensen zitten daar nu vast, in onwaarschijnlijke omstandigheden in een kleine stad.
+
+
+
+We horen nu dat Netanyahu toch van plan zou zijn om ook Rafah te bombarderen. Dat is niet te geloven. Men heeft de mensen uit hun huizen en van hun land verjaagd, stad na stad, zone na zone. Men heeft eerst het noorden van Gaza platgebombardeerd en vervolgens het zuiden. Men heeft honderdduizend slachtoffers gemaakt, waaronder 30.000 doden. Er zijn 13.000 kinderen gedood en de andere kinderen ondergaan de ergste foltering, namelijk hongersnood. Men heeft de grenzen gesloten voor humanitaire hulpgoederen en men hongert het Palestijnse volk uit. Nu ze allemaal zijn samengedreven en vastgezet in Rafah, kondigt men aan dat men Rafah wil bombarderen.
+
+
+
+Voor dit Parlement geldt er maar één vraag. Blijven wij toekijken of zullen we optreden? Wat moet Israël wel niet doen om gesanctioneerd te worden? Hoever moet Israël nog gaan? Dat is vandaag de echte vraag in deze assemblee.
+
+
+
+Men zal maar Palestijn zijn. Dan wordt men van zijn land, zijn geschiedenis en zijn toekomst beroofd.
+
+
+
+Saleh was een boer met een olijfgaard op de West Bank. Op een bepaald moment pikten Israëlische kolonisten de helft van zijn landgoed in en zeiden ze dat het nu van hen was. Dat soort annexatie dateert niet van dit jaar of van vorig jaar, maar is al 75 jaar aan de gang. Saleh vraagt zich af of het internationaal recht dan niet geldt voor de Palestijnen.
+
+
+
+Men zal maar Palestijn zijn. Men wordt immers ook beroofd van zijn geschiedenis. Musea, culturele centra, moskeeën, bibliotheken, universiteiten en kerken: alle culturele erfgoed wordt kapotgemaakt zodat er geen geschiedenis van Palestina meer overblijft, om te zeggen dat er nooit een Palestina heeft bestaan.
+
+
+
+Men zal maar Palestijn zijn. Men wordt immers ook nog eens beroofd van zijn toekomst. Alle onderwijsinstellingen zijn gebombardeerd. Er zijn op dit ogenblik 600.000 kinderen die niet naar school kunnen, waaronder 90.000 universitairen die niet naar de universiteit kunnen, omdat die kapot zijn gebombardeerd.
+
+
+
+Gaan we blijven kijken? Hoever moet Israël eigenlijk gaan vooraleer het eindelijk gesanctioneerd wordt?
+
+
+
+De vraag die dan rest, is waarom wij niet kunnen doen tegen Israël wat wij wel tegen Rusland hebben gedaan. Om Rusland aan te pakken heeft het nog geen maand geduurd om drie essentiële maatregelen te nemen. Er kwam een economisch embargo. Er werd geen handel meer gedreven met Rusland. Er kwam een militair embargo. Er werden geen wapentransporten meer gevoerd naar Rusland. Daarnaast is Poetin vervolgd voor het Internationaal Strafhof wegens oorlogsmisdaden.
+
+
+
+Wat moet Israël nog doen vooraleer we die drie maatregelen, dezelfde maatregelen die dit Parlement al heeft genomen, eindelijk toepassen op Israël? Wanneer komt er een economisch embargo in plaats van de handel te laten doorgaan alsof er niets aan de hand is? Wanneer komt er een militair embargo in plaats van wapentransporten toe te laten alsof er geen oorlogsmisdaden zijn? Wanneer zullen we de heer Netanyahu vervolgen als oorlogsmisdadiger?
+
+
+
+Gelukkig is er een generatie jongeren die nu overal opstaat en die de heer Netanyahu zal opjagen tot in zijn dromen en nooit met rust zal laten, die de heer Netanyahu zal opjagen tot hij vervolgd zal worden voor wat hij is, namelijk oorlogsmisdadiger. Netanyahu is de Pinochet van deze generatie. Deze generatie jongeren, in Palestina, in het Zuiden en hier ook in ons land, vraagt aan deze regering maar één ding: een economisch en militair embargo, en wel nu.
+
+
+
+Daarom vraag ik met aandrang om de resolutie die wij hebben ingediend om ons land te laten aansluiten bij de klacht van Zuid-Afrika voor het Internationaal Gerechtshof in Den Haag en om een interventieverklaring in te dienen als ondersteuning van die strafklacht, te steunen, en dat betekent stemmen tegen de verwerping van de resolutie. Het is een schande dat die resolutie in de commissie werd verworpen. Het is tijd, na vijf maanden, om nu te ageren. Wij kunnen niet wachten tot Rafah ook nog eens kapot wordt gebombardeerd. Wij moeten nu ageren. Dat kunt u doen, in eer en geweten, door tegen de verwerping van deze resolutie te stemmen.
+
+
+
+La présidente: Plus personne ne peut prendre la parole.
+
+Geen andere spreker mag het woord nemen.
+
+
+
+Le vote sur la proposition de rejet de cette proposition de résolution aura lieu ultérieurement.
+
+De stemming over het voorstel tot verwerping van dit voorstel van resolutie zal later plaatsvinden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 20)
+
+### Description in Dutch:
+
+Conformément à la décision de la séance plénière du 11 janvier 2024, un nouvel appel à candidats a été publié au Moniteur belge du 16 janvier 2024 pour le mandat de premier membre suppléant francophone de Mme Séverine Merckx, membre effectif du Comité permanent de contrôle des services de renseignements et de sécurité (Comité R).
+
+Overeenkomstig de beslissing van de plenaire vergadering van 11 januari 2024 werd een nieuwe oproep tot kandidaten in het Belgisch Staatsblad van 16 januari 2024 bekendgemaakt voor het mandaat van Franstalig eerste plaatsvervangend lid van mevrouw Séverine Merckx, werkend lid van het Vast Comité van Toezicht op de inlichtingen- en veiligheidsdiensten (Comité I).
+
+
+
+Les candidatures suivantes ont été introduites dans le délai prescrit:
+
+- Mme Vinciane Boon, juge au tribunal de première instance de Bruxelles;
+
+- M. Thibaut Van Damme, magistrat à la cour d’appel de Liège, ancien membre du Comité R.
+
+De volgende kandidaturen werden binnen de voorgeschreven termijn ingediend:
+
+- mevrouw Vinciane Boon, rechter bij de rechtbank van eerste aanleg van Brussel;
+
+- de heer Thibaut Van Damme, magistraat bij het hof van beroep van Luik, gewezen lid van het Comité I.
+
+
+
+Tous les candidats sont belges, ont atteint l'âge de 35 ans, ont leur domicile en Belgique et jouissent des droits civils et politiques.
+
+Alle kandidaten zijn Belg, hebben de leeftijd van 35 jaar bereikt, hebben hun woonplaats in België en beschikken over de burgerlijke en politieke rechten.
+
+
+
+Les candidats devront amener la preuve de la possession d’une habilitation de sécurité le jour précédant le scrutin secret.
+
+De kandidaten dienen het bewijs van het bezit van een veiligheidsmachtiging voor te leggen de dag vóór de geheime stemming.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 28 février 2024, je vous propose de transmettre le curriculum vitæ des candidats aux groupes politiques en vue d’une audition en commission d'accompagnement des Comités P et R.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024 stel ik u voor om de cv’s van de kandidaten aan de politieke fracties over te zenden met het oog op een hoorzitting in de begeleidings­commissie Comités P en I.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+### Description in French:
+
+Conformément à la décision de la séance plénière du 11 janvier 2024, un nouvel appel à candidats a été publié au Moniteur belge du 16 janvier 2024 pour le mandat de premier membre suppléant francophone de Mme Séverine Merckx, membre effectif du Comité permanent de contrôle des services de renseignements et de sécurité (Comité R).
+
+Overeenkomstig de beslissing van de plenaire vergadering van 11 januari 2024 werd een nieuwe oproep tot kandidaten in het Belgisch Staatsblad van 16 januari 2024 bekendgemaakt voor het mandaat van Franstalig eerste plaatsvervangend lid van mevrouw Séverine Merckx, werkend lid van het Vast Comité van Toezicht op de inlichtingen- en veiligheidsdiensten (Comité I).
+
+
+
+Les candidatures suivantes ont été introduites dans le délai prescrit:
+
+- Mme Vinciane Boon, juge au tribunal de première instance de Bruxelles;
+
+- M. Thibaut Van Damme, magistrat à la cour d’appel de Liège, ancien membre du Comité R.
+
+De volgende kandidaturen werden binnen de voorgeschreven termijn ingediend:
+
+- mevrouw Vinciane Boon, rechter bij de rechtbank van eerste aanleg van Brussel;
+
+- de heer Thibaut Van Damme, magistraat bij het hof van beroep van Luik, gewezen lid van het Comité I.
+
+
+
+Tous les candidats sont belges, ont atteint l'âge de 35 ans, ont leur domicile en Belgique et jouissent des droits civils et politiques.
+
+Alle kandidaten zijn Belg, hebben de leeftijd van 35 jaar bereikt, hebben hun woonplaats in België en beschikken over de burgerlijke en politieke rechten.
+
+
+
+Les candidats devront amener la preuve de la possession d’une habilitation de sécurité le jour précédant le scrutin secret.
+
+De kandidaten dienen het bewijs van het bezit van een veiligheidsmachtiging voor te leggen de dag vóór de geheime stemming.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 28 février 2024, je vous propose de transmettre le curriculum vitæ des candidats aux groupes politiques en vue d’une audition en commission d'accompagnement des Comités P et R.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024 stel ik u voor om de cv’s van de kandidaten aan de politieke fracties over te zenden met het oog op een hoorzitting in de begeleidings­commissie Comités P en I.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 21)
+
+### Description in Dutch:
+
+À la suite d'un manque de candidatures pour les mandats de membre suppléant du Conseil central de surveillance pénitentiaire (CCSP), un troisième appel à candidats a été publié au Moniteur belge du 16 janvier  2024 pour ces mandats.
+
+Wegens een tekort aan kandidaturen voor de mandaten van plaatsvervangend lid van de Centrale Toezichtsraad voor het Gevangenis­wezen (CTRG) werd in het Belgisch Staatsblad van 16 januari 2024 een derde oproep tot kandidaten bekendgemaakt voor deze mandaten.
+
+
+
+Les candidatures suivantes ont été introduites dans le délai prescrit:
+
+- catégorie 'Master en droit': Mme Diete Humblet (N), professeure et chercheuse postdoctorale à la 'Vrije Universiteit Brussel'
+
+- catégorie ‘Médecin’: aucune
+
+- catégorie 'Autres membres': M. Kay Remon (N), fonctionnaire 'Agentschap Justitie en Handhaving, Vlaams Centrum Elektronisch Toezicht (VCET)’
+
+De volgende kandidaturen werden binnen de voorgeschreven termijn ingediend:
+
+- categorie 'Master in de rechten': mevrouw Diete Humblet (N), professor en postdoctoraal onder­zoeker aan de Vrije Universiteit Brussel
+
+- categorie ‘Arts’: geen
+
+- categorie 'Overige leden': de heer Kay Remon (N), stafmedewerker van het Agentschap Justitie en Handhaving, Vlaams Centrum Elektronisch Toezicht (VCET)
+
+
+
+Il manque encore trois candidatures francophones pour les mandats de membre suppléant.
+
+Er ontbreken nog drie Franstalige kandidaturen voor de mandaten van plaatsvervangend lid.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 28 février 2024, je vous propose, d’une part, de publier un nouvel appel à candidats au Moniteur belge pour les mandats de membre suppléant francophone, et d’autre part, d’envoyer aux groupes politiques le curriculum vitæ des candidats pour les mandats de membre effectif.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024 stel ik u voor om, enerzijds, een nieuwe oproep tot kandidaten in het Belgisch Staatsblad bekend te maken voor de mandaten van Franstalig plaatsvervangend lid, en anderzijds, de cv’s van de kandidaten voor de mandaten van effectief lid over te zenden aan de politieke fracties.
+
+
+
+Les candidats seront auditionnés en commission de la Justice.
+
+De kandidaten zullen worden gehoord in de commissie voor Justitie.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+### Description in French:
+
+À la suite d'un manque de candidatures pour les mandats de membre suppléant du Conseil central de surveillance pénitentiaire (CCSP), un troisième appel à candidats a été publié au Moniteur belge du 16 janvier  2024 pour ces mandats.
+
+Wegens een tekort aan kandidaturen voor de mandaten van plaatsvervangend lid van de Centrale Toezichtsraad voor het Gevangenis­wezen (CTRG) werd in het Belgisch Staatsblad van 16 januari 2024 een derde oproep tot kandidaten bekendgemaakt voor deze mandaten.
+
+
+
+Les candidatures suivantes ont été introduites dans le délai prescrit:
+
+- catégorie 'Master en droit': Mme Diete Humblet (N), professeure et chercheuse postdoctorale à la 'Vrije Universiteit Brussel'
+
+- catégorie ‘Médecin’: aucune
+
+- catégorie 'Autres membres': M. Kay Remon (N), fonctionnaire 'Agentschap Justitie en Handhaving, Vlaams Centrum Elektronisch Toezicht (VCET)’
+
+De volgende kandidaturen werden binnen de voorgeschreven termijn ingediend:
+
+- categorie 'Master in de rechten': mevrouw Diete Humblet (N), professor en postdoctoraal onder­zoeker aan de Vrije Universiteit Brussel
+
+- categorie ‘Arts’: geen
+
+- categorie 'Overige leden': de heer Kay Remon (N), stafmedewerker van het Agentschap Justitie en Handhaving, Vlaams Centrum Elektronisch Toezicht (VCET)
+
+
+
+Il manque encore trois candidatures francophones pour les mandats de membre suppléant.
+
+Er ontbreken nog drie Franstalige kandidaturen voor de mandaten van plaatsvervangend lid.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 28 février 2024, je vous propose, d’une part, de publier un nouvel appel à candidats au Moniteur belge pour les mandats de membre suppléant francophone, et d’autre part, d’envoyer aux groupes politiques le curriculum vitæ des candidats pour les mandats de membre effectif.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024 stel ik u voor om, enerzijds, een nieuwe oproep tot kandidaten in het Belgisch Staatsblad bekend te maken voor de mandaten van Franstalig plaatsvervangend lid, en anderzijds, de cv’s van de kandidaten voor de mandaten van effectief lid over te zenden aan de politieke fracties.
+
+
+
+Les candidats seront auditionnés en commission de la Justice.
+
+De kandidaten zullen worden gehoord in de commissie voor Justitie.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 22)
+
+### Description in Dutch:
+
+Conformément à la décision de la séance plénière du 18 janvier 2024, un appel à candidats a été publié au Moniteur belge du 22 janvier 2024 pour un tiers des mandats de membres effectif et suppléant du conseil d'administration de l’Institut fédéral pour la protection et la promotion des droits humains.
+
+Overeenkomstig de beslissing van de plenaire vergadering van 18 januari 2024 verscheen in het Belgisch Staatsblad van 22 januari 2024 een oproep tot kandidaten voor een derde van de mandaten van effectief en plaatsvervangend lid van de raad van bestuur van het Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens.
+
+
+
+Les candidatures suivantes ont été introduites dans le délai prescrit:
+
+De volgende kandidaturen werden binnen de voorgeschreven termijn ingediend:
+
+
+
+Membres effectifs
+
+Effectieve leden
+
+
+
+Monde académique
+
+Academische wereld
+
+
+
+Candidats francophones
+
+M. Filip Dorssemont, docteur en droit
+
+Franstalige kandidaten
+
+de heer Filip Dorssemont, doctor in de rechten
+
+
+
+Candidats néerlandophones
+
+Mme Eva Brems, docteur en droit;
+
+M. Filip Dorssemont, docteur en droit;
+
+M. Koen Lemmens, docteur en droit et avocat
+
+Nederlandstalige kandidaten
+
+mevrouw Eva Brems, doctor in de rechten;
+
+de heer Filip Dorssemont, doctor in de rechten;
+
+de heer Koen Lemmens, doctor in de rechten en advocaat
+
+
+
+Monde judiciaire
+
+Gerechtelijke wereld
+
+
+
+Candidats francophones
+
+M. François Koning, avocat;
+
+M. François Vandamme, licencié en droit (pensionné);
+
+M. Quentin Van Enis, juge au tribunal de première instance francophone de Bruxelles
+
+Franstalige kandidaten
+
+de heer François Koning, advocaat;
+
+de heer François Vandamme, licenciaat in de rechten (gepensioneerd);
+
+de heer Quentin Van Enis, rechter bij de Franstalige rechtbank van eerste aanleg te Brussel
+
+
+
+Candidats néerlandophones
+
+M. Arie Davidovici, avocat;
+
+M. Koen Lemmens, docteur en droit et avocat;
+
+M. Zakariya Maroukisse, avocat;
+
+M. Dirk Minnebo, conseiller en Affaires sociales au tribunal du travail d’Anvers, membre suppléant de la commission néerlandophone du Notariat;
+
+M. Walter Thiery, juge honoraire, juge suppléant
+
+Nederlandstalige kandidaten
+
+de heer Arie Davidovici, advocaat;
+
+de heer Koen Lemmens, doctor in de rechten en advocaat;
+
+de heer Zakariya Maroukisse, advocaat;
+
+de heer Dirk Minnebo, raadsheer in Sociale Zaken in het Arbeidshof te Antwerpen, plaatsvervangend lid van de Nederlandstalige benoemingscommissie voor het Notariaat;
+
+de heer Walter Thiery, ererechter, plaats­vervangende rechter
+
+
+
+Société civile
+
+Maatschappelijk middenveld
+
+
+
+Candidats francophones
+
+Mme Julie Lejeune, présidente de l’IFDH;
+
+Mme Marceline Nyiranduwamungu, secrétaire exécutive, services généraux administratifs, Gembloux – Agro-Bio Tech, Liège Université
+
+Franstalige kandidaten
+
+mevrouw Julie Lejeune, voorzitster van FIRM;
+
+mevrouw Marceline Nyiranduwamungu, ‘executive’ secretaresse, Algemene administratieve diensten, Gembloux – Agro-Bio Tech, ‘Liège Université’
+
+
+
+Candidats néerlandophones
+
+M. Yves Aerts, coordinateur général asbl çavaria;
+
+M. Arie Davidovici, avocat;
+
+M. Geert Hoste, ambassadeur Amnesty Interna­tional en Flandre, promoteur et ambassadeur des droits de l’homme;
+
+M. Dirk Minnebo, conseiller en Affaires sociales au tribunal du travail d’Anvers, membre suppléant de la commission néerlandophone du Notariat;
+
+M. Filip Reyniers, directeur représenté au conseil d’administration à IPIS;
+
+Mme Louise Reyntjes, juriste au CCSP;
+
+M. Johan Schoors, représentant résident, Mali, Enabel;
+
+Nederlandstalige kandidaten
+
+de heer Yves Aerts, algemeen coördinator çavaria vzw;
+
+de heer Arie Davidovici, advocaat;
+
+de heer Geert Hoste, ambassadeur Amnesty Inter­national Vlaanderen, promotor en ambassadeur van de mensenrechten;
+
+de heer Dirk Minnebo, raadsheer in Sociale Zaken in het Arbeidshof te Antwerpen, plaatsvervangend lid van de Nederlandstalige benoemingscommissie voor het Notariaat;
+
+de heer Filip Reyniers, directeur vertegenwoordigd in de Raad van Bestuur bij IPIS;
+
+mevrouw Louise Reyntjens, jurist CTRG;
+
+de heer Johan Schoors, ‘resident representative’, Mali, Enabel;
+
+
+
+Partenaires sociaux
+
+Sociale partners
+
+
+
+Candidats francophones
+
+Mme Ariane Estenne, présidente du mouvement ouvrier chrétien;
+
+Mme Marceline Nyiranduwamungu, secrétaire exécutive, services généraux administratifs, Gembloux – Agro-Bio Tech, Liège Université
+
+Franstalige kandidaten
+
+mevrouw Ariane Estenne, voorzitster van ‘mouvement ouvrier chrétien’;
+
+mevrouw Marceline Nyiranduwamungu, ‘executive’ secretaresse, Algemene administratieve diensten, Gembloux – Agro-Bio Tech, ‘Liège Université’
+
+
+
+Candidats néerlandophones
+
+M. Chris Serroyen, conseiller affaires sociales au tribunal du travail d’Anvers
+
+Nederlandstalige kandidaten
+
+de heer Chris Serroyen, raadsheer sociale zaken in het Arbeidshof van Antwerpen
+
+
+
+Membres suppléants
+
+Plaatsvervangende leden
+
+
+
+Monde académique
+
+Academische wereld
+
+
+
+Candidats francophones
+
+Aucune candidature
+
+Franstalige kandidaten
+
+Geen kandidaturen
+
+
+
+Candidats néerlandophones
+
+Mme Eva Brems, docteur en droit;
+
+M. Koen Lemmens, membre de l’IFDH
+
+Nederlandstalige kandidaten
+
+mevrouw Eva Brems, doctor in de rechten;
+
+de heer Koen Lemmens, lid van FIRM
+
+
+
+Monde judiciaire
+
+Gerechtelijke wereld
+
+
+
+Candidats francophones
+
+M. François Vandamme, licencié en droit (pensionné);
+
+M. Quentin Van Enis, juge au tribunal de première instance francophone de Bruxelles
+
+Franstalige kandidaten
+
+de heer François Vandamme, licenciaat in de rechten (gepensioneerd);
+
+de heer Quentin Van Enis, rechter bij de Franstalige rechtbank van eerste aanleg te Brussel
+
+
+
+Candidats néerlandophones
+
+M. Arie Davidovici, avocat;
+
+M. Koen Lemmens, membre de l’IFDH;
+
+M. Zakariya Maroukisse, avocat;
+
+M. Dirk Minnebo, conseiller en Affaires sociales au tribunal du travail d’Anvers, membre suppléant de la commission néerlandophone du Notariat;
+
+M. Walter Thiery, juge honoraire, juge suppléant
+
+Nederlandstalige kandidaten
+
+de heer Arie Davidovici, advocaat;
+
+de heer Koen Lemmens, lid van FIRM;
+
+de heer Zakariya Maroukisse, advocaat;
+
+de heer Dirk Minnebo, raadsheer in Sociale Zaken in het Arbeidshof te Antwerpen, plaatsvervangend lid van de Nederlandstalige benoemingscommissie voor het Notariaat;
+
+de heer Walter Thiery, ererechter, plaats­vervangende rechter
+
+
+
+Société civile
+
+Maatschappelijk middenveld
+
+
+
+Candidats francophones
+
+Mme Marceline Nyiranduwamungu, secrétaire exécutive, services généraux administratifs, Gembloux – Agro-Bio Tech, Liège Université
+
+Franstalige kandidaten
+
+mevrouw Marceline Nyiranduwamungu, ‘executive’ secretaresse, Algemene administratieve diensten, Gembloux – Agro-Bio Tech, ‘Liège Université’
+
+
+
+Candidats néerlandophones
+
+M. Arie Davidovici, avocat;
+
+M. Geert Hoste, ambassadeur Amnesty Interna­tional en Flandre, promoteur et ambassadeur des droits de l’homme;
+
+M. Dirk Minnebo, conseiller en Affaires sociales au tribunal du travail d’Anvers, membre suppléant de la commission néerlandophone du Notariat;
+
+M. Filip Reyniers, directeur représenté au conseil d’administration à IPIS;
+
+Mme Louise Reyntjes, juriste au CCSP;
+
+M. Johan Schoors, représentant résident, Mali, Enabel
+
+Nederlandstalige kandidaten
+
+de heer Arie Davidovici, advocaat;
+
+de heer Geert Hoste, ambassadeur Amnesty Inter­national Vlaanderen, promotor en ambassadeur van de mensenrechten;
+
+de heer Dirk Minnebo, raadsheer in Sociale Zaken in het Arbeidshof te Antwerpen, plaatsvervangend lid van de Nederlandstalige benoemingscommissie voor het Notariaat;
+
+de heer Filip Reyniers, directeur vertegenwoordigd in de Raad van Bestuur bij IPIS;
+
+mevrouw Louise Reyntjens, jurist CTRG;
+
+de heer Johan Schoors, ‘resident representative’, Mali, Enabel
+
+
+
+Partenaires sociaux
+
+Sociale partners
+
+
+
+Candidats francophones
+
+Mme Ariane Estenne, présidente du mouvement ouvrier chrétien;
+
+Mme Marceline Nyiranduwamungu, secrétaire exécutive, services généraux administratifs, Gembloux – Agro-Bio Tech, Liège Université
+
+Franstalige kandidaten
+
+mevrouw Ariane Estenne, voorzitster van ‘mouvement ouvrier chrétien’;
+
+mevrouw Marceline Nyiranduwamungu, ‘executive’ secretaresse, Algemene administratieve diensten, Gembloux – Agro-Bio Tech, ‘Liège Université’
+
+
+
+Candidats néerlandophones
+
+Aucune candidature
+
+Nederlandstalige kandidaten
+
+Geen kandidaturen
+
+
+
+Mme Louise Reyntjens est fonctionnaire au Conseil central de surveillance pénitentiaire. Elle est donc en fonction au sein d’une administration en qualité de fonctionnaire. Par conséquent, je vous propose de déclarer la candidature de Mme Louise Reyntjens irrecevable.
+
+Mevrouw Louise Reyntjens is ambtenaar bij de Centrale Toezichtsraad voor het Gevangenis­wezen. Zij heeft dus de hoedanigheid van ambtenaar in functie bij een administratie. Bijgevolg stel ik u voor om de kandidatuur van mevrouw Louise Reyntjens onontvankelijk te verklaren.
+
+
+
+Conformément à l’avis de la Conférence des présidents du 28 février 2024, je vous propose de transmettre les candidatures aux groupes politiques.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024 stel ik u voor de kandidaturen over te zenden naar de politieke fracties.
+
+
+
+Les candidats seront auditionnés en commission de la Justice.
+
+De kandidaten zullen door de commissie Justitie worden gehoord.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+### Description in French:
+
+Conformément à la décision de la séance plénière du 18 janvier 2024, un appel à candidats a été publié au Moniteur belge du 22 janvier 2024 pour un tiers des mandats de membres effectif et suppléant du conseil d'administration de l’Institut fédéral pour la protection et la promotion des droits humains.
+
+Overeenkomstig de beslissing van de plenaire vergadering van 18 januari 2024 verscheen in het Belgisch Staatsblad van 22 januari 2024 een oproep tot kandidaten voor een derde van de mandaten van effectief en plaatsvervangend lid van de raad van bestuur van het Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens.
+
+
+
+Les candidatures suivantes ont été introduites dans le délai prescrit:
+
+De volgende kandidaturen werden binnen de voorgeschreven termijn ingediend:
+
+
+
+Membres effectifs
+
+Effectieve leden
+
+
+
+Monde académique
+
+Academische wereld
+
+
+
+Candidats francophones
+
+M. Filip Dorssemont, docteur en droit
+
+Franstalige kandidaten
+
+de heer Filip Dorssemont, doctor in de rechten
+
+
+
+Candidats néerlandophones
+
+Mme Eva Brems, docteur en droit;
+
+M. Filip Dorssemont, docteur en droit;
+
+M. Koen Lemmens, docteur en droit et avocat
+
+Nederlandstalige kandidaten
+
+mevrouw Eva Brems, doctor in de rechten;
+
+de heer Filip Dorssemont, doctor in de rechten;
+
+de heer Koen Lemmens, doctor in de rechten en advocaat
+
+
+
+Monde judiciaire
+
+Gerechtelijke wereld
+
+
+
+Candidats francophones
+
+M. François Koning, avocat;
+
+M. François Vandamme, licencié en droit (pensionné);
+
+M. Quentin Van Enis, juge au tribunal de première instance francophone de Bruxelles
+
+Franstalige kandidaten
+
+de heer François Koning, advocaat;
+
+de heer François Vandamme, licenciaat in de rechten (gepensioneerd);
+
+de heer Quentin Van Enis, rechter bij de Franstalige rechtbank van eerste aanleg te Brussel
+
+
+
+Candidats néerlandophones
+
+M. Arie Davidovici, avocat;
+
+M. Koen Lemmens, docteur en droit et avocat;
+
+M. Zakariya Maroukisse, avocat;
+
+M. Dirk Minnebo, conseiller en Affaires sociales au tribunal du travail d’Anvers, membre suppléant de la commission néerlandophone du Notariat;
+
+M. Walter Thiery, juge honoraire, juge suppléant
+
+Nederlandstalige kandidaten
+
+de heer Arie Davidovici, advocaat;
+
+de heer Koen Lemmens, doctor in de rechten en advocaat;
+
+de heer Zakariya Maroukisse, advocaat;
+
+de heer Dirk Minnebo, raadsheer in Sociale Zaken in het Arbeidshof te Antwerpen, plaatsvervangend lid van de Nederlandstalige benoemingscommissie voor het Notariaat;
+
+de heer Walter Thiery, ererechter, plaats­vervangende rechter
+
+
+
+Société civile
+
+Maatschappelijk middenveld
+
+
+
+Candidats francophones
+
+Mme Julie Lejeune, présidente de l’IFDH;
+
+Mme Marceline Nyiranduwamungu, secrétaire exécutive, services généraux administratifs, Gembloux – Agro-Bio Tech, Liège Université
+
+Franstalige kandidaten
+
+mevrouw Julie Lejeune, voorzitster van FIRM;
+
+mevrouw Marceline Nyiranduwamungu, ‘executive’ secretaresse, Algemene administratieve diensten, Gembloux – Agro-Bio Tech, ‘Liège Université’
+
+
+
+Candidats néerlandophones
+
+M. Yves Aerts, coordinateur général asbl çavaria;
+
+M. Arie Davidovici, avocat;
+
+M. Geert Hoste, ambassadeur Amnesty Interna­tional en Flandre, promoteur et ambassadeur des droits de l’homme;
+
+M. Dirk Minnebo, conseiller en Affaires sociales au tribunal du travail d’Anvers, membre suppléant de la commission néerlandophone du Notariat;
+
+M. Filip Reyniers, directeur représenté au conseil d’administration à IPIS;
+
+Mme Louise Reyntjes, juriste au CCSP;
+
+M. Johan Schoors, représentant résident, Mali, Enabel;
+
+Nederlandstalige kandidaten
+
+de heer Yves Aerts, algemeen coördinator çavaria vzw;
+
+de heer Arie Davidovici, advocaat;
+
+de heer Geert Hoste, ambassadeur Amnesty Inter­national Vlaanderen, promotor en ambassadeur van de mensenrechten;
+
+de heer Dirk Minnebo, raadsheer in Sociale Zaken in het Arbeidshof te Antwerpen, plaatsvervangend lid van de Nederlandstalige benoemingscommissie voor het Notariaat;
+
+de heer Filip Reyniers, directeur vertegenwoordigd in de Raad van Bestuur bij IPIS;
+
+mevrouw Louise Reyntjens, jurist CTRG;
+
+de heer Johan Schoors, ‘resident representative’, Mali, Enabel;
+
+
+
+Partenaires sociaux
+
+Sociale partners
+
+
+
+Candidats francophones
+
+Mme Ariane Estenne, présidente du mouvement ouvrier chrétien;
+
+Mme Marceline Nyiranduwamungu, secrétaire exécutive, services généraux administratifs, Gembloux – Agro-Bio Tech, Liège Université
+
+Franstalige kandidaten
+
+mevrouw Ariane Estenne, voorzitster van ‘mouvement ouvrier chrétien’;
+
+mevrouw Marceline Nyiranduwamungu, ‘executive’ secretaresse, Algemene administratieve diensten, Gembloux – Agro-Bio Tech, ‘Liège Université’
+
+
+
+Candidats néerlandophones
+
+M. Chris Serroyen, conseiller affaires sociales au tribunal du travail d’Anvers
+
+Nederlandstalige kandidaten
+
+de heer Chris Serroyen, raadsheer sociale zaken in het Arbeidshof van Antwerpen
+
+
+
+Membres suppléants
+
+Plaatsvervangende leden
+
+
+
+Monde académique
+
+Academische wereld
+
+
+
+Candidats francophones
+
+Aucune candidature
+
+Franstalige kandidaten
+
+Geen kandidaturen
+
+
+
+Candidats néerlandophones
+
+Mme Eva Brems, docteur en droit;
+
+M. Koen Lemmens, membre de l’IFDH
+
+Nederlandstalige kandidaten
+
+mevrouw Eva Brems, doctor in de rechten;
+
+de heer Koen Lemmens, lid van FIRM
+
+
+
+Monde judiciaire
+
+Gerechtelijke wereld
+
+
+
+Candidats francophones
+
+M. François Vandamme, licencié en droit (pensionné);
+
+M. Quentin Van Enis, juge au tribunal de première instance francophone de Bruxelles
+
+Franstalige kandidaten
+
+de heer François Vandamme, licenciaat in de rechten (gepensioneerd);
+
+de heer Quentin Van Enis, rechter bij de Franstalige rechtbank van eerste aanleg te Brussel
+
+
+
+Candidats néerlandophones
+
+M. Arie Davidovici, avocat;
+
+M. Koen Lemmens, membre de l’IFDH;
+
+M. Zakariya Maroukisse, avocat;
+
+M. Dirk Minnebo, conseiller en Affaires sociales au tribunal du travail d’Anvers, membre suppléant de la commission néerlandophone du Notariat;
+
+M. Walter Thiery, juge honoraire, juge suppléant
+
+Nederlandstalige kandidaten
+
+de heer Arie Davidovici, advocaat;
+
+de heer Koen Lemmens, lid van FIRM;
+
+de heer Zakariya Maroukisse, advocaat;
+
+de heer Dirk Minnebo, raadsheer in Sociale Zaken in het Arbeidshof te Antwerpen, plaatsvervangend lid van de Nederlandstalige benoemingscommissie voor het Notariaat;
+
+de heer Walter Thiery, ererechter, plaats­vervangende rechter
+
+
+
+Société civile
+
+Maatschappelijk middenveld
+
+
+
+Candidats francophones
+
+Mme Marceline Nyiranduwamungu, secrétaire exécutive, services généraux administratifs, Gembloux – Agro-Bio Tech, Liège Université
+
+Franstalige kandidaten
+
+mevrouw Marceline Nyiranduwamungu, ‘executive’ secretaresse, Algemene administratieve diensten, Gembloux – Agro-Bio Tech, ‘Liège Université’
+
+
+
+Candidats néerlandophones
+
+M. Arie Davidovici, avocat;
+
+M. Geert Hoste, ambassadeur Amnesty Interna­tional en Flandre, promoteur et ambassadeur des droits de l’homme;
+
+M. Dirk Minnebo, conseiller en Affaires sociales au tribunal du travail d’Anvers, membre suppléant de la commission néerlandophone du Notariat;
+
+M. Filip Reyniers, directeur représenté au conseil d’administration à IPIS;
+
+Mme Louise Reyntjes, juriste au CCSP;
+
+M. Johan Schoors, représentant résident, Mali, Enabel
+
+Nederlandstalige kandidaten
+
+de heer Arie Davidovici, advocaat;
+
+de heer Geert Hoste, ambassadeur Amnesty Inter­national Vlaanderen, promotor en ambassadeur van de mensenrechten;
+
+de heer Dirk Minnebo, raadsheer in Sociale Zaken in het Arbeidshof te Antwerpen, plaatsvervangend lid van de Nederlandstalige benoemingscommissie voor het Notariaat;
+
+de heer Filip Reyniers, directeur vertegenwoordigd in de Raad van Bestuur bij IPIS;
+
+mevrouw Louise Reyntjens, jurist CTRG;
+
+de heer Johan Schoors, ‘resident representative’, Mali, Enabel
+
+
+
+Partenaires sociaux
+
+Sociale partners
+
+
+
+Candidats francophones
+
+Mme Ariane Estenne, présidente du mouvement ouvrier chrétien;
+
+Mme Marceline Nyiranduwamungu, secrétaire exécutive, services généraux administratifs, Gembloux – Agro-Bio Tech, Liège Université
+
+Franstalige kandidaten
+
+mevrouw Ariane Estenne, voorzitster van ‘mouvement ouvrier chrétien’;
+
+mevrouw Marceline Nyiranduwamungu, ‘executive’ secretaresse, Algemene administratieve diensten, Gembloux – Agro-Bio Tech, ‘Liège Université’
+
+
+
+Candidats néerlandophones
+
+Aucune candidature
+
+Nederlandstalige kandidaten
+
+Geen kandidaturen
+
+
+
+Mme Louise Reyntjens est fonctionnaire au Conseil central de surveillance pénitentiaire. Elle est donc en fonction au sein d’une administration en qualité de fonctionnaire. Par conséquent, je vous propose de déclarer la candidature de Mme Louise Reyntjens irrecevable.
+
+Mevrouw Louise Reyntjens is ambtenaar bij de Centrale Toezichtsraad voor het Gevangenis­wezen. Zij heeft dus de hoedanigheid van ambtenaar in functie bij een administratie. Bijgevolg stel ik u voor om de kandidatuur van mevrouw Louise Reyntjens onontvankelijk te verklaren.
+
+
+
+Conformément à l’avis de la Conférence des présidents du 28 février 2024, je vous propose de transmettre les candidatures aux groupes politiques.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024 stel ik u voor de kandidaturen over te zenden naar de politieke fracties.
+
+
+
+Les candidats seront auditionnés en commission de la Justice.
+
+De kandidaten zullen door de commissie Justitie worden gehoord.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 23)
+
+### Description in Dutch:
+
+Par lettre du 16 février 2024, le premier président du Conseil d'État porte à la connaissance de la Chambre que le 14 février 2024, l'assemblée générale du Conseil d'État a procédé, conformément à l'article 80 des lois sur le Conseil d'État coordonnées le 12 janvier 1973, à l'établissement de la liste de trois candidats pour une place vacante d'assesseur francophone auprès de la section de législation, suite de l’expiration du mandat de M. Jacques Englebert le 29 mai 2022.
+
+Bij brief van 16 februari 2024, deelt de eerste voorzitter van de Raad van State mede dat de algemene vergadering van de Raad van State op 14 februari 2024, overeenkomstig artikel 80 van de wetten op de Raad van State gecoördineerd op 12 januari 1973, is overgegaan tot het opmaken van een lijst van drie kandidaten voor een vacant ambt van Franstalig assessor bij de afdeling Wetgeving, ten gevolge van het verstrijken van het mandaat van de heer Jacques Englebert op 29 mei 2022.
+
+
+
+Ont été présentés par le Conseil d'État, sans unanimité toutefois:
+
+Premier candidat:
+
+M. Jacques Englebert, avocat au barreau de Namur et chargé de cours à l'Université Libre de Bruxelles;
+
+Deuxième candidate:
+
+Mme Anne Sondag, avocate au barreau de Namur;
+
+Troisième candidat:
+
+M. Cédric Bernes, avocat au barreau de Namur.
+
+
+
+Werden door de Raad van State voorgedragen, evenwel zonder eenparigheid van stemmen:
+
+Eerste kandidaat:
+
+De heer Jacques Englebert, advocaat bij de balie van Namen en docent aan de ‘Université Libre de Bruxelles’;
+
+Tweede kandidaat:
+
+Mevrouw Anne Sondag, advocaat bij de balie van Namen;
+
+Derde kandidaat:
+
+De heer Cédric Bernes, advocaat bij de balie van Namen.
+
+
+
+La présentation n'étant pas unanime, la Chambre peut, conformément à l’article 70, § 1er, alinéa 8, des lois sur le Conseil d’État coordonnées le 12 janvier 1973, et dans un délai ne pouvant dépasser trente jours à compter de la réception de la communication de cette présentation, soit confirmer la liste présentée par le Conseil d'État, soit présenter une autre liste de trois noms formellement motivée.
+
+Aangezien de voordracht niet unaniem is, kan de Kamer, overeenkomstig artikel 70, § 1, achtste lid, van de wetten op de Raad van State gecoördineerd op 12 januari 1973, binnen een termijn van ten hoogste dertig dagen vanaf de ontvangst van de mededeling van deze voordracht, hetzij de door de Raad van State voorgedragen lijst bevestigen, hetzij een tweede uitdrukkelijk gemotiveerde lijst met drie namen voordragen.
+
+
+
+La présentation éventuelle d'une liste par la Chambre doit se faire sur base des candidatures reçues par le Conseil d'État. Les candidatures introduites se limitent aux trois candidatures précitées.
+
+De eventuele voordracht van een lijst door de Kamer dient op grond van de door de Raad van State ontvangen kandidaturen te geschieden. Deze kandidaturen beperken zich tot de drie voormelde kandidaten.
+
+
+
+Le délai dont dispose la Chambre pour présenter une liste ou pour confirmer la liste expire le 17 mars 2024.
+
+De termijn waarover de Kamer beschikt om een lijst voor te dragen of om de lijst te bevestigen, verstrijkt op 17 maart 2024.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 28 février 2024, la présentation du Conseil d’État et le curriculum vitæ des candidats seront transmis aux groupes politiques.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024 zullen de voordracht van de Raad van State en de cv's van de kandidaten aan de politieke fracties worden bezorgd.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+### Description in French:
+
+Par lettre du 16 février 2024, le premier président du Conseil d'État porte à la connaissance de la Chambre que le 14 février 2024, l'assemblée générale du Conseil d'État a procédé, conformément à l'article 80 des lois sur le Conseil d'État coordonnées le 12 janvier 1973, à l'établissement de la liste de trois candidats pour une place vacante d'assesseur francophone auprès de la section de législation, suite de l’expiration du mandat de M. Jacques Englebert le 29 mai 2022.
+
+Bij brief van 16 februari 2024, deelt de eerste voorzitter van de Raad van State mede dat de algemene vergadering van de Raad van State op 14 februari 2024, overeenkomstig artikel 80 van de wetten op de Raad van State gecoördineerd op 12 januari 1973, is overgegaan tot het opmaken van een lijst van drie kandidaten voor een vacant ambt van Franstalig assessor bij de afdeling Wetgeving, ten gevolge van het verstrijken van het mandaat van de heer Jacques Englebert op 29 mei 2022.
+
+
+
+Ont été présentés par le Conseil d'État, sans unanimité toutefois:
+
+Premier candidat:
+
+M. Jacques Englebert, avocat au barreau de Namur et chargé de cours à l'Université Libre de Bruxelles;
+
+Deuxième candidate:
+
+Mme Anne Sondag, avocate au barreau de Namur;
+
+Troisième candidat:
+
+M. Cédric Bernes, avocat au barreau de Namur.
+
+
+
+Werden door de Raad van State voorgedragen, evenwel zonder eenparigheid van stemmen:
+
+Eerste kandidaat:
+
+De heer Jacques Englebert, advocaat bij de balie van Namen en docent aan de ‘Université Libre de Bruxelles’;
+
+Tweede kandidaat:
+
+Mevrouw Anne Sondag, advocaat bij de balie van Namen;
+
+Derde kandidaat:
+
+De heer Cédric Bernes, advocaat bij de balie van Namen.
+
+
+
+La présentation n'étant pas unanime, la Chambre peut, conformément à l’article 70, § 1er, alinéa 8, des lois sur le Conseil d’État coordonnées le 12 janvier 1973, et dans un délai ne pouvant dépasser trente jours à compter de la réception de la communication de cette présentation, soit confirmer la liste présentée par le Conseil d'État, soit présenter une autre liste de trois noms formellement motivée.
+
+Aangezien de voordracht niet unaniem is, kan de Kamer, overeenkomstig artikel 70, § 1, achtste lid, van de wetten op de Raad van State gecoördineerd op 12 januari 1973, binnen een termijn van ten hoogste dertig dagen vanaf de ontvangst van de mededeling van deze voordracht, hetzij de door de Raad van State voorgedragen lijst bevestigen, hetzij een tweede uitdrukkelijk gemotiveerde lijst met drie namen voordragen.
+
+
+
+La présentation éventuelle d'une liste par la Chambre doit se faire sur base des candidatures reçues par le Conseil d'État. Les candidatures introduites se limitent aux trois candidatures précitées.
+
+De eventuele voordracht van een lijst door de Kamer dient op grond van de door de Raad van State ontvangen kandidaturen te geschieden. Deze kandidaturen beperken zich tot de drie voormelde kandidaten.
+
+
+
+Le délai dont dispose la Chambre pour présenter une liste ou pour confirmer la liste expire le 17 mars 2024.
+
+De termijn waarover de Kamer beschikt om een lijst voor te dragen of om de lijst te bevestigen, verstrijkt op 17 maart 2024.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 28 février 2024, la présentation du Conseil d’État et le curriculum vitæ des candidats seront transmis aux groupes politiques.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024 zullen de voordracht van de Raad van State en de cv's van de kandidaten aan de politieke fracties worden bezorgd.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 24)
+
+### Description in Dutch:
+
+Sur la base de la loi du 7 février 2014 organisant le vote électronique avec preuve papier et en vue des élections du 9 juin 2024, la Chambre doit désigner les membres des Collèges permanent et non permanent d’experts chargés du contrôle des systèmes de vote électronique.
+
+Op grond van de wet van 7 februari 2014 tot organisatie van de elektronische stemming met papieren bewijsstuk dient de Kamer voor de verkiezingen van 9 juni 2024 de leden van het permanent en van het niet-permanent College van deskundigen belast met de controle op elektronische stemsystemen aan te wijzen.
+
+
+
+La Chambre doit désigner trois membres effectifs et trois membres suppléants pour le Collège permanent.
+
+Voor het permanent College dient de Kamer drie effectieve en drie plaatsvervangende leden aan te wijzen.
+
+
+
+Un des membres permanents doit être titulaire d’un diplôme de master en droit.
+
+Eén van de effectieve leden dient houder te zijn van een diploma master in de rechten.
+
+
+
+La Chambre doit également désigner deux membres du Collège non permanent.
+
+De Kamer dient ook twee leden van het niet-permanent College aan te wijzen.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 21 février 2024, je vous propose de désigner les experts suivants:
+
+- pour le Collège permanent:
+
+Membres effectifs: M. Bruno De Nys (N), M. Jérome Dossogne (F), M. Joris Van Den Bossche (N) (master en droit)
+
+Membres suppléants: M. Bruno Penne (N), M. Pol Badoux (F), M. Thomas Villa (N)
+
+- pour le Collège non permanent: Mme Sophie Jonckheere (N), M. Jean-Marc Paul (F)
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 21 februari 2024 stel ik u voor de volgende deskundigen aan te wijzen:
+
+- voor het permanent College:
+
+Effectieve leden: de heer Bruno De Nys (N), de heer Jérome Dossogne (F), de heer Joris Van Den Bossche (N) (master in de rechten)
+
+Plaatsvervangende leden: de heer Bruno Penne (N), de heer Pol Badoux (F), de heer Thomas Villa (N)
+
+- voor het niet-permanent College: mevrouw Sophie Jonckheere (N), de heer Jean-Marc Paul (F)
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+### Description in French:
+
+Sur la base de la loi du 7 février 2014 organisant le vote électronique avec preuve papier et en vue des élections du 9 juin 2024, la Chambre doit désigner les membres des Collèges permanent et non permanent d’experts chargés du contrôle des systèmes de vote électronique.
+
+Op grond van de wet van 7 februari 2014 tot organisatie van de elektronische stemming met papieren bewijsstuk dient de Kamer voor de verkiezingen van 9 juni 2024 de leden van het permanent en van het niet-permanent College van deskundigen belast met de controle op elektronische stemsystemen aan te wijzen.
+
+
+
+La Chambre doit désigner trois membres effectifs et trois membres suppléants pour le Collège permanent.
+
+Voor het permanent College dient de Kamer drie effectieve en drie plaatsvervangende leden aan te wijzen.
+
+
+
+Un des membres permanents doit être titulaire d’un diplôme de master en droit.
+
+Eén van de effectieve leden dient houder te zijn van een diploma master in de rechten.
+
+
+
+La Chambre doit également désigner deux membres du Collège non permanent.
+
+De Kamer dient ook twee leden van het niet-permanent College aan te wijzen.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 21 février 2024, je vous propose de désigner les experts suivants:
+
+- pour le Collège permanent:
+
+Membres effectifs: M. Bruno De Nys (N), M. Jérome Dossogne (F), M. Joris Van Den Bossche (N) (master en droit)
+
+Membres suppléants: M. Bruno Penne (N), M. Pol Badoux (F), M. Thomas Villa (N)
+
+- pour le Collège non permanent: Mme Sophie Jonckheere (N), M. Jean-Marc Paul (F)
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 21 februari 2024 stel ik u voor de volgende deskundigen aan te wijzen:
+
+- voor het permanent College:
+
+Effectieve leden: de heer Bruno De Nys (N), de heer Jérome Dossogne (F), de heer Joris Van Den Bossche (N) (master in de rechten)
+
+Plaatsvervangende leden: de heer Bruno Penne (N), de heer Pol Badoux (F), de heer Thomas Villa (N)
+
+- voor het niet-permanent College: mevrouw Sophie Jonckheere (N), de heer Jean-Marc Paul (F)
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 25)
+
+### Description in Dutch:
+
+À la suite d'un manque de candidatures pour le mandat de membre francophone du Conseil disciplinaire de la CREG, un troisième appel à candidats a été publié au Moniteur belge du 23 janvier 2024 conformément à la décision de la séance plénière du 18 janvier 2024.
+
+Wegens een tekort aan kandidaturen voor het mandaat van Franstalig lid van de Tuchtraad van de CREG werd, overeenkomstig de beslissing van de plenaire vergadering van 18 januari 2024, een derde oproep tot kandidaten in het Belgisch Staatsblad van 23 januari 2024 bekendgemaakt.
+
+
+
+Aucune candidature n'a été introduite.
+
+Er werden geen kandidaturen ingediend.
+
+
+
+Conformément à la décision de la Conférence des présidents du 28 février 2024, je vous propose de publier au Moniteur belge un quatrième appel à candidats au Moniteur belge pour le mandat de membre francophone.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024, stel ik u voor een vierde oproep tot kandidaten voor het mandaat van Franstalig lid in het Belgisch Staatsblad bekend te maken.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+### Description in French:
+
+À la suite d'un manque de candidatures pour le mandat de membre francophone du Conseil disciplinaire de la CREG, un troisième appel à candidats a été publié au Moniteur belge du 23 janvier 2024 conformément à la décision de la séance plénière du 18 janvier 2024.
+
+Wegens een tekort aan kandidaturen voor het mandaat van Franstalig lid van de Tuchtraad van de CREG werd, overeenkomstig de beslissing van de plenaire vergadering van 18 januari 2024, een derde oproep tot kandidaten in het Belgisch Staatsblad van 23 januari 2024 bekendgemaakt.
+
+
+
+Aucune candidature n'a été introduite.
+
+Er werden geen kandidaturen ingediend.
+
+
+
+Conformément à la décision de la Conférence des présidents du 28 février 2024, je vous propose de publier au Moniteur belge un quatrième appel à candidats au Moniteur belge pour le mandat de membre francophone.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 28 februari 2024, stel ik u voor een vierde oproep tot kandidaten voor het mandaat van Franstalig lid in het Belgisch Staatsblad bekend te maken.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 26)
+
+### Description in Dutch:
+
+Vous avez pris connaissance dans l'ordre du jour qui vous a été distribué de la liste des propositions dont la prise en considération est demandée.
+
+In de laatst rondgedeelde agenda komt een lijst van voorstellen voor waarvan de inoverweging­neming is gevraagd.
+
+
+
+S'il n'y a pas d'observations à ce sujet, je considère la prise en considération de ces propositions comme acquise. Je renvoie les propositions aux commissions compétentes conformément au Règlement. (art. 75, n° 5, Rgt)
+
+Indien er geen bezwaar is, beschouw ik de inoverwegingneming van deze voorstellen als aangenomen. Overeenkomstig het Reglement worden die voorstellen naar de bevoegde commissies verzonden. (art. 75, nr. 5, Rgt)
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+
+
+Urgentieverzoeken
+
+Demandes d'urgence
+
+
+
+Mijnheer De Roover, u vraagt de urgentie voor uw wetsvoorstel nr. 3863?
+
+
+
+26.01  Peter De Roover (N-VA): Mevrouw de voorzitster, bedankt om mij het woord te verlenen voor een eigenlijk vrij duidelijke zaak.
+
+
+
+Onlangs hebben we een tv-debat gehad waar de vraag gesteld werd of de recente herschikking in de wetgeving inzake flexi-jobs voor de horeca teruggeschroefd moest worden. Collega Hedebouw heeft daar heel consequent de rode vlag opgestoken, als ik dat zo mag uitdrukken, maar wij kennen hem dan ook als een consequent iemand. Collega Hedebouw stond daarmee redelijk alleen. Zowel de voorzitster van Vooruit, hier aanwezig, als de voorzitters van Groen, Open Vld, cd&v, onze voorzitter en de voorzitter van het Vlaams Belang, hebben gezegd dat het een vergissing was die hersteld moet worden.
+
+
+
+Aangezien wij van consequentie houden in de politiek, bieden wij de fracties nu de mogelijkheid om die vergissing recht te trekken. Wij hebben een wetsvoorstel ingediend om de toestand te herstellen.
+
+
+
+Ik herhaal dat mijn vraag volgens mij een pure formaliteit is, aangezien wij de collega's en hun gehechtheid aan rechtlijnigheid kennen. Zij nemen niet alleen op tv een standpunt in, zij volgen dat ook hier in de Kamer.
+
+
+
+Mevrouw de voorzitster, ik denk dat het amper nodig is om te vragen dat de steunende leden rechtstaan, want ongetwijfeld zal de gehele Kamer, consequent aan de houding die in het tv-debat werd aangenomen, de urgentie steunen. Wellicht bent u toch verplicht om die formaliteit uit te voeren en wij zullen daaraan dan ook voldoen.
+
+
+
+La présidente: Je vous propose de nous prononcer sur cette demande.
+
+Ik stel u voor om ons over deze vraag uit te spreken.
+
+
+
+L'urgence est rejetée par assis et levé.
+
+De urgentie wordt verworpen bij zitten en opstaan.
+
+
+
+26.02  Joris Vandenbroucke (Vooruit): Mevrouw de voorzitster, onze fractie vraagt de urgentie voor het wetsvoorstel tot wijziging van de gecoördineerde wet van 10 mei 2015 betreffende de uitoefening van de gezondheidszorgberoepen, nr. 3870/1.
+
+
+
+Dit wetsvoorstel voorziet in het uitstel van de verplichte professionele stage voor klinisch psychologen en klinisch orthopedagogen voor een periode van twee jaar. Die stage is een van de wettelijke voorwaarden om een erkenning te krijgen in de klinische psychologie en de klinische orthopedagogiek en dus ook om het beroep effectief uit te oefenen. De verplichting is voor het eerst van toepassing op studenten die in de loop van februari 2024 zijn afgestudeerd, maar zij komt te vroeg en moet dus worden uitgesteld. Om de afgestudeerden snel zekerheid te geven dat zij op de arbeidsmarkt terechtkunnen als klinisch psycholoog of klinisch orthopedagoog, wordt de urgentie gevraagd.
+
+
+
+26.03  Peter De Roover (N-VA): Mevrouw de voorzitster, mocht die vraag op tv aan ons worden gesteld, dan zouden wij zeggen dat wij dat heel belangrijk vinden. Het zal u dan ook niet verbazen dat wij de urgentie ook consequent zullen steunen in de Kamer, in tegenstelling tot wat daarnet is gebeurd.
+
+
+
+26.04  Sofie Merckx (PVDA-PTB): Madame la présidente, je veux dire que c’est encore une fois la preuve que la lutte peut payer. Le ministre n’avait pas voulu broncher à ce sujet. Il était très sévère. Finalement, une manifestation à laquelle j'étais présente et qui a réuni plus de 600 étudiants s’est tenue devant son cabinet. Ils étaient en colère car rien n’était organisé par rapport au stage.
+
+
+
+Aujourd'hui, enfin, nous voyons arriver cette proposition de loi. Nous sommes très contents et nous en soutiendrons aussi l’urgence.
+
+
+
+La présidente: Je vous propose de nous prononcer sur cette demande.
+
+Ik stel u voor om ons over deze vraag uit te spreken.
+
+
+
+L'urgence est adoptée par assis et levé.
+
+De urgentie wordt aangenomen bij zitten en opstaan.
+
+### Description in French:
+
+Vous avez pris connaissance dans l'ordre du jour qui vous a été distribué de la liste des propositions dont la prise en considération est demandée.
+
+In de laatst rondgedeelde agenda komt een lijst van voorstellen voor waarvan de inoverweging­neming is gevraagd.
+
+
+
+S'il n'y a pas d'observations à ce sujet, je considère la prise en considération de ces propositions comme acquise. Je renvoie les propositions aux commissions compétentes conformément au Règlement. (art. 75, n° 5, Rgt)
+
+Indien er geen bezwaar is, beschouw ik de inoverwegingneming van deze voorstellen als aangenomen. Overeenkomstig het Reglement worden die voorstellen naar de bevoegde commissies verzonden. (art. 75, nr. 5, Rgt)
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+
+
+Urgentieverzoeken
+
+Demandes d'urgence
+
+
+
+Mijnheer De Roover, u vraagt de urgentie voor uw wetsvoorstel nr. 3863?
+
+
+
+26.01  Peter De Roover (N-VA): Mevrouw de voorzitster, bedankt om mij het woord te verlenen voor een eigenlijk vrij duidelijke zaak.
+
+
+
+Onlangs hebben we een tv-debat gehad waar de vraag gesteld werd of de recente herschikking in de wetgeving inzake flexi-jobs voor de horeca teruggeschroefd moest worden. Collega Hedebouw heeft daar heel consequent de rode vlag opgestoken, als ik dat zo mag uitdrukken, maar wij kennen hem dan ook als een consequent iemand. Collega Hedebouw stond daarmee redelijk alleen. Zowel de voorzitster van Vooruit, hier aanwezig, als de voorzitters van Groen, Open Vld, cd&v, onze voorzitter en de voorzitter van het Vlaams Belang, hebben gezegd dat het een vergissing was die hersteld moet worden.
+
+
+
+Aangezien wij van consequentie houden in de politiek, bieden wij de fracties nu de mogelijkheid om die vergissing recht te trekken. Wij hebben een wetsvoorstel ingediend om de toestand te herstellen.
+
+
+
+Ik herhaal dat mijn vraag volgens mij een pure formaliteit is, aangezien wij de collega's en hun gehechtheid aan rechtlijnigheid kennen. Zij nemen niet alleen op tv een standpunt in, zij volgen dat ook hier in de Kamer.
+
+
+
+Mevrouw de voorzitster, ik denk dat het amper nodig is om te vragen dat de steunende leden rechtstaan, want ongetwijfeld zal de gehele Kamer, consequent aan de houding die in het tv-debat werd aangenomen, de urgentie steunen. Wellicht bent u toch verplicht om die formaliteit uit te voeren en wij zullen daaraan dan ook voldoen.
+
+
+
+La présidente: Je vous propose de nous prononcer sur cette demande.
+
+Ik stel u voor om ons over deze vraag uit te spreken.
+
+
+
+L'urgence est rejetée par assis et levé.
+
+De urgentie wordt verworpen bij zitten en opstaan.
+
+
+
+26.02  Joris Vandenbroucke (Vooruit): Mevrouw de voorzitster, onze fractie vraagt de urgentie voor het wetsvoorstel tot wijziging van de gecoördineerde wet van 10 mei 2015 betreffende de uitoefening van de gezondheidszorgberoepen, nr. 3870/1.
+
+
+
+Dit wetsvoorstel voorziet in het uitstel van de verplichte professionele stage voor klinisch psychologen en klinisch orthopedagogen voor een periode van twee jaar. Die stage is een van de wettelijke voorwaarden om een erkenning te krijgen in de klinische psychologie en de klinische orthopedagogiek en dus ook om het beroep effectief uit te oefenen. De verplichting is voor het eerst van toepassing op studenten die in de loop van februari 2024 zijn afgestudeerd, maar zij komt te vroeg en moet dus worden uitgesteld. Om de afgestudeerden snel zekerheid te geven dat zij op de arbeidsmarkt terechtkunnen als klinisch psycholoog of klinisch orthopedagoog, wordt de urgentie gevraagd.
+
+
+
+26.03  Peter De Roover (N-VA): Mevrouw de voorzitster, mocht die vraag op tv aan ons worden gesteld, dan zouden wij zeggen dat wij dat heel belangrijk vinden. Het zal u dan ook niet verbazen dat wij de urgentie ook consequent zullen steunen in de Kamer, in tegenstelling tot wat daarnet is gebeurd.
+
+
+
+26.04  Sofie Merckx (PVDA-PTB): Madame la présidente, je veux dire que c’est encore une fois la preuve que la lutte peut payer. Le ministre n’avait pas voulu broncher à ce sujet. Il était très sévère. Finalement, une manifestation à laquelle j'étais présente et qui a réuni plus de 600 étudiants s’est tenue devant son cabinet. Ils étaient en colère car rien n’était organisé par rapport au stage.
+
+
+
+Aujourd'hui, enfin, nous voyons arriver cette proposition de loi. Nous sommes très contents et nous en soutiendrons aussi l’urgence.
+
+
+
+La présidente: Je vous propose de nous prononcer sur cette demande.
+
+Ik stel u voor om ons over deze vraag uit te spreken.
+
+
+
+L'urgence est adoptée par assis et levé.
+
+De urgentie wordt aangenomen bij zitten en opstaan.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 27)
+
+### Description in Dutch:
+
+None
+
+### Description in French:
+
+None
+
+
+
+### Discussed proposals:
 
 Motion # 1.
 

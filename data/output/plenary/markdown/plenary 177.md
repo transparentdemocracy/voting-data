@@ -6,4249 +6,2216 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip177.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip177x.html
 
-## Proposal 1
-
-
- 
- 
- 
-28.02  Peter De Roover (N-VA): Het is ons ter ore gekomen dat collega's Jadin en Marghem om
-een goede reden niet aanwezig kunnen zijn. Collega's Buysrogge en Wollants
-zullen hun stemgedrag daarop aanpassen.
-28.02
-28.02
-  Peter De Roover 
-  Peter De Roover 
- 
-(N-VA): Het is ons ter ore gekomen dat collega's Jadin en Marghem om
-een goede reden niet aanwezig kunnen zijn. Collega's Buysrogge en Wollants
-zullen hun stemgedrag daarop aanpassen.
- 
- 
- 
-De voorzitster:
-Dank u wel, mijnheer De Roover.
-De voorzitster:
-Dank u wel, mijnheer De Roover.
-voorzitster
- 
- 
- 
-29 Motions déposées en conclusion de l'interpellation de M. Nabil
-Boukili sur "Les 'avantages' de la carte de victime d'attentat et le
-statut de solidarité nationale" (n° 268)
-29
-29
- Motions déposées en conclusion de l'interpellation de M. Nabil
-Boukili sur "Les 'avantages' de la carte de victime d'attentat et le
-statut de solidarité nationale" (n° 268)
- Motions déposées en conclusion de l'interpellation de M. Nabil
-Boukili sur "Les 'avantages' de la carte de victime d'attentat et le
-statut de solidarité nationale" (n° 268)
-
-29 Moties ingediend
-tot besluit van de interpellatie van de heer Nabil Boukili over "De
-'voordelen' van de slachtofferkaart en het statuut van nationale
-solidariteit" (nr. 268)
-29
-29
-29
- Moties ingediend
-tot besluit van de interpellatie van de heer Nabil Boukili over "De
-'voordelen' van de slachtofferkaart en het statuut van nationale
-solidariteit" (nr. 268)
- Moties ingediend
-tot besluit van de interpellatie van de heer Nabil Boukili over "De
-'voordelen' van de slachtofferkaart en het statuut van nationale
-solidariteit" (nr. 268)
- Moties ingediend
-tot besluit van de interpellatie van de heer Nabil Boukili over "De
-'voordelen' van de slachtofferkaart en het statuut van nationale
-solidariteit" (nr. 268)
-
-
- 
- 
- 
-Cette interpellation a été développée en
-réunion publique de la commission de la Santé et de l'Égalité des chances du
-27 avril 2022.
-Cette interpellation a été développée en
-réunion publique de la commission de la Santé et de l'Égalité des chances du
-27 avril 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Gezondheid en Gelijke Kansen van
-27 april 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Gezondheid en Gelijke Kansen van
-27 april 2022.
- 
- 
- 
-Deux motions ont été déposées
-(MOT n° 268/1):
-Deux motions ont été déposées
-(MOT n° 268/1):
-- une motion de recommandation a été
-déposée par M. Nabil Boukili;
-- une motion de recommandation a été
-déposée par M. Nabil Boukili;
-- une motion pure et simple a été déposée
-par Mme Gitta Vanpeborgh.
-- une motion pure et simple a été déposée
-par Mme Gitta Vanpeborgh.
-Twee moties werden ingediend
-(MOT nr. 268/1):
-Twee moties werden ingediend
-(MOT nr. 268/1):
-- een motie van aanbeveling werd
-ingediend door heer Nabil Boukili;
-- een motie van aanbeveling werd
-ingediend door heer Nabil Boukili;
-- een eenvoudige motie werd ingediend
-door mevrouw Gitta Vanpeborgh.
-- een eenvoudige motie werd ingediend
-door mevrouw Gitta Vanpeborgh.
- 
- 
- 
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote?
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote?
-
-
-Vraagt iemand het woord voor een
-stemverklaring? 
-Vraagt iemand het woord voor een
-stemverklaring? 
-
-
- 
- 
- 
-29.01  Nabil
-Boukili (PVDA-PTB): Madame la présidente, cette
-motion concerne les "avantages" de la carte de victime d'attentat.
-Depuis des années, cette carte devait garantir certains avantages aux victimes
-d'attentats mais, en termes de contenu, elle est encore loin de ce qu'espèrent
-les victimes. Les associations de victimes interpellent sans cesse le
-gouvernement sur cette question, et elles n'ont pas eu de réponse à la hauteur
-de leurs attentes.
-29.01
-29.01
-  
-  
- 
-Nabil
-Boukili 
-Nabil
-Boukili 
-(PVDA-PTB): Madame la présidente, cette
-motion concerne les "avantages" de la carte de victime d'attentat.
-Depuis des années, cette carte devait garantir certains avantages aux victimes
-d'attentats mais, en termes de contenu, elle est encore loin de ce qu'espèrent
-les victimes. Les associations de victimes interpellent sans cesse le
-gouvernement sur cette question, et elles n'ont pas eu de réponse à la hauteur
-de leurs attentes.
- 
- 
- 
-Je fais donc une tentative pour tenter de
-remédier à cette lacune. J'ai déposé une motion de recommandation pour combler
-ce manque. J'espère que le soutien sera unanime puisqu'il s'agit d'une question
-de dignité humaine pour les victimes des attentats que notre pays a connus.
-Je fais donc une tentative pour tenter de
-remédier à cette lacune. J'ai déposé une motion de recommandation pour combler
-ce manque. J'espère que le soutien sera unanime puisqu'il s'agit d'une question
-de dignité humaine pour les victimes des attentats que notre pays a connus.
- 
- 
- 
-La présidente:
-Début du vote / Begin van de stemming.
-La présidente:
-Début du vote / Begin van de stemming.
-présidente
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
+## Proposal discussion (agenda item 16)
 
-Fin du vote
-/ Einde van de stemming.
-Fin du vote
-/ Einde van de stemming.
+### Description in Dutch:
 
-Résultat du
-vote / Uitslag van de stemming.
-Résultat du
-vote / Uitslag van de stemming.
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2573/4)
+Het opschrift in het Frans werd door de commissie gewijzigd in "projet de loi transposant la directive (UE) 2019/1153 du Parlement européen et du Conseil du 20 juin 2019 fixant les règles facilitant l’utilisation d’informations financières et d’une autre nature aux fins de la prévention ou de la détection de certaines infractions pénales, ou des enquêtes ou des poursuites en la matière, et abrogeant la décision 2000/642/JAI du Conseil".
+Het wetsontwerp telt 13 artikelen.
+Er werden geen amendementen ingediend.
+De artikelen 1 tot 13 worden artikel per artikel aangenomen.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
- 
- 
- 
+### Description in French:
 
-## Proposal 2
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2573/4)
+L'intitulé en français a été modifié par la commission en "projet de loi transposant la directive (UE) 2019/1153 du Parlement européen et du Conseil du 20 juin 2019 fixant les règles facilitant l’utilisation d’informations financières et d’une autre nature aux fins de la prévention ou de la détection de certaines infractions pénales, ou des enquêtes ou des poursuites en la matière, et abrogeant la décision 2000/642/JAI du Conseil".
+Le projet de loi compte 13 articles.
+Aucun amendement n'a été déposé.
+Les articles 1 à 13 sont adoptés article par article.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-(Stemming/vote 1)
 
-(Stemming/vote 1)
-(Stemming/vote 1)
-(Stemming/vote 1)
+### Discussed proposals:
 
+## Proposal discussion (agenda item 17)
 
+### Description in Dutch:
 
-Ja
+Propositions déposées par:
 
+Voorstellen ingediend door:
 
-75
+- 1376: Els Van Hoof
 
+- 537: Catherine Fonck.
 
-Oui
 
 
+Discussion
 
-Ja
+Bespreking
 
-Ja
-Ja
 
 
-75
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (1376/6)
 
-75
-75
+De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (1376/6)
 
 
-Oui
 
-Oui
-Oui
+L'intitulé a été modifié par la commission en "proposition de résolution visant à mettre en place un trajet de soins pour les personnes souffrant de démence précoce à un stade modéré à avancé".
 
+Het opschrift werd door de commissie gewijzigd in "voorstel van resolutie tot een zorgtraject voor personen met dementie op jonge leeftijd in een matig tot vergevorderd stadium".
 
 
-Nee
 
+La discussion est ouverte.
 
-51
+De bespreking is geopend.
 
 
-Non
 
+17.01  Gitta Vanpeborgh, rapporteur: Mevrouw de voorzitster, ik zal kort verslag uitbrengen gezien de drukke agenda.
 
 
-Nee
 
-Nee
-Nee
+Het verslag heeft betrekking op twee resoluties: het voorstel van resolutie over het verzoek aan de federale regering om een 'Plan ziekte van Alzheimer, dementie en aanverwante ziekten' uit te werken van mevrouw Fonck van Les Engagés, en het voorstel van resolutie tot het sluiten van een overeenkomst betreffende een programma voor de tenlasteneming van patiënten die lijden aan dementie op jonge leeftijd in een matig-gevorderd stadium.
 
 
-51
 
-51
-51
+De vergaderingen hebben plaatsgevonden op 15 juni, 21 september en 5 oktober 2021, en op 19 april 2022.
 
 
-Non
 
-Non
-Non
+Tijdens de vergadering van 15 juni 2021 heeft mevrouw Fonck gevraagd om haar voorstel van resolutie toe te voegen aan de bespreking van het voorstel van resolutie van mevrouw Van Hoof.
 
 
 
-Onthoudingen
+Op de vergadering van 19 april 2022 heeft de commissie beslist om het voorstel van resolutie van mevrouw Els Van Hoof als basis voor de bespreking te nemen.
 
 
-2
 
+Tijdens de vergaderingen van 15 juni en 21 september werd beslist om schriftelijke adviezen in te winnen. Ik zal ze niet overlopen, maar ze hebben in ieder geval bijgedragen aan een vruchtbare discussie in de commissie voor Gezondheid en Gelijke Kansen.
 
-Abstentions
 
 
+Ik ga niet dieper in op de inleidende uiteenzettingen, noch op de algemene bespreking, noch op de bespreking. Dit is allemaal terug te vinden in het verslag van de consideransen en van het verzoekende gedeelte of de amendementen. Het is duidelijk dat er wel wat amendementen zijn ingediend, besproken en gestemd.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+Ik wil dit verslag afsluiten met te stellen dat het voorstel van resolutie met inbegrip van alle amendementen, van de technische verbeteringen bij naamstemming uiteindelijk eenparig werd aangenomen.
 
-2
 
-2
-2
 
+17.02  Kathleen Depoorter (N-VA): Mevrouw de voorzitster, collega's, een voorstel van resolutie voor het behandelen en ondersteunen van patiënten die lijden aan dementie op jonge leeftijd is uiteraard iets wat de N-VA-fractie zal steunen.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Dit is immers een zeer zwaar probleem. Patiënten die op jongere leeftijd geconfronteerd worden met één van de vele vormen van dementie komen vaak terecht in een heel moeilijke familiale situatie, en in een heel moeilijke zorgsituatie. Die vereist een interdisciplinaire aanpak, die vereist heel veel expertise. Bovendien hebben die patiënten vaak nog een gezin waar zij voor moeten zorgen en waar zij wegvallen.
 
 
-Totaal
 
+Zeker op het moment dat de diagnose al is gesteld en die patiënten op het kruispunt komen tussen normaal voort functioneren en echt ziek worden, slaat de paniek toe in de getroffen gezinnen. Wij moeten dat als maatschappij absoluut inzien, en wij moeten hen ondersteunen, zowel op financieel vlak als op zorgvlak.
 
-128
 
 
-Total
+Wij moeten ervoor zorgen dat de signalen van de zorgverstrekkers voldoende snel worden opgevangen en dat de patiënt de nodige zorg krijgt.
 
 
 
-Totaal
+Er zijn verschillende stadia in deze ziekte: het stadium waarin men nog thuis woont, het stadium waarin men naar een dagorganisatie gaat, en uiteindelijk het stadium waarin men opgenomen wordt.
 
-Totaal
-Totaal
 
 
-128
+De N-VA-fractie heeft al vaker aangekaart dat de volledige organisatie van de geestelijke gezondheidszorg steun zou moeten krijgen. Wij hebben ook een bijkomend voorstel van resolutie ingediend waarin wij de problemen in de geestelijke gezondheidszorg aankaarten. Wij doen daarin een aantal concrete voorstellen om de patiënten beter te begeleiden. Daarin hebben wij het ook over de patiënten met dementie, jongdementie.
 
-128
-128
 
 
-Total
+Wij stellen heel duidelijk dat patiënten met jongdementie heel vaak uit de boot vallen. Patiënten met jongdementie vallen niet onder patiënten met een beperking, en ondervinden daardoor een aantal substantiële nadelen ten opzichte van andere patiënten. Wij zien heel duidelijk dat de psychologische zorg ontoereikend is. Bepaalde psychologische en psychiatrische zorg valt niet onder de regeling voor de verzekeringsproducten. De kosten voor deze families zijn dus zeer groot, en ook de zorglast is voor deze families zeer groot.
 
-Total
-Total
 
- 
- 
- 
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? 
-(Non)
-(Non)
 
+Een psychiatrische opname van langer dan een jaar komt ook niet in aanmerking voor de maximumfactuur. Onze fractie heeft daarvoor amendementen ingediend waarop ik later terugkom.
 
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
 
 
- 
- 
- 
-30 Motions déposées en conclusion de l'interpellation de Mme Ellen
-Samyn sur "L'application du tantième préférentiel au sein des Douanes et
-Accises" (n° 273)
-30
-30
- Motions déposées en conclusion de l'interpellation de Mme Ellen
-Samyn sur "L'application du tantième préférentiel au sein des Douanes et
-Accises" (n° 273)
- Motions déposées en conclusion de l'interpellation de Mme Ellen
-Samyn sur "L'application du tantième préférentiel au sein des Douanes et
-Accises" (n° 273)
+In de resolutie wordt ook heel veel verwezen naar de deelstaten, collega's. Sta mij toch even toe om u er nogmaals op te wijzen dat het heel wat eenvoudiger zou zijn voor de patiënt, de organiserende overheid en de zorgverstrekkers als de deelstaten bevoegd zouden zijn voor een homogeen pakket Volksgezondheid.. Dat zou absoluut het antwoord moeten zijn.
 
-30 Moties ingediend
-tot besluit van de interpellatie van mevrouw Ellen Samyn over "De
-toepassing van het preferentiële tantième binnen de Douane en Accijnzen"
-(nr. 273)
-30
-30
-30
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Ellen Samyn over "De
-toepassing van het preferentiële tantième binnen de Douane en Accijnzen"
-(nr. 273)
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Ellen Samyn over "De
-toepassing van het preferentiële tantième binnen de Douane en Accijnzen"
-(nr. 273)
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Ellen Samyn over "De
-toepassing van het preferentiële tantième binnen de Douane en Accijnzen"
-(nr. 273)
-
-
- 
- 
- 
-Cette interpellation a été développée en
-réunion publique de la commission des Affaires sociales, de l'Emploi et des
-Pensions du 27 avril 2022.
-Cette interpellation a été développée en
-réunion publique de la commission des Affaires sociales, de l'Emploi et des
-Pensions du 27 avril 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Sociale Zaken, Werk en Pensioenen
-van 27 april 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Sociale Zaken, Werk en Pensioenen
-van 27 april 2022.
- 
- 
- 
-Deux motions ont été déposées
-(MOT n° 273/1):
-Deux motions ont été déposées
-(MOT n° 273/1):
-- une motion de recommandation a été
-déposée par Mme Ellen Samyn;
-- une motion de recommandation a été
-déposée par Mme Ellen Samyn;
-- une motion pure et simple a été déposée
-par Mme Sophie Thémont.
-- une motion pure et simple a été déposée
-par Mme Sophie Thémont.
-Twee moties werden ingediend
-(MOT nr. 273/1):
-Twee moties werden ingediend
-(MOT nr. 273/1):
-- een motie van aanbeveling werd
-ingediend door mevrouw Ellen Samyn;
-- een motie van aanbeveling werd
-ingediend door mevrouw Ellen Samyn;
-- een eenvoudige motie werd ingediend
-door mevrouw Sophie Thémont.
-- een eenvoudige motie werd ingediend
-door mevrouw Sophie Thémont.
- 
- 
- 
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote?
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote?
-
-
-Vraagt iemand het woord voor een
-stemverklaring?
-Vraagt iemand het woord voor een
-stemverklaring?
-
-
- 
- 
- 
-30.01  Ellen Samyn (VB):
-Mevrouw de voorzitster, bij de afschaffing van de binnengrenzen van de Europese
-Gemeenschap in 1993 werden de douaniers opgenomen in de personeelsformaties van
-de motorbrigades. Personeelsleden van niveau 2 en 2+ die werden opgenomen
-in die motorbrigades krijgen evenwel niet hetzelfde voordelige tantième voor de
-pensioenberekening als hun collega's opgenomen in niveau 3.
-30.01
-30.01
-  Ellen Samyn 
-  Ellen Samyn 
- 
-(VB):
-Mevrouw de voorzitster, bij de afschaffing van de binnengrenzen van de Europese
-Gemeenschap in 1993 werden de douaniers opgenomen in de personeelsformaties van
-de motorbrigades. Personeelsleden van niveau 2 en 2+ die werden opgenomen
-in die motorbrigades krijgen evenwel niet hetzelfde voordelige tantième voor de
-pensioenberekening als hun collega's opgenomen in niveau 3.
- 
- 
- 
-Begin 2019 sprak het Grondwettelijk Hof zich
-uit over deze situatie. De regeling voor de personeelsleden van niveau 2
-en 2+ wordt als ongrondwettelijk beschouwd. Het beginsel van gelijkheid en
-niet-discriminatie wordt geschonden omdat de betrokkenen van niveau 2 en
-2+ hetzelfde werk uitvoeren als de personeelsleden van niveau 3. Beide
-niveaus voeren identieke prestaties uit en hebben dus dezelfde plichten, maar
-worden aan het einde van de rit verschillend behandeld bij de berekening van hun
-pensioen.
-Begin 2019 sprak het Grondwettelijk Hof zich
-uit over deze situatie. De regeling voor de personeelsleden van niveau 2
-en 2+ wordt als ongrondwettelijk beschouwd. Het beginsel van gelijkheid en
-niet-discriminatie wordt geschonden omdat de betrokkenen van niveau 2 en
-2+ hetzelfde werk uitvoeren als de personeelsleden van niveau 3. Beide
-niveaus voeren identieke prestaties uit en hebben dus dezelfde plichten, maar
-worden aan het einde van de rit verschillend behandeld bij de berekening van hun
-pensioen.
- 
- 
- 
-In de commissie interpelleerde ik minister
-Lalieux over deze onrechtvaardigheid. Zij kondigde aan dat er binnenkort een
-wetsontwerp zou worden besproken in de commissie voor Sociale Zaken om dit
-euvel recht te zetten. 
-In de commissie interpelleerde ik minister
-Lalieux over deze onrechtvaardigheid. Zij kondigde aan dat er binnenkort een
-wetsontwerp zou worden besproken in de commissie voor Sociale Zaken om dit
-euvel recht te zetten. 
- 
- 
- 
-Mijn partij is verheugd dat er eindelijk
-werk zal worden gemaakt van het probleem, maar het is betreurenswaardig dat de
-betrokken douaniers zo lang hebben moeten wachten op die rechtzetting, namelijk
-sinds 1993. Laten wij immers niet vergeten van welk belang de dienst Douane en
-Accijnzen is. Bijna wekelijks vernemen wij in hoeraberichten dat Douane en
-Accijnzen weer eens een grote lading drugs heeft onderschept. Die mensen
-riskeren letterlijk elke dag hun leven. Zij worden geconfronteerd met criminele
-bendes en zware misdaad en strijden bovendien met ongelijke wapens.
-Mijn partij is verheugd dat er eindelijk
-werk zal worden gemaakt van het probleem, maar het is betreurenswaardig dat de
-betrokken douaniers zo lang hebben moeten wachten op die rechtzetting, namelijk
-sinds 1993. Laten wij immers niet vergeten van welk belang de dienst Douane en
-Accijnzen is. Bijna wekelijks vernemen wij in hoeraberichten dat Douane en
-Accijnzen weer eens een grote lading drugs heeft onderschept. Die mensen
-riskeren letterlijk elke dag hun leven. Zij worden geconfronteerd met criminele
-bendes en zware misdaad en strijden bovendien met ongelijke wapens.
- 
- 
- 
-Het mag ook eens gezegd worden dat deze
-dienst al jaren stiefmoederlijk wordt behandeld. De dienst is niet alleen
-onderbemand maar heeft ook een gebrek aan degelijke apparatuur zoals scanners
-en aan beschermingsmaterieel zoals kogelvrije vesten. Zo zijn er nog talrijke
-voorbeelden. Dat maakt dat de betrokkenen hun werk in erg precaire
-omstandigheden moeten uitvoeren, hoewel zij een noodzakelijke taak uitvoeren in
-dit land om de handel te beschermen. Bovendien genereren zij ook heel wat
-inkomsten voor de Belgische schatkist.
-Het mag ook eens gezegd worden dat deze
-dienst al jaren stiefmoederlijk wordt behandeld. De dienst is niet alleen
-onderbemand maar heeft ook een gebrek aan degelijke apparatuur zoals scanners
-en aan beschermingsmaterieel zoals kogelvrije vesten. Zo zijn er nog talrijke
-voorbeelden. Dat maakt dat de betrokkenen hun werk in erg precaire
-omstandigheden moeten uitvoeren, hoewel zij een noodzakelijke taak uitvoeren in
-dit land om de handel te beschermen. Bovendien genereren zij ook heel wat
-inkomsten voor de Belgische schatkist.
- 
- 
- 
-Aangezien er nog steeds geen wetsontwerp op
-tafel ligt, dring ik er met mijn motie op aan dat er zo snel mogelijk een
-gunstiger tantième voor de berekening van het pensioen van de
-douanepersoneelsleden van niveau 2 en 2+ wordt doorgevoerd. Het is niet meer
-dan logisch en rechtvaardig dat dit euvel wordt rechtgezet. Ik reken dan ook op
-de unanieme steun van dit halfrond.
-Aangezien er nog steeds geen wetsontwerp op
-tafel ligt, dring ik er met mijn motie op aan dat er zo snel mogelijk een
-gunstiger tantième voor de berekening van het pensioen van de
-douanepersoneelsleden van niveau 2 en 2+ wordt doorgevoerd. Het is niet meer
-dan logisch en rechtvaardig dat dit euvel wordt rechtgezet. Ik reken dan ook op
-de unanieme steun van dit halfrond.
- 
- 
- 
-La présidente:
-Début du vote / Begin van de stemming.
-La présidente:
-Début du vote / Begin van de stemming.
-présidente
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
 
-Fin du vote
-/ Einde van de stemming.
-Fin du vote
-/ Einde van de stemming.
 
-Résultat du
-vote / Uitslag van de stemming.
-Résultat du
-vote / Uitslag van de stemming.
+Het is toch wel bijzonder dat daarvan volgens de ene partij in het regeerakkoord gewag gemaakt wordt en volgens de andere partij dan weer niet. Evenmin kunnen we vandaag, 2,5 jaar na datum, een vereenvoudiging van de organisatie van de gezondheidszorg vaststellen.
 
- 
- 
- 
 
-## Proposal 3
 
+Waarom verwijs ik naar het regeerakkoord, collega's? Bijzonder in dit voorstel van resolutie is considerans D. Die verwijst naar het regeerakkoord waarin onderzoek naar een zorgtraject voor personen met jongdementie is opgenomen. Nu vind ik het toch bijzonder dat mensen die deel uitmaken van de meerderheid met een resolutie hun eigen regering moeten aansporen om het regeerakkoord uit te voeren. Dat kan uiteraard en wij zijn een partner om daarover na te denken. Nog raarder – ik heb de beleidsnota van 2020 er nog eens bijgenomen – is  dat het woord dementie, jongdementie of alzheimer er helemaal niet in voorkomt. Ik stel dus vast dat jongdementie een heel belangrijke prioriteit is voor een, weliswaar, kleinere partner binnen de regering, maar dat deze partner toch niet voldoende overredingskracht had om binnen de ministerraad de minister van Volksgezondheid aan te zetten om werk te maken van wat er in het regeerakkoord staat en van wat er voor een bepaalde groep patiënten essentieel is in hun zorgtraject.
 
-(Stemming/vote 2)
 
-(Stemming/vote 2)
-(Stemming/vote 2)
-(Stemming/vote 2)
 
+Wij zullen het voorstel van resolutie, zoals gezegd, steunen, maar ik zou graag nog twee amendementen aanstippen die de meerderheid niet heeft goedgekeurd en waarvoor ik geen wetenschappelijke, ethische of andere argumentatie heb kunnen vinden.
 
 
-Ja
 
+Een van onze amendementen kwam er na het advies van de Alzheimer Liga Vlaanderen en vraagt om de thuiszorg van patiënten met jongdementie beter te organiseren. Ik heb dat punt al vaker in de commissie aangehaald. Psychiatrische thuisverpleegkundigen kunnen een heel belangrijke rol spelen in de omkadering van patiënten met jongdementie. Er zijn echter maar twee nomenclaturen die hiervoor in voege zijn. Ik heb minister Vandenbroucke herhaaldelijk gezegd dat een uitbreiding van de nomenclaturen en van de zorgtaak van de psychiatrische thuisverpleegkundigen een essentieel verschil zou kunnen vormen voor patiënten met jongdementie. Hoe langer die patiënten in de thuiscontext kunnen worden opgevangen, hoe beter voor de maatschappij in veel gevallen en hoe warmer voor de familie. Het is toch heel jammer dat een dergelijk gefundeerd voorstel dat afkomstig is van de Alzheimer Liga Vlaanderen, die heel veel expertise heeft opgebouwd, niet werd goedgekeurd.
 
-80
 
 
-Oui
+Een tweede amendement dat door mijn fractie werd ingediend en niet werd goedgekeurd, gaat over de financiële omkadering. Alle partijen erkennen dat psychiatrische opnames van langer dan een jaar niet onder de maximumfactuur vallen. Collega's, u zegt daarover dat dit een gefundeerd debat verdient, maar dat hebben wij gehouden in de commissie en u erkent het probleem, dus het is toch jammer dat wij er niets aan doen en dat het niet werd meegenomen. Uiteindelijk gaat het immers over een voorstel van resolutie en bent u perfect bij machte om te vragen dat wordt onderzocht of de kosten voor patiënten die langdurig worden opgenomen in een psychiatrisch ziekenhuis, ook onder de maximumfactuur kunnen vallen. Ten tweede, ook de verzekeringsproducten zijn niet inbegrepen. Hospitalisatieverzekeringen kunnen niet in het kader van een psychiatrische of psychologische problematiek worden gebruikt. Dat leidt ertoe dat veel patiënten met toch een zeer zware problematiek in de kou blijven staan.
 
 
 
-Ja
+17.03  Patrick Prévot (PS): Chers collègues, quelques mots pour dire que, comme nous l'avons fait en commission, nous soutiendrons le texte de Mme Van Hoof. Nous avons d'ailleurs travaillé à la rédaction de plusieurs amendements avec d'autres collègues pour améliorer la portée de cette résolution et cela notamment sur la base des avis que nous avions reçus. Cette résolution est importante puisqu'elle permet de structurer la prise en charge des patients atteints de démence précoce via notamment la mise en place d'un trajet de soins, comme le prévoit d'ailleurs l'accord de gouvernement. Une attention spécifique, en tout cas particulière, devra également être apportée à la continuité des soins entre l'hospitalier, le résidentiel et le domicile afin que l'ensemble du territoire soit couvert de manière efficiente en matière de soins proposés. L'implication des entités fédérées dans le cadre de la prise en charge de l'accompagnement et du soutien de ces patients est évidemment essentielle. On l'a dit et répété au sein de la commission. Elle est essentielle vu la répartition des compétences en la matière et il faudra donc une collaboration et une concertation très importante avec celles-ci. On le sait. Je l'ai dit et cela a été rappelé dans le cadre des travaux notamment. Un travail y est déjà réalisé ou est en tout cas en cours de réalisation puisque la prise en charge de la démence précoce fait notamment partie de la déclaration de politique régionale du côté wallon. Voilà chers collègues, je ne serai pas beaucoup plus long et je remercie une nouvelle fois les collègues pour le travail mené.
 
-Ja
-Ja
 
 
-80
+17.04  Dominiek Sneppe (VB): Collega's, dit voorstel is een eerste aanzet om het probleem van dementie en specifiek jongdementie op de agenda te zetten, wat het Vlaams Belang met veel plezier steunt. We hopen evenwel dat het niet alleen bij deze resolutie stopt en dat de regering hiervan werk zal maken, uiteraard samen met de deelstaten en in overleg met alle betrokkenen. We hopen ook dat het Vlaams dementieplan verder zal worden uitgerold, maar dat is natuurlijk iets voor in het Vlaams Parlement.
 
-80
-80
 
 
-Oui
+Collega's, ook in dit dossier zit weer een communautair probleempje. Daarvoor verwijs ik naar de opmerkingen van het RIZIV, waarin een situatieschets wordt gegeven van de toestand na de zesde staatshervorming. Zo blijkt dat het RIZIV de kostprijs van de volledige zorg van patiënten betaalt, die verblijven in instellingen die ondertussen volledig tot de bevoegdheid van de deelstaten behoort. Only in Belgium, zou ik zeggen. Ook de juridische dienst van de Kamer verwijst hier naar de bevoegdheidsverdeling.
 
-Oui
-Oui
 
 
+Het beste zou zijn, althans volgens ons, dat niet alleen de bevoegdheden naar de deelstaten worden overgedragen, maar dat daaraan ook de nodige budgetten worden gekoppeld. Vlaanderen heeft immers een geüpdatet dementieplan, alleen ligt de financiering voor terugbetalingen, nomenclatuurverstrekking enzovoort nog grotendeels op federaal niveau. Dat is voor het Vlaams Belang niet logisch en al zeker niet efficiënt. Mevrouw Fonck legt met haar amendementen nog eens de vinger op de wonde. Vlaanderen pakt het probleem aan met een heus dementieplan. In Wallonië moet de eerste letter nog op papier worden gezet.
 
-Nee
 
 
-47
+Collega's, dit voorstel is een goede aanzet om het probleem van jongdementie op de agenda te zetten. Dat is meer dan nodig, maar we hopen dat het niet bij deze resolutie blijft.
 
 
-Non
 
+17.05  Els Van Hoof (CD&V): Mevrouw de voorzitster, collega's, ik wil mijn uiteenzetting graag beginnen door de resolutie op te dragen aan een gewezen diensthoofd in het Parlement, in de Kamer. De persoon in kwestie was een bibliothecaris bij wie jongdementie werd vastgesteld toen hij 59 jaar was. Hij is twee jaar geleden helaas op veel te jonge leeftijd overleden. Ik ontmoette Paul in Leuven, in woon-zorgcentrum De Wingerd. Hij was één van de inspiratiebronnen die aan de basis van deze resolutie liggen.
 
 
-Nee
 
-Nee
-Nee
+Mensen die deze diagnose krijgen, krijgen vaak te maken met misverstanden, onbegrip en moeten veel te snel hun job opgeven. Nochtans verdienen ook zij levenskwaliteit. Nochtans is het belangrijk te beseffen dat zij veel dingen wel nog kunnen, door het mooie VRT-programma Restaurant Misverstand hebben we dat vastgesteld.
 
 
-47
 
-47
-47
+Om de problematiek even in kaart te brengen, kan ik zeggen dat men in België bij ongeveer 5.500 mensen de diagnose vaststelt vóór de leeftijd van 65 jaar. Er zijn inderdaad ernstige moeilijkheden op het lichamelijke, cognitieve, gedragsmatige en psychiatrische niveau. Deze leiden tot geheugenverlies en veranderingen op vlak van persoonlijkheid en stemmings­wisselingen.
 
 
-Non
 
-Non
-Non
+Daardoor is interdisciplinaire zorg nodig, zowel op het vlak van thuis- of dagzorg, in ziekenhuizen en in woon-zorgcentra. Bovendien verloopt het aftakelingsproces bij personen met jongdementie veel sneller dan bij mensen bij wie dementie pas op latere leeftijd wordt vastgesteld. De zorgvragen zijn bijgevolg ook veel groter dan bij ouderen met dementie.
 
 
 
-Onthoudingen
+Het probleem is – dat hebben we ook kunnen vaststellen bij het lezen van de talrijke adviezen die we hebben ontvangen – dat er zeer veel zorgvragen zijn waar geen antwoord op wordt geboden. Ik denk dat iemands wereld instort op het ogenblik waarop de diagnose wordt vastgesteld. Ik denk dat we onvoldoende ondersteuning voorzien voor de patiënten en hun families.
 
 
-2
 
+Het is een lappendeken dat vandaag bestaat uit tegemoetkomingen waarnaar zelf moet worden gezocht door patiënten met jongdementie en vooral voor hun naasten. Bovendien is het niet alleen complex, maar ook onvoldoende. Het is ook verspreid over verschillende beleidsniveaus. Daar is al afdoende naar verwezen.
 
-Abstentions
 
 
+Bovendien is er een groot verschil tussen Vlaanderen, Wallonië en Brussel op vlak van het aanbod en initiatieven. Er is inderdaad een Vlaams dementieplan. De heer Vandeurzen heeft destijds gespecialiseerde zorg voorzien in verschillende woon-zorgcentra en heeft ook een terugbetaling voorzien van de factuur. Dat is een heel belangrijk signaal. Heel wat initiatieven, ook in Vlaanderen, moeten echter leven van het verkopen van wijn of pannenkoeken om dagelijkse ondersteuning te voorzien aan personen met jongdementie en hun familie. Zij zijn dus afhankelijk van benefieten. Dat kan toch niet in een welvarend land zoals België. We moeten dus een stukje financieel soelaas bieden voor mensen die thuis verblijven of in een dagverzorgingscentrum of ziekenhuis verblijven, en niet alleen in een woon-zorgcentrum. Er moet ook aan expertisedeling worden gedaan. Daar is ongelooflijk veel nood aan.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+Met deze resolutie wil de CD&V een sterke basis leggen voor de gespecialiseerde zorg en financiële ondersteuning organiseren voor patiënten, hun families en mantelzorgers en die beter inrichten. Ik heb deze resolutie destijds opgemaakt, samen met De Wingerd, en heb verwezen naar de bibliothecaris van het Parlement. Woonzorgnet-Dijleland en het Expertisecentrum Dementie Vlaanderen hebben hier ook aan meegewerkt. Zij zijn heel blij met deze resolutie. Er wordt inderdaad verwezen naar het regeerakkoord, maar het Parlement moet een dubbel signaal geven en werken naar die concrete uitwerking. We mogen dit niet op de lange baan schuiven. Er staat heel wat in het regeerakkoord om te onderzoeken. Wij hebben het hier meer concreet gemaakt.
 
-2
 
-2
-2
 
+In de commissie werd ook een interessante discussie gevoerd. De amendementen waren ook interessant. Er zijn daarnaast schriftelijke adviezen geweest. Bij het voeren van het onderzoek mogen we geen voorafnamen doen, maar we moeten die elementen meenemen en onderzoeken. Dan moeten we kijken welk het beste zorgtraject zou kunnen zijn voor personen met jongdementie.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Er zijn daarover inderdaad verwijzingen in het regeerakkoord. Ook in het Vlaams dementieplan werd belang gehecht aan wat het federale niveau ter zake zal doen. Belangrijk is dat wij nu de opdracht geven aan het Federaal Kenniscentrum, de FOD Volksgezondheid en het RIZIV, om de best practices, die wel bestaan, zij het versnipperd over Vlaanderen, een beetje Brussel en Wallonië, in kaart te brengen, teneinde te bekijken op welke manier wij daar het best mee omgaan.
 
 
-Totaal
 
+Wij doen dat niet loos. Ik heb immers al heel veel resoluties goedgekeurd in het Parlement. Hier is echter een deadline aan gekoppeld. Een en ander moet binnen het jaar gebeuren. Uiterlijk voor juni 2023 moeten wij een zicht hebben op de best practices maar ook op het onderzoek naar het beste zorgtraject dat zal worden gevoerd. Ik heb heel veel amendementen gezien, onder andere van mevrouw Fonck maar ook van mevrouw Depoorter. Daaraan moet echter invulling worden gegeven in het onderzoek. Ze moeten ook worden meegenomen, om na te gaan of het om goede elementen gaat die wij kunnen opnemen in een zorgtraject. Ik kan ook een aantal voorbeelden geven. Laat ons echter het onderzoek afwachten, waarop een duidelijke timing en deadline staat.
 
-129
 
 
-Total
+Belangrijk is ook dat het in overleg gebeurt met degenen die ervaring hebben, zoals de betrokken stakeholders, de patiënten, de naasten en de mantelzorgers. Belangrijk is uiteraard ook dat wij ervoor zorgen dat expertise wordt opgebouwd. Ik verwijs heel concreet naar een punt dat voor de meerderheid van belang was, namelijk het verwijzen naar de referentiearts. Wij hebben referentieartsen voor woon-zorgcentra die hun kennis delen. Op andere niveaus gebeurt dat echter niet. Ook Vlaanderen bekijkt nu om dat te organiseren op het niveau van de huisartsen en van de thuiszorg.
 
 
 
-Totaal
+Ook het federale niveau heeft een verantwoordelijkheid, om dat te organiseren op het niveau van de ziekenhuizen en ervoor te zorgen dat voor jongdementie, waarvan weinig artsen kennis hebben, kennis wordt gedeeld in bepaalde regio's en er een outreach gebeurt naar de zorginstellingen alsook dat verbinding wordt gemaakt met de patiënten, hun naasten en de eerstelijnszorg. Die expertisedeling is van bijzonder belang. Wij willen natuurlijk alle doelgroepen daarbij betrekken. In de resolutie wordt ook gewag gemaakt van het gematigde tot vergevorderde stadium. Wij bedoelen daarmee dat vanaf thuis tot in het dagverzorgingscentrum, het woon-zorgcentrum en in het ziekenhuis de patiënt moet worden vastgegrepen samen met zijn of haar mantelzorger.
 
-Totaal
-Totaal
-
-
-129
-
-129
-129
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
-
-
- 
- 
- 
- 
-(Mevrouw Ellen Samyn heeft tegengestemd)
-(Mevrouw Ellen Samyn heeft tegengestemd)
-(Mevrouw Ellen Samyn heeft tegengestemd)
-
- 
- 
- 
-31 Motions déposées en conclusion de l'interpellation de Mme Katleen
-Bury sur "Le traitement des dossiers de fraude à Bruxelles"
-(n° 275)
-31
-31
- Motions déposées en conclusion de l'interpellation de Mme Katleen
-Bury sur "Le traitement des dossiers de fraude à Bruxelles"
-(n° 275)
- Motions déposées en conclusion de l'interpellation de Mme Katleen
-Bury sur "Le traitement des dossiers de fraude à Bruxelles"
-(n° 275)
-
-31 Moties ingediend
-tot besluit van de interpellatie van mevrouw Katleen Bury over "De behandeling
-van fraudedossiers in Brussel" (nr. 275)
-31
-31
-31
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Katleen Bury over "De behandeling
-van fraudedossiers in Brussel" (nr. 275)
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Katleen Bury over "De behandeling
-van fraudedossiers in Brussel" (nr. 275)
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Katleen Bury over "De behandeling
-van fraudedossiers in Brussel" (nr. 275)
-
-
- 
- 
- 
-Cette interpellation a été développée en
-réunion publique de la commission de la Justice du 27 avril 2022.
-Cette interpellation a été développée en
-réunion publique de la commission de la Justice du 27 avril 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Justitie van
-27 april 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Justitie van
-27 april 2022.
- 
- 
- 
-Deux motions ont été déposées
-(MOT n° 275/1):
-Deux motions ont été déposées
-(MOT n° 275/1):
-- une motion de recommandation a été
-déposée par Mme Katleen Bury;
-- une motion de recommandation a été
-déposée par Mme Katleen Bury;
-- une motion pure et simple a été déposée
-par Mme Katja Gabriëls.
-- une motion pure et simple a été déposée
-par Mme Katja Gabriëls.
-Twee moties werden ingediend
-(MOT nr. 275/1):
-Twee moties werden ingediend
-(MOT nr. 275/1):
-- een motie van aanbeveling werd
-ingediend door mevrouw Katleen Bury;
-- een motie van aanbeveling werd
-ingediend door mevrouw Katleen Bury;
-- een eenvoudige motie werd ingediend
-door mevrouw Katja Gabriëls.
-- een eenvoudige motie werd ingediend
-door mevrouw Katja Gabriëls.
- 
- 
- 
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-
-
-Vraagt iemand het woord voor een
-stemverklaring? 
-Vraagt iemand het woord voor een
-stemverklaring? 
-
-
- 
- 
- 
-31.01  Katleen Bury (VB):
-Mevrouw de voorzitster, collega's, bij gebrek aan gespecialiseerde speurders
-heeft de federale gerechtelijke politie van Brussel de afgelopen zes maanden
-beslist om 53 dossiers niet verder te onderzoeken.
-31.01
-31.01
-  Katleen Bury 
-  Katleen Bury 
- 
-(VB):
-Mevrouw de voorzitster, collega's, bij gebrek aan gespecialiseerde speurders
-heeft de federale gerechtelijke politie van Brussel de afgelopen zes maanden
-beslist om 53 dossiers niet verder te onderzoeken.
- 
- 
- 
-In september 2021 heeft
-procureur-generaal Delmulle ons al gewaarschuwd dat het Brussels gerecht
-gedwongen zou zijn om keuzes te maken in de strijd tegen financiële fraude. In
-2014 werkten daar 103 speurders, op 1 september 2021 nog 87. Ook
-bij het hof van beroep is de achterstand in de strafzaken niet meer te
-overzien.
-In september 2021 heeft
-procureur-generaal Delmulle ons al gewaarschuwd dat het Brussels gerecht
-gedwongen zou zijn om keuzes te maken in de strijd tegen financiële fraude. In
-2014 werkten daar 103 speurders, op 1 september 2021 nog 87. Ook
-bij het hof van beroep is de achterstand in de strafzaken niet meer te
-overzien.
- 
- 
- 
-Sinds 12 oktober trieert het Brussels
-gerecht elke maand alle dossiers van economisch-financiële criminaliteit. Er
-zijn drie scores. Score 1 is prioriteit, score 2 routine en
-score 3 dossiers die niet langer worden onderzocht. De voorbije zes
-maanden zijn al 290 lopende dossiers getrieerd en minstens de helft ervan
-kreeg een score 3. Dat is waanzin. Ik heb het hier over fiscale fraude,
-sociale fraude, fraude door faillissementen, betaalkaartfraude, onderzoek naar
-het verborgen vermogen van veroordeelde criminelen en elk Europees
-onderzoeksbevel of internationaal rechtshulpverzoek dat niet meer automatisch
-wordt uitgevoerd.
-Sinds 12 oktober trieert het Brussels
-gerecht elke maand alle dossiers van economisch-financiële criminaliteit. Er
-zijn drie scores. Score 1 is prioriteit, score 2 routine en
-score 3 dossiers die niet langer worden onderzocht. De voorbije zes
-maanden zijn al 290 lopende dossiers getrieerd en minstens de helft ervan
-kreeg een score 3. Dat is waanzin. Ik heb het hier over fiscale fraude,
-sociale fraude, fraude door faillissementen, betaalkaartfraude, onderzoek naar
-het verborgen vermogen van veroordeelde criminelen en elk Europees
-onderzoeksbevel of internationaal rechtshulpverzoek dat niet meer automatisch
-wordt uitgevoerd.
- 
- 
- 
-Het gaat hier over enorm veel geld, geld dat
-heel nuttig zou zijn voor Justitie en waarnaar men gewoonweg niet meer zoekt.
-Bovendien vreest de procureur-generaal dat zelfs dossiers met een
-triagescore 2 binnenkort niet of veel te laat zullen worden behandeld.
-Het gaat hier over enorm veel geld, geld dat
-heel nuttig zou zijn voor Justitie en waarnaar men gewoonweg niet meer zoekt.
-Bovendien vreest de procureur-generaal dat zelfs dossiers met een
-triagescore 2 binnenkort niet of veel te laat zullen worden behandeld.
- 
- 
- 
-Vandaar deze hoogstnoodzakelijke motie om op
-korte termijn de nodige maatregelen te nemen zodat de federale gerechtelijke
-politie over voldoende manschappen kan beschikken om alle nodige
-strafrechtelijke onderzoeken te voeren, zodat Justitie een beleid kan voeren
-met de juiste prioriteiten en zodat minister Van Quickenborne het follow
-the money-principe uit zijn beleidsnota eindelijk toepast, de
-straffeloosheid aanpakt en het vertrouwen in Justitie herstelt.
-Vandaar deze hoogstnoodzakelijke motie om op
-korte termijn de nodige maatregelen te nemen zodat de federale gerechtelijke
-politie over voldoende manschappen kan beschikken om alle nodige
-strafrechtelijke onderzoeken te voeren, zodat Justitie een beleid kan voeren
-met de juiste prioriteiten en zodat minister Van Quickenborne het follow
-the money-principe uit zijn beleidsnota eindelijk toepast, de
-straffeloosheid aanpakt en het vertrouwen in Justitie herstelt.
-follow
-the money-
- 
- 
- 
-La présidente:
-Début du vote / Begin van de stemming.
-La présidente:
-Début du vote / Begin van de stemming.
-présidente
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
-
-Fin du vote
-/ Einde van de stemming.
-Fin du vote
-/ Einde van de stemming.
-
-Résultat du
-vote / Uitslag van de stemming.
-Résultat du
-vote / Uitslag van de stemming.
-
- 
- 
- 
 
-## Proposal 4
 
+Dat is ook van belang. Men heeft verwezen naar de deelstaten, daar liggen heel wat bevoegdheden. We hebben een aantal signalen willen meegeven waaruit toch duidelijk blijkt dat de manier waarop we er vandaag mee omgaan eigenlijk niet de juiste is.
 
-(Stemming/vote 3)
 
-(Stemming/vote 3)
-(Stemming/vote 3)
-(Stemming/vote 3)
 
+We hebben eigenlijk alleen het probleem van de woon-zorgcentra op te lossen. Ik denk dat wanneer men op jonge leeftijd is, het niet aangenaam is in een woonvorm te leven waar de meesten 40 jaar ouder zijn en men er permanent moet tussen opereren. Het is van belang dat we ervoor zorgen dat de mensen zich er ook gaan thuis voelen, in aangepaste woon- en zorgvormen.
 
 
-Ja
 
+De financiële ondersteuning en psychische begeleiding moeten we ook gaan bekijken in relatie met de deelstaten, naast de toegankelijkheid en de transparantie van de informatie en de automatische toekenning van de voordelen. De ontwikkeling van een specifiek zorgtraject en het overleg met de deelstaten zijn aspecten die cruciaal zijn om uiteindelijk te komen – dat is de doelstelling – tot meer gespecialiseerde zorg en om de financiële druk op de patiënt en de familie te verlichten.
 
-80
 
 
-Oui
+Jongdementie treft in België inderdaad duizenden mensen en het is heel zwaar, zowel psychisch als financieel. Op een bepaald moment heb ik Paul terug meegenomen naar het Parlement om nog eens een bezoek te brengen, ook aan zijn bureau. Hoewel hij zich niet kon uitdrukken, zag ik heel duidelijk dat hij daar gelukkig van werd. Dat is wat we moeten doen: levenskwaliteit toevoegen aan het dagdagelijkse leven van deze patiënten. Laten we mensen met jongdementie nog zien als verlangende wezens, die ook genieten van die levenskwaliteit. Dat is wat we met dit voorstel trachten te doen.
 
 
 
-Ja
+Bijkomende middelen zijn nodig. Expertise en samenwerking tussen de verschillende overheden en de zorginstellingen zijn dan ook dringend nodig om aan alle zorgvragen van mensen met jongdementie te voldoen.
 
-Ja
-Ja
 
 
-80
+Ik dank iedereen voor de goede samenwerking, ook in de commissie, en ik hoop op uw steun straks tijdens de stemming. Dank u wel.
 
-80
-80
 
 
-Oui
+17.06  Sofie Merckx (PVDA-PTB): Mevrouw de voorzitster, het is positief dat er aandacht is voor de problematiek van jongdementie. Wie getroffen wordt door jongdementie, krijgt het zwaar te verduren: de patiënt lijdt aan ernstig geheugenverlies en soms aan psychiatrische stoornissen en wordt daardoor op jonge leeftijd werkonbekwaam; hij of zij wordt sterk afhankelijk, heeft nood aan psychiatrische zorg en moet soms in een rusthuis worden opgenomen. Dat alles gaat gepaard met een belangrijk inkomensverlies. Het is geen lachertje wanneer de jongdementerende, die voor de diagnose vaak nog werkte, op 60 % van het loon terugvalt, terwijl het huis nog moet worden afbetaald of kinderen op de universiteit zitten. Bovendien is de ziekte vooralsnog onomkeerbaar en zullen jongdementerenden niet meer terug aan het werk kunnen.
 
-Oui
-Oui
 
 
+Tot zover de gedeelde vaststellingen. Iedereen is het erover eens dat er werk gemaakt moet worden van een aanpak en dat er aandacht moet zijn voor het dossier. Wij zullen het voorstel van resolutie dus ook steunen.
 
-Nee
 
 
-46
+Laat ik evenwel even inpikken op het verloop van de werkzaamheden. Oorspronkelijk vroeg u in uw voorstel, dat heel concreet was, naar een conventie naar het voorbeeld van de conventie voor patiënten met de ziekte van Huntington, eveneens een neurologische aandoening, waardoor de overheid een groter deel in de kosten op zich neemt.
 
 
-Non
 
+Na het advies van het RIZIV dat de deelstaten sinds de zesde staatshervorming bevoegd zijn voor oplossingen voor de meeste problemen van personen die een grote afhankelijkheid ontwikkelen en autonomie verliezen, denk maar aan het verblijf in een woon-zorgcentrum, werd het voorstel zo uitgehold dat er een vage tekst overblijft waarbij drie van de zes vragen uiteindelijk gericht zijn aan onder andere de Vlaamse regering, in casu CD&V-minister Beke.
 
 
-Nee
 
-Nee
-Nee
+Het is een goede zaak dat hier in het Parlement een voorstel van resolutie wordt goedgekeurd, maar de PVDA staat klaar om het probleem van mensen met jongdementie ook in het Vlaams Parlement aan te kaarten en we hopen dat u dat ook zult doen.
 
 
-46
 
-46
-46
+Een eerste belangrijke probleem is de prijs van de woon-zorgcentra. Wie kan meer dan 2.000 euro per maand betalen aan zo'n centrum, terwijl de partner die vaak in goede gezondheid nog is, nog thuis woont en kinderen aan de universiteit studeren. Wat onderneemt minister Beke tegen de hoge prijzen van de woon-zorgcentra? Voorlopig onderneemt hij alleszins niet veel.
 
 
-Non
 
-Non
-Non
+Het tweede probleem zijn de lange wachtlijsten – maar liefst 20.000 Vlamingen – voor het Vlaamse persoonsgebonden budget waar mensen met autonomieverlies of mensen met een handicap, wat ook het geval kan zijn bij mensen met jongdementie, recht op hebben. Het kan niet de bedoeling zijn dat mensen met jongdementie onderaan op die wachtlijst terechtkomen. De PVDA is tegen het persoonsgebonden budget dat wordt toegewezen aan de betrokkenen om te besteden aan zorg naar keuze. Dat is voor ons geen oplossing, want het brengt enorm veel problemen op het terrein met zich. Onzes inziens moet de overheid instaan voor kwaliteitsvolle en toegankelijke zorg op een collectieve manier.
 
 
 
-Onthoudingen
+Volgens ons moeten dus concretere maatregelen worden genomen. We wachten af wat er in het Vlaams Parlement en door de Vlaamse regering zal worden ondernomen om jongdementerende te helpen.
 
 
-2
 
+17.07  Gitta Vanpeborgh (Vooruit): Mevrouw de voorzitster, Vooruit zal onderhavig voorstel van resolutie net als in de commissie steunen en wel om de volgende redenen.
 
-Abstentions
 
 
+Ik zal hier en daar inpikken op wat de collega's hebben gezegd.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+Ten eerste, het voorstel komt tegemoet aan een duidelijk engagement in het federaal regeerakkoord. Daarin staat dat "voor personen met dementie op jonge leeftijd een specifiek zorgtraject zal worden onderzocht".
 
-2
 
-2
-2
 
+Mevrouw Depoorter, ik heb de beleidsnota niet meer nagelezen, zoals u hebt gedaan, maar ik weet wel dat daarin sprake is van zorgtrajecten en dat die ter harte worden genomen. Ik ga ervan uit dat onder andere jongdementie daarin een plaats kan vinden.
 
-Abstentions
 
-Abstentions
-Abstentions
-
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-
-128
-
-128
-128
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? 
-(Non)
-(Non)
-
-
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
-
-
- 
- 
- 
-32 Motions déposées en conclusion de l'interpellation de Mme Marijke
-Dillen sur "L'exécution des courtes peines" (n° 277)
-32
-32
- Motions déposées en conclusion de l'interpellation de Mme Marijke
-Dillen sur "L'exécution des courtes peines" (n° 277)
- Motions déposées en conclusion de l'interpellation de Mme Marijke
-Dillen sur "L'exécution des courtes peines" (n° 277)
-
-32 Moties ingediend
-tot besluit van de interpellatie van mevrouw Marijke Dillen over "De
-uitvoering van korte straffen" (nr. 277)
-32
-32
-32
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Marijke Dillen over "De
-uitvoering van korte straffen" (nr. 277)
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Marijke Dillen over "De
-uitvoering van korte straffen" (nr. 277)
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Marijke Dillen over "De
-uitvoering van korte straffen" (nr. 277)
-
-
- 
- 
- 
-Cette interpellation a été développée en
-réunion publique de la commission de la Justice du 27 avril 2022.
-Cette interpellation a été développée en
-réunion publique de la commission de la Justice du 27 avril 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Justitie van
-27 april 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Justitie van
-27 april 2022.
- 
- 
- 
-Deux motions ont été déposées
-(MOT n° 277/1):
-Deux motions ont été déposées
-(MOT n° 277/1):
-- une motion de recommandation a été
-déposée par Mme Marijke Dillen;
-- une motion de recommandation a été
-déposée par Mme Marijke Dillen;
-- une motion pure et simple a été déposée
-par Mme Katja Gabriëls.
-- une motion pure et simple a été déposée
-par Mme Katja Gabriëls.
-Twee moties werden ingediend
-(MOT nr. 277/1):
-Twee moties werden ingediend
-(MOT nr. 277/1):
-- een motie van aanbeveling werd
-ingediend door mevrouw Marijke Dillen;
-- een motie van aanbeveling werd
-ingediend door mevrouw Marijke Dillen;
-- een eenvoudige motie werd ingediend
-door mevrouw Katja Gabriëls.
-- een eenvoudige motie werd ingediend
-door mevrouw Katja Gabriëls.
- 
- 
- 
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-
-
-Vraagt iemand het woord voor een
-stemverklaring?
-Vraagt iemand het woord voor een
-stemverklaring?
-
-
- 
- 
- 
-32.01  Marijke Dillen (VB):
-Mevrouw de voorzitster, de niet-uitvoering van gevangenisstraffen van minder
-dan drie jaar is al jarenlang een heel groot probleem en werd hier al diverse
-malen aangeklaagd. Al meer dan twee jaar kondigt de minister ook met veel poeha
-aan dat er een einde zal worden gemaakt aan de niet-uitvoering van die
-opgelegde straffen. In de praktijk moeten we echter vaststellen dat het altijd
-bij een aankondigingsbeleid blijft en dat er zelden daadwerkelijke handelingen
-volgen.
-32.01
-32.01
-  Marijke Dillen 
-  Marijke Dillen 
- 
-(VB):
-Mevrouw de voorzitster, de niet-uitvoering van gevangenisstraffen van minder
-dan drie jaar is al jarenlang een heel groot probleem en werd hier al diverse
-malen aangeklaagd. Al meer dan twee jaar kondigt de minister ook met veel poeha
-aan dat er een einde zal worden gemaakt aan de niet-uitvoering van die
-opgelegde straffen. In de praktijk moeten we echter vaststellen dat het altijd
-bij een aankondigingsbeleid blijft en dat er zelden daadwerkelijke handelingen
-volgen.
- 
- 
- 
-Net op de dag dat ik mijn interpellatie in
-commissie hield, 27 april, werd een wetsontwerp van minister
-Van Quickenborne aangekondigd, ontwerp dat met urgentie in de commissie al
-werd behandeld en volgende week aan de orde komt in de plenaire vergadering, en
-dat zal eens te meer aantonen dat het bij de regering bij aankondigingsbeleid
-blijft en woorden niet in daden worden omgezet.
-Net op de dag dat ik mijn interpellatie in
-commissie hield, 27 april, werd een wetsontwerp van minister
-Van Quickenborne aangekondigd, ontwerp dat met urgentie in de commissie al
-werd behandeld en volgende week aan de orde komt in de plenaire vergadering, en
-dat zal eens te meer aantonen dat het bij de regering bij aankondigingsbeleid
-blijft en woorden niet in daden worden omgezet.
- 
- 
- 
-Ik beperk mij tot die korte verklaring,
-aangezien we volgende week de gelegenheid krijgen om daar uitvoerig op in te
-gaan.
-Ik beperk mij tot die korte verklaring,
-aangezien we volgende week de gelegenheid krijgen om daar uitvoerig op in te
-gaan.
- 
- 
- 
-La présidente:
-Début du vote / Begin van de stemming.
-La présidente:
-Début du vote / Begin van de stemming.
-présidente
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
 
-Fin du vote
-/ Einde van de stemming.
-Fin du vote
-/ Einde van de stemming.
+Ten tweede, het voorstel van resolutie stuurt aan op een toch wel pragmatische aanpak. In tegenstelling tot mevrouw Merckx vind ik de tekst heel concreet. Er wordt aandacht besteed aan de verschillende fases bij jongdementie, bepalingen die na amendering werden ingevoegd. Bovendien wordt de regering gevraagd om concreet vorm te geven aan het zorgtraject aan de hand van good practices. Ik ben ervan overtuigd dat die goede praktijken bestaan en dat we moeten leren om over dat muurtje te kijken.
 
-Résultat du
-vote / Uitslag van de stemming.
-Résultat du
-vote / Uitslag van de stemming.
 
- 
- 
- 
 
-## Proposal 5
+Mevrouw Depoorter, ik meende u te horen zeggen dat u droomt van een Vlaamse gezondheidszorg. Wij zijn nog altijd overtuigd van een federale gezondheidszorg, waarin de verschillende entiteiten zeer goed samenwerken. Ik ben ervan overtuigd dat een uitwisseling van goede praktijken, die er ongetwijfeld bestaan op niveau van de deelstaten en het federale niveau, concrete resultaten en verbetering kan opleveren.
 
 
-(Stemming/vote 4)
 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
+Ten derde, het voorstel van resolutie legt de verantwoordelijkheid waar ze vandaag zou moeten liggen, en stuurt tegelijkertijd ook heel terecht aan op samenwerking. Samenwerking is meer dan ooit noodzakelijk in dit toch wel complexe zorglandschap. Ik denk dat we het daarover wel eens zijn. Zoals we hebben gehoord en gelezen, is het belangrijk dat wie op jonge leeftijd met de ziekte wordt geconfronteerd en zich in een precaire situatie bevindt, weet wat zijn of haar statuut is, wat de voordelen eraan verbonden zijn en op welke financiële steun men recht heeft.
 
 
 
-Ja
+Dat is vandaag immers nog altijd niet duidelijk en dat moet worden verholpen.
 
 
-82
 
+Dergelijke concrete maatregelen vindt men terug in het voorstel van resolutie. Zo wordt er verzocht werk te maken van de maximale automatische toekenning van rechten, wat absoluut welkom is voor alle patiënten met jongdementie. Ergens anders wordt er gepleit voor aangepaste zorgnormen. Het kan inderdaad niet de bedoeling zijn dat die patiënten van bij het begin tot het einde in een woon-zorgcentrum terechtkomen.
 
-Oui
 
 
+Kortom, wat ons betreft, onderhavig voorstel van resolutie beoogt met respect voor ieders verantwoordelijkheid toch een stap vooruit voor de naar schatting 5.500 slachtoffers van jongdementie, die dagelijks geconfronteerd worden met fysieke, lichamelijke, psychische, cognitieve problemen en die dan ook nog eens hun weg moeten zoeken in het complexe zorglandschap.
 
-Ja
 
-Ja
-Ja
 
+Mevrouw Depoorter verwondert zich over ons pleidooi. Ik kan alleen maar betreuren dat we, als wij onze federale ministers op hun verantwoordelijkheid wijzen of duidelijk maken dat bepaalde engagementen moeten worden uitgevoerd, in een hoekje worden geplaatst, net zoals wanneer we dat niet zouden doen. Ik meen dat het onze taak is, als Parlementsleden, ook al maken wij deel uit van de meerderheid, terug te komen op bepaalde genomen engagementen en erop te hameren dat die uitgevoerd worden.
 
-82
 
-82
-82
 
+Hopelijk wordt er na de unanieme goedkeuring in commissie en misschien in plenaire vergadering met de resolutie aan de slag gegaan en niet alleen federaal. Ik hoop dat alle partijen het onderwerp ook zullen aankaarten bij de deelstaten, want uiteindelijk gaat het om een gedeelde verantwoordelijkheid.
 
-Oui
 
-Oui
-Oui
 
+17.08  Kathleen Depoorter (N-VA): Collega, uiteraard is het uw taak als parlementslid om met uw ministers te werken aan de uitvoering van het regeerakkoord. Wat echter zo bijzonder is, is dat het vertrouwen zo laag is, dat er een datum in de tekst werd opgenomen, want vóór 2023 moet uw minister een onderzoek naar het zorgpad begonnen zijn. Als er in de beleidsnota geen sprake is van jongdementie en de collega van CD&V aandringt op een onderzoek naar het traject in het eerste kwartaal van 2023, dan kan ik niet anders dan vaststellen dat het vertrouwen in de werking niet optimaal is.
 
 
-Nee
 
+U verwees ook naar de beleidsnota van 2022. Het gaat daarin inderdaad over zorgtrajecten en ik zal u even voorlezen waarover die gaan: diabetes, obesitas, perinataalzorgtraject en pre- en postabdominale orgaantransplantatie. Dat is dus geen jongdementie, collega. Men hoeft geen dokter te zijn om dat te kunnen interpreteren. Het stond er dus niet in. Daarom begrijp ik dat de collega van CD&V, die dat traject ter harte neemt, de regering er toch nog eens op wil wijzen.
 
-47
 
 
-Non
+Ten derde, hebt u heel duidelijk gesteld dat u als Vooruitfractie voor de federale gezondheidszorg bent. Hoe interpreteert u echter het regeerakkoord? Ik heb namelijk van elke partij een andere interpretatie gehoord. Wij hebben gelezen dat er toch wel werk gemaakt zal worden van een uniforme overheveling van bevoegdheids­pakketten. Ik heb de collega's van de MR zich daar al tegen horen uitspreken. U spreekt zich daar nu zelf tegen uit. Wat zult u ermee doen? U hebt nog twee jaar tijd.
 
 
 
-Nee
+17.09  Catherine Fonck (Les Engagés): Madame la présidente, chers collègues, force est de constater que la Belgique accuse un très sérieux retard dans la prise en charge des patients souffrant de la maladie d’Alzheimer. Il y a les patients souffrant de la maladie d'Alzheimer et de démence de manière plus globale et de toutes les maladies apparentées de manière précoce mais il y a aussi tous ceux que vous ne citez pas et qui, pourtant, vivent des moments particulièrement difficiles avec des prises en charge pas nécessairement adaptées et surtout avec des proches qui sont à leurs côtés pendant des périodes extrêmement longues.
 
-Nee
-Nee
 
 
-47
+Si nous accusons un sérieux retard en Belgique, c'est à la fois dans la prise en charge, l'offre de soins adaptée à domicile ou en institution, la formation du personnel soignant, le manque de soutien aux aidants proches, l'offre de capacités suffisantes en matière de diagnostic, de diagnostic précoce et d'annonce de diagnostic et tout ce qui concerne la recherche préventive et thérapeutique.
 
-47
-47
 
 
-Non
+C'est d'autant plus crucial que les projections indiquent malheureusement que le nombre de personnes souffrant en Belgique de la maladie d’Alzheimer, de démence ou de maladies apparentées sera, en 2030, d'environ 260 000 et, en 2050, d'environ 390 000.
 
-Non
-Non
 
 
+C'est évidemment la raison pour laquelle j'avais déposé une proposition et je continue à plaider pour la mise en place d'un plan Alzheimer, démence et maladies apparentées. Certes, il y a des responsabilités à différents niveaux de pouvoir. Cependant, c'est une évidence, en matière de santé publique que, s'il n'y a pas à un moment donné de pilotage avec un cap donné et une obligation claire à l'intention des différents niveaux de pouvoir de travailler ensemble à une approche non seulement ambitieuse mais également parfaitement coordonnée, toutes ces personnes et leurs proches seront encore et toujours, demain et après-demain, dans des situations extrêmement difficiles et pénibles à vivre sans prise en charge et sans approche adaptée. Il suffit de comparer ce qui se fait en la matière chez nous avec ce qui se passe dans d'autres pays de l'Union européenne.
 
-Onthoudingen
 
 
-2
+Vous n'avez pas voulu avoir une vision plus large et vous avez préféré vous focaliser sur les patients souffrant de démence précoce. À travers ma proposition de résolution, je persiste, pour ma part, à avoir une vision plus large. C'est la raison pour laquelle, madame la présidente, je disjoins ma proposition de la proposition de résolution de Mme Van Hoof.
 
 
-Abstentions
 
+J'en arrive au contenu de la résolution à l'examen qui s'attarde spécifiquement aux personnes souffrant de démence précoce. Cette approche est tout à fait indispensable pour ces patients. Une convention de soins au niveau national pour ceux-ci constitue un élément positif. J'y mets, cependant, deux bémols. Premièrement, il ne faut pas que ce soient juste de vagues intentions. J'attends donc de voir quelle sera la suite qui y sera réservée par le gouvernement. Deuxièmement, il est totalement indispensable de prévoir également un trajet de soins pour ceux que vous laissez de côté dans le cadre de cette proposition de résolution. Je pense ici aux personnes qui souffrent de démence précoce, mais qui ne seront pas concernées par ce trajet de soins, compte tenu des groupes cibles bénéficiaires très restrictifs prévus dans le cadre de cette dernière.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+Si la proposition de résolution qui nous est soumise répond de manière correcte à la situation, avec les structures qui ont été mises en place du côté néerlandophone – raison pour laquelle je la voterai –, je regrette que, vu les groupes cibles hyper restrictifs, de très nombreux patients qui vivent sur le territoire de la Région de Bruxelles-Capitale, mais aussi sur le territoire de la Wallonie ne pourront pas bénéficier d'un trajet de soins tel que prévu dans la proposition de résolution.
 
 
-2
 
-2
-2
+Je puis vous assurer que, de mon côté, je ferai tout pour que le ministre change les catégories que vous avez prévues dans cette résolution, sinon les francophones seront clairement laissés de côté.
 
 
-Abstentions
 
-Abstentions
-Abstentions
+Je regrette les propos de la ministre Morreale qui a été interrogée, le 10 février 2022, sur le contenu de ce texte.
 
 
 
-Totaal
+Cela vous fait rire au Parti Socialiste? Je vous encourage à prendre contact avec les associations de patients, qui m'ont alertée et qui mettent en évidence ce problème – à raison.
 
 
-131
 
+Le 10 février 2022 donc, la ministre Morreale, au Parlement wallon, a clairement dit qu'il n'y aurait pas de déploiement supplémentaire du côté wallon, qu'il n'y aurait aucun impact financier, signant là son absence totale de volonté de prévoir un accompagnement adapté pour les personnes souffrant de démence précoce. C'est extrêmement interpellant. Je continuerai, avec les associations de patients, à tenter de faire bouger les lignes afin que ce trajet de soins, s'il est mis en place, puisse également bénéficier aux personnes vivant sur le territoire de la Région de Bruxelles-Capitale et de la Wallonie.
 
-Total
 
 
+C'est évidemment aussi pour cette raison qu'en lien avec les associations de patients concernées, j'ai déposé les amendements qui vous sont de nouveau soumis ici en plénière. Madame la présidente, je continuerai, pour ce qui me concerne, à plaider pour une approche beaucoup plus ambitieuse, pour une prise en charge de tous les patients et le soutien à leurs proches, quel que soit l'âge auquel le diagnostic de démence est établi et quel que soit l'âge des patients.
 
-Totaal
 
-Totaal
-Totaal
-
-
-131
 
-131
-131
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
-
-
- 
- 
- 
-33 Projet de loi transposant la directive (UE) 2019/1153 du
-Parlement européen et du Conseil du 20 juin 2019 fixant les règles
-facilitant l’utilisation d’informations financières et d’une autre nature aux
-fins de la prévention ou de la détection de certaines infractions pénales, ou
-des enquêtes ou des poursuites en la matière, et abrogeant la
-décision 2000/642/JAI du Conseil (nouvel intitulé) (2573/4)
-33
-33
- Projet de loi transposant la directive (UE) 2019/1153 du
-Parlement européen et du Conseil du 20 juin 2019 fixant les règles
-facilitant l’utilisation d’informations financières et d’une autre nature aux
-fins de la prévention ou de la détection de certaines infractions pénales, ou
-des enquêtes ou des poursuites en la matière, et abrogeant la
-décision 2000/642/JAI du Conseil (nouvel intitulé) (2573/4)
- Projet de loi transposant la directive (UE) 2019/1153 du
-Parlement européen et du Conseil du 20 juin 2019 fixant les règles
-facilitant l’utilisation d’informations financières et d’une autre nature aux
-fins de la prévention ou de la détection de certaines infractions pénales, ou
-des enquêtes ou des poursuites en la matière, et abrogeant la
-décision 2000/642/JAI du Conseil (nouvel intitulé) (2573/4)
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
-33 Wetsontwerp tot
-omzetting van Richtlijn (EU) 2019/1153 van het Europees Parlement en de
-Raad van 20 juni 2019 tot vaststelling van regels ter
-vergemakkelijking van het gebruik van financiële en andere informatie voor het
-voorkomen, opsporen, onderzoeken of vervolgen van bepaalde strafbare feiten, en
-tot intrekking van Besluit 2000/642/JBZ van de Raad (2573/4)
-33
-33
-33
- Wetsontwerp tot
-omzetting van Richtlijn (EU) 2019/1153 van het Europees Parlement en de
-Raad van 20 juni 2019 tot vaststelling van regels ter
-vergemakkelijking van het gebruik van financiële en andere informatie voor het
-voorkomen, opsporen, onderzoeken of vervolgen van bepaalde strafbare feiten, en
-tot intrekking van Besluit 2000/642/JBZ van de Raad (2573/4)
- Wetsontwerp tot
-omzetting van Richtlijn (EU) 2019/1153 van het Europees Parlement en de
-Raad van 20 juni 2019 tot vaststelling van regels ter
-vergemakkelijking van het gebruik van financiële en andere informatie voor het
-voorkomen, opsporen, onderzoeken of vervolgen van bepaalde strafbare feiten, en
-tot intrekking van Besluit 2000/642/JBZ van de Raad (2573/4)
- Wetsontwerp tot
-omzetting van Richtlijn (EU) 2019/1153 van het Europees Parlement en de
-Raad van 20 juni 2019 tot vaststelling van regels ter
-vergemakkelijking van het gebruik van financiële en andere informatie voor het
-voorkomen, opsporen, onderzoeken of vervolgen van bepaalde strafbare feiten, en
-tot intrekking van Besluit 2000/642/JBZ van de Raad (2573/4)
+Vraagt nog iemand het woord? (Nee)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
+La discussion est close.
 
-Vraagt iemand het woord voor een stemverklaring? (Nee)
-Vraagt iemand het woord voor een stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+De bespreking is gesloten.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+*  *  *  *  *
 
- 
- 
- 
+Amendements déposés:
 
-## Proposal 6
+Ingediende amendementen:
 
+Considérant/Considerans F(n)
 
-(Stemming/vote 5)
+• 20 – Catherine Fonck (1376/7)
 
-(Stemming/vote 5)
-(Stemming/vote 5)
-(Stemming/vote 5)
+Demande/Verzoek 2/1(n)
 
+• 21 – Catherine Fonck (1376/7)
 
+Demande/Verzoek 7(n)
 
-Ja
+• 22 – Catherine Fonck (1376/7)
 
+*  *  *  *  *
 
-90
 
 
-Oui
+Les amendements sont réservés.
 
+De amendementen worden aangehouden.
 
 
-Ja
 
-Ja
-Ja
+Le vote sur les amendements réservés et sur l’ensemble de la proposition aura lieu ultérieurement.
 
+De stemming over de aangehouden amendementen en over het geheel van het voorstel zal later plaatsvinden.
 
-90
+### Description in French:
 
-90
-90
+Propositions déposées par:
 
+Voorstellen ingediend door:
 
-Oui
+- 1376: Els Van Hoof
 
-Oui
-Oui
+- 537: Catherine Fonck.
 
 
 
-Nee
+Discussion
 
+Bespreking
 
-0
 
 
-Non
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (1376/6)
 
+De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (1376/6)
 
 
-Nee
 
-Nee
-Nee
+L'intitulé a été modifié par la commission en "proposition de résolution visant à mettre en place un trajet de soins pour les personnes souffrant de démence précoce à un stade modéré à avancé".
 
+Het opschrift werd door de commissie gewijzigd in "voorstel van resolutie tot een zorgtraject voor personen met dementie op jonge leeftijd in een matig tot vergevorderd stadium".
 
-0
 
-0
-0
 
+La discussion est ouverte.
 
-Non
+De bespreking is geopend.
 
-Non
-Non
 
 
+17.01  Gitta Vanpeborgh, rapporteur: Mevrouw de voorzitster, ik zal kort verslag uitbrengen gezien de drukke agenda.
 
-Onthoudingen
 
 
-40
+Het verslag heeft betrekking op twee resoluties: het voorstel van resolutie over het verzoek aan de federale regering om een 'Plan ziekte van Alzheimer, dementie en aanverwante ziekten' uit te werken van mevrouw Fonck van Les Engagés, en het voorstel van resolutie tot het sluiten van een overeenkomst betreffende een programma voor de tenlasteneming van patiënten die lijden aan dementie op jonge leeftijd in een matig-gevorderd stadium.
 
 
-Abstentions
 
+De vergaderingen hebben plaatsgevonden op 15 juni, 21 september en 5 oktober 2021, en op 19 april 2022.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+Tijdens de vergadering van 15 juni 2021 heeft mevrouw Fonck gevraagd om haar voorstel van resolutie toe te voegen aan de bespreking van het voorstel van resolutie van mevrouw Van Hoof.
 
 
-40
 
-40
-40
+Op de vergadering van 19 april 2022 heeft de commissie beslist om het voorstel van resolutie van mevrouw Els Van Hoof als basis voor de bespreking te nemen.
 
 
-Abstentions
 
-Abstentions
-Abstentions
+Tijdens de vergaderingen van 15 juni en 21 september werd beslist om schriftelijke adviezen in te winnen. Ik zal ze niet overlopen, maar ze hebben in ieder geval bijgedragen aan een vruchtbare discussie in de commissie voor Gezondheid en Gelijke Kansen.
 
 
 
-Totaal
+Ik ga niet dieper in op de inleidende uiteenzettingen, noch op de algemene bespreking, noch op de bespreking. Dit is allemaal terug te vinden in het verslag van de consideransen en van het verzoekende gedeelte of de amendementen. Het is duidelijk dat er wel wat amendementen zijn ingediend, besproken en gestemd.
 
 
-130
 
+Ik wil dit verslag afsluiten met te stellen dat het voorstel van resolutie met inbegrip van alle amendementen, van de technische verbeteringen bij naamstemming uiteindelijk eenparig werd aangenomen.
 
-Total
 
 
+17.02  Kathleen Depoorter (N-VA): Mevrouw de voorzitster, collega's, een voorstel van resolutie voor het behandelen en ondersteunen van patiënten die lijden aan dementie op jonge leeftijd is uiteraard iets wat de N-VA-fractie zal steunen.
 
-Totaal
 
-Totaal
-Totaal
 
+Dit is immers een zeer zwaar probleem. Patiënten die op jongere leeftijd geconfronteerd worden met één van de vele vormen van dementie komen vaak terecht in een heel moeilijke familiale situatie, en in een heel moeilijke zorgsituatie. Die vereist een interdisciplinaire aanpak, die vereist heel veel expertise. Bovendien hebben die patiënten vaak nog een gezin waar zij voor moeten zorgen en waar zij wegvallen.
 
-130
 
-130
-130
 
+Zeker op het moment dat de diagnose al is gesteld en die patiënten op het kruispunt komen tussen normaal voort functioneren en echt ziek worden, slaat de paniek toe in de getroffen gezinnen. Wij moeten dat als maatschappij absoluut inzien, en wij moeten hen ondersteunen, zowel op financieel vlak als op zorgvlak.
 
-Total
 
-Total
-Total
 
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (2573/5)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(2573/5)
-(2573/5)
+Wij moeten ervoor zorgen dat de signalen van de zorgverstrekkers voldoende snel worden opgevangen en dat de patiënt de nodige zorg krijgt.
 
 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (2573/5)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (2573/5)
-(2573/5)
- 
- 
- 
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
 
+Er zijn verschillende stadia in deze ziekte: het stadium waarin men nog thuis woont, het stadium waarin men naar een dagorganisatie gaat, en uiteindelijk het stadium waarin men opgenomen wordt.
 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
- 
- 
- 
-34 Amendements réservés à la proposition de résolution visant à mettre en
-place un trajet de soins pour les personnes souffrant de démence précoce à un
-stade modéré à avancé (nouvel intitulé) (1376/1-7)
-34
-34
- Amendements réservés à la proposition de résolution visant à mettre en
-place un trajet de soins pour les personnes souffrant de démence précoce à un
-stade modéré à avancé (nouvel intitulé) (1376/1-7)
- Amendements réservés à la proposition de résolution visant à mettre en
-place un trajet de soins pour les personnes souffrant de démence précoce à un
-stade modéré à avancé (nouvel intitulé) (1376/1-7)
 
-34 Aangehouden
-amendementen op het voorstel van resolutie tot een zorgtraject voor personen
-met dementie op jonge leeftijd in een matig tot vergevorderd stadium (nieuw
-opschrift) (1376/1-7)
-34
-34
-34
- Aangehouden
-amendementen op het voorstel van resolutie tot een zorgtraject voor personen
-met dementie op jonge leeftijd in een matig tot vergevorderd stadium (nieuw
-opschrift) (1376/1-7)
- Aangehouden
-amendementen op het voorstel van resolutie tot een zorgtraject voor personen
-met dementie op jonge leeftijd in een matig tot vergevorderd stadium (nieuw
-opschrift) (1376/1-7)
- Aangehouden
-amendementen op het voorstel van resolutie tot een zorgtraject voor personen
-met dementie op jonge leeftijd in een matig tot vergevorderd stadium (nieuw
-opschrift) (1376/1-7)
 
+De N-VA-fractie heeft al vaker aangekaart dat de volledige organisatie van de geestelijke gezondheidszorg steun zou moeten krijgen. Wij hebben ook een bijkomend voorstel van resolutie ingediend waarin wij de problemen in de geestelijke gezondheidszorg aankaarten. Wij doen daarin een aantal concrete voorstellen om de patiënten beter te begeleiden. Daarin hebben wij het ook over de patiënten met dementie, jongdementie.
 
- 
- 
- 
-Vote sur l'amendement n° 20 de Catherine
-Fonck tendant à insérer un considérant F(n). (1376/7)
-Vote sur l'amendement n° 20 de Catherine
-Fonck tendant à insérer un considérant F(n). 
-(1376/7)
-(1376/7)
 
-Stemming over amendement nr. 20 van
-Catherine Fonck tot invoeging van een considerans F(n). (1376/7)
-Stemming over amendement nr. 20 van
-Catherine Fonck tot invoeging van een considerans F(n). (1376/7)
-(1376/7)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Wij stellen heel duidelijk dat patiënten met jongdementie heel vaak uit de boot vallen. Patiënten met jongdementie vallen niet onder patiënten met een beperking, en ondervinden daardoor een aantal substantiële nadelen ten opzichte van andere patiënten. Wij zien heel duidelijk dat de psychologische zorg ontoereikend is. Bepaalde psychologische en psychiatrische zorg valt niet onder de regeling voor de verzekeringsproducten. De kosten voor deze families zijn dus zeer groot, en ook de zorglast is voor deze families zeer groot.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Een psychiatrische opname van langer dan een jaar komt ook niet in aanmerking voor de maximumfactuur. Onze fractie heeft daarvoor amendementen ingediend waarop ik later terugkom.
 
- 
- 
- 
 
-## Proposal 7
 
+In de resolutie wordt ook heel veel verwezen naar de deelstaten, collega's. Sta mij toch even toe om u er nogmaals op te wijzen dat het heel wat eenvoudiger zou zijn voor de patiënt, de organiserende overheid en de zorgverstrekkers als de deelstaten bevoegd zouden zijn voor een homogeen pakket Volksgezondheid.. Dat zou absoluut het antwoord moeten zijn.
 
-(Stemming/vote 6)
 
-(Stemming/vote 6)
-(Stemming/vote 6)
-(Stemming/vote 6)
 
+Het is toch wel bijzonder dat daarvan volgens de ene partij in het regeerakkoord gewag gemaakt wordt en volgens de andere partij dan weer niet. Evenmin kunnen we vandaag, 2,5 jaar na datum, een vereenvoudiging van de organisatie van de gezondheidszorg vaststellen.
 
 
-Ja
 
+Waarom verwijs ik naar het regeerakkoord, collega's? Bijzonder in dit voorstel van resolutie is considerans D. Die verwijst naar het regeerakkoord waarin onderzoek naar een zorgtraject voor personen met jongdementie is opgenomen. Nu vind ik het toch bijzonder dat mensen die deel uitmaken van de meerderheid met een resolutie hun eigen regering moeten aansporen om het regeerakkoord uit te voeren. Dat kan uiteraard en wij zijn een partner om daarover na te denken. Nog raarder – ik heb de beleidsnota van 2020 er nog eens bijgenomen – is  dat het woord dementie, jongdementie of alzheimer er helemaal niet in voorkomt. Ik stel dus vast dat jongdementie een heel belangrijke prioriteit is voor een, weliswaar, kleinere partner binnen de regering, maar dat deze partner toch niet voldoende overredingskracht had om binnen de ministerraad de minister van Volksgezondheid aan te zetten om werk te maken van wat er in het regeerakkoord staat en van wat er voor een bepaalde groep patiënten essentieel is in hun zorgtraject.
 
-31
 
 
-Oui
+Wij zullen het voorstel van resolutie, zoals gezegd, steunen, maar ik zou graag nog twee amendementen aanstippen die de meerderheid niet heeft goedgekeurd en waarvoor ik geen wetenschappelijke, ethische of andere argumentatie heb kunnen vinden.
 
 
 
-Ja
+Een van onze amendementen kwam er na het advies van de Alzheimer Liga Vlaanderen en vraagt om de thuiszorg van patiënten met jongdementie beter te organiseren. Ik heb dat punt al vaker in de commissie aangehaald. Psychiatrische thuisverpleegkundigen kunnen een heel belangrijke rol spelen in de omkadering van patiënten met jongdementie. Er zijn echter maar twee nomenclaturen die hiervoor in voege zijn. Ik heb minister Vandenbroucke herhaaldelijk gezegd dat een uitbreiding van de nomenclaturen en van de zorgtaak van de psychiatrische thuisverpleegkundigen een essentieel verschil zou kunnen vormen voor patiënten met jongdementie. Hoe langer die patiënten in de thuiscontext kunnen worden opgevangen, hoe beter voor de maatschappij in veel gevallen en hoe warmer voor de familie. Het is toch heel jammer dat een dergelijk gefundeerd voorstel dat afkomstig is van de Alzheimer Liga Vlaanderen, die heel veel expertise heeft opgebouwd, niet werd goedgekeurd.
 
-Ja
-Ja
 
 
-31
+Een tweede amendement dat door mijn fractie werd ingediend en niet werd goedgekeurd, gaat over de financiële omkadering. Alle partijen erkennen dat psychiatrische opnames van langer dan een jaar niet onder de maximumfactuur vallen. Collega's, u zegt daarover dat dit een gefundeerd debat verdient, maar dat hebben wij gehouden in de commissie en u erkent het probleem, dus het is toch jammer dat wij er niets aan doen en dat het niet werd meegenomen. Uiteindelijk gaat het immers over een voorstel van resolutie en bent u perfect bij machte om te vragen dat wordt onderzocht of de kosten voor patiënten die langdurig worden opgenomen in een psychiatrisch ziekenhuis, ook onder de maximumfactuur kunnen vallen. Ten tweede, ook de verzekeringsproducten zijn niet inbegrepen. Hospitalisatieverzekeringen kunnen niet in het kader van een psychiatrische of psychologische problematiek worden gebruikt. Dat leidt ertoe dat veel patiënten met toch een zeer zware problematiek in de kou blijven staan.
 
-31
-31
 
 
-Oui
+17.03  Patrick Prévot (PS): Chers collègues, quelques mots pour dire que, comme nous l'avons fait en commission, nous soutiendrons le texte de Mme Van Hoof. Nous avons d'ailleurs travaillé à la rédaction de plusieurs amendements avec d'autres collègues pour améliorer la portée de cette résolution et cela notamment sur la base des avis que nous avions reçus. Cette résolution est importante puisqu'elle permet de structurer la prise en charge des patients atteints de démence précoce via notamment la mise en place d'un trajet de soins, comme le prévoit d'ailleurs l'accord de gouvernement. Une attention spécifique, en tout cas particulière, devra également être apportée à la continuité des soins entre l'hospitalier, le résidentiel et le domicile afin que l'ensemble du territoire soit couvert de manière efficiente en matière de soins proposés. L'implication des entités fédérées dans le cadre de la prise en charge de l'accompagnement et du soutien de ces patients est évidemment essentielle. On l'a dit et répété au sein de la commission. Elle est essentielle vu la répartition des compétences en la matière et il faudra donc une collaboration et une concertation très importante avec celles-ci. On le sait. Je l'ai dit et cela a été rappelé dans le cadre des travaux notamment. Un travail y est déjà réalisé ou est en tout cas en cours de réalisation puisque la prise en charge de la démence précoce fait notamment partie de la déclaration de politique régionale du côté wallon. Voilà chers collègues, je ne serai pas beaucoup plus long et je remercie une nouvelle fois les collègues pour le travail mené.
 
-Oui
-Oui
 
 
+17.04  Dominiek Sneppe (VB): Collega's, dit voorstel is een eerste aanzet om het probleem van dementie en specifiek jongdementie op de agenda te zetten, wat het Vlaams Belang met veel plezier steunt. We hopen evenwel dat het niet alleen bij deze resolutie stopt en dat de regering hiervan werk zal maken, uiteraard samen met de deelstaten en in overleg met alle betrokkenen. We hopen ook dat het Vlaams dementieplan verder zal worden uitgerold, maar dat is natuurlijk iets voor in het Vlaams Parlement.
 
-Nee
 
 
-77
+Collega's, ook in dit dossier zit weer een communautair probleempje. Daarvoor verwijs ik naar de opmerkingen van het RIZIV, waarin een situatieschets wordt gegeven van de toestand na de zesde staatshervorming. Zo blijkt dat het RIZIV de kostprijs van de volledige zorg van patiënten betaalt, die verblijven in instellingen die ondertussen volledig tot de bevoegdheid van de deelstaten behoort. Only in Belgium, zou ik zeggen. Ook de juridische dienst van de Kamer verwijst hier naar de bevoegdheidsverdeling.
 
 
-Non
 
+Het beste zou zijn, althans volgens ons, dat niet alleen de bevoegdheden naar de deelstaten worden overgedragen, maar dat daaraan ook de nodige budgetten worden gekoppeld. Vlaanderen heeft immers een geüpdatet dementieplan, alleen ligt de financiering voor terugbetalingen, nomenclatuurverstrekking enzovoort nog grotendeels op federaal niveau. Dat is voor het Vlaams Belang niet logisch en al zeker niet efficiënt. Mevrouw Fonck legt met haar amendementen nog eens de vinger op de wonde. Vlaanderen pakt het probleem aan met een heus dementieplan. In Wallonië moet de eerste letter nog op papier worden gezet.
 
 
-Nee
 
-Nee
-Nee
+Collega's, dit voorstel is een goede aanzet om het probleem van jongdementie op de agenda te zetten. Dat is meer dan nodig, maar we hopen dat het niet bij deze resolutie blijft.
 
 
-77
 
-77
-77
+17.05  Els Van Hoof (CD&V): Mevrouw de voorzitster, collega's, ik wil mijn uiteenzetting graag beginnen door de resolutie op te dragen aan een gewezen diensthoofd in het Parlement, in de Kamer. De persoon in kwestie was een bibliothecaris bij wie jongdementie werd vastgesteld toen hij 59 jaar was. Hij is twee jaar geleden helaas op veel te jonge leeftijd overleden. Ik ontmoette Paul in Leuven, in woon-zorgcentrum De Wingerd. Hij was één van de inspiratiebronnen die aan de basis van deze resolutie liggen.
 
 
-Non
 
-Non
-Non
+Mensen die deze diagnose krijgen, krijgen vaak te maken met misverstanden, onbegrip en moeten veel te snel hun job opgeven. Nochtans verdienen ook zij levenskwaliteit. Nochtans is het belangrijk te beseffen dat zij veel dingen wel nog kunnen, door het mooie VRT-programma Restaurant Misverstand hebben we dat vastgesteld.
 
 
 
-Onthoudingen
+Om de problematiek even in kaart te brengen, kan ik zeggen dat men in België bij ongeveer 5.500 mensen de diagnose vaststelt vóór de leeftijd van 65 jaar. Er zijn inderdaad ernstige moeilijkheden op het lichamelijke, cognitieve, gedragsmatige en psychiatrische niveau. Deze leiden tot geheugenverlies en veranderingen op vlak van persoonlijkheid en stemmings­wisselingen.
 
 
-23
 
+Daardoor is interdisciplinaire zorg nodig, zowel op het vlak van thuis- of dagzorg, in ziekenhuizen en in woon-zorgcentra. Bovendien verloopt het aftakelingsproces bij personen met jongdementie veel sneller dan bij mensen bij wie dementie pas op latere leeftijd wordt vastgesteld. De zorgvragen zijn bijgevolg ook veel groter dan bij ouderen met dementie.
 
-Abstentions
 
 
+Het probleem is – dat hebben we ook kunnen vaststellen bij het lezen van de talrijke adviezen die we hebben ontvangen – dat er zeer veel zorgvragen zijn waar geen antwoord op wordt geboden. Ik denk dat iemands wereld instort op het ogenblik waarop de diagnose wordt vastgesteld. Ik denk dat we onvoldoende ondersteuning voorzien voor de patiënten en hun families.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+Het is een lappendeken dat vandaag bestaat uit tegemoetkomingen waarnaar zelf moet worden gezocht door patiënten met jongdementie en vooral voor hun naasten. Bovendien is het niet alleen complex, maar ook onvoldoende. Het is ook verspreid over verschillende beleidsniveaus. Daar is al afdoende naar verwezen.
 
-23
 
-23
-23
 
+Bovendien is er een groot verschil tussen Vlaanderen, Wallonië en Brussel op vlak van het aanbod en initiatieven. Er is inderdaad een Vlaams dementieplan. De heer Vandeurzen heeft destijds gespecialiseerde zorg voorzien in verschillende woon-zorgcentra en heeft ook een terugbetaling voorzien van de factuur. Dat is een heel belangrijk signaal. Heel wat initiatieven, ook in Vlaanderen, moeten echter leven van het verkopen van wijn of pannenkoeken om dagelijkse ondersteuning te voorzien aan personen met jongdementie en hun familie. Zij zijn dus afhankelijk van benefieten. Dat kan toch niet in een welvarend land zoals België. We moeten dus een stukje financieel soelaas bieden voor mensen die thuis verblijven of in een dagverzorgingscentrum of ziekenhuis verblijven, en niet alleen in een woon-zorgcentrum. Er moet ook aan expertisedeling worden gedaan. Daar is ongelooflijk veel nood aan.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Met deze resolutie wil de CD&V een sterke basis leggen voor de gespecialiseerde zorg en financiële ondersteuning organiseren voor patiënten, hun families en mantelzorgers en die beter inrichten. Ik heb deze resolutie destijds opgemaakt, samen met De Wingerd, en heb verwezen naar de bibliothecaris van het Parlement. Woonzorgnet-Dijleland en het Expertisecentrum Dementie Vlaanderen hebben hier ook aan meegewerkt. Zij zijn heel blij met deze resolutie. Er wordt inderdaad verwezen naar het regeerakkoord, maar het Parlement moet een dubbel signaal geven en werken naar die concrete uitwerking. We mogen dit niet op de lange baan schuiven. Er staat heel wat in het regeerakkoord om te onderzoeken. Wij hebben het hier meer concreet gemaakt.
 
 
-Totaal
 
+In de commissie werd ook een interessante discussie gevoerd. De amendementen waren ook interessant. Er zijn daarnaast schriftelijke adviezen geweest. Bij het voeren van het onderzoek mogen we geen voorafnamen doen, maar we moeten die elementen meenemen en onderzoeken. Dan moeten we kijken welk het beste zorgtraject zou kunnen zijn voor personen met jongdementie.
 
-131
 
 
-Total
+Er zijn daarover inderdaad verwijzingen in het regeerakkoord. Ook in het Vlaams dementieplan werd belang gehecht aan wat het federale niveau ter zake zal doen. Belangrijk is dat wij nu de opdracht geven aan het Federaal Kenniscentrum, de FOD Volksgezondheid en het RIZIV, om de best practices, die wel bestaan, zij het versnipperd over Vlaanderen, een beetje Brussel en Wallonië, in kaart te brengen, teneinde te bekijken op welke manier wij daar het best mee omgaan.
 
 
 
-Totaal
+Wij doen dat niet loos. Ik heb immers al heel veel resoluties goedgekeurd in het Parlement. Hier is echter een deadline aan gekoppeld. Een en ander moet binnen het jaar gebeuren. Uiterlijk voor juni 2023 moeten wij een zicht hebben op de best practices maar ook op het onderzoek naar het beste zorgtraject dat zal worden gevoerd. Ik heb heel veel amendementen gezien, onder andere van mevrouw Fonck maar ook van mevrouw Depoorter. Daaraan moet echter invulling worden gegeven in het onderzoek. Ze moeten ook worden meegenomen, om na te gaan of het om goede elementen gaat die wij kunnen opnemen in een zorgtraject. Ik kan ook een aantal voorbeelden geven. Laat ons echter het onderzoek afwachten, waarop een duidelijke timing en deadline staat.
 
-Totaal
-Totaal
 
 
-131
+Belangrijk is ook dat het in overleg gebeurt met degenen die ervaring hebben, zoals de betrokken stakeholders, de patiënten, de naasten en de mantelzorgers. Belangrijk is uiteraard ook dat wij ervoor zorgen dat expertise wordt opgebouwd. Ik verwijs heel concreet naar een punt dat voor de meerderheid van belang was, namelijk het verwijzen naar de referentiearts. Wij hebben referentieartsen voor woon-zorgcentra die hun kennis delen. Op andere niveaus gebeurt dat echter niet. Ook Vlaanderen bekijkt nu om dat te organiseren op het niveau van de huisartsen en van de thuiszorg.
 
-131
-131
 
 
-Total
+Ook het federale niveau heeft een verantwoordelijkheid, om dat te organiseren op het niveau van de ziekenhuizen en ervoor te zorgen dat voor jongdementie, waarvan weinig artsen kennis hebben, kennis wordt gedeeld in bepaalde regio's en er een outreach gebeurt naar de zorginstellingen alsook dat verbinding wordt gemaakt met de patiënten, hun naasten en de eerstelijnszorg. Die expertisedeling is van bijzonder belang. Wij willen natuurlijk alle doelgroepen daarbij betrekken. In de resolutie wordt ook gewag gemaakt van het gematigde tot vergevorderde stadium. Wij bedoelen daarmee dat vanaf thuis tot in het dagverzorgingscentrum, het woon-zorgcentrum en in het ziekenhuis de patiënt moet worden vastgegrepen samen met zijn of haar mantelzorger.
 
-Total
-Total
 
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Stemming over amendement nr. 21 van
-Catherine Fonck tot invoeging van een verzoek 2/1(n). (1376/7)
-Stemming over amendement nr. 21 van
-Catherine Fonck tot invoeging van een verzoek 2/1(n). 
-(1376/7)
-(1376/7)
 
-Vote sur l'amendement n° 21 de Catherine
-Fonck tendant à insérer une demande 2/1(n). (1376/7)
-Vote sur l'amendement n° 21 de Catherine
-Fonck tendant à insérer une demande 2/1(n). (1376/7)
-(1376/7)
+Dat is ook van belang. Men heeft verwezen naar de deelstaten, daar liggen heel wat bevoegdheden. We hebben een aantal signalen willen meegeven waaruit toch duidelijk blijkt dat de manier waarop we er vandaag mee omgaan eigenlijk niet de juiste is.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+We hebben eigenlijk alleen het probleem van de woon-zorgcentra op te lossen. Ik denk dat wanneer men op jonge leeftijd is, het niet aangenaam is in een woonvorm te leven waar de meesten 40 jaar ouder zijn en men er permanent moet tussen opereren. Het is van belang dat we ervoor zorgen dat de mensen zich er ook gaan thuis voelen, in aangepaste woon- en zorgvormen.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 8
+De financiële ondersteuning en psychische begeleiding moeten we ook gaan bekijken in relatie met de deelstaten, naast de toegankelijkheid en de transparantie van de informatie en de automatische toekenning van de voordelen. De ontwikkeling van een specifiek zorgtraject en het overleg met de deelstaten zijn aspecten die cruciaal zijn om uiteindelijk te komen – dat is de doelstelling – tot meer gespecialiseerde zorg en om de financiële druk op de patiënt en de familie te verlichten.
 
 
-(Stemming/vote 7)
 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
+Jongdementie treft in België inderdaad duizenden mensen en het is heel zwaar, zowel psychisch als financieel. Op een bepaald moment heb ik Paul terug meegenomen naar het Parlement om nog eens een bezoek te brengen, ook aan zijn bureau. Hoewel hij zich niet kon uitdrukken, zag ik heel duidelijk dat hij daar gelukkig van werd. Dat is wat we moeten doen: levenskwaliteit toevoegen aan het dagdagelijkse leven van deze patiënten. Laten we mensen met jongdementie nog zien als verlangende wezens, die ook genieten van die levenskwaliteit. Dat is wat we met dit voorstel trachten te doen.
 
 
 
-Ja
+Bijkomende middelen zijn nodig. Expertise en samenwerking tussen de verschillende overheden en de zorginstellingen zijn dan ook dringend nodig om aan alle zorgvragen van mensen met jongdementie te voldoen.
 
 
-16
 
+Ik dank iedereen voor de goede samenwerking, ook in de commissie, en ik hoop op uw steun straks tijdens de stemming. Dank u wel.
 
-Oui
 
 
+17.06  Sofie Merckx (PVDA-PTB): Mevrouw de voorzitster, het is positief dat er aandacht is voor de problematiek van jongdementie. Wie getroffen wordt door jongdementie, krijgt het zwaar te verduren: de patiënt lijdt aan ernstig geheugenverlies en soms aan psychiatrische stoornissen en wordt daardoor op jonge leeftijd werkonbekwaam; hij of zij wordt sterk afhankelijk, heeft nood aan psychiatrische zorg en moet soms in een rusthuis worden opgenomen. Dat alles gaat gepaard met een belangrijk inkomensverlies. Het is geen lachertje wanneer de jongdementerende, die voor de diagnose vaak nog werkte, op 60 % van het loon terugvalt, terwijl het huis nog moet worden afbetaald of kinderen op de universiteit zitten. Bovendien is de ziekte vooralsnog onomkeerbaar en zullen jongdementerenden niet meer terug aan het werk kunnen.
 
-Ja
 
-Ja
-Ja
 
+Tot zover de gedeelde vaststellingen. Iedereen is het erover eens dat er werk gemaakt moet worden van een aanpak en dat er aandacht moet zijn voor het dossier. Wij zullen het voorstel van resolutie dus ook steunen.
 
-16
 
-16
-16
 
+Laat ik evenwel even inpikken op het verloop van de werkzaamheden. Oorspronkelijk vroeg u in uw voorstel, dat heel concreet was, naar een conventie naar het voorbeeld van de conventie voor patiënten met de ziekte van Huntington, eveneens een neurologische aandoening, waardoor de overheid een groter deel in de kosten op zich neemt.
 
-Oui
 
-Oui
-Oui
 
+Na het advies van het RIZIV dat de deelstaten sinds de zesde staatshervorming bevoegd zijn voor oplossingen voor de meeste problemen van personen die een grote afhankelijkheid ontwikkelen en autonomie verliezen, denk maar aan het verblijf in een woon-zorgcentrum, werd het voorstel zo uitgehold dat er een vage tekst overblijft waarbij drie van de zes vragen uiteindelijk gericht zijn aan onder andere de Vlaamse regering, in casu CD&V-minister Beke.
 
 
-Nee
 
+Het is een goede zaak dat hier in het Parlement een voorstel van resolutie wordt goedgekeurd, maar de PVDA staat klaar om het probleem van mensen met jongdementie ook in het Vlaams Parlement aan te kaarten en we hopen dat u dat ook zult doen.
 
-92
 
 
-Non
+Een eerste belangrijke probleem is de prijs van de woon-zorgcentra. Wie kan meer dan 2.000 euro per maand betalen aan zo'n centrum, terwijl de partner die vaak in goede gezondheid nog is, nog thuis woont en kinderen aan de universiteit studeren. Wat onderneemt minister Beke tegen de hoge prijzen van de woon-zorgcentra? Voorlopig onderneemt hij alleszins niet veel.
 
 
 
-Nee
+Het tweede probleem zijn de lange wachtlijsten – maar liefst 20.000 Vlamingen – voor het Vlaamse persoonsgebonden budget waar mensen met autonomieverlies of mensen met een handicap, wat ook het geval kan zijn bij mensen met jongdementie, recht op hebben. Het kan niet de bedoeling zijn dat mensen met jongdementie onderaan op die wachtlijst terechtkomen. De PVDA is tegen het persoonsgebonden budget dat wordt toegewezen aan de betrokkenen om te besteden aan zorg naar keuze. Dat is voor ons geen oplossing, want het brengt enorm veel problemen op het terrein met zich. Onzes inziens moet de overheid instaan voor kwaliteitsvolle en toegankelijke zorg op een collectieve manier.
 
-Nee
-Nee
 
 
-92
+Volgens ons moeten dus concretere maatregelen worden genomen. We wachten af wat er in het Vlaams Parlement en door de Vlaamse regering zal worden ondernomen om jongdementerende te helpen.
 
-92
-92
 
 
-Non
+17.07  Gitta Vanpeborgh (Vooruit): Mevrouw de voorzitster, Vooruit zal onderhavig voorstel van resolutie net als in de commissie steunen en wel om de volgende redenen.
 
-Non
-Non
 
 
+Ik zal hier en daar inpikken op wat de collega's hebben gezegd.
 
-Onthoudingen
 
 
-23
+Ten eerste, het voorstel komt tegemoet aan een duidelijk engagement in het federaal regeerakkoord. Daarin staat dat "voor personen met dementie op jonge leeftijd een specifiek zorgtraject zal worden onderzocht".
 
 
-Abstentions
 
+Mevrouw Depoorter, ik heb de beleidsnota niet meer nagelezen, zoals u hebt gedaan, maar ik weet wel dat daarin sprake is van zorgtrajecten en dat die ter harte worden genomen. Ik ga ervan uit dat onder andere jongdementie daarin een plaats kan vinden.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+Ten tweede, het voorstel van resolutie stuurt aan op een toch wel pragmatische aanpak. In tegenstelling tot mevrouw Merckx vind ik de tekst heel concreet. Er wordt aandacht besteed aan de verschillende fases bij jongdementie, bepalingen die na amendering werden ingevoegd. Bovendien wordt de regering gevraagd om concreet vorm te geven aan het zorgtraject aan de hand van good practices. Ik ben ervan overtuigd dat die goede praktijken bestaan en dat we moeten leren om over dat muurtje te kijken.
 
 
-23
 
-23
-23
+Mevrouw Depoorter, ik meende u te horen zeggen dat u droomt van een Vlaamse gezondheidszorg. Wij zijn nog altijd overtuigd van een federale gezondheidszorg, waarin de verschillende entiteiten zeer goed samenwerken. Ik ben ervan overtuigd dat een uitwisseling van goede praktijken, die er ongetwijfeld bestaan op niveau van de deelstaten en het federale niveau, concrete resultaten en verbetering kan opleveren.
 
 
-Abstentions
 
-Abstentions
-Abstentions
+Ten derde, het voorstel van resolutie legt de verantwoordelijkheid waar ze vandaag zou moeten liggen, en stuurt tegelijkertijd ook heel terecht aan op samenwerking. Samenwerking is meer dan ooit noodzakelijk in dit toch wel complexe zorglandschap. Ik denk dat we het daarover wel eens zijn. Zoals we hebben gehoord en gelezen, is het belangrijk dat wie op jonge leeftijd met de ziekte wordt geconfronteerd en zich in een precaire situatie bevindt, weet wat zijn of haar statuut is, wat de voordelen eraan verbonden zijn en op welke financiële steun men recht heeft.
 
 
 
-Totaal
+Dat is vandaag immers nog altijd niet duidelijk en dat moet worden verholpen.
 
 
-131
 
+Dergelijke concrete maatregelen vindt men terug in het voorstel van resolutie. Zo wordt er verzocht werk te maken van de maximale automatische toekenning van rechten, wat absoluut welkom is voor alle patiënten met jongdementie. Ergens anders wordt er gepleit voor aangepaste zorgnormen. Het kan inderdaad niet de bedoeling zijn dat die patiënten van bij het begin tot het einde in een woon-zorgcentrum terechtkomen.
 
-Total
 
 
+Kortom, wat ons betreft, onderhavig voorstel van resolutie beoogt met respect voor ieders verantwoordelijkheid toch een stap vooruit voor de naar schatting 5.500 slachtoffers van jongdementie, die dagelijks geconfronteerd worden met fysieke, lichamelijke, psychische, cognitieve problemen en die dan ook nog eens hun weg moeten zoeken in het complexe zorglandschap.
 
-Totaal
 
-Totaal
-Totaal
 
+Mevrouw Depoorter verwondert zich over ons pleidooi. Ik kan alleen maar betreuren dat we, als wij onze federale ministers op hun verantwoordelijkheid wijzen of duidelijk maken dat bepaalde engagementen moeten worden uitgevoerd, in een hoekje worden geplaatst, net zoals wanneer we dat niet zouden doen. Ik meen dat het onze taak is, als Parlementsleden, ook al maken wij deel uit van de meerderheid, terug te komen op bepaalde genomen engagementen en erop te hameren dat die uitgevoerd worden.
 
-131
 
-131
-131
 
+Hopelijk wordt er na de unanieme goedkeuring in commissie en misschien in plenaire vergadering met de resolutie aan de slag gegaan en niet alleen federaal. Ik hoop dat alle partijen het onderwerp ook zullen aankaarten bij de deelstaten, want uiteindelijk gaat het om een gedeelde verantwoordelijkheid.
 
-Total
 
-Total
-Total
 
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Stemming over amendement nr. 22 van
-Catherine Fonck tot invoeging van een verzoek 7(n). (1376/7)
-Stemming over amendement nr. 22 van
-Catherine Fonck tot invoeging van een verzoek 7(n). 
-(1376/7)
-(1376/7)
+17.08  Kathleen Depoorter (N-VA): Collega, uiteraard is het uw taak als parlementslid om met uw ministers te werken aan de uitvoering van het regeerakkoord. Wat echter zo bijzonder is, is dat het vertrouwen zo laag is, dat er een datum in de tekst werd opgenomen, want vóór 2023 moet uw minister een onderzoek naar het zorgpad begonnen zijn. Als er in de beleidsnota geen sprake is van jongdementie en de collega van CD&V aandringt op een onderzoek naar het traject in het eerste kwartaal van 2023, dan kan ik niet anders dan vaststellen dat het vertrouwen in de werking niet optimaal is.
 
-Vote sur l'amendement n° 22 de Catherine
-Fonck tendant à insérer une demande 7(n). (1376/7)
-Vote sur l'amendement n° 22 de Catherine
-Fonck tendant à insérer une demande 7(n). 
-(1376/7)
-(1376/7)
 
- 
- 
- 
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
- (Oui)
+U verwees ook naar de beleidsnota van 2022. Het gaat daarin inderdaad over zorgtrajecten en ik zal u even voorlezen waarover die gaan: diabetes, obesitas, perinataalzorgtraject en pre- en postabdominale orgaantransplantatie. Dat is dus geen jongdementie, collega. Men hoeft geen dokter te zijn om dat te kunnen interpreteren. Het stond er dus niet in. Daarom begrijp ik dat de collega van CD&V, die dat traject ter harte neemt, de regering er toch nog eens op wil wijzen.
 
- 
- 
- 
-(Stemming/vote 7)
-(Stemming/vote 7)
 
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement
-verworpen.
-Bijgevolg is het amendement
-verworpen.
 
- 
- 
- 
-35 Proposition de résolution visant à mettre en place un trajet de soins
-pour les personnes souffrant de démence précoce à un stade modéré à avancé
-(nouvel intitulé) (1376/6)
-35
-35
- Proposition de résolution visant à mettre en place un trajet de soins
-pour les personnes souffrant de démence précoce à un stade modéré à avancé
-(nouvel intitulé) (1376/6)
- Proposition de résolution visant à mettre en place un trajet de soins
-pour les personnes souffrant de démence précoce à un stade modéré à avancé
-(nouvel intitulé) (1376/6)
+Ten derde, hebt u heel duidelijk gesteld dat u als Vooruitfractie voor de federale gezondheidszorg bent. Hoe interpreteert u echter het regeerakkoord? Ik heb namelijk van elke partij een andere interpretatie gehoord. Wij hebben gelezen dat er toch wel werk gemaakt zal worden van een uniforme overheveling van bevoegdheids­pakketten. Ik heb de collega's van de MR zich daar al tegen horen uitspreken. U spreekt zich daar nu zelf tegen uit. Wat zult u ermee doen? U hebt nog twee jaar tijd.
 
-35 Voorstel van
-resolutie tot een zorgtraject voor personen met dementie op jonge leeftijd in
-een matig tot vergevorderd stadium (nieuw opschrift) (1376/6)
-35
-35
-35
- Voorstel van
-resolutie tot een zorgtraject voor personen met dementie op jonge leeftijd in
-een matig tot vergevorderd stadium (nieuw opschrift) (1376/6)
- Voorstel van
-resolutie tot een zorgtraject voor personen met dementie op jonge leeftijd in
-een matig tot vergevorderd stadium (nieuw opschrift) (1376/6)
- Voorstel van
-resolutie tot een zorgtraject voor personen met dementie op jonge leeftijd in
-een matig tot vergevorderd stadium (nieuw opschrift) (1376/6)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+17.09  Catherine Fonck (Les Engagés): Madame la présidente, chers collègues, force est de constater que la Belgique accuse un très sérieux retard dans la prise en charge des patients souffrant de la maladie d’Alzheimer. Il y a les patients souffrant de la maladie d'Alzheimer et de démence de manière plus globale et de toutes les maladies apparentées de manière précoce mais il y a aussi tous ceux que vous ne citez pas et qui, pourtant, vivent des moments particulièrement difficiles avec des prises en charge pas nécessairement adaptées et surtout avec des proches qui sont à leurs côtés pendant des périodes extrêmement longues.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
+Si nous accusons un sérieux retard en Belgique, c'est à la fois dans la prise en charge, l'offre de soins adaptée à domicile ou en institution, la formation du personnel soignant, le manque de soutien aux aidants proches, l'offre de capacités suffisantes en matière de diagnostic, de diagnostic précoce et d'annonce de diagnostic et tout ce qui concerne la recherche préventive et thérapeutique.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+C'est d'autant plus crucial que les projections indiquent malheureusement que le nombre de personnes souffrant en Belgique de la maladie d’Alzheimer, de démence ou de maladies apparentées sera, en 2030, d'environ 260 000 et, en 2050, d'environ 390 000.
 
-## Proposal 9
 
 
-(Stemming/vote 8)
+C'est évidemment la raison pour laquelle j'avais déposé une proposition et je continue à plaider pour la mise en place d'un plan Alzheimer, démence et maladies apparentées. Certes, il y a des responsabilités à différents niveaux de pouvoir. Cependant, c'est une évidence, en matière de santé publique que, s'il n'y a pas à un moment donné de pilotage avec un cap donné et une obligation claire à l'intention des différents niveaux de pouvoir de travailler ensemble à une approche non seulement ambitieuse mais également parfaitement coordonnée, toutes ces personnes et leurs proches seront encore et toujours, demain et après-demain, dans des situations extrêmement difficiles et pénibles à vivre sans prise en charge et sans approche adaptée. Il suffit de comparer ce qui se fait en la matière chez nous avec ce qui se passe dans d'autres pays de l'Union européenne.
 
-(Stemming/vote 8)
-(Stemming/vote 8)
-(Stemming/vote 8)
 
 
+Vous n'avez pas voulu avoir une vision plus large et vous avez préféré vous focaliser sur les patients souffrant de démence précoce. À travers ma proposition de résolution, je persiste, pour ma part, à avoir une vision plus large. C'est la raison pour laquelle, madame la présidente, je disjoins ma proposition de la proposition de résolution de Mme Van Hoof.
 
-Ja
 
 
-132
+J'en arrive au contenu de la résolution à l'examen qui s'attarde spécifiquement aux personnes souffrant de démence précoce. Cette approche est tout à fait indispensable pour ces patients. Une convention de soins au niveau national pour ceux-ci constitue un élément positif. J'y mets, cependant, deux bémols. Premièrement, il ne faut pas que ce soient juste de vagues intentions. J'attends donc de voir quelle sera la suite qui y sera réservée par le gouvernement. Deuxièmement, il est totalement indispensable de prévoir également un trajet de soins pour ceux que vous laissez de côté dans le cadre de cette proposition de résolution. Je pense ici aux personnes qui souffrent de démence précoce, mais qui ne seront pas concernées par ce trajet de soins, compte tenu des groupes cibles bénéficiaires très restrictifs prévus dans le cadre de cette dernière.
 
 
-Oui
 
+Si la proposition de résolution qui nous est soumise répond de manière correcte à la situation, avec les structures qui ont été mises en place du côté néerlandophone – raison pour laquelle je la voterai –, je regrette que, vu les groupes cibles hyper restrictifs, de très nombreux patients qui vivent sur le territoire de la Région de Bruxelles-Capitale, mais aussi sur le territoire de la Wallonie ne pourront pas bénéficier d'un trajet de soins tel que prévu dans la proposition de résolution.
 
 
-Ja
 
-Ja
-Ja
+Je puis vous assurer que, de mon côté, je ferai tout pour que le ministre change les catégories que vous avez prévues dans cette résolution, sinon les francophones seront clairement laissés de côté.
 
 
-132
 
-132
-132
+Je regrette les propos de la ministre Morreale qui a été interrogée, le 10 février 2022, sur le contenu de ce texte.
 
 
-Oui
 
-Oui
-Oui
+Cela vous fait rire au Parti Socialiste? Je vous encourage à prendre contact avec les associations de patients, qui m'ont alertée et qui mettent en évidence ce problème – à raison.
 
 
 
-Nee
+Le 10 février 2022 donc, la ministre Morreale, au Parlement wallon, a clairement dit qu'il n'y aurait pas de déploiement supplémentaire du côté wallon, qu'il n'y aurait aucun impact financier, signant là son absence totale de volonté de prévoir un accompagnement adapté pour les personnes souffrant de démence précoce. C'est extrêmement interpellant. Je continuerai, avec les associations de patients, à tenter de faire bouger les lignes afin que ce trajet de soins, s'il est mis en place, puisse également bénéficier aux personnes vivant sur le territoire de la Région de Bruxelles-Capitale et de la Wallonie.
 
 
-0
 
+C'est évidemment aussi pour cette raison qu'en lien avec les associations de patients concernées, j'ai déposé les amendements qui vous sont de nouveau soumis ici en plénière. Madame la présidente, je continuerai, pour ce qui me concerne, à plaider pour une approche beaucoup plus ambitieuse, pour une prise en charge de tous les patients et le soutien à leurs proches, quel que soit l'âge auquel le diagnostic de démence est établi et quel que soit l'âge des patients.
 
-Non
 
 
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
-Nee
+Vraagt nog iemand het woord? (Nee)
 
-Nee
-Nee
 
 
-0
+La discussion est close.
 
-0
-0
+De bespreking is gesloten.
 
 
-Non
 
-Non
-Non
+*  *  *  *  *
 
+Amendements déposés:
 
+Ingediende amendementen:
 
-Onthoudingen
+Considérant/Considerans F(n)
 
+• 20 – Catherine Fonck (1376/7)
 
-0
+Demande/Verzoek 2/1(n)
 
+• 21 – Catherine Fonck (1376/7)
 
-Abstentions
+Demande/Verzoek 7(n)
 
+• 22 – Catherine Fonck (1376/7)
 
+*  *  *  *  *
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+Les amendements sont réservés.
 
-0
+De amendementen worden aangehouden.
 
-0
-0
 
 
-Abstentions
+Le vote sur les amendements réservés et sur l’ensemble de la proposition aura lieu ultérieurement.
 
-Abstentions
-Abstentions
+De stemming over de aangehouden amendementen en over het geheel van het voorstel zal later plaatsvinden.
 
 
 
-Totaal
+### Discussed proposals:
 
+## Proposal discussion (agenda item 18)
 
-132
+### Description in Dutch:
 
+Proposition déposée par:
 
-Total
+Voorstel ingediend door:
 
+Steven Matheï, Nathalie Muylle, Jef Van den Bergh, Servais Verherstraeten, Jan Briers, Nahima Lanjri, Anja Vanrobaeys, Benoît Piedboeuf.
 
 
-Totaal
 
-Totaal
-Totaal
+Discussion
 
+Bespreking
 
-132
 
-132
-132
 
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2365/4)
 
-Total
+De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2365/4)
 
-Total
-Total
 
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en sera donné connaissance au gouvernement. (1376/8)
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en sera donné connaissance au gouvernement. 
-(1376/8)
-(1376/8)
 
+La discussion est ouverte.
 
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. (1376/8)
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. 
-(1376/8)
-(1376/8)
+De bespreking is geopend.
 
 
- 
- 
- 
-36 Amendement réservé à la proposition de résolution relative aux
-travailleurs frontaliers en télétravail (2365/1-5)
-36
-36
- Amendement réservé à la proposition de résolution relative aux
-travailleurs frontaliers en télétravail (2365/1-5)
- Amendement réservé à la proposition de résolution relative aux
-travailleurs frontaliers en télétravail (2365/1-5)
 
-36 Aangehouden
-amendement op het voorstel van resolutie met betrekking tot thuiswerkende
-grenswerknemers (2365/1-5)
-36
-36
-36
- Aangehouden
-amendement op het voorstel van resolutie met betrekking tot thuiswerkende
-grenswerknemers (2365/1-5)
- Aangehouden
-amendement op het voorstel van resolutie met betrekking tot thuiswerkende
-grenswerknemers (2365/1-5)
- Aangehouden
-amendement op het voorstel van resolutie met betrekking tot thuiswerkende
-grenswerknemers (2365/1-5)
+Mme Cécile Cornet, rapporteur, renvoie à son rapport écrit.
 
 
- 
- 
- 
-Vote sur l'amendement n° 5 de Josy Arens à
-la demande 3. (2365/5)
-Vote sur l'amendement n° 5 de Josy Arens à
-la demande 3. 
-(2365/5)
-(2365/5)
 
-Stemming over amendement nr. 5 van Josy
-Arens op verzoek 3. (2365/5)
-Stemming over amendement nr. 5 van Josy
-Arens op verzoek 3. (2365/5)
-(2365/5)
+18.01  Joy Donné (N-VA): Mevrouw de voorzitster, collega's, dat het lot van de grenswerknemers ons na aan het hart ligt hebben we ook al bewezen bij de bespreking van het ontwerp houdende diverse bepalingen inzake Financiën van december 2021. Wij zullen ook dit voorstel steunen. Een beleid dat telewerk voor grenswerknemers bevordert is belangrijk. Het heeft voordelen voor zowel de werknemers als de werkgevers. Het zorgt voor een vermindering van het aantal reisbewegingen, een beter evenwicht tussen werk- en privéleven, een hogere aantrekkelijkheid van vacatures enzovoort.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+In de commissie hebben wij al gezegd dat wij de omvang van de resolutie te beperkt vinden. Ik verwijs naar het Benelux-voorstel, dat niet alleen van toepassing is op thuiswerkende grenswerknemers maar ook de mogelijkheid biedt om in afstandskantoren te werken. Het Benelux-voorstel heeft bovendien ook oog voor zelfstandige ondernemers, uitoefenaars van vrije beroepen, bedrijfsleiders en gedetacheerde ambtenaren. Zij mogen in een beleid van telewerk zeker niet vergeten worden.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 10
+De resolutie focust op een structurele oplossing voor thuiswerkende grenswerknemers, geïnspireerd op de regeling die nu reeds in Luxemburg en Frankrijk geldt. Als oplossing wordt hier naar voren geschoven om het aantal toegelaten dagen van arbeid buiten de werkstaat voor de grenswerknemers eenvormig op 48 te brengen, wat neerkomt op ongeveer een dag per week.
 
 
-(Stemming/vote 9)
 
-(Stemming/vote 9)
-(Stemming/vote 9)
-(Stemming/vote 9)
+Wij vragen dat er bij de uit te voeren studie op wordt gelet dat de uitkomst in een voldoende flexibele regeling voorziet, zodat rekening kan worden gehouden met de verschillende gevallen van thuiswerk, werk via afstandskantoren, een werknemer die naast het telewerk in zijn woonland een dag per week klanten bezoekt, een werknemer die in meer dan een land werkt, een deeltijdse werknemer, situaties van tijdelijke werkloosheid, overgangsrecht voor werknemers die nu bewust kiezen voor een fiscale splitsregeling enzovoort.
 
 
 
-Ja
+De resolutie vordert een studie naar de economische en budgettaire effecten op het vlak van de fiscale en de socialezekerheidsregeling. Zeker even belangrijk voor ons is dat er ook rekening wordt gehouden met de gevolgen van telewerk op het toepasselijke arbeidsrecht. Eerst moet een antwoord worden gegeven op de vraag welk arbeidsrecht van toepassing is. Het arbeidsrecht evolueert in onze buurlanden naar een recht op telewerk gedurende twee dagen per week. In dat kader rijst de vraag of een werkgever grensarbeiders een andere of een beperktere thuiswerkregeling mag opleggen dan werknemers die in het land van de werkgever wonen. Het Benelux-verdrag voorziet in dezen expliciet in een gelijke behandeling van de Nederlandse, Belgische en Luxemburgse onderdanen op het vlak van de arbeidsvoorwaarden.
 
 
-17
 
+Tot slot lijkt het niet overbodig om ook eens de gevolgen voor de werkgever in rekening te brengen. Wat zijn de gevolgen wanneer een grenswerker een dag meer of minder telewerkt? Ontstaat er in zijn hoofde een personele vaste inrichting of een Belgische inrichting door het telewerk? Dient hij al dan niet een dubbele payrolladministratie te voeren en bedrijfsvoorheffing in te houden? Wijzigt de sociale verzekering van de werknemer? En wat zijn de gevolgen inzake de opbouw voor een aanvullend pensioen?
 
-Oui
 
 
+Ter conclusie van mijn tussenkomst, wij steunen ten volle de oproep dat grenswerkers – dus dat is ruimer dan werknemers – meer dagen zouden kunnen telewerken. Wat vooral van belang is, is te voorzien in een voldoende flexibele regeling, zodat een wijzigend arbeidsrecht en wijzigende arbeidsvoorwaarden de fiscale en socialezekerheidsrechtelijke toestand van werknemer en werkgever op hun beurt niet telkens wijzigt.
 
-Ja
 
-Ja
-Ja
 
+Wij hopen dat degenen die het studiewerk zullen verrichten waartoe deze resolutie oproept dit verslag ook zullen lezen en rekening zullen houden met de aandachtspunten die ik zojuist naar voren heb gebracht. Dat verklaart ook waarom ik hier een vrij saaie, technische uiteenzetting heb gegeven: het is minder bestemd voor de bühne, maar eerder voor het verslag en de mensen die het verslag zullen lezen. Dank u.
 
-17
 
-17
-17
 
+18.02  Mélissa Hanus (PS): Madame la présidente, tout d'abord, je tiens à saluer la mise à l'agenda de cette proposition et je félicite mes collègues concernés pour leur travail effectué dans ce domaine.
 
-Oui
 
-Oui
-Oui
 
+La crise sanitaire a permis de rendre obligatoire ce qui auparavant était impensable: l'augmentation du nombre de jours de télétravail pour les travailleurs frontaliers, par l'instauration de conventions temporaires entre pays frontaliers. Le principe était le suivant: j'exerce ma fonction en télétravail et je reste imposé fiscalement dans le pays de mon employeur.
 
 
-Nee
 
+Si le télétravail comporte bien sûr des limites, il ne s'agit pas ici de le généraliser à 100 % pour les frontaliers. Le télétravail comporte toutefois nombre d'avantages majeurs pour les régions transfrontalières. On citera notamment la diminution des embouteillages - je pense à ceux qui traversent tous les matins la E411 pour aller au Grand-Duché de Luxembourg -, mais aussi à une meilleure conciliation entre vie privée et vie professionnelle ou encore à un geste pour le climat, un geste pour la planète.
 
-77
 
 
-Non
+Offrir un cadre adapté pour le télétravail des frontaliers n'est pas, on le sait, chose aisée. On notera, par exemple, le travail initié par le Parlement Benelux, qui a adopté une résolution demandant aux différents gouvernements d'élaborer une solution pour améliorer la situation des travailleurs frontaliers à domicile, ou encore l'initiative qui a été mise en place, le Fonds pour les communes frontalières belges, si essentiel à nos communes dans le sud de la province de Luxembourg, qui nous permet de mener des politiques adaptées à nos citoyens de zones rurales transfrontalières.
 
 
 
-Nee
+La proposition des 48 jours comme nombre de jours de télétravail est un geste, une étape que ce Parlement belge pose dans ce long débat du télétravail transfrontalier. C'est un chiffre. Nous verrons si ce gouvernement le retient dans les négociations, mais il s'agit, de toute façon, d'un pas supplémentaire dans la bonne direction.
 
-Nee
-Nee
 
 
-77
+Au-delà du chiffre, c'est une solution structurelle qui est nécessaire en matière de télétravail transfrontalier et c'est ce qui est proposé et demandé dans ce texte.
 
-77
-77
 
 
-Non
+Chaque travailleur, qu'il soit transfrontalier ou local, doit être traité en toute égalité. Ce gouvernement devra dès lors être attentif aux écueils que d'éventuels abus pourraient comporter.
 
-Non
-Non
 
 
+Droit du travail, sécurité sociale et fiscalité juste demeurent nos priorités.
 
-Onthoudingen
 
 
-38
+Toutefois, aujourd'hui, c'est un débat important pour les milliers de travailleurs concernés qui est ouvert à l'initiative de ce Parlement. Bravo pour le travail effectué! Nous donnons maintenant notre confiance à notre ministre des Finances pour négocier dans le sens de ce texte parlementaire.
 
 
-Abstentions
 
+18.03  Wouter Vermeersch (VB): Mevrouw de voorzitster, ik woon zelf op een tiental minuten van de Frans-Vlaamse grens in het zuiden van West-Vlaanderen en ik heb dan ook met bijzondere interesse het voorliggende voorstel van resolutie gevolgd, ook omdat nergens anders in het land de krapte op de arbeidsmarkt zo nijpend is als in de provincie West-Vlaanderen, zeker in het zuiden daarvan. Grenswerk is daar dus absoluut van belang.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+De collega's die het voorstel van resolutie hebben ingediend, hebben zeer terecht gewezen op de noodzaak om thuiswerk voor grensarbeiders te vergemakkelijken, zonder dat het voor hen problemen met zich meebrengt op bijvoorbeeld het vlak van dubbele belasting, zowel belasting in het land van tewerkstelling als in het land van herkomst. Er kunnen ook problemen ontstaan op het vlak van sociale verzekeringen of de sociale zekerheid. Wij begrijpen dan ook dat de collega's vrezen voor de negatieve gevolgen op de inkomsten van het land door al dat telewerk, ook grensoverschrijdend, maar tezelfdertijd zien zij ook het positieve belang in van een dynamische arbeidsmarkt, wat de algemene economie ten goede komt. Wij zullen het voorstel van resolutie dan ook goedkeuren.
 
 
-38
 
-38
-38
+Ik zei al dat ik zelf op tien minuten rijden van de Frans-Vlaamse grens woon in West-Vlaanderen, maar ik woon ook op vijf minuten van een belangrijk monument. Als u de E17 oversteekt vanuit Rijsel richting Kortrijk, ziet u aan de rechterkant een gigantisch, betonnen monument met vier punten die de windrichtingen weergeven. Een van die punten wijst richting Frankrijk. Dat monument heet De Sjouwer en werd opgericht als een bedanking voor de vele Frans-Vlamingen, de Noord-Fransen die dagelijks de grens oversteken en die – in tegenstelling tot bij de arbeidsmigratie van staatssecretaris Mahdi – ook dagelijks terugkeren naar hun land van herkomst, zoals het hoort. Het werd ook al even aangehaald door collega Anseeuw tijdens de mondelinge vragen daarnet, want de situatie in België is toch bijzonder uniek. Zelfs internationaal wekt de provincie West-Vlaanderen interesse, omdat zij de laagste werkloosheid van het land heeft.
 
 
-Abstentions
 
-Abstentions
-Abstentions
+De Belgische provincie met de hoogste werkloosheid is Henegouwen. De provincies met de minste en de meeste werkloosheid grenzen aan elkaar. Men zou kunnen aanvoeren dat Henegouwers niet in West-Vlaanderen gaan werken door de taalbarrière. Niets is echter minder waar, want de statistieken tonen aan dat er dubbel zoveel woon-werkverkeer is tussen Nord-Pas-de-Calais in Noord-Frankrijk, en de provincie West-Vlaanderen, dan woon-werkverkeer tussen Henegouwen en West-Vlaanderen. De taalbarrière is voor Noord-Fransen en Walen identiek. Het verschil kan echter worden verklaard door de ongeremde hangmat van de werkloosheid, waar veel Walen in blijven liggen. Werkloosheid wordt in sommige Waalse gezinnen van generatie op generatie doorgegeven. We moeten dat probleem durven te benoemen. Het legt de arbeidsuitdaging van dit land volledig bloot.
 
 
 
-Totaal
+Naast de activering van grote groepen werkloze allochtonen in dit land, moeten we ook van de activering van grote groepen werklozen in Wallonië een absolute prioriteit maken. Onze West-Vlaamse bedrijven en ondernemers moeten noodgedwongen een beroep doen op de arbeidsreserve van Noord-Frankrijk in plaats van die van Henegouwen. Daarom steunen wij initiatieven met betrekking tot die grensarbeid. Dat is belangrijk. Het is echter veel belangrijker dat we het probleem tussen Henegouwen en West-Vlaanderen eindelijk oplossen. Ik herhaal dat de taalbarrière identiek is voor Noord-Frankrijk. Blijkbaar slagen we er niet in om Henegouwers aan te trekken voor de West-Vlaamse bedrijven die nochtans arbeidskrachten nodig hebben.
 
 
-132
 
+18.04  Benoît Piedboeuf (MR): Madame la présidente, je suis désolé, mais avec ce que je viens d'entendre, on peut pervertir tous les dossiers. Pour ma part, je vais plutôt vous parler des frontaliers belges, qui sont bien formés en Wallonie et qui vont notamment travailler au Grand-Duché, parce qu'ils apportent la science et la formation qui sont excellentes en Wallonie.
 
-Total
 
 
+Ce dossier chemine depuis longtemps car il porte une vieille revendication. Je remercie donc mon collègue Mathéï d'avoir pris l'initiative de cette proposition de résolution, que j'ai cosignée. Évidemment, un chiffre est un chiffre. Un certain dynamisme peut s'en retrouver entravé. Nous nous rendons compte que, pour toute une série de dirigeants d'entreprise belges qui travaillent à l'étranger, le dépassement du nombre de 24 jours découle de leurs déplacements dans le monde entier en raison de leur fonction. Ensuite, le fisc belge les rattrape au motif qu'ils auraient dépassé le nombre de jours et il les taxe. C'est évidemment très désagréable et c'est anti-économique. De plus, les gouvernements des pays voisins en ont marre de répondre à des demandes de renseignement du fisc belge et d'avoir des soucis avec les travailleurs qui sont rattrapés par celui-ci.
 
-Totaal
 
-Totaal
-Totaal
 
+C'est une vieille revendication à propos de laquelle un accord de principe avait été conclu sous la législature précédente entre les ministres Gramegna et Van Overtveldt, entre les premiers ministres Charles Michel et Xavier Bettel, autour d'un chiffre de 48 jours. Les administrations fiscales avaient été chargées de préparer des modifications de la convention préventive de double imposition – cela concernait le volet luxembourgeois. Finalement, le dossier n'a pas avancé, en raison d'une résistance de l'administration, qui estime que cela revient à une perte de souveraineté, celle-ci empêchant de rentrer des recettes fiscales. Or ce n'est pas exactement le cas, bien entendu. En effet, qu'un travailleur frontalier travaille quelques jours supplémentaires dans l'État ne change en rien sa situation. Par conséquent, il n'y a pas plus ou moins d'impôts; on lui offre simplement un peu plus de souplesse.
 
-132
 
-132
-132
 
+Alors, pourquoi 48 jours? D'abord, parce qu'une résolution du Parlement Benelux – votée à l'unanimité – réclame ce nombre de jours. Ensuite, nous essayons de viser un jour par semaine. Cela permet un peu plus de confort dans la gestion de sa vie privée, dans les déplacements, avec des conséquences sur la production de CO2 dans les embouteillages. C'est pourquoi le ministre écologiste luxembourgeois est tellement attiré par cette extension qui réduirait la circulation dans la capitale grand-ducale.
 
-Total
 
-Total
-Total
 
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-37 Proposition de résolution relative aux travailleurs frontaliers en
-télétravail (2365/4)
-37
-37
- Proposition de résolution relative aux travailleurs frontaliers en
-télétravail (2365/4)
- Proposition de résolution relative aux travailleurs frontaliers en
-télétravail (2365/4)
+Mais le problème est le même, les collègues l'ont évoqué, avec la France, l'Allemagne et les Pays-Bas, d'où la résolution qui avait été prise. Tout le monde est d'accord sur cette extension.
 
-37 Voorstel van
-resolutie met betrekking tot thuiswerkende grenswerknemers (2365/4)
-37
-37
-37
- Voorstel van
-resolutie met betrekking tot thuiswerkende grenswerknemers (2365/4)
- Voorstel van
-resolutie met betrekking tot thuiswerkende grenswerknemers (2365/4)
- Voorstel van
-resolutie met betrekking tot thuiswerkende grenswerknemers (2365/4)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Maintenant, il y a le problème fiscal et le problème lié à la sécurité sociale. On sait qu'il existe une limitation européenne par rapport aux 25 % de prestations hors de l'État. Il faut donc harmoniser cela.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
+La recommandation qui a été initiée par mon collègue Matheï demande à ce qu'on travaille sur ces deux volets-là et qu'on réalise une évaluation. On dit en effet qu'en concluant ce type d'accord, on atteint à la souveraineté fiscale de la Belgique, il faut faire la démonstration que ce n'est pas le cas. C'est un facteur de dynamisme. C'est un facteur de développement économique. Il est donc important que nous y travaillions.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+On va relayer le message au ministre des Finances, même s'il l'a déjà entendu. Il était parvenu, notamment avec le Grand-Duché de Luxembourg, à passer de 24 à 34 jours. On demande un effort supplémentaire et on demande d'harmoniser le système au niveau international. Il faut que les travailleurs belges puissent circuler dans l'OCDE avec cette faculté aussi de télétravailler.
 
-## Proposal 11
 
 
-(Stemming/vote 10)
+C'est une proposition de résolution mais nous allons suivre l'intérêt du ministre pour la résolution et on va essayer de peser de tout notre poids pour avancer vers la concrétisation de cette proposition. J'ai vu qu'il existait une proposition de loi pour augmenter le nombre de jours. C'est un travail qui se mène étape par étape: on a fait 24, puis 34. Quand on sera à 48, peut-être demandera-t-on un peu plus mais, pour l'instant, nous visons un jour par semaine. C'est la raison pour laquelle le groupe MR va soutenir avec enthousiasme cette proposition de résolution.
 
-(Stemming/vote 10)
-(Stemming/vote 10)
-(Stemming/vote 10)
 
 
+18.05  Steven Matheï (CD&V): Mevrouw de voorzitster, collega's, ons land is een kleine, open economie in het centrum van Europa, met een goed werkende grensoverschrijdende arbeidsmarkt. Dat resulteert in heel wat grenswerknemers, in totaal 90.000 in België. De vorige sprekers haalden al een aantal regio's aan. In Limburg zijn er 15.000 mensen die elke dag in bijvoorbeeld Nederland gaan werken. Op zich is dat goed en heel belangrijk. Dat draagt immers bij tot de economische groei en is ook heel positief voor de werkzaamheidsgraad. Dit is natuurlijk niet van vandaag op morgen zo geworden, het is historisch zo gegroeid, net als de regels die dit alles in goede banen leiden. Als we actief willen zijn in een internationale context, moeten er afspraken worden gemaakt. Voor de grenswerknemers moeten er concreet fiscale afspraken zijn in de dubbelbelastingverdragen en ook afspraken rond de sociale zekerheid. Dit is Europees geregeld.
 
-Ja
 
 
-128
+Toen kwam er corona. Met corona kwam natuurlijk ook het thuiswerk. Ondertussen kunnen we zeggen dat dit een echte blijver zal zijn. In de coronaperiode was thuiswerk op gegeven momenten verplicht, dan wel heel sterk aanbevolen. Dat had natuurlijk effect. Ook die grenswerkers gingen dus thuis werken. Toen ontstond er een probleem, want de historisch gegroeide regels rond dubbelbelastingverdragen en rond de RSZ waren niet gemaakt om ook thuis te werken. Concreet wilde dat zeggen dat wanneer een grenswerknemer één dag thuis werkte, hij of zij voor die dag in België en niet in het andere land belast zou worden. Vallen onder twee fiscale systemen brengt natuurlijk een hele administratieve rompslomp met zich mee. Hetzelfde geldt voor de sociale zekerheid. Ook daar lag er een grens. Voor sommige van die grenswerknemers zorgde dat bovendien voor het potentieel verlies van bepaalde voordelen. Er waren dus heel wat nadelen verbonden aan het thuiswerk.
 
 
-Oui
 
+Gelukkig hebben België en onze buurlanden in een tijdelijke oplossing voorzien tijdens de coronaperiode. Er zijn stelselmatig akkoorden afgesloten met onze buurlanden om ervoor te zorgen dat het thuiswerk, dat verplicht of sterk aanbevolen was, geregeld was. Concreet betekende dit dat de thuisgewerkte dagen eigenlijk werden gezien als dagen die op de werkplaats gewerkt zouden zijn. Er waren dus geen nadelige fiscale gevolgen en geen nadelige gevolgen inzake de RSZ. Die tijdelijke akkoorden nemen natuurlijk een einde. Concreet zullen ze stoppen op 30 juni van dit jaar.
 
 
-Ja
 
-Ja
-Ja
+De roep is dus groot om te streven naar en te werken aan een definitieve oplossing voor thuiswerk. Dat is dan ook de aanleiding voor deze resolutie. Ook in de toekomst zullen grenswerknemers immers moeten kunnen thuiswerken zonder rompslomp, fiscale nadelen of andere problemen. Een oplossing is met de huidige regels niet eenvoudig, maar het is wel belangrijk dat die stap wordt gezet. Daarom worden in de resolutie een aantal zaken heel concreet aangegeven. Op lange termijn zouden we moeten evolueren naar een nieuwe, internationale definitie van thuiswerk. Dat moet worden gerealiseerd op OESO- en Europees niveau en zal nog wat tijd vergen. Daarnaast kunnen er op kortere termijn, met de huidige regels, afspraken worden gemaakt om voor grensarbeiders minstens één dag per week thuiswerk mogelijk te maken. Dat schuift ook het Benelux-parlement in een aanbeveling naar voren, zoals al is vermeld. Ook de heer Piedboeuf heeft daarvoor geijverd.
 
 
-128
 
-128
-128
+Concreet vraagt deze resolutie om op de lange termijn te werken en op kortere termijn al te evolueren naar minstens één dag thuiswerk per week voor grenswerknemers. Daarnaast vraagt deze resolutie een impactstudie om na te gaan wat de economische, financiële en budgettaire gevolgen zijn van zo'n thuiswerkregeling.
 
 
-Oui
 
-Oui
-Oui
+Deze resolutie is dus een eerste maar wel heel belangrijke stap in een evolutie, zodat grenswerknemers niet worden afgestraft als ook zij, net zoals andere werknemers, thuiswerken. Thuiswerk heeft immers een positieve impact op zowel de werknemer, die een betere balans kan creëren tussen gezin en werk, als op de werkgever.
 
 
 
-Nee
+Ik bedank alvast iedereen die in de commissie en in dit Parlement heeft bijgedragen tot de totstandkoming van deze resolutie, ook de adviserende organisaties. Ik hoop dat we straks bij de stemming ook op uw steun kunnen rekenen om deze resolutie massaal goed te keuren.
 
 
-1
 
+18.06  Anja Vanrobaeys (Vooruit): Mevrouw de voorzitster, collega's, ik ben tevreden dat deze resolutie hier vandaag op zoveel draagvlak kan rekenen. Voor mij moeten grenswerkers, net zoals Belgische werknemers, verder kunnen telewerken, zonder dat ze daarvoor afgestraft worden op het vlak van hun belastingen. De afgesloten dubbelbelastingverdragen bevatten immers nog altijd regels uit de tijd dat quasi elke werknemer nog elke dag naar kantoor ging.
 
-Non
 
 
+Ondertussen is de wereld veranderd. We hebben corona gehad en toen werd iedereen verplicht om thuis te werken. We hebben dan ook gemerkt dat er veel meer functies dan we ooit dachten voor telewerk in aanmerking komen. Men heeft toen alle reeds vaststaande regels geneutraliseerd om daarvan geen negatieve fiscale gevolgen of gevolgen op het vlak van de sociale zekerheid te hebben.
 
-Nee
 
-Nee
-Nee
 
+Deze neutralisaties lopen echter eind juni af. De tijd voor de grenswerkers dringt. Veel van hen zitten vol spanning te kijken naar wat er zal gebeuren. Ondertussen, ook al is corona voorbij, geeft meer dan de helft van de werknemers hier in België aan dat ze willen blijven telewerken, misschien niet voltijds, maar toch enkele dagen per week. Deze wens is voor grenswerkers niet anders. De voordelen zijn alom gekend: een betere combinatie van werk- en gezinsleven, files vermijden of toch tijd winnen door het openbaar vervoer niet te nemen. Deze voordelen zijn opnieuw niet anders voor grenswerkers.
 
-1
 
-1
-1
 
+Als er echter tegen eind juni niets gebeurt, dreigen de grenswerkers die nu ook verder telewerken twee maal belastingen te moeten betalen of toch een aantal voordelen van hun hypothecaire aftrek te verliezen. Ik denk toch dat we dat jonge gezinnen die hier in België hun gezinsleven uitbouwen niet moeten aandoen.
 
-Non
 
-Non
-Non
 
+Daarom is telewerk bij grenswerkers voor mij al langer dan vandaag een aandachtspunt. Al meer dan een jaar geleden heb ik zelf een resolutie opgesteld voor een betere omkadering van structureel telewerk, waarin ik ook amendementen heb ingediend om deze situatie goed te regelen.
 
 
-Onthoudingen
 
+Ik dank de heer Matheï voor zijn initiatief. We hebben in de commissie voor Financiën de minister daarover verschillende keren vragen gesteld omdat we ons zorgen maakten over de grenswerkers die bleven telewerken. Daarom heb ik mij onmiddellijk aangesloten bij het initiatief van de heer Matheï, zodat we die situatie kunnen uitklaren en vooral een oplossing kunnen bieden aan al die mensen die nu niet weten wat er na juni zal gebeuren.
 
-3
 
 
-Abstentions
+Naast voordelen zijn er echter ook nadelen verbonden aan telewerk. Er is minder sociaal contact met de collega's, maar vooral neemt ook de werkdruk toe. Tijdens de coronacrisis zeiden heel veel werknemers dat ze maar mails bleven beantwoorden en maar bleven doorwerken en dat de grens tussen werk en gezin vervaagde. Ik vind het belangrijk dat er naast de regeling voor de telewerkende grenswerkers ook een goed collectief kader komt voor structureel telewerk, zodat werknemers de rekeningen, die zij nu toch al meer dan twee jaar betalen, niet zouden moeten blijven betalen en er ook aandacht is voor de arbeidsomstandigheden thuis. Dit sluit een beetje aan bij de resolutie die ik in de commissie voor Sociale Zaken heb ingediend en waarin ik vroeg om het recht op deconnectie. Dat wordt nu door de regering in de arbeidsdeal opgenomen, maar ik dring nog altijd aan op een goed omkaderd arbeidsrecht en op een goede telewerkvergoeding voor de mensen die thuiswerken.
 
 
 
-Onthoudingen
+In die zin sluit ik mij aan bij de vraag die hier al werd gesteld. In de resolutie wordt gevraagd dat er een impactstudie zou komen over de fiscale, economische en budgettaire gevolgen, maar ik vind het belangrijk dat daarin ook het recht op een comfortabele bureau en dito bureaustoel wordt opgenomen alsook dat er aandacht is voor het welzijn van de telewerkers en hun hogere facturen. Dat is immers niet anders voor grenswerkers dan voor Belgische werknemers.
 
-Onthoudingen
-Onthoudingen
 
 
-3
+Op het vlak van de sociale zekerheid is het ook belangrijk dat er wordt geharmoniseerd. Frankrijk heeft onder zijn voorzitterschap de herziening en actualisering van de verordening op de Europese agenda geplaatst. Ik hoop dat er daar snel vooruitgang wordt geboekt, want het kan niet de bedoeling zijn dat wanneer grenswerkers telewerken zij gewaarborgd loon, sociale bescherming en pensioenrechten zouden verliezen.
 
-3
-3
 
 
-Abstentions
+Collega's, ik zal in ieder geval de uitvoering van de resolutie door de regering heel nauwgezet opvolgen, want grenswerkers verwachten een oplossing en zitten er zenuwachtig op te wachten. Ik hoop in ieder geval dat er voor eind juni al een eerste stap gezet kan worden.
 
-Abstentions
-Abstentions
 
 
+Voor onze fractie is deze resolutie dan ook een eerste stap vooruit, die 48 dagen, die nauw aansluit bij wat unaniem beslist is door het Benelux-parlement.
 
-Totaal
 
 
-132
+Grenswerkers die zich heel mobiel en flexibel opstellen, moeten net als Belgische werknemers hun intrede kunnen doen in het 21e-eeuwse digitale tijdperk, maar dan wel met de nodige garanties een goede omkadering.
 
 
-Total
 
+18.07  Josy Arens (Les Engagés): Madame la présidente, je suis très heureux d'avoir ce débat en séance plénière aujourd'hui. Malheureusement, je n'ai pas pu participer à la réunion de commission, puisque j'avais une intervention dans une autre commission au même moment.
 
 
-Totaal
 
-Totaal
-Totaal
+Je dirais heureusement que ce n'est qu'une proposition de résolution. Je suis bourgmestre d'une commune dans laquelle 60 % de la population active travaille au Grand-Duché de Luxembourg. Dans la plupart des communes, c'est plus de 40 % ou de 50 %. Cela signifie que pratiquement chaque foyer est concerné par cette problématique. Je qualifie donc ce dossier d'important.
 
 
-132
 
-132
-132
+Mais permettez-moi de revenir brièvement sur l'historique de ce dossier car il ne faut pas oublier l'histoire. Le 16 mars 2015, Johan Van Overtveldt, alors ministre des Finances, annonce que les frontaliers habitant en Belgique et travaillant au Grand-Duché de Luxembourg pourront désormais travailler en dehors du Luxembourg 24 jours par an tout en restant imposés au Luxembourg. Cet accord amiable entre en vigueur le 1er janvier 2015. Pour qu'il soit entériné par le Parlement, nous avons dû, chers collègues, attendre 2 044 jours. Cet accord était d'application alors qu'il n'était même pas approuvé par le gouvernement. C'est l'administration qui me le signalait.
 
 
-Total
 
-Total
-Total
+Lors de mes premières interventions à la suite de mon retour au Parlement fédéral, j'ai été plus que surpris de voir que les 24 jours n'étaient pas entérinés par le Parlement et n'avaient jamais été présentés au Parlement. Nous avons donc eu cette approbation voici quelques mois et j'ai pu, à l'époque, avoir un débat avec la ministre des Affaires étrangères, Mme Sophie Wilmès.
 
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en sera donné connaissance au gouvernement. (2365/6)
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en sera donné connaissance au gouvernement. 
-(2365/6)
-(2365/6)
 
 
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. (2365/6)
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. 
-(2365/6)
-(2365/6)
+Le 5 décembre 2017, cet accord fait l'objet d'un avenant à la convention fiscale belgo-luxembourgeoise visant à éviter la double imposition. Il est signé par les gouvernements belge et luxembourgeois mais n'est toujours pas soumis au Parlement, comme je l'ai déjà dit.
 
 
- 
- 
- 
-Raison d'abstention?
-Raison d'abstention?
-Reden van
-onthouding? 
-Reden van
-onthouding? 
 
- 
- 
- 
-37.01  Josy Arens (Les
-Engagés): Madame la présidente, je voudrais vous donner les raisons de notre
-abstention.
-37.01
-37.01
-  Josy Arens 
-  Josy Arens 
- 
-(Les
-Engagés): Madame la présidente, je voudrais vous donner les raisons de notre
-abstention.
- 
- 
- 
-Nous aurions évidemment souhaité voter en
-faveur de cette proposition de résolution. Cependant, notre amendement, qui
-améliorait ce qui nous a été présenté, a été refusé et nous constatons un réel
-recul dans cette proposition de résolution. En effet, on parle
-"d'étudier" une solution alors que les frontaliers
-belgo-luxembourgeois étaient tout heureux puisque l'accord du
-18 mai 2019 leur disait clairement qu'ils avaient à présent la
-possibilité de télétravailler durant 48 jours. Par conséquent,
-inévitablement, bien que nous soyons très solidaires avec les autres
-frontières, du nord etc., nous ne pouvons pas marquer notre accord sur un recul
-aussi phénoménal que celui-ci alors qu'il y a eu une déclaration et un accord
-négocié par deux premiers ministres. Deux premiers ministres!
-Nous aurions évidemment souhaité voter en
-faveur de cette proposition de résolution. Cependant, notre amendement, qui
-améliorait ce qui nous a été présenté, a été refusé et nous constatons un réel
-recul dans cette proposition de résolution. En effet, on parle
-"d'étudier" une solution alors que les frontaliers
-belgo-luxembourgeois étaient tout heureux puisque l'accord du
-18 mai 2019 leur disait clairement qu'ils avaient à présent la
-possibilité de télétravailler durant 48 jours. Par conséquent,
-inévitablement, bien que nous soyons très solidaires avec les autres
-frontières, du nord etc., nous ne pouvons pas marquer notre accord sur un recul
-aussi phénoménal que celui-ci alors qu'il y a eu une déclaration et un accord
-négocié par deux premiers ministres. Deux premiers ministres!
- 
- 
- 
-La présidente:
-Merci pour votre explication, monsieur Arens.
-La présidente:
-Merci pour votre explication, monsieur Arens.
-présidente
- 
- 
- 
-38 Projet de loi modifiant les livres Ier, VI et XV du Code de droit
-économique (2473/7)
-38
-38
- Projet de loi modifiant les livres Ier, VI et XV du Code de droit
-économique (2473/7)
- Projet de loi modifiant les livres Ier, VI et XV du Code de droit
-économique (2473/7)
+Le 18 mai 2019 est pour moi une date très importante dans cette évolution. Le 18 mai 2019, deux premiers ministres – pas un! –, Charles Michel, premier ministre belge, et Xavier Bettel, premier ministre grand-ducal, communiquent ensemble en disant qu'un nouvel accord amiable vient d'être établi entre la Belgique et le Grand-Duché de Luxembourg.
 
-38 Wetsontwerp
-houdende wijziging van boeken I, VI en XV van het Wetboek van economisch recht
-(2473/7)
-38
-38
-38
- Wetsontwerp
-houdende wijziging van boeken I, VI en XV van het Wetboek van economisch recht
-(2473/7)
- Wetsontwerp
-houdende wijziging van boeken I, VI en XV van het Wetboek van economisch recht
-(2473/7)
- Wetsontwerp
-houdende wijziging van boeken I, VI en XV van het Wetboek van economisch recht
-(2473/7)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Les travailleurs frontaliers auront désormais le droit de travailler 48 jours par an en dehors du pays employeur tout en y restant imposés.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
+Je n'ai pas compté le nombre de mails que j'ai reçus de la part de travailleurs tous métiers confondus qui demandaient légitimement des informations complémentaires quant aux dates d'entrée en vigueur. Mais je ne disposais pas de ces informations, tout simplement parce que l'annonce n'avait été faite que par deux ministres qui s'étaient adressés à la presse. Pour qu'ils s'expriment devant le Parlement, il faudra probablement encore attendre 2 044 jours!
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+Cette annonce en grande pompe s'est quand même heurté à une réalité importante: comment faire approuver 48 jours alors que les 24 jours préalablement annoncés n'étaient pas encore approuvés par le Parlement?
 
-## Proposal 12
 
 
-(Stemming/vote 11)
+La proposition de résolution qui est soumise au vote de la Chambre aujourd'hui vise à demander au gouvernement d'étudier la possibilité. Où sommes-nous? Il s'agit bien d'étudier la possibilité, monsieur Matheï! J'étais pourtant certain que vous alliez demander une mise en œuvre immédiate. Quel recul par rapport à ce qui avait été conclu avec le Grand-Duché de Luxembourg! Comment est-il possible d'arriver à une telle situation? En tant que membres de ce Parlement, nous nous dévalorisons nous-mêmes. C'est inacceptable!
 
-(Stemming/vote 11)
-(Stemming/vote 11)
-(Stemming/vote 11)
 
 
+Bien évidemment, je regarde les collègues qui habitent aux autres frontières de ce pays qui – il est vrai – ne sont pas concernés par cet accord, mais qui pouvaient se baser sur ce dernier pour revendiquer la même solution.
 
-Ja
 
 
-109
+Je voudrais voter favorablement cette proposition de résolution, mais ce faisant, j'accepterais de marquer mon accord sur le fait d'étudier la possibilité alors que nous avions déjà obtenu un accord. Le texte qui nous est proposé aujourd'hui n'est donc pas une avancée, mais constitue un réel recul. C'est en tout cas le sentiment des travailleurs frontaliers qui me le font savoir quotidiennement.
 
 
-Oui
 
+Vous pouvez réagir avec la tête, monsieur Piedboeuf, telle est la réalité du terrain! Cependant, il est vrai que le 18 mai 2019, nous étions en pleine campagne électorale! Il fallait donc surenchérir pour gagner les élections.
 
 
-Ja
 
-Ja
-Ja
+En 2019, monsieur Piedboeuf, deux premiers ministres considéraient que c'était possible puisqu'ils l'avaient annoncé. S'ils considéraient que c'était possible, c'est parce qu'ils disposaient des études nécessaires. Qui oserait prétendre le contraire? Prétendre le contraire signifierait que ces ministres-là n'étaient pas vraiment compétents, soyons clairs!
 
 
-109
 
-109
-109
+18.08  Benoît Piedboeuf (MR): Je ne voulais pas intervenir ni contrarier mon ami, Josy Arens. Mais il n'a pas écouté ce que j'ai dit. Nous avions eu des réunions au cabinet du ministre des Finances, Johan Van Overtveldt, avec son collaborateur, Pierre Gramegna et son collaborateur, moi-même et mon collaborateur, Thierry Joie, et nous nous étions accordés ensemble pour faire passer, par rapport au Grand-Duché de Luxembourg, le chiffre de 24 à 48. Les administrations fiscales des deux côtés de la frontière ont été chargées de préparer la modification de la convention préventive de double imposition pour faire passer le chiffre de 24 à 48.
 
 
-Oui
 
-Oui
-Oui
+Comme je l'ai dit, les administrations fiscales sont extrêmement réticentes, notamment l'administration fiscale belge qui estime, comme je l'ai expliqué, que c'est une perte de souveraineté. C'est la raison pour laquelle l'administration n'a pas avancé beaucoup dans la rédaction d'un avenant à la convention préventive de double imposition. Nous avons donc remis la pression. Et, en effet, Charles Michel et Xavier Bettel ont confirmé l'accord intervenu entre Pierre Gramegna, Johan Van Overtveldt et moi quand j'étais présent. La volonté était d'aboutir. Certes, cela n'a pas encore abouti mais la proposition de Steven Matheï va bien plus loin que cela puisqu'elle concerne tous les pays environnants et donc tous les travailleurs frontaliers.
 
 
 
-Nee
+Le ministre actuel Van Peteghem est parvenu à passer de 24 à 34 jours, bien que nous lui ayons recommandé de passer à 48 jours, mais il y avait encore des freins de son administration. Vous pouvez le lui demander. Il vous le dira lui-même. Dès lors, on n'est pas encore arrivé à 48 jours. Ce que je vous ai aussi dit, c'est qu'on y va étape par étape et qu'on finira par arriver à ce chiffre alors que vous proposez que ce soit encore plus. Pour nous, la seule chose qui soit sûre, c'est qu'on avance. On est passé de 24 à 34 jours. On espère bien passer à 48 jours avec les collègues et avec la recommandation Benelux que j'ai déposée avec Yves Evrard et qui a été votée à l'unanimité. Nous avançons pas à pas et nous voulons régler le problème pour tous les pays environnants parce qu'il y a un intérêt pour tous les pays environnants et pour nos travailleurs frontaliers.
 
 
-0
 
+18.09  Josy Arens (Les Engagés): Je suis vraiment déçu, cher collègue Piedbœuf, parce que vous confirmez que le poids des ministres est nul par rapport au poids de l'administration. Or, en ce qui me concerne, j'ai toujours cru que le politique décidait et que l'administratif exécutait. Surtout quand il fait des annonces publiques aussi fortes que celle du 18 mai 2019.
 
-Non
 
 
+Le 18 mai 2019, cher collègue Piedboeuf, deux premiers ministres libéraux, Charles Michel et Xavier Bettel, annoncent en grande pompe les 48 jours entre la Belgique et le Grand-Duché de Luxembourg et, x années après, on se rend compte que vous nous demandez d'étudier la possibilité. Vous vous rendez compte du recul que vous nous proposez? Mais c'est extraordinaire pour ce Parlement! Comment est-ce possible d'en arriver là?
 
-Nee
 
-Nee
-Nee
 
+Nous, Les Engagés, nous demandons au gouvernement qu'il passe aux actes et qu'il respecte les promesses faites par Charles Michel, premier ministre de l'époque, et par Xavier Bettel, premier ministre à l'époque et premier ministre encore aujourd'hui! Les Engagés demandent aussi au gouvernement qu'il aille plus loin. Un jour par semaine, ce n'est pas assez, il faut être clair. Les syndicats belges nous disent qu'on s'oriente vers deux jours par semaine. Faut-il encore discriminer les travailleurs frontaliers par rapport aux travailleurs belges travaillant en Belgique? Je ne m'y retrouve plus!
 
-0
 
-0
-0
 
+Ce qui se passe aujourd'hui ne correspond plus à la réalité du terrain depuis la fin de la crise sanitaire. Cela ne correspond plus à la réalité des travailleurs, comme le font remarquer les syndicats interrogés sur le texte. Selon la tendance d'organisation du travail actuelle, ce sont généralement deux jours de télétravail par semaine qui sont autorisés.
 
-Non
 
-Non
-Non
 
+Je sais que les règles en matière de sécurité sociale ne permettent pas à un travailleur de prester plus de 25 % de son horaire depuis son lieu de résidence. Toutefois, en attendant, profitons de ce qui est possible! Jusqu'à 25 %, c'est possible, d'où mon amendement pour arriver à 25 % dès maintenant, puisque cela est possible. Il suffit de poursuivre les négociations et pas d'étudier! Étudier, c'est pour ceux qui veulent soit étudier soit encommissionner, et cela ne se concrétisera jamais sur le terrain! Nous demandons – nous exigeons – que tout cela soit mis en œuvre immédiatement.
 
 
-Onthoudingen
 
+En attendant que cette règle soit renégociée au niveau européen, il faut que le gouvernement permette dès à présent, comme je l'ai dit, aux travailleurs frontaliers de télétravailler 25 % de leur temps de travail sur une année, c'est-à-dire 55 jours au lieu des 48 jours.
 
-23
 
 
-Abstentions
+J'ai donc déposé un amendement qui est très important pour tous les travailleurs frontaliers. Ils sont tous très attentifs à l'évolution de ce problème.
 
 
 
-Onthoudingen
+Cette proposition de résolution inquiète les travailleurs frontaliers car, pour eux, les 48 jours étaient acquis. Ils faisaient confiance aux deux premiers ministres. Ce texte n'est que de la poudre aux yeux des travailleurs pour les calmer, pour les endormir en attendant de nouvelles déclarations en 2024, puisque la campagne électorale commence tout doucement à arriver.
 
-Onthoudingen
-Onthoudingen
 
 
-23
+L'actuelle proposition de résolution n'est qu'un recul important par rapport à l'accord du 18 mai 2019.
 
-23
-23
 
 
-Abstentions
+Cher collègue Piedboeuf, n'oublions pas qu'il faut 2 044 jours entre l'accord pour les 48 jours et l'entérinement par ce Parlement. Je ne pensais pas possible que les 24 jours n'étaient pas encore entérinés par ce Parlement. C'était pourtant la réalité. Quand les 48 jours seront-ils finalement une réalité?
 
-Abstentions
-Abstentions
 
 
+Je maintiens mon amendement et je compte vraiment sur les amis qui veulent réellement défendre les frontaliers pour le soutenir car il est vital pour l'avenir du travail frontalier.
 
-Totaal
 
 
-132
+18.10  Steven Matheï (CD&V): Geachte collega’s, ik wil even zeggen dat ik het er niet mee eens ben dat deze resolutie een stap terug is. Het gaat wel degelijk over 90.000 grensarbeiders, waarvan 35.000 in de provincies Luik en Luxemburg, maar de rest, 55.000 elders in België.
 
 
-Total
 
+Wanneer zetten we een stap terug? Wanneer we niets doen. Deze resolutie is de aanzet om een definitieve oplossing te krijgen op lange termijn. Daarvoor moeten discussies gevoerd worden op het internationale niveau. Wij moeten realistisch zijn, dat zal niet van vandaag op morgen gebeuren. Echter, op korte termijn kunnen wij binnen bepaalde regels een akkoord afsluiten om tot minstens één dag per week over te gaan. Zelfs voor die realistische piste is nog altijd het akkoord van de buurlanden nodig, voor alle duidelijkheid. It takes two to tango. Dat geldt ook voor dat akkoord. Ik ben het er dus niet mee eens dat dit een stap terug is. Integendeel, als wij nu niets doen, zitten wij helemaal vast.
 
 
-Totaal
 
-Totaal
-Totaal
+Dit is een belangrijke stap vooruit, een eerste stap, waarna de internationale discussie, op Europees vlak, op OESO-vlak, kan volgen.
 
 
-132
 
-132
-132
+18.11  Josy Arens (Les Engagés): Je confirme ce que j'ai déjà dit: c'est un pas en arrière très important puisque nous avions l'accord négocié par deux premiers ministres, le premier ministre belge et le premier ministre luxembourgeois. Monsieur Mathéï, vous les amis du CD&V, vous auriez dû vous accrocher à cet accord pour faire progresser les différentes conventions entre les autres pays. C'est là que vous avez commis une erreur monumentale. Tout était là! Deux premiers ministres avaient fait une annonce officielle.
 
 
-Total
 
-Total
-Total
+C'est d'ailleurs repris dans le rapport du Parlement Benelux. C'est clairement dit: un accord de principe pour passer le nombre de jours d'activité professionnelle dans le pays de résidence de 24 à 48 a été passé entre les gouvernements belge et luxembourgeois le 18 mai 2019. C'est une date importante dans toutes ces conventions. Il est vrai qu'à un moment donné nous étions - je le reconnais; je l'ai déjà dit - en pleine campagne électorale mais peu m'importe! Une déclaration faite par deux premiers ministres a quand même un certain poids! Si les premiers ministres ne sont même plus respectables, je ne sais pas vers quoi nous allons en politique!
 
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (2473/8)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(2473/8)
-(2473/8)
 
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (2473/8)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(2473/8)
-(2473/8)
+18.12  Benoît Piedboeuf (MR): Madame la présidente, je ne veux pas allonger le débat mais je dois dire une chose importante. Comme M. Arens l'a signalé, dans la proposition Benelux qui est aussi une proposition de résolution, il est bien fait référence aux accords de principe, mais comme tous les accords de principe, ils doivent être mis en œuvre par des légistes et les légistes n'ont pas fait leur boulot. C'est vrai! Mais ce n'est ni le premier ministre luxembourgeois ni le premier ministre belge qui n'ont pas fait leur boulot, ce sont les légistes.
 
 
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
 
- 
- 
- 
-39 Projet de loi portant des dispositions diverses en matière
-d'intermédiation dans le secteur financier et des assurances (2389/6)
-39
-39
- Projet de loi portant des dispositions diverses en matière
-d'intermédiation dans le secteur financier et des assurances (2389/6)
- Projet de loi portant des dispositions diverses en matière
-d'intermédiation dans le secteur financier et des assurances (2389/6)
+Indépendamment de cet aspect - parce que là, on est en train de jouer à faire de la politique -, M. Mathéï a fait une remarque importante concernant les travailleurs indépendants. Il est vrai que dans la résolution Benelux, nous les avions visés. Ce n'est pas encore le cas ici, notamment parce que les travailleurs indépendants ont en général un établissement stable et à partir de ce moment, ils se posent moins ce type de questions. Par contre, que se passe-t-il actuellement? En période covid, comme il y a eu interdiction de se rendre dans l'État voisin puisque le Grand-Duché de Luxembourg avait fermé ses frontières, certains indépendants, notamment des avocats qui prestent au Luxembourg, n'ont pas passé la frontière puisque ce n'était pas possible mais ont travaillé à domicile et maintenant ils ramassent un redressement fiscal de la part du fisc belge!
 
-39 Wetsontwerp
-houdende diverse bepalingen inzake bemiddeling in de financiële en de
-verzekeringssector (2389/6)
-39
-39
-39
- Wetsontwerp
-houdende diverse bepalingen inzake bemiddeling in de financiële en de
-verzekeringssector (2389/6)
- Wetsontwerp
-houdende diverse bepalingen inzake bemiddeling in de financiële en de
-verzekeringssector (2389/6)
- Wetsontwerp
-houdende diverse bepalingen inzake bemiddeling in de financiële en de
-verzekeringssector (2389/6)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+C'est quand même extraordinaire! Des avocats, qui sont des indépendants et qui doivent prester au Grand-Duché, n'ont pas pu s'y rendre parce que la frontière était fermée à cause du covid… et le fisc belge vient les taxer! Vous dites que c'est le politique qui détient le pouvoir, tandis que l'administration doit obéir. Or, preuve est apportée que ce n'est pas le cas! Et je le regrette autant que vous, cher M. Arens. L'administration fiscale devait élaborer une modalité de modification de la convention préventive de double imposition. Elle ne l'a pas fait. Nous voyons à présent que le fisc belge est en train de rattraper des indépendants qui n'ont pas pu passer la frontière. Dans quel pays vivons-nous?
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
+Nous y travaillons. Comme l'a dit Steven Mathéï, nous avons élargi le champ, puisque nous visons tous les pays voisins. Il s'agit donc d'une avancée majeure qui suit, au demeurant, la résolution du Parlement Benelux.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+J'en ai fini, madame la présidente.
 
-## Proposal 13
 
 
-(Stemming/vote 12)
+18.13  Mélissa Hanus (PS): Madame la présidente, je vous remercie de me céder à nouveau la parole.
 
-(Stemming/vote 12)
-(Stemming/vote 12)
-(Stemming/vote 12)
 
 
+Je souhaitais seulement intervenir à propos de cette histoire de "retour en arrière" et de "régression". Je ne suis pas ici pour juger le bilan de mes aînés au cours des précédentes législatures, mais je tiens simplement à souligner le travail en dehors des périodes de campagne électorale qui est accompli par ce Parlement pour avancer dans le bon sens.
 
-Ja
 
 
-132
+On ne peut pas parler de "régression" à partir du moment où nous suggérons un nombre de jours plus élevé que ne le prévoit le régime en vigueur pour le moment. Pour avancer sur le plan du télétravail et en faveur des frontaliers, le Parlement accomplit un acte décisif qui n'a pas été engagé depuis plusieurs années.
 
 
-Oui
 
+On peut dire qu'en province de Luxembourg, nous avons "une ardeur d'avance". On peut également estimer que le Parlement tente aujourd'hui de progresser dans ce dossier - et c'est à souligner.
 
 
-Ja
 
-Ja
-Ja
+18.14  Josy Arens (Les Engagés): C'est un recul par rapport à ce qui nous avait été garanti par deux premiers ministres. Qu'on soit en campagne électorale ou non, les deux premiers ministres nous avaient clairement annoncé l'accord entre la Belgique et le Grand-Duché de Luxembourg. Je suis heureux de voir que M. Piedboeuf m'ait rejoint sur cet aspect: les politiques décident et les administrations exécutent. Mais nous sommes dans une situation où ce sont les administratifs qui décident et les politiques qui ne peuvent même plus réagir ni exécuter.
 
 
-132
 
-132
-132
+Sur le terrain, c'est la catastrophe pour une série de travailleurs frontaliers. C'est scandaleux!
 
 
-Oui
 
-Oui
-Oui
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
+Vraagt nog iemand het woord? (Nee)
 
 
-Nee
 
+La discussion est close.
 
-0
+De bespreking is gesloten.
 
 
-Non
 
+*  *  *  *  *
 
+Amendement déposé:
 
-Nee
+Ingediend amendement:
 
-Nee
-Nee
+Demande/Verzoek 3
 
+• 5 – Josy Arens (2365/5)
 
-0
+*  *  *  *  *
 
-0
-0
 
 
-Non
+L'amendement est réservé.
 
-Non
-Non
+Het amendement wordt aangehouden.
 
 
 
-Onthoudingen
+Le vote sur l'amendement réservé et sur l’ensemble de la proposition aura lieu ultérieurement.
 
+De stemming over het aangehouden amendement en over het geheel van het voorstel zal later plaatsvinden.
 
-0
+### Description in French:
 
+Proposition déposée par:
 
-Abstentions
+Voorstel ingediend door:
 
+Steven Matheï, Nathalie Muylle, Jef Van den Bergh, Servais Verherstraeten, Jan Briers, Nahima Lanjri, Anja Vanrobaeys, Benoît Piedboeuf.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+Discussion
 
+Bespreking
 
-0
 
-0
-0
 
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2365/4)
 
-Abstentions
+De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2365/4)
 
-Abstentions
-Abstentions
 
 
+La discussion est ouverte.
 
-Totaal
+De bespreking is geopend.
 
 
-132
 
+Mme Cécile Cornet, rapporteur, renvoie à son rapport écrit.
 
-Total
 
 
+18.01  Joy Donné (N-VA): Mevrouw de voorzitster, collega's, dat het lot van de grenswerknemers ons na aan het hart ligt hebben we ook al bewezen bij de bespreking van het ontwerp houdende diverse bepalingen inzake Financiën van december 2021. Wij zullen ook dit voorstel steunen. Een beleid dat telewerk voor grenswerknemers bevordert is belangrijk. Het heeft voordelen voor zowel de werknemers als de werkgevers. Het zorgt voor een vermindering van het aantal reisbewegingen, een beter evenwicht tussen werk- en privéleven, een hogere aantrekkelijkheid van vacatures enzovoort.
 
-Totaal
 
-Totaal
-Totaal
 
+In de commissie hebben wij al gezegd dat wij de omvang van de resolutie te beperkt vinden. Ik verwijs naar het Benelux-voorstel, dat niet alleen van toepassing is op thuiswerkende grenswerknemers maar ook de mogelijkheid biedt om in afstandskantoren te werken. Het Benelux-voorstel heeft bovendien ook oog voor zelfstandige ondernemers, uitoefenaars van vrije beroepen, bedrijfsleiders en gedetacheerde ambtenaren. Zij mogen in een beleid van telewerk zeker niet vergeten worden.
 
-132
 
-132
-132
 
+De resolutie focust op een structurele oplossing voor thuiswerkende grenswerknemers, geïnspireerd op de regeling die nu reeds in Luxemburg en Frankrijk geldt. Als oplossing wordt hier naar voren geschoven om het aantal toegelaten dagen van arbeid buiten de werkstaat voor de grenswerknemers eenvormig op 48 te brengen, wat neerkomt op ongeveer een dag per week.
 
-Total
 
-Total
-Total
 
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (2389/7)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(2389/7)
-(2389/7)
+Wij vragen dat er bij de uit te voeren studie op wordt gelet dat de uitkomst in een voldoende flexibele regeling voorziet, zodat rekening kan worden gehouden met de verschillende gevallen van thuiswerk, werk via afstandskantoren, een werknemer die naast het telewerk in zijn woonland een dag per week klanten bezoekt, een werknemer die in meer dan een land werkt, een deeltijdse werknemer, situaties van tijdelijke werkloosheid, overgangsrecht voor werknemers die nu bewust kiezen voor een fiscale splitsregeling enzovoort.
 
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (2389/7)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(2389/7)
-(2389/7)
 
+De resolutie vordert een studie naar de economische en budgettaire effecten op het vlak van de fiscale en de socialezekerheidsregeling. Zeker even belangrijk voor ons is dat er ook rekening wordt gehouden met de gevolgen van telewerk op het toepasselijke arbeidsrecht. Eerst moet een antwoord worden gegeven op de vraag welk arbeidsrecht van toepassing is. Het arbeidsrecht evolueert in onze buurlanden naar een recht op telewerk gedurende twee dagen per week. In dat kader rijst de vraag of een werkgever grensarbeiders een andere of een beperktere thuiswerkregeling mag opleggen dan werknemers die in het land van de werkgever wonen. Het Benelux-verdrag voorziet in dezen expliciet in een gelijke behandeling van de Nederlandse, Belgische en Luxemburgse onderdanen op het vlak van de arbeidsvoorwaarden.
 
- 
- 
- 
-40 Amendements et articles réservés de la proposition de loi portant
-prolongation des diverses mesures sur le plan du droit du travail au bénéfice
-des secteurs des soins et de l'enseignement dans le cadre de la lutte contre la
-propagation du coronavirus COVID-19, concernant la suspension du délai de
-préavis donné par l'employeur pendant une période de chômage temporaire pour
-cause de force majeure résultant de la situation de guerre en Ukraine et
-concernant la clause d'écolage (nouvel intitulé) (2610/1-5)
-40
-40
- Amendements et articles réservés de la proposition de loi portant
-prolongation des diverses mesures sur le plan du droit du travail au bénéfice
-des secteurs des soins et de l'enseignement dans le cadre de la lutte contre la
-propagation du coronavirus COVID-19, concernant la suspension du délai de
-préavis donné par l'employeur pendant une période de chômage temporaire pour
-cause de force majeure résultant de la situation de guerre en Ukraine et
-concernant la clause d'écolage (nouvel intitulé) (2610/1-5)
- Amendements et articles réservés de la proposition de loi portant
-prolongation des diverses mesures sur le plan du droit du travail au bénéfice
-des secteurs des soins et de l'enseignement dans le cadre de la lutte contre la
-propagation du coronavirus COVID-19, concernant la suspension du délai de
-préavis donné par l'employeur pendant une période de chômage temporaire pour
-cause de force majeure résultant de la situation de guerre en Ukraine et
-concernant la clause d'écolage (nouvel intitulé) (2610/1-5)
 
-40 Aangehouden
-amendementen en artikelen van het wetsvoorstel houdende verlenging van diverse
-arbeidsrechtelijke maatregelen ten behoeve van de zorgsector en het onderwijs
-in het raam van de strijd tegen de verspreiding van het coronavirus COVID-19,
-met betrekking tot de schorsing van de door de werkgever gegeven
-opzeggingstermijn tijdens een periode van tijdelijke werkloosheid wegens
-overmacht ten gevolge van de oorlogsituatie in Oekraïne en met betrekking tot
-het scholingsbeding (nieuw opschrift) (2610/1-5)
-40
-40
-40
- Aangehouden
-amendementen en artikelen van het wetsvoorstel houdende verlenging van diverse
-arbeidsrechtelijke maatregelen ten behoeve van de zorgsector en het onderwijs
-in het raam van de strijd tegen de verspreiding van het coronavirus COVID-19,
-met betrekking tot de schorsing van de door de werkgever gegeven
-opzeggingstermijn tijdens een periode van tijdelijke werkloosheid wegens
-overmacht ten gevolge van de oorlogsituatie in Oekraïne en met betrekking tot
-het scholingsbeding (nieuw opschrift) (2610/1-5)
- Aangehouden
-amendementen en artikelen van het wetsvoorstel houdende verlenging van diverse
-arbeidsrechtelijke maatregelen ten behoeve van de zorgsector en het onderwijs
-in het raam van de strijd tegen de verspreiding van het coronavirus COVID-19,
-met betrekking tot de schorsing van de door de werkgever gegeven
-opzeggingstermijn tijdens een periode van tijdelijke werkloosheid wegens
-overmacht ten gevolge van de oorlogsituatie in Oekraïne en met betrekking tot
-het scholingsbeding (nieuw opschrift) (2610/1-5)
- Aangehouden
-amendementen en artikelen van het wetsvoorstel houdende verlenging van diverse
-arbeidsrechtelijke maatregelen ten behoeve van de zorgsector en het onderwijs
-in het raam van de strijd tegen de verspreiding van het coronavirus COVID-19,
-met betrekking tot de schorsing van de door de werkgever gegeven
-opzeggingstermijn tijdens een periode van tijdelijke werkloosheid wegens
-overmacht ten gevolge van de oorlogsituatie in Oekraïne en met betrekking tot
-het scholingsbeding (nieuw opschrift) (2610/1-5)
 
+Tot slot lijkt het niet overbodig om ook eens de gevolgen voor de werkgever in rekening te brengen. Wat zijn de gevolgen wanneer een grenswerker een dag meer of minder telewerkt? Ontstaat er in zijn hoofde een personele vaste inrichting of een Belgische inrichting door het telewerk? Dient hij al dan niet een dubbele payrolladministratie te voeren en bedrijfsvoorheffing in te houden? Wijzigt de sociale verzekering van de werknemer? En wat zijn de gevolgen inzake de opbouw voor een aanvullend pensioen?
 
- 
- 
- 
-Vote sur l'amendement n° 8 de Catherine
-Fonck à l'article 13. (2610/5)
-Vote sur l'amendement n° 8 de Catherine
-Fonck à l'article 13. 
-(2610/5)
-(2610/5)
 
-Stemming over amendement nr. 8 van
-Catherine Fonck op artikel 13. (2610/5)
-Stemming over amendement nr. 8 van
-Catherine Fonck op artikel 13. (2610/5)
-(2610/5)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Ter conclusie van mijn tussenkomst, wij steunen ten volle de oproep dat grenswerkers – dus dat is ruimer dan werknemers – meer dagen zouden kunnen telewerken. Wat vooral van belang is, is te voorzien in een voldoende flexibele regeling, zodat een wijzigend arbeidsrecht en wijzigende arbeidsvoorwaarden de fiscale en socialezekerheidsrechtelijke toestand van werknemer en werkgever op hun beurt niet telkens wijzigt.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Wij hopen dat degenen die het studiewerk zullen verrichten waartoe deze resolutie oproept dit verslag ook zullen lezen en rekening zullen houden met de aandachtspunten die ik zojuist naar voren heb gebracht. Dat verklaart ook waarom ik hier een vrij saaie, technische uiteenzetting heb gegeven: het is minder bestemd voor de bühne, maar eerder voor het verslag en de mensen die het verslag zullen lezen. Dank u.
 
- 
- 
- 
 
-## Proposal 14
 
+18.02  Mélissa Hanus (PS): Madame la présidente, tout d'abord, je tiens à saluer la mise à l'agenda de cette proposition et je félicite mes collègues concernés pour leur travail effectué dans ce domaine.
 
-(Stemming/vote 13)
 
-(Stemming/vote 13)
-(Stemming/vote 13)
-(Stemming/vote 13)
 
+La crise sanitaire a permis de rendre obligatoire ce qui auparavant était impensable: l'augmentation du nombre de jours de télétravail pour les travailleurs frontaliers, par l'instauration de conventions temporaires entre pays frontaliers. Le principe était le suivant: j'exerce ma fonction en télétravail et je reste imposé fiscalement dans le pays de mon employeur.
 
 
-Ja
 
+Si le télétravail comporte bien sûr des limites, il ne s'agit pas ici de le généraliser à 100 % pour les frontaliers. Le télétravail comporte toutefois nombre d'avantages majeurs pour les régions transfrontalières. On citera notamment la diminution des embouteillages - je pense à ceux qui traversent tous les matins la E411 pour aller au Grand-Duché de Luxembourg -, mais aussi à une meilleure conciliation entre vie privée et vie professionnelle ou encore à un geste pour le climat, un geste pour la planète.
 
-4
 
 
-Oui
+Offrir un cadre adapté pour le télétravail des frontaliers n'est pas, on le sait, chose aisée. On notera, par exemple, le travail initié par le Parlement Benelux, qui a adopté une résolution demandant aux différents gouvernements d'élaborer une solution pour améliorer la situation des travailleurs frontaliers à domicile, ou encore l'initiative qui a été mise en place, le Fonds pour les communes frontalières belges, si essentiel à nos communes dans le sud de la province de Luxembourg, qui nous permet de mener des politiques adaptées à nos citoyens de zones rurales transfrontalières.
 
 
 
-Ja
+La proposition des 48 jours comme nombre de jours de télétravail est un geste, une étape que ce Parlement belge pose dans ce long débat du télétravail transfrontalier. C'est un chiffre. Nous verrons si ce gouvernement le retient dans les négociations, mais il s'agit, de toute façon, d'un pas supplémentaire dans la bonne direction.
 
-Ja
-Ja
 
 
-4
+Au-delà du chiffre, c'est une solution structurelle qui est nécessaire en matière de télétravail transfrontalier et c'est ce qui est proposé et demandé dans ce texte.
 
-4
-4
 
 
-Oui
+Chaque travailleur, qu'il soit transfrontalier ou local, doit être traité en toute égalité. Ce gouvernement devra dès lors être attentif aux écueils que d'éventuels abus pourraient comporter.
 
-Oui
-Oui
 
 
+Droit du travail, sécurité sociale et fiscalité juste demeurent nos priorités.
 
-Nee
 
 
-126
+Toutefois, aujourd'hui, c'est un débat important pour les milliers de travailleurs concernés qui est ouvert à l'initiative de ce Parlement. Bravo pour le travail effectué! Nous donnons maintenant notre confiance à notre ministre des Finances pour négocier dans le sens de ce texte parlementaire.
 
 
-Non
 
+18.03  Wouter Vermeersch (VB): Mevrouw de voorzitster, ik woon zelf op een tiental minuten van de Frans-Vlaamse grens in het zuiden van West-Vlaanderen en ik heb dan ook met bijzondere interesse het voorliggende voorstel van resolutie gevolgd, ook omdat nergens anders in het land de krapte op de arbeidsmarkt zo nijpend is als in de provincie West-Vlaanderen, zeker in het zuiden daarvan. Grenswerk is daar dus absoluut van belang.
 
 
-Nee
 
-Nee
-Nee
+De collega's die het voorstel van resolutie hebben ingediend, hebben zeer terecht gewezen op de noodzaak om thuiswerk voor grensarbeiders te vergemakkelijken, zonder dat het voor hen problemen met zich meebrengt op bijvoorbeeld het vlak van dubbele belasting, zowel belasting in het land van tewerkstelling als in het land van herkomst. Er kunnen ook problemen ontstaan op het vlak van sociale verzekeringen of de sociale zekerheid. Wij begrijpen dan ook dat de collega's vrezen voor de negatieve gevolgen op de inkomsten van het land door al dat telewerk, ook grensoverschrijdend, maar tezelfdertijd zien zij ook het positieve belang in van een dynamische arbeidsmarkt, wat de algemene economie ten goede komt. Wij zullen het voorstel van resolutie dan ook goedkeuren.
 
 
-126
 
-126
-126
+Ik zei al dat ik zelf op tien minuten rijden van de Frans-Vlaamse grens woon in West-Vlaanderen, maar ik woon ook op vijf minuten van een belangrijk monument. Als u de E17 oversteekt vanuit Rijsel richting Kortrijk, ziet u aan de rechterkant een gigantisch, betonnen monument met vier punten die de windrichtingen weergeven. Een van die punten wijst richting Frankrijk. Dat monument heet De Sjouwer en werd opgericht als een bedanking voor de vele Frans-Vlamingen, de Noord-Fransen die dagelijks de grens oversteken en die – in tegenstelling tot bij de arbeidsmigratie van staatssecretaris Mahdi – ook dagelijks terugkeren naar hun land van herkomst, zoals het hoort. Het werd ook al even aangehaald door collega Anseeuw tijdens de mondelinge vragen daarnet, want de situatie in België is toch bijzonder uniek. Zelfs internationaal wekt de provincie West-Vlaanderen interesse, omdat zij de laagste werkloosheid van het land heeft.
 
 
-Non
 
-Non
-Non
+De Belgische provincie met de hoogste werkloosheid is Henegouwen. De provincies met de minste en de meeste werkloosheid grenzen aan elkaar. Men zou kunnen aanvoeren dat Henegouwers niet in West-Vlaanderen gaan werken door de taalbarrière. Niets is echter minder waar, want de statistieken tonen aan dat er dubbel zoveel woon-werkverkeer is tussen Nord-Pas-de-Calais in Noord-Frankrijk, en de provincie West-Vlaanderen, dan woon-werkverkeer tussen Henegouwen en West-Vlaanderen. De taalbarrière is voor Noord-Fransen en Walen identiek. Het verschil kan echter worden verklaard door de ongeremde hangmat van de werkloosheid, waar veel Walen in blijven liggen. Werkloosheid wordt in sommige Waalse gezinnen van generatie op generatie doorgegeven. We moeten dat probleem durven te benoemen. Het legt de arbeidsuitdaging van dit land volledig bloot.
 
 
 
-Onthoudingen
+Naast de activering van grote groepen werkloze allochtonen in dit land, moeten we ook van de activering van grote groepen werklozen in Wallonië een absolute prioriteit maken. Onze West-Vlaamse bedrijven en ondernemers moeten noodgedwongen een beroep doen op de arbeidsreserve van Noord-Frankrijk in plaats van die van Henegouwen. Daarom steunen wij initiatieven met betrekking tot die grensarbeid. Dat is belangrijk. Het is echter veel belangrijker dat we het probleem tussen Henegouwen en West-Vlaanderen eindelijk oplossen. Ik herhaal dat de taalbarrière identiek is voor Noord-Frankrijk. Blijkbaar slagen we er niet in om Henegouwers aan te trekken voor de West-Vlaamse bedrijven die nochtans arbeidskrachten nodig hebben.
 
 
-0
 
+18.04  Benoît Piedboeuf (MR): Madame la présidente, je suis désolé, mais avec ce que je viens d'entendre, on peut pervertir tous les dossiers. Pour ma part, je vais plutôt vous parler des frontaliers belges, qui sont bien formés en Wallonie et qui vont notamment travailler au Grand-Duché, parce qu'ils apportent la science et la formation qui sont excellentes en Wallonie.
 
-Abstentions
 
 
+Ce dossier chemine depuis longtemps car il porte une vieille revendication. Je remercie donc mon collègue Mathéï d'avoir pris l'initiative de cette proposition de résolution, que j'ai cosignée. Évidemment, un chiffre est un chiffre. Un certain dynamisme peut s'en retrouver entravé. Nous nous rendons compte que, pour toute une série de dirigeants d'entreprise belges qui travaillent à l'étranger, le dépassement du nombre de 24 jours découle de leurs déplacements dans le monde entier en raison de leur fonction. Ensuite, le fisc belge les rattrape au motif qu'ils auraient dépassé le nombre de jours et il les taxe. C'est évidemment très désagréable et c'est anti-économique. De plus, les gouvernements des pays voisins en ont marre de répondre à des demandes de renseignement du fisc belge et d'avoir des soucis avec les travailleurs qui sont rattrapés par celui-ci.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+C'est une vieille revendication à propos de laquelle un accord de principe avait été conclu sous la législature précédente entre les ministres Gramegna et Van Overtveldt, entre les premiers ministres Charles Michel et Xavier Bettel, autour d'un chiffre de 48 jours. Les administrations fiscales avaient été chargées de préparer des modifications de la convention préventive de double imposition – cela concernait le volet luxembourgeois. Finalement, le dossier n'a pas avancé, en raison d'une résistance de l'administration, qui estime que cela revient à une perte de souveraineté, celle-ci empêchant de rentrer des recettes fiscales. Or ce n'est pas exactement le cas, bien entendu. En effet, qu'un travailleur frontalier travaille quelques jours supplémentaires dans l'État ne change en rien sa situation. Par conséquent, il n'y a pas plus ou moins d'impôts; on lui offre simplement un peu plus de souplesse.
 
-0
 
-0
-0
 
+Alors, pourquoi 48 jours? D'abord, parce qu'une résolution du Parlement Benelux – votée à l'unanimité – réclame ce nombre de jours. Ensuite, nous essayons de viser un jour par semaine. Cela permet un peu plus de confort dans la gestion de sa vie privée, dans les déplacements, avec des conséquences sur la production de CO2 dans les embouteillages. C'est pourquoi le ministre écologiste luxembourgeois est tellement attiré par cette extension qui réduirait la circulation dans la capitale grand-ducale.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Mais le problème est le même, les collègues l'ont évoqué, avec la France, l'Allemagne et les Pays-Bas, d'où la résolution qui avait été prise. Tout le monde est d'accord sur cette extension.
 
 
-Totaal
 
+Maintenant, il y a le problème fiscal et le problème lié à la sécurité sociale. On sait qu'il existe une limitation européenne par rapport aux 25 % de prestations hors de l'État. Il faut donc harmoniser cela.
 
-130
 
 
-Total
+La recommandation qui a été initiée par mon collègue Matheï demande à ce qu'on travaille sur ces deux volets-là et qu'on réalise une évaluation. On dit en effet qu'en concluant ce type d'accord, on atteint à la souveraineté fiscale de la Belgique, il faut faire la démonstration que ce n'est pas le cas. C'est un facteur de dynamisme. C'est un facteur de développement économique. Il est donc important que nous y travaillions.
 
 
 
-Totaal
+On va relayer le message au ministre des Finances, même s'il l'a déjà entendu. Il était parvenu, notamment avec le Grand-Duché de Luxembourg, à passer de 24 à 34 jours. On demande un effort supplémentaire et on demande d'harmoniser le système au niveau international. Il faut que les travailleurs belges puissent circuler dans l'OCDE avec cette faculté aussi de télétravailler.
 
-Totaal
-Totaal
 
 
-130
+C'est une proposition de résolution mais nous allons suivre l'intérêt du ministre pour la résolution et on va essayer de peser de tout notre poids pour avancer vers la concrétisation de cette proposition. J'ai vu qu'il existait une proposition de loi pour augmenter le nombre de jours. C'est un travail qui se mène étape par étape: on a fait 24, puis 34. Quand on sera à 48, peut-être demandera-t-on un peu plus mais, pour l'instant, nous visons un jour par semaine. C'est la raison pour laquelle le groupe MR va soutenir avec enthousiasme cette proposition de résolution.
 
-130
-130
 
 
-Total
+18.05  Steven Matheï (CD&V): Mevrouw de voorzitster, collega's, ons land is een kleine, open economie in het centrum van Europa, met een goed werkende grensoverschrijdende arbeidsmarkt. Dat resulteert in heel wat grenswerknemers, in totaal 90.000 in België. De vorige sprekers haalden al een aantal regio's aan. In Limburg zijn er 15.000 mensen die elke dag in bijvoorbeeld Nederland gaan werken. Op zich is dat goed en heel belangrijk. Dat draagt immers bij tot de economische groei en is ook heel positief voor de werkzaamheidsgraad. Dit is natuurlijk niet van vandaag op morgen zo geworden, het is historisch zo gegroeid, net als de regels die dit alles in goede banen leiden. Als we actief willen zijn in een internationale context, moeten er afspraken worden gemaakt. Voor de grenswerknemers moeten er concreet fiscale afspraken zijn in de dubbelbelastingverdragen en ook afspraken rond de sociale zekerheid. Dit is Europees geregeld.
 
-Total
-Total
 
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 13 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 13 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 13 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 13 aangenomen.
- 
- 
- 
-(M. François De Smet a voté comme Mme Sophie
-Rohonyi)
- 
- 
- 
-Vote sur l'amendement n° 9 de Catherine
-Fonck à l'article 14. (2610/5)
-Vote sur l'amendement n° 9 de Catherine
-Fonck à l'article 14. 
-(2610/5)
-(2610/5)
 
-Stemming over amendement nr. 9 van
-Catherine Fonck op artikel 14. (2610/5)
-Stemming over amendement nr. 9 van
-Catherine Fonck op artikel 14. 
-(2610/5)
-(2610/5)
+Toen kwam er corona. Met corona kwam natuurlijk ook het thuiswerk. Ondertussen kunnen we zeggen dat dit een echte blijver zal zijn. In de coronaperiode was thuiswerk op gegeven momenten verplicht, dan wel heel sterk aanbevolen. Dat had natuurlijk effect. Ook die grenswerkers gingen dus thuis werken. Toen ontstond er een probleem, want de historisch gegroeide regels rond dubbelbelastingverdragen en rond de RSZ waren niet gemaakt om ook thuis te werken. Concreet wilde dat zeggen dat wanneer een grenswerknemer één dag thuis werkte, hij of zij voor die dag in België en niet in het andere land belast zou worden. Vallen onder twee fiscale systemen brengt natuurlijk een hele administratieve rompslomp met zich mee. Hetzelfde geldt voor de sociale zekerheid. Ook daar lag er een grens. Voor sommige van die grenswerknemers zorgde dat bovendien voor het potentieel verlies van bepaalde voordelen. Er waren dus heel wat nadelen verbonden aan het thuiswerk.
 
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
 
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
 
- 
- 
- 
-(Stemming/vote 13)
-(Stemming/vote 13)
+Gelukkig hebben België en onze buurlanden in een tijdelijke oplossing voorzien tijdens de coronaperiode. Er zijn stelselmatig akkoorden afgesloten met onze buurlanden om ervoor te zorgen dat het thuiswerk, dat verplicht of sterk aanbevolen was, geregeld was. Concreet betekende dit dat de thuisgewerkte dagen eigenlijk werden gezien als dagen die op de werkplaats gewerkt zouden zijn. Er waren dus geen nadelige fiscale gevolgen en geen nadelige gevolgen inzake de RSZ. Die tijdelijke akkoorden nemen natuurlijk een einde. Concreet zullen ze stoppen op 30 juni van dit jaar.
 
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 14 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 14 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 14 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 14 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 10 de Catherine
-Fonck à l'article 16. (2610/5)
-Vote sur l'amendement n° 10 de Catherine
-Fonck à l'article 16. 
-(2610/5)
-(2610/5)
 
-Stemming over amendement nr. 10 van
-Catherine Fonck op artikel 16. (2610/5)
-Stemming over amendement nr. 10 van
-Catherine Fonck op artikel 16. 
-(2610/5)
-(2610/5)
 
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
+De roep is dus groot om te streven naar en te werken aan een definitieve oplossing voor thuiswerk. Dat is dan ook de aanleiding voor deze resolutie. Ook in de toekomst zullen grenswerknemers immers moeten kunnen thuiswerken zonder rompslomp, fiscale nadelen of andere problemen. Een oplossing is met de huidige regels niet eenvoudig, maar het is wel belangrijk dat die stap wordt gezet. Daarom worden in de resolutie een aantal zaken heel concreet aangegeven. Op lange termijn zouden we moeten evolueren naar een nieuwe, internationale definitie van thuiswerk. Dat moet worden gerealiseerd op OESO- en Europees niveau en zal nog wat tijd vergen. Daarnaast kunnen er op kortere termijn, met de huidige regels, afspraken worden gemaakt om voor grensarbeiders minstens één dag per week thuiswerk mogelijk te maken. Dat schuift ook het Benelux-parlement in een aanbeveling naar voren, zoals al is vermeld. Ook de heer Piedboeuf heeft daarvoor geijverd.
 
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
 
- 
- 
- 
-(Stemming/vote 13)
-(Stemming/vote 13)
 
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 16 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 16 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 16 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 16 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 11 de Catherine
-Fonck à l'intitulé. (2610/5)
-Vote sur l'amendement n° 11 de Catherine
-Fonck à l'intitulé. 
-(2610/5)
-(2610/5)
+Concreet vraagt deze resolutie om op de lange termijn te werken en op kortere termijn al te evolueren naar minstens één dag thuiswerk per week voor grenswerknemers. Daarnaast vraagt deze resolutie een impactstudie om na te gaan wat de economische, financiële en budgettaire gevolgen zijn van zo'n thuiswerkregeling.
 
-Stemming over
-amendement nr. 11 van Catherine Fonck op het opschrift. (2610/5)
-Stemming over
-amendement nr. 11 van Catherine Fonck op het opschrift. 
-(2610/5)
-(2610/5)
 
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
 
-Mag de uitslag van de vorige stemming ook gelden voor deze stemming? (Ja)
-Mag de uits
-lag van de vorige stemming ook gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
+Deze resolutie is dus een eerste maar wel heel belangrijke stap in een evolutie, zodat grenswerknemers niet worden afgestraft als ook zij, net zoals andere werknemers, thuiswerken. Thuiswerk heeft immers een positieve impact op zowel de werknemer, die een betere balans kan creëren tussen gezin en werk, als op de werkgever.
 
- 
- 
- 
-(Stemming/vote 13)
-(Stemming/vote 13)
 
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
 
- 
- 
- 
-41 Ensemble de la proposition de loi portant prolongation des diverses
-mesures sur le plan du droit du travail au bénéfice des secteurs des soins et
-de l'enseignement dans le cadre de la lutte contre la propagation du
-coronavirus COVID-19, concernant la suspension du délai de préavis donné par
-l'employeur pendant une période de chômage temporaire pour cause de force
-majeure résultant de la situation de guerre en Ukraine et concernant la clause
-d'écolage (nouvel intitulé) (2610/4)
-41
-41
- Ensemble de la proposition de loi portant prolongation des diverses
-mesures sur le plan du droit du travail au bénéfice des secteurs des soins et
-de l'enseignement dans le cadre de la lutte contre la propagation du
-coronavirus COVID-19, concernant la suspension du délai de préavis donné par
-l'employeur pendant une période de chômage temporaire pour cause de force
-majeure résultant de la situation de guerre en Ukraine et concernant la clause
-d'écolage (nouvel intitulé) (2610/4)
- Ensemble de la proposition de loi portant prolongation des diverses
-mesures sur le plan du droit du travail au bénéfice des secteurs des soins et
-de l'enseignement dans le cadre de la lutte contre la propagation du
-coronavirus COVID-19, concernant la suspension du délai de préavis donné par
-l'employeur pendant une période de chômage temporaire pour cause de force
-majeure résultant de la situation de guerre en Ukraine et concernant la clause
-d'écolage (nouvel intitulé) (2610/4)
+Ik bedank alvast iedereen die in de commissie en in dit Parlement heeft bijgedragen tot de totstandkoming van deze resolutie, ook de adviserende organisaties. Ik hoop dat we straks bij de stemming ook op uw steun kunnen rekenen om deze resolutie massaal goed te keuren.
 
-41 Geheel van het
-wetsvoorstel houdende verlenging van diverse arbeidsrechtelijke maatregelen ten
-behoeve van de zorgsector en het onderwijs in het raam van de strijd tegen de
-verspreiding van het coronavirus COVID-19, met betrekking tot de schorsing van
-de door de werkgever gegeven opzeggingstermijn tijdens een periode van
-tijdelijke werkloosheid wegens overmacht ten gevolge van de oorlogsituatie in
-Oekraïne en met betrekking tot het scholingsbeding (nieuw opschrift) (2610/4)
-41
-41
-41
- Geheel van het
-wetsvoorstel houdende verlenging van diverse arbeidsrechtelijke maatregelen ten
-behoeve van de zorgsector en het onderwijs in het raam van de strijd tegen de
-verspreiding van het coronavirus COVID-19, met betrekking tot de schorsing van
-de door de werkgever gegeven opzeggingstermijn tijdens een periode van
-tijdelijke werkloosheid wegens overmacht ten gevolge van de oorlogsituatie in
-Oekraïne en met betrekking tot het scholingsbeding (nieuw opschrift) (2610/4)
- Geheel van het
-wetsvoorstel houdende verlenging van diverse arbeidsrechtelijke maatregelen ten
-behoeve van de zorgsector en het onderwijs in het raam van de strijd tegen de
-verspreiding van het coronavirus COVID-19, met betrekking tot de schorsing van
-de door de werkgever gegeven opzeggingstermijn tijdens een periode van
-tijdelijke werkloosheid wegens overmacht ten gevolge van de oorlogsituatie in
-Oekraïne en met betrekking tot het scholingsbeding (nieuw opschrift) (2610/4)
- Geheel van het
-wetsvoorstel houdende verlenging van diverse arbeidsrechtelijke maatregelen ten
-behoeve van de zorgsector en het onderwijs in het raam van de strijd tegen de
-verspreiding van het coronavirus COVID-19, met betrekking tot de schorsing van
-de door de werkgever gegeven opzeggingstermijn tijdens een periode van
-tijdelijke werkloosheid wegens overmacht ten gevolge van de oorlogsituatie in
-Oekraïne en met betrekking tot het scholingsbeding (nieuw opschrift) (2610/4)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+18.06  Anja Vanrobaeys (Vooruit): Mevrouw de voorzitster, collega's, ik ben tevreden dat deze resolutie hier vandaag op zoveel draagvlak kan rekenen. Voor mij moeten grenswerkers, net zoals Belgische werknemers, verder kunnen telewerken, zonder dat ze daarvoor afgestraft worden op het vlak van hun belastingen. De afgesloten dubbelbelastingverdragen bevatten immers nog altijd regels uit de tijd dat quasi elke werknemer nog elke dag naar kantoor ging.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
+Ondertussen is de wereld veranderd. We hebben corona gehad en toen werd iedereen verplicht om thuis te werken. We hebben dan ook gemerkt dat er veel meer functies dan we ooit dachten voor telewerk in aanmerking komen. Men heeft toen alle reeds vaststaande regels geneutraliseerd om daarvan geen negatieve fiscale gevolgen of gevolgen op het vlak van de sociale zekerheid te hebben.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+Deze neutralisaties lopen echter eind juni af. De tijd voor de grenswerkers dringt. Veel van hen zitten vol spanning te kijken naar wat er zal gebeuren. Ondertussen, ook al is corona voorbij, geeft meer dan de helft van de werknemers hier in België aan dat ze willen blijven telewerken, misschien niet voltijds, maar toch enkele dagen per week. Deze wens is voor grenswerkers niet anders. De voordelen zijn alom gekend: een betere combinatie van werk- en gezinsleven, files vermijden of toch tijd winnen door het openbaar vervoer niet te nemen. Deze voordelen zijn opnieuw niet anders voor grenswerkers.
 
-## Proposal 15
 
 
-(Stemming/vote 14)
+Als er echter tegen eind juni niets gebeurt, dreigen de grenswerkers die nu ook verder telewerken twee maal belastingen te moeten betalen of toch een aantal voordelen van hun hypothecaire aftrek te verliezen. Ik denk toch dat we dat jonge gezinnen die hier in België hun gezinsleven uitbouwen niet moeten aandoen.
 
-(Stemming/vote 14)
-(Stemming/vote 14)
-(Stemming/vote 14)
 
 
+Daarom is telewerk bij grenswerkers voor mij al langer dan vandaag een aandachtspunt. Al meer dan een jaar geleden heb ik zelf een resolutie opgesteld voor een betere omkadering van structureel telewerk, waarin ik ook amendementen heb ingediend om deze situatie goed te regelen.
 
-Ja
 
 
-119
+Ik dank de heer Matheï voor zijn initiatief. We hebben in de commissie voor Financiën de minister daarover verschillende keren vragen gesteld omdat we ons zorgen maakten over de grenswerkers die bleven telewerken. Daarom heb ik mij onmiddellijk aangesloten bij het initiatief van de heer Matheï, zodat we die situatie kunnen uitklaren en vooral een oplossing kunnen bieden aan al die mensen die nu niet weten wat er na juni zal gebeuren.
 
 
-Oui
 
+Naast voordelen zijn er echter ook nadelen verbonden aan telewerk. Er is minder sociaal contact met de collega's, maar vooral neemt ook de werkdruk toe. Tijdens de coronacrisis zeiden heel veel werknemers dat ze maar mails bleven beantwoorden en maar bleven doorwerken en dat de grens tussen werk en gezin vervaagde. Ik vind het belangrijk dat er naast de regeling voor de telewerkende grenswerkers ook een goed collectief kader komt voor structureel telewerk, zodat werknemers de rekeningen, die zij nu toch al meer dan twee jaar betalen, niet zouden moeten blijven betalen en er ook aandacht is voor de arbeidsomstandigheden thuis. Dit sluit een beetje aan bij de resolutie die ik in de commissie voor Sociale Zaken heb ingediend en waarin ik vroeg om het recht op deconnectie. Dat wordt nu door de regering in de arbeidsdeal opgenomen, maar ik dring nog altijd aan op een goed omkaderd arbeidsrecht en op een goede telewerkvergoeding voor de mensen die thuiswerken.
 
 
-Ja
 
-Ja
-Ja
+In die zin sluit ik mij aan bij de vraag die hier al werd gesteld. In de resolutie wordt gevraagd dat er een impactstudie zou komen over de fiscale, economische en budgettaire gevolgen, maar ik vind het belangrijk dat daarin ook het recht op een comfortabele bureau en dito bureaustoel wordt opgenomen alsook dat er aandacht is voor het welzijn van de telewerkers en hun hogere facturen. Dat is immers niet anders voor grenswerkers dan voor Belgische werknemers.
 
 
-119
 
-119
-119
+Op het vlak van de sociale zekerheid is het ook belangrijk dat er wordt geharmoniseerd. Frankrijk heeft onder zijn voorzitterschap de herziening en actualisering van de verordening op de Europese agenda geplaatst. Ik hoop dat er daar snel vooruitgang wordt geboekt, want het kan niet de bedoeling zijn dat wanneer grenswerkers telewerken zij gewaarborgd loon, sociale bescherming en pensioenrechten zouden verliezen.
 
 
-Oui
 
-Oui
-Oui
+Collega's, ik zal in ieder geval de uitvoering van de resolutie door de regering heel nauwgezet opvolgen, want grenswerkers verwachten een oplossing en zitten er zenuwachtig op te wachten. Ik hoop in ieder geval dat er voor eind juni al een eerste stap gezet kan worden.
 
 
 
-Nee
+Voor onze fractie is deze resolutie dan ook een eerste stap vooruit, die 48 dagen, die nauw aansluit bij wat unaniem beslist is door het Benelux-parlement.
 
 
-0
 
+Grenswerkers die zich heel mobiel en flexibel opstellen, moeten net als Belgische werknemers hun intrede kunnen doen in het 21e-eeuwse digitale tijdperk, maar dan wel met de nodige garanties een goede omkadering.
 
-Non
 
 
+18.07  Josy Arens (Les Engagés): Madame la présidente, je suis très heureux d'avoir ce débat en séance plénière aujourd'hui. Malheureusement, je n'ai pas pu participer à la réunion de commission, puisque j'avais une intervention dans une autre commission au même moment.
 
-Nee
 
-Nee
-Nee
 
+Je dirais heureusement que ce n'est qu'une proposition de résolution. Je suis bourgmestre d'une commune dans laquelle 60 % de la population active travaille au Grand-Duché de Luxembourg. Dans la plupart des communes, c'est plus de 40 % ou de 50 %. Cela signifie que pratiquement chaque foyer est concerné par cette problématique. Je qualifie donc ce dossier d'important.
 
-0
 
-0
-0
 
+Mais permettez-moi de revenir brièvement sur l'historique de ce dossier car il ne faut pas oublier l'histoire. Le 16 mars 2015, Johan Van Overtveldt, alors ministre des Finances, annonce que les frontaliers habitant en Belgique et travaillant au Grand-Duché de Luxembourg pourront désormais travailler en dehors du Luxembourg 24 jours par an tout en restant imposés au Luxembourg. Cet accord amiable entre en vigueur le 1er janvier 2015. Pour qu'il soit entériné par le Parlement, nous avons dû, chers collègues, attendre 2 044 jours. Cet accord était d'application alors qu'il n'était même pas approuvé par le gouvernement. C'est l'administration qui me le signalait.
 
-Non
 
-Non
-Non
 
+Lors de mes premières interventions à la suite de mon retour au Parlement fédéral, j'ai été plus que surpris de voir que les 24 jours n'étaient pas entérinés par le Parlement et n'avaient jamais été présentés au Parlement. Nous avons donc eu cette approbation voici quelques mois et j'ai pu, à l'époque, avoir un débat avec la ministre des Affaires étrangères, Mme Sophie Wilmès.
 
 
-Onthoudingen
 
+Le 5 décembre 2017, cet accord fait l'objet d'un avenant à la convention fiscale belgo-luxembourgeoise visant à éviter la double imposition. Il est signé par les gouvernements belge et luxembourgeois mais n'est toujours pas soumis au Parlement, comme je l'ai déjà dit.
 
-12
 
 
-Abstentions
+Le 18 mai 2019 est pour moi une date très importante dans cette évolution. Le 18 mai 2019, deux premiers ministres – pas un! –, Charles Michel, premier ministre belge, et Xavier Bettel, premier ministre grand-ducal, communiquent ensemble en disant qu'un nouvel accord amiable vient d'être établi entre la Belgique et le Grand-Duché de Luxembourg.
 
 
 
-Onthoudingen
+Les travailleurs frontaliers auront désormais le droit de travailler 48 jours par an en dehors du pays employeur tout en y restant imposés.
 
-Onthoudingen
-Onthoudingen
 
 
-12
+Je n'ai pas compté le nombre de mails que j'ai reçus de la part de travailleurs tous métiers confondus qui demandaient légitimement des informations complémentaires quant aux dates d'entrée en vigueur. Mais je ne disposais pas de ces informations, tout simplement parce que l'annonce n'avait été faite que par deux ministres qui s'étaient adressés à la presse. Pour qu'ils s'expriment devant le Parlement, il faudra probablement encore attendre 2 044 jours!
 
-12
-12
 
 
-Abstentions
+Cette annonce en grande pompe s'est quand même heurté à une réalité importante: comment faire approuver 48 jours alors que les 24 jours préalablement annoncés n'étaient pas encore approuvés par le Parlement?
 
-Abstentions
-Abstentions
 
 
+La proposition de résolution qui est soumise au vote de la Chambre aujourd'hui vise à demander au gouvernement d'étudier la possibilité. Où sommes-nous? Il s'agit bien d'étudier la possibilité, monsieur Matheï! J'étais pourtant certain que vous alliez demander une mise en œuvre immédiate. Quel recul par rapport à ce qui avait été conclu avec le Grand-Duché de Luxembourg! Comment est-il possible d'arriver à une telle situation? En tant que membres de ce Parlement, nous nous dévalorisons nous-mêmes. C'est inacceptable!
 
-Totaal
 
 
-131
+Bien évidemment, je regarde les collègues qui habitent aux autres frontières de ce pays qui – il est vrai – ne sont pas concernés par cet accord, mais qui pouvaient se baser sur ce dernier pour revendiquer la même solution.
 
 
-Total
 
+Je voudrais voter favorablement cette proposition de résolution, mais ce faisant, j'accepterais de marquer mon accord sur le fait d'étudier la possibilité alors que nous avions déjà obtenu un accord. Le texte qui nous est proposé aujourd'hui n'est donc pas une avancée, mais constitue un réel recul. C'est en tout cas le sentiment des travailleurs frontaliers qui me le font savoir quotidiennement.
 
 
-Totaal
 
-Totaal
-Totaal
+Vous pouvez réagir avec la tête, monsieur Piedboeuf, telle est la réalité du terrain! Cependant, il est vrai que le 18 mai 2019, nous étions en pleine campagne électorale! Il fallait donc surenchérir pour gagner les élections.
 
 
-131
 
-131
-131
+En 2019, monsieur Piedboeuf, deux premiers ministres considéraient que c'était possible puisqu'ils l'avaient annoncé. S'ils considéraient que c'était possible, c'est parce qu'ils disposaient des études nécessaires. Qui oserait prétendre le contraire? Prétendre le contraire signifierait que ces ministres-là n'étaient pas vraiment compétents, soyons clairs!
 
 
-Total
 
-Total
-Total
+18.08  Benoît Piedboeuf (MR): Je ne voulais pas intervenir ni contrarier mon ami, Josy Arens. Mais il n'a pas écouté ce que j'ai dit. Nous avions eu des réunions au cabinet du ministre des Finances, Johan Van Overtveldt, avec son collaborateur, Pierre Gramegna et son collaborateur, moi-même et mon collaborateur, Thierry Joie, et nous nous étions accordés ensemble pour faire passer, par rapport au Grand-Duché de Luxembourg, le chiffre de 24 à 48. Les administrations fiscales des deux côtés de la frontière ont été chargées de préparer la modification de la convention préventive de double imposition pour faire passer le chiffre de 24 à 48.
 
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction
-royale. (2610/6)
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction
-royale. 
-(2610/6)
-(2610/6)
 
 
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd.
-(2610/6)
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd.
+Comme je l'ai dit, les administrations fiscales sont extrêmement réticentes, notamment l'administration fiscale belge qui estime, comme je l'ai expliqué, que c'est une perte de souveraineté. C'est la raison pour laquelle l'administration n'a pas avancé beaucoup dans la rédaction d'un avenant à la convention préventive de double imposition. Nous avons donc remis la pression. Et, en effet, Charles Michel et Xavier Bettel ont confirmé l'accord intervenu entre Pierre Gramegna, Johan Van Overtveldt et moi quand j'étais présent. La volonté était d'aboutir. Certes, cela n'a pas encore abouti mais la proposition de Steven Matheï va bien plus loin que cela puisqu'elle concerne tous les pays environnants et donc tous les travailleurs frontaliers.
 
-(2610/6)
-(2610/6)
 
 
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? 
-(Non)
-(Non)
+Le ministre actuel Van Peteghem est parvenu à passer de 24 à 34 jours, bien que nous lui ayons recommandé de passer à 48 jours, mais il y avait encore des freins de son administration. Vous pouvez le lui demander. Il vous le dira lui-même. Dès lors, on n'est pas encore arrivé à 48 jours. Ce que je vous ai aussi dit, c'est qu'on y va étape par étape et qu'on finira par arriver à ce chiffre alors que vous proposez que ce soit encore plus. Pour nous, la seule chose qui soit sûre, c'est qu'on avance. On est passé de 24 à 34 jours. On espère bien passer à 48 jours avec les collègues et avec la recommandation Benelux que j'ai déposée avec Yves Evrard et qui a été votée à l'unanimité. Nous avançons pas à pas et nous voulons régler le problème pour tous les pays environnants parce qu'il y a un intérêt pour tous les pays environnants et pour nos travailleurs frontaliers.
 
 
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
 
- 
- 
- 
-42 Proposition de loi modifiant l'arrêté royal du
-1er décembre 1975 portant règlement général sur la police de la
-circulation routière et de l'usage de la voie publique, en ce qui concerne la
-réglementation des engins de déplacement (nouvel intitulé) (2354/8)
-42
-42
- Proposition de loi modifiant l'arrêté royal du
-1er décembre 1975 portant règlement général sur la police de la
-circulation routière et de l'usage de la voie publique, en ce qui concerne la
-réglementation des engins de déplacement (nouvel intitulé) (2354/8)
- Proposition de loi modifiant l'arrêté royal du
-1er décembre 1975 portant règlement général sur la police de la
-circulation routière et de l'usage de la voie publique, en ce qui concerne la
-réglementation des engins de déplacement (nouvel intitulé) (2354/8)
+18.09  Josy Arens (Les Engagés): Je suis vraiment déçu, cher collègue Piedbœuf, parce que vous confirmez que le poids des ministres est nul par rapport au poids de l'administration. Or, en ce qui me concerne, j'ai toujours cru que le politique décidait et que l'administratif exécutait. Surtout quand il fait des annonces publiques aussi fortes que celle du 18 mai 2019.
 
-42 Wetsvoorstel tot
-wijziging van het koninklijk besluit van 1 december 1975 houdende
-algemeen reglement op de politie van het wegverkeer en van het gebruik van de
-openbare weg, wat de reglementering van voortbewegingstoestellen betreft (nieuw
-opschrift) (2354/8)
-42
-42
-42
- Wetsvoorstel tot
-wijziging van het koninklijk besluit van 1 december 1975 houdende
-algemeen reglement op de politie van het wegverkeer en van het gebruik van de
-openbare weg, wat de reglementering van voortbewegingstoestellen betreft (nieuw
-opschrift) (2354/8)
- Wetsvoorstel tot
-wijziging van het koninklijk besluit van 1 december 1975 houdende
-algemeen reglement op de politie van het wegverkeer en van het gebruik van de
-openbare weg, wat de reglementering van voortbewegingstoestellen betreft (nieuw
-opschrift) (2354/8)
- Wetsvoorstel tot
-wijziging van het koninklijk besluit van 1 december 1975 houdende
-algemeen reglement op de politie van het wegverkeer en van het gebruik van de
-openbare weg, wat de reglementering van voortbewegingstoestellen betreft (nieuw
-opschrift) (2354/8)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Le 18 mai 2019, cher collègue Piedboeuf, deux premiers ministres libéraux, Charles Michel et Xavier Bettel, annoncent en grande pompe les 48 jours entre la Belgique et le Grand-Duché de Luxembourg et, x années après, on se rend compte que vous nous demandez d'étudier la possibilité. Vous vous rendez compte du recul que vous nous proposez? Mais c'est extraordinaire pour ce Parlement! Comment est-ce possible d'en arriver là?
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
+Nous, Les Engagés, nous demandons au gouvernement qu'il passe aux actes et qu'il respecte les promesses faites par Charles Michel, premier ministre de l'époque, et par Xavier Bettel, premier ministre à l'époque et premier ministre encore aujourd'hui! Les Engagés demandent aussi au gouvernement qu'il aille plus loin. Un jour par semaine, ce n'est pas assez, il faut être clair. Les syndicats belges nous disent qu'on s'oriente vers deux jours par semaine. Faut-il encore discriminer les travailleurs frontaliers par rapport aux travailleurs belges travaillant en Belgique? Je ne m'y retrouve plus!
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+Ce qui se passe aujourd'hui ne correspond plus à la réalité du terrain depuis la fin de la crise sanitaire. Cela ne correspond plus à la réalité des travailleurs, comme le font remarquer les syndicats interrogés sur le texte. Selon la tendance d'organisation du travail actuelle, ce sont généralement deux jours de télétravail par semaine qui sont autorisés.
 
-## Proposal 16
 
 
-(Stemming/vote 15)
+Je sais que les règles en matière de sécurité sociale ne permettent pas à un travailleur de prester plus de 25 % de son horaire depuis son lieu de résidence. Toutefois, en attendant, profitons de ce qui est possible! Jusqu'à 25 %, c'est possible, d'où mon amendement pour arriver à 25 % dès maintenant, puisque cela est possible. Il suffit de poursuivre les négociations et pas d'étudier! Étudier, c'est pour ceux qui veulent soit étudier soit encommissionner, et cela ne se concrétisera jamais sur le terrain! Nous demandons – nous exigeons – que tout cela soit mis en œuvre immédiatement.
 
-(Stemming/vote 15)
-(Stemming/vote 15)
-(Stemming/vote 15)
 
 
+En attendant que cette règle soit renégociée au niveau européen, il faut que le gouvernement permette dès à présent, comme je l'ai dit, aux travailleurs frontaliers de télétravailler 25 % de leur temps de travail sur une année, c'est-à-dire 55 jours au lieu des 48 jours.
 
-Ja
 
 
-130
+J'ai donc déposé un amendement qui est très important pour tous les travailleurs frontaliers. Ils sont tous très attentifs à l'évolution de ce problème.
 
 
-Oui
 
+Cette proposition de résolution inquiète les travailleurs frontaliers car, pour eux, les 48 jours étaient acquis. Ils faisaient confiance aux deux premiers ministres. Ce texte n'est que de la poudre aux yeux des travailleurs pour les calmer, pour les endormir en attendant de nouvelles déclarations en 2024, puisque la campagne électorale commence tout doucement à arriver.
 
 
-Ja
 
-Ja
-Ja
+L'actuelle proposition de résolution n'est qu'un recul important par rapport à l'accord du 18 mai 2019.
 
 
-130
 
-130
-130
+Cher collègue Piedboeuf, n'oublions pas qu'il faut 2 044 jours entre l'accord pour les 48 jours et l'entérinement par ce Parlement. Je ne pensais pas possible que les 24 jours n'étaient pas encore entérinés par ce Parlement. C'était pourtant la réalité. Quand les 48 jours seront-ils finalement une réalité?
 
 
-Oui
 
-Oui
-Oui
+Je maintiens mon amendement et je compte vraiment sur les amis qui veulent réellement défendre les frontaliers pour le soutenir car il est vital pour l'avenir du travail frontalier.
 
 
 
-Nee
+18.10  Steven Matheï (CD&V): Geachte collega’s, ik wil even zeggen dat ik het er niet mee eens ben dat deze resolutie een stap terug is. Het gaat wel degelijk over 90.000 grensarbeiders, waarvan 35.000 in de provincies Luik en Luxemburg, maar de rest, 55.000 elders in België.
 
 
-0
 
+Wanneer zetten we een stap terug? Wanneer we niets doen. Deze resolutie is de aanzet om een definitieve oplossing te krijgen op lange termijn. Daarvoor moeten discussies gevoerd worden op het internationale niveau. Wij moeten realistisch zijn, dat zal niet van vandaag op morgen gebeuren. Echter, op korte termijn kunnen wij binnen bepaalde regels een akkoord afsluiten om tot minstens één dag per week over te gaan. Zelfs voor die realistische piste is nog altijd het akkoord van de buurlanden nodig, voor alle duidelijkheid. It takes two to tango. Dat geldt ook voor dat akkoord. Ik ben het er dus niet mee eens dat dit een stap terug is. Integendeel, als wij nu niets doen, zitten wij helemaal vast.
 
-Non
 
 
+Dit is een belangrijke stap vooruit, een eerste stap, waarna de internationale discussie, op Europees vlak, op OESO-vlak, kan volgen.
 
-Nee
 
-Nee
-Nee
 
+18.11  Josy Arens (Les Engagés): Je confirme ce que j'ai déjà dit: c'est un pas en arrière très important puisque nous avions l'accord négocié par deux premiers ministres, le premier ministre belge et le premier ministre luxembourgeois. Monsieur Mathéï, vous les amis du CD&V, vous auriez dû vous accrocher à cet accord pour faire progresser les différentes conventions entre les autres pays. C'est là que vous avez commis une erreur monumentale. Tout était là! Deux premiers ministres avaient fait une annonce officielle.
 
-0
 
-0
-0
 
+C'est d'ailleurs repris dans le rapport du Parlement Benelux. C'est clairement dit: un accord de principe pour passer le nombre de jours d'activité professionnelle dans le pays de résidence de 24 à 48 a été passé entre les gouvernements belge et luxembourgeois le 18 mai 2019. C'est une date importante dans toutes ces conventions. Il est vrai qu'à un moment donné nous étions - je le reconnais; je l'ai déjà dit - en pleine campagne électorale mais peu m'importe! Une déclaration faite par deux premiers ministres a quand même un certain poids! Si les premiers ministres ne sont même plus respectables, je ne sais pas vers quoi nous allons en politique!
 
-Non
 
-Non
-Non
 
+18.12  Benoît Piedboeuf (MR): Madame la présidente, je ne veux pas allonger le débat mais je dois dire une chose importante. Comme M. Arens l'a signalé, dans la proposition Benelux qui est aussi une proposition de résolution, il est bien fait référence aux accords de principe, mais comme tous les accords de principe, ils doivent être mis en œuvre par des légistes et les légistes n'ont pas fait leur boulot. C'est vrai! Mais ce n'est ni le premier ministre luxembourgeois ni le premier ministre belge qui n'ont pas fait leur boulot, ce sont les légistes.
 
 
-Onthoudingen
 
+Indépendamment de cet aspect - parce que là, on est en train de jouer à faire de la politique -, M. Mathéï a fait une remarque importante concernant les travailleurs indépendants. Il est vrai que dans la résolution Benelux, nous les avions visés. Ce n'est pas encore le cas ici, notamment parce que les travailleurs indépendants ont en général un établissement stable et à partir de ce moment, ils se posent moins ce type de questions. Par contre, que se passe-t-il actuellement? En période covid, comme il y a eu interdiction de se rendre dans l'État voisin puisque le Grand-Duché de Luxembourg avait fermé ses frontières, certains indépendants, notamment des avocats qui prestent au Luxembourg, n'ont pas passé la frontière puisque ce n'était pas possible mais ont travaillé à domicile et maintenant ils ramassent un redressement fiscal de la part du fisc belge!
 
-0
 
 
-Abstentions
+C'est quand même extraordinaire! Des avocats, qui sont des indépendants et qui doivent prester au Grand-Duché, n'ont pas pu s'y rendre parce que la frontière était fermée à cause du covid… et le fisc belge vient les taxer! Vous dites que c'est le politique qui détient le pouvoir, tandis que l'administration doit obéir. Or, preuve est apportée que ce n'est pas le cas! Et je le regrette autant que vous, cher M. Arens. L'administration fiscale devait élaborer une modalité de modification de la convention préventive de double imposition. Elle ne l'a pas fait. Nous voyons à présent que le fisc belge est en train de rattraper des indépendants qui n'ont pas pu passer la frontière. Dans quel pays vivons-nous?
 
 
 
-Onthoudingen
+Nous y travaillons. Comme l'a dit Steven Mathéï, nous avons élargi le champ, puisque nous visons tous les pays voisins. Il s'agit donc d'une avancée majeure qui suit, au demeurant, la résolution du Parlement Benelux.
 
-Onthoudingen
-Onthoudingen
 
 
-0
+J'en ai fini, madame la présidente.
 
-0
-0
 
 
-Abstentions
+18.13  Mélissa Hanus (PS): Madame la présidente, je vous remercie de me céder à nouveau la parole.
 
-Abstentions
-Abstentions
 
 
+Je souhaitais seulement intervenir à propos de cette histoire de "retour en arrière" et de "régression". Je ne suis pas ici pour juger le bilan de mes aînés au cours des précédentes législatures, mais je tiens simplement à souligner le travail en dehors des périodes de campagne électorale qui est accompli par ce Parlement pour avancer dans le bon sens.
 
-Totaal
 
 
-130
+On ne peut pas parler de "régression" à partir du moment où nous suggérons un nombre de jours plus élevé que ne le prévoit le régime en vigueur pour le moment. Pour avancer sur le plan du télétravail et en faveur des frontaliers, le Parlement accomplit un acte décisif qui n'a pas été engagé depuis plusieurs années.
 
 
-Total
 
+On peut dire qu'en province de Luxembourg, nous avons "une ardeur d'avance". On peut également estimer que le Parlement tente aujourd'hui de progresser dans ce dossier - et c'est à souligner.
 
 
-Totaal
 
-Totaal
-Totaal
+18.14  Josy Arens (Les Engagés): C'est un recul par rapport à ce qui nous avait été garanti par deux premiers ministres. Qu'on soit en campagne électorale ou non, les deux premiers ministres nous avaient clairement annoncé l'accord entre la Belgique et le Grand-Duché de Luxembourg. Je suis heureux de voir que M. Piedboeuf m'ait rejoint sur cet aspect: les politiques décident et les administrations exécutent. Mais nous sommes dans une situation où ce sont les administratifs qui décident et les politiques qui ne peuvent même plus réagir ni exécuter.
 
 
-130
 
-130
-130
+Sur le terrain, c'est la catastrophe pour une série de travailleurs frontaliers. C'est scandaleux!
 
 
-Total
 
-Total
-Total
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction
-royale. (2354/9)
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction
-royale. 
-(2354/9)
-(2354/9)
+Vraagt nog iemand het woord? (Nee)
 
 
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd.
-(2354/9)
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd.
 
-(2354/9)
-(2354/9)
+La discussion est close.
 
+De bespreking is gesloten.
 
- 
- 
- 
-(Mme Nathalie Gilson a voté comme son groupe)
- 
- 
- 
-43 Proposition de loi modifiant la loi du 27 avril 2018 sur la
-police des chemins de fer en vue d'instaurer une interdiction totale de fumer
-sur les quais (2082/5)
-43
-43
- Proposition de loi modifiant la loi du 27 avril 2018 sur la
-police des chemins de fer en vue d'instaurer une interdiction totale de fumer
-sur les quais (2082/5)
- Proposition de loi modifiant la loi du 27 avril 2018 sur la
-police des chemins de fer en vue d'instaurer une interdiction totale de fumer
-sur les quais (2082/5)
 
-43 Wetsvoorstel tot
-wijziging van de wet van 27 april 2018 op de politie van de
-spoorwegen met het oog op volledig rookvrije perrons (2082/5)
-43
-43
-43
- Wetsvoorstel tot
-wijziging van de wet van 27 april 2018 op de politie van de
-spoorwegen met het oog op volledig rookvrije perrons (2082/5)
- Wetsvoorstel tot
-wijziging van de wet van 27 april 2018 op de politie van de
-spoorwegen met het oog op volledig rookvrije perrons (2082/5)
- Wetsvoorstel tot
-wijziging van de wet van 27 april 2018 op de politie van de
-spoorwegen met het oog op volledig rookvrije perrons (2082/5)
 
+*  *  *  *  *
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Amendement déposé:
 
+Ingediend amendement:
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Demande/Verzoek 3
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
+• 5 – Josy Arens (2365/5)
 
-Einde van de stemming
-/ Fin du vote.
-Einde van de stemming
-/ Fin du vote.
+*  *  *  *  *
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 17
+L'amendement est réservé.
 
-??? text not found ???
+Het amendement wordt aangehouden.
+
+
+
+Le vote sur l'amendement réservé et sur l’ensemble de la proposition aura lieu ultérieurement.
+
+De stemming over het aangehouden amendement en over het geheel van het voorstel zal later plaatsvinden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 19)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2473/7)
+Het wetsontwerp telt 38 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2473/7)
+Le projet de loi compte 38 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 20)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2389/6)
+Het wetsontwerp telt 23 artikelen.
+Er werden geen amendementen ingediend.
+De artikelen 1 tot 23 worden artikel per artikel aangenomen.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2389/6)
+Le projet de loi compte 23 articles.
+Aucun amendement n'a été déposé.
+Les articles 1 à 23 sont adoptés article par article.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 21)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2610/4)
+Het opschrift werd door de commissie gewijzigd in "wetsvoorstel houdende verlenging van diverse arbeidsrechtelijke maatregelen ten behoeve van de zorgsector en het onderwijs in het raam van de strijd tegen de verspreiding van het coronavirus COVID-19, met betrekking tot de schorsing van de door de werkgever gegeven opzeggingstermijn tijdens een periode van tijdelijke werkloosheid wegens overmacht ten gevolge van de oorlogsituatie in Oekraïne en met betrekking tot het scholingsbeding".
+Het wetsvoorstel telt 18 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen, de aangehouden artikelen en over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2610/4)
+L’intitulé a été modifié par la commission en "proposition de loi portant prolongation des diverses mesures sur le plan du droit du travail au bénéfice des secteurs des soins et de l'enseignement dans le cadre de la lutte contre la propagation du coronavirus COVID-19, concernant la suspension du délai de préavis donné par l'employeur pendant une période de chômage temporaire pour cause de force majeure résultant de la situation de guerre en Ukraine et concernant la clause d'écolage".
+La proposition de loi compte 18 articles.
+
+La discussion des articles est close. Le vote sur les amendements et les articles réservés ainsi que sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 22)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2354/8)
+Het opschrift werd door de commissie gewijzigd in "wetsvoorstel tot wijziging van het koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg, wat de reglementering van voortbewegingstoestellen betreft".
+Het wetsvoorstel telt 15 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2354/8)
+L’intitulé a été modifié par la commission en "proposition de loi modifiant l'arrêté royal du 1er décembre 1975 portant règlement général sur la police de la circulation routière et de l'usage de la voie publique, en ce qui concerne la réglementation des engins de déplacement".
+La proposition de loi compte 15 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 23)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2082/5)
+Het wetsvoorstel telt 3 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2082/5)
+La proposition de loi compte 3 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 24)
+
+### Description in Dutch:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Koen Metsu, Yngvild Ingels, Sigrid Goethals, Frieda Gijbels, Kathleen Depoorter.
+
+
+
+La commission de l'Intérieur, de la Sécurité, de la Migration et des Matières administratives propose de rejeter cette proposition de résolution. (2498/2)
+
+De commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken stelt voor dit voorstel van resolutie te verwerpen. (2498/2)
+
+
+
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, les auteurs.
+
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over dit voorstel tot verwerping, na de rapporteur en eventueel de indieners te hebben gehoord.
+
+
+
+La discussion est ouverte.
+
+De bespreking is geopend.
+
+
+
+Discussion
+
+Bespreking
+
+
+
+Les rapporteurs, M. Vandenput et Mme Chanson renvoient au rapport écrit.
+
+
+
+24.01  Koen Metsu (N-VA): Ik beroep mij op artikel 88 om de aandacht te vestigen op het voorstel van resolutie over de ambulanciers. Dat werd een aantal weken geleden door de meerderheid boudweg weggestemd zonder enige motivering. Ik heb niemand er zich tegen horen uitspreken, integendeel zelfs. In de wandelgangen kon het voorstel blijkbaar op best wel wat steun rekenen. Desalniettemin werd het voorstel van resolutie weggestemd. Wij vragen daarmee alleen maar dat het statuut van de ambulanciers-niet-brandweerlieden wordt herbekeken. Niet meer, niet minder.
+
+
+
+Wij stelden die vraag in een zeer open voorstel van resolutie aan onze minister van Binnenlandse Zaken, maar zij heeft haar best gedaan om spijkers op laag water te zoeken om zodoende enige kritiek op het voorstel te uiten. Ik geef twee punten.
+
+
+
+Ten eerste, stelde de minister dat de ambulanciers-niet-brandweerlieden geen specifiek eindeloopbaanstelsel verdienen, omdat hun functie minder fysieke risico's dan die van een brandweerman zou behelzen. Is dat werkelijk zo? Ik durf dat niet te beweren. Wij hebben ons voorstel samen met een aantal ambulanciers geschreven. Één daarvan is Michael Dalschaert. GDPR-gewijs mocht ik zijn naam hier zeggen. Ik raad u aan om met hem contact op te nemen. Hij liep na een agressie-incident tijdens het werk een ernstig rugletsel op, waardoor hij nooit meer zijn job als ambulancier zal kunnen uitoefenen. De bewering dat de functie van ambulancier-niet-brandweerlieden minder risico's inhoudt, is uiterst twijfelachtig.
+
+
+
+Ten tweede, werd de vraag gesteld welke budgettaire impact de maatregel zou hebben. Het gaat niet over een ontzettend grote groep, maar het gaat wel over first responders. Dat zijn hulpverleners die 24 uur op 24 uur en 7 dagen op 7 dagen in de bres springen. We hadden om een berekening van die budgettaire impact gevraagd. Dat was volgens de minister niet nodig, aangezien het budget niet beschikbaar is bij de FOD Binnenlandse Zaken. Dat is natuurlijk geen antwoord op onze vraag. Op het moment is er blijkbaar geen enkel budget beschikbaar bij de FOD BiZa. Als het gaat over de NAVAP-regeling of de FGP, die we nu eindelijk, na lang aandringen, binnenkort mogen horen, dan is het toch niet verkeerd dat we die doelstellingen voorop schuiven.
+
+
+
+Ik zet ons voorstel van resolutie opnieuw op de agenda, niet vanuit de naïeve idee dat iedereen plots het licht zou hebben gezien en zijn stemgedrag zou wijzigen, maar met de vraag om de tekst over te nemen en eventueel aan te passen. Schrap onze naam en plaats uw naam eronder, want door het voorstel boudweg zonder enige motivering af te serveren – ik denk dat u dit allemaal goed beseft – raakt u niet aan de N-VA, maar wel aan de beperkte groep hulpverleners die elke dag ten dienste van eenieder staat.
+
+
+
+Daarom achtte ik het nodig om hier nogmaals de aandacht op te vestigen, mevrouw de voorzitster.
+
+
+
+La présidente: Plus personne ne peut prendre la parole.
+
+Geen andere spreker mag het woord nemen.
+
+
+
+Le vote sur la proposition de rejet de cette proposition de résolution aura lieu ultérieurement.
+
+De stemming over het voorstel tot verwerping van dit voorstel van resolutie zal later plaatsvinden.
+
+### Description in French:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Koen Metsu, Yngvild Ingels, Sigrid Goethals, Frieda Gijbels, Kathleen Depoorter.
+
+
+
+La commission de l'Intérieur, de la Sécurité, de la Migration et des Matières administratives propose de rejeter cette proposition de résolution. (2498/2)
+
+De commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken stelt voor dit voorstel van resolutie te verwerpen. (2498/2)
+
+
+
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, les auteurs.
+
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over dit voorstel tot verwerping, na de rapporteur en eventueel de indieners te hebben gehoord.
+
+
+
+La discussion est ouverte.
+
+De bespreking is geopend.
+
+
+
+Discussion
+
+Bespreking
+
+
+
+Les rapporteurs, M. Vandenput et Mme Chanson renvoient au rapport écrit.
+
+
+
+24.01  Koen Metsu (N-VA): Ik beroep mij op artikel 88 om de aandacht te vestigen op het voorstel van resolutie over de ambulanciers. Dat werd een aantal weken geleden door de meerderheid boudweg weggestemd zonder enige motivering. Ik heb niemand er zich tegen horen uitspreken, integendeel zelfs. In de wandelgangen kon het voorstel blijkbaar op best wel wat steun rekenen. Desalniettemin werd het voorstel van resolutie weggestemd. Wij vragen daarmee alleen maar dat het statuut van de ambulanciers-niet-brandweerlieden wordt herbekeken. Niet meer, niet minder.
+
+
+
+Wij stelden die vraag in een zeer open voorstel van resolutie aan onze minister van Binnenlandse Zaken, maar zij heeft haar best gedaan om spijkers op laag water te zoeken om zodoende enige kritiek op het voorstel te uiten. Ik geef twee punten.
+
+
+
+Ten eerste, stelde de minister dat de ambulanciers-niet-brandweerlieden geen specifiek eindeloopbaanstelsel verdienen, omdat hun functie minder fysieke risico's dan die van een brandweerman zou behelzen. Is dat werkelijk zo? Ik durf dat niet te beweren. Wij hebben ons voorstel samen met een aantal ambulanciers geschreven. Één daarvan is Michael Dalschaert. GDPR-gewijs mocht ik zijn naam hier zeggen. Ik raad u aan om met hem contact op te nemen. Hij liep na een agressie-incident tijdens het werk een ernstig rugletsel op, waardoor hij nooit meer zijn job als ambulancier zal kunnen uitoefenen. De bewering dat de functie van ambulancier-niet-brandweerlieden minder risico's inhoudt, is uiterst twijfelachtig.
+
+
+
+Ten tweede, werd de vraag gesteld welke budgettaire impact de maatregel zou hebben. Het gaat niet over een ontzettend grote groep, maar het gaat wel over first responders. Dat zijn hulpverleners die 24 uur op 24 uur en 7 dagen op 7 dagen in de bres springen. We hadden om een berekening van die budgettaire impact gevraagd. Dat was volgens de minister niet nodig, aangezien het budget niet beschikbaar is bij de FOD Binnenlandse Zaken. Dat is natuurlijk geen antwoord op onze vraag. Op het moment is er blijkbaar geen enkel budget beschikbaar bij de FOD BiZa. Als het gaat over de NAVAP-regeling of de FGP, die we nu eindelijk, na lang aandringen, binnenkort mogen horen, dan is het toch niet verkeerd dat we die doelstellingen voorop schuiven.
+
+
+
+Ik zet ons voorstel van resolutie opnieuw op de agenda, niet vanuit de naïeve idee dat iedereen plots het licht zou hebben gezien en zijn stemgedrag zou wijzigen, maar met de vraag om de tekst over te nemen en eventueel aan te passen. Schrap onze naam en plaats uw naam eronder, want door het voorstel boudweg zonder enige motivering af te serveren – ik denk dat u dit allemaal goed beseft – raakt u niet aan de N-VA, maar wel aan de beperkte groep hulpverleners die elke dag ten dienste van eenieder staat.
+
+
+
+Daarom achtte ik het nodig om hier nogmaals de aandacht op te vestigen, mevrouw de voorzitster.
+
+
+
+La présidente: Plus personne ne peut prendre la parole.
+
+Geen andere spreker mag het woord nemen.
+
+
+
+Le vote sur la proposition de rejet de cette proposition de résolution aura lieu ultérieurement.
+
+De stemming over het voorstel tot verwerping van dit voorstel van resolutie zal later plaatsvinden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 25)
+
+### Description in Dutch:
+
+Conformément à l’avis de la Conférence des présidents du 4 mai 2022, je vous propose de renvoyer la proposition de loi suivante à la commission des Affaires sociales, de l’Emploi et des Pensions:
+
+- la proposition de loi (Mme Barbara Pas et M. Tom Van Grieken) modifiant l'arrêté royal du 18 avril 1974 déterminant les modalités générales d'exécution de la loi du 4 janvier 1974 relative aux jours fériés, en ce qui concerne le remplacement du 21 juillet en tant que jour férié légal par les jours fériés des communautés, n° 1466/1.
+
+Overeenkomstig het advies van de Conferentie van Voorzitters van 4 mei 2022 stel ik u voor het volgende wetsvoorstel te verzenden naar de commissie voor Sociale Zaken, Werk en Pensioenen:
+
+- het wetsvoorstel (mevrouw Barbara Pas en de heer Tom Van Grieken) tot wijziging van het koninklijk besluit van 18 april 1974 tot bepaling van de algemene wijze van uitvoering van de wet van 4 januari 1974 betreffende de feestdagen, voor wat betreft de vervanging van 21 juli als wettelijke feestdag door de feestdagen van de gemeenschappen, nr. 1466/1.
+
+
+
+Cette proposition de loi avait été précédemment renvoyée à la commission de l’Intérieur, de la Sécurité, de la Migration et des Matières administratives.
+
+Dit wetsvoorstel werd eerder verzonden naar de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+
+
+Président: Éliane Tillieux, présidente.
+
+Voorzitter: Éliane Tillieux, voorzitster.
+
+### Description in French:
+
+Conformément à l’avis de la Conférence des présidents du 4 mai 2022, je vous propose de renvoyer la proposition de loi suivante à la commission des Affaires sociales, de l’Emploi et des Pensions:
+
+- la proposition de loi (Mme Barbara Pas et M. Tom Van Grieken) modifiant l'arrêté royal du 18 avril 1974 déterminant les modalités générales d'exécution de la loi du 4 janvier 1974 relative aux jours fériés, en ce qui concerne le remplacement du 21 juillet en tant que jour férié légal par les jours fériés des communautés, n° 1466/1.
+
+Overeenkomstig het advies van de Conferentie van Voorzitters van 4 mei 2022 stel ik u voor het volgende wetsvoorstel te verzenden naar de commissie voor Sociale Zaken, Werk en Pensioenen:
+
+- het wetsvoorstel (mevrouw Barbara Pas en de heer Tom Van Grieken) tot wijziging van het koninklijk besluit van 18 april 1974 tot bepaling van de algemene wijze van uitvoering van de wet van 4 januari 1974 betreffende de feestdagen, voor wat betreft de vervanging van 21 juli als wettelijke feestdag door de feestdagen van de gemeenschappen, nr. 1466/1.
+
+
+
+Cette proposition de loi avait été précédemment renvoyée à la commission de l’Intérieur, de la Sécurité, de la Migration et des Matières administratives.
+
+Dit wetsvoorstel werd eerder verzonden naar de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus zal geschieden.
+
+
+
+Président: Éliane Tillieux, présidente.
+
+Voorzitter: Éliane Tillieux, voorzitster.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 26)
+
+### Description in Dutch:
+
+Par lettre du 22 avril 2022, le président de la Cour constitutionnelle fait savoir qu’à la suite du départ à la retraite de M. Jean-Paul Moerman le 14 août 2022, une vacance d’emploi de juge francophone sera publiée au Moniteur belge du 16 mai 2022.
+
+Bij brief van 22 april 2022 deelt de voorzitter van het Grondwettelijk Hof mee dat in het Belgisch Staatsblad van 16 mei 2022 een vacature zal worden bekendgemaakt voor het ambt van Franstalige rechter, als gevolg van de opruststelling van de heer Jean-Paul Moerman op 14 augustus 2022.
+
+
+
+Il sera pourvu à cette vacance sur la base de l’article 34, § 1er, 2°, de la loi spéciale sur la Cour constitutionnelle.
+
+In de vacature zal worden voorzien op grond van artikel 34, § 1, 2°, van de bijzondere wet op het Grondwettelijk Hof.
+
+
+
+Conformément à l’avis de la Conférence des présidents du 4 mai 2022, je vous propose de publier un appel à candidats au Moniteur belge.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 4 mei 2022, stel ik u voor een oproep tot kandidaten in het Belgisch Staatsblad bekend te maken.
+
+
+
+Pas d’observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+### Description in French:
+
+Par lettre du 22 avril 2022, le président de la Cour constitutionnelle fait savoir qu’à la suite du départ à la retraite de M. Jean-Paul Moerman le 14 août 2022, une vacance d’emploi de juge francophone sera publiée au Moniteur belge du 16 mai 2022.
+
+Bij brief van 22 april 2022 deelt de voorzitter van het Grondwettelijk Hof mee dat in het Belgisch Staatsblad van 16 mei 2022 een vacature zal worden bekendgemaakt voor het ambt van Franstalige rechter, als gevolg van de opruststelling van de heer Jean-Paul Moerman op 14 augustus 2022.
+
+
+
+Il sera pourvu à cette vacance sur la base de l’article 34, § 1er, 2°, de la loi spéciale sur la Cour constitutionnelle.
+
+In de vacature zal worden voorzien op grond van artikel 34, § 1, 2°, van de bijzondere wet op het Grondwettelijk Hof.
+
+
+
+Conformément à l’avis de la Conférence des présidents du 4 mai 2022, je vous propose de publier un appel à candidats au Moniteur belge.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 4 mei 2022, stel ik u voor een oproep tot kandidaten in het Belgisch Staatsblad bekend te maken.
+
+
+
+Pas d’observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 27)
+
+### Description in Dutch:
+
+Le gouvernement a demandé l'urgence conformément à l'article 51 du Règlement lors du dépôt du projet de loi relatif aux dispositifs médicaux de diagnostic in vitro, n° 2656/1.
+
+De regering heeft de urgentieverklaring gevraagd met toepassing van artikel 51 van het Reglement, bij de indiening van het wetsontwerp betreffende medische hulpmiddelen voor in-vitrodiagnostiek, nr. 2656/1.
+
+
+
+Je passe la parole au gouvernement pour développer la demande d'urgence.
+
+Ik geef het woord aan de regering om de vraag tot urgentieverklaring toe te lichten.
+
+
+
+27.01 Minister Tinne Van der Straeten: Mevrouw de voorzitster, er is een verordening inzake medische hulpmiddelen voor in-vitrodiagnostiek die in werking treedt op 26 mei 2022. Het ontwerp waarvoor wij de urgentie vragen, is dringend nodig om die verordening te kunnen uitvoeren en toepasbaar te kunnen maken en om de nakomingsverplichtingen van ons land ten aanzien van de Europese Unie te kunnen garanderen.
+
+
+
+Het gaat meer in het bijzonder over de aanduiding van het FAGG als bevoegde nationale instantie voor een aantal zaken. De inwerkingtreding van het goed te keuren wetsontwerp na 26 mei 2022 impliceert dat alle huidige wettelijke bepalingen die strijdig zijn met de verordening van rechtswege buiten werking zouden worden gesteld, terwijl de bepalingen uit de verordening die een tussenkomst van de nationale wetgever vereisen, niet zouden kunnen worden afgedwongen of uitgevoerd, met name de aanvragen voor toelatingen voor het aanvangen van klinische proeven zouden niet kunnen worden onderzocht, aangezien onder meer het College Klinische Proeven nog niet de bevoegdheid zou hebben om hiervoor een ethisch comité aan te duiden. Hetzelfde geldt voor een aantal andere bepalingen met betrekking tot incidenten, de melding daarvan, de vaststelling van inbreuken op de verordening enzovoort. Ook voor de rechtszekerheid is het belangrijk dat het wetsontwerp wordt aangenomen en om al deze redenen is het essentieel dat de urgentie door de Kamer wordt toegestaan.
+
+
+
+La présidente: Je vous propose de nous prononcer sur cette demande.
+
+Ik stel u voor om ons over deze vraag uit te spreken.
+
+
+
+L'urgence est adoptée par assis et levé.
+
+De urgentie wordt aangenomen bij zitten en opstaan.
+
+### Description in French:
+
+Le gouvernement a demandé l'urgence conformément à l'article 51 du Règlement lors du dépôt du projet de loi relatif aux dispositifs médicaux de diagnostic in vitro, n° 2656/1.
+
+De regering heeft de urgentieverklaring gevraagd met toepassing van artikel 51 van het Reglement, bij de indiening van het wetsontwerp betreffende medische hulpmiddelen voor in-vitrodiagnostiek, nr. 2656/1.
+
+
+
+Je passe la parole au gouvernement pour développer la demande d'urgence.
+
+Ik geef het woord aan de regering om de vraag tot urgentieverklaring toe te lichten.
+
+
+
+27.01 Minister Tinne Van der Straeten: Mevrouw de voorzitster, er is een verordening inzake medische hulpmiddelen voor in-vitrodiagnostiek die in werking treedt op 26 mei 2022. Het ontwerp waarvoor wij de urgentie vragen, is dringend nodig om die verordening te kunnen uitvoeren en toepasbaar te kunnen maken en om de nakomingsverplichtingen van ons land ten aanzien van de Europese Unie te kunnen garanderen.
+
+
+
+Het gaat meer in het bijzonder over de aanduiding van het FAGG als bevoegde nationale instantie voor een aantal zaken. De inwerkingtreding van het goed te keuren wetsontwerp na 26 mei 2022 impliceert dat alle huidige wettelijke bepalingen die strijdig zijn met de verordening van rechtswege buiten werking zouden worden gesteld, terwijl de bepalingen uit de verordening die een tussenkomst van de nationale wetgever vereisen, niet zouden kunnen worden afgedwongen of uitgevoerd, met name de aanvragen voor toelatingen voor het aanvangen van klinische proeven zouden niet kunnen worden onderzocht, aangezien onder meer het College Klinische Proeven nog niet de bevoegdheid zou hebben om hiervoor een ethisch comité aan te duiden. Hetzelfde geldt voor een aantal andere bepalingen met betrekking tot incidenten, de melding daarvan, de vaststelling van inbreuken op de verordening enzovoort. Ook voor de rechtszekerheid is het belangrijk dat het wetsontwerp wordt aangenomen en om al deze redenen is het essentieel dat de urgentie door de Kamer wordt toegestaan.
+
+
+
+La présidente: Je vous propose de nous prononcer sur cette demande.
+
+Ik stel u voor om ons over deze vraag uit te spreken.
+
+
+
+L'urgence est adoptée par assis et levé.
+
+De urgentie wordt aangenomen bij zitten en opstaan.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 28)
+
+### Description in Dutch:
+
+None
+
+### Description in French:
+
+None
+
+
+
+### Discussed proposals:
 
 Motion # 1.
 

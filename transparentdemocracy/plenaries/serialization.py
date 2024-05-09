@@ -5,7 +5,7 @@ from typing import List, Dict
 
 from transparentdemocracy import PLENARY_MARKDOWN_OUTPUT_PATH, PLENARY_JSON_OUTPUT_PATH
 from transparentdemocracy.json_serde import DateTimeEncoder
-from transparentdemocracy.model import Motion, Plenary, Proposal, Vote, VoteType
+from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 
 
@@ -23,8 +23,8 @@ class MarkdownSerializer:
 			markdown_result += f"Source (HTML report): {plenary.pdf_report_url}\n\n"
 			markdown_result += f"PDF-formatted alternative: {plenary.html_report_url}\n\n"
 
-			for proposal in plenary.proposals:
-				markdown_result += self._serialize_proposal(proposal)
+			for proposal_discussion in plenary.proposal_discussions:
+				markdown_result += self._serialize_proposal_discussions(proposal_discussion)
 
 			for motion in plenary.motions:
 				motion_votes = dict(votes_by_motion_id).get(motion.id, None)
@@ -36,9 +36,25 @@ class MarkdownSerializer:
 					  encoding="utf-8") as output_file:
 				output_file.write(markdown_result)
 
+	def _serialize_proposal_discussions(self, proposal_discussion: ProposalDiscussion) -> None:
+		markdown_result = f"## Proposal discussion (agenda item {proposal_discussion.plenary_agenda_item_number})\n\n"
+		markdown_result += f"### Description in Dutch:\n\n"
+		markdown_result += f"{proposal_discussion.description_nl}\n\n"
+		markdown_result += f"### Description in French:\n\n"
+		markdown_result += f"{proposal_discussion.description_fr}\n\n"
+		markdown_result += "\n\n"
+		
+		markdown_result += f"### Discussed proposals:"
+		for proposal in proposal_discussion.proposals:
+			self._serialize_proposal(proposal)
+		markdown_result += "\n\n"
+
+		return markdown_result
+	
 	def _serialize_proposal(self, proposal: Proposal) -> None:
-		markdown_result = f"## Proposal {proposal.plenary_agenda_item_number}\n\n"
-		markdown_result += proposal.description
+		markdown_result = f"## Proposal {proposal.document_reference}:\n\n"
+		markdown_result += f"Title (Dutch): {proposal.title_nl}"
+		markdown_result += f"Title (French): {proposal.title_fr}"
 		markdown_result += "\n\n"
 		return markdown_result
 
@@ -102,26 +118,29 @@ class JsonSerializer:
 			legislature=plenary.legislature,
 			pdf_report_url=plenary.pdf_report_url,
 			html_report_url=plenary.html_report_url,
-			proposals=plenary.proposals,
+			proposal_discussions=plenary.proposal_discussions,
 			motions=plenary.motions,
 		)
 
 def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
-	write_markdown()
+	write_markdown(plenaries, votes)
 
 	write_plenaries_json(plenaries)
 	write_votes_json(votes)
 
-def write_markdown():
-	plenaries, votes = extract_from_html_plenary_reports()
+def write_markdown(plenaries=None, votes=None):
+	if plenaries is None and votes is None:
+		plenaries, votes = extract_from_html_plenary_reports()
 	MarkdownSerializer().serialize_plenaries(plenaries, votes)
 
-def write_plenaries_json():
-	plenaries, votes = extract_from_html_plenary_reports()
+def write_plenaries_json(plenaries=None):
+	if plenaries is None:
+		plenaries, votes = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_plenaries(plenaries)
 
-def write_votes_json():
-	plenaries, votes = extract_from_html_plenary_reports()
+def write_votes_json(votes=None):
+	if votes is None:
+		plenaries, votes = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_votes(votes)
 
 def main():

@@ -6,7084 +6,1234 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip295.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip295x.html
 
-## Proposal 1
+## Proposal discussion (agenda item 14)
 
-??? text not found ???
+### Description in Dutch:
 
-## Proposal 2
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3867/3)
+Het wetsontwerp telt 7 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-??? text not found ???
+### Description in French:
 
-## Proposal 3
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3867/3)
+Le projet de loi compte 7 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-(Stemming/vote 2)
 
-(Stemming/vote 2)
-(Stemming/vote 2)
-(Stemming/vote 2)
+### Discussed proposals:
 
+## Proposal discussion (agenda item 15)
 
+### Description in Dutch:
 
-Ja
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3692/3)
+Het wetsontwerp telt 60 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-76
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3692/3)
+Le projet de loi compte 60 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-Oui
 
+### Discussed proposals:
 
+## Proposal discussion (agenda item 16)
 
-Ja
+### Description in Dutch:
 
-Ja
-Ja
+Wij vatten de bespreking aan van de artikelen van het wetsontwerp nr. 3784. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3784/1)
+Het wetsontwerp telt 2 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+Wij vatten de bespreking aan van de artikelen van het wetsontwerp nr. 3787. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3787/1)
+Het wetsontwerp telt 2 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+Wij vatten de bespreking aan van de artikelen van het wetsontwerp nr. 3788. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3788/3)
+Het opschrift in het Nederlands werd door de commissie gewijzigd in “wetsontwerp houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de Franse Gemeenschap, de Vlaamse Gemeenschap, de Franse Gemeenschapscommissie en de Gemeenschappelijke Gemeenschapscommissie inzake slachtofferzorg voor het tweetalige gebied Brussel-Hoofdstad".
+Het wetsontwerp telt 2 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-76
+Nous passons à la discussion des articles du projet de loi n° 3784. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3784/1)
+Le projet de loi compte 2 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+Nous passons à la discussion des articles du projet de loi n° 3787. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3787/1)
+Le projet de loi compte 2 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+Nous passons à la discussion des articles du projet de loi n° 3788. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3788/3)
+L’intitulé en néerlandais a été modifié par la commission en “wetsontwerp houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de Franse Gemeenschap, de Vlaamse Gemeenschap, de Franse Gemeenschapscommissie en de Gemeenschappelijke Gemeenschapscommissie inzake slachtofferzorg voor het tweetalige gebied Brussel-Hoofdstad".
+Le projet de loi compte 2 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-76
-76
 
 
-Oui
+### Discussed proposals:
 
-Oui
-Oui
+## Proposal discussion (agenda item 17)
 
+### Description in Dutch:
 
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3728/8)
+Het wetsontwerp telt 172 artikelen.
+Op verzoek van de Vlaams Belangfractie zal er later een gesplitste stemming over de artikelen 82 en 134 tot 140 plaatsvinden. Op verzoek van de N-VA-fractie zal er later een gesplitste stemming over artikel 140 plaatsvinden. Dit vóór de stemming over het geheel.
+De bespreking van de artikelen is gesloten. De stemming over het aangehouden amendement, de aangehouden artikelen en het geheel zal later plaatsvinden.
 
-Nee
+### Description in French:
 
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3728/8)
+Le projet de loi compte 172 articles.
+À la demande du groupe Vlaams Belang, un vote divisé sur les articles 82 et 134 à 140 aura lieu ultérieurement. À la demande du groupe N-VA, un vote divisé sur l'article 140 aura lieu ultérieurement. Ceci avant le vote sur l'ensemble.
+La discussion des articles est close. Le vote sur l'amendement et les articles réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
-48
 
 
-Non
+### Discussed proposals:
 
+## Proposal discussion (agenda item 18)
 
+### Description in Dutch:
 
-Nee
+Proposition déposée par:
 
-Nee
-Nee
+Voorstel ingediend door:
 
+Vicky Reynaert, Karin Jiroflée, Christophe Lacroix.
 
-48
 
-48
-48
 
+Discussion
 
-Non
+Bespreking
 
-Non
-Non
 
 
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3295/6)
 
-Onthoudingen
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (3295/6)
 
 
-2
 
+La discussion est ouverte.
 
-Abstentions
+De bespreking is geopend.
 
 
 
-Onthoudingen
+18.01  Michel De Maegd, rapporteur: Madame la présidente, je renvoie à mon rapport écrit.
 
-Onthoudingen
-Onthoudingen
 
 
-2
+18.02  Daniel Senesael (PS): Mes chers collègues, on le sait, les personnes LGBTQI du Burundi et de l'Ouganda, deux pays partenaires de la coopération au développement belge, vivent une situation extrêmement compliquée. Il est fait état régulièrement dans ces pays de graves violations des droits humains, visant plus particulièrement les LGBTQI+, dont les droits sont bafoués quotidiennement et partout dans le monde. J'en veux pour preuve ces propos d'une gravité extrême, qui ont été prononcés par ces chefs d'État qui attisent la haine.
 
-2
-2
 
 
-Abstentions
+Tout d'abord, de tels propos ont été tenus par le président chef d'État du Burundi, qui a appelé tous les Burundais à "maudire ceux qui s'adonnent à l'homosexualité car Dieu ne peut pas le supporter". Ensuite, de tels propos ont été tenus par le président chef d'État de l'Ouganda qui a assuré que les homosexuels étaient "une déviation de la norme". Dans ces deux pays, des personnes homosexuelles sont régulièrement traquées, inculpées et écrouées pour pratiques homosexuelles.
 
-Abstentions
-Abstentions
-
-
-
-Totaal
-
-
-126
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-
-126
-
-126
-126
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-La motion
-pure et simple est adoptée. Par conséquent, les motions de méfiance sont
-caduques.
-La motion
-pure et simple est adoptée. Par conséquent, les motions de méfiance sont
-caduques.
-
-De
-eenvoudige motie is aangenomen. Bijgevolg vervallen de moties van wantrouwen.
-De
-eenvoudige motie is aangenomen. Bijgevolg vervallen de moties van wantrouwen.
-
- 
- 
- 
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
-
-Reden van onthouding? (Nee)
-Reden van onthouding? 
-(Nee)
-(Nee)
-
- 
- 
- 
-34 Projet de loi portant création de la banque de données commune
-"Terrorisme, Extrémisme, processus de Radicalisation"
-("T.E.R.") et modifiant la loi du 30 juillet 2018 relative
-à la protection des personnes physiques à l'égard des traitements de données à
-caractère personnel, la loi du 30 juillet 2018 portant création de
-cellules de sécurité intégrale locales en matière de radicalisme, d'extrémisme
-et de terrorisme et la loi du 5 août 1992 sur la fonction de police
-(3692/3)
-34
-34
- Projet de loi portant création de la banque de données commune
-"Terrorisme, Extrémisme, processus de Radicalisation"
-("T.E.R.") et modifiant la loi du 30 juillet 2018 relative
-à la protection des personnes physiques à l'égard des traitements de données à
-caractère personnel, la loi du 30 juillet 2018 portant création de
-cellules de sécurité intégrale locales en matière de radicalisme, d'extrémisme
-et de terrorisme et la loi du 5 août 1992 sur la fonction de police
-(3692/3)
- Projet de loi portant création de la banque de données commune
-"Terrorisme, Extrémisme, processus de Radicalisation"
-("T.E.R.") et modifiant la loi du 30 juillet 2018 relative
-à la protection des personnes physiques à l'égard des traitements de données à
-caractère personnel, la loi du 30 juillet 2018 portant création de
-cellules de sécurité intégrale locales en matière de radicalisme, d'extrémisme
-et de terrorisme et la loi du 5 août 1992 sur la fonction de police
-(3692/3)
-
-34 Wetsontwerp tot
-oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme,
-Radicaliseringsproces" ("T.E.R.") en tot wijziging van de wet
-van 30 juli 2018 betreffende de bescherming van natuurlijke personen
-met betrekking tot de verwerking van persoonsgegevens, de wet van
-30 juli 2018 tot oprichting van lokale integrale veiligheidscellen
-inzake radicalisme, extremisme en terrorisme en de wet van 5 augustus 1992
-op het politieambt (3692/3)
-34
-34
-34
- Wetsontwerp tot
-oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme,
-Radicaliseringsproces" ("T.E.R.") en tot wijziging van de wet
-van 30 juli 2018 betreffende de bescherming van natuurlijke personen
-met betrekking tot de verwerking van persoonsgegevens, de wet van
-30 juli 2018 tot oprichting van lokale integrale veiligheidscellen
-inzake radicalisme, extremisme en terrorisme en de wet van 5 augustus 1992
-op het politieambt (3692/3)
- Wetsontwerp tot
-oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme,
-Radicaliseringsproces" ("T.E.R.") en tot wijziging van de wet
-van 30 juli 2018 betreffende de bescherming van natuurlijke personen
-met betrekking tot de verwerking van persoonsgegevens, de wet van
-30 juli 2018 tot oprichting van lokale integrale veiligheidscellen
-inzake radicalisme, extremisme en terrorisme en de wet van 5 augustus 1992
-op het politieambt (3692/3)
- Wetsontwerp tot
-oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme,
-Radicaliseringsproces" ("T.E.R.") en tot wijziging van de wet
-van 30 juli 2018 betreffende de bescherming van natuurlijke personen
-met betrekking tot de verwerking van persoonsgegevens, de wet van
-30 juli 2018 tot oprichting van lokale integrale veiligheidscellen
-inzake radicalisme, extremisme en terrorisme en de wet van 5 augustus 1992
-op het politieambt (3692/3)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Il y a tout juste un an, le 23 mars dernier, un projet de loi a été adopté en Ouganda. Il vise à punir de dix années de prison toute personne se rendant complice de pratiques homosexuelles. C'est une atteinte grave, mes chers collègues, aux droits humains. Ces chefs d'État appellent à la haine en toute impunité.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+C'est dans ces moments-là que nous devons d'autant plus affirmer haut et fort notre engagement en faveur des droits des LGBTQI+. Il ne s'agit pas de fermer les yeux une fois de plus ni d'encourager par notre silence une situation gravissime.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+C'est pourquoi nous soutiendrons haut et fort ce texte que notre collègue Christophe Lacroix cosigne avec notre collègue de Vooruit, Vicky Reynaert. Il est en effet important de condamner ces atteintes aux droits humains des pays partenaires de la coopération et de maintenir d'autant plus le cap vers davantage de soutien aux défenseurs des droits humains et ici, plus particulièrement en ce qui concerne cette proposition, aux personnes LGBTQI+. Je vous remercie pour votre attention.
 
-## Proposal 4
 
 
-(Stemming/vote 3)
+18.03  Michel De Maegd (MR): Madame la présidente, chers collègues, je voudrais d’abord remercier ma collègue Vicky Reynaert pour cette résolution et lui souhaiter au passage un prompt rétablissement.
 
-(Stemming/vote 3)
-(Stemming/vote 3)
-(Stemming/vote 3)
 
 
+Mon parti, le Mouvement Réformateur, est viscéralement attaché à la défense des libertés de chaque individu vivant dans notre pays et, bien au-delà, vivant sur l’ensemble de notre planète. Nous, libéraux, nous sommes attachés à l’universalité des droits car cela fait partie de notre ADN politique et nous le revendiquons.
 
-Ja
 
 
-127
+Cette défense de l’universalité des droits se fait à travers la défense des chartes rédigées dans le cadre des Nations Unies. Or, depuis quelques années, nous voyons que ce caractère universel est remis en cause dans un certain nombre de pays au nom d’un particularisme culturel, du respect d’un système politique ou de l’attachement à une religion. Ces droits qui devraient être attachés à chaque être humain sont en train d’être interprétés a minima ou sont remis en cause dans certains pays. Même au sein de notre continent européen, les droits attachés à la personne humaine, à la liberté d’expression mais surtout ceux liés à la liberté sexuelle, dans laquelle j’inclus le droit à l’avortement, sont réduits par des interprétations restrictives au nom du respect de la culture ou de la religion qui formeraient les racines, le particularisme, le socle d’un pays. Au nom de ce socle de valeurs locales, des droits universels sont donc bafoués. Cette régression des droits, cette régionalisation des libertés, cette pesanteur des religions sur les individus est un recul d’un certain idéal de civilisation mondiale.
 
 
-Oui
 
+Chers collègues, pendant des décennies, des hommes et des femmes ont pu voir leur espace de liberté, leur espace d’autonomie, de rapport à un contrôle religieux, étatique, social ou familial s’agrandir. Une personne LGBTQIA+ pouvait assumer son choix sexuel dans sa vie privée et être respectée pour ce choix dans sa vie publique. Aujourd’hui, c’est hélas à une lame de fond à laquelle on assiste: durcissement des législations anti-homosexuelles allant jusqu’à la peine de mort appliquée ou non, lutte contre les organisations de défense des personnes LGBTQIA+, liberté des réseaux sociaux qui attisent la haine contre les homosexuels et christianisme évangélique qui prospère sur ce terreau. Tous ces vecteurs agissent dans une trentaine de pays d’Afrique, mais pas uniquement, et luttent – je souligne ce mot – contre les personnes homosexuelles.
 
 
-Ja
 
-Ja
-Ja
+Or, j’insiste sur ce point, l’orientation sexuelle est un domaine privé dans la vie publique d’une personne et elle ne devient publique que si cette personne se sent discriminée en raison de cette orientation privée. On s’affiche LGBTQIA+ le plus souvent lorsque son droit privé d’être LGBTQIA+ est rendu impossible et devient un combat pour la liberté d’être LGBTQIA+ dans le pays dans lequel on vit.
 
-127
 
-127
-127
 
-Oui
+N’oublions pas que cette lutte contre l’homosexualité a également des incidences en matière de santé: prévention, éducation sexuelle, soins aux personnes porteuses du virus du sida. C’est pourquoi, chers collègues, nous devons, sur ces questions de droit universel, être irréprochables ou presque dans notre pays. Irréprochables pour pouvoir délivrer un message clair à nos partenaires, aux pays partenaires de la coopération comme aux autres. Un message de tolérance et de respect des droits, inscrit dans des textes très largement ratifiés par la communauté internationale. Ratifiés, mais aussi – et c’est là l’essentiel – respectés par les autorités politiques, judiciaires et policières dans ces pays.
 
-Oui
-Oui
 
 
-Nee
+Dans le cas qui nous occupe, oui, l’Ouganda doit respecter l’obligation de protéger tous ses citoyens ainsi que l’obligation de défendre leurs droits fondamentaux. Oui, nous devons dialoguer avec ce pays pour le convaincre qu’il fait fausse route. Oui, nous devons aider les personnes LGBTQIA+ du continent africain à vivre librement leur sexualité. Oui, nous devons nous battre pour conserver le caractère universel des droits individuels. Une petite fille, une adolescente ou une femme a les mêmes droits à la dignité à Bruxelles, à Tokyo ou à Nairobi.
 
 
-0
 
+Oui, un individu a le droit de pratiquer la religion de son choix et de prier le dieu dans lequel il se reconnaît. Ce sont des droits aussi importants que les droits sociaux ou le développement humain, tels que la lutte contre la pauvreté. Ce sont des droits auxquels nous, libéraux, croyons et dans lesquels nous nous reconnaissons. Nous désirons plus que jamais les défendre pour chaque individu de cette planète, raison pour laquelle nous soutiendrons bien entendu ce texte.
 
-Non
 
 
+18.04  Steven De Vuyst (PVDA-PTB): Mevrouw de voorzitster, collega's, net zoals we in de commissie onze steun hebben uitgesproken voor het voorstel van resolutie, zullen wij dat ook hier doen.
 
-Nee
 
-Nee
-Nee
 
-0
+Ook al is het uiteraard een goede zaak dat we hier een statement maken tegen de criminalisering van homoseksualiteit in Oeganda en dat we dat veroordelen, we moeten ook oog hebben voor het historische perspectief van het fenomeen. De haat, de haatspraak en de repressie ten aanzien van de lgbtqi-gemeenschap in Oeganda zijn er niet uit het luchtledige gekomen. We hebben daar een zekere verantwoordelijkheid in. Die elementen werden namelijk via de kolonisatie in het land geïmpor­teerd; ze werden er ingelepeld en zelfs geïnstitutio­naliseerd en sommige gemeenschappen in dat land werden ervan doordrongen. Dat is de koloniale erfenis.
 
-0
-0
 
-Non
 
-Non
-Non
+Nu is er nog altijd externe beïnvloeding door tal van extreemreligieuze en extreemconservatieve bewegingen, niet het minst vanuit de Verenigde Staten. Zij blijven met haatspraak mensen opzetten tegen de lgbtqi-gemeenschap in Oeganda, denk aan een haatprediker als Scott Lively. Ook de evangelisch-Amerikaanse kerk, Born Against Christians en Family Watch International hebben jammer genoeg een stempel gedrukt en invloed uitgeoefend op de politiek. Daar moeten we ons van bewust zijn.
 
 
-Onthoudingen
 
+Daarnaast moeten we erover waken ons niet in de plaats te stellen van lopende processen. Er loopt momenteel een gerechtelijke procedure, aangespannen door heel wat activisten die van onderuit verzet hebben aangetekend. Voor zover ik weet, heeft het Oegandese grondwettelijk hof nog geen uitspraak gedaan. We moeten die rechtsgang respecteren en de instellingen daar hun werk laten doen, ook al moeten we toegeven dat de instellingen daar niet zo performant zijn als hier. Kortom, we moeten de soevereiniteit van het land respecteren en mogen ons niet in de plaats stellen van de activisten die strijd voeren in het land zelf.
 
-0
 
 
-Abstentions
+Los van die bedenkingen vinden we het heel belangrijk dat we ook vanuit het Parlement hier de wetgeving ter zake ten strengste veroordelen en op die manier onze steun uitspreken voor de lgbtqi+-gemeenschap en de vele activisten overal ter wereld, maar zeker ook in Oeganda.
 
 
 
-Onthoudingen
+18.05  Vicky Reynaert (Vooruit): Mevrouw de voorzitster, collega's, op 21 maart 2023, precies een jaar geleden, werd in Oeganda een wet goedgekeurd die discriminatie op grond van seksuele oriëntatie toelaat en mensen die medeplichtig zijn aan het mogelijk maken van homoseksualiteit, vervolgt. Daar staan straffen op tot twintig jaar en in sommige extreme gevallen zelfs de doodstraf.
 
-Onthoudingen
-Onthoudingen
 
-0
 
-0
-0
+Ook al heeft onze regering zich destijds onmiddellijk tegen die wet uitgesproken, het is belangrijk dat ook het Parlement dat doet en wel om verschillende redenen. Oeganda is een van de veertien landen van de Belgische ontwikkelings­samenwerking, een van de partnerlanden. Het is dus een bevoorrechte partner, waarmee wij samenwerken. Een bijkomende reden om het voorstel van resolutie vandaag goed te keuren, is dat het hooggerechtshof in Oeganda vandaag nog steeds geen uitspraak heeft gedaan over de wet. Ons politiek signaal is dus wel degelijk belangrijk.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Met de onderhavige tekst willen wij het signaal geven dat rode lijnen zijn overschreden en dat het voor ons zo niet verder kan. Wij vragen geen stopzetting van de samenwerking, zoals sommigen heel snel en gemakkelijk roepen, maar wij willen wel garanties inzake de strijd tegen discriminatie. Wij willen inzetten op dialoog. Dat was overigens ook het standpunt van de experts in de hoorzittingen over het onderwerp. Zij noemden de stopzetting van de ontwikkelingssamenwerking contraproductief, aangezien ontwikkelings­samenwerking een impact op het onderwijs en het gezondheidssysteem heeft. Bovendien zouden lgbtqi+-personen een extra doelwit kunnen zijn ten gevolge van die stopzetting.
 
-Totaal
 
 
-127
+Mevrouw de voorzitster, ik heb begrepen dat u daarnet een ontmoeting had met de executive director van UNAIDS. Zij is afkomstig van Oeganda en ze vertelde dat haar nicht, die transgender is, gevlucht is naar Zambia. In de strijd tegen hiv zijn mensenrechten het allerbelangrijkste, zegt zij, want in een land waar mensenrechten ook voor minderheden gelden, is er ook een betere toegang tot tests op hiv, medicijnen en onderwijs. Zij heeft België ook geprezen voor de aanpak.
 
 
-Total
 
+Wij vragen dus dat de regering het samenwerkings­akkoord met het partnerland Oeganda gebruikt om de grondrechten te waarborgen, te beschermen en te bevorderen en het begrip non-discriminatie op grond van seksuele geaardheid steeds op te nemen. Dat heeft minister Gennez al gedaan door voor de eerste keer ooit artikel 11 van het samenwerkingsakkoord in werking te laten treden. Dat stelt dat België garanties moet hebben dat er geen discriminatie is of zal zijn in de door ons land gefinancierde projecten, op eender welke grond. Hierover vindt momenteel een dialoog plaats met de Oegandese overheid. Als hieruit blijkt dat er geen verdere vorderingen worden gemaakt, kan ons land alsnog beslissen om eenzijdig het akkoord op te schorten. De minister moet het Parlement hierover tijdig informeren.
 
 
-Totaal
 
-Totaal
-Totaal
+De tekst is trouwens niet alleen van belang voor Oeganda, want op het hele Afrikaanse continent werden de rechten en vrijheden van lgbtqi+-personen in 2023 verder ingeperkt. Er zijn nog steeds 31 landen op het continent waar lgbtqi+-personen gecriminaliseerd worden. Dat komt mede door de toenemende buitenlandse invloed van de antigenderbewegingen. Een signaal van het Belgische Parlement zal dus niet enkel een impact hebben op het terrein in Oeganda, maar ook in andere Afrikaanse landen.
 
-127
 
-127
-127
 
-Total
+Ik rond af met mijn dank uit te spreken aan alle collega's voor hun steun voor het voorstel.
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3692/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3692/4)
-(3692/4)
 
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3692/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3692/4)
-(3692/4)
+18.06  Kathleen Depoorter (N-VA): Mevrouw de voorzitster, de N-VA-fractie zal het voorstel van resolutie steunen, omdat het echt belangrijk is dat lgbtqi+-rechten overal in de wereld worden gerespecteerd. Dat mensen angst hebben om uit te komen voor wie zij zijn, dat zij met een trillende adamsappel naar adem happen wanneer zij daarover praten, dat zij zich afvragen hoe zij in het leven verder moeten gaan en kunnen zijn wie zij willen zijn, omdat ze daarin niet worden gerespecteerd en zelfs worden vervolgd, dat accepteren wij niet en zullen wij nooit accepteren.
 
 
- 
- 
- 
-35 Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral et la Communauté flamande en matière d'assistance aux victimes
-(3784/1)
-35
-35
- Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral et la Communauté flamande en matière d'assistance aux victimes
-(3784/1)
- Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral et la Communauté flamande en matière d'assistance aux victimes
-(3784/1)
 
-35 Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat en
-de Vlaamse Gemeenschap inzake slachtofferzorg (3784/1)
-35
-35
-35
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat en
-de Vlaamse Gemeenschap inzake slachtofferzorg (3784/1)
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat en
-de Vlaamse Gemeenschap inzake slachtofferzorg (3784/1)
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat en
-de Vlaamse Gemeenschap inzake slachtofferzorg (3784/1)
+Wij vinden het wel heel jammer dat men in het voorstel van resolutie niet zo ver is willen gaan als de liberale fractie had voorgesteld. Mevrouw Liekens had immers voorgesteld om de ontwikkelingssamenwerking in Oeganda gewoon te schrappen of te herverdelen over organisaties die de mensenrechten wel respecteren.
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
+In dat verband verwijs ik naar het betoog van mevrouw Winnie Byanyima, de executive director van UNAIDS, die we hebben ontmoet. Zij klaagde dat men in staten als Oeganda, terwijl het essentieel is voor preventie en behandeling van aids, de doelgroepen niet bereikt, omdat men daar bang is om uit te komen voor homoseksualiteit. Er ligt dus werk op de plank. Daarom wilden wij van de N-VA nog iets verder gaan. Wij willen een echte stok achter de deur ter responsabilisering van de regimes die mensen gevangenisstraffen tot zelfs de doodstraf opleggen wegens hun geaardheid. Daar zeggen wij absoluut neen tegen.
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Wij zullen in ieder geval het onderhavige voorstel steunen en het respect voor de mensenrechten overal ter wereld mee bepleiten.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 5
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
+Vraagt nog iemand het woord? (Nee)
 
-(Stemming/vote 4)
 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
 
+La discussion est close.
 
+De bespreking is gesloten.
 
-Ja
 
 
-128
+Aucun amendement n'a été déposé.
 
+Er werden geen amendementen ingediend.
 
-Oui
 
 
+Le vote sur la proposition aura lieu ultérieurement.
 
-Ja
+De stemming over het voorstel zal later plaatsvinden.
 
-Ja
-Ja
+### Description in French:
 
-128
+Proposition déposée par:
 
-128
-128
+Voorstel ingediend door:
 
-Oui
+Vicky Reynaert, Karin Jiroflée, Christophe Lacroix.
 
-Oui
-Oui
 
 
-Nee
+Discussion
 
+Bespreking
 
-0
 
 
-Non
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3295/6)
 
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (3295/6)
 
 
-Nee
 
-Nee
-Nee
+La discussion est ouverte.
 
-0
+De bespreking is geopend.
 
-0
-0
 
-Non
 
-Non
-Non
+18.01  Michel De Maegd, rapporteur: Madame la présidente, je renvoie à mon rapport écrit.
 
 
-Onthoudingen
 
+18.02  Daniel Senesael (PS): Mes chers collègues, on le sait, les personnes LGBTQI du Burundi et de l'Ouganda, deux pays partenaires de la coopération au développement belge, vivent une situation extrêmement compliquée. Il est fait état régulièrement dans ces pays de graves violations des droits humains, visant plus particulièrement les LGBTQI+, dont les droits sont bafoués quotidiennement et partout dans le monde. J'en veux pour preuve ces propos d'une gravité extrême, qui ont été prononcés par ces chefs d'État qui attisent la haine.
 
-0
 
 
-Abstentions
+Tout d'abord, de tels propos ont été tenus par le président chef d'État du Burundi, qui a appelé tous les Burundais à "maudire ceux qui s'adonnent à l'homosexualité car Dieu ne peut pas le supporter". Ensuite, de tels propos ont été tenus par le président chef d'État de l'Ouganda qui a assuré que les homosexuels étaient "une déviation de la norme". Dans ces deux pays, des personnes homosexuelles sont régulièrement traquées, inculpées et écrouées pour pratiques homosexuelles.
 
 
 
-Onthoudingen
+Il y a tout juste un an, le 23 mars dernier, un projet de loi a été adopté en Ouganda. Il vise à punir de dix années de prison toute personne se rendant complice de pratiques homosexuelles. C'est une atteinte grave, mes chers collègues, aux droits humains. Ces chefs d'État appellent à la haine en toute impunité.
 
-Onthoudingen
-Onthoudingen
 
-0
 
-0
-0
+C'est dans ces moments-là que nous devons d'autant plus affirmer haut et fort notre engagement en faveur des droits des LGBTQI+. Il ne s'agit pas de fermer les yeux une fois de plus ni d'encourager par notre silence une situation gravissime.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+C'est pourquoi nous soutiendrons haut et fort ce texte que notre collègue Christophe Lacroix cosigne avec notre collègue de Vooruit, Vicky Reynaert. Il est en effet important de condamner ces atteintes aux droits humains des pays partenaires de la coopération et de maintenir d'autant plus le cap vers davantage de soutien aux défenseurs des droits humains et ici, plus particulièrement en ce qui concerne cette proposition, aux personnes LGBTQI+. Je vous remercie pour votre attention.
 
-Totaal
 
 
-128
+18.03  Michel De Maegd (MR): Madame la présidente, chers collègues, je voudrais d’abord remercier ma collègue Vicky Reynaert pour cette résolution et lui souhaiter au passage un prompt rétablissement.
 
 
-Total
 
+Mon parti, le Mouvement Réformateur, est viscéralement attaché à la défense des libertés de chaque individu vivant dans notre pays et, bien au-delà, vivant sur l’ensemble de notre planète. Nous, libéraux, nous sommes attachés à l’universalité des droits car cela fait partie de notre ADN politique et nous le revendiquons.
 
 
-Totaal
 
-Totaal
-Totaal
+Cette défense de l’universalité des droits se fait à travers la défense des chartes rédigées dans le cadre des Nations Unies. Or, depuis quelques années, nous voyons que ce caractère universel est remis en cause dans un certain nombre de pays au nom d’un particularisme culturel, du respect d’un système politique ou de l’attachement à une religion. Ces droits qui devraient être attachés à chaque être humain sont en train d’être interprétés a minima ou sont remis en cause dans certains pays. Même au sein de notre continent européen, les droits attachés à la personne humaine, à la liberté d’expression mais surtout ceux liés à la liberté sexuelle, dans laquelle j’inclus le droit à l’avortement, sont réduits par des interprétations restrictives au nom du respect de la culture ou de la religion qui formeraient les racines, le particularisme, le socle d’un pays. Au nom de ce socle de valeurs locales, des droits universels sont donc bafoués. Cette régression des droits, cette régionalisation des libertés, cette pesanteur des religions sur les individus est un recul d’un certain idéal de civilisation mondiale.
 
-128
 
-128
-128
 
-Total
+Chers collègues, pendant des décennies, des hommes et des femmes ont pu voir leur espace de liberté, leur espace d’autonomie, de rapport à un contrôle religieux, étatique, social ou familial s’agrandir. Une personne LGBTQIA+ pouvait assumer son choix sexuel dans sa vie privée et être respectée pour ce choix dans sa vie publique. Aujourd’hui, c’est hélas à une lame de fond à laquelle on assiste: durcissement des législations anti-homosexuelles allant jusqu’à la peine de mort appliquée ou non, lutte contre les organisations de défense des personnes LGBTQIA+, liberté des réseaux sociaux qui attisent la haine contre les homosexuels et christianisme évangélique qui prospère sur ce terreau. Tous ces vecteurs agissent dans une trentaine de pays d’Afrique, mais pas uniquement, et luttent – je souligne ce mot – contre les personnes homosexuelles.
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3784/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3784/4)
-(3784/4)
 
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3784/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3784/4)
-(3784/4)
+Or, j’insiste sur ce point, l’orientation sexuelle est un domaine privé dans la vie publique d’une personne et elle ne devient publique que si cette personne se sent discriminée en raison de cette orientation privée. On s’affiche LGBTQIA+ le plus souvent lorsque son droit privé d’être LGBTQIA+ est rendu impossible et devient un combat pour la liberté d’être LGBTQIA+ dans le pays dans lequel on vit.
 
 
- 
- 
- 
-36 Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral, la Communauté française et la Région wallonne en matière
-d'assistance aux victimes (3787/1)
-36
-36
- Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral, la Communauté française et la Région wallonne en matière
-d'assistance aux victimes (3787/1)
- Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral, la Communauté française et la Région wallonne en matière
-d'assistance aux victimes (3787/1)
 
-36 Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de
-Franse Gemeenschap en het Waalse Gewest inzake slachtofferzorg (3787/1)
-36
-36
-36
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de
-Franse Gemeenschap en het Waalse Gewest inzake slachtofferzorg (3787/1)
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de
-Franse Gemeenschap en het Waalse Gewest inzake slachtofferzorg (3787/1)
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de
-Franse Gemeenschap en het Waalse Gewest inzake slachtofferzorg (3787/1)
+N’oublions pas que cette lutte contre l’homosexualité a également des incidences en matière de santé: prévention, éducation sexuelle, soins aux personnes porteuses du virus du sida. C’est pourquoi, chers collègues, nous devons, sur ces questions de droit universel, être irréprochables ou presque dans notre pays. Irréprochables pour pouvoir délivrer un message clair à nos partenaires, aux pays partenaires de la coopération comme aux autres. Un message de tolérance et de respect des droits, inscrit dans des textes très largement ratifiés par la communauté internationale. Ratifiés, mais aussi – et c’est là l’essentiel – respectés par les autorités politiques, judiciaires et policières dans ces pays.
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
+Dans le cas qui nous occupe, oui, l’Ouganda doit respecter l’obligation de protéger tous ses citoyens ainsi que l’obligation de défendre leurs droits fondamentaux. Oui, nous devons dialoguer avec ce pays pour le convaincre qu’il fait fausse route. Oui, nous devons aider les personnes LGBTQIA+ du continent africain à vivre librement leur sexualité. Oui, nous devons nous battre pour conserver le caractère universel des droits individuels. Une petite fille, une adolescente ou une femme a les mêmes droits à la dignité à Bruxelles, à Tokyo ou à Nairobi.
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Oui, un individu a le droit de pratiquer la religion de son choix et de prier le dieu dans lequel il se reconnaît. Ce sont des droits aussi importants que les droits sociaux ou le développement humain, tels que la lutte contre la pauvreté. Ce sont des droits auxquels nous, libéraux, croyons et dans lesquels nous nous reconnaissons. Nous désirons plus que jamais les défendre pour chaque individu de cette planète, raison pour laquelle nous soutiendrons bien entendu ce texte.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 6
+18.04  Steven De Vuyst (PVDA-PTB): Mevrouw de voorzitster, collega's, net zoals we in de commissie onze steun hebben uitgesproken voor het voorstel van resolutie, zullen wij dat ook hier doen.
 
 
-(Stemming/vote 5)
 
-(Stemming/vote 5)
-(Stemming/vote 5)
-(Stemming/vote 5)
+Ook al is het uiteraard een goede zaak dat we hier een statement maken tegen de criminalisering van homoseksualiteit in Oeganda en dat we dat veroordelen, we moeten ook oog hebben voor het historische perspectief van het fenomeen. De haat, de haatspraak en de repressie ten aanzien van de lgbtqi-gemeenschap in Oeganda zijn er niet uit het luchtledige gekomen. We hebben daar een zekere verantwoordelijkheid in. Die elementen werden namelijk via de kolonisatie in het land geïmpor­teerd; ze werden er ingelepeld en zelfs geïnstitutio­naliseerd en sommige gemeenschappen in dat land werden ervan doordrongen. Dat is de koloniale erfenis.
 
 
 
-Ja
+Nu is er nog altijd externe beïnvloeding door tal van extreemreligieuze en extreemconservatieve bewegingen, niet het minst vanuit de Verenigde Staten. Zij blijven met haatspraak mensen opzetten tegen de lgbtqi-gemeenschap in Oeganda, denk aan een haatprediker als Scott Lively. Ook de evangelisch-Amerikaanse kerk, Born Against Christians en Family Watch International hebben jammer genoeg een stempel gedrukt en invloed uitgeoefend op de politiek. Daar moeten we ons van bewust zijn.
 
 
-128
 
+Daarnaast moeten we erover waken ons niet in de plaats te stellen van lopende processen. Er loopt momenteel een gerechtelijke procedure, aangespannen door heel wat activisten die van onderuit verzet hebben aangetekend. Voor zover ik weet, heeft het Oegandese grondwettelijk hof nog geen uitspraak gedaan. We moeten die rechtsgang respecteren en de instellingen daar hun werk laten doen, ook al moeten we toegeven dat de instellingen daar niet zo performant zijn als hier. Kortom, we moeten de soevereiniteit van het land respecteren en mogen ons niet in de plaats stellen van de activisten die strijd voeren in het land zelf.
 
-Oui
 
 
+Los van die bedenkingen vinden we het heel belangrijk dat we ook vanuit het Parlement hier de wetgeving ter zake ten strengste veroordelen en op die manier onze steun uitspreken voor de lgbtqi+-gemeenschap en de vele activisten overal ter wereld, maar zeker ook in Oeganda.
 
-Ja
 
-Ja
-Ja
 
-128
+18.05  Vicky Reynaert (Vooruit): Mevrouw de voorzitster, collega's, op 21 maart 2023, precies een jaar geleden, werd in Oeganda een wet goedgekeurd die discriminatie op grond van seksuele oriëntatie toelaat en mensen die medeplichtig zijn aan het mogelijk maken van homoseksualiteit, vervolgt. Daar staan straffen op tot twintig jaar en in sommige extreme gevallen zelfs de doodstraf.
 
-128
-128
 
-Oui
 
-Oui
-Oui
+Ook al heeft onze regering zich destijds onmiddellijk tegen die wet uitgesproken, het is belangrijk dat ook het Parlement dat doet en wel om verschillende redenen. Oeganda is een van de veertien landen van de Belgische ontwikkelings­samenwerking, een van de partnerlanden. Het is dus een bevoorrechte partner, waarmee wij samenwerken. Een bijkomende reden om het voorstel van resolutie vandaag goed te keuren, is dat het hooggerechtshof in Oeganda vandaag nog steeds geen uitspraak heeft gedaan over de wet. Ons politiek signaal is dus wel degelijk belangrijk.
 
 
-Nee
 
+Met de onderhavige tekst willen wij het signaal geven dat rode lijnen zijn overschreden en dat het voor ons zo niet verder kan. Wij vragen geen stopzetting van de samenwerking, zoals sommigen heel snel en gemakkelijk roepen, maar wij willen wel garanties inzake de strijd tegen discriminatie. Wij willen inzetten op dialoog. Dat was overigens ook het standpunt van de experts in de hoorzittingen over het onderwerp. Zij noemden de stopzetting van de ontwikkelingssamenwerking contraproductief, aangezien ontwikkelings­samenwerking een impact op het onderwijs en het gezondheidssysteem heeft. Bovendien zouden lgbtqi+-personen een extra doelwit kunnen zijn ten gevolge van die stopzetting.
 
-0
 
 
-Non
+Mevrouw de voorzitster, ik heb begrepen dat u daarnet een ontmoeting had met de executive director van UNAIDS. Zij is afkomstig van Oeganda en ze vertelde dat haar nicht, die transgender is, gevlucht is naar Zambia. In de strijd tegen hiv zijn mensenrechten het allerbelangrijkste, zegt zij, want in een land waar mensenrechten ook voor minderheden gelden, is er ook een betere toegang tot tests op hiv, medicijnen en onderwijs. Zij heeft België ook geprezen voor de aanpak.
 
 
 
-Nee
+Wij vragen dus dat de regering het samenwerkings­akkoord met het partnerland Oeganda gebruikt om de grondrechten te waarborgen, te beschermen en te bevorderen en het begrip non-discriminatie op grond van seksuele geaardheid steeds op te nemen. Dat heeft minister Gennez al gedaan door voor de eerste keer ooit artikel 11 van het samenwerkingsakkoord in werking te laten treden. Dat stelt dat België garanties moet hebben dat er geen discriminatie is of zal zijn in de door ons land gefinancierde projecten, op eender welke grond. Hierover vindt momenteel een dialoog plaats met de Oegandese overheid. Als hieruit blijkt dat er geen verdere vorderingen worden gemaakt, kan ons land alsnog beslissen om eenzijdig het akkoord op te schorten. De minister moet het Parlement hierover tijdig informeren.
 
-Nee
-Nee
 
-0
 
-0
-0
+De tekst is trouwens niet alleen van belang voor Oeganda, want op het hele Afrikaanse continent werden de rechten en vrijheden van lgbtqi+-personen in 2023 verder ingeperkt. Er zijn nog steeds 31 landen op het continent waar lgbtqi+-personen gecriminaliseerd worden. Dat komt mede door de toenemende buitenlandse invloed van de antigenderbewegingen. Een signaal van het Belgische Parlement zal dus niet enkel een impact hebben op het terrein in Oeganda, maar ook in andere Afrikaanse landen.
 
-Non
 
-Non
-Non
 
+Ik rond af met mijn dank uit te spreken aan alle collega's voor hun steun voor het voorstel.
 
-Onthoudingen
 
 
-0
+18.06  Kathleen Depoorter (N-VA): Mevrouw de voorzitster, de N-VA-fractie zal het voorstel van resolutie steunen, omdat het echt belangrijk is dat lgbtqi+-rechten overal in de wereld worden gerespecteerd. Dat mensen angst hebben om uit te komen voor wie zij zijn, dat zij met een trillende adamsappel naar adem happen wanneer zij daarover praten, dat zij zich afvragen hoe zij in het leven verder moeten gaan en kunnen zijn wie zij willen zijn, omdat ze daarin niet worden gerespecteerd en zelfs worden vervolgd, dat accepteren wij niet en zullen wij nooit accepteren.
 
 
-Abstentions
 
+Wij vinden het wel heel jammer dat men in het voorstel van resolutie niet zo ver is willen gaan als de liberale fractie had voorgesteld. Mevrouw Liekens had immers voorgesteld om de ontwikkelingssamenwerking in Oeganda gewoon te schrappen of te herverdelen over organisaties die de mensenrechten wel respecteren.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+In dat verband verwijs ik naar het betoog van mevrouw Winnie Byanyima, de executive director van UNAIDS, die we hebben ontmoet. Zij klaagde dat men in staten als Oeganda, terwijl het essentieel is voor preventie en behandeling van aids, de doelgroepen niet bereikt, omdat men daar bang is om uit te komen voor homoseksualiteit. Er ligt dus werk op de plank. Daarom wilden wij van de N-VA nog iets verder gaan. Wij willen een echte stok achter de deur ter responsabilisering van de regimes die mensen gevangenisstraffen tot zelfs de doodstraf opleggen wegens hun geaardheid. Daar zeggen wij absoluut neen tegen.
 
-0
 
-0
-0
 
-Abstentions
+Wij zullen in ieder geval het onderhavige voorstel steunen en het respect voor de mensenrechten overal ter wereld mee bepleiten.
 
-Abstentions
-Abstentions
 
 
-Totaal
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
+Vraagt nog iemand het woord? (Nee)
 
-128
 
 
-Total
+La discussion est close.
 
+De bespreking is gesloten.
 
 
-Totaal
 
-Totaal
-Totaal
+Aucun amendement n'a été déposé.
 
-128
+Er werden geen amendementen ingediend.
 
-128
-128
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3787/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3787/4)
-(3787/4)
+Le vote sur la proposition aura lieu ultérieurement.
 
+De stemming over het voorstel zal later plaatsvinden.
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3787/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3787/4)
-(3787/4)
 
 
- 
- 
- 
-37 Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral, la Communauté française, la Communauté flamande, la Commission
-communautaire française et la Commission communautaire commune en matière
-d'assistance aux victimes pour la Région bilingue de Bruxelles-Capitale
-(3788/3)
-37
-37
- Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral, la Communauté française, la Communauté flamande, la Commission
-communautaire française et la Commission communautaire commune en matière
-d'assistance aux victimes pour la Région bilingue de Bruxelles-Capitale
-(3788/3)
- Projet de loi portant assentiment à l'Accord de coopération entre
-l'État fédéral, la Communauté française, la Communauté flamande, la Commission
-communautaire française et la Commission communautaire commune en matière
-d'assistance aux victimes pour la Région bilingue de Bruxelles-Capitale
-(3788/3)
+### Discussed proposals:
 
-37 Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de
-Franse Gemeenschap, de Vlaamse Gemeenschap, de Franse Gemeenschapscommissie en
-de Gemeenschappelijke Gemeenschapscommissie inzake slachtofferzorg voor het
-tweetalige gebied Brussel-Hoofdstad (nieuw opschrift) (3788/3)
-37
-37
-37
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de
-Franse Gemeenschap, de Vlaamse Gemeenschap, de Franse Gemeenschapscommissie en
-de Gemeenschappelijke Gemeenschapscommissie inzake slachtofferzorg voor het
-tweetalige gebied Brussel-Hoofdstad (nieuw opschrift) (3788/3)
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de
-Franse Gemeenschap, de Vlaamse Gemeenschap, de Franse Gemeenschapscommissie en
-de Gemeenschappelijke Gemeenschapscommissie inzake slachtofferzorg voor het
-tweetalige gebied Brussel-Hoofdstad (nieuw opschrift) (3788/3)
- Wetsontwerp
-houdende goedkeuring van het Samenwerkingsakkoord tussen de Federale Staat, de
-Franse Gemeenschap, de Vlaamse Gemeenschap, de Franse Gemeenschapscommissie en
-de Gemeenschappelijke Gemeenschapscommissie inzake slachtofferzorg voor het
-tweetalige gebied Brussel-Hoofdstad (nieuw opschrift) (3788/3)
+## Proposal discussion (agenda item 19)
 
+### Description in Dutch:
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3844/4)
+Het wetsontwerp telt 12 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen, de aangehouden artikelen en het geheel zal later plaatsvinden.
 
+### Description in French:
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3844/4)
+Le projet de loi compte 12 articles.
+La discussion des articles est close. Le vote sur les amendements et les articles réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+### Discussed proposals:
 
- 
- 
- 
+## Proposal discussion (agenda item 20)
 
-## Proposal 7
+### Description in Dutch:
 
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3828/3)
 
-(Stemming/vote 6)
+Het opschrift werd door de commissie gewijzigd in "wetsontwerp houdende instemming met het wetgevend samenwerkingsakkoord van 8 februari 2024 tussen de Federale Staat, de Vlaamse Gemeenschap, de Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeen­schappelijke Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschaps­commissie strekkende tot wijziging van het Samenwerkingsakkoord van 14 juli 2021 tussen de Federale Staat, de Vlaamse Gemeenschap, de Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke Gemeenschaps­commissie, het Waalse Gewest en de Franse Gemeenschapscommissie betreffende de verwerking van gegevens met betrekking tot het digitaal EU-COVID-certificaat, het COVID Safe Ticket, het PLF en de verwerking van persoonsgegevens van in het buitenland wonende of verblijvende werknemers en zelfstandigen die activiteiten uitvoeren in België, zoals gewijzigd door de Samenwerkingsakkoorden van 27 september 2021 en van 28 oktober 2021".
+Het wetsontwerp telt 2 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-(Stemming/vote 6)
-(Stemming/vote 6)
-(Stemming/vote 6)
+### Description in French:
 
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3828/3)
+L’intitulé a été modifié par la commission en "projet de loi portant assentiment à l’accord de coopération législatif du 8 février 2024 entre l’État fédéral, la Communauté flamande, la Communauté française, la Communauté germanophone, la Commission communautaire commune, la Région wallonne et la Commission communautaire française visant à la modification de l’Accord de coopération du 14 juillet 2021 entre l’État fédéral, la Communauté flamande, la Communauté française, la Communauté germanophone, la Commission communautaire commune, la Région wallonne et la Commission communautaire française concernant le traitement des données liées au certificat COVID numérique de l’UE et au COVID Safe Ticket, le PLF et le traitement des données à caractère personnel des travailleurs salariés et des travailleurs indépendants vivant ou résidant à l’étranger qui effectuent des activités en Belgique, tel que modifié par les Accords de coopération des 27 septembre 2021 et 28 octobre 2021".
+Le projet de loi compte 2 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-Ja
 
+### Discussed proposals:
 
-127
+## Proposal discussion (agenda item 21)
 
+### Description in Dutch:
 
-Oui
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3803/1)
+Het wetsontwerp telt 2 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3803/1)
+Le projet de loi compte 2 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Ja
 
-Ja
-Ja
 
-127
+### Discussed proposals:
 
-127
-127
+## Proposal discussion (agenda item 22)
 
-Oui
+### Description in Dutch:
 
-Oui
-Oui
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3824/1)
+Het wetsontwerp telt 8 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-Nee
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3824/1)
+Le projet de loi compte 8 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-0
 
+### Discussed proposals:
 
-Non
+## Proposal discussion (agenda item 23)
 
+### Description in Dutch:
 
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (798/10)
+Het opschrift werd door de commissie gewijzigd in "wetsvoorstel tot wijziging van de arbeidswet van 16 maart 1971 en van de wet van 10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en mannen, tot instelling van een bescherming voor de werkneemsters en de werknemers die van het werk afwezig zijn om een vruchtbaarheids­behandeling of een programma van medisch begeleide voortplanting te volgen".
+Het wetsvoorstel telt 3 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Nee
+### Description in French:
 
-Nee
-Nee
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (798/10)
+L’intitulé a été modifié par la commission en "proposition de loi modifiant les lois du 16 mars 1971 sur le travail et du 10 mai 2007 tendant à lutter contre la discrimination entre les femmes et les hommes en vue d'instituer une protection pour les travailleuses et travailleurs qui s'absentent du travail pour un traitement d'infertilité ou pour une procréation médicalement assistée".
+La proposition de loi compte 3 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-0
 
-0
-0
 
-Non
+### Discussed proposals:
 
-Non
-Non
+## Proposal discussion (agenda item 24)
 
+### Description in Dutch:
 
-Onthoudingen
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3744/6)
+Het wetsontwerp telt 3 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen, de aangehouden artikelen en over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-0
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3744/6)
+Le projet de loi compte 3 articles.
+La discussion des articles est close. Le vote sur les amendements et les articles réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
 
-Abstentions
 
+### Discussed proposals:
 
+## Proposal discussion (agenda item 25)
 
-Onthoudingen
+### Description in Dutch:
 
-Onthoudingen
-Onthoudingen
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3818/3)
+Het wetsontwerp telt 16 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-0
+### Description in French:
 
-0
-0
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3818/3)
+Le projet de loi compte 16 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+### Discussed proposals:
 
-Totaal
+## Proposal discussion (agenda item 26)
 
+### Description in Dutch:
 
-127
+Proposition déposée par:
 
+Voorstel ingediend door:
 
-Total
+Ellen Samyn, Dominiek Sneppe, Nathalie Dewulf, Steven Creyelman, Hans Verreyt.
 
 
 
-Totaal
+La commission des Affaires sociales, de l’Emploi et des Pensions propose de rejeter cette proposition de loi. (597/3)
 
-Totaal
-Totaal
+De commissie voor Sociale Zaken, Werk en Pensioenen stelt voor het wetsvoorstel te verwerpen. (597/3)
 
-127
 
-127
-127
 
-Total
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, l’auteur.
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3788/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3788/4)
-(3788/4)
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over het voorstel tot verwerping, na de rapporteur en eventueel de indiener te hebben gehoord.
 
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3788/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3788/4)
-(3788/4)
 
+De rapporteur, mevrouw De Jonge, verwijst naar het schriftelijk verslag.
 
- 
- 
- 
-38 Amendement et articles réservés du projet de loi portant dispositions
-en matière de digitalisation de la justice et dispositions diverses Ibis
-(3728/8)
-38
-38
- Amendement et articles réservés du projet de loi portant dispositions
-en matière de digitalisation de la justice et dispositions diverses Ibis
-(3728/8)
- Amendement et articles réservés du projet de loi portant dispositions
-en matière de digitalisation de la justice et dispositions diverses Ibis
-(3728/8)
 
-38 Aangehouden
-amendement en artikelen van het wetsontwerp houdende bepalingen inzake
-digitalisering van justitie en diverse bepalingen Ibis (3728/8)
-38
-38
-38
- Aangehouden
-amendement en artikelen van het wetsontwerp houdende bepalingen inzake
-digitalisering van justitie en diverse bepalingen Ibis (3728/8)
- Aangehouden
-amendement en artikelen van het wetsontwerp houdende bepalingen inzake
-digitalisering van justitie en diverse bepalingen Ibis (3728/8)
- Aangehouden
-amendement en artikelen van het wetsontwerp houdende bepalingen inzake
-digitalisering van justitie en diverse bepalingen Ibis (3728/8)
 
+26.01  Ellen Samyn (VB): Collega's, vandaag wil ik u toch nog ervan proberen te overtuigen om tegen de verwerping van ons wetsvoorstel tot afschaffing van de terugvorderingsmogelijkheid van de rusthuisfactuur door OCMW's te stemmen. Het is schrijnend dat vandaag de kosten van de verzorgingsinstellingen voor ouderen blijven oplopen. De gemiddelde rusthuisfactuur bedraagt momenteel 2.167 euro in Vlaanderen, een stijging van ruim 200 euro op een jaar tijd. Als men daar het gemiddelde rustpensioen tegenover zet, kan men niet anders dan vaststellen dat er maar bitter weinig mensen hun rusthuisfactuur kunnen betalen.
 
- 
- 
- 
-Vote sur l'article
-82.(3728/8)
-Vote sur l'article
-82.(3728/8)
-(3728/8)
 
-Stemming over artikel 82.(3728/8)
-Stemming over artikel 82.(3728/8)
-(3728/8)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+De cijfers zijn dramatisch. Voor negen op de tien werknemers en zelfstandigen volstaat het wettelijk pensioen niet om de rusthuisfactuur te betalen, zelfs niet als het zorgbudget meegeteld wordt. Dan spreek ik alleen nog maar over de zuivere rusthuisfactuur, niet over de kosten voor eventuele uitstapjes en pedicure-, kappers-, apotheek- en dokterskosten. Recent nog meldde iemand mij dat de prijs van het eten in het rusthuis van de ene op de andere maand met 40 % is gestegen. Hoe kan iemand met een karig pensioentje die zijn leven lang heeft gewerkt, dat allemaal betalen? Dat is wat het Vlaams Belang betreft een verzorgingsstaat onwaardig.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Wat ook een verzorgingsstaat onwaardig is, is dat men in negen op de tien Vlaamse gemeenten gebonden is door de onderhoudsplicht. Indien nodig moeten kinderen daar financieel bijspringen om de rusthuisfactuur van hun ouders te betalen.
 
- 
- 
- 
 
-## Proposal 8
 
+Met het voorliggende wetsvoorstel zien wij af van de onderhoudsplicht. Wat ons betreft, is het niet normaal te noemen dat een groep senioren thuis blijft wonen, vaak in ongezonde en onveilige omstandigheden, uit angst omdat anders hun woonzorgkosten deels zouden worden verhaald op hun kinderen. Mijn partij vindt het bovendien niet te rechtvaardigen dat kinderen moeten opdraaien voor die kosten, zeker omdat dat aanleiding kan geven tot discussies, ruzies en zelfs breuken in een familie. Net dat werkt de verdere individualisering van de samenleving in de hand.
 
-(Stemming/vote 7)
 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
 
+Ik vermoed dat velen onder u de schrijnende Pano-reportage van 20 april 2023 hebben gezien, met getuigenissen van bijvoorbeeld een koppel dat 900 euro diende te betalen voor de rusthuiskosten van hun ouders. Het wrange aan die getuigenis was dat de dochter in kwestie zelf met een pensioen van 1.400 euro rond moest komen. Is dat een samenleving waarin wij willen leven?
 
 
-Ja
 
+Niet alleen mijn partij vindt dat er iets moet worden gedaan aan de onderhoudsplicht. Ook de Vlaamse Ouderenraad pleit sinds 2017 voor een beperkte onderhoudsplicht.
 
-127
 
 
-Oui
+Onze partij gaat nog een stapje verder en vindt dat de onderhoudsplicht volledig moet worden afgeschaft. Het gaat er immers over hoe de samenleving omgaat met haar zorgbehoevenden. Voor ons is dat absoluut een kerntaak van de overheid. Overigens, in 28 Vlaamse gemeenten geldt er geen onderhoudsplicht. Voor het Vlaams Belang is het dan ook niet meer dan billijk dat iedereen gelijk is voor de wet.
 
 
 
-Ja
+Collega's, ik hoop dan ook dat u ons wetsvoorstel zult steunen en tegen de verwerping zult stemmen.
 
-Ja
-Ja
 
-127
 
-127
-127
+La présidente: Plus personne ne peut prendre la parole.
 
-Oui
+Geen andere spreker mag het woord nemen.
 
-Oui
-Oui
 
 
-Nee
+Le vote sur la proposition de rejet de cette proposition de loi aura lieu ultérieurement.
 
+De stemming over het voorstel tot verwerping van dit wetsvoorstel zal later plaatsvinden.
 
-0
+### Description in French:
 
+Proposition déposée par:
 
-Non
+Voorstel ingediend door:
 
+Ellen Samyn, Dominiek Sneppe, Nathalie Dewulf, Steven Creyelman, Hans Verreyt.
 
 
-Nee
 
-Nee
-Nee
+La commission des Affaires sociales, de l’Emploi et des Pensions propose de rejeter cette proposition de loi. (597/3)
 
-0
+De commissie voor Sociale Zaken, Werk en Pensioenen stelt voor het wetsvoorstel te verwerpen. (597/3)
 
-0
-0
 
-Non
 
-Non
-Non
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, l’auteur.
 
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over het voorstel tot verwerping, na de rapporteur en eventueel de indiener te hebben gehoord.
 
-Onthoudingen
 
 
-0
+De rapporteur, mevrouw De Jonge, verwijst naar het schriftelijk verslag.
 
 
-Abstentions
 
+26.01  Ellen Samyn (VB): Collega's, vandaag wil ik u toch nog ervan proberen te overtuigen om tegen de verwerping van ons wetsvoorstel tot afschaffing van de terugvorderingsmogelijkheid van de rusthuisfactuur door OCMW's te stemmen. Het is schrijnend dat vandaag de kosten van de verzorgingsinstellingen voor ouderen blijven oplopen. De gemiddelde rusthuisfactuur bedraagt momenteel 2.167 euro in Vlaanderen, een stijging van ruim 200 euro op een jaar tijd. Als men daar het gemiddelde rustpensioen tegenover zet, kan men niet anders dan vaststellen dat er maar bitter weinig mensen hun rusthuisfactuur kunnen betalen.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+De cijfers zijn dramatisch. Voor negen op de tien werknemers en zelfstandigen volstaat het wettelijk pensioen niet om de rusthuisfactuur te betalen, zelfs niet als het zorgbudget meegeteld wordt. Dan spreek ik alleen nog maar over de zuivere rusthuisfactuur, niet over de kosten voor eventuele uitstapjes en pedicure-, kappers-, apotheek- en dokterskosten. Recent nog meldde iemand mij dat de prijs van het eten in het rusthuis van de ene op de andere maand met 40 % is gestegen. Hoe kan iemand met een karig pensioentje die zijn leven lang heeft gewerkt, dat allemaal betalen? Dat is wat het Vlaams Belang betreft een verzorgingsstaat onwaardig.
 
-0
 
-0
-0
 
-Abstentions
+Wat ook een verzorgingsstaat onwaardig is, is dat men in negen op de tien Vlaamse gemeenten gebonden is door de onderhoudsplicht. Indien nodig moeten kinderen daar financieel bijspringen om de rusthuisfactuur van hun ouders te betalen.
 
-Abstentions
-Abstentions
 
 
-Totaal
+Met het voorliggende wetsvoorstel zien wij af van de onderhoudsplicht. Wat ons betreft, is het niet normaal te noemen dat een groep senioren thuis blijft wonen, vaak in ongezonde en onveilige omstandigheden, uit angst omdat anders hun woonzorgkosten deels zouden worden verhaald op hun kinderen. Mijn partij vindt het bovendien niet te rechtvaardigen dat kinderen moeten opdraaien voor die kosten, zeker omdat dat aanleiding kan geven tot discussies, ruzies en zelfs breuken in een familie. Net dat werkt de verdere individualisering van de samenleving in de hand.
 
 
-127
 
+Ik vermoed dat velen onder u de schrijnende Pano-reportage van 20 april 2023 hebben gezien, met getuigenissen van bijvoorbeeld een koppel dat 900 euro diende te betalen voor de rusthuiskosten van hun ouders. Het wrange aan die getuigenis was dat de dochter in kwestie zelf met een pensioen van 1.400 euro rond moest komen. Is dat een samenleving waarin wij willen leven?
 
-Total
 
 
+Niet alleen mijn partij vindt dat er iets moet worden gedaan aan de onderhoudsplicht. Ook de Vlaamse Ouderenraad pleit sinds 2017 voor een beperkte onderhoudsplicht.
 
-Totaal
 
-Totaal
-Totaal
 
-127
+Onze partij gaat nog een stapje verder en vindt dat de onderhoudsplicht volledig moet worden afgeschaft. Het gaat er immers over hoe de samenleving omgaat met haar zorgbehoevenden. Voor ons is dat absoluut een kerntaak van de overheid. Overigens, in 28 Vlaamse gemeenten geldt er geen onderhoudsplicht. Voor het Vlaams Belang is het dan ook niet meer dan billijk dat iedereen gelijk is voor de wet.
 
-127
-127
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'article 82 est adopté.
-En conséquence, l'article 82 est adopté.
-Bijgevolg is artikel 82 aangenomen.
-Bijgevolg is artikel 82 aangenomen.
- 
- 
- 
-Vote sur les
-articles 134 à 139.(3728/8)
-Vote sur les
-articles 134 à 139.(3728/8)
-(3728/8)
+Collega's, ik hoop dan ook dat u ons wetsvoorstel zult steunen en tegen de verwerping zult stemmen.
 
-Stemming over de artikelen 134 tot 139.(3728/8)
-Stemming over de artikelen 134 tot 139.(3728/8)
-(3728/8)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+La présidente: Plus personne ne peut prendre la parole.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Geen andere spreker mag het woord nemen.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 9
+Le vote sur la proposition de rejet de cette proposition de loi aura lieu ultérieurement.
 
+De stemming over het voorstel tot verwerping van dit wetsvoorstel zal later plaatsvinden.
 
-(Stemming/vote 8)
 
-(Stemming/vote 8)
-(Stemming/vote 8)
-(Stemming/vote 8)
 
+### Discussed proposals:
 
+## Proposal discussion (agenda item 27)
 
-Ja
+### Description in Dutch:
 
+Proposition déposée par:
 
-89
+Voorstel ingediend door:
 
+Maria Vindevoghel, Roberto D'Amico, Nabil Boukili, Gaby Colebunders.
 
-Oui
 
 
+La commission de la Mobilité, des Entreprises publiques et des Institutions fédérales propose de rejeter cette proposition de résolution. (2248/4)
 
-Ja
+De commissie voor Mobiliteit, Overheidsbedrijven en Federale Instellingen stelt voor dit voorstel van resolutie te verwerpen. (2248/4)
 
-Ja
-Ja
 
-89
 
-89
-89
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, l’auteur.
 
-Oui
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over het voorstel tot verwerping, na de rapporteur en eventueel de indiener te hebben gehoord.
 
-Oui
-Oui
 
 
-Nee
+De rapporteurs, de heren Jef Van den Bergh en Emmanuel Burton, verwijzen naar het schriftelijk verslag
 
 
-38
 
+27.01  Maria Vindevoghel (PVDA-PTB): Mevrouw de voorzitster, minister Gilkinet is zijn termijn begonnen met het sluiten van 44 loketten en zal zijn termijn eindigen met het verminderen van de openingsuren van nog eens 54 loketten. Ik vind dit schandalig. Wij willen dat met onze resolutie terugdringen.
 
-Non
 
 
+De dienstverlening bij de NMBS is onder Vivaldi sterk achteruitgegaan. Er is een recordaantal vertragingen. Er is een recordaantal afgeschafte treinen. Er zijn duurdere tickets gekomen, met minder dienstverlening. Vivaldi is dik gebuisd als het gaat over het openbaar vervoer. Vivaldi is ook dik gebuisd als het gaat over een sociaal klimaatbeleid.
 
-Nee
 
-Nee
-Nee
 
-38
+De PVDA wil met deze resolutie die 44 gesloten loketten weer openen en de openingsuren terugbrengen naar hoe het vroeger was. Die menselijkheid in de stations ontbreekt immers. Ik geef een paar voorbeelden. Na 20.00 uur is er in heel België nog slechts 1 NMBS-loket open. In heel de provincie Limburg is er tijdens het weekend nog slechts 1 NMBS-loket open, namelijk in Hasselt.
 
-38
-38
 
-Non
 
-Non
-Non
+Door de socialeafbraakpolitiek bij de NMBS van Vivaldi, de groenste regering ooit, vallen de zwaksten in onze samenleving uit de boot. Hebben mensen dan geen recht meer op menselijk contact, op hulp, op veiligheid? Ik begrijp niet dat Vivaldi, met Groen en Vooruit, de sluiting van die loketten steunt.
 
 
-Onthoudingen
 
+Het gaat over keuzes. Ik heb deze week nog een vraag gesteld aan de heer Gilkinet. Er gaat 600 miljoen naar consultants. Dat is 10 % van de loonmassa. Men betaalt soms tot 9.000 euro per dag voor één consultant. Kunt u zich dat voorstellen? En daarvoor is er dan wel geld.
 
-0
 
 
-Abstentions
+Wij zeggen dat het gaat over keuzes. Wij vragen dat de NMBS zorgt voor een goede toegankelijkheid en menselijk is en dat de loketten weer opengaan zodat mensen hulp kunnen krijgen, als ze die nodig hebben. Ik vraag dan ook om ons voorstel met betrekking tot de gesloten loketten en met betrekking tot de openingsuren te steunen.
 
 
 
-Onthoudingen
+La présidente: Plus personne ne peut prendre la parole.
 
-Onthoudingen
-Onthoudingen
+Geen andere spreker mag het woord nemen.
 
-0
 
-0
-0
 
-Abstentions
+Le vote sur la proposition de rejet de cette proposition de résolution aura lieu ultérieurement.
 
-Abstentions
-Abstentions
+De stemming over het voorstel tot verwerping van dit voorstel van resolutie zal later plaatsvinden.
 
+### Description in French:
 
-Totaal
+Proposition déposée par:
 
+Voorstel ingediend door:
 
-127
+Maria Vindevoghel, Roberto D'Amico, Nabil Boukili, Gaby Colebunders.
 
 
-Total
 
+La commission de la Mobilité, des Entreprises publiques et des Institutions fédérales propose de rejeter cette proposition de résolution. (2248/4)
 
+De commissie voor Mobiliteit, Overheidsbedrijven en Federale Instellingen stelt voor dit voorstel van resolutie te verwerpen. (2248/4)
 
-Totaal
 
-Totaal
-Totaal
 
-127
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, l’auteur.
 
-127
-127
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over het voorstel tot verwerping, na de rapporteur en eventueel de indiener te hebben gehoord.
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, les articles 134 à 139 sont
-adoptés article par article.
-En conséquence, les articles 134 à 139 sont
-adoptés article par article.
-Bijgevolg zijn de artikelen 134 tot 139 artikel
-per artikel aangenomen.
-Bijgevolg zijn de artikelen 134 tot 139 artikel
-per artikel aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 91 de Frieda
-Gijbels à l'article 140.(3728/9)
-Vote sur l'amendement n° 91 de Frieda
-Gijbels à l'article 140.(3728/9)
-(3728/9)
 
-Stemming over amendement nr. 91 van
-Frieda Gijbels op artikel 140.(3728/9)
-Stemming over amendement nr. 91 van
-Frieda Gijbels op artikel 140.(3728/9)
-(3728/9)
+De rapporteurs, de heren Jef Van den Bergh en Emmanuel Burton, verwijzen naar het schriftelijk verslag
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+27.01  Maria Vindevoghel (PVDA-PTB): Mevrouw de voorzitster, minister Gilkinet is zijn termijn begonnen met het sluiten van 44 loketten en zal zijn termijn eindigen met het verminderen van de openingsuren van nog eens 54 loketten. Ik vind dit schandalig. Wij willen dat met onze resolutie terugdringen.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 10
+De dienstverlening bij de NMBS is onder Vivaldi sterk achteruitgegaan. Er is een recordaantal vertragingen. Er is een recordaantal afgeschafte treinen. Er zijn duurdere tickets gekomen, met minder dienstverlening. Vivaldi is dik gebuisd als het gaat over het openbaar vervoer. Vivaldi is ook dik gebuisd als het gaat over een sociaal klimaatbeleid.
 
 
-(Stemming/vote 9)
 
-(Stemming/vote 9)
-(Stemming/vote 9)
-(Stemming/vote 9)
+De PVDA wil met deze resolutie die 44 gesloten loketten weer openen en de openingsuren terugbrengen naar hoe het vroeger was. Die menselijkheid in de stations ontbreekt immers. Ik geef een paar voorbeelden. Na 20.00 uur is er in heel België nog slechts 1 NMBS-loket open. In heel de provincie Limburg is er tijdens het weekend nog slechts 1 NMBS-loket open, namelijk in Hasselt.
 
 
 
-Ja
+Door de socialeafbraakpolitiek bij de NMBS van Vivaldi, de groenste regering ooit, vallen de zwaksten in onze samenleving uit de boot. Hebben mensen dan geen recht meer op menselijk contact, op hulp, op veiligheid? Ik begrijp niet dat Vivaldi, met Groen en Vooruit, de sluiting van die loketten steunt.
 
 
-39
 
+Het gaat over keuzes. Ik heb deze week nog een vraag gesteld aan de heer Gilkinet. Er gaat 600 miljoen naar consultants. Dat is 10 % van de loonmassa. Men betaalt soms tot 9.000 euro per dag voor één consultant. Kunt u zich dat voorstellen? En daarvoor is er dan wel geld.
 
-Oui
 
 
+Wij zeggen dat het gaat over keuzes. Wij vragen dat de NMBS zorgt voor een goede toegankelijkheid en menselijk is en dat de loketten weer opengaan zodat mensen hulp kunnen krijgen, als ze die nodig hebben. Ik vraag dan ook om ons voorstel met betrekking tot de gesloten loketten en met betrekking tot de openingsuren te steunen.
 
-Ja
 
-Ja
-Ja
 
-39
+La présidente: Plus personne ne peut prendre la parole.
 
-39
-39
+Geen andere spreker mag het woord nemen.
 
-Oui
 
-Oui
-Oui
 
+Le vote sur la proposition de rejet de cette proposition de résolution aura lieu ultérieurement.
 
-Nee
+De stemming over het voorstel tot verwerping van dit voorstel van resolutie zal later plaatsvinden.
 
 
-85
 
+### Discussed proposals:
 
-Non
+## Proposal discussion (agenda item 28)
 
+### Description in Dutch:
 
+Proposition déposée par:
 
-Nee
+Voorstel ingediend door:
 
-Nee
-Nee
+Theo Francken, Darya Safai, Kathleen Depoorter, Sophie De Wit, Kristien Van Vaerenbergh, Tomas Roggeman, Christoph D'Haese, Wim Van der Donckt, Björn Anseeuw, Michael Freilich.
 
-85
 
-85
-85
 
-Non
+La commission de l’Intérieur, de la Sécurité, de la Migration et des Matières administratives propose de rejeter cette proposition de loi. (3833/2)
 
-Non
-Non
+De commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken stelt voor dit wetsvoorstel te verwerpen. (3833/2)
 
 
-Onthoudingen
 
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, l’auteur.
 
-4
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over dit voorstel tot verwerping, na de rapporteur en eventueel de indiener te hebben gehoord.
 
 
-Abstentions
 
+De rapporteur, mevrouw Barbara Pas, verwijst naar het schriftelijk verslag.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+28.01  Tomas Roggeman (N-VA): Mevrouw de voorzitster, collega's, wij hebben een voorstel ingediend tot herziening van de sociale bijdragen voor tijdelijk ontheemden, met name voor Oekraïners. Wat is er aan de hand? U weet dat wij de afgelopen jaren gastheer waren van heel wat vluchtelingen uit Oekraïne. Die mensen hebben het statuut van tijdelijk ontheemde gekregen. Met dat statuut maken zij aanspraak op heel wat erkenning voor de sociale zekerheid.
 
-4
 
-4
-4
 
-Abstentions
+Dat gaat vrij ver. Wij bieden materiële hulp op de behoorlijk genereuze wijze eigen aan onze sociale zekerheid. Dat heeft heel wat implicaties, want het is namelijk zo dat slechts 30 % van de tijdelijk ontheemden in dit land werkt. Dat is volslagen disproportioneel als we dat vergelijken met onze buurlanden. Zo zien we dat in Nederland 80 % van de Oekraïense vluchtelingen werkt.
 
-Abstentions
-Abstentions
 
 
-Totaal
+Dat is natuurlijk niet de schuld van de Oekraïense vluchtelingen, maar van onze sociale zekerheid, die zodanig genereus is dat men mensen ontmoedigt om op onze arbeidsmarkt aan de slag te gaan. Dat is zeker het geval als men dat in Europees perspectief bekijkt. Polen ontvangt vandaag ongeveer een miljoen Oekraïense vluchtelingen. Die mensen zijn bijna allemaal aan het werk. Bij ons is dat amper 30 %. In Nederland is het 80 %. Dat ligt aan onze sociale zekerheid.
 
 
-128
 
+Alleenstaande moeders met minderjarige kinderen zijn de meest voorkomende doelgroep. Zij krijgen in ons systeem een equivalent leefloon van meer 1.700 euro netto, exclusief de installatiepremie, exclusief het kindergeld, exclusief de huursubsidie, exclusief eventuele aanvullende steun en exclusief sociale tarieven voor water, gas en elektriciteit, kinderopvang, telefonie, internet, openbaar vervoer enzovoort. Soms, afhankelijk van het stelsel of het OCMW in kwestie, komt er nog een sociale kruidenier bij en een UiTPAS aan kansentarief.
 
-Total
 
 
+Ons systeem is bijzonder genereus. Wanneer u dan uit Oekraïne komt, waar het mediaan loon 700 euro netto is, valt u hier met uw achterste in de boter. Voor deze mensen is het doorgaans veel voordeliger om niet te gaan werken. Begrijp me niet verkeerd, solidariteit is bijzonder belangrijk. Mensen in nood moeten wij helpen, maar ons systeem is zodanig gul dat het eigenlijk belachelijk wordt. Als men aan het einde van de maand meer overhoudt aan inkomen uit uitkering dan door te gaan werken, dan is er in dit systeem iets bijzonder grondig mis.
 
-Totaal
 
-Totaal
-Totaal
 
-128
+Dit land is inactiviteit massaal aan het subsidiëren. Dat moet anders. Sommigen hoor ik zeggen dat dit allemaal onderworpen is aan de controle vanwege OCMW's en vanwege bijzondere comités. Wanneer mensen niet willen werken, kunnen ze voor het leefloon geschrapt worden. Dat klopt op papier, maar in de praktijk zijn het mensen die uit het buitenland naar hier komen met zero taalkennis en die door onze OCMW's eerder gestimuleerd worden richting verwerven van de taalkennis en pas daarna gaan werken. Dat betekent in de praktijk dat men sowieso eerst gedurende twee tot drie jaar terugvalt op het systeem van leefloon vooraleer geactiveerd te worden op de arbeidsmarkt, met alle gevolgen van dien. Mensen settelen zich in dat systeem en maken zich enigszins gewend aan het inkomensniveau dat zij gedurende die jaren verwerven. De mogelijkheid om hen vervolgens te activeren op de arbeidsmarkt is bijzonder klein.
 
-128
-128
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'article
-140.(3728/8)
-Vote sur l'article
-140.(3728/8)
-(3728/8)
+Daar willen wij met dit voorstel iets aan veranderen. Dat doet voor alle duidelijkheid geen afbreuk aan de steun die wij toekennen in het kader van de oorlog die daar gaande is tussen Oekraïne en Rusland. Het mag duidelijk zijn dat de N-VA bijzonder overtuigd is van de noodzaak van die Oekraïense overwinning, maar dat betekent niet dat we hier een oneindige generositeit moeten betonen aan de mensen uit Oekraïne die in dit land verblijven. Het is voor alle duidelijkheid noodzakelijk dat wij degenen die naar ons land vluchten ook kunnen activeren richting arbeidsmarkt en inschakelen in ons economisch systeem. Daarvoor is een bijsturing van de huidige sociale zekerheid en het betreffende systeem meer dan noodzakelijk.
 
-Stemming over artikel 140.(3728/8)
-Stemming over artikel 140.(3728/8)
-(3728/8)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-s
-on vote?
+La présidente: Plus personne ne peut prendre la parole.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Geen andere spreker mag het woord nemen.
 
-Uitslag van de stemming
-/ Résultat du vote.
-Uitslag van de stemming
-/ Résultat du vote.
 
- 
- 
- 
 
-## Proposal 11
+Le vote sur la proposition de rejet de cette proposition de loi aura lieu ultérieurement.
 
+De stemming over het voorstel tot verwerping van dit wetsvoorstel zal later plaatsvinden.
 
-(Stemming/vote 10)
+### Description in French:
 
-(Stemming/vote 10)
-(Stemming/vote 10)
-(Stemming/vote 10)
+Proposition déposée par:
 
+Voorstel ingediend door:
 
+Theo Francken, Darya Safai, Kathleen Depoorter, Sophie De Wit, Kristien Van Vaerenbergh, Tomas Roggeman, Christoph D'Haese, Wim Van der Donckt, Björn Anseeuw, Michael Freilich.
 
-Ja
 
 
-84
+La commission de l’Intérieur, de la Sécurité, de la Migration et des Matières administratives propose de rejeter cette proposition de loi. (3833/2)
 
+De commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken stelt voor dit wetsvoorstel te verwerpen. (3833/2)
 
-Oui
 
 
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, l’auteur.
 
-Ja
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over dit voorstel tot verwerping, na de rapporteur en eventueel de indiener te hebben gehoord.
 
-Ja
-Ja
 
-84
 
-84
-84
+De rapporteur, mevrouw Barbara Pas, verwijst naar het schriftelijk verslag.
 
-Oui
 
-Oui
-Oui
 
+28.01  Tomas Roggeman (N-VA): Mevrouw de voorzitster, collega's, wij hebben een voorstel ingediend tot herziening van de sociale bijdragen voor tijdelijk ontheemden, met name voor Oekraïners. Wat is er aan de hand? U weet dat wij de afgelopen jaren gastheer waren van heel wat vluchtelingen uit Oekraïne. Die mensen hebben het statuut van tijdelijk ontheemde gekregen. Met dat statuut maken zij aanspraak op heel wat erkenning voor de sociale zekerheid.
 
-Nee
 
 
-38
+Dat gaat vrij ver. Wij bieden materiële hulp op de behoorlijk genereuze wijze eigen aan onze sociale zekerheid. Dat heeft heel wat implicaties, want het is namelijk zo dat slechts 30 % van de tijdelijk ontheemden in dit land werkt. Dat is volslagen disproportioneel als we dat vergelijken met onze buurlanden. Zo zien we dat in Nederland 80 % van de Oekraïense vluchtelingen werkt.
 
 
-Non
 
+Dat is natuurlijk niet de schuld van de Oekraïense vluchtelingen, maar van onze sociale zekerheid, die zodanig genereus is dat men mensen ontmoedigt om op onze arbeidsmarkt aan de slag te gaan. Dat is zeker het geval als men dat in Europees perspectief bekijkt. Polen ontvangt vandaag ongeveer een miljoen Oekraïense vluchtelingen. Die mensen zijn bijna allemaal aan het werk. Bij ons is dat amper 30 %. In Nederland is het 80 %. Dat ligt aan onze sociale zekerheid.
 
 
-Nee
 
-Nee
-Nee
+Alleenstaande moeders met minderjarige kinderen zijn de meest voorkomende doelgroep. Zij krijgen in ons systeem een equivalent leefloon van meer 1.700 euro netto, exclusief de installatiepremie, exclusief het kindergeld, exclusief de huursubsidie, exclusief eventuele aanvullende steun en exclusief sociale tarieven voor water, gas en elektriciteit, kinderopvang, telefonie, internet, openbaar vervoer enzovoort. Soms, afhankelijk van het stelsel of het OCMW in kwestie, komt er nog een sociale kruidenier bij en een UiTPAS aan kansentarief.
 
-38
 
-38
-38
 
-Non
+Ons systeem is bijzonder genereus. Wanneer u dan uit Oekraïne komt, waar het mediaan loon 700 euro netto is, valt u hier met uw achterste in de boter. Voor deze mensen is het doorgaans veel voordeliger om niet te gaan werken. Begrijp me niet verkeerd, solidariteit is bijzonder belangrijk. Mensen in nood moeten wij helpen, maar ons systeem is zodanig gul dat het eigenlijk belachelijk wordt. Als men aan het einde van de maand meer overhoudt aan inkomen uit uitkering dan door te gaan werken, dan is er in dit systeem iets bijzonder grondig mis.
 
-Non
-Non
 
 
-Onthoudingen
+Dit land is inactiviteit massaal aan het subsidiëren. Dat moet anders. Sommigen hoor ik zeggen dat dit allemaal onderworpen is aan de controle vanwege OCMW's en vanwege bijzondere comités. Wanneer mensen niet willen werken, kunnen ze voor het leefloon geschrapt worden. Dat klopt op papier, maar in de praktijk zijn het mensen die uit het buitenland naar hier komen met zero taalkennis en die door onze OCMW's eerder gestimuleerd worden richting verwerven van de taalkennis en pas daarna gaan werken. Dat betekent in de praktijk dat men sowieso eerst gedurende twee tot drie jaar terugvalt op het systeem van leefloon vooraleer geactiveerd te worden op de arbeidsmarkt, met alle gevolgen van dien. Mensen settelen zich in dat systeem en maken zich enigszins gewend aan het inkomensniveau dat zij gedurende die jaren verwerven. De mogelijkheid om hen vervolgens te activeren op de arbeidsmarkt is bijzonder klein.
 
 
-5
 
+Daar willen wij met dit voorstel iets aan veranderen. Dat doet voor alle duidelijkheid geen afbreuk aan de steun die wij toekennen in het kader van de oorlog die daar gaande is tussen Oekraïne en Rusland. Het mag duidelijk zijn dat de N-VA bijzonder overtuigd is van de noodzaak van die Oekraïense overwinning, maar dat betekent niet dat we hier een oneindige generositeit moeten betonen aan de mensen uit Oekraïne die in dit land verblijven. Het is voor alle duidelijkheid noodzakelijk dat wij degenen die naar ons land vluchten ook kunnen activeren richting arbeidsmarkt en inschakelen in ons economisch systeem. Daarvoor is een bijsturing van de huidige sociale zekerheid en het betreffende systeem meer dan noodzakelijk.
 
-Abstentions
 
 
+La présidente: Plus personne ne peut prendre la parole.
 
-Onthoudingen
+Geen andere spreker mag het woord nemen.
 
-Onthoudingen
-Onthoudingen
 
-5
 
-5
-5
+Le vote sur la proposition de rejet de cette proposition de loi aura lieu ultérieurement.
 
-Abstentions
+De stemming over het voorstel tot verwerping van dit wetsvoorstel zal later plaatsvinden.
 
-Abstentions
-Abstentions
 
 
-Totaal
+### Discussed proposals:
 
+## Proposal discussion (agenda item 29)
 
-127
+### Description in Dutch:
 
+Conformément à la décision de la séance plénière du 18 janvier 2024, un nouvel appel à candidats a été publié au Moniteur belge du 12 février 2024 pour les mandats de seconds membres suppléants francophone et néerlandophone du Comité permanent de contrôle des services de police (Comité P).
 
-Total
+Overeenkomstig de beslissing van de plenaire vergadering van 18 januari 2024 werd een oproep tot kandidaten in het Belgisch Staatsblad van 12 februari 2024 bekendgemaakt voor de mandaten van Nederlandstalig en Franstalig tweede plaatsvervangend lid van het Vast Comité van Toezicht op de politiediensten (Comité P).
 
 
 
-Totaal
+Aucune candidature complémentaire n’a été introduite.
 
-Totaal
-Totaal
+Er werden geen bijkomende kandidaturen ingediend.
 
-127
 
-127
-127
 
-Total
+Les candidatures pour les mandats de premiers membres suppléants francophone et néerlan­dophone ont été annoncées respectivement au cours des séances plénières des 23 septembre 2021, 22 septembre 2022, 26 octobre 2023 et 18 janvier 2024.
 
-Total
-Total
- 
- 
- 
-En conséquence, l'article 140 est adopté.
-En conséquence, l'article 140 est adopté.
-Bijgevolg is
-artikel 140 aangenomen.
-Bijgevolg is
-artikel 140 aangenomen.
+De kandidaturen voor de mandaten van Nederlandstalig en Franstalig eerste plaatsvervangend lid werden aangekondigd tijdens de plenaire vergaderingen van respectievelijk 23 september 2021, 22 september 2022, 26 oktober 2023 en 18 januari 2024.
 
- 
- 
- 
-39 Ensemble du projet de loi portant dispositions en matière de
-digitalisation de la justice et dispositions diverses Ibis (3728/8)
-39
-39
- Ensemble du projet de loi portant dispositions en matière de
-digitalisation de la justice et dispositions diverses Ibis (3728/8)
- Ensemble du projet de loi portant dispositions en matière de
-digitalisation de la justice et dispositions diverses Ibis (3728/8)
 
-39 Geheel van het
-wetsontwerp houdende bepalingen inzake digitalisering van justitie en diverse
-bepalingen Ibis (3728/8)
-39
-39
-39
- Geheel van het
-wetsontwerp houdende bepalingen inzake digitalisering van justitie en diverse
-bepalingen Ibis (3728/8)
- Geheel van het
-wetsontwerp houdende bepalingen inzake digitalisering van justitie en diverse
-bepalingen Ibis (3728/8)
- Geheel van het
-wetsontwerp houdende bepalingen inzake digitalisering van justitie en diverse
-bepalingen Ibis (3728/8)
 
+Les deux premiers membres suppléants néerlandophones et un premier membre suppléant francophone ont été nommés au cours de la séance plénière du 26 octobre 2023.
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+De twee Nederlandstalige eerste plaatsvervangende leden en een Franstalig eerste plaatsvervangend lid werden reeds tijdens de plenaire vergadering van 26 oktober 2023 benoemd.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+Le premier membre suppléant francophone de M. Vincent Stragier, membre effectif francophone du Comité P, doit encore être nommé.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Het Franstalig eerste plaatsvervangend lid van de heer Vincent Stragier, Franstalig werkend lid van het Comité P, dient nog te worden benoemd.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 12
+Conformément à l’avis de la Conférence des présidents du 20 mars 2024, je vous propose d’arrêter la procédure de nomination des seconds membres suppléants et d’envoyer le curriculum vitæ du seul candidat pour le mandat de premier membre suppléant francophone aux groupes politiques en vue d’organiser une audition en commission spéciale d’accompagnement des Comité P et R.
 
+Overeenkomstig het advies van de Conferentie van voorzitters van 20 maart 2024 stel ik u voor de procedure tot benoeming van de tweede plaatsvervangende leden stop te zetten en het cv van de enige kandidaat voor het openstaande mandaat van Franstalig eerste plaatsvervangend lid over te zenden aan de politieke fracties met het oog op de organisatie van een hoorzitting in de bijzondere begeleidingscommissie Comité P en I.
 
-(Stemming/vote 11)
 
-(Stemming/vote 11)
-(Stemming/vote 11)
-(Stemming/vote 11)
 
+Pas d'observation? (Non)
 
+Il en sera ainsi.
 
-Ja
 
 
-107
+Geen bezwaar? (Nee)
 
+Aldus zal geschieden.
 
-Oui
+### Description in French:
 
+Conformément à la décision de la séance plénière du 18 janvier 2024, un nouvel appel à candidats a été publié au Moniteur belge du 12 février 2024 pour les mandats de seconds membres suppléants francophone et néerlandophone du Comité permanent de contrôle des services de police (Comité P).
 
+Overeenkomstig de beslissing van de plenaire vergadering van 18 januari 2024 werd een oproep tot kandidaten in het Belgisch Staatsblad van 12 februari 2024 bekendgemaakt voor de mandaten van Nederlandstalig en Franstalig tweede plaatsvervangend lid van het Vast Comité van Toezicht op de politiediensten (Comité P).
 
-Ja
 
-Ja
-Ja
 
-107
+Aucune candidature complémentaire n’a été introduite.
 
-107
-107
+Er werden geen bijkomende kandidaturen ingediend.
 
-Oui
 
-Oui
-Oui
 
+Les candidatures pour les mandats de premiers membres suppléants francophone et néerlan­dophone ont été annoncées respectivement au cours des séances plénières des 23 septembre 2021, 22 septembre 2022, 26 octobre 2023 et 18 janvier 2024.
 
-Nee
+De kandidaturen voor de mandaten van Nederlandstalig en Franstalig eerste plaatsvervangend lid werden aangekondigd tijdens de plenaire vergaderingen van respectievelijk 23 september 2021, 22 september 2022, 26 oktober 2023 en 18 januari 2024.
 
 
-0
 
+Les deux premiers membres suppléants néerlandophones et un premier membre suppléant francophone ont été nommés au cours de la séance plénière du 26 octobre 2023.
 
-Non
+De twee Nederlandstalige eerste plaatsvervangende leden en een Franstalig eerste plaatsvervangend lid werden reeds tijdens de plenaire vergadering van 26 oktober 2023 benoemd.
 
 
 
-Nee
+Le premier membre suppléant francophone de M. Vincent Stragier, membre effectif francophone du Comité P, doit encore être nommé.
 
-Nee
-Nee
+Het Franstalig eerste plaatsvervangend lid van de heer Vincent Stragier, Franstalig werkend lid van het Comité P, dient nog te worden benoemd.
 
-0
 
-0
-0
 
-Non
+Conformément à l’avis de la Conférence des présidents du 20 mars 2024, je vous propose d’arrêter la procédure de nomination des seconds membres suppléants et d’envoyer le curriculum vitæ du seul candidat pour le mandat de premier membre suppléant francophone aux groupes politiques en vue d’organiser une audition en commission spéciale d’accompagnement des Comité P et R.
 
-Non
-Non
+Overeenkomstig het advies van de Conferentie van voorzitters van 20 maart 2024 stel ik u voor de procedure tot benoeming van de tweede plaatsvervangende leden stop te zetten en het cv van de enige kandidaat voor het openstaande mandaat van Franstalig eerste plaatsvervangend lid over te zenden aan de politieke fracties met het oog op de organisatie van een hoorzitting in de bijzondere begeleidingscommissie Comité P en I.
 
 
-Onthoudingen
 
+Pas d'observation? (Non)
 
-17
+Il en sera ainsi.
 
 
-Abstentions
 
+Geen bezwaar? (Nee)
 
+Aldus zal geschieden.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
-17
+### Discussed proposals:
 
-17
-17
+## Proposal discussion (agenda item 30)
 
-Abstentions
+### Description in Dutch:
 
-Abstentions
-Abstentions
+Le gouvernement a demandé l'urgence conformément à l'article 51 du Règlement lors du dépôt du projet de loi modifiant les livres Ier, XV et XVII du Code de droit économique, et transposant la directive (UE) 2020/1828 du Parlement européen et du Conseil du 25 novembre 2020 relative aux actions représentatives visant à protéger les intérêts collectifs des consommateurs et abrogeant la directive 2009/22/CE (n° 3895/1).
 
+De regering heeft de urgentieverklaring gevraagd met toepassing van artikel 51 van het Reglement, bij de indiening van het wetsontwerp houdende wijziging van boeken I, XV en XVII van het Wetboek van economisch recht, en tot omzetting van de Richtlijn (EU) 2020/1828 van het Europees Parlement en de Raad van 25 november 2020 betreffende representatieve vorderingen ter bescherming van de collectieve belangen van consumenten en tot intrekking van Richtlijn 2009/22/EG (nr. 3895/1).
 
-Totaal
 
 
-124
+Je passe la parole au gouvernement pour développer la demande d'urgence.
 
+Ik geef het woord aan de regering om de vraag tot urgentieverklaring toe te lichten.
 
-Total
 
 
+30.01  Karine Lalieux, ministre: Madame la présidente, il est impératif de transposer le plus rapidement possible la directive 2020/1828, au risque d'être sanctionnés par la Commission européenne. En effet, ladite directive était censée être publiée au plus tard le 25 décembre 2022. Le retard se justifie par l'examen et l'analyse approfondie de la matière au sein du gouvernement.
 
-Totaal
 
-Totaal
-Totaal
 
-124
+Enfin, il serait utile que l'ensemble des dispositions puissent être votées avant la fin de la législature. Par conséquent, le gouvernement demande l'urgence pour ce projet.
 
-124
-124
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3728/10)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3728/10)
-(3728/10)
+La présidente: Je vous propose de nous prononcer sur cette demande.
 
+Ik stel u voor om ons over deze vraag uit te spreken.
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3728/10)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3728/10)
-(3728/10)
 
 
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-Non
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-Nee
+L'urgence est adoptée par assis et levé.
 
- 
- 
- 
-40 Proposition de résolution relative à la nouvelle législation visant à
-renforcer la criminalisation de l'homosexualité en Ouganda (3295/6)
-40
-40
- Proposition de résolution relative à la nouvelle législation visant à
-renforcer la criminalisation de l'homosexualité en Ouganda (3295/6)
- Proposition de résolution relative à la nouvelle législation visant à
-renforcer la criminalisation de l'homosexualité en Ouganda (3295/6)
+De urgentie wordt aangenomen bij zitten en opstaan.
 
-40 Voorstel van
-resolutie betreffende de nieuwe wetgeving tot verdere criminalisering van de homoseksualiteit
-in Oeganda (3295/6)
-40
-40
-40
- Voorstel van
-resolutie betreffende de nieuwe wetgeving tot verdere criminalisering van de homoseksualiteit
-in Oeganda (3295/6)
- Voorstel van
-resolutie betreffende de nieuwe wetgeving tot verdere criminalisering van de homoseksualiteit
-in Oeganda (3295/6)
- Voorstel van
-resolutie betreffende de nieuwe wetgeving tot verdere criminalisering van de homoseksualiteit
-in Oeganda (3295/6)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Le gouvernement a également demandé l'urgence conformément à l'article 51 du Règlement lors du dépôt du projet de loi relatif aux Centres de Prise en charge des Violences Sexuelles (n° 3917/1).
 
+De regering heeft eveneens de urgentieverklaring gevraagd met toepassing van artikel 51 van het Reglement, bij de indiening van het wetsontwerp betreffende de Zorgcentra na Seksueel Geweld (nr. 3917/1).
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Je passe la parole au gouvernement pour développer la demande d'urgence.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Ik geef het woord aan de regering om de vraag tot urgentieverklaring toe te lichten.
 
- 
- 
- 
 
-## Proposal 13
 
+30.02  Karine Lalieux, ministre: Madame la présidente, je crois que je ne dois pas défendre auprès des collègues cette priorité qu'est la prise en charge des femmes victimes de violences sexuelles. L'urgence se justifie car ce projet prévoit légalement leur financement, leur validation et leur fonctionnement, y compris les nouveaux aspects tels que l'examen médicolégal réalisé dans des situations extrajudiciaires. Cet ancrage juridique est dès lors essentiel pour le bon déroulement de l'accueil des victimes de violences sexuelles dans les Centres de Prise en charge des Violences Sexuelles et pour faciliter les procédures pénales si la victime décide de déposer plainte. L'urgence est évidemment requise pour pouvoir clôturer cela avant la fin de la législature.
 
-(Stemming/vote 12)
 
-(Stemming/vote 12)
-(Stemming/vote 12)
-(Stemming/vote 12)
 
+La présidente: Je vous propose de nous prononcer sur cette demande.
 
+Ik stel u voor om ons over deze vraag uit te spreken.
 
-Ja
 
 
-128
+L'urgence est adoptée par assis et levé.
 
+De urgentie wordt aangenomen bij zitten en opstaan.
 
-Oui
+### Description in French:
 
+Le gouvernement a demandé l'urgence conformément à l'article 51 du Règlement lors du dépôt du projet de loi modifiant les livres Ier, XV et XVII du Code de droit économique, et transposant la directive (UE) 2020/1828 du Parlement européen et du Conseil du 25 novembre 2020 relative aux actions représentatives visant à protéger les intérêts collectifs des consommateurs et abrogeant la directive 2009/22/CE (n° 3895/1).
 
+De regering heeft de urgentieverklaring gevraagd met toepassing van artikel 51 van het Reglement, bij de indiening van het wetsontwerp houdende wijziging van boeken I, XV en XVII van het Wetboek van economisch recht, en tot omzetting van de Richtlijn (EU) 2020/1828 van het Europees Parlement en de Raad van 25 november 2020 betreffende representatieve vorderingen ter bescherming van de collectieve belangen van consumenten en tot intrekking van Richtlijn 2009/22/EG (nr. 3895/1).
 
-Ja
 
-Ja
-Ja
 
-128
+Je passe la parole au gouvernement pour développer la demande d'urgence.
 
-128
-128
+Ik geef het woord aan de regering om de vraag tot urgentieverklaring toe te lichten.
 
-Oui
 
-Oui
-Oui
 
+30.01  Karine Lalieux, ministre: Madame la présidente, il est impératif de transposer le plus rapidement possible la directive 2020/1828, au risque d'être sanctionnés par la Commission européenne. En effet, ladite directive était censée être publiée au plus tard le 25 décembre 2022. Le retard se justifie par l'examen et l'analyse approfondie de la matière au sein du gouvernement.
 
-Nee
 
 
-0
+Enfin, il serait utile que l'ensemble des dispositions puissent être votées avant la fin de la législature. Par conséquent, le gouvernement demande l'urgence pour ce projet.
 
 
-Non
 
+La présidente: Je vous propose de nous prononcer sur cette demande.
 
+Ik stel u voor om ons over deze vraag uit te spreken.
 
-Nee
 
-Nee
-Nee
 
-0
+L'urgence est adoptée par assis et levé.
 
-0
-0
+De urgentie wordt aangenomen bij zitten en opstaan.
 
-Non
 
-Non
-Non
 
+Le gouvernement a également demandé l'urgence conformément à l'article 51 du Règlement lors du dépôt du projet de loi relatif aux Centres de Prise en charge des Violences Sexuelles (n° 3917/1).
 
-Onthoudingen
+De regering heeft eveneens de urgentieverklaring gevraagd met toepassing van artikel 51 van het Reglement, bij de indiening van het wetsontwerp betreffende de Zorgcentra na Seksueel Geweld (nr. 3917/1).
 
 
-0
 
+Je passe la parole au gouvernement pour développer la demande d'urgence.
 
-Abstentions
+Ik geef het woord aan de regering om de vraag tot urgentieverklaring toe te lichten.
 
 
 
-Onthoudingen
+30.02  Karine Lalieux, ministre: Madame la présidente, je crois que je ne dois pas défendre auprès des collègues cette priorité qu'est la prise en charge des femmes victimes de violences sexuelles. L'urgence se justifie car ce projet prévoit légalement leur financement, leur validation et leur fonctionnement, y compris les nouveaux aspects tels que l'examen médicolégal réalisé dans des situations extrajudiciaires. Cet ancrage juridique est dès lors essentiel pour le bon déroulement de l'accueil des victimes de violences sexuelles dans les Centres de Prise en charge des Violences Sexuelles et pour faciliter les procédures pénales si la victime décide de déposer plainte. L'urgence est évidemment requise pour pouvoir clôturer cela avant la fin de la législature.
 
-Onthoudingen
-Onthoudingen
 
-0
 
-0
-0
+La présidente: Je vous propose de nous prononcer sur cette demande.
 
-Abstentions
+Ik stel u voor om ons over deze vraag uit te spreken.
 
-Abstentions
-Abstentions
 
 
-Totaal
+L'urgence est adoptée par assis et levé.
 
+De urgentie wordt aangenomen bij zitten en opstaan.
 
-128
 
 
-Total
+### Discussed proposals:
 
+## Proposal discussion (agenda item 31)
 
+### Description in Dutch:
 
-Totaal
+None
 
-Totaal
-Totaal
+### Description in French:
 
-128
+None
 
-128
-128
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en sera donné connaissance au gouvernement. (3295/7)
-En conséquence, la Chambre adopte la
-proposition de résolution. 
-Il en sera donné connaissance au gouvernement. 
-(3295/7)
-(3295/7)
-
-
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. (3295/7)
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. 
-(3295/7)
-(3295/7)
-
-
- 
- 
- 
-41 Amendements et articles réservés du projet de loi modifiant la loi du
-22 décembre 2009 instaurant une réglementation relative à
-l'interdiction de fumer dans certains lieux et à la protection de la population
-contre la fumée du tabac (3844/1-5)
-41
-41
- Amendements et articles réservés du projet de loi modifiant la loi du
-22 décembre 2009 instaurant une réglementation relative à
-l'interdiction de fumer dans certains lieux et à la protection de la population
-contre la fumée du tabac (3844/1-5)
- Amendements et articles réservés du projet de loi modifiant la loi du
-22 décembre 2009 instaurant une réglementation relative à
-l'interdiction de fumer dans certains lieux et à la protection de la population
-contre la fumée du tabac (3844/1-5)
-
-41 Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-22 december 2009 betreffende een regeling voor rookvrije plaatsen en
-ter bescherming van de bevolking tegen tabaksrook (3844/1-5)
-41
-41
-41
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-22 december 2009 betreffende een regeling voor rookvrije plaatsen en
-ter bescherming van de bevolking tegen tabaksrook (3844/1-5)
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-22 december 2009 betreffende een regeling voor rookvrije plaatsen en
-ter bescherming van de bevolking tegen tabaksrook (3844/1-5)
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-22 december 2009 betreffende een regeling voor rookvrije plaatsen en
-ter bescherming van de bevolking tegen tabaksrook (3844/1-5)
-
-
- 
- 
- 
-Vote sur l'amendement n° 14 de Catherine Fonck
-à l'article 2.(3844/5)
-Vote sur l'amendement n° 14 de Catherine Fonck
-à l'article 2.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 14 van
-Catherine Fonck op artikel 2.(3844/5)
-Stemming over amendement nr. 14 van
-Catherine Fonck op artikel 2.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 14
-
-
-(Stemming/vote 13)
-
-(Stemming/vote 13)
-(Stemming/vote 13)
-(Stemming/vote 13)
-
-
-
-Ja
-
-
-5
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-5
-
-5
-5
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-105
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-105
-
-105
-105
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-17
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-17
-
-17
-17
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-127
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-127
-
-127
-127
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 2 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 2 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 15 de Catherine Fonck
-à l'article 5.(3844/5)
-Vote sur l'amendement n° 15 de Catherine Fonck
-à l'article 5.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 15 van
-Catherine Fonck op artikel 5.(3844/5)
-Stemming over amendement nr. 15 van
-Catherine Fonck op artikel 5.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 15
-
-
-(Stemming/vote 14)
-
-(Stemming/vote 14)
-(Stemming/vote 14)
-(Stemming/vote 14)
-
-
-
-Ja
-
-
-20
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-20
-
-20
-20
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-82
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-82
-
-82
-82
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-21
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-21
-
-21
-21
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-123
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-123
-
-123
-123
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 16 de Catherine Fonck
-à l'article 5.(3844/5)
-Vote sur l'amendement n° 16 de Catherine Fonck
-à l'article 5.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 16 van
-Catherine Fonck op artikel 5.(3844/5)
-Stemming over amendement nr. 16 van
-Catherine Fonck op artikel 5.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 16
-
-
-(Stemming/vote 15)
-
-(Stemming/vote 15)
-(Stemming/vote 15)
-(Stemming/vote 15)
-
-
-
-Ja
-
-
-5
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-5
-
-5
-5
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-119
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-119
-
-119
-119
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-124
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-124
-
-124
-124
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 19 de Catherine Fonck
-à l'article 5.(3844/5)
-Vote sur l'amendement n° 19 de Catherine Fonck
-à l'article 5.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 19 van
-Catherine Fonck op artikel 5.(3844/5)
-Stemming over amendement nr. 19 van
-Catherine Fonck op artikel 5.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 17
-
-
-(Stemming/vote 16)
-
-(Stemming/vote 16)
-(Stemming/vote 16)
-(Stemming/vote 16)
-
-
-
-Ja
-
-
-11
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-11
-
-11
-11
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-74
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-74
-
-74
-74
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-40
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-40
-
-40
-40
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-125
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-125
-
-125
-125
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 21 de Catherine Fonck
-à l'article 5.(3844/5)
-Vote sur l'amendement n° 21 de Catherine Fonck
-à l'article 5.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 21 van
-Catherine Fonck op artikel 5.(3844/5)
-Stemming over amendement nr. 21 van
-Catherine Fonck op artikel 5.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 18
-
-
-(Stemming/vote 17)
-
-(Stemming/vote 17)
-(Stemming/vote 17)
-(Stemming/vote 17)
-
-
-
-Ja
-
-
-5
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-5
-
-5
-5
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-82
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-82
-
-82
-82
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-38
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-38
-
-38
-38
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-125
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-125
-
-125
-125
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 5 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 5 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 5 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 5 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 20 de Catherine Fonck
-à l'article 6.(3844/5)
-Vote sur l'amendement n° 20 de Catherine Fonck
-à l'article 6.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 20 van
-Catherine Fonck op artikel 6.(3844/5)
-Stemming over amendement nr. 20 van
-Catherine Fonck op artikel 6.(3844/5)
-(3844/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 17)
-(Stemming/vote 17)
-(Stemming/vote 17)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 23 de Steven Creyelman
-cs à l'article 6.(3844/5)
-Vote sur l'amendement n° 23 de Steven Creyelman
-cs à l'article 6.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 23 van Steven
-Creyelman cs op artikel 6.(3844/5)
-Stemming over amendement nr. 23 van Steven
-Creyelman cs op artikel 6.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 19
-
-
-(Stemming/vote 18)
-
-(Stemming/vote 18)
-(Stemming/vote 18)
-(Stemming/vote 18)
-
-
-
-Ja
-
-
-38
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-38
-
-38
-38
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-90
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-90
-
-90
-90
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-128
-
-128
-128
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 17 de Catherine Fonck
-à l'article 6.(3844/5)
-Vote sur l'amendement n° 17 de Catherine Fonck
-à l'article 6.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 17 van
-Catherine Fonck op artikel 6.(3844/5)
-Stemming over amendement nr. 17 van
-Catherine Fonck op artikel 6.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 20
-
-
-(Stemming/vote 19)
-
-(Stemming/vote 19)
-(Stemming/vote 19)
-(Stemming/vote 19)
-
-
-
-Ja
-
-
-48
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-48
-
-48
-48
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-75
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-75
-
-75
-75
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-2
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-2
-
-2
-2
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-125
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-125
-
-125
-125
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 6 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 6 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 6 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 6 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 18 de Catherine Fonck
-à l'article 8.(3844/5)
-Vote sur l'amendement n° 18 de Catherine Fonck
-à l'article 8.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 18 van
-Catherine Fonck op artikel 8.(3844/5)
-Stemming over amendement nr. 18 van
-Catherine Fonck op artikel 8.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 21
-
-
-(Stemming/vote 20)
-
-(Stemming/vote 20)
-(Stemming/vote 20)
-(Stemming/vote 20)
-
-
-
-Ja
-
-
-11
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-11
-
-11
-11
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-75
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-75
-
-75
-75
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-40
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-40
-
-40
-40
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-126
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-126
-
-126
-126
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 24 de Steven Creyelman
-cs à l'article 8.(3844/5)
-Vote sur l'amendement n° 24 de Steven Creyelman
-cs à l'article 8.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 24 van Steven
-Creyelman cs op artikel 8.(3844/5)
-Stemming over amendement nr. 24 van Steven
-Creyelman cs op artikel 8.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 22
-
-
-(Stemming/vote 21)
-
-(Stemming/vote 21)
-(Stemming/vote 21)
-(Stemming/vote 21)
-
-
-
-Ja
-
-
-38
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-38
-
-38
-38
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-90
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-90
-
-90
-90
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-128
-
-128
-128
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 8 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 8 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 8 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 8 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 22 de Catherine Fonck
-à l'article 11.(3844/5)
-Vote sur l'amendement n° 22 de Catherine Fonck
-à l'article 11.(3844/5)
-(3844/5)
-
-Stemming over amendement nr. 22 van
-Catherine Fonck op artikel 11.(3844/5)
-Stemming over amendement nr. 22 van
-Catherine Fonck op artikel 11.(3844/5)
-(3844/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 23
-
-
-(Stemming/vote 22)
-
-(Stemming/vote 22)
-(Stemming/vote 22)
-(Stemming/vote 22)
-
-
-
-Ja
-
-
-26
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-26
-
-26
-26
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-76
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-76
-
-76
-76
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-25
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-25
-
-25
-25
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-127
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-127
-
-127
-127
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 11 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 11 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 11 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 11 aangenomen.
- 
- 
- 
-42 Ensemble du projet de loi modifiant la loi du
-22 décembre 2009 instaurant une réglementation relative à
-l'interdiction de fumer dans certains lieux et à la protection de la population
-contre la fumée du tabac (3844/4)
-42
-42
- Ensemble du projet de loi modifiant la loi du
-22 décembre 2009 instaurant une réglementation relative à
-l'interdiction de fumer dans certains lieux et à la protection de la population
-contre la fumée du tabac (3844/4)
- Ensemble du projet de loi modifiant la loi du
-22 décembre 2009 instaurant une réglementation relative à
-l'interdiction de fumer dans certains lieux et à la protection de la population
-contre la fumée du tabac (3844/4)
-
-42 Geheel van het
-wetsontwerp tot wijziging van de wet van 22 december 2009 betreffende
-een regeling voor rookvrije plaatsen en ter bescherming van de bevolking tegen
-tabaksrook (3844/4)
-42
-42
-42
- Geheel van het
-wetsontwerp tot wijziging van de wet van 22 december 2009 betreffende
-een regeling voor rookvrije plaatsen en ter bescherming van de bevolking tegen
-tabaksrook (3844/4)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 22 december 2009 betreffende
-een regeling voor rookvrije plaatsen en ter bescherming van de bevolking tegen
-tabaksrook (3844/4)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 22 december 2009 betreffende
-een regeling voor rookvrije plaatsen en ter bescherming van de bevolking tegen
-tabaksrook (3844/4)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 24
-
-
-(Stemming/vote 23)
-
-(Stemming/vote 23)
-(Stemming/vote 23)
-(Stemming/vote 23)
-
-
-
-Ja
-
-
-111
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-111
-
-111
-111
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-17
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-17
-
-17
-17
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-128
-
-128
-128
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3844/6)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3844/6)
-(3844/6)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3844/6)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3844/6)
-(3844/6)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
-
- 
- 
- 
-43 Projet de loi portant assentiment à l'accord de coopération législatif
-du 8 février 2024 entre l'État fédéral, la Communauté flamande, la
-Communauté française, la Communauté germanophone, la Commission communautaire
-commune, la Région wallonne et la Commission communautaire française visant à
-la modification de l'Accord de coopération du 14 juillet 2021 entre
-l'État fédéral, la Communauté flamande, la Communauté française, la Communauté
-germanophone, la Commission communautaire commune, la Région wallonne et la
-Commission communautaire française concernant le traitement des données liées
-au certificat COVID numérique de l'UE et au COVID Safe Ticket, le PLF et le
-traitement des données à caractère personnel des travailleurs salariés et des
-travailleurs indépendants vivant ou résidant à l'étranger qui effectuent des
-activités en Belgique, tel que modifié par les Accords de coopération des
-27 septembre 2021 et 28 octobre 2021 (nouvel intitulé)
-(3828/3)
-43
-43
- Projet de loi portant assentiment à l'accord de coopération législatif
-du 8 février 2024 entre l'État fédéral, la Communauté flamande, la
-Communauté française, la Communauté germanophone, la Commission communautaire
-commune, la Région wallonne et la Commission communautaire française visant à
-la modification de l'Accord de coopération du 14 juillet 2021 entre
-l'État fédéral, la Communauté flamande, la Communauté française, la Communauté
-germanophone, la Commission communautaire commune, la Région wallonne et la
-Commission communautaire française concernant le traitement des données liées
-au certificat COVID numérique de l'UE et au COVID Safe Ticket, le PLF et le
-traitement des données à caractère personnel des travailleurs salariés et des
-travailleurs indépendants vivant ou résidant à l'étranger qui effectuent des
-activités en Belgique, tel que modifié par les Accords de coopération des
-27 septembre 2021 et 28 octobre 2021 (nouvel intitulé)
-(3828/3)
- Projet de loi portant assentiment à l'accord de coopération législatif
-du 8 février 2024 entre l'État fédéral, la Communauté flamande, la
-Communauté française, la Communauté germanophone, la Commission communautaire
-commune, la Région wallonne et la Commission communautaire française visant à
-la modification de l'Accord de coopération du 14 juillet 2021 entre
-l'État fédéral, la Communauté flamande, la Communauté française, la Communauté
-germanophone, la Commission communautaire commune, la Région wallonne et la
-Commission communautaire française concernant le traitement des données liées
-au certificat COVID numérique de l'UE et au COVID Safe Ticket, le PLF et le
-traitement des données à caractère personnel des travailleurs salariés et des
-travailleurs indépendants vivant ou résidant à l'étranger qui effectuent des
-activités en Belgique, tel que modifié par les Accords de coopération des
-27 septembre 2021 et 28 octobre 2021 (nouvel intitulé)
-(3828/3)
-
-43 Wetsontwerp
-houdende instemming met het wetgevend samenwerkingsakkoord van
-8 februari 2024 tussen de Federale Staat, de Vlaamse Gemeenschap, de
-Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke
-Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschapscommissie
-strekkende tot wijziging van het Samenwerkingsakkoord van
-14 juli 2021 tussen de Federale Staat, de Vlaamse Gemeenschap, de
-Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke
-Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschapscommissie
-betreffende de verwerking van gegevens met betrekking tot het digitaal
-EU-COVID-certificaat, het COVID Safe Ticket, het PLF en de verwerking van
-persoonsgegevens van in het buitenland wonende of verblijvende werknemers en
-zelfstandigen die activiteiten uitvoeren in België, zoals gewijzigd door de
-Samenwerkingsakkoorden van 27 september 2021 en van
-28 oktober 2021 (nieuw opschrift) (3828/3)
-43
-43
-43
- Wetsontwerp
-houdende instemming met het wetgevend samenwerkingsakkoord van
-8 februari 2024 tussen de Federale Staat, de Vlaamse Gemeenschap, de
-Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke
-Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschapscommissie
-strekkende tot wijziging van het Samenwerkingsakkoord van
-14 juli 2021 tussen de Federale Staat, de Vlaamse Gemeenschap, de
-Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke
-Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschapscommissie
-betreffende de verwerking van gegevens met betrekking tot het digitaal
-EU-COVID-certificaat, het COVID Safe Ticket, het PLF en de verwerking van
-persoonsgegevens van in het buitenland wonende of verblijvende werknemers en
-zelfstandigen die activiteiten uitvoeren in België, zoals gewijzigd door de
-Samenwerkingsakkoorden van 27 september 2021 en van
-28 oktober 2021 (nieuw opschrift) (3828/3)
- Wetsontwerp
-houdende instemming met het wetgevend samenwerkingsakkoord van
-8 februari 2024 tussen de Federale Staat, de Vlaamse Gemeenschap, de
-Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke
-Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschapscommissie
-strekkende tot wijziging van het Samenwerkingsakkoord van
-14 juli 2021 tussen de Federale Staat, de Vlaamse Gemeenschap, de
-Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke
-Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschapscommissie
-betreffende de verwerking van gegevens met betrekking tot het digitaal
-EU-COVID-certificaat, het COVID Safe Ticket, het PLF en de verwerking van
-persoonsgegevens van in het buitenland wonende of verblijvende werknemers en
-zelfstandigen die activiteiten uitvoeren in België, zoals gewijzigd door de
-Samenwerkingsakkoorden van 27 september 2021 en van
-28 oktober 2021 (nieuw opschrift) (3828/3)
- Wetsontwerp
-houdende instemming met het wetgevend samenwerkingsakkoord van
-8 februari 2024 tussen de Federale Staat, de Vlaamse Gemeenschap, de
-Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke
-Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschapscommissie
-strekkende tot wijziging van het Samenwerkingsakkoord van
-14 juli 2021 tussen de Federale Staat, de Vlaamse Gemeenschap, de
-Franse Gemeenschap, de Duitstalige Gemeenschap, de Gemeenschappelijke
-Gemeenschapscommissie, het Waalse Gewest en de Franse Gemeenschapscommissie
-betreffende de verwerking van gegevens met betrekking tot het digitaal
-EU-COVID-certificaat, het COVID Safe Ticket, het PLF en de verwerking van
-persoonsgegevens van in het buitenland wonende of verblijvende werknemers en
-zelfstandigen die activiteiten uitvoeren in België, zoals gewijzigd door de
-Samenwerkingsakkoorden van 27 september 2021 en van
-28 oktober 2021 (nieuw opschrift) (3828/3)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 25
-
-
-(Stemming/vote 24)
-
-(Stemming/vote 24)
-(Stemming/vote 24)
-(Stemming/vote 24)
-
-
-
-Ja
-
-
-107
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-107
-
-107
-107
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-17
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-17
-
-17
-17
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-4
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-4
-
-4
-4
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-128
-
-128
-128
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3828/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3828/4)
-(3828/4)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3828/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3828/4)
-(3828/4)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
-
- 
- 
- 
-44 Projet de loi modifiant la loi du 26 juin 2002 relative aux
-fermetures d'entreprises en vue d'introduire la possibilité d'exclure certains
-secteurs de la notion d'entreprise n'ayant pas une finalité industrielle ou
-commerciale (3803/1)
-44
-44
- Projet de loi modifiant la loi du 26 juin 2002 relative aux
-fermetures d'entreprises en vue d'introduire la possibilité d'exclure certains
-secteurs de la notion d'entreprise n'ayant pas une finalité industrielle ou
-commerciale (3803/1)
- Projet de loi modifiant la loi du 26 juin 2002 relative aux
-fermetures d'entreprises en vue d'introduire la possibilité d'exclure certains
-secteurs de la notion d'entreprise n'ayant pas une finalité industrielle ou
-commerciale (3803/1)
-
-44 Wetsontwerp tot
-wijziging van de wet van 26 juni 2002 betreffende de sluiting van de
-ondernemingen tot invoering van de mogelijkheid om bepaalde sectoren uit te
-sluiten van het begrip onderneming zonder handels- of industriële finaliteit
-(3803/1)
-44
-44
-44
- Wetsontwerp tot
-wijziging van de wet van 26 juni 2002 betreffende de sluiting van de
-ondernemingen tot invoering van de mogelijkheid om bepaalde sectoren uit te
-sluiten van het begrip onderneming zonder handels- of industriële finaliteit
-(3803/1)
- Wetsontwerp tot
-wijziging van de wet van 26 juni 2002 betreffende de sluiting van de
-ondernemingen tot invoering van de mogelijkheid om bepaalde sectoren uit te
-sluiten van het begrip onderneming zonder handels- of industriële finaliteit
-(3803/1)
- Wetsontwerp tot
-wijziging van de wet van 26 juni 2002 betreffende de sluiting van de
-ondernemingen tot invoering van de mogelijkheid om bepaalde sectoren uit te
-sluiten van het begrip onderneming zonder handels- of industriële finaliteit
-(3803/1)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 26
-
-
-(Stemming/vote 25)
-
-(Stemming/vote 25)
-(Stemming/vote 25)
-(Stemming/vote 25)
-
-
-
-Ja
-
-
-129
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-129
-
-129
-129
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-129
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-129
-
-129
-129
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3803/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3803/4)
-(3803/4)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3803/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3803/4)
-(3803/4)
-
-
- 
- 
- 
-45 Projet de loi portant exécution de l'accord social pour le secteur
-public fédéral de la santé (3824/1)
-45
-45
- Projet de loi portant exécution de l'accord social pour le secteur
-public fédéral de la santé (3824/1)
- Projet de loi portant exécution de l'accord social pour le secteur
-public fédéral de la santé (3824/1)
-
-45 Wetsontwerp
-houdende uitvoering van het sociaal akkoord voor de federale publieke
-gezondheids­sector (3824/1)
-45
-45
-45
- Wetsontwerp
-houdende uitvoering van het sociaal akkoord voor de federale publieke
-gezondheids­sector (3824/1)
- Wetsontwerp
-houdende uitvoering van het sociaal akkoord voor de federale publieke
-gezondheids­sector (3824/1)
- Wetsontwerp
-houdende uitvoering van het sociaal akkoord voor de federale publieke
-gezondheids­sector (3824/1)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 27
-
-
-(Stemming/vote 26)
-
-(Stemming/vote 26)
-(Stemming/vote 26)
-(Stemming/vote 26)
-
-
-
-Ja
-
-
-128
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-128
-
-128
-128
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-128
-
-128
-128
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3824/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3824/4)
-(3824/4)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3824/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3824/4)
-(3824/4)
-
-
- 
- 
- 
-45.01  Vanessa Matz (Les Engagés): Madame la présidente, j’ai voté pour. 
-45.01
-45.01
-  
-  
- 
-Vanessa Matz 
-Vanessa Matz 
-(Les Engagés): Madame la présidente, j’ai voté pour. 
- 
- 
- 
-La présidente:
-Nous procédons à la correction.
-La présidente:
-Nous procédons à la correction.
-présidente
- 
- 
- 
-46 Proposition de loi modifiant les lois du 16 mars 1971 sur le
-travail et du 10 mai 2007 tendant à lutter contre la discrimination
-entre les femmes et les hommes en vue d'instituer une protection pour les
-travailleuses et travailleurs qui s'absentent du travail pour un traitement
-d'infertilité ou pour une procréation médicalement assistée (nouvel intitulé)
-(798/10)
-46
-46
- Proposition de loi modifiant les lois du 16 mars 1971 sur le
-travail et du 10 mai 2007 tendant à lutter contre la discrimination
-entre les femmes et les hommes en vue d'instituer une protection pour les
-travailleuses et travailleurs qui s'absentent du travail pour un traitement
-d'infertilité ou pour une procréation médicalement assistée (nouvel intitulé)
-(798/10)
- Proposition de loi modifiant les lois du 16 mars 1971 sur le
-travail et du 10 mai 2007 tendant à lutter contre la discrimination
-entre les femmes et les hommes en vue d'instituer une protection pour les
-travailleuses et travailleurs qui s'absentent du travail pour un traitement
-d'infertilité ou pour une procréation médicalement assistée (nouvel intitulé)
-(798/10)
-
-46 Wetsvoorstel tot
-wijziging van de arbeidswet van 16 maart 1971 en van de wet van
-10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en
-mannen, tot instelling van een bescherming voor de werkneemsters en de
-werknemers die van het werk afwezig zijn om een vruchtbaarheidsbehandeling of
-een programma van medisch begeleide voortplanting te volgen (nieuw opschrift)
-(798/10)
-46
-46
-46
- Wetsvoorstel tot
-wijziging van de arbeidswet van 16 maart 1971 en van de wet van
-10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en
-mannen, tot instelling van een bescherming voor de werkneemsters en de
-werknemers die van het werk afwezig zijn om een vruchtbaarheidsbehandeling of
-een programma van medisch begeleide voortplanting te volgen (nieuw opschrift)
-(798/10)
- Wetsvoorstel tot
-wijziging van de arbeidswet van 16 maart 1971 en van de wet van
-10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en
-mannen, tot instelling van een bescherming voor de werkneemsters en de
-werknemers die van het werk afwezig zijn om een vruchtbaarheidsbehandeling of
-een programma van medisch begeleide voortplanting te volgen (nieuw opschrift)
-(798/10)
- Wetsvoorstel tot
-wijziging van de arbeidswet van 16 maart 1971 en van de wet van
-10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en
-mannen, tot instelling van een bescherming voor de werkneemsters en de
-werknemers die van het werk afwezig zijn om een vruchtbaarheidsbehandeling of
-een programma van medisch begeleide voortplanting te volgen (nieuw opschrift)
-(798/10)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 28
-
-
-(Stemming/vote 27)
-
-(Stemming/vote 27)
-(Stemming/vote 27)
-(Stemming/vote 27)
-
-
-
-Ja
-
-
-129
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-129
-
-129
-129
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-129
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-129
-
-129
-129
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction
-royale. (798/11)
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction
-royale. 
-(798/11)
-(798/11)
-
-
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd.
-(798/11)
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd.
-
-(798/11)
-(798/11)
-
-
- 
- 
- 
-47 Amendements et articles réservés du projet de loi modifiant la loi du
-7 décembre 1998 organisant un service de police intégré, structuré à
-deux niveaux pour réaliser une politique de sécurité intégrée et globale au
-sein des provinces et de la Région de Bruxelles-Capitale (3744/1-7)
-47
-47
- Amendements et articles réservés du projet de loi modifiant la loi du
-7 décembre 1998 organisant un service de police intégré, structuré à
-deux niveaux pour réaliser une politique de sécurité intégrée et globale au
-sein des provinces et de la Région de Bruxelles-Capitale (3744/1-7)
- Amendements et articles réservés du projet de loi modifiant la loi du
-7 décembre 1998 organisant un service de police intégré, structuré à
-deux niveaux pour réaliser une politique de sécurité intégrée et globale au
-sein des provinces et de la Région de Bruxelles-Capitale (3744/1-7)
-
-47 Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-7 december 1998 tot organisatie van een geïntegreerde politiedienst,
-gestructureerd op twee niveaus om tot een geïntegreerd en globaal
-veiligheidsbeleid te komen binnen de provincies en het Brussels Hoofdstedelijk
-Gewest (3744/1-7)
-47
-47
-47
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-7 december 1998 tot organisatie van een geïntegreerde politiedienst,
-gestructureerd op twee niveaus om tot een geïntegreerd en globaal
-veiligheidsbeleid te komen binnen de provincies en het Brussels Hoofdstedelijk
-Gewest (3744/1-7)
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-7 december 1998 tot organisatie van een geïntegreerde politiedienst,
-gestructureerd op twee niveaus om tot een geïntegreerd en globaal
-veiligheidsbeleid te komen binnen de provincies en het Brussels Hoofdstedelijk
-Gewest (3744/1-7)
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-7 december 1998 tot organisatie van een geïntegreerde politiedienst,
-gestructureerd op twee niveaus om tot een geïntegreerd en globaal
-veiligheidsbeleid te komen binnen de provincies en het Brussels Hoofdstedelijk
-Gewest (3744/1-7)
-
-
- 
- 
- 
-Vote sur l'amendement n° 11 de Koen Metsu cs à
-l'article 2.(3744/7)
-Vote sur l'amendement n° 11 de Koen Metsu cs à
-l'article 2.(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 11 van Koen
-Metsu cs op artikel 2.(3744/7)
-Stemming over amendement nr. 11 van Koen
-Metsu cs op artikel 2.(3744/7)
-(3744/7)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 29
-
-
-(Stemming/vote 28)
-
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
-
-
-Ja
-
-
-35
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-35
-
-35
-35
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-88
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-88
-
-88
-88
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-123
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-123
-
-123
-123
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 2 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 2 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 12 de Koen Metsu cs à
-l'article 3.(3744/7)
-Vote sur l'amendement n° 12 de Koen Metsu cs à
-l'article 3.(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 12 van Koen
-Metsu cs op artikel 3.(3744/7)
-Stemming over amendement nr. 12 van Koen
-Metsu cs op artikel 3.(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is
-het amendement verworpen.
-Bijgevolg is
-het amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 20 de Koen Metsu cs à
-l'article 3.(3744/7)
-Vote sur l'amendement n° 20 de Koen Metsu cs à
-l'article 3.(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 20 van Koen
-Metsu cs op artikel 3.(3744/7)
-Stemming over amendement nr. 20 van Koen
-Metsu cs op artikel 3.(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 3 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 3 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 3 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 3 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 13 de Koen Metsu cs
-tendant à insérer un article 4(n).(3744/7)
-Vote sur l'amendement n° 13 de Koen Metsu cs
-tendant à insérer un article 4(n).(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 13 van Koen
-Metsu cs tot invoeging van een artikel 4(n).(3744/7)
-Stemming over amendement nr. 13 van Koen
-Metsu cs tot invoeging van een artikel 4(n).(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is
-het amendement verworpen.
-Bijgevolg is
-het amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 14 de Koen Metsu cs
-tendant à insérer un article 5(n).(3744/7)
-Vote sur l'amendement n° 14 de Koen Metsu cs
-tendant à insérer un article 5(n).(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 14 van Koen
-Metsu cs tot invoeging van een artikel 5(n).(3744/7)
-Stemming over amendement nr. 14 van Koen
-Metsu cs tot invoeging van een artikel 5(n).(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is
-het amendement verworpen.
-Bijgevolg is
-het amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 15 de Koen Metsu cs
-tendant à insérer un article 6(n).(3744/7)
-Vote sur l'amendement n° 15 de Koen Metsu cs
-tendant à insérer un article 6(n).(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 15 van Koen
-Metsu cs tot invoeging van een artikel 6(n).(3744/7)
-Stemming over amendement nr. 15 van Koen
-Metsu cs tot invoeging van een artikel 6(n).(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is
-het amendement verworpen.
-Bijgevolg is
-het amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 16 de Koen Metsu cs
-tendant à insérer un article 7(n).(3744/7)
-Vote sur l'amendement n° 16 de Koen Metsu cs
-tendant à insérer un article 7(n).(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 16 van Koen
-Metsu cs tot invoeging van een artikel 7(n).(3744/7)
-Stemming over amendement nr. 16 van Koen
-Metsu cs tot invoeging van een artikel 7(n).(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is
-het amendement verworpen.
-Bijgevolg is
-het amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 17 de Koen Metsu cs
-tendant à insérer un article 8(n).(3744/7)
-Vote sur l'amendement n° 17 de Koen Metsu cs
-tendant à insérer un article 8(n).(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 17 van Koen
-Metsu cs tot invoeging van een artikel 8(n).(3744/7)
-Stemming over amendement nr. 17 van Koen
-Metsu cs tot invoeging van een artikel 8(n).(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is
-het amendement verworpen.
-Bijgevolg is
-het amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 18 de Koen Metsu cs
-tendant à insérer un article 9(n).(3744/7)
-Vote sur l'amendement n° 18 de Koen Metsu cs
-tendant à insérer un article 9(n).(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 18 van Koen
-Metsu cs tot invoeging van een artikel 9(n).(3744/7)
-Stemming over amendement nr. 18 van Koen
-Metsu cs tot invoeging van een artikel 9(n).(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
-
-
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is
-het amendement verworpen.
-Bijgevolg is
-het amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 19 de Koen Metsu cs
-tendant à insérer un article 10(n).(3744/7)
-Vote sur l'amendement n° 19 de Koen Metsu cs
-tendant à insérer un article 10(n).(3744/7)
-(3744/7)
-
-Stemming over amendement nr. 19 van Koen
-Metsu cs tot invoeging van een artikel 10(n).(3744/7)
-Stemming over amendement nr. 19 van Koen
-Metsu cs tot invoeging van een artikel 10(n).(3744/7)
-(3744/7)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-(Ja)
- 
- 
- 
-(Stemming/vote 28)
-(Stemming/vote 28)
-(Stemming/vote 28)
-
- 
- 
- 
-En conséquence,
-l'amendement est rejeté.
-En conséquence,
-l'amendement est rejeté.
-
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-47.01  Servais
-Verherstraeten (cd&v): Ik was vergeten tegen
-te stemmen.
-47.01
-47.01
-  Servais
-Verherstraeten 
-  Servais
-Verherstraeten 
- 
-(cd&v): Ik was vergeten tegen
-te stemmen.
- 
- 
- 
-(…): Ik ook.
-(…)
-(…)
-: Ik ook.
- 
- 
- 
-De voorzitster:
-Twee, drie. Hebben jullie ook een probleem gehad? Een beetje aandacht,
-alstublieft.
-De voorzitster:
-Twee, drie. Hebben jullie ook een probleem gehad? Een beetje aandacht,
-alstublieft.
-voorzitster
- 
- 
- 
-48 Ensemble du projet de loi modifiant la loi du
-7 décembre 1998 organisant un service de police intégré, structuré à
-deux niveaux pour réaliser une politique de sécurité intégrée et globale au
-sein des provinces et de la Région de Bruxelles-Capitale (3744/6)
-48
-48
- Ensemble du projet de loi modifiant la loi du
-7 décembre 1998 organisant un service de police intégré, structuré à
-deux niveaux pour réaliser une politique de sécurité intégrée et globale au
-sein des provinces et de la Région de Bruxelles-Capitale (3744/6)
- Ensemble du projet de loi modifiant la loi du
-7 décembre 1998 organisant un service de police intégré, structuré à
-deux niveaux pour réaliser une politique de sécurité intégrée et globale au
-sein des provinces et de la Région de Bruxelles-Capitale (3744/6)
-
-48 Geheel van het
-wetsontwerp tot wijziging van de wet van 7 december 1998 tot
-organisatie van een geïntegreerde politiedienst, gestructureerd op twee niveaus
-om tot een geïntegreerd en globaal veiligheids­beleid te komen binnen de
-provincies en het Brussels Hoofdstedelijk Gewest (3744/6)
-48
-48
-48
- Geheel van het
-wetsontwerp tot wijziging van de wet van 7 december 1998 tot
-organisatie van een geïntegreerde politiedienst, gestructureerd op twee niveaus
-om tot een geïntegreerd en globaal veiligheids­beleid te komen binnen de
-provincies en het Brussels Hoofdstedelijk Gewest (3744/6)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 7 december 1998 tot
-organisatie van een geïntegreerde politiedienst, gestructureerd op twee niveaus
-om tot een geïntegreerd en globaal veiligheids­beleid te komen binnen de
-provincies en het Brussels Hoofdstedelijk Gewest (3744/6)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 7 december 1998 tot
-organisatie van een geïntegreerde politiedienst, gestructureerd op twee niveaus
-om tot een geïntegreerd en globaal veiligheids­beleid te komen binnen de
-provincies en het Brussels Hoofdstedelijk Gewest (3744/6)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming
-/ Début du vote.
-Begin van de stemming
-/ Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 30
-
-
-(Stemming/vote 29)
-
-(Stemming/vote 29)
-(Stemming/vote 29)
-(Stemming/vote 29)
-
-
-
-Ja
-
-
-77
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-77
-
-77
-77
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-42
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-42
-
-42
-42
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-9
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-9
-
-9
-9
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-128
-
-128
-128
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3744/8)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3744/8)
-(3744/8)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3744/8)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3744/8)
-(3744/8)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
-
- 
- 
- 
-49 Projet de loi établissant les principes du tirage au sort des
-personnes physiques pour les commissions mixtes et les panels citoyens
-organisés à l'initiative du Sénat (3818/3)
-49
-49
- Projet de loi établissant les principes du tirage au sort des
-personnes physiques pour les commissions mixtes et les panels citoyens
-organisés à l'initiative du Sénat (3818/3)
- Projet de loi établissant les principes du tirage au sort des
-personnes physiques pour les commissions mixtes et les panels citoyens
-organisés à l'initiative du Sénat (3818/3)
-
-49 Wetsontwerp tot
-bepaling van de beginselen voor de loting van natuurlijke personen voor de
-gemengde commissies en de burgerpanels op initiatief van de Senaat (3818/3)
-49
-49
-49
- Wetsontwerp tot
-bepaling van de beginselen voor de loting van natuurlijke personen voor de
-gemengde commissies en de burgerpanels op initiatief van de Senaat (3818/3)
- Wetsontwerp tot
-bepaling van de beginselen voor de loting van natuurlijke personen voor de
-gemengde commissies en de burgerpanels op initiatief van de Senaat (3818/3)
- Wetsontwerp tot
-bepaling van de beginselen voor de loting van natuurlijke personen voor de
-gemengde commissies en de burgerpanels op initiatief van de Senaat (3818/3)
-
-
- 
- 
- 
-Transmis par le Sénat
-Transmis par le Sénat
-Overgezonden door
-de Senaat
-Overgezonden door
-de Senaat
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une déclaration
-avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une déclaration
-avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 31
-
-
-(Stemming/vote 30)
-
-(Stemming/vote 30)
-(Stemming/vote 30)
-(Stemming/vote 30)
-
-
-
-Ja
-
-
-89
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-89
-
-89
-89
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-38
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-38
-
-38
-38
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-127
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-127
-
-127
-127
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3818/3)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3818/3)
-(3818/3)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3818/3)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3818/3)
- (3818/3)
-
- 
- 
- 
-50 Wetsontwerp tot
-wijziging van de wet van 29 april 1999 betreffende de organisatie van
-de elektriciteits­markt en tot bekrachtiging van zes koninklijke besluiten
-inzake energie (3867/3)
-50
-50
-50
- Wetsontwerp tot
-wijziging van de wet van 29 april 1999 betreffende de organisatie van
-de elektriciteits­markt en tot bekrachtiging van zes koninklijke besluiten
-inzake energie (3867/3)
- Wetsontwerp tot
-wijziging van de wet van 29 april 1999 betreffende de organisatie van
-de elektriciteits­markt en tot bekrachtiging van zes koninklijke besluiten
-inzake energie (3867/3)
- Wetsontwerp tot
-wijziging van de wet van 29 april 1999 betreffende de organisatie van
-de elektriciteits­markt en tot bekrachtiging van zes koninklijke besluiten
-inzake energie (3867/3)
-
-
-50 Projet de loi modifiant la loi du 29 avril 1999 relative à
-l'organisation du marché de l'électricité et portant confirmation de six
-arrêtés royaux sur l'énergie (3867/3)
-50
-50
- Projet de loi modifiant la loi du 29 avril 1999 relative à
-l'organisation du marché de l'électricité et portant confirmation de six
-arrêtés royaux sur l'énergie (3867/3)
- Projet de loi modifiant la loi du 29 avril 1999 relative à
-l'organisation du marché de l'électricité et portant confirmation de six
-arrêtés royaux sur l'énergie (3867/3)
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 32
-
-
-(Stemming/vote 31)
-
-(Stemming/vote 31)
-(Stemming/vote 31)
-(Stemming/vote 31)
-
-
-
-Ja
-
-
-119
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-119
-
-119
-119
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-8
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-8
-
-8
-8
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-127
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-127
-
-127
-127
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3867/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3867/4)
-(3867/4)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3867/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3867/4)
-(3867/4)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
-
-
- 
- 
- 
-51 Proposition de rejet faite par la commission des Affaires sociales, de
-l’Emploi et des Pensions de la proposition de loi visant à supprimer en
-principe la possibilité pour le CPAS de récupérer les frais exposés au titre de
-l'aide sociale dans le cadre de l'admission de personnes âgées en maison de
-repos (597/1-3)
-51
-51
- Proposition de rejet faite par la commission des Affaires sociales, de
-l’Emploi et des Pensions de la proposition de loi visant à supprimer en
-principe la possibilité pour le CPAS de récupérer les frais exposés au titre de
-l'aide sociale dans le cadre de l'admission de personnes âgées en maison de
-repos (597/1-3)
- Proposition de rejet faite par la commission des Affaires sociales, de
-l’Emploi et des Pensions de la proposition de loi visant à supprimer en
-principe la possibilité pour le CPAS de récupérer les frais exposés au titre de
-l'aide sociale dans le cadre de l'admission de personnes âgées en maison de
-repos (597/1-3)
-
-51 Voorstel tot
-verwerping door de commissie voor Sociale Zaken, Werk en Pensioenen van het
-wetsvoorstel principiële afschaffing van de terugvorderingsmogelijkheid door
-het OCMW van de kosten gemaakt voor maatschappelijke dienstverlening in het
-kader van de opname van ouderen in een rusthuis (597/1-3)
-51
-51
-51
- Voorstel tot
-verwerping door de commissie voor Sociale Zaken, Werk en Pensioenen van het
-wetsvoorstel principiële afschaffing van de terugvorderingsmogelijkheid door
-het OCMW van de kosten gemaakt voor maatschappelijke dienstverlening in het
-kader van de opname van ouderen in een rusthuis (597/1-3)
- Voorstel tot
-verwerping door de commissie voor Sociale Zaken, Werk en Pensioenen van het
-wetsvoorstel principiële afschaffing van de terugvorderingsmogelijkheid door
-het OCMW van de kosten gemaakt voor maatschappelijke dienstverlening in het
-kader van de opname van ouderen in een rusthuis (597/1-3)
- Voorstel tot
-verwerping door de commissie voor Sociale Zaken, Werk en Pensioenen van het
-wetsvoorstel principiële afschaffing van de terugvorderingsmogelijkheid door
-het OCMW van de kosten gemaakt voor maatschappelijke dienstverlening in het
-kader van de opname van ouderen in een rusthuis (597/1-3)
-
-
- 
- 
- 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? (Non)
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? 
-(Non)
-(Non)
-
-
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-(Nee)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 33
-
-
-(Stemming/vote 32)
-
-(Stemming/vote 32)
-(Stemming/vote 32)
-(Stemming/vote 32)
-
-
-
-Ja
-
-
-104
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-104
-
-104
-104
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-25
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-25
-
-25
-25
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-129
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-129
-
-129
-129
-
-Total
-
-Total
-Total
- 
- 
- 
-En
-conséquence, la Chambre adopte la proposition de rejet. La proposition de loi
-n° 597/1 est donc rejetée. (597/3)
-En
-conséquence, la Chambre adopte la proposition de rejet. La proposition de loi
-n° 597/1 est donc rejetée. 
-(597/3)
-(597/3)
-
-
-Bijgevolg
-neemt de Kamer het voorstel tot verwerping aan. Het wetsvoorstel nr. 597/1
-is dus verworpen. (597/3)
-Bijgevolg
-neemt de Kamer het voorstel tot verwerping aan. Het wetsvoorstel nr. 597/1
-is dus verworpen. 
- 
-(597/3)
-(597/3)
-
-
- 
- 
- 
-52 Proposition de rejet faite par la commission de la Mobilité, des
-Entreprises publiques et des Institutions fédérales de la proposition de
-résolution relative à l'accueil dans les gares ferroviaires (2248/1-4)
-52
-52
- Proposition de rejet faite par la commission de la Mobilité, des
-Entreprises publiques et des Institutions fédérales de la proposition de
-résolution relative à l'accueil dans les gares ferroviaires (2248/1-4)
- Proposition de rejet faite par la commission de la Mobilité, des
-Entreprises publiques et des Institutions fédérales de la proposition de
-résolution relative à l'accueil dans les gares ferroviaires (2248/1-4)
-
-52 Voorstel tot
-verwerping door de commissie voor Mobiliteit, Overheidsbedrijven en Federale
-Instellingen van het voorstel van resolutie betreffende het onthaal in de
-treinstations (2248/1-4)
-52
-52
-52
- Voorstel tot
-verwerping door de commissie voor Mobiliteit, Overheidsbedrijven en Federale
-Instellingen van het voorstel van resolutie betreffende het onthaal in de
-treinstations (2248/1-4)
- Voorstel tot
-verwerping door de commissie voor Mobiliteit, Overheidsbedrijven en Federale
-Instellingen van het voorstel van resolutie betreffende het onthaal in de
-treinstations (2248/1-4)
- Voorstel tot
-verwerping door de commissie voor Mobiliteit, Overheidsbedrijven en Federale
-Instellingen van het voorstel van resolutie betreffende het onthaal in de
-treinstations (2248/1-4)
-
-
- 
- 
- 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? (Non)
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? 
-(Non)
-(Non)
-
-
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-(Nee)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 34
-
-
-(Stemming/vote 33)
-
-(Stemming/vote 33)
-(Stemming/vote 33)
-(Stemming/vote 33)
-
-
-
-Oui
-
-
-99
-
-
-Ja
-
-
-
-Oui
-
-Oui
-Oui
-
-
-99
-
-99
-99
-
-
-Ja
-
-Ja
-Ja
-
-
-
-Non
-
-
-27
-
-
-Nee
-
-
-
-Non
-
-Non
-Non
-
-
-27
-
-27
-27
-
-
-Nee
-
-Nee
-Nee
-
-
-
-Abstentions
-  
-
-
-3
-
-
-Onthoudingen
-
-
-
-Abstentions
-  
-
-Abstentions
-  
-Abstentions
-  
-
-
-3
-
-3
-3
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-
-
-Total
-
-
-129
-
-
-Totaal
-
-
-
-Total
-
-Total
-Total
-
-
-129
-
-129
-129
-
-
-Totaal
-
-Totaal
-Totaal
-
- 
- 
- 
-En conséquence,
-la Chambre adopte la proposition de rejet. La proposition de résolution
-n° 2248/1 est donc rejetée. (2248/4)
-En conséquence,
-la Chambre adopte la proposition de rejet. La proposition de résolution
-n° 2248/1 est donc rejetée. 
-(2248/4)
-(2248/4)
-
-
-Bijgevolg
-neemt de Kamer het voorstel tot verwerping aan. Het voorstel van resolutie
-nr. 2248/1 is dus verworpen. (2248/4)
-Bijgevolg
-neemt de Kamer het voorstel tot verwerping aan. Het voorstel van resolutie
-nr. 2248/1 is dus verworpen. 
- 
-(2248/4)
-(2248/4)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
-
- 
- 
- 
-53 Proposition de rejet faite par la commission de l’Intérieur, de la
-Sécurité, de la Migration et des Matières administratives de la proposition de
-loi modifiant la loi du 15 décembre 1980 sur l'accès au territoire,
-le séjour, l'établissement et l'éloignement des étrangers et modifiant l'arrêté
-royal du 8 octobre 1981 sur l'accès au territoire, le séjour,
-l'établissement et l'éloignement des étrangers, en vue de créer un statut et un
-titre de séjour distincts pour les personnes déplacées temporairement
-(3833/1-2)
-53
-53
- Proposition de rejet faite par la commission de l’Intérieur, de la
-Sécurité, de la Migration et des Matières administratives de la proposition de
-loi modifiant la loi du 15 décembre 1980 sur l'accès au territoire,
-le séjour, l'établissement et l'éloignement des étrangers et modifiant l'arrêté
-royal du 8 octobre 1981 sur l'accès au territoire, le séjour,
-l'établissement et l'éloignement des étrangers, en vue de créer un statut et un
-titre de séjour distincts pour les personnes déplacées temporairement
-(3833/1-2)
- Proposition de rejet faite par la commission de l’Intérieur, de la
-Sécurité, de la Migration et des Matières administratives de la proposition de
-loi modifiant la loi du 15 décembre 1980 sur l'accès au territoire,
-le séjour, l'établissement et l'éloignement des étrangers et modifiant l'arrêté
-royal du 8 octobre 1981 sur l'accès au territoire, le séjour,
-l'établissement et l'éloignement des étrangers, en vue de créer un statut et un
-titre de séjour distincts pour les personnes déplacées temporairement
-(3833/1-2)
-
-53 Voorstel tot
-verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en
-Bestuurs­zaken van het wetsvoorstel tot wijziging van de wet van
-15 december 1980 betreffende de toegang tot het grondgebied, het verblijf,
-de vestiging en de verwijdering van vreemdelingen en tot wijziging van het
-koninklijk besluit van 8 oktober 1981 betreffende de toegang tot het
-grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen,
-teneinde een apart verblijfs­statuut en een aparte verblijfsvergunning te
-creëren voor tijdelijk ontheemden (3833/1-2)
-53
-53
-53
- Voorstel tot
-verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en
-Bestuurs­zaken van het wetsvoorstel tot wijziging van de wet van
-15 december 1980 betreffende de toegang tot het grondgebied, het verblijf,
-de vestiging en de verwijdering van vreemdelingen en tot wijziging van het
-koninklijk besluit van 8 oktober 1981 betreffende de toegang tot het
-grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen,
-teneinde een apart verblijfs­statuut en een aparte verblijfsvergunning te
-creëren voor tijdelijk ontheemden (3833/1-2)
- Voorstel tot
-verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en
-Bestuurs­zaken van het wetsvoorstel tot wijziging van de wet van
-15 december 1980 betreffende de toegang tot het grondgebied, het verblijf,
-de vestiging en de verwijdering van vreemdelingen en tot wijziging van het
-koninklijk besluit van 8 oktober 1981 betreffende de toegang tot het
-grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen,
-teneinde een apart verblijfs­statuut en een aparte verblijfsvergunning te
-creëren voor tijdelijk ontheemden (3833/1-2)
- Voorstel tot
-verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en
-Bestuurs­zaken van het wetsvoorstel tot wijziging van de wet van
-15 december 1980 betreffende de toegang tot het grondgebied, het verblijf,
-de vestiging en de verwijdering van vreemdelingen en tot wijziging van het
-koninklijk besluit van 8 oktober 1981 betreffende de toegang tot het
-grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen,
-teneinde een apart verblijfs­statuut en een aparte verblijfsvergunning te
-creëren voor tijdelijk ontheemden (3833/1-2)
-
-
- 
- 
- 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? (Non)
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? 
-(Non)
-(Non)
-
-
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-(Nee)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
+### Discussed proposals:
 
 Motion # 1.
 

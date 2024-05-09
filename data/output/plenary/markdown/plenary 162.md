@@ -6,9 +6,19 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip162.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip162x.html
 
-## Proposal 1
+## Proposal discussion (agenda item 12)
 
-??? text not found ???
+### Description in Dutch:
+
+None
+
+### Description in French:
+
+None
+
+
+
+### Discussed proposals:
 
 Motion # 1.
 

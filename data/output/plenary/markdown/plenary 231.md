@@ -6,2010 +6,635 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip231.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip231x.html
 
-## Proposal 1
+## Proposal discussion (agenda item 14)
 
-??? text not found ???
+### Description in Dutch:
 
-## Proposal 2
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3062/6)
+Het wetsontwerp telt 62 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-??? text not found ???
+### Description in French:
 
-## Proposal 3
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3062/6)
+Le projet de loi compte 62 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-(Stemming/vote 2)
 
-(Stemming/vote 2)
-(Stemming/vote 2)
-(Stemming/vote 2)
+### Discussed proposals:
 
+## Proposal discussion (agenda item 15)
 
+### Description in Dutch:
 
-Ja
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3010/1)
+Het wetsontwerp telt 5 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-84
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3010/1)
+Le projet de loi compte 5 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-Oui
 
+### Discussed proposals:
 
+## Proposal discussion (agenda item 16)
 
-Ja
+### Description in Dutch:
 
-Ja
-Ja
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3091/1)
+Het voorstel telt 1 artikel.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-84
+### Description in French:
 
-84
-84
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3091/1)
+La proposition compte 1 article.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Oui
 
-Oui
-Oui
 
+### Discussed proposals:
 
-Nee
+## Proposal discussion (agenda item 17)
 
+### Description in Dutch:
 
-0
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2944/6)
+Het opschrift werd door de commissie gewijzigd in "wetsontwerp tot bepaling van de beginselen voor de loting van natuurlijke personen voor de gemengde commissies en de burgerpanels op initiatief van de Kamer van volksvertegenwoordigers".
+Het wetsontwerp telt 16 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-Non
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2944/6)
+L’intitulé a été modifié par la commission en "projet de loi établissant les principes du tirage au sort des personnes physiques pour les commissions mixtes et les panels citoyens organisés à l’initiative de la Chambre des représentants".
+Le projet de loi compte 16 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
-Nee
+### Discussed proposals:
 
-Nee
-Nee
+## Proposal discussion (agenda item 18)
 
-0
+### Description in Dutch:
 
-0
-0
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3082/3)
+Het wetsontwerp telt 4 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Non
+### Description in French:
 
-Non
-Non
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3082/3)
+Le projet de loi compte 4 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-Onthoudingen
 
+### Discussed proposals:
 
-44
+## Proposal discussion (agenda item 19)
 
+### Description in Dutch:
 
-Abstentions
+Proposition déposée par:
 
+Voorstel ingediend door:
 
+Jef Van den Bergh, Joris Vandenbroucke, Nicolas Parent, Kim Buyst.
 
-Onthoudingen
+Discussion
 
-Onthoudingen
-Onthoudingen
+Bespreking
 
-44
 
-44
-44
 
-Abstentions
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2138/8)
 
-Abstentions
-Abstentions
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (2138/8)
 
 
-Totaal
 
+L'intitulé en néerlandais a été modifié par la commission en "voorstel van resolutie betreffende de ondersteuning van duurzame groei van gedeelde mobiliteit in België".
 
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-128
-
-128
-128
-
-Total
-
-Total
-Total
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Senaat worden overgezonden.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Senaat worden overgezonden.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera transmis au Sénat.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera transmis au Sénat.
- 
- 
- 
-Reden van onthouding? (Nee)
-Reden van onthouding? (Nee)
-(Nee)
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
-
- 
- 
- 
-28 Wetsontwerp tot
-wijziging van het koninklijk besluit nr. 38 van 27 juli 1967
-houdende inrichting van het sociaal statuut der zelfstandigen betreffende de
-bijdrageberekening voor startende zelfstandige artiesten (3010/1)
-28
-28
-28
- Wetsontwerp tot
-wijziging van het koninklijk besluit nr. 38 van 27 juli 1967
-houdende inrichting van het sociaal statuut der zelfstandigen betreffende de
-bijdrageberekening voor startende zelfstandige artiesten (3010/1)
- Wetsontwerp tot
-wijziging van het koninklijk besluit nr. 38 van 27 juli 1967
-houdende inrichting van het sociaal statuut der zelfstandigen betreffende de
-bijdrageberekening voor startende zelfstandige artiesten (3010/1)
- Wetsontwerp tot
-wijziging van het koninklijk besluit nr. 38 van 27 juli 1967
-houdende inrichting van het sociaal statuut der zelfstandigen betreffende de
-bijdrageberekening voor startende zelfstandige artiesten (3010/1)
-
-
-28 Projet de loi modifiant l'arrêté
-royal n° 38 du 27 juillet 1967 organisant le statut social des
-travailleurs indépendants en ce qui concerne le calcul des cotisations pour les
-travailleurs indépendants artistes débutants (3010/1)
-28
-28
-28
- Projet de loi modifiant l'arrêté
-royal n° 38 du 27 juillet 1967 organisant le statut social des
-travailleurs indépendants en ce qui concerne le calcul des cotisations pour les
-travailleurs indépendants artistes débutants (3010/1)
- Projet de loi modifiant l'arrêté
-royal n° 38 du 27 juillet 1967 organisant le statut social des
-travailleurs indépendants en ce qui concerne le calcul des cotisations pour les
-travailleurs indépendants artistes débutants (3010/1)
- Projet de loi modifiant l'arrêté
-royal n° 38 du 27 juillet 1967 organisant le statut social des
-travailleurs indépendants en ce qui concerne le calcul des cotisations pour les
-travailleurs indépendants artistes débutants (3010/1)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote?
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote?
-Vraagt iemand het woord voor een
-stemverklaring?
-Vraagt iemand het woord voor een
-stemverklaring?
- 
- 
- 
-28.01  Björn Anseeuw (N-VA):
-Mevrouw de voorzitster, het is een oud zeer in dit land dat er in de sociale
-zekerheid elk jaar opnieuw verschillende miljarden euro’s worden getransfereerd
-van het Noorden naar het Zuiden, zonder dat de begunstigden daarvoor veel
-verantwoording hoeven af te leggen of op te nemen. 
-28.01
-28.01
-  Björn Anseeuw 
-  Björn Anseeuw 
- 
-(N-VA):
-Mevrouw de voorzitster, het is een oud zeer in dit land dat er in de sociale
-zekerheid elk jaar opnieuw verschillende miljarden euro’s worden getransfereerd
-van het Noorden naar het Zuiden, zonder dat de begunstigden daarvoor veel
-verantwoording hoeven af te leggen of op te nemen. 
- 
- 
- 
-Het voorstel dat in dit Parlement op tafel
-ligt, is een extra transfer, waarbij de Vlamingen opnieuw moeten betalen voor
-het linkse beleid van Franstalige partijen in dit land. Dat vormt een van de
-belangrijke redenen waarom wij bij de behandeling in de commissie tegen dit
-voorstel hebben gestemd. Het viel op dat de N-VA de enige partij was die tegen
-dit voorstel heeft gestemd. We zullen dat vanavond zonder enige aarzeling
-opnieuw doen. 
-Het voorstel dat in dit Parlement op tafel
-ligt, is een extra transfer, waarbij de Vlamingen opnieuw moeten betalen voor
-het linkse beleid van Franstalige partijen in dit land. Dat vormt een van de
-belangrijke redenen waarom wij bij de behandeling in de commissie tegen dit
-voorstel hebben gestemd. Het viel op dat de N-VA de enige partij was die tegen
-dit voorstel heeft gestemd. We zullen dat vanavond zonder enige aarzeling
-opnieuw doen. 
- 
- 
- 
-Toch wil ik na de bespreking van dit
-voorstel in de plenaire vergadering vanmiddag van deze gelegenheid gebruikmaken
-om alle andere Vlaamse partijen op te roepen ook tegen dit voorstel te stemmen.
-Beste parlementsleden van Open Vld, cd&v, het Vlaams Belang, Vooruit, PVDA
-en Groen, ik wil jullie voor één keer oproepen om de Vlaming niet opnieuw te
-laten opdraaien voor het Waalse linkse beleid waar hij niet voor kiest, en dus
-om tegen dit voorstel te stemmen.
-Toch wil ik na de bespreking van dit
-voorstel in de plenaire vergadering vanmiddag van deze gelegenheid gebruikmaken
-om alle andere Vlaamse partijen op te roepen ook tegen dit voorstel te stemmen.
-Beste parlementsleden van Open Vld, cd&v, het Vlaams Belang, Vooruit, PVDA
-en Groen, ik wil jullie voor één keer oproepen om de Vlaming niet opnieuw te
-laten opdraaien voor het Waalse linkse beleid waar hij niet voor kiest, en dus
-om tegen dit voorstel te stemmen.
- 
- 
- 
-De voorzitster:
-Begin van de stemming / Début
-du vote.
-De voorzitster:
-
-voorzitster
-Begin van de stemming / Début
-du vote.
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Het opschrift in het Nederlands werd door de commissie gewijzigd in "voorstel van resolutie betreffende de ondersteuning van duurzame groei van gedeelde mobiliteit in België".
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 4
+De bespreking is geopend.
 
+La discussion est ouverte.
 
-(Stemming/vote 3)
 
-(Stemming/vote 3)
-(Stemming/vote 3)
-(Stemming/vote 3)
 
+MM. Nicolas Parent et Emmanuel Burton, rapporteurs, s'en réfèrent au rapport écrit.
 
 
-Ja
 
+19.01  Kim Buyst (Ecolo-Groen): Mevrouw de voorzitter, sta me toe kort het woord te nemen in het debat over het voorstel van resolutie, omdat onze fractie aandacht voor deelmobiliteit zeer belangrijk vindt en wel om de volgende redenen. Ten eerste is gedeelde mobiliteit een manier om onze CO2-uitstoot terug te dringen. Ten tweede, dankzij gedeelde mobiliteit sparen we publieke ruimte uit. Ten derde, gedeelde mobiliteit is goed voor de portemonnee. De aankoop van, bijvoorbeeld, een elektrische wagen, brengt op het moment nog behoorlijke kosten met zich. Wanneer een wagen gedeeld wordt, heeft men geen kosten die verbonden zijn met het privébezit ervan en betaalt men enkel maar voor de kilometers die men rijdt. Dat zijn drie belangrijke redenen voor Ecolo/Groen in het mobiliteitsvraagstuk.
 
-87
 
 
-Oui
+Heel wat van onze lokale besturen over heel het land – ik herhaal hier graag wat ik in commissie al zei – geven het goede voorbeeld inzake deelmobiliteit. Steden als Leuven, Gent en Mechelen zijn niet meer de enige die al verschillende acties hebben ondernomen om de deelmobiliteit meer ingang te doen vinden bij de burger in de straat. Dan gaat het niet alleen over het delen van wagens, maar evengoed het delen van fietsen of vooralsnog dure elektrische fietsen.
 
 
 
-Ja
+Voor ons is het voorstel van resolutie belangrijk, omdat deelmobiliteit een aanvulling is voor verplaatsingswijzen, bijvoorbeeld een goed uitgebouwd openbaar vervoer, zodat we echt kunnen gaan naar de noodzakelijke modal shift. Ik dank alvast de indiener van de tekst, de heer Van den Bergh. Het is ook goed dat we in hoorzittingen de verschillende actoren in het veld hierover konden horen. Dat liet toe om de tekst te versterken, zodat hij zich niet beperkt tot het autodelen, maar bijvoorbeeld ook het delen van fietsen behandelt. Op die manier kunnen we werk maken van de modal shift, wat belangrijk is om onze klimaatdoelstellingen te verwezenlijken.
 
-Ja
-Ja
 
-87
 
-87
-87
+Ik wilde heel kort het woord nemen om duidelijk te maken waarom wij blij zijn met het initiatief en meegewerkt hebben om de tekst nog sterker te maken. Ik ben ook blij dat alle partijen de tekst in de commissie zo positief onthaald hebben.
 
-Oui
 
-Oui
-Oui
 
+19.02  Pieter De Spiegeleer (VB): Mevrouw de voorzitster, de Vlaams Belangfractie steunt het voorstel. In de commissie hebben we twee amendementen ingediend, die we opnieuw zullen indienen. In het kader daarvan geef ik een korte toelichting om zo onze motivatie enige kracht bij te zetten.
 
-Nee
 
 
-16
+Mevrouw Buyst verwees zopas naar lokale besturen die ter zake al initiatieven nemen. Om deelmobiliteit te ondersteunen en dichter bij de burger te brengen, kan en moet de federale overheid een voorbeeldfunctie vervullen. De amendementen die wij daartoe hebben ingediend, beogen de deelmobiliteit beter te faciliteren en te stimuleren.
 
 
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-16
-
-16
-16
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-23
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-23
-
-23
-23
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-126
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-126
-
-126
-126
-
-Total
-
-Total
-Total
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
- 
- 
- 
-Reden van onthouding? (Nee)
-Reden van onthouding? (Nee)
-(Nee)
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
-
- 
- 
- 
-29 Voorstel
-houdende goedkeuring van het samenwerkingsakkoord van 5 juli 2022
-tussen de federale overheid, de Gewesten en de Gemeenschappen over de
-samenstelling van de Belgische delegatie van de Benelux Interparlementaire
-Assemblee (3091/1)
-29
-29
-29
- Voorstel
-houdende goedkeuring van het samenwerkingsakkoord van 5 juli 2022
-tussen de federale overheid, de Gewesten en de Gemeenschappen over de
-samenstelling van de Belgische delegatie van de Benelux Interparlementaire
-Assemblee (3091/1)
- Voorstel
-houdende goedkeuring van het samenwerkingsakkoord van 5 juli 2022
-tussen de federale overheid, de Gewesten en de Gemeenschappen over de
-samenstelling van de Belgische delegatie van de Benelux Interparlementaire
-Assemblee (3091/1)
- Voorstel
-houdende goedkeuring van het samenwerkingsakkoord van 5 juli 2022
-tussen de federale overheid, de Gewesten en de Gemeenschappen over de
-samenstelling van de Belgische delegatie van de Benelux Interparlementaire
-Assemblee (3091/1)
-
-
-29 Proposition portant assentiment à
-l'accord de coopération du 5 juillet 2022 entre l'autorité fédérale,
-les Régions et les Communautés relatif à la composition de la délégation belge
-à l'Assemblée interparlementaire Benelux (3091/1)
-29
-29
-29
- Proposition portant assentiment à
-l'accord de coopération du 5 juillet 2022 entre l'autorité fédérale,
-les Régions et les Communautés relatif à la composition de la délégation belge
-à l'Assemblée interparlementaire Benelux (3091/1)
- Proposition portant assentiment à
-l'accord de coopération du 5 juillet 2022 entre l'autorité fédérale,
-les Régions et les Communautés relatif à la composition de la délégation belge
-à l'Assemblée interparlementaire Benelux (3091/1)
- Proposition portant assentiment à
-l'accord de coopération du 5 juillet 2022 entre l'autorité fédérale,
-les Régions et les Communautés relatif à la composition de la délégation belge
-à l'Assemblée interparlementaire Benelux (3091/1)
 
+Minister De Sutter haalde afgelopen week de pers door te jubelen dat de federale ambtenaren de kroon spannen in het gebruik van de trein voor woon-werkverkeer. Dat is natuurlijk vooral te danken aan de toepassing van het derde-betalerssysteem voor abonnementen. Het zou een goede zaak zijn als minister De Sutter die ambtenaren ook kan bejubelen, omdat ze kampioen zijn in het gebruiken van deelauto’s.
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Ik dank u alvast om onze amendementen te steunen. Het eerste amendement strekt ertoe de federale regering op te roepen om via de minister bevoegd voor Ambtenarenzaken in afzonderlijke gratis parkeerplaatsen voor deelauto’s ten behoeve van het personeel te voorzien in of nabij de federale overheidsgebouwen. Het tweede amendement strekt ertoe bij de federale regering op aan te dringen om maatregelen te nemen om in de nabijheid van haar gebouwen van openbaar nut zoals ministeries en ambassades, in gratis parkeerplaatsen te voorzien voor deelauto’s die gebruikt worden door burgers wier bezoek tot doel heeft de diensten van en in dat gebouw.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+19.03  Jef Van den Bergh (cd&v): Mevrouw de voorzitster, geachte collega’s, ik ga u geen klassieke samenvatting van de overwegingen en aanbevelingen uit de voorliggende resolutie geven. U kunt die nalezen. Ik wil vooral even duiden waarom we het onderwerp van de deelmobiliteit zo belangrijk vinden voor onze mobiliteit, voor onze samenleving. Waarom hebben wij dit op de politieke agenda gezet?
 
- 
- 
- 
 
-## Proposal 5
 
+Ik begin met enkele cijfers. We leven in een klein land van 30.688 vierkante kilometer. Daarop wonen 11,6 miljoen Belgen, zo’n 377 per vierkante kilometer. Op diezelfde 30.688 vierkante kilometer staan 5.947.479 personenwagens, dus bijna 6 miljoen. Dat zijn gemiddeld 200 personenwagens per vierkante kilometer. Dan tellen we alleen de personenwagens.
 
-(Stemming/vote 4)
 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
 
+In 2019 nam de totale vloot aan geparkeerde personenwagens in Vlaanderen bijna 74 vierkante kilometer ruimte in. De totale oppervlakte aan aangelegde parkeerruimte in Vlaanderen was nog eens drie keer zo groot met ruim 200 vierkante kilometer, niet bepaald efficiënt.
 
 
-Ja
 
+Zes miljoen personenwagens met gemiddeld vier plaatsen per wagen, dat betekent dat er autoplaatsen voor 24 miljoen mensen in ons land zijn. We zijn met 11,6 miljoen inwoners. De bezettingsgraad van die wagens bedraagt gemiddeld minder dan 1,2. Dat is ook niet bepaald efficiënt.
 
-110
 
 
-Oui
+Ondertussen is de filezwaarte in Vlaanderen in het voorbije decennium met maar liefst 50 % toegenomen en het aantal voertuigverliesuren is in die periode met maar liefst 70 % gestegen. In 2022 werden de kosten voor de files in ons land op 4,8 miljard euro geraamd.
 
 
 
-Ja
+Personenwagens staan ook  niet alleen stil in de file, ze staan eigenlijk tout court meestal stil. Onderzoek toont aan dat privéwagens meer dan 95 % van de tijd ongebruikt geparkeerd staan. Nochtans is die auto na wonen de grootste uitgave die een gemiddeld gezin maakt. Dat is niet bepaald efficiënt.
 
-Ja
-Ja
 
-110
 
-110
-110
+Collega’s, een hele reeks cijfers om aan te geven dat nadenken over ons mobiliteitssysteem, dat nog grotendeels een autosysteem is, een rationele noodzaak is, los van auto- of anti-auto-ideologieën. Mobiliteit is essentieel en noodzakelijk om aan onze samenleving te kunnen participeren. De toegenomen mobiliteitsmogelijkheden van de afgelopen eeuw, met een centrale rol voor de auto, hebben voor veel maatschappelijke voordelen gezorgd, sociaal en economisch, maar de ongebreidelde groei van het aantal wagens en vooral de ruimte die we daaraan moeten spenderen in ons dichtbevolkte land kunnen we niet blijven volhouden. De manier waarop we vandaag onze mobiliteit organiseren, heeft immers en grote impact op onze openbare ruimte, onze gezondheid, het leefmilieu en het klimaat. De uitstoot van broeikasgassen veroorzaakt door wegvervoer in België is sinds 1990 met 25 % gestegen en mobiliteit is verantwoordelijk voor een kwart van alle CO2-uitstoot in ons land, samen met de verwarming van gebouwen de enige sector waarvan de schadelijke uitstoot blijft toenemen ondanks efficiëntere motoren.
 
-Oui
 
-Oui
-Oui
 
+Om de impact van mobiliteit op onze leefomgeving te verminderen zonder aan mobiliteit te moeten inboeten, moet iedereen zich bewust zijn van zijn mobiliteitskeuzes. Mits een breed aanbod aan mobiliteitsmogelijkheden, inclusief deelmobiliteit, en even nadenken over welk vervoermiddel het beste geschikt is voor welke verplaatsing - als we die overweging kunnen maken - zouden we al heel wat verder staan.
 
-Nee
 
 
-17
+In die multimobiliteit heeft ook de personenwagen, bij voorkeur emissieloos, een rol te spelen. Het is en blijft een handig, comfortabel en flexibel vervoermiddel. De belangrijkste verschuivingen in ons verkeersgedrag zullen er volgens ons dan ook niet komen door enkel in te zetten op alternatieven voor de wagen, maar eerder door ook slim in te zetten op combimobiliteit, een gemakkelijk bereikbare en toegankelijke waaier aan mobiliteitsmogelijkheden. Deelmobiliteit biedt daarin individuele flexibiliteit, zonder bijkomende parkeerdruk en zonder een groeiend aantal verplaatsingen op termijn, net omdat de keuze voor de wagen bewust wordt gemaakt, een bewuste keuze eerder dan een ‘auto-matisme’.
 
 
-Non
 
+Deelmobiliteit ontgroeit ondertussen de kinderschoenen. Deelfietsen, deelbromfietsen en deelsteps bieden in stedelijke omgevingen alternatieven voor kortere afstanden en voor voor- en natransport. Deelauto’s werden ooit beschouwd als iets voor alternativo’s. Vandaag blijkt het vooral iets voor slimme rekenaars. Een deelwagen is immers een interessante aanvulling op de mobiliteitsmogelijkheden voor mensen die zich geen wagen kunnen permitteren, maar is ook een heel interessant alternatief voor gezinnen die hun privéwagen of hun tweede wagen niet intensief gebruiken. Wie minder dan 15.000 kilometer per jaar rijdt, is immers vaak beter af met een deelwagen in plaats van een eigen wagen. Het is dan ook niet verwonderlijk dat het aantal gebruikers van deelmobiliteit de jongste jaren vrij spectaculair stijgt, wat een win-win kan betekenen voor iedereen.
 
 
-Nee
 
-Nee
-Nee
+Daarom is het ook goed dat het beleid daar op verschillende niveaus de nodige aandacht en stimulansen aan geeft. Collega Buyst verwees reeds naar de lokale besturen. Ook landelijke gemeenten doen dat trouwens. Collega Buyst verwees naar een aantal steden, maar ook landelijke gemeenten investeren in deelmobiliteit. Ook regionaal, op Vlaams niveau, worden er initiatieven genomen en nu ook federaal.
 
-17
 
-17
-17
 
-Non
+Ik ben dan ook erg tevreden dat wij vandaag voorliggende resolutie ter ondersteuning van deelmobiliteit ter stemming kunnen voorleggen.
 
-Non
-Non
 
 
-Onthoudingen
+Er is heel wat tijd en werk in gestoken, met hoorzittingen en schriftelijke adviezen. Ik dank dan ook de collega’s van de commissie, onder het voorzitterschap van collega Delizée, voor het constructieve werk aan deze resolutie. De elf aanbevelingen zullen deelmobiliteit verder mee stimuleren. Dat duwtje in de rug van deelmobiliteit, dat duwtje in de goede richting voor ons mobiliteitssysteem geven wij vandaag met deze resolutie.
 
 
-1
 
+19.04  Maria Vindevoghel (PVDA-PTB): Dat was een hele uitleg met veel cijfers, mijnheer Van den Bergh. Deelmobiliteit zit inderdaad in de lift en het is duidelijk dat dit kansen creëert, maar het zorgt ook voor heel wat problemen. Door de marktwerking verschijnen er heel wat nieuwe, kleine en lokale initiatieven en zo dreigt elke stad of regio zijn eigen deelsysteem te ontwikkelen en dat is nefast voor de ontwikkeling van die deelmobiliteit. De verschillende deelsystemen zijn vandaag niet op elkaar afgestemd en zijn concurrenten van elkaar. Denk maar aan de vele rondslingerende steps op de stoepen.  De mensen die willen overschakelen naar een duurzame vorm van vervoer verwachten een goedwerkend systeem waarmee ze zich in heel België kunnen verplaatsen.
 
-Abstentions
 
 
+Indien we de werkende mensen in de richting van een duurzamere vorm van vervoer willen sturen, dan moet er een goed functionerend systeem zijn waarmee ze zich in heel België kunnen verplaatsen. Voor ons blijft het openbaar vervoer nog steeds de beste vorm van deelmobiliteit. Ik denk daarbij aan de NMBS, De Lijn, TEC, MIVB en daarom heeft onze fractie een amendement ingediend om deze actoren een belangrijke verantwoordelijkheid te geven in het delen van steps, fietsen en auto’s. De NMBS, beschikt over infrastructuur in heel het land: stations, parkings, leegstaande gebouwen, loketten… Het was ons voorstel dat zij de verantwoordelijkheid zou nemen om die deelmobiliteit te organiseren. Het huidige voorstel laat dit over aan de privéspelers die veel concurrentie op het terrein organiseren. Indien de NMBS zulke belangrijke rol speelt in de deelmobiliteit, moet ze die ook zelf kunnen leiden. Alleen zij beschikt over de schaalgrootte, de organisatie en de kennis om het verschil te kunnen maken op het vlak van mobiliteit.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
-1
+De deelmobiliteit komt vooral moeilijk tot ontwikkeling in de landelijkere gebieden. Dat is logisch, want daar kan minder winst worden gemaakt. Als men het dus aan de markt overlaat, zullen veel mensen uit de boot vallen, vooral dan in de landelijke gebieden, waar dit superbelangrijk is.
 
-1
-1
 
-Abstentions
 
-Abstentions
-Abstentions
+Ik blijf herhalen dat de beste deelmobiliteit voor de PVDA het openbaar vervoer is en dat we vooral dat niet mogen verwaarlozen. Ik ben vanmorgen nog naar de actie geweest van de vakbonden naar aanleiding van de agressie op de treinen. Er waren gisteren opnieuw problemen in Kortrijk, in het weekend waren er ook problemen. Het personeel van de NMBS slaakt een cri du coeur. Ze vragen om mensen, om middelen om het vervoer te kunnen verzekeren. We moeten echt zorgen dat daar meer middelen zijn voor die mensen om hun job goed te kunnen uitoefenen en om ons openbaar vervoer goed te laten rijden.
 
 
-Totaal
 
+De PVDA zal deze resolutie steunen omdat we denken dat het wel een vooruitgang is, maar we vinden het eigenlijk jammer dat het niet meer verantwoordelijkheid geeft aan de huidige openbare mobiliteitsbedrijven, zoals de NMBS.
 
-128
 
 
-Total
+19.05  Joris Vandenbroucke (Vooruit): Ik wil eerst de initiatiefnemer, de heer Van den Bergh, bedanken voor de resolutie rond gedeelde mobiliteit. Ik ben het volmondig eens met alles wat hij daarnet heeft gezegd. Gedeelde mobiliteit is echt een sleutel om onze mobiliteit te verduurzamen, ook om bijvoorbeeld vervoersarmoede aan te pakken.
 
 
 
-Totaal
+Ik zeg dat natuurlijk ook als inwoner van de autodeelhoofdstad van België, namelijk Gent, waar meer dan 16.000 Gentenaars meer dan 1.100 wagens met elkaar delen die worden aangeboden door 8 verschillende aanbieders. De grootste aanbieder is geen commercieel bedrijf, maar een initiatief van particulier autodelen Dégage! dat ondertussen al jarenlang bestaat, dat steeds meer leden, steeds meer gezinnen kan overtuigen om daaraan deel te nemen.
 
-Totaal
-Totaal
 
-128
 
-128
-128
+U zegt dat de gedeelde mobiliteit of de markt van het autodelen gedomineerd wordt door private bedrijven die elkaar kapot concurreren. Dat klopt absoluut niet, integendeel. We hebben ervoor gezorgd dat onze stad een vruchtbare bodem is voor zoveel mogelijk aanbieders. We zien dat ook heel wat gezinnen voor wie een eigen wagen onbetaalbaar is of die misschien wel een wagen kunnen kopen, maar geen plaats hebben om hem te stallen, toch een wagen kunnen gebruiken, indien nodig.
 
-Total
 
-Total
-Total
- 
- 
- 
-Bijgevolg neemt de Kamer het voorstel aan.
-Het zal ter kennis van de Senaat en van de parlementen van de gemeenschappen en
-de gewesten worden gebracht.
-Bijgevolg neemt de Kamer het voorstel aan.
-Het zal ter kennis van de Senaat en van de parlementen van de gemeenschappen en
-de gewesten worden gebracht.
-En conséquence, la Chambre adopte la
-proposition. Il en sera donné connaissance au Sénat et aux parlements des
-communautés et des régions.
-En conséquence, la Chambre adopte la
-proposition. Il en sera donné connaissance au Sénat et aux parlements des
-communautés et des régions.
- 
- 
- 
-Reden van onthouding? (Nee)
-Reden van onthouding? (Nee)
-(Nee)
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
 
- 
- 
- 
-30 Wetsontwerp tot
-bepaling van de beginselen voor de loting van natuurlijke personen voor de
-gemengde commissies en de burgerpanels op initiatief van de Kamer van
-volksvertegen­woordigers (nieuw opschrift) (2944/6)
-30
-30
-30
- Wetsontwerp tot
-bepaling van de beginselen voor de loting van natuurlijke personen voor de
-gemengde commissies en de burgerpanels op initiatief van de Kamer van
-volksvertegen­woordigers (nieuw opschrift) (2944/6)
- Wetsontwerp tot
-bepaling van de beginselen voor de loting van natuurlijke personen voor de
-gemengde commissies en de burgerpanels op initiatief van de Kamer van
-volksvertegen­woordigers (nieuw opschrift) (2944/6)
- Wetsontwerp tot
-bepaling van de beginselen voor de loting van natuurlijke personen voor de
-gemengde commissies en de burgerpanels op initiatief van de Kamer van
-volksvertegen­woordigers (nieuw opschrift) (2944/6)
+Er zijn drie belangrijke redenen waarom gedeelde mobiliteit de toekomst is.
 
 
-30 Projet de loi établissant les
-principes du tirage au sort des personnes physiques pour les commissions mixtes
-et les panels citoyens organisés à l'initiative de la Chambre des représentants
-(nouvel intitulé) (2944/6)
-30
-30
-30
- Projet de loi établissant les
-principes du tirage au sort des personnes physiques pour les commissions mixtes
-et les panels citoyens organisés à l'initiative de la Chambre des représentants
-(nouvel intitulé) (2944/6)
- Projet de loi établissant les
-principes du tirage au sort des personnes physiques pour les commissions mixtes
-et les panels citoyens organisés à l'initiative de la Chambre des représentants
-(nouvel intitulé) (2944/6)
- Projet de loi établissant les
-principes du tirage au sort des personnes physiques pour les commissions mixtes
-et les panels citoyens organisés à l'initiative de la Chambre des représentants
-(nouvel intitulé) (2944/6)
 
+Ten eerste, het is goed voor de portemonnee van de mensen die het doen. Wie geen eigen wagen koopt maar een deelwagen gebruikt, bespaart tot 3.000 euro per jaar.
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
 
-Vraagt iemand het woord voor een stemverklaring? (Nee)
-Vraagt iemand het woord voor een stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Ten tweede, het is goed voor het milieu. Uit onderzoek blijkt immers dat mensen die aan autodelen doen, 30 % minder vaak de wagen gebruiken dan degenen die een eigen wagen hebben.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Ten derde, het is goed voor het vrijmaken van publieke ruimte. Collega Van den Bergh zei het reeds, wagens staan ongeveer 95 % van de tijd stil. Het is doodzonde, zeker in stedelijk gebied, dat zoveel ruimte moet worden opgeofferd voor stilstaand blik.
 
- 
- 
- 
 
-## Proposal 6
 
+Met andere woorden, wij staan volmondig achter deze resolutie. Daarom heb ik ze ook graag mee ondertekend, collega Van den Bergh.
 
-(Stemming/vote 5)
 
-(Stemming/vote 5)
-(Stemming/vote 5)
-(Stemming/vote 5)
 
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
+Vraagt nog iemand het woord? (Nee)
 
-Ja
 
 
-78
+La discussion est close.
 
+De bespreking is gesloten.
 
-Oui
 
 
+*  *  *  *  *
 
-Ja
+Amendements déposés:
 
-Ja
-Ja
+Ingediende amendementen:
 
-78
 
-78
-78
 
-Oui
+Demande/Verzoek 12(n)
 
-Oui
-Oui
+• 21 – Pieter De Spiegeleer cs (2138/9)
 
+Demande/Verzoek 13(n)
 
-Nee
+• 22 – Pieter De Spiegeleer cs (2138/9)
 
+*  *  *  *  *
 
-33
 
 
-Non
+Réservés: les amendements.
 
+Aangehouden: de amendementen.
 
 
-Nee
 
-Nee
-Nee
+Le vote sur les amendements réservés et sur l’ensemble de la proposition aura lieu ultérieurement.
 
-33
+De stemming over de aangehouden amendementen en over het geheel van het voorstel zal later plaatsvinden.
 
-33
-33
 
-Non
 
-Non
-Non
+Nous abordons le projet de loi portant modification de la loi du 11 décembre 1998 relative à la classification et aux habilitations, attestations et avis de sécurité (2443/1-8)
 
 
-Onthoudingen
 
+19.06  Yngvild Ingels (N-VA): Collega’s, ik stel vast dat de bevoegde ministers niet aanwezig zijn voor de bespreking van dit wetsontwerp.
 
-17
 
 
-Abstentions
+19.07 Minister Tinne Van der Straeten: Ik heb begrepen dat collega Dedonder op weg is naar het Parlement en dat collega Lahbib van Buitenlandse Zaken onverwacht verhinderd is wegens een urgent overleg.
 
 
 
-Onthoudingen
+De voorzitster: Ja, wat doen wij dan?
 
-Onthoudingen
-Onthoudingen
 
-17
 
-17
-17
+19.08  Bert Wollants (N-VA): Voor mij is de vraag wanneer de bevoegde minister hier wel kan zijn. Onverwacht overleg, goed, maar als hier een wetsontwerp behandeld wordt, lijkt het mij toch nuttig dat de bevoegde minister aanwezig is.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+De voorzitster: Ik weet dat mevrouw Dedonder onderweg is.
 
-Totaal
 
 
-128
+19.09 Minister Tinne Van der Straeten: Mevrouw Dedonder is effectief onderweg. Mevrouw Lahbib zou hier sowieso zijn. Het was absoluut haar intentie hier te zijn. Ik ben gewoon ook verwittigd dat er iets onverwachts en dringends was waardoor zij hier toch niet kan zijn.
 
 
-Total
 
+19.10  Yngvild Ingels (N-VA): Wij kunnen dit punt uitstellen tot volgende week?
 
 
-Totaal
 
-Totaal
-Totaal
+De voorzitster: Misschien kunnen wij intussen punt 13 behandelen. De heer Van Lommel is er en mevrouw Leonie is niet ver. Zo kunnen wij tijd winnen, terwijl minister Dedonder naar hier komt.
 
-128
 
-128
-128
 
-Total
+Je propose de passer au point 13 en attendant que la ministre nous rejoigne.
 
-Total
-Total
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
- 
- 
- 
-Reden van onthouding? (Nee)
-Reden van onthouding? (Nee)
-(Nee)
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? 
-(Non)
-(Non)
- 
- 
- 
-31 Projet de loi modifiant la loi du
-29 avril 1999 relative à l'organisation du marché de l'électricité
-(3082/3)
-31
-31
-31
- Projet de loi modifiant la loi du
-29 avril 1999 relative à l'organisation du marché de l'électricité
-(3082/3)
- Projet de loi modifiant la loi du
-29 avril 1999 relative à l'organisation du marché de l'électricité
-(3082/3)
- Projet de loi modifiant la loi du
-29 avril 1999 relative à l'organisation du marché de l'électricité
-(3082/3)
+### Description in French:
 
+Proposition déposée par:
 
-31 Wetsontwerp tot
-wijziging van de wet van 29 april 1999 betreffende de organisatie van
-de elektriciteits­markt (3082/3)
-31
-31
-31
- Wetsontwerp tot
-wijziging van de wet van 29 april 1999 betreffende de organisatie van
-de elektriciteits­markt (3082/3)
- Wetsontwerp tot
-wijziging van de wet van 29 april 1999 betreffende de organisatie van
-de elektriciteits­markt (3082/3)
- Wetsontwerp tot
-wijziging van de wet van 29 april 1999 betreffende de organisatie van
-de elektriciteits­markt (3082/3)
+Voorstel ingediend door:
 
+Jef Van den Bergh, Joris Vandenbroucke, Nicolas Parent, Kim Buyst.
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Discussion
 
+Bespreking
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2138/8)
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (2138/8)
 
- 
- 
- 
 
-## Proposal 7
 
+L'intitulé en néerlandais a été modifié par la commission en "voorstel van resolutie betreffende de ondersteuning van duurzame groei van gedeelde mobiliteit in België".
 
-(Stemming/vote 6)
+Het opschrift in het Nederlands werd door de commissie gewijzigd in "voorstel van resolutie betreffende de ondersteuning van duurzame groei van gedeelde mobiliteit in België".
 
-(Stemming/vote 6)
-(Stemming/vote 6)
-(Stemming/vote 6)
 
 
+De bespreking is geopend.
 
-Ja
+La discussion est ouverte.
 
 
-116
 
+MM. Nicolas Parent et Emmanuel Burton, rapporteurs, s'en réfèrent au rapport écrit.
 
-Oui
 
 
+19.01  Kim Buyst (Ecolo-Groen): Mevrouw de voorzitter, sta me toe kort het woord te nemen in het debat over het voorstel van resolutie, omdat onze fractie aandacht voor deelmobiliteit zeer belangrijk vindt en wel om de volgende redenen. Ten eerste is gedeelde mobiliteit een manier om onze CO2-uitstoot terug te dringen. Ten tweede, dankzij gedeelde mobiliteit sparen we publieke ruimte uit. Ten derde, gedeelde mobiliteit is goed voor de portemonnee. De aankoop van, bijvoorbeeld, een elektrische wagen, brengt op het moment nog behoorlijke kosten met zich. Wanneer een wagen gedeeld wordt, heeft men geen kosten die verbonden zijn met het privébezit ervan en betaalt men enkel maar voor de kilometers die men rijdt. Dat zijn drie belangrijke redenen voor Ecolo/Groen in het mobiliteitsvraagstuk.
 
-Ja
 
-Ja
-Ja
 
-116
+Heel wat van onze lokale besturen over heel het land – ik herhaal hier graag wat ik in commissie al zei – geven het goede voorbeeld inzake deelmobiliteit. Steden als Leuven, Gent en Mechelen zijn niet meer de enige die al verschillende acties hebben ondernomen om de deelmobiliteit meer ingang te doen vinden bij de burger in de straat. Dan gaat het niet alleen over het delen van wagens, maar evengoed het delen van fietsen of vooralsnog dure elektrische fietsen.
 
-116
-116
 
-Oui
 
-Oui
-Oui
+Voor ons is het voorstel van resolutie belangrijk, omdat deelmobiliteit een aanvulling is voor verplaatsingswijzen, bijvoorbeeld een goed uitgebouwd openbaar vervoer, zodat we echt kunnen gaan naar de noodzakelijke modal shift. Ik dank alvast de indiener van de tekst, de heer Van den Bergh. Het is ook goed dat we in hoorzittingen de verschillende actoren in het veld hierover konden horen. Dat liet toe om de tekst te versterken, zodat hij zich niet beperkt tot het autodelen, maar bijvoorbeeld ook het delen van fietsen behandelt. Op die manier kunnen we werk maken van de modal shift, wat belangrijk is om onze klimaatdoelstellingen te verwezenlijken.
 
 
-Nee
 
+Ik wilde heel kort het woord nemen om duidelijk te maken waarom wij blij zijn met het initiatief en meegewerkt hebben om de tekst nog sterker te maken. Ik ben ook blij dat alle partijen de tekst in de commissie zo positief onthaald hebben.
 
-0
 
 
-Non
+19.02  Pieter De Spiegeleer (VB): Mevrouw de voorzitster, de Vlaams Belangfractie steunt het voorstel. In de commissie hebben we twee amendementen ingediend, die we opnieuw zullen indienen. In het kader daarvan geef ik een korte toelichting om zo onze motivatie enige kracht bij te zetten.
 
 
 
-Nee
+Mevrouw Buyst verwees zopas naar lokale besturen die ter zake al initiatieven nemen. Om deelmobiliteit te ondersteunen en dichter bij de burger te brengen, kan en moet de federale overheid een voorbeeldfunctie vervullen. De amendementen die wij daartoe hebben ingediend, beogen de deelmobiliteit beter te faciliteren en te stimuleren.
 
-Nee
-Nee
 
-0
 
-0
-0
+Minister De Sutter haalde afgelopen week de pers door te jubelen dat de federale ambtenaren de kroon spannen in het gebruik van de trein voor woon-werkverkeer. Dat is natuurlijk vooral te danken aan de toepassing van het derde-betalerssysteem voor abonnementen. Het zou een goede zaak zijn als minister De Sutter die ambtenaren ook kan bejubelen, omdat ze kampioen zijn in het gebruiken van deelauto’s.
 
-Non
 
-Non
-Non
 
+Ik dank u alvast om onze amendementen te steunen. Het eerste amendement strekt ertoe de federale regering op te roepen om via de minister bevoegd voor Ambtenarenzaken in afzonderlijke gratis parkeerplaatsen voor deelauto’s ten behoeve van het personeel te voorzien in of nabij de federale overheidsgebouwen. Het tweede amendement strekt ertoe bij de federale regering op aan te dringen om maatregelen te nemen om in de nabijheid van haar gebouwen van openbaar nut zoals ministeries en ambassades, in gratis parkeerplaatsen te voorzien voor deelauto’s die gebruikt worden door burgers wier bezoek tot doel heeft de diensten van en in dat gebouw.
 
-Onthoudingen
 
 
-12
+19.03  Jef Van den Bergh (cd&v): Mevrouw de voorzitster, geachte collega’s, ik ga u geen klassieke samenvatting van de overwegingen en aanbevelingen uit de voorliggende resolutie geven. U kunt die nalezen. Ik wil vooral even duiden waarom we het onderwerp van de deelmobiliteit zo belangrijk vinden voor onze mobiliteit, voor onze samenleving. Waarom hebben wij dit op de politieke agenda gezet?
 
 
-Abstentions
 
+Ik begin met enkele cijfers. We leven in een klein land van 30.688 vierkante kilometer. Daarop wonen 11,6 miljoen Belgen, zo’n 377 per vierkante kilometer. Op diezelfde 30.688 vierkante kilometer staan 5.947.479 personenwagens, dus bijna 6 miljoen. Dat zijn gemiddeld 200 personenwagens per vierkante kilometer. Dan tellen we alleen de personenwagens.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+In 2019 nam de totale vloot aan geparkeerde personenwagens in Vlaanderen bijna 74 vierkante kilometer ruimte in. De totale oppervlakte aan aangelegde parkeerruimte in Vlaanderen was nog eens drie keer zo groot met ruim 200 vierkante kilometer, niet bepaald efficiënt.
 
-12
 
-12
-12
 
-Abstentions
+Zes miljoen personenwagens met gemiddeld vier plaatsen per wagen, dat betekent dat er autoplaatsen voor 24 miljoen mensen in ons land zijn. We zijn met 11,6 miljoen inwoners. De bezettingsgraad van die wagens bedraagt gemiddeld minder dan 1,2. Dat is ook niet bepaald efficiënt.
 
-Abstentions
-Abstentions
 
 
-Totaal
+Ondertussen is de filezwaarte in Vlaanderen in het voorbije decennium met maar liefst 50 % toegenomen en het aantal voertuigverliesuren is in die periode met maar liefst 70 % gestegen. In 2022 werden de kosten voor de files in ons land op 4,8 miljard euro geraamd.
 
 
-128
 
+Personenwagens staan ook  niet alleen stil in de file, ze staan eigenlijk tout court meestal stil. Onderzoek toont aan dat privéwagens meer dan 95 % van de tijd ongebruikt geparkeerd staan. Nochtans is die auto na wonen de grootste uitgave die een gemiddeld gezin maakt. Dat is niet bepaald efficiënt.
 
-Total
 
 
+Collega’s, een hele reeks cijfers om aan te geven dat nadenken over ons mobiliteitssysteem, dat nog grotendeels een autosysteem is, een rationele noodzaak is, los van auto- of anti-auto-ideologieën. Mobiliteit is essentieel en noodzakelijk om aan onze samenleving te kunnen participeren. De toegenomen mobiliteitsmogelijkheden van de afgelopen eeuw, met een centrale rol voor de auto, hebben voor veel maatschappelijke voordelen gezorgd, sociaal en economisch, maar de ongebreidelde groei van het aantal wagens en vooral de ruimte die we daaraan moeten spenderen in ons dichtbevolkte land kunnen we niet blijven volhouden. De manier waarop we vandaag onze mobiliteit organiseren, heeft immers en grote impact op onze openbare ruimte, onze gezondheid, het leefmilieu en het klimaat. De uitstoot van broeikasgassen veroorzaakt door wegvervoer in België is sinds 1990 met 25 % gestegen en mobiliteit is verantwoordelijk voor een kwart van alle CO2-uitstoot in ons land, samen met de verwarming van gebouwen de enige sector waarvan de schadelijke uitstoot blijft toenemen ondanks efficiëntere motoren.
 
-Totaal
 
-Totaal
-Totaal
 
-128
+Om de impact van mobiliteit op onze leefomgeving te verminderen zonder aan mobiliteit te moeten inboeten, moet iedereen zich bewust zijn van zijn mobiliteitskeuzes. Mits een breed aanbod aan mobiliteitsmogelijkheden, inclusief deelmobiliteit, en even nadenken over welk vervoermiddel het beste geschikt is voor welke verplaatsing - als we die overweging kunnen maken - zouden we al heel wat verder staan.
 
-128
-128
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
- 
- 
- 
-Raison d'abstention? (Non) 
-Raison d'abstention? (Non) 
-Non
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-Nee
+In die multimobiliteit heeft ook de personenwagen, bij voorkeur emissieloos, een rol te spelen. Het is en blijft een handig, comfortabel en flexibel vervoermiddel. De belangrijkste verschuivingen in ons verkeersgedrag zullen er volgens ons dan ook niet komen door enkel in te zetten op alternatieven voor de wagen, maar eerder door ook slim in te zetten op combimobiliteit, een gemakkelijk bereikbare en toegankelijke waaier aan mobiliteitsmogelijkheden. Deelmobiliteit biedt daarin individuele flexibiliteit, zonder bijkomende parkeerdruk en zonder een groeiend aantal verplaatsingen op termijn, net omdat de keuze voor de wagen bewust wordt gemaakt, een bewuste keuze eerder dan een ‘auto-matisme’.
 
- 
- 
- 
-32 Amendements réservés à la proposition
-de résolution visant à soutenir la croissance durable de la mobilité partagée
-en Belgique (2138/1-9)
-32
-32
-32
- Amendements réservés à la proposition
-de résolution visant à soutenir la croissance durable de la mobilité partagée
-en Belgique (2138/1-9)
- Amendements réservés à la proposition
-de résolution visant à soutenir la croissance durable de la mobilité partagée
-en Belgique (2138/1-9)
- Amendements réservés à la proposition
-de résolution visant à soutenir la croissance durable de la mobilité partagée
-en Belgique (2138/1-9)
 
 
-32 Aangehouden
-amendementen op het voorstel van resolutie betreffende de ondersteuning van duurzame
-groei van gedeelde mobiliteit in België (2138/1-9)
-32
-32
-32
- Aangehouden
-amendementen op het voorstel van resolutie betreffende de ondersteuning van duurzame
-groei van gedeelde mobiliteit in België (2138/1-9)
- Aangehouden
-amendementen op het voorstel van resolutie betreffende de ondersteuning van duurzame
-groei van gedeelde mobiliteit in België (2138/1-9)
- Aangehouden
-amendementen op het voorstel van resolutie betreffende de ondersteuning van duurzame
-groei van gedeelde mobiliteit in België (2138/1-9)
+Deelmobiliteit ontgroeit ondertussen de kinderschoenen. Deelfietsen, deelbromfietsen en deelsteps bieden in stedelijke omgevingen alternatieven voor kortere afstanden en voor voor- en natransport. Deelauto’s werden ooit beschouwd als iets voor alternativo’s. Vandaag blijkt het vooral iets voor slimme rekenaars. Een deelwagen is immers een interessante aanvulling op de mobiliteitsmogelijkheden voor mensen die zich geen wagen kunnen permitteren, maar is ook een heel interessant alternatief voor gezinnen die hun privéwagen of hun tweede wagen niet intensief gebruiken. Wie minder dan 15.000 kilometer per jaar rijdt, is immers vaak beter af met een deelwagen in plaats van een eigen wagen. Het is dan ook niet verwonderlijk dat het aantal gebruikers van deelmobiliteit de jongste jaren vrij spectaculair stijgt, wat een win-win kan betekenen voor iedereen.
 
 
- 
- 
- 
-Vote sur l'amendement n° 21 de Pieter De
-Spiegeleer cs tendant à insérer un article 12(n).(2138/9)
-Vote sur l'amendement n° 21 de Pieter De
-Spiegeleer cs tendant à insérer un article 12(n).(2138/9)
-(2138/9)
 
-Stemming over amendement nr. 21 van Pieter
-De Spiegeleer cs tot invoeging van een artikel 12(n).(2138/9)
-Stemming over amendement nr. 21 van Pieter
-De Spiegeleer cs tot invoeging van een artikel 12(n).(2138/9)
-(2138/9)
+Daarom is het ook goed dat het beleid daar op verschillende niveaus de nodige aandacht en stimulansen aan geeft. Collega Buyst verwees reeds naar de lokale besturen. Ook landelijke gemeenten doen dat trouwens. Collega Buyst verwees naar een aantal steden, maar ook landelijke gemeenten investeren in deelmobiliteit. Ook regionaal, op Vlaams niveau, worden er initiatieven genomen en nu ook federaal.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Ik ben dan ook erg tevreden dat wij vandaag voorliggende resolutie ter ondersteuning van deelmobiliteit ter stemming kunnen voorleggen.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 8
+Er is heel wat tijd en werk in gestoken, met hoorzittingen en schriftelijke adviezen. Ik dank dan ook de collega’s van de commissie, onder het voorzitterschap van collega Delizée, voor het constructieve werk aan deze resolutie. De elf aanbevelingen zullen deelmobiliteit verder mee stimuleren. Dat duwtje in de rug van deelmobiliteit, dat duwtje in de goede richting voor ons mobiliteitssysteem geven wij vandaag met deze resolutie.
 
 
-(Stemming/vote 7)
 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
+19.04  Maria Vindevoghel (PVDA-PTB): Dat was een hele uitleg met veel cijfers, mijnheer Van den Bergh. Deelmobiliteit zit inderdaad in de lift en het is duidelijk dat dit kansen creëert, maar het zorgt ook voor heel wat problemen. Door de marktwerking verschijnen er heel wat nieuwe, kleine en lokale initiatieven en zo dreigt elke stad of regio zijn eigen deelsysteem te ontwikkelen en dat is nefast voor de ontwikkeling van die deelmobiliteit. De verschillende deelsystemen zijn vandaag niet op elkaar afgestemd en zijn concurrenten van elkaar. Denk maar aan de vele rondslingerende steps op de stoepen.  De mensen die willen overschakelen naar een duurzame vorm van vervoer verwachten een goedwerkend systeem waarmee ze zich in heel België kunnen verplaatsen.
 
 
 
-Ja
+Indien we de werkende mensen in de richting van een duurzamere vorm van vervoer willen sturen, dan moet er een goed functionerend systeem zijn waarmee ze zich in heel België kunnen verplaatsen. Voor ons blijft het openbaar vervoer nog steeds de beste vorm van deelmobiliteit. Ik denk daarbij aan de NMBS, De Lijn, TEC, MIVB en daarom heeft onze fractie een amendement ingediend om deze actoren een belangrijke verantwoordelijkheid te geven in het delen van steps, fietsen en auto’s. De NMBS, beschikt over infrastructuur in heel het land: stations, parkings, leegstaande gebouwen, loketten… Het was ons voorstel dat zij de verantwoordelijkheid zou nemen om die deelmobiliteit te organiseren. Het huidige voorstel laat dit over aan de privéspelers die veel concurrentie op het terrein organiseren. Indien de NMBS zulke belangrijke rol speelt in de deelmobiliteit, moet ze die ook zelf kunnen leiden. Alleen zij beschikt over de schaalgrootte, de organisatie en de kennis om het verschil te kunnen maken op het vlak van mobiliteit.
 
 
-17
 
+De deelmobiliteit komt vooral moeilijk tot ontwikkeling in de landelijkere gebieden. Dat is logisch, want daar kan minder winst worden gemaakt. Als men het dus aan de markt overlaat, zullen veel mensen uit de boot vallen, vooral dan in de landelijke gebieden, waar dit superbelangrijk is.
 
-Oui
 
 
+Ik blijf herhalen dat de beste deelmobiliteit voor de PVDA het openbaar vervoer is en dat we vooral dat niet mogen verwaarlozen. Ik ben vanmorgen nog naar de actie geweest van de vakbonden naar aanleiding van de agressie op de treinen. Er waren gisteren opnieuw problemen in Kortrijk, in het weekend waren er ook problemen. Het personeel van de NMBS slaakt een cri du coeur. Ze vragen om mensen, om middelen om het vervoer te kunnen verzekeren. We moeten echt zorgen dat daar meer middelen zijn voor die mensen om hun job goed te kunnen uitoefenen en om ons openbaar vervoer goed te laten rijden.
 
-Ja
 
-Ja
-Ja
 
-17
+De PVDA zal deze resolutie steunen omdat we denken dat het wel een vooruitgang is, maar we vinden het eigenlijk jammer dat het niet meer verantwoordelijkheid geeft aan de huidige openbare mobiliteitsbedrijven, zoals de NMBS.
 
-17
-17
 
-Oui
 
-Oui
-Oui
+19.05  Joris Vandenbroucke (Vooruit): Ik wil eerst de initiatiefnemer, de heer Van den Bergh, bedanken voor de resolutie rond gedeelde mobiliteit. Ik ben het volmondig eens met alles wat hij daarnet heeft gezegd. Gedeelde mobiliteit is echt een sleutel om onze mobiliteit te verduurzamen, ook om bijvoorbeeld vervoersarmoede aan te pakken.
 
 
-Nee
 
+Ik zeg dat natuurlijk ook als inwoner van de autodeelhoofdstad van België, namelijk Gent, waar meer dan 16.000 Gentenaars meer dan 1.100 wagens met elkaar delen die worden aangeboden door 8 verschillende aanbieders. De grootste aanbieder is geen commercieel bedrijf, maar een initiatief van particulier autodelen Dégage! dat ondertussen al jarenlang bestaat, dat steeds meer leden, steeds meer gezinnen kan overtuigen om daaraan deel te nemen.
 
-110
 
 
-Non
+U zegt dat de gedeelde mobiliteit of de markt van het autodelen gedomineerd wordt door private bedrijven die elkaar kapot concurreren. Dat klopt absoluut niet, integendeel. We hebben ervoor gezorgd dat onze stad een vruchtbare bodem is voor zoveel mogelijk aanbieders. We zien dat ook heel wat gezinnen voor wie een eigen wagen onbetaalbaar is of die misschien wel een wagen kunnen kopen, maar geen plaats hebben om hem te stallen, toch een wagen kunnen gebruiken, indien nodig.
 
 
 
-Nee
+Er zijn drie belangrijke redenen waarom gedeelde mobiliteit de toekomst is.
 
-Nee
-Nee
 
-110
 
-110
-110
+Ten eerste, het is goed voor de portemonnee van de mensen die het doen. Wie geen eigen wagen koopt maar een deelwagen gebruikt, bespaart tot 3.000 euro per jaar.
 
-Non
 
-Non
-Non
 
+Ten tweede, het is goed voor het milieu. Uit onderzoek blijkt immers dat mensen die aan autodelen doen, 30 % minder vaak de wagen gebruiken dan degenen die een eigen wagen hebben.
 
-Onthoudingen
 
 
-0
+Ten derde, het is goed voor het vrijmaken van publieke ruimte. Collega Van den Bergh zei het reeds, wagens staan ongeveer 95 % van de tijd stil. Het is doodzonde, zeker in stedelijk gebied, dat zoveel ruimte moet worden opgeofferd voor stilstaand blik.
 
 
-Abstentions
 
+Met andere woorden, wij staan volmondig achter deze resolutie. Daarom heb ik ze ook graag mee ondertekend, collega Van den Bergh.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
-0
+Vraagt nog iemand het woord? (Nee)
 
-0
-0
 
-Abstentions
 
-Abstentions
-Abstentions
+La discussion est close.
 
+De bespreking is gesloten.
 
-Totaal
 
 
-127
+*  *  *  *  *
 
+Amendements déposés:
 
-Total
+Ingediende amendementen:
 
 
 
-Totaal
+Demande/Verzoek 12(n)
 
-Totaal
-Totaal
+• 21 – Pieter De Spiegeleer cs (2138/9)
 
-127
+Demande/Verzoek 13(n)
 
-127
-127
+• 22 – Pieter De Spiegeleer cs (2138/9)
 
-Total
+*  *  *  *  *
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 22 de Pieter De
-Spiegeleer cs tendant à insérer un article 13(n).(2138/9)
-Vote sur l'amendement n° 22 de Pieter De
-Spiegeleer cs tendant à insérer un article 13(n).(2138/9)
-(2138/9)
 
-Stemming over amendement nr. 22 van Pieter
-De Spiegeleer cs tot invoeging van een artikel 13(n).(2138/9)
-Stemming over amendement nr. 22 van Pieter
-De Spiegeleer cs tot invoeging van een artikel 13(n).(2138/9)
-(2138/9)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Réservés: les amendements.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+Aangehouden: de amendementen.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+Le vote sur les amendements réservés et sur l’ensemble de la proposition aura lieu ultérieurement.
 
-## Proposal 9
+De stemming over de aangehouden amendementen en over het geheel van het voorstel zal later plaatsvinden.
 
 
-(Stemming/vote 8)
 
-(Stemming/vote 8)
-(Stemming/vote 8)
-(Stemming/vote 8)
+Nous abordons le projet de loi portant modification de la loi du 11 décembre 1998 relative à la classification et aux habilitations, attestations et avis de sécurité (2443/1-8)
 
 
 
-Ja
+19.06  Yngvild Ingels (N-VA): Collega’s, ik stel vast dat de bevoegde ministers niet aanwezig zijn voor de bespreking van dit wetsontwerp.
 
 
-17
 
+19.07 Minister Tinne Van der Straeten: Ik heb begrepen dat collega Dedonder op weg is naar het Parlement en dat collega Lahbib van Buitenlandse Zaken onverwacht verhinderd is wegens een urgent overleg.
 
-Oui
 
 
+De voorzitster: Ja, wat doen wij dan?
 
-Ja
 
-Ja
-Ja
 
-17
+19.08  Bert Wollants (N-VA): Voor mij is de vraag wanneer de bevoegde minister hier wel kan zijn. Onverwacht overleg, goed, maar als hier een wetsontwerp behandeld wordt, lijkt het mij toch nuttig dat de bevoegde minister aanwezig is.
 
-17
-17
 
-Oui
 
-Oui
-Oui
+De voorzitster: Ik weet dat mevrouw Dedonder onderweg is.
 
 
-Nee
 
+19.09 Minister Tinne Van der Straeten: Mevrouw Dedonder is effectief onderweg. Mevrouw Lahbib zou hier sowieso zijn. Het was absoluut haar intentie hier te zijn. Ik ben gewoon ook verwittigd dat er iets onverwachts en dringends was waardoor zij hier toch niet kan zijn.
 
-84
 
 
-Non
+19.10  Yngvild Ingels (N-VA): Wij kunnen dit punt uitstellen tot volgende week?
 
 
 
-Nee
+De voorzitster: Misschien kunnen wij intussen punt 13 behandelen. De heer Van Lommel is er en mevrouw Leonie is niet ver. Zo kunnen wij tijd winnen, terwijl minister Dedonder naar hier komt.
 
-Nee
-Nee
 
-84
 
-84
-84
+Je propose de passer au point 13 en attendant que la ministre nous rejoigne.
 
-Non
 
-Non
-Non
 
+### Discussed proposals:
 
-Onthoudingen
+## Proposal discussion (agenda item 20)
 
+### Description in Dutch:
 
-23
+None
 
+### Description in French:
 
-Abstentions
+None
 
 
 
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-23
-
-23
-23
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-124
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-124
-
-124
-124
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-33 Ensemble de la proposition de
-résolution visant à soutenir la croissance durable de la mobilité partagée en
-Belgique (nouvel intitulé) (2138/8)
-33
-33
-33
- Ensemble de la proposition de
-résolution visant à soutenir la croissance durable de la mobilité partagée en
-Belgique (nouvel intitulé) (2138/8)
- Ensemble de la proposition de
-résolution visant à soutenir la croissance durable de la mobilité partagée en
-Belgique (nouvel intitulé) (2138/8)
- Ensemble de la proposition de
-résolution visant à soutenir la croissance durable de la mobilité partagée en
-Belgique (nouvel intitulé) (2138/8)
-
-
-33 Geheel van het
-voorstel van resolutie betreffende de ondersteuning van duurzame groei van
-gedeelde mobiliteit in België (nieuw opschrift) (2138/8)
-33
-33
-33
- Geheel van het
-voorstel van resolutie betreffende de ondersteuning van duurzame groei van
-gedeelde mobiliteit in België (nieuw opschrift) (2138/8)
- Geheel van het
-voorstel van resolutie betreffende de ondersteuning van duurzame groei van
-gedeelde mobiliteit in België (nieuw opschrift) (2138/8)
- Geheel van het
-voorstel van resolutie betreffende de ondersteuning van duurzame groei van
-gedeelde mobiliteit in België (nieuw opschrift) (2138/8)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 10
-
-
-(Stemming/vote 9)
-
-(Stemming/vote 9)
-(Stemming/vote 9)
-(Stemming/vote 9)
-
-
-
-Ja
-
-
-127
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-127
-
-127
-127
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-127
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-127
-
-127
-127
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en
-sera donné connaissance au gouvernement.
-En conséquence, la Chambre adopte la
-proposition de résolution. 
-Il en
-sera donné connaissance au gouvernement.
-
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht.
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht.
- 
- 
- 
-34 Projet de loi portant modification de
-la loi du 11 décembre 1998 relative à la classification et aux
-habilitations, attestations et avis de sécurité (2443/8)
-34
-34
-34
- Projet de loi portant modification de
-la loi du 11 décembre 1998 relative à la classification et aux
-habilitations, attestations et avis de sécurité (2443/8)
- Projet de loi portant modification de
-la loi du 11 décembre 1998 relative à la classification et aux
-habilitations, attestations et avis de sécurité (2443/8)
- Projet de loi portant modification de
-la loi du 11 décembre 1998 relative à la classification et aux
-habilitations, attestations et avis de sécurité (2443/8)
-
-
-34 Wetsontwerp
-houdende wijziging van de wet van 11 december 1998 betreffende de
-classificatie en de veiligheidsmachtigingen, veiligheidsattesten en
-veiligheidsadviezen (2443/8)
-34
-34
-34
- Wetsontwerp
-houdende wijziging van de wet van 11 december 1998 betreffende de
-classificatie en de veiligheidsmachtigingen, veiligheidsattesten en
-veiligheidsadviezen (2443/8)
- Wetsontwerp
-houdende wijziging van de wet van 11 december 1998 betreffende de
-classificatie en de veiligheidsmachtigingen, veiligheidsattesten en
-veiligheidsadviezen (2443/8)
- Wetsontwerp
-houdende wijziging van de wet van 11 december 1998 betreffende de
-classificatie en de veiligheidsmachtigingen, veiligheidsattesten en
-veiligheidsadviezen (2443/8)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 11
-
-
-(Stemming/vote 10)
-
-(Stemming/vote 10)
-(Stemming/vote 10)
-(Stemming/vote 10)
-
-
-
-Ja
-
-
-76
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-76
-
-76
-76
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-52
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-52
-
-52
-52
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-128
-
-128
-128
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
- 
- 
- 
-Raison d'abstention? (Non) 
-Raison d'abstention? (Non) 
-Non
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-Nee
-
- 
- 
- 
-35 Projet de loi portant assentiment de
-l'accord de coopération du 30 novembre 2022 entre l'État fédéral, la
-Région flamande, la Région wallonne, la Région de Bruxelles-Capitale, la
-Communauté flamande, la Communauté française, la Communauté germanophone, la
-Commission communautaire française et la Commission communautaire commune
-visant à instaurer un mécanisme de filtrage des investissements directs
-étrangers (3079/1)
-35
-35
-35
- Projet de loi portant assentiment de
-l'accord de coopération du 30 novembre 2022 entre l'État fédéral, la
-Région flamande, la Région wallonne, la Région de Bruxelles-Capitale, la
-Communauté flamande, la Communauté française, la Communauté germanophone, la
-Commission communautaire française et la Commission communautaire commune
-visant à instaurer un mécanisme de filtrage des investissements directs
-étrangers (3079/1)
- Projet de loi portant assentiment de
-l'accord de coopération du 30 novembre 2022 entre l'État fédéral, la
-Région flamande, la Région wallonne, la Région de Bruxelles-Capitale, la
-Communauté flamande, la Communauté française, la Communauté germanophone, la
-Commission communautaire française et la Commission communautaire commune
-visant à instaurer un mécanisme de filtrage des investissements directs
-étrangers (3079/1)
- Projet de loi portant assentiment de
-l'accord de coopération du 30 novembre 2022 entre l'État fédéral, la
-Région flamande, la Région wallonne, la Région de Bruxelles-Capitale, la
-Communauté flamande, la Communauté française, la Communauté germanophone, la
-Commission communautaire française et la Commission communautaire commune
-visant à instaurer un mécanisme de filtrage des investissements directs
-étrangers (3079/1)
-
-
-35 Wetsontwerp
-houdende instemming met het samenwerkingsakkoord van 30 november 2022
-tussen de Federale Staat, het Vlaams Gewest, het Waals Gewest, het Brussels
-Hoofdstedelijk Gewest, de Vlaamse Gemeenschap, de Franse Gemeenschap, de
-Duitstalige Gemeenschap, de Franse Gemeenschapscommissie en de
-Gemeenschappelijke Gemeenschapscommissie tot het invoeren van een mechanisme
-voor de screening van buitenlandse directe investeringen (3079/1)
-35
-35
-35
- Wetsontwerp
-houdende instemming met het samenwerkingsakkoord van 30 november 2022
-tussen de Federale Staat, het Vlaams Gewest, het Waals Gewest, het Brussels
-Hoofdstedelijk Gewest, de Vlaamse Gemeenschap, de Franse Gemeenschap, de
-Duitstalige Gemeenschap, de Franse Gemeenschapscommissie en de
-Gemeenschappelijke Gemeenschapscommissie tot het invoeren van een mechanisme
-voor de screening van buitenlandse directe investeringen (3079/1)
- Wetsontwerp
-houdende instemming met het samenwerkingsakkoord van 30 november 2022
-tussen de Federale Staat, het Vlaams Gewest, het Waals Gewest, het Brussels
-Hoofdstedelijk Gewest, de Vlaamse Gemeenschap, de Franse Gemeenschap, de
-Duitstalige Gemeenschap, de Franse Gemeenschapscommissie en de
-Gemeenschappelijke Gemeenschapscommissie tot het invoeren van een mechanisme
-voor de screening van buitenlandse directe investeringen (3079/1)
- Wetsontwerp
-houdende instemming met het samenwerkingsakkoord van 30 november 2022
-tussen de Federale Staat, het Vlaams Gewest, het Waals Gewest, het Brussels
-Hoofdstedelijk Gewest, de Vlaamse Gemeenschap, de Franse Gemeenschap, de
-Duitstalige Gemeenschap, de Franse Gemeenschapscommissie en de
-Gemeenschappelijke Gemeenschapscommissie tot het invoeren van een mechanisme
-voor de screening van buitenlandse directe investeringen (3079/1)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de stemming
-/ Fin du vote.
-Einde van de stemming
-/ Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
+### Discussed proposals:
 
 Motion # 1.
 

@@ -6,3254 +6,1865 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip272.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip272x.html
 
-## Proposal 1
+## Proposal discussion (agenda item 20)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3490/7)
+Het wetsontwerp telt 29 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen, de aangehouden artikelen en over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3490/7)
+Le projet de loi compte 29 articles.
+La discussion des articles est close. Le vote sur les amendements et articles réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
 
- 
- 
- 
-33.04  Catherine Fonck (Les
-Engagés): Nous assurons un pairage pour la collègue Nawal Farih absente
-pour raison de maladie. Georges Dallemagne adaptera son vote.
-33.04
-33.04
-  Catherine Fonck 
-  Catherine Fonck 
- 
-(Les
-Engagés): Nous assurons un pairage pour la collègue Nawal Farih absente
-pour raison de maladie. Georges Dallemagne adaptera son vote.
- 
- 
- 
-33.05  Sofie Merckx (PVDA-PTB):
-Nous assurons un pairage pour Mme Chanelle Bonaventure. C'est
-Mme Maria Vindevoghel qui l'assumera.
-33.05
-33.05
-  Sofie Merckx 
-  Sofie Merckx 
- 
-(PVDA-PTB):
-Nous assurons un pairage pour Mme Chanelle Bonaventure. C'est
-Mme Maria Vindevoghel qui l'assumera.
- 
- 
- 
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 21)
+
+### Description in Dutch:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Samuel Cogolati, Christophe Lacroix, Michel De Maegd, Els Van Hoof, Goedele Liekens, Vicky Reynaert, Wouter De Vriendt, Peter De Roover, Georges Dallemagne, François De Smet.
+
+
+
+Discussion
+
+Bespreking
+
+
+
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3147/5)
+
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (3147/5)
+
+
+
+La discussion est ouverte.
+
+De bespreking is geopend.
+
+
+
+Le rapporteur, Mme Annick Ponthier, renvoie au rapport écrit.
+
+
+
+21.01  Samuel Cogolati (Ecolo-Groen): Il y a un peu plus d'un an, j'étais très fier d'accueillir avec plusieurs collègues Mme Svetlana Tikhanovskaïa, l'icône de la résistance bélarusse ici, sur la place de la Nation à la Chambre des représentants. Il faut en effet le faire: combattre et s'opposer au dernier dictateur d'Europe, Alexandre Loukachenko, au pouvoir sans discontinuité depuis 1994.
+
+
+
+C'est elle qui en 2020 s'est portée candidate à l'élection présidentielle à la place de son mari emprisonné. Dans son machisme absolu, Loukachenko s'était dit qu'en emprisonnant les hommes, il n'aurait plus à craindre cette opposition dans son pays. C'était sans compter l'incroyable combat, la lutte des femmes toujours en liberté. C'est donc elle, Svetlana, qui se bat aujourd'hui en exil pour son peuple contre la machine de guerre de Vladimir Poutine en Ukraine, alors que le père de ses enfants est toujours écroué au Bélarus.
+
+
+
+Il faut prendre conscience de l'horreur du régime de Loukachenko.
+
+
+
+Le KGB existe encore dans son pays: il torture les travailleurs qui oseraient faire grève ou les jeunes étudiants qui marchent pacifiquement dans la rue. Depuis 2020, plus de 16 000 affaires pénales à motivation politique ont été engagées. Le Bélarus compte à ce jour 1 453 prisonniers politiques, dont l'ancienne candidate à la présidentielle, Maria Kolesnikova, condamnée à plus de 3 000 ans de prison au total; 765 ONG y ont été fermées et 20 personnes carrément tuées. L'hiver dernier, Loukachenko a propulsé des migrants comme de la chair à canon sur les zones forestières bordant les frontières de la Pologne et de la Lituanie.
+
+
+
+Nous avions promis à nos collègues bélarusses de ne pas lâcher le combat et de les soutenir dans leurs efforts pour une transition démocratique dans leur pays. Nous avons ainsi créé un groupe informel de soutien à l'opposition bélarusse et aujourd'hui, je suis très fier de pouvoir leur annoncer que nous adoptons enfin une résolution de soutien à la transition démocratique dans leur pays.
+
+
+
+C'est assez rare que pour ne pas le mentionner: nous sommes dix partis démocratiques à avoir cosigné le même texte en soutien à l'opposition démocratique au Bélarus. Je salue de tout cœur les collègues qui d'emblée ont accepté de cosigner ce texte.
+
+
+
+Au cours des débats, néanmoins, je dois tout de même observer que deux partis, deux partis uniquement, ont émis des réserves, voire carrément une abstention. Il s'agit du PTB, qui s'est abstenu, jugeant qu'il ne faut pas sanctionner le régime de Loukachenko et ses sbires, et du Vlaams Belang, jugeant qu'il faut éviter de trop soutenir le modèle démocratique, – je cite – "par crainte de créer des soulèvements, comme en Syrie, en Égypte et en Libye" et, plus loin "il faut se garder de soutenir l'entame d'un processus de transition démocratique au Bélarus".
+
+
+
+Eh bien moi, je veux dire au PTB et aussi au Vlaams Belang que, quand les travailleurs font grève à Minsk et manifestent dans la rue avec des drapeaux rouge et blanc, que ces travailleurs sont matraqués par des agents encagoulés de la police de Loukachenko, quand ils sont arrêtés en masse, torturés, condamnés à mort dans ces geôles de la honte, moi je suis fier de dire que nous, partis démocratiques belges, sommes et resterons toujours à leurs côtés. Ce sont des dizaines de milliers de personnes qui subissent les persécutions sans relâche de la part de ce dictateur de Loukachenko et vous, aujourd'hui, vous jugez qu'il ne faudrait pas s'en mêler? Franchement, not in my name!
+
+
+
+Voilà, chers collègues, le texte que nous adoptons aujourd'hui. Je crois qu'il convient en effet de choisir son camp, non pas celui de l'ignoble mais le camp de ceux qui résistent. C'est ce que nous faisons, en déclarant solennellement aujourd'hui en plénière que, oui, nous sommes aux côtés de Svetlana.
+
+
+
+Svetlana est d'ailleurs au courant de l'adoption aujourd'hui de ce texte à la Chambre des représentants. Elle envoie un signal de gratitude à l'ensemble des collègues et nous invite aussi, le 6 décembre prochain, au Parlement européen, pour la grande réunion de coordination entre l'opposition démocratique bélarusse et l'Union européenne.
+
+
+
+J'ai envie de terminer en disant Жывы Беларус! (vive le Bélarus)!
+
+
+
+21.02  Nabil Boukili (PVDA-PTB): Madame la présidente, chers collègues, les pratiques répressives et antidémocratiques du régime de Loukachenko sont bien connues et tout à fait condamnables. Je pense que personne ne les approuve dans cet hémicycle, je l'espère en tout cas. Nous condamnons également les fraudes électorales et la répression contre l'opposition politique, les citoyens et les syndicats, bien sûr.
+
+
+
+Comme toujours, la question est de savoir comment traiter avec un gouvernement qui bafoue les principes démocratiques et humanitaires. Optons-nous pour des contacts diplomatiques intensifs avec des échanges et une diplomatie quand c'est possible ou allons-nous dans la logique présentée dans ce texte, c'est-à-dire la logique de sanction? Dans cette résolution, vous avez choisi la voie des sanctions unilatérales, qui sont non seulement illégales mais aussi inefficaces et même contreproductives.
+
+
+
+Nous sommes d'accord sur le constat des nombreuses violations des principes démocratiques et des droits de l'homme au Bélarus, dernière dictature en Europe de l'Est, mais nous divergeons sur la manière de les traiter. Vous reconnaissez d'ailleurs vous-même dans ce texte que non seulement les sanctions contre le Bélarus n'ont pas atteint leur objectif mais que la situation s'est même aggravée depuis ces sanctions. Or, dans le même paragraphe, vous demandez encore plus de sanctions. Cela défie toute logique. Permettez-moi de citer le passage en question au bas de la page 5 de l'exposé des motifs: "Malgré la série de sanctions successives contre son régime, Loukachenko refuse toujours d'entamer un dialogue avec l'opposition. Dans le même temps, la répression des opposants politiques et des médias dissidents s'intensifie sans relâche. En conséquence, la Belgique doit urgemment appeler à des sanctions économiques et diplomatiques fortes." Ce texte dit explicitement que les sanctions n'ont pas fonctionné et que donc il faut plus de sanctions. On prend un chemin qui ne fonctionne pas mais on continue droit dans le mur. C'est votre choix.
+
+
+
+Les sanctions croissantes ont d'ailleurs poussé le pays à se rapprocher de la Russie, ce qui a déjà permis à la Russie d'envahir l'Ukraine par son intermédiaire. Le pays est maintenant également prêt à autoriser les armes nucléaires russes sur le territoire du Bélarus. C'est tout à fait dangereux et condamnable.
+
+
+
+Après, vous le condamnez dans ce texte et dans une de ses demandes, ce qui est tout à fait hypocrite parce qu'en Belgique, on fait tout à fait la même chose – et, de cela, vous ne dites pas un mot. Vous coopérez à un accord de partage nucléaire en tant qu'État théoriquement exempt d'armes nucléaires, en permettant à une superpuissance d'y installer des armes nucléaires. Il est d'ailleurs frappant de constater que vous n'avez aucune difficulté à admettre le danger de cette stratégie lorsqu'il s'agit du Bélarus, à juste titre, mais que, par contre, vous ne dites pas un mot sur les armes nucléaires américaines à Kleine-Brogel. C'est pourtant exactement la même chose. Dans le cas du Bélarus et de la Russie, c'est dangereux; mais, à Kleine-Brogel, c'est tout à fait acceptable.
+
+
+
+Lors de l'examen de ce texte, l'avis du rapporteur spécial des Nations Unies a également été sollicité. Dans son avis, elle n'a pas du tout mentionné les sanctions, au contraire, elle s'est contenté d'encourager le dialogue avec le gouvernement de Loukachenko.
+
+
+
+Cette résolution est une démonstration supplémentaire du deux poids deux mesures pratiqué dans ce Parlement. Les sanctions contre le Bélarus ne relèvent pas du droit international, elles ne sont pas non plus demandées par les Nations Unies et, pourtant, ce Parlement est tout à fait disposé à l'ignorer et à opter pour des sanctions illégales, contre l'avis du droit international.
+
+
+
+D'autre part, nous voyons la situation autour d'Israël. Là, il y a un mandat des Nations Unies; là, des sanctions peuvent être imposées selon le droit international; et que fait ce Parlement? Rien du tout. Pas une sanction n'a été émise contre Israël. Quelle hypocrisie de venir faire la morale ici sur le respect du droit international et des droits humains! S'il y a une urgence vis-à-vis de laquelle il faut agir aujourd'hui en termes de sanctions contre des massacres opérés sur des milliers de personnes, c'est en Israël. Et, là, vous ne levez pas le petit doigt. Mais vous venez faire la leçon sur le Bélarus, tout en étant en contradiction avec le droit international.
+
+
+
+Chers collègues, nous condamnons les pratiques autoritaires et dictatoriales de Loukachenko, mais l'approche proposée dans ce texte n'est à notre avis pas la bonne et n'aura pour effet que de renforcer sa position. Nous choisissons de suivre l'approche proposée par l'ONU, à savoir celle du dialogue, et c'est pourquoi nous nous abstiendrons sur ce texte.
+
+
+
+21.03  Samuel Cogolati (Ecolo-Groen): J'aimerais intervenir rapidement car je ne peux pas laisser dire n'importe quoi. Quand vous dites que vous soutenez des sanctions contre Israël à la suite de crimes de guerre et de massacres commis notamment à Gaza, vous savez pertinemment bien que plusieurs partis au sein de cette assemblée soutiennent l'initiative de prendre des sanctions aujourd'hui contre Israël pour faire suite à des crimes de guerre.
+
+
+
+Toutefois, là où vous n'êtes pas logique et là où votre vision du droit international est particulièrement à géométrie variable, c'est que quand on parle de Loukachenko, autrement dit du grand ami de Vladimir Poutine, là, soudainement, on ne peut plus appliquer de sanctions! Mais où est la provision? Citez-moi l'article du moindre traité international qui interdirait aujourd'hui l'application de sanctions de la part de l'Union européenne au Bélarus? Vous ne trouverez pas cet article, tout simplement parce que ces sanctions sont légales au regard du droit international!
+
+
+
+Non seulement elles sont légales, mais elles sont même préférables à un conflit armé. Il vaut mieux aujourd'hui geler les fonds des oligarques qui sont à la solde de Vladimir Poutine que de sanctionner la population civile, qui ne demande qu'à vivre en paix et en liberté!
+
+
+
+21.04  Nabil Boukili (PVDA-PTB): Monsieur Cogolati, il faut quand même revenir sur terre! Quelle est la résolution qui demande que des sanctions soient prises contre le Bélarus? Il y en a 104 contre Israël! Vous n'avez pas présenté un texte pour le faire. Il n'y a pas de résolution contre le Bélarus, vous avez un texte de sanctions.
+
+
+
+Ce n'est pas moi qui suis à géométrie variable pour ce qui est du droit international, c'est bien vous et ce Parlement! Parce que quand il y a 104 résolutions, la moindre des choses est de les faire appliquer. Vous ne le faites pas! Parce que devant Israël, vous vous taisez tous, complètement, tous! Vous ne prenez aucune mesure concrète dans ce Parlement! Quelles mesures et quelles sanctions ce Parlement a-t-il prises contre Israël? Aucune! Aucune!
+
+
+
+La présidente: Monsieur Dallemagne, vous avez la parole.
+
+
+
+21.05  Georges Dallemagne (Les Engagés): Madame la présidente, est-ce le moment de ma prise de parole ou dois-je réagir aux propos de M. Boukili?
+
+
+
+La présidente: C'est votre prise de parole.
+
+
+
+21.06  Georges Dallemagne (Les Engagés): D'accord.
+
+
+
+Tout d'abord, je tenais à remercier les auteurs, en particulier M. Cogolati, d'avoir proposé ce texte à la cosignature de tous les partis démocratiques de ce Parlement. C'est un signal important que nous envoyons, un signal de solidarité et de soutien à l'opposition, à ces femmes et ces hommes qui se battent courageusement – parfois au prix de leur vie – contre cette dictature, ce totalitarisme dans le Bélarus.
+
+
+
+Je ne serai pas très long, mais je dirai qu'il importait que le Parlement envoie ce signal à toutes les personnes qui ont des ambitions démocratiques, à tous les peuples qui se battent pour la démocratie, en particulier à nos voisins. Il ne faut pas oublier que la Russie n'est évidemment pas étrangère à la situation du Bélarus. Le stationnement d'armes nucléaires tactiques sur le sol bélarusse constitue une menace pour la sécurité de l'Europe et du monde. C'est un accord qu'il faut dénoncer, comme l'indique la proposition de résolution. Et puis, le texte évoque aussi les manipulations des élections présidentielles de 2020, les prisonniers politiques, les fraudes massives. Il importait d'envoyer ce signal.
+
+
+
+Nous allons tous voter, sauf le PTB, mais nous sommes habitués à cette posture de sa part. Nous sommes habitués à son ralliement systématique aux tyrans: la Chine, l'Iran, puis la Russie. Par ailleurs, il n'est pas une seule situation que nous dénoncions sans que le PTB s'exclame à propos d'Israël: "Deux poids deux mesures!" Chaque fois, il pratique cette réduction ad hitlerum. Il ne pourrait exister qu'un seul désastre.
+
+
+
+Je ne vous ai jamais entendu parler, monsieur Boukili, des 600 000 victimes du conflit en Éthiopie. Peut-être l'ignoriez-vous…  Je ne vous ai jamais entendu évoquer la question des Ouïghours. Je ne vous ai jamais entendu aborder celle des…
+
+
+
+21.07  Nabil Boukili (PVDA-PTB): (…)
+
+
+
+21.08  Georges Dallemagne (Les Engagés): Non, monsieur Boukili, ne dites pas cela!
+
+
+
+Chaque fois, vous n'avez qu'une seule obsession, comme s'il n'y avait qu'un seul désastre sur cette Terre. En réalité, vous montrez par là votre indifférence, plus encore: votre complicité à l'égard de ces grands crimes. Voilà la vraie nature du PTB! Quand on observe sa politique étrangère, il n'y a qu'un seul Axe du Mal: États-Unis - Israël! Tout le reste n'existe pas!
+
+
+
+Tous les autres peuples peuvent être démolis, tyrannisés, réduits à l'esclavage par tous les tyrans de la terre, vous n'en avez cure. Ce n'est pas votre problème. Ça, c'est votre politique étrangère, monsieur Boukili!
+
+
+
+Il faut dénoncer cette politique étrangère. Pour vous, un Congolais qui meurt sous les coups de machette des tyrans, cela n'a pas d'importance! Quand cela se passe au Yémen, cela n'a pas d'importance! Tout cela n'a aucune importance. Les femmes iraniennes n'ont pas d'importance pour vous! Ça, c'est votre politique étrangère! Et c'est effectivement le symptôme de ce que vous êtes vraiment, et du parti que vous représentez ici dans cette Assemblée.
+
+
+
+21.09  Nabil Boukili (PVDA-PTB): J'ai été cité, je vais donc répondre.
+
+
+
+Monsieur Dallemagne, il faut vérifier vos sources, parce que vous vous trompez complètement. Les journalistes sont ici et peuvent très bien aller vérifier. Je suis intervenu sur le Yémen, sur le Congo, sur la Libye, sur d'autres conflits. Concernant les Ouïghours, j'ai condamné les méthodes chinoises. Vous mentez, tout simplement!
+
+
+
+21.10  Georges Dallemagne (Les Engagés): (…)
+
+
+
+21.11  Nabil Boukili (PVDA-PTB): Monsieur Dallemagne, pourriez-vous écouter? Dans ce cas vous aurez la réponse, même si ce n'est pas celle que vous souhaitez. Si vous posez une question, il faut écouter la réponse.
+
+
+
+Dans ce texte, j'ai dit que je condamnais le régime de Lukashenko.
+
+
+
+21.12  Georges Dallemagne (Les Engagés): (…)
+
+
+
+21.13  Nabil Boukili (PVDA-PTB): Soyez patient, monsieur Dallemagne! Laissez-moi finir mes phrases!
+
+
+
+J'ai dit que je condamnais; ce n'est pas parce que je ne suis pas d'accord avec vos méthodes que je suis pour le régime de Lukashenko. C'est juste que je ne suis pas d'accord avec les méthodes qui sont avancées, parce qu'elles ne fonctionnent pas.
+
+
+
+21.14  Georges Dallemagne (Les Engagés): (…)
+
+
+
+21.15  Nabil Boukili (PVDA-PTB): Soyez patient, monsieur Dallemagne! Moi, je vous ai écouté jusqu'à la fin. Je ne vous ai pas interrompu.
+
+
+
+La question de "deux poids, deux mesures" n'est pas une obsession du PTB. Ce fait est dénoncé par l'ensemble de la population mondiale. Avez-vous vu les millions de manifestants qui dénoncent le "deux poids, deux mesures", monsieur Dallemagne? C'est une politique occidentale où le droit international est utilisé à géométrie variable en fonction des intérêts des pays occidentaux. C'est un fait, qui est reconnu par le monde entier, sauf par vous.
+
+
+
+Alors que des violations du droit international et des crimes de guerre ont été commis par Israël, vous n'avez pris aucune sanction, et vous n'avez même pas appelé au cessez-le-feu. Trouvez-vous cela normal?
+
+
+
+C'est du deux poids deux mesures. Je me suis exprimé sur le Yémen, sur la Lybie, sur d'autres confits. J'ai la même logique sur l'ensemble des conflits. Vous, pas du tout, vous êtes à géométrie variable. Quand il s'agit d'Israël, vous la soutenez de manière inconditionnelle, jusqu'à ne pas appeler au cessez-le-feu alors qu'il y a des milliers de morts tous les jours. Et vous osez me faire la leçon sur le respect des droits humains et du droit international! À votre place, je me tairais sur la question.
+
+
+
+21.16  Georges Dallemagne (Les Engagés): Je pense que vous êtes vraiment culotté! Vous êtes culotté parce que vous vous exprimez mais vous ne votez pas. Vous venez de dire que l'expression d'un parlement passe par un vote. Mais, à chaque fois, vous vous abstenez!
+
+
+
+Vos condamnations sont de pure forme, quand elles existent! Vous vous abstenez sur tous ces conflits!
+
+
+
+Vous nous dites qu'il y a deux poids deux mesures mais on ne parle plus que d'un seul conflit. On en parle évidemment à raison et chaque victime est une victime de trop, mais on ne parle que de cela. C'est assez gonflé de dire qu'il y a deux poids deux mesures alors qu'on a oublié tous les autres confits de la planète. Qui sait ce qui se passe aujourd'hui au Congo? Qui sait ce qui se passe en Éthiopie? Six-cent mille victimes! Qui en a parlé? En avez-vous parlé? Jamais! Cela ne vous intéresse pas! Ce n'est pas dans votre axe du mal!
+
+
+
+21.17  Ellen Samyn (VB): Mevrouw de voorzitster, mijnheer Cogolati, onze fractie steunt uw resolutie volledig en het lijkt erop dat u dat vervelend vindt. We hebben namelijk de repressie van de democratische oppositie en politieke tegenstanders door Loekasjenko al van begin af aan veroordeeld. We hebben er geen enkel probleem mee om woordelijke en diplomatieke steun te bieden aan de Wit-Russische burgers en opposanten van het regime, wier grondrechten op brutale wijze dag na dag worden geschonden.
+
+
+
+We hadden inderdaad wat opmerkingen en dat mag toch nog in een democratisch debat. We hoeden ons andere voor het opruien van mogelijke opstanden tegen het Wit-Russische regime. De geschiedenis van de mislukte Arabische Lente in Syrië, Egypte en Libië, waarnaar ik in de commissie heb verwezen, leert ons dat we het eigen democratisch model en onze waarden niet zomaar op andere landen kunnen projecteren. Ook toen hebben we interne conflicten opgepookt door de oppositie militair te steunen. Het heeft in die landen echter geen democratische transitie ingezet, integendeel zelfs. Het resultaat was een gewelddadige escalatie, chaos en een machtsvacuüm, waarvan terreurgroepen gretig gebruikmaakten om terrein te winnen.
+
+
+
+Mijnheer Cogolati, mijn partij kijkt niet van welke hand een voorstel komt. Wij beoordelen een voorstel op zijn inhoud, maar dat kan van u niet gezegd worden. Of u het nu leuk vindt of niet, we zullen uw voorstel van resolutie steunen.
+
+
+
+21.18  François De Smet (DéFI): Madame la présidente, chers collègues, je voudrais moi aussi remercier les auteurs principaux de ce texte, en particulier M. Cogolati pour l'initiative. Je crois que nous lançons ici un signal important, puisque cela fait de nombreuses années, hélas, que les régimes autoritaires avancent en Europe et dans le monde.
+
+
+
+En témoigne en premier lieu le régime russe, qui tente d'avancer depuis plus d'un an en Ukraine, et il est de notre devoir, en tant que représentation nationale, de nous lever ensemble pour soutenir et promouvoir la démocratie là où elle est menacée, en péril et dans ce qui est, en effet, la dernière dictature en Europe.
+
+
+
+La Biélorussie se trouve dans une période critique de son histoire. Les élections récentes ont été entachées d'allégations de fraude et de manipulation, mettant en péril – si cela était encore possible – la confiance des citoyens dans ce qui reste de processus démocratique. Alexandre Loukachenko détient le pouvoir depuis plus de 28 ans. La situation des droits fondamentaux du peuple bélarusse s'aggrave de jour en jour et les derniers chiffres disponibles font état de plus de 1 200 prisonniers politiques. La répression est sévère à l'encontre de ceux qui se battent encore aujourd'hui pour un pays plus libre.
+
+
+
+La démocratie, chers collègues, ce n'est pas juste un système politique, un organisme de gestion, c'est aussi la clé de voûte d'une voix collective qui émane du cœur de la nation. Cette voix est actuellement étouffée et c'est notre responsabilité de participer à la faire résonner à nouveau. C'est également un message fort en faveur de M. Roman Protassevitch et de sa compagne, Sofia Sapega, arrêtés arbitrairement pour leur opposition au régime en place. C'est tout simplement ne pas prendre acte du fait que les régimes autoritaires puissent continuer leur répression sans que notre pays n'élève sa voix pour soutenir un regain de liberté.
+
+
+
+Donc, mesdames et messieurs, chers collègues, notre engagement en faveur de nouvelles élections en Biélorussie est un acte de solidarité envers un peuple qui aspire à la démocratie. C'est un appel à l'action et un appel à défendre des principes fondamentaux. J'aurais souhaité, comme d'autres, qu'il y ait ce soir unanimité sur ce texte. J'entends les arguments habituels que le PTB nous sort sur tous les dossiers internationaux, où il oublie d'être anti-impérialiste mais où il n'oublie pas assez souvent de mettre dos à dos agresseur et opprimé dans ses abstentions coupables. C'est assez troublant d'avoir, avec le PTB, une boussole qui indique le sud sur les droits humains mais ça finit par être pratique.
+
+
+
+Nous allons aussi envoyer un signal en unissant nos voix et en agissant de manière concertée et nous pouvons, même petitement, contribuer à jeter les bases d'un avenir meilleur pour ce pays, nous pouvons inspirer l'espoir dans le cœur de tous ceux qui aspirent à vivre dans une société plus juste et c'est pourquoi nous cosignons et voterons avec force cette résolution commune.
+
+
+
 La présidente:
-Chers collègues, dans notre Assemblée, il y a des points à l'ordre du jour, des
-débats, parfois houleux, et des votes. Mais il y a aussi des soutiens
-administratifs et linguistiques et des personnes qui œuvrent pour la bonne
-exécution de nos travaux. Il en est une, aujourd'hui, pour qui cette séance
-sera la dernière. 
+
+Quelqu'un demande-t-il encore la parole? (Non)
+
+Vraagt nog iemand het woord? (Nee)
+
+
+
+La discussion est close.
+
+De bespreking is gesloten.
+
+
+
+Aucun amendement n'a été déposé.
+
+Er werden geen amendementen ingediend.
+
+
+
+Le vote sur la proposition aura lieu ultérieurement.
+
+De stemming over het voorstel zal later plaatsvinden.
+
+### Description in French:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Samuel Cogolati, Christophe Lacroix, Michel De Maegd, Els Van Hoof, Goedele Liekens, Vicky Reynaert, Wouter De Vriendt, Peter De Roover, Georges Dallemagne, François De Smet.
+
+
+
+Discussion
+
+Bespreking
+
+
+
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3147/5)
+
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (3147/5)
+
+
+
+La discussion est ouverte.
+
+De bespreking is geopend.
+
+
+
+Le rapporteur, Mme Annick Ponthier, renvoie au rapport écrit.
+
+
+
+21.01  Samuel Cogolati (Ecolo-Groen): Il y a un peu plus d'un an, j'étais très fier d'accueillir avec plusieurs collègues Mme Svetlana Tikhanovskaïa, l'icône de la résistance bélarusse ici, sur la place de la Nation à la Chambre des représentants. Il faut en effet le faire: combattre et s'opposer au dernier dictateur d'Europe, Alexandre Loukachenko, au pouvoir sans discontinuité depuis 1994.
+
+
+
+C'est elle qui en 2020 s'est portée candidate à l'élection présidentielle à la place de son mari emprisonné. Dans son machisme absolu, Loukachenko s'était dit qu'en emprisonnant les hommes, il n'aurait plus à craindre cette opposition dans son pays. C'était sans compter l'incroyable combat, la lutte des femmes toujours en liberté. C'est donc elle, Svetlana, qui se bat aujourd'hui en exil pour son peuple contre la machine de guerre de Vladimir Poutine en Ukraine, alors que le père de ses enfants est toujours écroué au Bélarus.
+
+
+
+Il faut prendre conscience de l'horreur du régime de Loukachenko.
+
+
+
+Le KGB existe encore dans son pays: il torture les travailleurs qui oseraient faire grève ou les jeunes étudiants qui marchent pacifiquement dans la rue. Depuis 2020, plus de 16 000 affaires pénales à motivation politique ont été engagées. Le Bélarus compte à ce jour 1 453 prisonniers politiques, dont l'ancienne candidate à la présidentielle, Maria Kolesnikova, condamnée à plus de 3 000 ans de prison au total; 765 ONG y ont été fermées et 20 personnes carrément tuées. L'hiver dernier, Loukachenko a propulsé des migrants comme de la chair à canon sur les zones forestières bordant les frontières de la Pologne et de la Lituanie.
+
+
+
+Nous avions promis à nos collègues bélarusses de ne pas lâcher le combat et de les soutenir dans leurs efforts pour une transition démocratique dans leur pays. Nous avons ainsi créé un groupe informel de soutien à l'opposition bélarusse et aujourd'hui, je suis très fier de pouvoir leur annoncer que nous adoptons enfin une résolution de soutien à la transition démocratique dans leur pays.
+
+
+
+C'est assez rare que pour ne pas le mentionner: nous sommes dix partis démocratiques à avoir cosigné le même texte en soutien à l'opposition démocratique au Bélarus. Je salue de tout cœur les collègues qui d'emblée ont accepté de cosigner ce texte.
+
+
+
+Au cours des débats, néanmoins, je dois tout de même observer que deux partis, deux partis uniquement, ont émis des réserves, voire carrément une abstention. Il s'agit du PTB, qui s'est abstenu, jugeant qu'il ne faut pas sanctionner le régime de Loukachenko et ses sbires, et du Vlaams Belang, jugeant qu'il faut éviter de trop soutenir le modèle démocratique, – je cite – "par crainte de créer des soulèvements, comme en Syrie, en Égypte et en Libye" et, plus loin "il faut se garder de soutenir l'entame d'un processus de transition démocratique au Bélarus".
+
+
+
+Eh bien moi, je veux dire au PTB et aussi au Vlaams Belang que, quand les travailleurs font grève à Minsk et manifestent dans la rue avec des drapeaux rouge et blanc, que ces travailleurs sont matraqués par des agents encagoulés de la police de Loukachenko, quand ils sont arrêtés en masse, torturés, condamnés à mort dans ces geôles de la honte, moi je suis fier de dire que nous, partis démocratiques belges, sommes et resterons toujours à leurs côtés. Ce sont des dizaines de milliers de personnes qui subissent les persécutions sans relâche de la part de ce dictateur de Loukachenko et vous, aujourd'hui, vous jugez qu'il ne faudrait pas s'en mêler? Franchement, not in my name!
+
+
+
+Voilà, chers collègues, le texte que nous adoptons aujourd'hui. Je crois qu'il convient en effet de choisir son camp, non pas celui de l'ignoble mais le camp de ceux qui résistent. C'est ce que nous faisons, en déclarant solennellement aujourd'hui en plénière que, oui, nous sommes aux côtés de Svetlana.
+
+
+
+Svetlana est d'ailleurs au courant de l'adoption aujourd'hui de ce texte à la Chambre des représentants. Elle envoie un signal de gratitude à l'ensemble des collègues et nous invite aussi, le 6 décembre prochain, au Parlement européen, pour la grande réunion de coordination entre l'opposition démocratique bélarusse et l'Union européenne.
+
+
+
+J'ai envie de terminer en disant Жывы Беларус! (vive le Bélarus)!
+
+
+
+21.02  Nabil Boukili (PVDA-PTB): Madame la présidente, chers collègues, les pratiques répressives et antidémocratiques du régime de Loukachenko sont bien connues et tout à fait condamnables. Je pense que personne ne les approuve dans cet hémicycle, je l'espère en tout cas. Nous condamnons également les fraudes électorales et la répression contre l'opposition politique, les citoyens et les syndicats, bien sûr.
+
+
+
+Comme toujours, la question est de savoir comment traiter avec un gouvernement qui bafoue les principes démocratiques et humanitaires. Optons-nous pour des contacts diplomatiques intensifs avec des échanges et une diplomatie quand c'est possible ou allons-nous dans la logique présentée dans ce texte, c'est-à-dire la logique de sanction? Dans cette résolution, vous avez choisi la voie des sanctions unilatérales, qui sont non seulement illégales mais aussi inefficaces et même contreproductives.
+
+
+
+Nous sommes d'accord sur le constat des nombreuses violations des principes démocratiques et des droits de l'homme au Bélarus, dernière dictature en Europe de l'Est, mais nous divergeons sur la manière de les traiter. Vous reconnaissez d'ailleurs vous-même dans ce texte que non seulement les sanctions contre le Bélarus n'ont pas atteint leur objectif mais que la situation s'est même aggravée depuis ces sanctions. Or, dans le même paragraphe, vous demandez encore plus de sanctions. Cela défie toute logique. Permettez-moi de citer le passage en question au bas de la page 5 de l'exposé des motifs: "Malgré la série de sanctions successives contre son régime, Loukachenko refuse toujours d'entamer un dialogue avec l'opposition. Dans le même temps, la répression des opposants politiques et des médias dissidents s'intensifie sans relâche. En conséquence, la Belgique doit urgemment appeler à des sanctions économiques et diplomatiques fortes." Ce texte dit explicitement que les sanctions n'ont pas fonctionné et que donc il faut plus de sanctions. On prend un chemin qui ne fonctionne pas mais on continue droit dans le mur. C'est votre choix.
+
+
+
+Les sanctions croissantes ont d'ailleurs poussé le pays à se rapprocher de la Russie, ce qui a déjà permis à la Russie d'envahir l'Ukraine par son intermédiaire. Le pays est maintenant également prêt à autoriser les armes nucléaires russes sur le territoire du Bélarus. C'est tout à fait dangereux et condamnable.
+
+
+
+Après, vous le condamnez dans ce texte et dans une de ses demandes, ce qui est tout à fait hypocrite parce qu'en Belgique, on fait tout à fait la même chose – et, de cela, vous ne dites pas un mot. Vous coopérez à un accord de partage nucléaire en tant qu'État théoriquement exempt d'armes nucléaires, en permettant à une superpuissance d'y installer des armes nucléaires. Il est d'ailleurs frappant de constater que vous n'avez aucune difficulté à admettre le danger de cette stratégie lorsqu'il s'agit du Bélarus, à juste titre, mais que, par contre, vous ne dites pas un mot sur les armes nucléaires américaines à Kleine-Brogel. C'est pourtant exactement la même chose. Dans le cas du Bélarus et de la Russie, c'est dangereux; mais, à Kleine-Brogel, c'est tout à fait acceptable.
+
+
+
+Lors de l'examen de ce texte, l'avis du rapporteur spécial des Nations Unies a également été sollicité. Dans son avis, elle n'a pas du tout mentionné les sanctions, au contraire, elle s'est contenté d'encourager le dialogue avec le gouvernement de Loukachenko.
+
+
+
+Cette résolution est une démonstration supplémentaire du deux poids deux mesures pratiqué dans ce Parlement. Les sanctions contre le Bélarus ne relèvent pas du droit international, elles ne sont pas non plus demandées par les Nations Unies et, pourtant, ce Parlement est tout à fait disposé à l'ignorer et à opter pour des sanctions illégales, contre l'avis du droit international.
+
+
+
+D'autre part, nous voyons la situation autour d'Israël. Là, il y a un mandat des Nations Unies; là, des sanctions peuvent être imposées selon le droit international; et que fait ce Parlement? Rien du tout. Pas une sanction n'a été émise contre Israël. Quelle hypocrisie de venir faire la morale ici sur le respect du droit international et des droits humains! S'il y a une urgence vis-à-vis de laquelle il faut agir aujourd'hui en termes de sanctions contre des massacres opérés sur des milliers de personnes, c'est en Israël. Et, là, vous ne levez pas le petit doigt. Mais vous venez faire la leçon sur le Bélarus, tout en étant en contradiction avec le droit international.
+
+
+
+Chers collègues, nous condamnons les pratiques autoritaires et dictatoriales de Loukachenko, mais l'approche proposée dans ce texte n'est à notre avis pas la bonne et n'aura pour effet que de renforcer sa position. Nous choisissons de suivre l'approche proposée par l'ONU, à savoir celle du dialogue, et c'est pourquoi nous nous abstiendrons sur ce texte.
+
+
+
+21.03  Samuel Cogolati (Ecolo-Groen): J'aimerais intervenir rapidement car je ne peux pas laisser dire n'importe quoi. Quand vous dites que vous soutenez des sanctions contre Israël à la suite de crimes de guerre et de massacres commis notamment à Gaza, vous savez pertinemment bien que plusieurs partis au sein de cette assemblée soutiennent l'initiative de prendre des sanctions aujourd'hui contre Israël pour faire suite à des crimes de guerre.
+
+
+
+Toutefois, là où vous n'êtes pas logique et là où votre vision du droit international est particulièrement à géométrie variable, c'est que quand on parle de Loukachenko, autrement dit du grand ami de Vladimir Poutine, là, soudainement, on ne peut plus appliquer de sanctions! Mais où est la provision? Citez-moi l'article du moindre traité international qui interdirait aujourd'hui l'application de sanctions de la part de l'Union européenne au Bélarus? Vous ne trouverez pas cet article, tout simplement parce que ces sanctions sont légales au regard du droit international!
+
+
+
+Non seulement elles sont légales, mais elles sont même préférables à un conflit armé. Il vaut mieux aujourd'hui geler les fonds des oligarques qui sont à la solde de Vladimir Poutine que de sanctionner la population civile, qui ne demande qu'à vivre en paix et en liberté!
+
+
+
+21.04  Nabil Boukili (PVDA-PTB): Monsieur Cogolati, il faut quand même revenir sur terre! Quelle est la résolution qui demande que des sanctions soient prises contre le Bélarus? Il y en a 104 contre Israël! Vous n'avez pas présenté un texte pour le faire. Il n'y a pas de résolution contre le Bélarus, vous avez un texte de sanctions.
+
+
+
+Ce n'est pas moi qui suis à géométrie variable pour ce qui est du droit international, c'est bien vous et ce Parlement! Parce que quand il y a 104 résolutions, la moindre des choses est de les faire appliquer. Vous ne le faites pas! Parce que devant Israël, vous vous taisez tous, complètement, tous! Vous ne prenez aucune mesure concrète dans ce Parlement! Quelles mesures et quelles sanctions ce Parlement a-t-il prises contre Israël? Aucune! Aucune!
+
+
+
+La présidente: Monsieur Dallemagne, vous avez la parole.
+
+
+
+21.05  Georges Dallemagne (Les Engagés): Madame la présidente, est-ce le moment de ma prise de parole ou dois-je réagir aux propos de M. Boukili?
+
+
+
+La présidente: C'est votre prise de parole.
+
+
+
+21.06  Georges Dallemagne (Les Engagés): D'accord.
+
+
+
+Tout d'abord, je tenais à remercier les auteurs, en particulier M. Cogolati, d'avoir proposé ce texte à la cosignature de tous les partis démocratiques de ce Parlement. C'est un signal important que nous envoyons, un signal de solidarité et de soutien à l'opposition, à ces femmes et ces hommes qui se battent courageusement – parfois au prix de leur vie – contre cette dictature, ce totalitarisme dans le Bélarus.
+
+
+
+Je ne serai pas très long, mais je dirai qu'il importait que le Parlement envoie ce signal à toutes les personnes qui ont des ambitions démocratiques, à tous les peuples qui se battent pour la démocratie, en particulier à nos voisins. Il ne faut pas oublier que la Russie n'est évidemment pas étrangère à la situation du Bélarus. Le stationnement d'armes nucléaires tactiques sur le sol bélarusse constitue une menace pour la sécurité de l'Europe et du monde. C'est un accord qu'il faut dénoncer, comme l'indique la proposition de résolution. Et puis, le texte évoque aussi les manipulations des élections présidentielles de 2020, les prisonniers politiques, les fraudes massives. Il importait d'envoyer ce signal.
+
+
+
+Nous allons tous voter, sauf le PTB, mais nous sommes habitués à cette posture de sa part. Nous sommes habitués à son ralliement systématique aux tyrans: la Chine, l'Iran, puis la Russie. Par ailleurs, il n'est pas une seule situation que nous dénoncions sans que le PTB s'exclame à propos d'Israël: "Deux poids deux mesures!" Chaque fois, il pratique cette réduction ad hitlerum. Il ne pourrait exister qu'un seul désastre.
+
+
+
+Je ne vous ai jamais entendu parler, monsieur Boukili, des 600 000 victimes du conflit en Éthiopie. Peut-être l'ignoriez-vous…  Je ne vous ai jamais entendu évoquer la question des Ouïghours. Je ne vous ai jamais entendu aborder celle des…
+
+
+
+21.07  Nabil Boukili (PVDA-PTB): (…)
+
+
+
+21.08  Georges Dallemagne (Les Engagés): Non, monsieur Boukili, ne dites pas cela!
+
+
+
+Chaque fois, vous n'avez qu'une seule obsession, comme s'il n'y avait qu'un seul désastre sur cette Terre. En réalité, vous montrez par là votre indifférence, plus encore: votre complicité à l'égard de ces grands crimes. Voilà la vraie nature du PTB! Quand on observe sa politique étrangère, il n'y a qu'un seul Axe du Mal: États-Unis - Israël! Tout le reste n'existe pas!
+
+
+
+Tous les autres peuples peuvent être démolis, tyrannisés, réduits à l'esclavage par tous les tyrans de la terre, vous n'en avez cure. Ce n'est pas votre problème. Ça, c'est votre politique étrangère, monsieur Boukili!
+
+
+
+Il faut dénoncer cette politique étrangère. Pour vous, un Congolais qui meurt sous les coups de machette des tyrans, cela n'a pas d'importance! Quand cela se passe au Yémen, cela n'a pas d'importance! Tout cela n'a aucune importance. Les femmes iraniennes n'ont pas d'importance pour vous! Ça, c'est votre politique étrangère! Et c'est effectivement le symptôme de ce que vous êtes vraiment, et du parti que vous représentez ici dans cette Assemblée.
+
+
+
+21.09  Nabil Boukili (PVDA-PTB): J'ai été cité, je vais donc répondre.
+
+
+
+Monsieur Dallemagne, il faut vérifier vos sources, parce que vous vous trompez complètement. Les journalistes sont ici et peuvent très bien aller vérifier. Je suis intervenu sur le Yémen, sur le Congo, sur la Libye, sur d'autres conflits. Concernant les Ouïghours, j'ai condamné les méthodes chinoises. Vous mentez, tout simplement!
+
+
+
+21.10  Georges Dallemagne (Les Engagés): (…)
+
+
+
+21.11  Nabil Boukili (PVDA-PTB): Monsieur Dallemagne, pourriez-vous écouter? Dans ce cas vous aurez la réponse, même si ce n'est pas celle que vous souhaitez. Si vous posez une question, il faut écouter la réponse.
+
+
+
+Dans ce texte, j'ai dit que je condamnais le régime de Lukashenko.
+
+
+
+21.12  Georges Dallemagne (Les Engagés): (…)
+
+
+
+21.13  Nabil Boukili (PVDA-PTB): Soyez patient, monsieur Dallemagne! Laissez-moi finir mes phrases!
+
+
+
+J'ai dit que je condamnais; ce n'est pas parce que je ne suis pas d'accord avec vos méthodes que je suis pour le régime de Lukashenko. C'est juste que je ne suis pas d'accord avec les méthodes qui sont avancées, parce qu'elles ne fonctionnent pas.
+
+
+
+21.14  Georges Dallemagne (Les Engagés): (…)
+
+
+
+21.15  Nabil Boukili (PVDA-PTB): Soyez patient, monsieur Dallemagne! Moi, je vous ai écouté jusqu'à la fin. Je ne vous ai pas interrompu.
+
+
+
+La question de "deux poids, deux mesures" n'est pas une obsession du PTB. Ce fait est dénoncé par l'ensemble de la population mondiale. Avez-vous vu les millions de manifestants qui dénoncent le "deux poids, deux mesures", monsieur Dallemagne? C'est une politique occidentale où le droit international est utilisé à géométrie variable en fonction des intérêts des pays occidentaux. C'est un fait, qui est reconnu par le monde entier, sauf par vous.
+
+
+
+Alors que des violations du droit international et des crimes de guerre ont été commis par Israël, vous n'avez pris aucune sanction, et vous n'avez même pas appelé au cessez-le-feu. Trouvez-vous cela normal?
+
+
+
+C'est du deux poids deux mesures. Je me suis exprimé sur le Yémen, sur la Lybie, sur d'autres confits. J'ai la même logique sur l'ensemble des conflits. Vous, pas du tout, vous êtes à géométrie variable. Quand il s'agit d'Israël, vous la soutenez de manière inconditionnelle, jusqu'à ne pas appeler au cessez-le-feu alors qu'il y a des milliers de morts tous les jours. Et vous osez me faire la leçon sur le respect des droits humains et du droit international! À votre place, je me tairais sur la question.
+
+
+
+21.16  Georges Dallemagne (Les Engagés): Je pense que vous êtes vraiment culotté! Vous êtes culotté parce que vous vous exprimez mais vous ne votez pas. Vous venez de dire que l'expression d'un parlement passe par un vote. Mais, à chaque fois, vous vous abstenez!
+
+
+
+Vos condamnations sont de pure forme, quand elles existent! Vous vous abstenez sur tous ces conflits!
+
+
+
+Vous nous dites qu'il y a deux poids deux mesures mais on ne parle plus que d'un seul conflit. On en parle évidemment à raison et chaque victime est une victime de trop, mais on ne parle que de cela. C'est assez gonflé de dire qu'il y a deux poids deux mesures alors qu'on a oublié tous les autres confits de la planète. Qui sait ce qui se passe aujourd'hui au Congo? Qui sait ce qui se passe en Éthiopie? Six-cent mille victimes! Qui en a parlé? En avez-vous parlé? Jamais! Cela ne vous intéresse pas! Ce n'est pas dans votre axe du mal!
+
+
+
+21.17  Ellen Samyn (VB): Mevrouw de voorzitster, mijnheer Cogolati, onze fractie steunt uw resolutie volledig en het lijkt erop dat u dat vervelend vindt. We hebben namelijk de repressie van de democratische oppositie en politieke tegenstanders door Loekasjenko al van begin af aan veroordeeld. We hebben er geen enkel probleem mee om woordelijke en diplomatieke steun te bieden aan de Wit-Russische burgers en opposanten van het regime, wier grondrechten op brutale wijze dag na dag worden geschonden.
+
+
+
+We hadden inderdaad wat opmerkingen en dat mag toch nog in een democratisch debat. We hoeden ons andere voor het opruien van mogelijke opstanden tegen het Wit-Russische regime. De geschiedenis van de mislukte Arabische Lente in Syrië, Egypte en Libië, waarnaar ik in de commissie heb verwezen, leert ons dat we het eigen democratisch model en onze waarden niet zomaar op andere landen kunnen projecteren. Ook toen hebben we interne conflicten opgepookt door de oppositie militair te steunen. Het heeft in die landen echter geen democratische transitie ingezet, integendeel zelfs. Het resultaat was een gewelddadige escalatie, chaos en een machtsvacuüm, waarvan terreurgroepen gretig gebruikmaakten om terrein te winnen.
+
+
+
+Mijnheer Cogolati, mijn partij kijkt niet van welke hand een voorstel komt. Wij beoordelen een voorstel op zijn inhoud, maar dat kan van u niet gezegd worden. Of u het nu leuk vindt of niet, we zullen uw voorstel van resolutie steunen.
+
+
+
+21.18  François De Smet (DéFI): Madame la présidente, chers collègues, je voudrais moi aussi remercier les auteurs principaux de ce texte, en particulier M. Cogolati pour l'initiative. Je crois que nous lançons ici un signal important, puisque cela fait de nombreuses années, hélas, que les régimes autoritaires avancent en Europe et dans le monde.
+
+
+
+En témoigne en premier lieu le régime russe, qui tente d'avancer depuis plus d'un an en Ukraine, et il est de notre devoir, en tant que représentation nationale, de nous lever ensemble pour soutenir et promouvoir la démocratie là où elle est menacée, en péril et dans ce qui est, en effet, la dernière dictature en Europe.
+
+
+
+La Biélorussie se trouve dans une période critique de son histoire. Les élections récentes ont été entachées d'allégations de fraude et de manipulation, mettant en péril – si cela était encore possible – la confiance des citoyens dans ce qui reste de processus démocratique. Alexandre Loukachenko détient le pouvoir depuis plus de 28 ans. La situation des droits fondamentaux du peuple bélarusse s'aggrave de jour en jour et les derniers chiffres disponibles font état de plus de 1 200 prisonniers politiques. La répression est sévère à l'encontre de ceux qui se battent encore aujourd'hui pour un pays plus libre.
+
+
+
+La démocratie, chers collègues, ce n'est pas juste un système politique, un organisme de gestion, c'est aussi la clé de voûte d'une voix collective qui émane du cœur de la nation. Cette voix est actuellement étouffée et c'est notre responsabilité de participer à la faire résonner à nouveau. C'est également un message fort en faveur de M. Roman Protassevitch et de sa compagne, Sofia Sapega, arrêtés arbitrairement pour leur opposition au régime en place. C'est tout simplement ne pas prendre acte du fait que les régimes autoritaires puissent continuer leur répression sans que notre pays n'élève sa voix pour soutenir un regain de liberté.
+
+
+
+Donc, mesdames et messieurs, chers collègues, notre engagement en faveur de nouvelles élections en Biélorussie est un acte de solidarité envers un peuple qui aspire à la démocratie. C'est un appel à l'action et un appel à défendre des principes fondamentaux. J'aurais souhaité, comme d'autres, qu'il y ait ce soir unanimité sur ce texte. J'entends les arguments habituels que le PTB nous sort sur tous les dossiers internationaux, où il oublie d'être anti-impérialiste mais où il n'oublie pas assez souvent de mettre dos à dos agresseur et opprimé dans ses abstentions coupables. C'est assez troublant d'avoir, avec le PTB, une boussole qui indique le sud sur les droits humains mais ça finit par être pratique.
+
+
+
+Nous allons aussi envoyer un signal en unissant nos voix et en agissant de manière concertée et nous pouvons, même petitement, contribuer à jeter les bases d'un avenir meilleur pour ce pays, nous pouvons inspirer l'espoir dans le cœur de tous ceux qui aspirent à vivre dans une société plus juste et c'est pourquoi nous cosignons et voterons avec force cette résolution commune.
+
+
+
 La présidente:
-Chers collègues, dans notre Assemblée, il y a des points 
-présidente
-à
- l'ordre du jour, des
-débats, parfois houleux, et des votes. Mais il y a aussi des soutiens
-administratifs et linguistiques et des personnes qui 
-œ
-uvrent pour la bonne
-exécution de nos travaux. Il en est une, aujourd'hui, pour qui cette séance
-sera la dernière. 
- 
- 
- 
-Au terme d'une carrière plutôt longue, puisque
-presque 35 ans à notre service, un parcours d'huissier-guide, d'huissier de première
-classe, avec beaucoup de reconnaissance dans son travail, de l'intégrité et du
-dévouement, un visage familier de notre Assemblée va nous quitter pour prendre
-une retraite bien méritée. De votre part, j'imagine que nous pouvons souhaiter
-tous nos vœux pour ses années futures et exprimer toute notre gratitude à
-M. Didier Arnhem. (Applaudissements
-nourris)
-Au terme d'une carrière plutôt longue, puisque
-presque 35 ans 
-à
- notre service, un parcours d'huissier-guide, d'huissier de première
-classe, avec beaucoup de reconnaissance dans son travail, de l'intégrité et du
-dévouement, un visage familier de notre Assemblée va nous quitter pour prendre
-une retraite bien méritée. De votre part, j'imagine que nous pouvons souhaiter
-tous nos vœux pour ses années futures et exprimer toute notre gratitude 
-à
-
-M. Didier Arnhem. (Applaudissements
-nourris)
-(Applaudissements
-nourris)
-
- 
- 
- 
-34 Motions déposées en conclusion de l'interpellation de Mme Ellen
-Samyn sur "Le taux d'emploi dramatiquement bas des personnes handicapées
-au sein des services publics fédéraux" (n° 459)
-34
-34
- Motions déposées en conclusion de l'interpellation de Mme Ellen
-Samyn sur "Le taux d'emploi dramatiquement bas des personnes handicapées
-au sein des services publics fédéraux" (n° 459)
- Motions déposées en conclusion de l'interpellation de Mme Ellen
-Samyn sur "Le taux d'emploi dramatiquement bas des personnes handicapées
-au sein des services publics fédéraux" (n° 459)
-
-34 Moties ingediend tot besluit van de
-interpellatie van mevrouw Ellen Samyn over "De dramatische
-tewerkstellingsgraad van personen met een handicap bij de federale
-overheidsdiensten" (nr. 459)
-34
-34
-34
- Moties ingediend tot besluit van de
-interpellatie van mevrouw Ellen Samyn over "De dramatische
-tewerkstellingsgraad van personen met een handicap bij de federale
-overheidsdiensten" (nr. 459)
- Moties ingediend tot besluit van de
-interpellatie van mevrouw Ellen Samyn over "De dramatische
-tewerkstellingsgraad van personen met een handicap bij de federale
-overheidsdiensten" (nr. 459)
- Moties ingediend tot besluit van de
-interpellatie van mevrouw Ellen Samyn over "De dramatische
-tewerkstellingsgraad van personen met een handicap bij de federale
-overheidsdiensten" (nr. 459)
-
-
- 
- 
- 
-Cette
-interpellation a été développée en réunion publique de la commission des Affaires
-sociales, de l'Emploi et des Pensions du 14 novembre 2023.
-Cette
-interpellation a été développée en réunion publique de la commission des Affaires
-sociales, de l'Emploi et des Pensions du 14 novembre 2023.
-
-Deze
-interpellatie werd gehouden in de openbare vergadering van de commissie voor Sociale
-Zaken, Werk en Pensioenen van 14 november 2023.
-Deze
-interpellatie werd gehouden in de openbare vergadering van de commissie voor Sociale
-Zaken, Werk en Pensioenen van 14 november 2023.
-
- 
- 
- 
-Deux motions
-ont été déposées (MOT n° 459/1):
-Deux motions
-ont été déposées (MOT n
-°
-°
- 459/1):
-
-- une
-motion de recommandation a été déposée par Mme Ellen Samyn;
-- une
-motion de recommandation a été déposée par Mme Ellen Samyn;
-
-- une
-motion pure et simple a été déposée par Mme Sophie Thémont.
-- une
-motion pure et simple a été déposée par Mme Sophie Thémont.
-
-Twee
-moties werden ingediend (MOT nr. 459/1):
-Twee
-moties werden ingediend (MOT nr. 459/1):
-
-- een
-motie van aanbeveling werd ingediend door mevrouw Ellen Samyn;
-- een
-motie van aanbeveling werd ingediend door mevrouw Ellen Samyn;
-
-- een
-eenvoudige motie werd ingediend door mevrouw Sophie Thémont.
-- een
-eenvoudige motie werd ingediend door mevrouw Sophie Thémont.
-
- 
- 
- 
-La motion
-pure et simple ayant la priorité de droit, je mets cette motion aux voix.
-La motion
-pure et simple ayant la priorité de droit, je mets cette motion aux voix.
-
-Daar de
-eenvoudige motie van rechtswege voorrang heeft, breng ik deze motie in
-stemming.
-Daar de
-eenvoudige motie van rechtswege voorrang heeft, breng ik deze motie in
-stemming.
-
- 
- 
- 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote?
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote?
-
-
-Vraagt
-iemand het woord voor een stemverklaring?
-Vraagt
-iemand het woord voor een stemverklaring?
-
- 
- 
- 
-34.01  Ellen Samyn (VB): Mevrouw de voorzitster, collega's, reeds in 2007 besliste de
-toenmalige regering dat iedere federale overheidsdienst een
-tewerkstellingsgraad van 3 % personen met een handicap diende te halen.
-Meer dan 15 jaar later zien we dat deze doelstelling allesbehalve wordt
-gehaald, want sinds het aantreden van Vivaldi is het tewerkstellingscijfer
-zelfs gedaald tot 1,06 %. België is de op een na slechtste leerling van de
-Europese klas. Het verschil in werkzaamheidsgraad tussen mensen zonder en met
-een beperking bedraagt 38 %. Aan de motivatie van personen met een
-handicap zal het in ieder geval niet liggen. Een groot deel van de
-niet-tewerkgestelde personen geeft aan dat hij of zij wel wil werken, mits
-ondersteunende maatregelen of een aanpassing van de werkopdrachten.
-34.01
-34.01
-  Ellen Samyn 
-  Ellen Samyn 
- 
-(VB): Mevrouw de voorzitster, collega's, reeds in 2007 besliste de
-toenmalige regering dat iedere federale overheidsdienst een
-tewerkstellingsgraad van 3 % personen met een handicap diende te halen.
-Meer dan 15 jaar later zien we dat deze doelstelling allesbehalve wordt
-gehaald, want sinds het aantreden van Vivaldi is het tewerkstellingscijfer
-zelfs gedaald tot 1,06 %. België is de op een na slechtste leerling van de
-Europese klas. Het verschil in werkzaamheidsgraad tussen mensen zonder en met
-een beperking bedraagt 38 %. Aan de motivatie van personen met een
-handicap zal het in ieder geval niet liggen. Een groot deel van de
-niet-tewerkgestelde personen geeft aan dat hij of zij wel wil werken, mits
-ondersteunende maatregelen of een aanpassing van de werkopdrachten.
- 
- 
- 
-Deze regering is wel druk bezig met het
-opmaken van allerhande plannen en rapporten, maar hinkt achterop in het nemen
-van de structurele maatregelen die echt nodig zijn. Een aantal grote obstakels
-moet dringend worden weggewerkt. Ten eerste, de kost van de arbeid. Er is wel
-een belangrijke stap gezet met het optrekken van het plafond, maar zoals ik al
-zei in de commissie, ook gisteren tijdens de bespreking van de beleidsnota van
-minister Lalieux, wij vragen de integrale afschaffing van de prijs van de
-arbeid.
-Deze regering is wel druk bezig met het
-opmaken van allerhande plannen en rapporten, maar hinkt achterop in het nemen
-van de structurele maatregelen die echt nodig zijn. Een aantal grote obstakels
-moet dringend worden weggewerkt. Ten eerste, de kost van de arbeid. Er is wel
-een belangrijke stap gezet met het optrekken van het plafond, maar zoals ik al
-zei in de commissie, ook gisteren tijdens de bespreking van de beleidsnota van
-minister Lalieux, wij vragen de integrale afschaffing van de prijs van de
-arbeid.
- 
- 
- 
-Ten tweede, het openbaar vervoer en de
-algemene infrastructuur zijn anno 2023 nog te vaak inadequaat ingericht. Bij de
-bouw en renovatie van overheidsgebouwen wordt er te weinig rekening gehouden
-met de toegankelijkheidsnormen. Ontoegankelijke bussen, stations en treinen en
-de verplichting om op voorhand te reserveren zorgen ervoor dat personen met een
-handicap niet alleen niet de noodzakelijke kans krijgen om een sociaal netwerk
-uit te bouwen, maar dat hun ook de kans op opleiding en werk wordt ontnomen.
-Ten tweede, het openbaar vervoer en de
-algemene infrastructuur zijn anno 2023 nog te vaak inadequaat ingericht. Bij de
-bouw en renovatie van overheidsgebouwen wordt er te weinig rekening gehouden
-met de toegankelijkheidsnormen. Ontoegankelijke bussen, stations en treinen en
-de verplichting om op voorhand te reserveren zorgen ervoor dat personen met een
-handicap niet alleen niet de noodzakelijke kans krijgen om een sociaal netwerk
-uit te bouwen, maar dat hun ook de kans op opleiding en werk wordt ontnomen.
- 
- 
- 
-We pleiten dan ook voor een fundamentele
-beleidsomslag en voor het eindelijk wegwerken van deze letterlijke en vooral
-figuurlijke drempels. Collega's, ik reken op uw steun en zeker op die van de
-collega's van cd&v. Zij dienden immers een voorstel van resolutie in ter
-bevordering van de tewerkstelling van personen met een handicap enerzijds
-terwijl anderzijds, toch ook niet onbelangrijk, hun eigen minister van
-Binnenlandse Zaken het slechtste rapport kreeg, met 0,45 %.
-We pleiten dan ook voor een fundamentele
-beleidsomslag en voor het eindelijk wegwerken van deze letterlijke en vooral
-figuurlijke drempels. Collega's, ik reken op uw steun en zeker op die van de
-collega's van cd&v. Zij dienden immers een voorstel van resolutie in ter
-bevordering van de tewerkstelling van personen met een handicap enerzijds
-terwijl anderzijds, toch ook niet onbelangrijk, hun eigen minister van
-Binnenlandse Zaken het slechtste rapport kreeg, met 0,45 %.
- 
- 
- 
-La présidente: Début du vote /
-Begin van de stemming.
-La présidente: 
-présidente
-Début du vote /
-Begin van de stemming.
-
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
 
-Fin du vote / Einde van de stemming.
-Fin du vote / Einde van de stemming.
-Résultat du vote / Uitslag van de stemming.
-Résultat du vote / Uitslag van de stemming.
- 
- 
- 
+Quelqu'un demande-t-il encore la parole? (Non)
 
-## Proposal 2
+Vraagt nog iemand het woord? (Nee)
 
 
-(Stemming/vote 1)
 
-(Stemming/vote 1)
-(Stemming/vote 1)
-(Stemming/vote 1)
+La discussion est close.
 
+De bespreking is gesloten.
 
 
-Ja
 
+Aucun amendement n'a été déposé.
 
-79
+Er werden geen amendementen ingediend.
 
 
-Oui
 
+Le vote sur la proposition aura lieu ultérieurement.
 
+De stemming over het voorstel zal later plaatsvinden.
 
-Ja
 
-Ja
-Ja
 
-79
+### Discussed proposals:
 
-79
-79
+## Proposal discussion (agenda item 22)
 
-Oui
+### Description in Dutch:
 
-Oui
-Oui
+Proposition déposée par:
 
+Voorstel ingediend door:
 
+Christophe Lacroix, Vicky Reynaert, Malik Ben Achour, André Flahaut, Laurence Zanchetta, Séverine de Laveleye, Els Van Hoof, Goedele Liekens, Wouter De Vriendt, Michel De Maegd.
 
-Nee
 
 
-43
+Discussion
 
+Bespreking
 
-Non
 
 
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (1783/4)
 
-Nee
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (1783/4)
 
-Nee
-Nee
 
 
-43
+L’intitulé a été modifié par la commission en "proposition de résolution relative au conflit à l’Est de la République démocratique du Congo et à la lutte contre les violences sexuelles".
 
-43
-43
+Het opschrift werd door de commissie gewijzigd in "voorstel van resolutie betreffende het conflict in het oosten van de Democratische Republiek Congo en betreffende de bestrijding van seksueel geweld".
 
 
-Non
-
-Non
-Non
-
-
-
-Onthoudingen
-
-
-1
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-1
-
-1
-1
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-123
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-123
-
-123
-123
-
-Total
-
-Total
-Total
- 
- 
- 
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
-
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
-
- 
- 
- 
-35 Amendements et articles réservés du projet de loi modifiant la loi du
-24 juin 2013 relative aux sanctions administratives communales, la Nouvelle Loi
-communale et la loi du 15 mai 2007 relative à la création de la fonction de
-gardien de la paix, à la création du service des gardiens de la paix et à la
-modification de l'article 119bis de la Nouvelle Loi communale (3490/1-8)
-35
-35
- Amendements et articles réservés du projet de loi modifiant la loi du
-24 juin 2013 relative aux sanctions administratives communales, la Nouvelle Loi
-communale et la loi du 15 mai 2007 relative à la création de la fonction de
-gardien de la paix, à la création du service des gardiens de la paix et à la
-modification de l'article 119bis de la Nouvelle Loi communale (3490/1-8)
- Amendements et articles réservés du projet de loi modifiant la loi du
-24 juin 2013 relative aux sanctions administratives communales, la Nouvelle Loi
-communale et la loi du 15 mai 2007 relative à la création de la fonction de
-gardien de la paix, à la création du service des gardiens de la paix et à la
-modification de l'article 119bis de la Nouvelle Loi communale (3490/1-8)
 
-35 Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van 24
-juni 2013 betreffende de gemeentelijke administratieve sancties, van  de Nieuwe Gemeentewet en van de wet van 15
-mei 2007 tot instelling van de functie van gemeenschapswacht, tot instelling
-van de dienst gemeenschapswachten en tot wijziging van artikel 119bis van de
-Nieuwe Gemeentewet (3490/1-8)
-35
-35
-35
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van 24
-juni 2013 betreffende de gemeentelijke administratieve sancties, van  de Nieuwe Gemeentewet en van de wet van 15
-mei 2007 tot instelling van de functie van gemeenschapswacht, tot instelling
-van de dienst gemeenschapswachten en tot wijziging van artikel 119bis van de
-Nieuwe Gemeentewet (3490/1-8)
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van 24
-juni 2013 betreffende de gemeentelijke administratieve sancties, van  de Nieuwe Gemeentewet en van de wet van 15
-mei 2007 tot instelling van de functie van gemeenschapswacht, tot instelling
-van de dienst gemeenschapswachten en tot wijziging van artikel 119bis van de
-Nieuwe Gemeentewet (3490/1-8)
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van 24
-juni 2013 betreffende de gemeentelijke administratieve sancties, van  de Nieuwe Gemeentewet en van de wet van 15
-mei 2007 tot instelling van de functie van gemeenschapswacht, tot instelling
-van de dienst gemeenschapswachten en tot wijziging van artikel 119bis van de
-Nieuwe Gemeentewet (3490/1-8)
-  
+La discussion est ouverte.
 
+De bespreking is geopend.
 
- 
- 
- 
-Vote sur l'amendement n° 33 de Vanessa Matz
-tendant à insérer un article 1/1(n). (3490/8)
-Vote sur l'amendement n° 33 de Vanessa Matz
-tendant à insérer un article 1/1(n). 
-(3490/8)
-(3490/8)
 
-Stemming over amendement nr. 33 van Vanessa
-Matz tot invoeging van een artikel 1/1(n). (3490/8)
-Stemming over amendement nr. 33 van Vanessa
-Matz tot invoeging van een artikel 1/1(n). (3490/8)
-(3490/8)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Le rapporteur, M. De Maegd, renvoie à son rapport écrit.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+22.01  Christophe Lacroix (PS): Madame la présidente, chers collègues, de ma voix quelque peu éraillée aujourd'hui, mais néanmoins vibrante, je suis là pour rappeler que contrairement à la propagande communiste – dont nous venons encore d'avoir un bel étalage il y a quelques minutes –, notre Parlement et le Parti Socialiste, entre autres, se préoccupent du sort de toutes les populations qui sont opprimées dans le monde.
 
- 
- 
- 
 
-## Proposal 3
 
+En l'occurrence, on va parler d'un conflit à l'Est de la République démocratique du Congo et de la lutte contre les violences sexuelles, qui existent depuis 30 ans. Depuis près de 30 ans, effectivement, mon groupe s'intéresse à ces situations et à tout ce que cela engendre pour la population: accaparement des terres et des ressources naturelles, populations déplacées et brisées, exactions, destruction de villages entiers, morts par milliers et, par-dessus tout, violences sexuelles et viols comme armes de guerre.
 
-(Stemming/vote 2)
 
-(Stemming/vote 2)
-(Stemming/vote 2)
-(Stemming/vote 2)
 
+L'homme est un loup pour l'homme, disaient les Romains. Pauvre loup, qui est comparé aux hommes. Début octobre, la violence s'est encore intensifiée dans le Nord-Kivu, au nord de la ville de Goma, entre la rébellion du M23, l'armée de la République démocratique du Congo, et les groupes armés dits "patriotes". À cause de cette situation, le nombre de déplacés internes avoisine les sept millions de personnes dans le pays. Et parmi eux, comme souvent, de nombreuses femmes et jeunes filles qui se retrouvent encore plus vulnérables.
 
 
-Ja
 
+En septembre dernier, l'organisation Médecins Sans Frontières alertait sur le combat des femmes déplacées dans les camps autour de Goma. Imaginez-vous, chers collègues: chaque jour, environ 70 femmes sont victimes d'agression sexuelle ou de viol et se présentent dans les structures de Médecins Sans Frontières. Sur trois camps, l'ONG a soigné 1 500 femmes, rien qu'en juillet dernier. Souvent seules dans les camps parce qu'elles ont été rejetées, bannies par leur mari, les femmes qui ont déjà subi des violences sexuelles abominables sont obligées de sortir pour aller chercher de la nourriture ou du bois de chauffage et s'exposent ainsi à nouveau à de grands risques de violence.
 
-6
 
 
-Oui
+Les agresseurs sont souvent des enfants de la rue ou des soldats mais elles sont également victimes de viol au sein même du camp, dans leur tente.
 
 
 
-Ja
+En juillet dernier, l'Organisation des Nations Unies révélait le chiffre des violences basées sur le genre en République démocratique du Congo. Rien que sur les trois premiers mois de 2023, 31 000 cas avaient déjà été répertoriés et documentés. Un haut responsable des Nations Unies s'exprimait alors très durement: "Si ce rythme se poursuit, cela atteindra un nombre extraordinaire de 125 000 cas cette année. La République démocratique du Congo pour moi incarne la nature effroyable de l'inhumanité des hommes." Ce chiffre est probablement sous-évalué, tout comme ceux de Médecins Sans Frontières, étant donné le faible signalement des violences sexuelles.
 
-Ja
-Ja
 
-6
 
-6
-6
+En effet, face à ces violences endémiques, la stigmatisation et le manque de prise en charge restent le lot de la majorité des victimes. De plus, les femmes ne rapportent pas toujours les agressions, souvent par honte mais aussi parce qu'elles peuvent difficilement disposer de services d'accueil quand elles souhaitent le faire, ce qui n'est pas toujours le cas dans les zones les plus reculées du pays. Au cours du premier semestre 2020, seule une victime sur quatre aurait ainsi bénéficié de soins médicaux et seulement 5 % d'entre elles d'une assistance psychosociale, toujours selon les données des Nations Unies.
 
-Oui
 
-Oui
-Oui
 
+Dans les zones de conflits, les violences sexuelles commises par les combattants s'ajoutent à d'autres qui ont lieu dans un cadre domestique ou dans un cadre criminel. Au Nord-Kivu, 76 % des victimes reçues par exemple par Médecins Sans Frontières ont été violées par des hommes armés, les autres ayant été agressées par des civils.
 
-Nee
 
 
-109
+En 2020, le gouvernement congolais a révisé une stratégie nationale de lutte contre les violences basées sur le genre qui inclut un volet lié aux violences sexuelles. Mais, si les choses bougent dans les grandes villes, les viols restent un tabou dans les villages et il existe de nombreux témoignages de femmes qui ont été rejetées par leur mari et par leur famille après avoir été violées. Certaines ont même raconté avoir été violées devant leurs enfants, puis chassées de la maison avec eux par leur époux. Certaines victimes sont même parfois contraintes – c'est inimaginable – de payer une amende à la communauté pour laver leur faute et pouvoir se réhabiliter.
 
 
-Non
 
+Mais ce qui ressort surtout des témoignages est le rejet des familles et l'exclusion socio-économique des femmes. C'est pour cette raison que des ONG internationales parlent de double peine. Non seulement les femmes sont violées mais beaucoup se retrouvent après, seules, en raison d'un manque de prise en charge et du rejet abject d'une société complètement déshumanisée. Rappelons enfin que depuis 30 ans, le viol est utilisé comme arme de guerre en République démocratique du Congo.
 
 
-Nee
 
-Nee
-Nee
+Pour toutes ces raisons, je suis heureux du consensus que nous avons trouvé avec les collègues de la majorité sur cette résolution très importante pour le groupe socialiste.
 
-109
 
-109
-109
 
-Non
+Je vous demanderai donc, chers collègues, de bien vouloir la soutenir avec vigueur et cœur pour tenter, à notre niveau, sans doute avec l'humilité qui nous caractérise, d'enrayer ce phénomène et de permettre aux femmes de ne plus subir cette double peine en toute impunité. Il faut conscientiser l'ensemble de la communauté internationale à l'urgence de l'action pour dénoncer et agir sur ces monstruosités que nous ne voulons plus jamais voir de notre vivant.
 
-Non
-Non
 
 
-Onthoudingen
+22.02  Samuel Cogolati (Ecolo-Groen): Madame la présidente, chers collègues, ce texte que nous allons voter aujourd'hui est très important pour moi parce qu'il est le fruit d'un long travail parlementaire. Je remercie les collègues et l'initiateur de ce texte. Nous avons visionné en commission des Relations extérieures le film de Thierry Michel et, surtout, nous avons auditionné le Dr Mukwege dont le témoignage restera marqué dans la mémoire des parlementaires.
 
 
-10
 
+Ce qui me rend fou, c'est la passivité et l'indifférence, l'inaction et l'hypocrisie face à ce qui se passe à l'est du Congo. Il faut se rendre compte que le Haut-Commissariat des Nations Unies pour les réfugiés (HCR) au Congo n'est financé qu'à hauteur de 19 %. C'est le programme de protection des réfugiés le moins financé au monde. Il en va de même pour le Programme alimentaire mondial. Cela fait dire à certaines ONG que c'est la crise humanitaire la plus négligée au monde.
 
-Abstentions
 
 
+Cette émotion à géométrie variable m'insupporte, alors que les massacres continuent, que les violences sexuelles se poursuivent à l'égard des femmes et des filles, et que la résurgence des violences, qui a provoqué le déplacement de près de sept millions de personnes, n'émeut presque plus personne. Rendez-vous compte, cela correspond à trois quarts de la population belge en exil, et on ne fait quasi rien.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
-10
+Ce qui se passe à l'Est du Cogo me touche d'autant plus, à titre personnel, parce que je pense en premier lieu à mes étudiants de l'Université catholique du Graben, à Butembo dans le Nord-Kivu, à qui je donne cours, à distance, de droit international durant mes vacances. Je veux dire à mes étudiants de Butembo que nous sommes ce soir à leurs côtés et que nous ne les oublions pas, que nous ne les oublierons jamais. Je veux dire mon admiration devant leur travail absolument incroyable de défense des droits humains, dans un contexte sécuritaire absolument monstrueux, catastrophique et, surtout, face au travail de mon ami Richard Kaseraka et de son ASBL Colibri, active dans l'Est du Congo.
 
-10
-10
 
-Abstentions
 
-Abstentions
-Abstentions
+En même temps, je n'ai pas envie de vendre du rêve. Il s'agit ici d'une résolution, d'un texte non contraignant. Mais je pense que nous pouvons dire aujourd'hui que, de manière solennelle, en plénière, nous brisons au moins quatre tabous. Le premier tabou que nous brisons collectivement, c'est que nous disons stop au silence complice à l'égard des agressions étrangères. Oui, chers collègues, comme l'Ukraine, la République démocratique du Congo a le droit d'exiger que son intégrité territoriale soit respectée. C'est un principe cardinal du droit international et toute agression armée de la part d'un État tiers représente à cet égard une violation flagrante de la charte des Nations Unies.
 
 
-Totaal
 
+L'Union européenne devrait condamner ces agressions de manière beaucoup plus virulente, sans équivoque, comme en Ukraine. Quand un groupe d'experts des Nations Unies et Human Rights Watch observent objectivement que le régime de Paul Kagame au Rwanda soutient le M23, ce groupe rebelle responsable d'atrocités à l'Est du Congo, nous devons oser clairement et publiquement condamner cette agression rwandaise. C'est ce que fait cette résolution, très clairement, au paragraphe 1.7, et j'en suis fier. Nous devons appeler l'Union européenne à faire de même et à arrêter de subventionner l'armée rwandaise.
 
-125
 
 
-Total
+Je tiendrai le même discours à l'égard de tous les autres groupes armés qui commettent des violations graves des droits humains au Kivu et en Ituri, et qui sont soutenus par des gouvernements tiers. Ces agressions armées doivent cesser, c'est le premier message.
 
 
 
-Totaal
+Le deuxième tabou que nous brisons, c'est l'échec de la Mission de l'Organisation des Nations Unies pour la stabilisation en République démocratique du Congo (MONUSCO), qui est l'opération de maintien de la paix de l'ONU qui a certainement duré le plus longtemps et qui a coûté le plus cher à l'humanité.
 
-Totaal
-Totaal
 
-125
 
-125
-125
+Président. Jean-Marc Delizée, doyen d'âge.
 
-Total
+Voorzitter: Jean-Marc Delizée, oudste lid in jaren.
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-(Mevrouw
-Nathalie Dewulf heeft tegengestemd)
-(Mevrouw
-Nathalie Dewulf heeft tegengestemd)
-(Mevrouw
-Nathalie Dewulf heeft tegengestemd)
 
- 
- 
- 
-Vote sur l'amendement n° 34 de Vanessa Matz à
-l'article 2. (3490/8)
-Vote sur l'amendement n° 34 de Vanessa Matz à
-l'article 2. 
-(3490/8)
-(3490/8)
 
-Stemming over amendement nr. 34 van Vanessa
-Matz op artikel 2. (3490/8)
-Stemming over amendement nr. 34 van Vanessa
-Matz op artikel 2. (3490/8)
-(3490/8)
+Pourtant, force est de constater que cela n'a pas marché. La MONUSCO n'a pas pu efficacement protéger les populations civiles congolaises contre les massacres commis par les rebelles. Il y a un plan de désengagement – qui a été signé hier par le ministre des Affaires étrangères congolais –, mais il faut aujourd'hui à tout prix un plan de transition pour garantir la paix et la sécurité à l'est.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Troisième tabou: il n'y aura pas de paix sans justice. Il faut mettre fin au régime d'impunité qui règne à l'est. Les crimes contre l'humanité documentés par le rapport Mapping datent déjà d'il y a vingt ans: viols collectifs contre les femmes, emploi généralisé d'enfants soldats, esclavage dans l'exploitation du cobalt, du coltan. Treize ans après sa publication dans le journal Le Monde en France, force est de constater que très peu a été fait. Ce rapport semble avoir pris la poussière dans les tiroirs de l'ONU. Pire, les criminels de guerre identifiés dans ce rapport sont aujourd'hui formellement réintégrés au sein de l'armée congolaise et dans bien d'autres institutions.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 4
+Depuis 2003, pourquoi n'y a-t-il pas eu de rapport Mapping 2 pour documenter de manière systématique tous les autres crimes de guerre, tous les autres crimes contre l'humanité commis à l'égard des populations civiles depuis 2003? Là, comme nous appelons à la fin du processus génocidaire contre les Ouïghours ou à la poursuite de tous les crimes de guerre commis en Israël et à Gaza devant la Cour pénale internationale de La Haye, nous devons appeler à la fin de l'impunité en République démocratique du Congo. Nous devons cesser de passer ce massacre sous silence sous prétexte de "stabilité africaine" et soutenir les appels de la société civile congolaise à créer un vrai tribunal pénal international ou des chambres mixtes spécialisées ainsi que des initiatives concrètes de réconciliation telles que la création d'une commission "vérité et réconciliation".
 
 
-(Stemming/vote 3)
 
-(Stemming/vote 3)
-(Stemming/vote 3)
-(Stemming/vote 3)
+Quatrième tabou que nous brisons à travers ce texte: nous devons regarder en face la responsabilité historique de la Belgique. Oui, la Belgique a un rôle à jouer sur la loi et sur le devoir de vigilance, sur des sanctions individuelles. Nous devons prendre des sanctions individuelles – et je regarde le collègue Boukili – contre les auteurs de violations des droits humains. C'est simplement une question de justice et il n'y aura pas de paix durable sans justice.
 
 
 
-Ja
+22.03  Annick Ponthier (VB): Het voorliggende voorstel van resolutie is om twee redenen belangrijk en daarmee treed ik de heer Cogolati bij, ook al heeft hij dat misschien niet graag.
 
 
-19
 
+Ten eerste verdient verkrachting als oorlogsmisdaad specifieke aandacht. Het gaat om gendergerelateerd geweld waarbij vrouwen het grootste slachtoffer zijn, doordat zij fysiek nu eenmaal kwetsbaarder zijn dan mannen. Omdat zij een kwetsbare groep vormen, net zoals kinderen, moeten overheden en de internationale gemeenschap specifieke maatregelen nemen om hen tijdens gewapende conflicten extra te beschermen.
 
-Oui
 
 
+We hebben gezien waar seksueel geweld als oorlogstactiek toe kan leiden. Leden van de commissie voor Buitenlandse Betrekkingen herinneren zich ongetwijfeld de aangrijpende getuigenis in de bewuste commissie van een Jezidivrouw over de verkrachtingen door IS op Jezidi’s, met als enige en ultieme doel de identiteit en de etniciteit van dat volk uit te wissen. De hele internationale gemeenschap moet zulke gruweldaden veroordelen.
 
-Ja
 
-Ja
-Ja
 
-19
+Ten tweede is er het lot van dokter Denis Mukwege, die in het Panziziekenhuis in Zuid-Kivu onwaarschijnlijk waardevol werk leverde met de behandeling van slachtoffers van verkrachting. Met gevaar voor het eigen leven heeft hij als mensenrechten- en vrouwenrechtenactivist opgeroepen om de straffeloosheid in Congo ten opzichte van seksueel geweld een halt toe te roepen. Hij en zijn entourage worden nu bedreigd. Dat er nu zoveel tegenstand is tegen iemand die simpelweg oproept om daders van seksueel geweld effectief te straffen, legt pijnlijk bloot hoe het met vrouwenrechten in de bredere Congolese cultuur gesteld is. We moeten een kat een kat noemen. Er is op dat vlak in Congo nog heel wat werk aan de winkel.
 
-19
-19
 
-Oui
 
-Oui
-Oui
+Mevrouw de voorzitster, collega's, er zijn wel kritische bedenkingen bij de voorliggende tekst te maken, ook al is het moeilijk die naar voren te brengen, zonder dat we meteen een waardeoordeel over ons heen krijgen.
 
 
-Nee
 
+Ten eerste, is de oproep om de daders van seksueel geweld in Congo voor een internationaal of gemengd gerechtshof te bestraffen, wel levensvatbaar? Mevrouw Van Hoof, voorzitster van de commissie voor Buitenlandse Betrekkingen, momenteel niet aanwezig, opperde zelf wat we met internationaal recht zijn als een land als Congo dat aan zijn laars lapt. Inderdaad, een soevereine staat als Congo zal waarschijnlijk niet aanvaarden dat een internationale jurisdictie boven de eigen nationale rechtbanken geplaatst wordt. Net omdat de verkrachtingscultuur daar zo diep ingebakken zit, denk ik dat de Congolese autoriteiten daar niet voor staan te springen.
 
-96
 
 
-Non
+Ten tweede hebben we ook felle kritiek op de recente herbevestiging van het Belgisch-Congolees samenwerkingsakkoord ter waarde van 250 miljoen euro. Wij zijn inderdaad koele minnaars van dat soort van ontwikkelingshulp, gegoten in langetermijnsamenwerkingsakkoorden met landen als Congo. Het verleden heeft al aangetoond dat dergelijk concept niet altijd succesvol is. Onze belastingbetalers mogen niet opdraaien voor dergelijke samenwerkingsakkoorden.
 
 
 
-Nee
+Ten derde, wij plaatsen ook vraagtekens bij het responsability-to-protectprincipe in considerans KK. Volgens de doctrine ter zake mag de internationale gemeenschap bij mandaat van de VN-Veiligheidsraad gewapend tussenbeide komen in een soevereine staat wanneer die niet meer kan instaan voor de bescherming van zijn bevolking tegen misdaden tegen de menselijkheid, oorlogsmisdaden, etnische zuivering en genocide. Maar dat beginsel werd destijds door de Verenigde Staten misbruikt voor hun gewapend optreden in Libië, met de bekende chaos in de regio tot gevolg.
 
-Nee
-Nee
 
-96
 
-96
-96
+Al snel werd duidelijk dat Operation Unified Protector niet alleen bedoeld was om de lokale bevolking tegen Khadaffi te beschermen, maar dat de NAVO de facto luchtmacht speelde voor de rebellen. Sindsdien is de responsibility-to-protectdoctrine een zo goed als dood internationaalrechtelijk principe. De niet-westerse permanente leden van de Veiligheidsraad stellen immers steeds opnieuw hun veto uit wantrouwen dat men het principe opnieuw voor de westerse geopolitieke agenda's zal misbruiken.
 
-Non
 
-Non
-Non
 
+Mevrouw de voorzitster, collega's, ondanks al die terechte bedenkingen, die we ook in de commissie al naar voren hebben gebracht, scharen we ons achter de geest van het voorstel van resolutie, want we moeten de problematiek zowel op internationale fora als in eigen huis blijven aankaarten. Daarom zullen wij het straks volmondig steunen.
 
-Onthoudingen
 
 
-10
+22.04  Nabil Boukili (PVDA-PTB): Monsieur le président, chers collègues, ce texte met en avant des points importants. Il appelle à un engagement en faveur des efforts diplomatiques dans la région et de la désescalade ainsi que d'une paix durable. Il est également très important et positif que le texte exhorte les gouvernements de la région et la société civile à s'impliquer activement dans ce processus. L'appel à la protection des droits de l'homme ainsi que des ressources naturelles contre les extractions illégales constitue évidemment quelque chose de louable.
 
 
-Abstentions
 
+Nous soutenons également l'appel à la création d'un tribunal pénal international pour la République démocratique du Congo, par l'intermédiaire des Nations Unies, afin d'enquêter sur les violations des droits de l'homme. En outre, nous saluons l'accent mis sur la traduction en justice des auteurs de violences sexuelles dans le contexte de ce conflit, en soutenant les forums internationaux pertinents.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+D'un autre côté, ce texte comporte nombre de points problématiques. Les demandes qui y sont formulées sollicitent en effet une sorte d'ingérence dans des affaires relevant de la politique intérieure congolaise, ou alors ces demandes ne pourraient prendre forme qu'à travers un mandat des Nations Unies. Or ce n'est pas le cas ici. Il n'appartient pas à la Belgique de s'immiscer dans la politique intérieure du Congo, surtout quand on connaît le passé de notre pays en ce domaine. Par ailleurs, des sanctions sont également demandées. Toutefois, en ce qui nous concerne, elles ne sont possibles que dans le cadre d'un mandat de l'ONU. En l'occurrence, chers collègues, vous reconnaîtrez une certaine cohérence entre la présente discussion et ce qui a été dit auparavant. Ni la Belgique ni l'Union n'ont leur mot à dire quant à la détermination de la cible de sanctions à appliquer sans passer par les instances internationales reconnues, parmi lesquelles l'ONU.
 
-10
 
-10
-10
 
-Abstentions
+De même, la demande 3.18 est également problématique, puisqu'elle vise à examiner l'opportunité de supprimer une recommandation de la commission Rwanda qui indique que les troupes belges ne seront pas envoyées pour des missions de l'ONU dans les anciennes colonies. Une telle suppression ouvrirait la voie à un nouveau déploiement de nos troupes pour des interventions dans une ancienne colonie. Pour nous, c'est problématique.
 
-Abstentions
-Abstentions
 
 
-Totaal
+En résumé, ce texte contient plusieurs aspects positifs, que nous soutenons, comme nous l'avons en fait en commission quand nous avons voté les différents considérants et demandes.
 
 
-125
 
+Nous avons soutenu tout ce que j'ai cité au début. Mais plusieurs éléments portent atteinte à la souveraineté du Congo et par conséquent nous allons nous abstenir sur l'ensemble; je vous remercie.
 
-Total
 
 
+22.05  Georges Dallemagne (Les Engagés): Monsieur le président, je voudrais d'abord me réjouir et féliciter les auteurs principaux de cette résolution de mettre celle-ci à notre ordre du jour. Cela faisait bien longtemps que nous ne nous étions plus préoccupés de la situation en Afrique centrale et au Congo en particulier. Depuis des décennies résonnent ces cris de ces femmes, surtout, mais aussi de ces hommes et de ces enfants, qui connaissent les pires crimes et abominations, ces viols par milliers, utilisés comme arme de guerre, ces viols traumatisants avec des complications extrêmement lourdes sur le plan médical, comme ces fistules vésico-vaginales pour les femmes.
 
-Totaal
 
-Totaal
-Totaal
 
-125
+J'avais eu l'occasion il y a déjà quinze ans de voir le docteur Mukwege dans son hôpital à Panzi et il plaidait déjà, appelant à la rescousse, à l'aide, à cause de l'ampleur, de la gravité et de la systématisation de ces crimes que mon collègue Lacroix a décrits. Je pense que les Congolais attendaient et attendent toujours de la Belgique que nous ne soyons pas indifférents, que nous soyons à leurs côtés et que nous essayions de changer le cours des choses. Pour avoir été longtemps et souvent au Congo, et être en contact encore très souvent avec des députés ou des associations ou encore de simples citoyens de l'Est du Congo, qui m'envoient, comme à d'autres probablement ici, des images, peut-être pas quotidiennement mais chaque semaine, sur les violences commise à l'Est du Congo. Ils attendent que nous fassions quelque chose et que nous essayions d'enrayer cette barbarie et cette violence. Il ne s'agit pas d'ingérence, mais au contraire de solidarité, et du secours que ces Congolais réclament. Ils réclament la fin du silence, la fin de ces crimes et la justice.
 
-125
-125
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 35 de Vanessa Matz à
-l'article 2. (3490/8)
-Vote sur l'amendement n° 35 de Vanessa Matz à
-l'article 2. 
-(3490/8)
-(3490/8)
+Je pense que l'ensemble des propositions qui figurent dans cette résolution pourront, peut-être modestement – c'est en tous cas une tentative –, essayer de changer le cours des choses. C'est notre devoir et notre responsabilité. Vous l'avez dit, monsieur Lacroix ou monsieur Cogolati, le rapport Mapping a vingt ans. Il couvre une décennie, de 1993 à 2003, et il désigne les coupables de ces horreurs. Pourtant, effectivement, ces coupables sont en liberté. Ils ont parfois aujourd'hui des fonctions importantes au Rwanda ou au Congo.
 
-Stemming over amendement nr. 35 van Vanessa
-Matz op artikel 2. (3490/8)
-Stemming over amendement nr. 35 van Vanessa
-Matz op artikel 2. (3490/8)
-(3490/8)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
+Je pense qu'il est de notre devoir de dénoncer cette ignominie, cette injustice et de faire en sorte que le peuple congolais puisse vivre enfin avec un peu plus de sécurité, de paix et que ces femmes congolaises puissent être à l'abri de ces violences, que justice soit rendue pour que plus jamais ce type de crime ne soit perpétré.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+Nous avons longuement discuté de banques ADN il y a déjà une décennie. Je pense qu'il est important qu'on essaie de retrouver les auteurs de ces violences et les assassins, que nous soyons proactifs en matière de justice et que nous mettions les moyens, comme cela est proposé dans la résolution, pour que justice soit rendue.
 
-## Proposal 5
 
 
-(Stemming/vote 4)
+Je serais personnellement plus assertif sur la possibilité pour la Défense belge de participer à des opérations de rétablissement et de maintien de la paix dans la région, c'est une question qui est pendante depuis trop longtemps. Je pense que si on veut vraiment peser politiquement, il ne faut pas a priori éviter l'idée qu'en plus de la coopération et de la diplomatie, la Défense puisse jouer un rôle dans la protection de ces femmes et ces hommes dans l'Est du Congo.
 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
 
 
+C'est donc avec beaucoup de volontarisme que nous voterons cette résolution tout à l'heure.
 
-Ja
 
 
-19
+22.06  François De Smet (DéFI): Chers collègues, voici un texte important puisque avec cette proposition de résolution, nous souhaitons adopter une position claire sur la situation terrible de ces nombreuses femmes, de ces nombreuses jeunes filles qui vivent en République démocratique du Congo et qui subissent, parce qu'elles sont des femmes, des violences inouïes dans leur chair.
 
 
-Oui
 
+Les violences sexuelles font malheureusement partie intégrante des conflits armés, causant des souffrances inimaginables à ces femmes et ces filles souvent très jeunes. Si toute personne peut être victime de violences sexuelles, les femmes et les enfants particulièrement vulnérables sont souvent les plus exposés à ce type d'agression et ce, dans l'ensemble des conflits que nous connaissons, en témoignent les récentes informations de la guerre en Ukraine, qui nous décrivent le même genre de procédés employés par l'armée russe.
 
 
-Ja
 
-Ja
-Ja
+Il y a ces actes qui marquent à tout jamais, il y a également la suite qui leur est donnée. Cette suite, c'est bien souvent l'abandon, parce qu'il réside, chers collègues, une impunité majeure pour ce type de faits au Congo. Les explications sont connues et sont diverses: manque de moyens pour entamer une procédure judiciaire, sentiment de honte face à l'entourage familial et amical, méconnaissance des bourreaux, peur de phénomènes de représailles et, plus terrible encore, crainte d'une nouvelle agression commise peut-être même parfois par la police nationale elle-même, comme en témoigne un rapport des Nations Unies de 2017.
 
-19
 
-19
-19
 
-Oui
+Face à ces constats, chers collègues, il y a aussi des héros, des personnes qui combattent pour rétablir ce qu'ils peuvent de justice, pour défendre des principes consacrés par les droits humains, pour porter la victime à l'accès à ses droits, pour tenter de placer les premières briques d'un long combat.
 
-Oui
-Oui
 
 
-Nee
+Denis Mukwege fait partie de ces héros, de ceux qui risquent leurs vies et celles de leurs familles pour le simple fait de soigner et de se battre pour mettre fin à l'impunité de ces crimes atroces, et pourtant bien souvent trop répandus.
 
 
-107
 
+Il est donc de notre devoir de lutter à ses côtés et avec beaucoup d'autres dans l'intérêt des victimes de ces crimes de guerre. Que ces femmes et fillettes soient entendues, qu'elles aient droit à une juste réparation et que cesse la culpabilisation ambiante liée à ce qu'elles ont subi.
 
-Non
 
 
+C'est pourquoi aux niveaux belge, européen et via notre siège au Nations Unies, nous devons faire de cette lutte contre les viols de masse et les féminicides une priorité politique. Cette résolution est un élément portant, un élément partiel dans un long combat que nous soutiendrons.
 
-Nee
 
-Nee
-Nee
 
-107
+Le président: Quelqu'un demande-t-il encore la parole? (Non)
 
-107
-107
+Vraagt nog iemand het woord? (Nee)
 
-Non
 
-Non
-Non
 
+La discussion est close.
 
-Onthoudingen
+De bespreking is gesloten.
 
 
-0
 
+Aucun amendement n'a été déposé.
 
-Abstentions
+Er werden geen amendementen ingediend.
 
 
 
-Onthoudingen
+Le vote sur la proposition aura lieu ultérieurement.
 
-Onthoudingen
-Onthoudingen
+De stemming over het voorstel zal later plaatsvinden.
 
-0
+### Description in French:
 
-0
-0
+Proposition déposée par:
 
-Abstentions
+Voorstel ingediend door:
 
-Abstentions
-Abstentions
+Christophe Lacroix, Vicky Reynaert, Malik Ben Achour, André Flahaut, Laurence Zanchetta, Séverine de Laveleye, Els Van Hoof, Goedele Liekens, Wouter De Vriendt, Michel De Maegd.
 
 
-Totaal
 
+Discussion
 
-126
+Bespreking
 
 
-Total
 
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (1783/4)
 
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (1783/4)
 
-Totaal
 
-Totaal
-Totaal
 
-126
+L’intitulé a été modifié par la commission en "proposition de résolution relative au conflit à l’Est de la République démocratique du Congo et à la lutte contre les violences sexuelles".
 
-126
-126
+Het opschrift werd door de commissie gewijzigd in "voorstel van resolutie betreffende het conflict in het oosten van de Democratische Republiek Congo en betreffende de bestrijding van seksueel geweld".
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 36 de Maxime Prévot à
-l'article 2. (3490/8)
-Vote sur l'amendement n° 36 de Maxime Prévot à
-l'article 2. 
-(3490/8)
-(3490/8)
 
-Stemming over amendement nr. 36 van Maxime
-Prévot op artikel 2. (3490/8)
-Stemming over amendement nr. 36 van Maxime
-Prévot op artikel 2. (3490/8)
-(3490/8)
+La discussion est ouverte.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+De bespreking is geopend.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Le rapporteur, M. De Maegd, renvoie à son rapport écrit.
 
- 
- 
- 
 
-## Proposal 6
 
+22.01  Christophe Lacroix (PS): Madame la présidente, chers collègues, de ma voix quelque peu éraillée aujourd'hui, mais néanmoins vibrante, je suis là pour rappeler que contrairement à la propagande communiste – dont nous venons encore d'avoir un bel étalage il y a quelques minutes –, notre Parlement et le Parti Socialiste, entre autres, se préoccupent du sort de toutes les populations qui sont opprimées dans le monde.
 
-(Stemming/vote 5)
 
-(Stemming/vote 5)
-(Stemming/vote 5)
-(Stemming/vote 5)
 
+En l'occurrence, on va parler d'un conflit à l'Est de la République démocratique du Congo et de la lutte contre les violences sexuelles, qui existent depuis 30 ans. Depuis près de 30 ans, effectivement, mon groupe s'intéresse à ces situations et à tout ce que cela engendre pour la population: accaparement des terres et des ressources naturelles, populations déplacées et brisées, exactions, destruction de villages entiers, morts par milliers et, par-dessus tout, violences sexuelles et viols comme armes de guerre.
 
 
-Ja
 
+L'homme est un loup pour l'homme, disaient les Romains. Pauvre loup, qui est comparé aux hommes. Début octobre, la violence s'est encore intensifiée dans le Nord-Kivu, au nord de la ville de Goma, entre la rébellion du M23, l'armée de la République démocratique du Congo, et les groupes armés dits "patriotes". À cause de cette situation, le nombre de déplacés internes avoisine les sept millions de personnes dans le pays. Et parmi eux, comme souvent, de nombreuses femmes et jeunes filles qui se retrouvent encore plus vulnérables.
 
-19
 
 
-Oui
+En septembre dernier, l'organisation Médecins Sans Frontières alertait sur le combat des femmes déplacées dans les camps autour de Goma. Imaginez-vous, chers collègues: chaque jour, environ 70 femmes sont victimes d'agression sexuelle ou de viol et se présentent dans les structures de Médecins Sans Frontières. Sur trois camps, l'ONG a soigné 1 500 femmes, rien qu'en juillet dernier. Souvent seules dans les camps parce qu'elles ont été rejetées, bannies par leur mari, les femmes qui ont déjà subi des violences sexuelles abominables sont obligées de sortir pour aller chercher de la nourriture ou du bois de chauffage et s'exposent ainsi à nouveau à de grands risques de violence.
 
 
 
-Ja
+Les agresseurs sont souvent des enfants de la rue ou des soldats mais elles sont également victimes de viol au sein même du camp, dans leur tente.
 
-Ja
-Ja
 
-19
 
-19
-19
+En juillet dernier, l'Organisation des Nations Unies révélait le chiffre des violences basées sur le genre en République démocratique du Congo. Rien que sur les trois premiers mois de 2023, 31 000 cas avaient déjà été répertoriés et documentés. Un haut responsable des Nations Unies s'exprimait alors très durement: "Si ce rythme se poursuit, cela atteindra un nombre extraordinaire de 125 000 cas cette année. La République démocratique du Congo pour moi incarne la nature effroyable de l'inhumanité des hommes." Ce chiffre est probablement sous-évalué, tout comme ceux de Médecins Sans Frontières, étant donné le faible signalement des violences sexuelles.
 
-Oui
 
-Oui
-Oui
 
+En effet, face à ces violences endémiques, la stigmatisation et le manque de prise en charge restent le lot de la majorité des victimes. De plus, les femmes ne rapportent pas toujours les agressions, souvent par honte mais aussi parce qu'elles peuvent difficilement disposer de services d'accueil quand elles souhaitent le faire, ce qui n'est pas toujours le cas dans les zones les plus reculées du pays. Au cours du premier semestre 2020, seule une victime sur quatre aurait ainsi bénéficié de soins médicaux et seulement 5 % d'entre elles d'une assistance psychosociale, toujours selon les données des Nations Unies.
 
-Nee
 
 
-84
+Dans les zones de conflits, les violences sexuelles commises par les combattants s'ajoutent à d'autres qui ont lieu dans un cadre domestique ou dans un cadre criminel. Au Nord-Kivu, 76 % des victimes reçues par exemple par Médecins Sans Frontières ont été violées par des hommes armés, les autres ayant été agressées par des civils.
 
 
-Non
 
+En 2020, le gouvernement congolais a révisé une stratégie nationale de lutte contre les violences basées sur le genre qui inclut un volet lié aux violences sexuelles. Mais, si les choses bougent dans les grandes villes, les viols restent un tabou dans les villages et il existe de nombreux témoignages de femmes qui ont été rejetées par leur mari et par leur famille après avoir été violées. Certaines ont même raconté avoir été violées devant leurs enfants, puis chassées de la maison avec eux par leur époux. Certaines victimes sont même parfois contraintes – c'est inimaginable – de payer une amende à la communauté pour laver leur faute et pouvoir se réhabiliter.
 
 
-Nee
 
-Nee
-Nee
+Mais ce qui ressort surtout des témoignages est le rejet des familles et l'exclusion socio-économique des femmes. C'est pour cette raison que des ONG internationales parlent de double peine. Non seulement les femmes sont violées mais beaucoup se retrouvent après, seules, en raison d'un manque de prise en charge et du rejet abject d'une société complètement déshumanisée. Rappelons enfin que depuis 30 ans, le viol est utilisé comme arme de guerre en République démocratique du Congo.
 
-84
 
-84
-84
 
-Non
+Pour toutes ces raisons, je suis heureux du consensus que nous avons trouvé avec les collègues de la majorité sur cette résolution très importante pour le groupe socialiste.
 
-Non
-Non
 
 
-Onthoudingen
+Je vous demanderai donc, chers collègues, de bien vouloir la soutenir avec vigueur et cœur pour tenter, à notre niveau, sans doute avec l'humilité qui nous caractérise, d'enrayer ce phénomène et de permettre aux femmes de ne plus subir cette double peine en toute impunité. Il faut conscientiser l'ensemble de la communauté internationale à l'urgence de l'action pour dénoncer et agir sur ces monstruosités que nous ne voulons plus jamais voir de notre vivant.
 
 
-22
 
+22.02  Samuel Cogolati (Ecolo-Groen): Madame la présidente, chers collègues, ce texte que nous allons voter aujourd'hui est très important pour moi parce qu'il est le fruit d'un long travail parlementaire. Je remercie les collègues et l'initiateur de ce texte. Nous avons visionné en commission des Relations extérieures le film de Thierry Michel et, surtout, nous avons auditionné le Dr Mukwege dont le témoignage restera marqué dans la mémoire des parlementaires.
 
-Abstentions
 
 
+Ce qui me rend fou, c'est la passivité et l'indifférence, l'inaction et l'hypocrisie face à ce qui se passe à l'est du Congo. Il faut se rendre compte que le Haut-Commissariat des Nations Unies pour les réfugiés (HCR) au Congo n'est financé qu'à hauteur de 19 %. C'est le programme de protection des réfugiés le moins financé au monde. Il en va de même pour le Programme alimentaire mondial. Cela fait dire à certaines ONG que c'est la crise humanitaire la plus négligée au monde.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
-22
+Cette émotion à géométrie variable m'insupporte, alors que les massacres continuent, que les violences sexuelles se poursuivent à l'égard des femmes et des filles, et que la résurgence des violences, qui a provoqué le déplacement de près de sept millions de personnes, n'émeut presque plus personne. Rendez-vous compte, cela correspond à trois quarts de la population belge en exil, et on ne fait quasi rien.
 
-22
-22
 
-Abstentions
 
-Abstentions
-Abstentions
+Ce qui se passe à l'Est du Cogo me touche d'autant plus, à titre personnel, parce que je pense en premier lieu à mes étudiants de l'Université catholique du Graben, à Butembo dans le Nord-Kivu, à qui je donne cours, à distance, de droit international durant mes vacances. Je veux dire à mes étudiants de Butembo que nous sommes ce soir à leurs côtés et que nous ne les oublions pas, que nous ne les oublierons jamais. Je veux dire mon admiration devant leur travail absolument incroyable de défense des droits humains, dans un contexte sécuritaire absolument monstrueux, catastrophique et, surtout, face au travail de mon ami Richard Kaseraka et de son ASBL Colibri, active dans l'Est du Congo.
 
 
-Totaal
 
+En même temps, je n'ai pas envie de vendre du rêve. Il s'agit ici d'une résolution, d'un texte non contraignant. Mais je pense que nous pouvons dire aujourd'hui que, de manière solennelle, en plénière, nous brisons au moins quatre tabous. Le premier tabou que nous brisons collectivement, c'est que nous disons stop au silence complice à l'égard des agressions étrangères. Oui, chers collègues, comme l'Ukraine, la République démocratique du Congo a le droit d'exiger que son intégrité territoriale soit respectée. C'est un principe cardinal du droit international et toute agression armée de la part d'un État tiers représente à cet égard une violation flagrante de la charte des Nations Unies.
 
-125
 
 
-Total
+L'Union européenne devrait condamner ces agressions de manière beaucoup plus virulente, sans équivoque, comme en Ukraine. Quand un groupe d'experts des Nations Unies et Human Rights Watch observent objectivement que le régime de Paul Kagame au Rwanda soutient le M23, ce groupe rebelle responsable d'atrocités à l'Est du Congo, nous devons oser clairement et publiquement condamner cette agression rwandaise. C'est ce que fait cette résolution, très clairement, au paragraphe 1.7, et j'en suis fier. Nous devons appeler l'Union européenne à faire de même et à arrêter de subventionner l'armée rwandaise.
 
 
 
-Totaal
+Je tiendrai le même discours à l'égard de tous les autres groupes armés qui commettent des violations graves des droits humains au Kivu et en Ituri, et qui sont soutenus par des gouvernements tiers. Ces agressions armées doivent cesser, c'est le premier message.
 
-Totaal
-Totaal
 
-125
 
-125
-125
+Le deuxième tabou que nous brisons, c'est l'échec de la Mission de l'Organisation des Nations Unies pour la stabilisation en République démocratique du Congo (MONUSCO), qui est l'opération de maintien de la paix de l'ONU qui a certainement duré le plus longtemps et qui a coûté le plus cher à l'humanité.
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l’article 2 est adopté.
-En conséquence, l'amendement est rejeté et
-l’article 2 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 37 de Vanessa Matz à
-l'article 6. (3490/8)
-Vote sur l'amendement n° 37 de Vanessa Matz à
-l'article 6. 
-(3490/8)
-(3490/8)
 
-Stemming over amendement nr. 37 van Vanessa
-Matz op artikel 6. (3490/8)
-Stemming over amendement nr. 37 van Vanessa
-Matz op artikel 6. (3490/8)
-(3490/8)
+Président. Jean-Marc Delizée, doyen d'âge.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Voorzitter: Jean-Marc Delizée, oudste lid in jaren.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Pourtant, force est de constater que cela n'a pas marché. La MONUSCO n'a pas pu efficacement protéger les populations civiles congolaises contre les massacres commis par les rebelles. Il y a un plan de désengagement – qui a été signé hier par le ministre des Affaires étrangères congolais –, mais il faut aujourd'hui à tout prix un plan de transition pour garantir la paix et la sécurité à l'est.
 
- 
- 
- 
 
-## Proposal 7
 
+Troisième tabou: il n'y aura pas de paix sans justice. Il faut mettre fin au régime d'impunité qui règne à l'est. Les crimes contre l'humanité documentés par le rapport Mapping datent déjà d'il y a vingt ans: viols collectifs contre les femmes, emploi généralisé d'enfants soldats, esclavage dans l'exploitation du cobalt, du coltan. Treize ans après sa publication dans le journal Le Monde en France, force est de constater que très peu a été fait. Ce rapport semble avoir pris la poussière dans les tiroirs de l'ONU. Pire, les criminels de guerre identifiés dans ce rapport sont aujourd'hui formellement réintégrés au sein de l'armée congolaise et dans bien d'autres institutions.
 
-(Stemming/vote 6)
 
-(Stemming/vote 6)
-(Stemming/vote 6)
-(Stemming/vote 6)
 
+Depuis 2003, pourquoi n'y a-t-il pas eu de rapport Mapping 2 pour documenter de manière systématique tous les autres crimes de guerre, tous les autres crimes contre l'humanité commis à l'égard des populations civiles depuis 2003? Là, comme nous appelons à la fin du processus génocidaire contre les Ouïghours ou à la poursuite de tous les crimes de guerre commis en Israël et à Gaza devant la Cour pénale internationale de La Haye, nous devons appeler à la fin de l'impunité en République démocratique du Congo. Nous devons cesser de passer ce massacre sous silence sous prétexte de "stabilité africaine" et soutenir les appels de la société civile congolaise à créer un vrai tribunal pénal international ou des chambres mixtes spécialisées ainsi que des initiatives concrètes de réconciliation telles que la création d'une commission "vérité et réconciliation".
 
 
-Ja
 
+Quatrième tabou que nous brisons à travers ce texte: nous devons regarder en face la responsabilité historique de la Belgique. Oui, la Belgique a un rôle à jouer sur la loi et sur le devoir de vigilance, sur des sanctions individuelles. Nous devons prendre des sanctions individuelles – et je regarde le collègue Boukili – contre les auteurs de violations des droits humains. C'est simplement une question de justice et il n'y aura pas de paix durable sans justice.
 
-26
 
 
-Oui
+22.03  Annick Ponthier (VB): Het voorliggende voorstel van resolutie is om twee redenen belangrijk en daarmee treed ik de heer Cogolati bij, ook al heeft hij dat misschien niet graag.
 
 
 
-Ja
+Ten eerste verdient verkrachting als oorlogsmisdaad specifieke aandacht. Het gaat om gendergerelateerd geweld waarbij vrouwen het grootste slachtoffer zijn, doordat zij fysiek nu eenmaal kwetsbaarder zijn dan mannen. Omdat zij een kwetsbare groep vormen, net zoals kinderen, moeten overheden en de internationale gemeenschap specifieke maatregelen nemen om hen tijdens gewapende conflicten extra te beschermen.
 
-Ja
-Ja
 
-26
 
-26
-26
+We hebben gezien waar seksueel geweld als oorlogstactiek toe kan leiden. Leden van de commissie voor Buitenlandse Betrekkingen herinneren zich ongetwijfeld de aangrijpende getuigenis in de bewuste commissie van een Jezidivrouw over de verkrachtingen door IS op Jezidi’s, met als enige en ultieme doel de identiteit en de etniciteit van dat volk uit te wissen. De hele internationale gemeenschap moet zulke gruweldaden veroordelen.
 
-Oui
 
-Oui
-Oui
 
+Ten tweede is er het lot van dokter Denis Mukwege, die in het Panziziekenhuis in Zuid-Kivu onwaarschijnlijk waardevol werk leverde met de behandeling van slachtoffers van verkrachting. Met gevaar voor het eigen leven heeft hij als mensenrechten- en vrouwenrechtenactivist opgeroepen om de straffeloosheid in Congo ten opzichte van seksueel geweld een halt toe te roepen. Hij en zijn entourage worden nu bedreigd. Dat er nu zoveel tegenstand is tegen iemand die simpelweg oproept om daders van seksueel geweld effectief te straffen, legt pijnlijk bloot hoe het met vrouwenrechten in de bredere Congolese cultuur gesteld is. We moeten een kat een kat noemen. Er is op dat vlak in Congo nog heel wat werk aan de winkel.
 
-Nee
 
 
-76
+Mevrouw de voorzitster, collega's, er zijn wel kritische bedenkingen bij de voorliggende tekst te maken, ook al is het moeilijk die naar voren te brengen, zonder dat we meteen een waardeoordeel over ons heen krijgen.
 
 
-Non
 
+Ten eerste, is de oproep om de daders van seksueel geweld in Congo voor een internationaal of gemengd gerechtshof te bestraffen, wel levensvatbaar? Mevrouw Van Hoof, voorzitster van de commissie voor Buitenlandse Betrekkingen, momenteel niet aanwezig, opperde zelf wat we met internationaal recht zijn als een land als Congo dat aan zijn laars lapt. Inderdaad, een soevereine staat als Congo zal waarschijnlijk niet aanvaarden dat een internationale jurisdictie boven de eigen nationale rechtbanken geplaatst wordt. Net omdat de verkrachtingscultuur daar zo diep ingebakken zit, denk ik dat de Congolese autoriteiten daar niet voor staan te springen.
 
 
-Nee
 
-Nee
-Nee
+Ten tweede hebben we ook felle kritiek op de recente herbevestiging van het Belgisch-Congolees samenwerkingsakkoord ter waarde van 250 miljoen euro. Wij zijn inderdaad koele minnaars van dat soort van ontwikkelingshulp, gegoten in langetermijnsamenwerkingsakkoorden met landen als Congo. Het verleden heeft al aangetoond dat dergelijk concept niet altijd succesvol is. Onze belastingbetalers mogen niet opdraaien voor dergelijke samenwerkingsakkoorden.
 
-76
 
-76
-76
 
-Non
+Ten derde, wij plaatsen ook vraagtekens bij het responsability-to-protectprincipe in considerans KK. Volgens de doctrine ter zake mag de internationale gemeenschap bij mandaat van de VN-Veiligheidsraad gewapend tussenbeide komen in een soevereine staat wanneer die niet meer kan instaan voor de bescherming van zijn bevolking tegen misdaden tegen de menselijkheid, oorlogsmisdaden, etnische zuivering en genocide. Maar dat beginsel werd destijds door de Verenigde Staten misbruikt voor hun gewapend optreden in Libië, met de bekende chaos in de regio tot gevolg.
 
-Non
-Non
 
 
-Onthoudingen
+Al snel werd duidelijk dat Operation Unified Protector niet alleen bedoeld was om de lokale bevolking tegen Khadaffi te beschermen, maar dat de NAVO de facto luchtmacht speelde voor de rebellen. Sindsdien is de responsibility-to-protectdoctrine een zo goed als dood internationaalrechtelijk principe. De niet-westerse permanente leden van de Veiligheidsraad stellen immers steeds opnieuw hun veto uit wantrouwen dat men het principe opnieuw voor de westerse geopolitieke agenda's zal misbruiken.
 
 
-23
 
+Mevrouw de voorzitster, collega's, ondanks al die terechte bedenkingen, die we ook in de commissie al naar voren hebben gebracht, scharen we ons achter de geest van het voorstel van resolutie, want we moeten de problematiek zowel op internationale fora als in eigen huis blijven aankaarten. Daarom zullen wij het straks volmondig steunen.
 
-Abstentions
 
 
+22.04  Nabil Boukili (PVDA-PTB): Monsieur le président, chers collègues, ce texte met en avant des points importants. Il appelle à un engagement en faveur des efforts diplomatiques dans la région et de la désescalade ainsi que d'une paix durable. Il est également très important et positif que le texte exhorte les gouvernements de la région et la société civile à s'impliquer activement dans ce processus. L'appel à la protection des droits de l'homme ainsi que des ressources naturelles contre les extractions illégales constitue évidemment quelque chose de louable.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
-23
+Nous soutenons également l'appel à la création d'un tribunal pénal international pour la République démocratique du Congo, par l'intermédiaire des Nations Unies, afin d'enquêter sur les violations des droits de l'homme. En outre, nous saluons l'accent mis sur la traduction en justice des auteurs de violences sexuelles dans le contexte de ce conflit, en soutenant les forums internationaux pertinents.
 
-23
-23
 
-Abstentions
 
-Abstentions
-Abstentions
+D'un autre côté, ce texte comporte nombre de points problématiques. Les demandes qui y sont formulées sollicitent en effet une sorte d'ingérence dans des affaires relevant de la politique intérieure congolaise, ou alors ces demandes ne pourraient prendre forme qu'à travers un mandat des Nations Unies. Or ce n'est pas le cas ici. Il n'appartient pas à la Belgique de s'immiscer dans la politique intérieure du Congo, surtout quand on connaît le passé de notre pays en ce domaine. Par ailleurs, des sanctions sont également demandées. Toutefois, en ce qui nous concerne, elles ne sont possibles que dans le cadre d'un mandat de l'ONU. En l'occurrence, chers collègues, vous reconnaîtrez une certaine cohérence entre la présente discussion et ce qui a été dit auparavant. Ni la Belgique ni l'Union n'ont leur mot à dire quant à la détermination de la cible de sanctions à appliquer sans passer par les instances internationales reconnues, parmi lesquelles l'ONU.
 
 
-Totaal
 
+De même, la demande 3.18 est également problématique, puisqu'elle vise à examiner l'opportunité de supprimer une recommandation de la commission Rwanda qui indique que les troupes belges ne seront pas envoyées pour des missions de l'ONU dans les anciennes colonies. Une telle suppression ouvrirait la voie à un nouveau déploiement de nos troupes pour des interventions dans une ancienne colonie. Pour nous, c'est problématique.
 
-125
 
 
-Total
+En résumé, ce texte contient plusieurs aspects positifs, que nous soutenons, comme nous l'avons en fait en commission quand nous avons voté les différents considérants et demandes.
 
 
 
-Totaal
+Nous avons soutenu tout ce que j'ai cité au début. Mais plusieurs éléments portent atteinte à la souveraineté du Congo et par conséquent nous allons nous abstenir sur l'ensemble; je vous remercie.
 
-Totaal
-Totaal
 
-125
 
-125
-125
+22.05  Georges Dallemagne (Les Engagés): Monsieur le président, je voudrais d'abord me réjouir et féliciter les auteurs principaux de cette résolution de mettre celle-ci à notre ordre du jour. Cela faisait bien longtemps que nous ne nous étions plus préoccupés de la situation en Afrique centrale et au Congo en particulier. Depuis des décennies résonnent ces cris de ces femmes, surtout, mais aussi de ces hommes et de ces enfants, qui connaissent les pires crimes et abominations, ces viols par milliers, utilisés comme arme de guerre, ces viols traumatisants avec des complications extrêmement lourdes sur le plan médical, comme ces fistules vésico-vaginales pour les femmes.
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l’article 6 est adopté.
-En conséquence, l'amendement est rejeté et
-l’article 6 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 6 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 6 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 38 de Vanessa Matz
-tendant à insérer un article 13/1(n). (3490/8)
-Vote sur l'amendement n° 38 de Vanessa Matz
-tendant à insérer un article 13/1(n). 
-(3490/8)
-(3490/8)
 
-Stemming over amendement nr. 38 van Vanessa
-Matz tot invoeging van een artikel 13/1(n). (3490/8)
-Stemming over amendement nr. 38 van Vanessa
-Matz tot invoeging van een artikel 13/1(n). (3490/8)
-(3490/8)
+J'avais eu l'occasion il y a déjà quinze ans de voir le docteur Mukwege dans son hôpital à Panzi et il plaidait déjà, appelant à la rescousse, à l'aide, à cause de l'ampleur, de la gravité et de la systématisation de ces crimes que mon collègue Lacroix a décrits. Je pense que les Congolais attendaient et attendent toujours de la Belgique que nous ne soyons pas indifférents, que nous soyons à leurs côtés et que nous essayions de changer le cours des choses. Pour avoir été longtemps et souvent au Congo, et être en contact encore très souvent avec des députés ou des associations ou encore de simples citoyens de l'Est du Congo, qui m'envoient, comme à d'autres probablement ici, des images, peut-être pas quotidiennement mais chaque semaine, sur les violences commise à l'Est du Congo. Ils attendent que nous fassions quelque chose et que nous essayions d'enrayer cette barbarie et cette violence. Il ne s'agit pas d'ingérence, mais au contraire de solidarité, et du secours que ces Congolais réclament. Ils réclament la fin du silence, la fin de ces crimes et la justice.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Je pense que l'ensemble des propositions qui figurent dans cette résolution pourront, peut-être modestement – c'est en tous cas une tentative –, essayer de changer le cours des choses. C'est notre devoir et notre responsabilité. Vous l'avez dit, monsieur Lacroix ou monsieur Cogolati, le rapport Mapping a vingt ans. Il couvre une décennie, de 1993 à 2003, et il désigne les coupables de ces horreurs. Pourtant, effectivement, ces coupables sont en liberté. Ils ont parfois aujourd'hui des fonctions importantes au Rwanda ou au Congo.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 8
+Je pense qu'il est de notre devoir de dénoncer cette ignominie, cette injustice et de faire en sorte que le peuple congolais puisse vivre enfin avec un peu plus de sécurité, de paix et que ces femmes congolaises puissent être à l'abri de ces violences, que justice soit rendue pour que plus jamais ce type de crime ne soit perpétré.
 
 
-(Stemming/vote 7)
 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
+Nous avons longuement discuté de banques ADN il y a déjà une décennie. Je pense qu'il est important qu'on essaie de retrouver les auteurs de ces violences et les assassins, que nous soyons proactifs en matière de justice et que nous mettions les moyens, comme cela est proposé dans la résolution, pour que justice soit rendue.
 
 
 
-Ja
+Je serais personnellement plus assertif sur la possibilité pour la Défense belge de participer à des opérations de rétablissement et de maintien de la paix dans la région, c'est une question qui est pendante depuis trop longtemps. Je pense que si on veut vraiment peser politiquement, il ne faut pas a priori éviter l'idée qu'en plus de la coopération et de la diplomatie, la Défense puisse jouer un rôle dans la protection de ces femmes et ces hommes dans l'Est du Congo.
 
 
-7
 
+C'est donc avec beaucoup de volontarisme que nous voterons cette résolution tout à l'heure.
 
-Oui
 
 
+22.06  François De Smet (DéFI): Chers collègues, voici un texte important puisque avec cette proposition de résolution, nous souhaitons adopter une position claire sur la situation terrible de ces nombreuses femmes, de ces nombreuses jeunes filles qui vivent en République démocratique du Congo et qui subissent, parce qu'elles sont des femmes, des violences inouïes dans leur chair.
 
-Ja
 
-Ja
-Ja
 
-7
+Les violences sexuelles font malheureusement partie intégrante des conflits armés, causant des souffrances inimaginables à ces femmes et ces filles souvent très jeunes. Si toute personne peut être victime de violences sexuelles, les femmes et les enfants particulièrement vulnérables sont souvent les plus exposés à ce type d'agression et ce, dans l'ensemble des conflits que nous connaissons, en témoignent les récentes informations de la guerre en Ukraine, qui nous décrivent le même genre de procédés employés par l'armée russe.
 
-7
-7
 
-Oui
 
-Oui
-Oui
+Il y a ces actes qui marquent à tout jamais, il y a également la suite qui leur est donnée. Cette suite, c'est bien souvent l'abandon, parce qu'il réside, chers collègues, une impunité majeure pour ce type de faits au Congo. Les explications sont connues et sont diverses: manque de moyens pour entamer une procédure judiciaire, sentiment de honte face à l'entourage familial et amical, méconnaissance des bourreaux, peur de phénomènes de représailles et, plus terrible encore, crainte d'une nouvelle agression commise peut-être même parfois par la police nationale elle-même, comme en témoigne un rapport des Nations Unies de 2017.
 
 
-Nee
 
+Face à ces constats, chers collègues, il y a aussi des héros, des personnes qui combattent pour rétablir ce qu'ils peuvent de justice, pour défendre des principes consacrés par les droits humains, pour porter la victime à l'accès à ses droits, pour tenter de placer les premières briques d'un long combat.
 
-108
 
 
-Non
+Denis Mukwege fait partie de ces héros, de ceux qui risquent leurs vies et celles de leurs familles pour le simple fait de soigner et de se battre pour mettre fin à l'impunité de ces crimes atroces, et pourtant bien souvent trop répandus.
 
 
 
-Nee
+Il est donc de notre devoir de lutter à ses côtés et avec beaucoup d'autres dans l'intérêt des victimes de ces crimes de guerre. Que ces femmes et fillettes soient entendues, qu'elles aient droit à une juste réparation et que cesse la culpabilisation ambiante liée à ce qu'elles ont subi.
 
-Nee
-Nee
 
-108
 
-108
-108
+C'est pourquoi aux niveaux belge, européen et via notre siège au Nations Unies, nous devons faire de cette lutte contre les viols de masse et les féminicides une priorité politique. Cette résolution est un élément portant, un élément partiel dans un long combat que nous soutiendrons.
 
-Non
 
-Non
-Non
 
+Le président: Quelqu'un demande-t-il encore la parole? (Non)
 
-Onthoudingen
+Vraagt nog iemand het woord? (Nee)
 
 
-10
 
+La discussion est close.
 
-Abstentions
+De bespreking is gesloten.
 
 
 
-Onthoudingen
+Aucun amendement n'a été déposé.
 
-Onthoudingen
-Onthoudingen
+Er werden geen amendementen ingediend.
 
-10
 
-10
-10
 
-Abstentions
+Le vote sur la proposition aura lieu ultérieurement.
 
-Abstentions
-Abstentions
+De stemming over het voorstel zal later plaatsvinden.
 
 
-Totaal
 
+### Discussed proposals:
 
-125
+## Proposal discussion (agenda item 23)
 
+### Description in Dutch:
 
-Total
+Proposition déposée par:
 
+Voorstel ingediend door:
 
+Els Van Hoof, Jan Briers.
 
-Totaal
 
-Totaal
-Totaal
 
-125
+Discussion
 
-125
-125
+Bespreking
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-(M. Daniel Senesael a voté contre)
-(M. Daniel Senesael a voté contre)
-(M. Daniel Senesael a voté contre)
 
- 
- 
- 
-Vote sur l'amendement n° 39 de Vanessa Matz à
-l'article 24. (3490/8)
-Vote sur l'amendement n° 39 de Vanessa Matz à
-l'article 24. 
-(3490/8)
-(3490/8)
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3381/4)
 
-Stemming over amendement nr. 39 van Vanessa
-Matz op artikel 24. (3490/8)
-Stemming over amendement nr. 39 van Vanessa
-Matz op artikel 24. (3490/8)
-(3490/8)
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (3381/4)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+La discussion est ouverte.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+De bespreking is geopend.
 
- 
- 
- 
 
-## Proposal 9
 
+Le rapporteur, Mme Goedele Liekens, se réfère au rapport écrit.
 
-(Stemming/vote 8)
 
-(Stemming/vote 8)
-(Stemming/vote 8)
-(Stemming/vote 8)
 
+23.01  Annick Ponthier (VB): Mijnheer de voorzitter, collega's, ik wil een aantal bedenkingen uiten bij deze resolutie, die handelt over de voorbereiding van democratische verkiezingen in de republiek Congo.
 
 
-Ja
 
+Het is goed dat wij het verkiezingsproces in een land als Congo opvolgen, laat dat duidelijk zijn. Wij moeten meer bepaald aandacht besteden aan het verkiezingsproces en aan het verloop van het conflict in Oost-Congo, met het oog op de veiligheid van onze troepen en van onze ontwikkelingsmedewerkers ter plaatse. Het is belangrijk dat wij de verkiezingen op de voet volgen en diplomatiek aansturen op een eerlijke, vrije en transparante stembusslag. De reden daarvoor is duidelijk. Het gaat met name om het beperken van het risico van verdere escalatie van het geweld in die regio, en dus ook om de veiligheid van onze mensen in Congo.
 
-6
 
 
-Oui
+Als de tekst enkel zou focussen op dit aspect, namelijk het verzekeren van de veiligheid van onze burgers en onze militairen in dat land, zouden wij daar uiteraard geen enkel probleem mee hebben. Dat is helaas niet het geval in deze resolutie. Wat men hiermee wil bewerkstelligen, is vooral het verkiezingsproces beheren en controleren.
 
 
 
-Ja
+Ik heb het in de commissie al gezegd, maar ik wil het hier herhalen: wij willen expliciet de aandacht vestigen op het feit dat de Democratische Republiek Congo al enige decennia lang een onafhankelijk land is dat zijn eigen democratie kan of zou moeten kunnen organiseren. De titel van deze resolutie alleen al, het voorbereiden van democratische verkiezingen in Congo, laat vermoeden dat België daarvoor expliciet moet instaan. Ik wil de collega's vragen om de Congolezen toch eindelijk hun beleid zelf te laten uitstippelen, om Congo zijn eigen instellingen en zijn eigen verkiezingen te laten beheren. Controleer indien nodig, maar laat het land de verantwoordelijkheid voor het eigen beleid.
 
-Ja
-Ja
 
-6
 
-6
-6
+Ik weet het, deze vivaldiregering vindt het heel belangrijk om onze burgers te geselen over ons koloniaal verleden, over de negatieve impact ervan op het Congolese volk en de diaspora. Jullie blijven daarmee hangen in de neokoloniale visie op Congo. Ik meen dat wij moeten kunnen stellen dat indien wij menen nu nog altijd de zaken daar te moeten regelen, dit eigenlijk je reinste paternalisme is.
 
-Oui
 
-Oui
-Oui
 
+Dat is paternalisme, eens te meer, omdat een land als België, waar de verliezers van de verkiezingen samenhokken om een regering te vormen tegen de twee grootste partijen en de zevende partij de premier levert, weinig lessen te geven heeft aan een land als Congo. Bovendien prijkt België in de Democracy Index op een bedroevende 36ste plaats en staat het dus als gebrekkige democratie geboekstaafd. Ik denk dat we best eens in eigen boezem zouden kijken op dat vlak vooraleer we Kinshasa de les denken te moeten spellen.
 
-Nee
 
 
-109
+Ondanks onze historische band met het land denk ik dat onze mensen hier vooral met hun eigen democratie bezig zijn. Zoals gezegd is er nogal wat werk aan de winkel op dat vlak. Onze mensen staan echt niet te wachten op meer financiering voor ontwikkelingslanden, want ook dat zit rechtstreeks of onrechtstreeks vervat in deze resolutie, of op het regelen en organiseren van verkiezingen in andere landen.
 
 
-Non
 
+Voorzitter: Eliane Tillieux, voorzitster.
 
+Président: Eliane Tillieux, présidente.
 
-Nee
 
-Nee
-Nee
 
-109
+Collega's, gelet op de zonet aangehaalde uiting van paternalisme en de hypocrisie die van deze resolutie afstraalt en omdat onze mensen een buitenlands beleid vragen dat focust op onze belangen en niet op het handjes vasthouden van soevereine landen, waar dan ook ter wereld, zullen wij tegen deze resolutie stemmen.
 
-109
-109
 
-Non
 
-Non
-Non
+23.02  Els Van Hoof (cd&v): Mevrouw de voorzitster, collega's, over minder dan een maand zullen verkiezingen plaatsvinden in Congo. De logistieke organisatie daarvan zou meer dan 1 miljard euro kosten. Na de omstreden verkiezingen van 2018 moet het Congolese vertrouwen in het democratisch proces worden hersteld. Het is belangrijk dat de verkiezingen van 2023 vrij, transparant, inclusief en vreedzaam verlopen, met de aanwezigheid, op vraag van de Congolese overheid – dat is dus niet paternalistisch – van nationale en internationale waarnemers.
 
 
-Onthoudingen
 
+Het land kan hiervoor alle steun gebruiken. Een politiek glissement moet absoluut worden voorkomen, zoals wij ook vragen in het voorstel van resolutie. Het is ongrondwettelijk en nefast voor het Congolese vertrouwen in het democratiseringsproces. België moet dat blijven benadrukken, ook in zijn bilaterale onderhouden met Congo. Enkel in geval van onregelmatigheden mag een glissement een optie zijn. Wij hebben minister Lahbib daarover deze week nog gehoord.
 
-10
 
 
-Abstentions
+In heel Afrika komen democratieën steeds meer onder druk te staan. Dat zien wij in de Centraal-Afrikaanse Republiek, Niger, Burkina Faso, Zuid-Soedan, Gabon enzovoort. Dat gaat steeds ten koste van de lokale bevolking die hier nooit achter staat en vlucht naar betere oorden. Daarom is het belangrijk om op te komen voor de democratie. Het Vlaams Belang vindt ons voorstel van resolutie paternalistisch, maar het vindt dat blijkbaar niet als het gaat over Taiwan, Hongkong, Armenië en christelijke minderheden. Wij vinden dat wij niet met twee maten en twee gewichten mogen werken. Wij kiezen steeds dezelfde kant, de kant van de democratie, de rechtsstaat en de mensenrechten omdat dat de mondiale stabiliteit bevordert.
 
 
 
-Onthoudingen
+De afgelopen maanden is de vraag gekomen van zowel de Congolese overheid als het Congolees maatschappelijk middenveld om hun ondersteuning te bieden tijdens het verkiezingsproces. Het gaat hier dus duidelijk niet over paternalisme. Wij beslissen niet hoe Congo zijn verkiezingen moet organiseren. Dat kan en doet Congo zelf, maar wij kunnen wel op hun vraag ondersteuning bieden waar wij kunnen. Dat kan op verschillende manieren. Politici worden vandaag immers bedreigd, geïntimideerd en zelfs vermoord. Dat hebben wij ook gehoord in de adviezen die naar aanleiding van het voorstel werden gegeven.
 
-Onthoudingen
-Onthoudingen
 
-10
 
-10
-10
+Journalisten worden gearresteerd. Demonstranten worden hardhandig aangepakt. Sinds vorig weekend is de verkiezingscampagne officieel gestart. We hebben ondertussen echter provinciegouverneurs horen verkondigen dat niet alle kandidaten in hun provincie welkom zijn. Daarom vragen wij dat België zich uitspreekt tegen dit geweld.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+De escalatie van het geweld in het oosten, waarover we daarnet al hebben gesproken, bemoeilijkt uiteraard het hele verkiezingsproces. Eén miljoen geregistreerde kiezers dreigt daardoor niet te kunnen gaan stemmen. We roepen de regering dan ook op in de verzoeken 5, 6 en 7 om ook Congo te steunen in zijn ambitie om de veiligheid in het oosten als prioriteit te behouden en de verkiezingen toch te laten doorgaan.
 
-Totaal
 
 
-125
+De pacificatie van het verkiezingsklimaat is noodzakelijk om ervoor te zorgen dat iedereen zich in aanloop naar de verkiezingen vrij kan uiten. Op vraag van het Congolese middenveld worden, met de ondersteuning van de daar actieve ngo’s, zoals 11.11.11, bijeenkomsten georganiseerd om te sensibiliseren tegen haatboodschappen tijdens de verkiezingscampagne. Er wordt gedebatteerd over de sociale cohesie tijdens het verkiezingsproces en er worden voorlichtingssessies gegeven over hoe correct een stem uit te brengen. Wij ondersteunen hen daarin op hun vraag. Dit is geen paternalisme. Op deze manier geven we de democratie een kans.
 
 
-Total
 
+Ik wil eindigen met het bedanken voor de steun van alle partijen, behalve die van de extreme partijen. Dat zegt misschien genoeg.
 
 
-Totaal
 
-Totaal
-Totaal
+23.03  Annick Ponthier (VB): Hier kan ik toch niet anders dan reageren, mevrouw Van Hoof. Het gaat hier over een resolutie die handelt over de voorbereiding van democratische verkiezingen in een ander land. Wij hebben gezegd in onze tussenkomst, waarvan ik niet weet of u die beluisterd hebt, dat wij geen enkel probleem hebben met de controle van die procedure. Als u daarvoor een missie naar Congo wil sturen, zullen wij dat steunen. Dat heb ik ook gezegd in de commissie.
 
-125
 
-125
-125
 
-Total
+Hier absoluut de vergelijking willen maken met dit voorstel van resolutie en andere voorstellen van resolutie, zoals Taiwan, u moet het maar durven. Dat is de resolutie van Taiwan die wij hebben ingediend, die u hebt ingediend en die u nu al minstens een halfjaar op de lange baan schuift, die u zelfs niet meer durft te agenderen in de commissie voor Buitenlandse Betrekkingen. Meent u dat nu echt? Wil u deze resolutie volgende week dan misschien agenderen, zodat ook wij onze besprekingen daaraan kunnen hervatten? U hebt het over christenvervolging. Wij hebben een resolutie ingediend over christenvervolging. U hebt geweigerd om die goed te keuren. Wij hebben een resolutie ingediend over de vervolging, de gedwongen orgaanextracties bij Falun Gongminderheden in China. U hebt geweigerd om die goed te keuren. U hebt daarvan gezegd dat dat niet belangrijk was. U weigert zelfs de betrokken organisaties die u daarover rechtstreeks aanschrijven als voorzitter van de commissie voor Buitenlandse Betrekkingen van antwoord te dienen. Ik zal u de mails ter zake voorleggen. Als het over consequentie met betrekking tot mensenrechten gaat, hebben wij van u absoluut geen lessen te leren.
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l’article 24 est adopté.
-En conséquence, l'amendement est rejeté et
-l’article 24 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 24 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 24 aangenomen.
- 
- 
- 
-(Mevrouw
-Nathalie Dewulf heeft tegengestemd)
-(Mevrouw
-Nathalie Dewulf heeft tegengestemd)
-(Mevrouw
-Nathalie Dewulf heeft tegengestemd)
 
- 
- 
- 
-36 Ensemble du projet de loi modifiant la loi du 24 juin 2013 relative
-aux sanctions administratives communales, la Nouvelle Loi communale et la loi
-du 15 mai 2007 relative à la création de la fonction de gardien de la paix, à
-la création du service des gardiens de la paix et à la modification de
-l'article 119bis de la Nouvelle Loi communale (3490/7)
-36
-36
- Ensemble du projet de loi modifiant la loi du 24 juin 2013 relative
-aux sanctions administratives communales, la Nouvelle Loi communale et la loi
-du 15 mai 2007 relative à la création de la fonction de gardien de la paix, à
-la création du service des gardiens de la paix et à la modification de
-l'article 119bis de la Nouvelle Loi communale (3490/7)
- Ensemble du projet de loi modifiant la loi du 24 juin 2013 relative
-aux sanctions administratives communales, la Nouvelle Loi communale et la loi
-du 15 mai 2007 relative à la création de la fonction de gardien de la paix, à
-la création du service des gardiens de la paix et à la modification de
-l'article 119bis de la Nouvelle Loi communale (3490/7)
 
-36 Geheel van het
-wetsontwerp tot wijziging van de wet van 24 juni 2013 betreffende de
-gemeentelijke administratieve sancties, van 
-de Nieuwe Gemeentewet en van de wet van 15 mei 2007 tot instelling van
-de functie van gemeenschapswacht, tot instelling van de dienst
-gemeenschapswachten en tot wijziging van artikel 119bis van de Nieuwe
-Gemeentewet (3490/7)
-36
-36
-36
- Geheel van het
-wetsontwerp tot wijziging van de wet van 24 juni 2013 betreffende de
-gemeentelijke administratieve sancties, van 
-de Nieuwe Gemeentewet en van de wet van 15 mei 2007 tot instelling van
-de functie van gemeenschapswacht, tot instelling van de dienst
-gemeenschapswachten en tot wijziging van artikel 119bis van de Nieuwe
-Gemeentewet (3490/7)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 24 juni 2013 betreffende de
-gemeentelijke administratieve sancties, van 
-de Nieuwe Gemeentewet en van de wet van 15 mei 2007 tot instelling van
-de functie van gemeenschapswacht, tot instelling van de dienst
-gemeenschapswachten en tot wijziging van artikel 119bis van de Nieuwe
-Gemeentewet (3490/7)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 24 juni 2013 betreffende de
-gemeentelijke administratieve sancties, van 
-de Nieuwe Gemeentewet en van de wet van 15 mei 2007 tot instelling van
-de functie van gemeenschapswacht, tot instelling van de dienst
-gemeenschapswachten en tot wijziging van artikel 119bis van de Nieuwe
-Gemeentewet (3490/7)
- 
+23.04  Els Van Hoof (cd&v): Ik denk dat dit wederzijds is. Ik herinner mij nog goed dat u de resolutie met betrekking tot Rusland als staatssponsor van terrorisme ook niet hebt gesteund. Nochtans is dat een zwaar misdrijf. U zei toen: dat is niet bewezen, wij vinden dat niet nodig.
 
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Over Taiwan heb ik in deze legislatuur al een resolutie ter stemming voorgelegd. Dat vermeldt u niet. De opvolgingsresolutie kan nog altijd aan bod komen. Wij hebben het nu over de beleidsnota’s. Wij hebben de prioritaire voorstellen opgevraagd. Wij hebben eerst Congo aan bod laten komen omdat het nu verkiezingen zijn. Het zou een beetje raar zijn om dat na de verkiezingen te doen. Ik heb ook zeer goede contacten met de Taiwanese vertegenwoordiging, die mij ook vragen om dat te gepasten tijde te doen.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+Ik doe dit trouwens op vraag van de Taiwanese of de Congolese overheden. Ik ben niet paternalistisch. Ik doe dat niet op mijn eigen initiatief. Ik probeer alles in overleg en dialoog te doen. Dat zou u beter ook doen.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+23.05  Nabil Boukili (PVDA-PTB): Madame la présidente, je ne sais si je vais apaiser les choses.
 
-## Proposal 10
 
 
-(Stemming/vote 9)
+Chers collègues, le texte qui nous est proposé semble être un texte sortant tout droit des années 1950. Il part du principe que le gouvernement congolais a besoin du Parlement belge et de la Belgique venant à sa rescousse pour bien organiser ses élections. Ça, c'est l'esprit colonial dans son essence-même.
 
-(Stemming/vote 9)
-(Stemming/vote 9)
-(Stemming/vote 9)
 
 
+Le texte affirme que la Belgique a une relation unique avec le Congo sans mentionner un seul mot de la colonisation, sans s'excuser, sans mentionner notre rôle dans l'assassinat du premier ministre démocratiquement élu à l'époque, M. Lumumba. Pas un mot sur notre rôle dans la mise en place du dictateur Mobutu et des décennies de soutien à son régime. Aucune mention de l'ingérence de nos ministres des Affaires étrangères dans la politique intérieure du pays – les ministres Belges sont intervenus pour abroger une loi visant à donner à l'État congolais plus de revenus provenant de l'extraction des ressources, etc. On pourrait continuer à dresser une liste toute la soirée sur les rôles affreux que la Belgique a joués durant son histoire au Congo.
 
-Ja
 
 
-77
+Rien de tout cela n'est surprenant lorsque l'on voit à quel point la commission Passé colonial n'a pas tenu ses promesses et à quel point il est difficile pour notre pays de reconnaître son passé colonial et encore plus de s'en excuser.
 
 
-Oui
 
+C'est difficile mais, par contre, pour aller faire la leçon aux Congolais et leur dire comment ils doivent organiser leurs élections, la Belgique est toujours au taquet. La Belgique n'est pas capable de faire un rapport de commission sur son passé colonial, mais elle est capable d'organiser les élections du Congo!
 
 
-Ja
 
-Ja
-Ja
+La Belgique est, en tout état de cause, particulièrement mal placée pour s'immiscer dans les élections du Congo. Un seul pays a cette légitimité: le Congo, et non la Belgique!
 
-77
 
-77
-77
 
-Oui
+Nous trouvons étrange que même les partis progressistes soutiennent ce texte et que le président de la commission Passé colonial le soutienne également. C'est hallucinant!
 
-Oui
-Oui
 
 
-Nee
+Dans la demande n° 11, "nous demandons d'insister au niveau européen sur le développement d'une coopération européenne coordonnée pour rendre l'ensemble du processus électoral congolais aussi fluide que possible". Dans le même temps, "nous demandons l'adoption de sanctions s'il apparait que le Rwanda ou d'autres pays voisins tentent d'influencer le processus électoral".
 
 
-9
 
+En d'autres termes, nous avons le droit d'aller influencer le processus électoral, mais si d'autres le font, il faut les sanctionner. La Belgique va-t-elle s'appliquer des sanctions à elle-même pour avoir influencé le processus électoral? Il y a ici une forme de schizophrénie dans le sens où ce qui est permis à la Belgique n'est pas permis aux autres. Même l'Union africaine, dont la République démocratique du Congo fait partie, n'a pas le droit d'avoir une influence sur les élections, mais nous, l'Union européenne, oui!
 
-Non
 
 
+Chers collègues, ce n'est pas un scoop, nous allons voter contre ce texte. Il n'appartient pas à notre pays d'interférer dans le processus électoral d'un autre pays, surtout pas quand il s'agit d'une ancienne colonie. Je pense qu'il faut un peu de décence, et voter ce genre de texte aujourd'hui en 2023 ne nous grandit pas.
 
-Nee
 
-Nee
-Nee
 
-9
+23.06  Georges Dallemagne (Les Engagés): Je voudrais, par contre, me réjouir que nous ayons ce texte aujourd'hui à l'examen. Oui, monsieur Boukili, moi je m'intéresse au sort de tout le monde, encore une fois, et je ne suis pas surpris de votre solidarité à géométrie variable.
 
-9
-9
 
-Non
 
-Non
-Non
+Je vais vous dire une chose: les Congolais sont de grands amoureux de la démocratie et ils vont voter en masse, comme ils ont déjà voté en masse la dernière fois. Ils vont y croire. Ils vont essayer d'y croire et de faire en sorte que cette démocratie ne soit pas manipulée, distordue, ils vont essayer de faire en sorte que cela marche bien. Et vous savez quoi? Ils s'adressent à nous. Ils nous demandent un coup de main.
 
 
-Onthoudingen
 
+Nous sommes allés au Congo récemment à la demande de la coopération. Nous avons en effet une forte coopération avec le Congo. Je ne comprendrais pas que, d'un côté, nous ayons une forte coopération et que, de l'autre, nous nous cachions et nous fermions les yeux sur les problèmes de liberté, de démocratie ou de droits pour faire de la coopération aveuglément. C'est finalement cela que vous nous demandez, à savoir d'accroître la coopération sans regarder le contexte politique dans lequel se joue cette coopération. Ce serait totalement absurde.
 
-41
 
 
-Abstentions
+Pour vous, tous les autres peuples qui vous laissent indifférent doivent se démerder avec leurs dictateurs, leur pauvreté ou leurs problèmes. Nous avons bien compris que c'était votre message, mais telle n'est pas notre vision. Nous ne sommes pas comme ça. Nous sommes des humanistes, des universalistes, et nous pensons effectivement que la dignité humaine a le même prix partout.
 
 
 
-Onthoudingen
+Vous savez, le président Tshisekedi nous a reçus longuement, très longuement, pour un dialogue politique.
 
-Onthoudingen
-Onthoudingen
 
-41
 
-41
-41
+Pourtant, il revenait de Chine et tous ses ministres l'attendaient dans l'antichambre. Il nous a accordé – à cinq parlementaires belges – deux heures et demie d'entretien à sa descente d'avion. Cela peut impressionner. Rarement, un président d'un aussi grand pays avait accordé autant d'importance à un si petit pays, avec des parlementaires qui, finalement, n'avaient pas beaucoup de poids ou de droit à discuter avec lui. Il l'a fait. Et nous avons abordé toutes les questions avec lui. Nous avons abordé les choses courtoisement, comme il sied avec un président de la République, mais clairement sur chacun des points: chaque problème sur le processus électoral, chaque question en matière de droits de l'homme. Il nous a écouté, il nous a répondu, il y avait un vrai dialogue.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Pour moi, c'est la responsabilité du dialogue sur les questions internationales et c'est la responsabilité de notre Parlement. C'est faire preuve à la fois de responsabilité, de courage et d'implication dans la liberté des peuples, dans le sort de cette population qui croit à la démocratie et qui a besoin de nous, de notre assistance technique, de notre regard, de cette relation qui existe entre le Congo et la Belgique et qui n'est pas aujourd'hui aussi insupportable aux Congolais que vous ne pouvez le croire. Au contraire, ils souhaitent qu'on rétablisse cette coopération, ce lien, ce dialogue, cette amitié que nous avons avec ce pays depuis longtemps. C'est exactement le message que nous avons reçu à chaque discussion là-bas, avec chaque intervenant. Nous avons vu le président de l'Assemblée nationale congolaise, nous avons vu les ONG, nous avons vu tous les opposants. Ils nous ont dit leur effroi, ils nous ont dit leurs cris, ils nous ont dit la dérive des institutions et la dérive de la gouvernance.
 
-Totaal
 
 
-127
+Nous avons abordé tout cela avec le président Tshisekedi parce que c'est important et parce que c'est cela se préoccuper de l'avenir du monde, de l'avenir de cette population, de l'avenir du Congo. C'est cette responsabilité que nous prenons aujourd'hui à travers cette résolution.
 
 
-Total
 
+Je veux me réjouir que ce Parlement ne soit pas à nouveau indifférent à ce qu'il se passe là-bas, dans ce pays de 100 millions d'habitants qui connaît toutes les tragédies qu'on peut imaginer – la pauvreté, la violence, la guerre, le déplacement massif de population, les graves problèmes climatiques. Nous faisons en sorte d'être attentifs à toutes ces questions, y compris les questions démocratiques et les questions électorales. Je me réjouis que nous ayons pu le faire dans cette résolution.
 
 
-Totaal
 
-Totaal
-Totaal
+23.07  Nabil Boukili (PVDA-PTB): Monsieur Dallemagne, vous avez encore répété que je ne me souciais pas des autres conflits. Dans ce parlement, j'ai appelé à des sanctions contre l'Arabie saoudite pour ce qu'elle fait au Yémen. Mais, ici, aucune sanction n'a été prise contre l'Arabie saoudite, parce que c'est un pays allié. Donc, ce n'est pas moi qui suis hypocrite dans la gestion du droit international, ce n'est pas moi qui l'utilise à géométrie variable, ce sont ce parlement et ce gouvernement. Les exemples sont là. Arrêtez de déformer la réalité!
 
-127
 
-127
-127
 
-Total
+Concernant le Congo, monsieur Dallemagne, il n'y a bien sûr que des bonnes intentions dans votre discours et dans ce texte. C'est exactement avec ces bonnes intentions qu'on justifiait la colonisation à l'époque. C'est exactement avec ces bonnes intentions qu'on a soutenu la dictature de Mobutu pendant des années.
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
 
- 
- 
- 
-37 Proposition de résolution visant à condamner le régime autoritaire
-bélarusse et à soutenir l'entame d'un processus de transition démocratique au
-Bélarus (3147/5)
-37
-37
- Proposition de résolution visant à condamner le régime autoritaire
-bélarusse et à soutenir l'entame d'un processus de transition démocratique au
-Bélarus (3147/5)
- Proposition de résolution visant à condamner le régime autoritaire
-bélarusse et à soutenir l'entame d'un processus de transition démocratique au
-Bélarus (3147/5)
 
-37 Voorstel van
-resolutie betreffende de veroordeling van het autoritaire Belarussische regime
-en betreffende steun voor de aanzet tot een democratische transitie in Belarus
-(3147/5)
-37
-37
-37
- Voorstel van
-resolutie betreffende de veroordeling van het autoritaire Belarussische regime
-en betreffende steun voor de aanzet tot een democratische transitie in Belarus
-(3147/5)
- Voorstel van
-resolutie betreffende de veroordeling van het autoritaire Belarussische regime
-en betreffende steun voor de aanzet tot een democratische transitie in Belarus
-(3147/5)
- Voorstel van
-resolutie betreffende de veroordeling van het autoritaire Belarussische regime
-en betreffende steun voor de aanzet tot een democratische transitie in Belarus
-(3147/5)
+Ce qui se passe actuellement au Congo, c'est aussi le résultat de notre colonisation. La Belgique fait partie du problème dans ce qui se passe au Congo, elle ne fait pas partie des solutions. Aujourd'hui, vous venez avec un esprit paternaliste, en disant dans ce texte aux Congolais comment ils doivent organiser leurs élections. C'est quand même incroyable! Et vous justifiez cela comme si c'était de la bonne volonté. La bonne volonté a permis de coloniser, elle a permis de mettre des zoos humains ici, elle a permis d'exploiter ces pays-là et de soutenir des dictatures. C'est ça la bonne volonté du colon! Et cette bonne volonté du colon n'est plus à l'ordre du jour en 2023. Il faut arrêter d'avoir cet état d'esprit de supériorité européenne, qui va faire la leçon aux autres et leur dire comment ils doivent vivre. C'est insupportable!
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
+23.08  Els Van Hoof (cd&v): (…) niet de verkiezingen organiseren. Nogmaals, wij gaan geen verkiezingen organiseren in Congo. Weet u wie de verkiezingen organiseert? Dat is de instelling CENI, die we ook hebben bezocht en waaraan we in dialoog hebben gevraagd hoe ze die gaat organiseren. We hebben vragen gekregen van het parlement en van de regering voor ondersteuning en het sturen van waarnemers. Wat is in godsnaam het probleem? We ondersteunen daar de democratie in het grootste land van Afrika. Wij hebben er alle belang bij dat dit land stabiel wordt. Ik zou u toch willen vragen om daar ondersteuning aan te geven, want ik denk dat ook  uw kiezers daar zeer veel belang aan hechten.
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Vraagt nog iemand het woord? (Nee)
 
- 
- 
- 
 
-## Proposal 11
 
+La discussion est close.
 
-(Stemming/vote 10)
+De bespreking is gesloten.
 
-(Stemming/vote 10)
-(Stemming/vote 10)
-(Stemming/vote 10)
 
 
+Aucun amendement n'a été déposé.
 
-Ja
+Er werden geen amendementen ingediend.
 
 
-117
 
+Le vote sur la proposition aura lieu ultérieurement.
 
-Oui
+De stemming over het voorstel zal later plaatsvinden.
 
+### Description in French:
 
+Proposition déposée par:
 
-Ja
+Voorstel ingediend door:
 
-Ja
-Ja
+Els Van Hoof, Jan Briers.
 
-117
 
-117
-117
 
-Oui
+Discussion
 
-Oui
-Oui
+Bespreking
 
 
-Nee
 
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3381/4)
 
-0
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (3381/4)
 
 
-Non
 
+La discussion est ouverte.
 
+De bespreking is geopend.
 
-Nee
 
-Nee
-Nee
 
-0
+Le rapporteur, Mme Goedele Liekens, se réfère au rapport écrit.
 
-0
-0
 
-Non
 
-Non
-Non
+23.01  Annick Ponthier (VB): Mijnheer de voorzitter, collega's, ik wil een aantal bedenkingen uiten bij deze resolutie, die handelt over de voorbereiding van democratische verkiezingen in de republiek Congo.
 
 
-Onthoudingen
 
+Het is goed dat wij het verkiezingsproces in een land als Congo opvolgen, laat dat duidelijk zijn. Wij moeten meer bepaald aandacht besteden aan het verkiezingsproces en aan het verloop van het conflict in Oost-Congo, met het oog op de veiligheid van onze troepen en van onze ontwikkelingsmedewerkers ter plaatse. Het is belangrijk dat wij de verkiezingen op de voet volgen en diplomatiek aansturen op een eerlijke, vrije en transparante stembusslag. De reden daarvoor is duidelijk. Het gaat met name om het beperken van het risico van verdere escalatie van het geweld in die regio, en dus ook om de veiligheid van onze mensen in Congo.
 
-10
 
 
-Abstentions
+Als de tekst enkel zou focussen op dit aspect, namelijk het verzekeren van de veiligheid van onze burgers en onze militairen in dat land, zouden wij daar uiteraard geen enkel probleem mee hebben. Dat is helaas niet het geval in deze resolutie. Wat men hiermee wil bewerkstelligen, is vooral het verkiezingsproces beheren en controleren.
 
 
 
-Onthoudingen
+Ik heb het in de commissie al gezegd, maar ik wil het hier herhalen: wij willen expliciet de aandacht vestigen op het feit dat de Democratische Republiek Congo al enige decennia lang een onafhankelijk land is dat zijn eigen democratie kan of zou moeten kunnen organiseren. De titel van deze resolutie alleen al, het voorbereiden van democratische verkiezingen in Congo, laat vermoeden dat België daarvoor expliciet moet instaan. Ik wil de collega's vragen om de Congolezen toch eindelijk hun beleid zelf te laten uitstippelen, om Congo zijn eigen instellingen en zijn eigen verkiezingen te laten beheren. Controleer indien nodig, maar laat het land de verantwoordelijkheid voor het eigen beleid.
 
-Onthoudingen
-Onthoudingen
 
-10
 
-10
-10
+Ik weet het, deze vivaldiregering vindt het heel belangrijk om onze burgers te geselen over ons koloniaal verleden, over de negatieve impact ervan op het Congolese volk en de diaspora. Jullie blijven daarmee hangen in de neokoloniale visie op Congo. Ik meen dat wij moeten kunnen stellen dat indien wij menen nu nog altijd de zaken daar te moeten regelen, dit eigenlijk je reinste paternalisme is.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Dat is paternalisme, eens te meer, omdat een land als België, waar de verliezers van de verkiezingen samenhokken om een regering te vormen tegen de twee grootste partijen en de zevende partij de premier levert, weinig lessen te geven heeft aan een land als Congo. Bovendien prijkt België in de Democracy Index op een bedroevende 36ste plaats en staat het dus als gebrekkige democratie geboekstaafd. Ik denk dat we best eens in eigen boezem zouden kijken op dat vlak vooraleer we Kinshasa de les denken te moeten spellen.
 
-Totaal
 
 
-127
+Ondanks onze historische band met het land denk ik dat onze mensen hier vooral met hun eigen democratie bezig zijn. Zoals gezegd is er nogal wat werk aan de winkel op dat vlak. Onze mensen staan echt niet te wachten op meer financiering voor ontwikkelingslanden, want ook dat zit rechtstreeks of onrechtstreeks vervat in deze resolutie, of op het regelen en organiseren van verkiezingen in andere landen.
 
 
-Total
 
+Voorzitter: Eliane Tillieux, voorzitster.
 
+Président: Eliane Tillieux, présidente.
 
-Totaal
 
-Totaal
-Totaal
 
-127
+Collega's, gelet op de zonet aangehaalde uiting van paternalisme en de hypocrisie die van deze resolutie afstraalt en omdat onze mensen een buitenlands beleid vragen dat focust op onze belangen en niet op het handjes vasthouden van soevereine landen, waar dan ook ter wereld, zullen wij tegen deze resolutie stemmen.
 
-127
-127
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en
-sera donné connaissance au gouvernement. 
-En conséquence, la Chambre adopte la
-proposition de résolution. 
-Il en
-sera donné connaissance au gouvernement. 
+23.02  Els Van Hoof (cd&v): Mevrouw de voorzitster, collega's, over minder dan een maand zullen verkiezingen plaatsvinden in Congo. De logistieke organisatie daarvan zou meer dan 1 miljard euro kosten. Na de omstreden verkiezingen van 2018 moet het Congolese vertrouwen in het democratisch proces worden hersteld. Het is belangrijk dat de verkiezingen van 2023 vrij, transparant, inclusief en vreedzaam verlopen, met de aanwezigheid, op vraag van de Congolese overheid – dat is dus niet paternalistisch – van nationale en internationale waarnemers.
 
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht.
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht.
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van onthouding? (Nee)
-Reden van onthouding? (Nee)
-(Nee)
 
- 
- 
- 
-38 Proposition de résolution relative au conflit à l'Est de la République
-démocratique du Congo et à la lutte contre les violences sexuelles (nouvel
-intitulé)  (1783/4)
-38
-38
- Proposition de résolution relative au conflit à l'Est de la République
-démocratique du Congo et à la lutte contre les violences sexuelles (nouvel
-intitulé)  (1783/4)
- Proposition de résolution relative au conflit à l'Est de la République
-démocratique du Congo et à la lutte contre les violences sexuelles (nouvel
-intitulé)  (1783/4)
-  
 
-38 Voorstel van
-resolutie betreffende het conflict in het oosten van de Democratische Republiek
-Congo en betreffende de bestrijding van seksueel geweld (nieuw opschrift)  (1783/4)
-38
-38
-38
- Voorstel van
-resolutie betreffende het conflict in het oosten van de Democratische Republiek
-Congo en betreffende de bestrijding van seksueel geweld (nieuw opschrift)  (1783/4)
- Voorstel van
-resolutie betreffende het conflict in het oosten van de Democratische Republiek
-Congo en betreffende de bestrijding van seksueel geweld (nieuw opschrift)  (1783/4)
- Voorstel van
-resolutie betreffende het conflict in het oosten van de Democratische Republiek
-Congo en betreffende de bestrijding van seksueel geweld (nieuw opschrift)  (1783/4)
-  
+Het land kan hiervoor alle steun gebruiken. Een politiek glissement moet absoluut worden voorkomen, zoals wij ook vragen in het voorstel van resolutie. Het is ongrondwettelijk en nefast voor het Congolese vertrouwen in het democratiseringsproces. België moet dat blijven benadrukken, ook in zijn bilaterale onderhouden met Congo. Enkel in geval van onregelmatigheden mag een glissement een optie zijn. Wij hebben minister Lahbib daarover deze week nog gehoord.
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
+In heel Afrika komen democratieën steeds meer onder druk te staan. Dat zien wij in de Centraal-Afrikaanse Republiek, Niger, Burkina Faso, Zuid-Soedan, Gabon enzovoort. Dat gaat steeds ten koste van de lokale bevolking die hier nooit achter staat en vlucht naar betere oorden. Daarom is het belangrijk om op te komen voor de democratie. Het Vlaams Belang vindt ons voorstel van resolutie paternalistisch, maar het vindt dat blijkbaar niet als het gaat over Taiwan, Hongkong, Armenië en christelijke minderheden. Wij vinden dat wij niet met twee maten en twee gewichten mogen werken. Wij kiezen steeds dezelfde kant, de kant van de democratie, de rechtsstaat en de mensenrechten omdat dat de mondiale stabiliteit bevordert.
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+De afgelopen maanden is de vraag gekomen van zowel de Congolese overheid als het Congolees maatschappelijk middenveld om hun ondersteuning te bieden tijdens het verkiezingsproces. Het gaat hier dus duidelijk niet over paternalisme. Wij beslissen niet hoe Congo zijn verkiezingen moet organiseren. Dat kan en doet Congo zelf, maar wij kunnen wel op hun vraag ondersteuning bieden waar wij kunnen. Dat kan op verschillende manieren. Politici worden vandaag immers bedreigd, geïntimideerd en zelfs vermoord. Dat hebben wij ook gehoord in de adviezen die naar aanleiding van het voorstel werden gegeven.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 12
+Journalisten worden gearresteerd. Demonstranten worden hardhandig aangepakt. Sinds vorig weekend is de verkiezingscampagne officieel gestart. We hebben ondertussen echter provinciegouverneurs horen verkondigen dat niet alle kandidaten in hun provincie welkom zijn. Daarom vragen wij dat België zich uitspreekt tegen dit geweld.
 
 
-(Stemming/vote 11)
 
-(Stemming/vote 11)
-(Stemming/vote 11)
-(Stemming/vote 11)
+De escalatie van het geweld in het oosten, waarover we daarnet al hebben gesproken, bemoeilijkt uiteraard het hele verkiezingsproces. Eén miljoen geregistreerde kiezers dreigt daardoor niet te kunnen gaan stemmen. We roepen de regering dan ook op in de verzoeken 5, 6 en 7 om ook Congo te steunen in zijn ambitie om de veiligheid in het oosten als prioriteit te behouden en de verkiezingen toch te laten doorgaan.
 
 
 
-Ja
+De pacificatie van het verkiezingsklimaat is noodzakelijk om ervoor te zorgen dat iedereen zich in aanloop naar de verkiezingen vrij kan uiten. Op vraag van het Congolese middenveld worden, met de ondersteuning van de daar actieve ngo’s, zoals 11.11.11, bijeenkomsten georganiseerd om te sensibiliseren tegen haatboodschappen tijdens de verkiezingscampagne. Er wordt gedebatteerd over de sociale cohesie tijdens het verkiezingsproces en er worden voorlichtingssessies gegeven over hoe correct een stem uit te brengen. Wij ondersteunen hen daarin op hun vraag. Dit is geen paternalisme. Op deze manier geven we de democratie een kans.
 
 
-116
 
+Ik wil eindigen met het bedanken voor de steun van alle partijen, behalve die van de extreme partijen. Dat zegt misschien genoeg.
 
-Oui
 
 
+23.03  Annick Ponthier (VB): Hier kan ik toch niet anders dan reageren, mevrouw Van Hoof. Het gaat hier over een resolutie die handelt over de voorbereiding van democratische verkiezingen in een ander land. Wij hebben gezegd in onze tussenkomst, waarvan ik niet weet of u die beluisterd hebt, dat wij geen enkel probleem hebben met de controle van die procedure. Als u daarvoor een missie naar Congo wil sturen, zullen wij dat steunen. Dat heb ik ook gezegd in de commissie.
 
-Ja
 
-Ja
-Ja
 
-116
+Hier absoluut de vergelijking willen maken met dit voorstel van resolutie en andere voorstellen van resolutie, zoals Taiwan, u moet het maar durven. Dat is de resolutie van Taiwan die wij hebben ingediend, die u hebt ingediend en die u nu al minstens een halfjaar op de lange baan schuift, die u zelfs niet meer durft te agenderen in de commissie voor Buitenlandse Betrekkingen. Meent u dat nu echt? Wil u deze resolutie volgende week dan misschien agenderen, zodat ook wij onze besprekingen daaraan kunnen hervatten? U hebt het over christenvervolging. Wij hebben een resolutie ingediend over christenvervolging. U hebt geweigerd om die goed te keuren. Wij hebben een resolutie ingediend over de vervolging, de gedwongen orgaanextracties bij Falun Gongminderheden in China. U hebt geweigerd om die goed te keuren. U hebt daarvan gezegd dat dat niet belangrijk was. U weigert zelfs de betrokken organisaties die u daarover rechtstreeks aanschrijven als voorzitter van de commissie voor Buitenlandse Betrekkingen van antwoord te dienen. Ik zal u de mails ter zake voorleggen. Als het over consequentie met betrekking tot mensenrechten gaat, hebben wij van u absoluut geen lessen te leren.
 
-116
-116
 
-Oui
 
-Oui
-Oui
+23.04  Els Van Hoof (cd&v): Ik denk dat dit wederzijds is. Ik herinner mij nog goed dat u de resolutie met betrekking tot Rusland als staatssponsor van terrorisme ook niet hebt gesteund. Nochtans is dat een zwaar misdrijf. U zei toen: dat is niet bewezen, wij vinden dat niet nodig.
 
 
-Nee
 
+Over Taiwan heb ik in deze legislatuur al een resolutie ter stemming voorgelegd. Dat vermeldt u niet. De opvolgingsresolutie kan nog altijd aan bod komen. Wij hebben het nu over de beleidsnota’s. Wij hebben de prioritaire voorstellen opgevraagd. Wij hebben eerst Congo aan bod laten komen omdat het nu verkiezingen zijn. Het zou een beetje raar zijn om dat na de verkiezingen te doen. Ik heb ook zeer goede contacten met de Taiwanese vertegenwoordiging, die mij ook vragen om dat te gepasten tijde te doen.
 
-0
 
 
-Non
+Ik doe dit trouwens op vraag van de Taiwanese of de Congolese overheden. Ik ben niet paternalistisch. Ik doe dat niet op mijn eigen initiatief. Ik probeer alles in overleg en dialoog te doen. Dat zou u beter ook doen.
 
 
 
-Nee
+23.05  Nabil Boukili (PVDA-PTB): Madame la présidente, je ne sais si je vais apaiser les choses.
 
-Nee
-Nee
 
-0
 
-0
-0
+Chers collègues, le texte qui nous est proposé semble être un texte sortant tout droit des années 1950. Il part du principe que le gouvernement congolais a besoin du Parlement belge et de la Belgique venant à sa rescousse pour bien organiser ses élections. Ça, c'est l'esprit colonial dans son essence-même.
 
-Non
 
-Non
-Non
 
+Le texte affirme que la Belgique a une relation unique avec le Congo sans mentionner un seul mot de la colonisation, sans s'excuser, sans mentionner notre rôle dans l'assassinat du premier ministre démocratiquement élu à l'époque, M. Lumumba. Pas un mot sur notre rôle dans la mise en place du dictateur Mobutu et des décennies de soutien à son régime. Aucune mention de l'ingérence de nos ministres des Affaires étrangères dans la politique intérieure du pays – les ministres Belges sont intervenus pour abroger une loi visant à donner à l'État congolais plus de revenus provenant de l'extraction des ressources, etc. On pourrait continuer à dresser une liste toute la soirée sur les rôles affreux que la Belgique a joués durant son histoire au Congo.
 
-Onthoudingen
 
 
-10
+Rien de tout cela n'est surprenant lorsque l'on voit à quel point la commission Passé colonial n'a pas tenu ses promesses et à quel point il est difficile pour notre pays de reconnaître son passé colonial et encore plus de s'en excuser.
 
 
-Abstentions
 
+C'est difficile mais, par contre, pour aller faire la leçon aux Congolais et leur dire comment ils doivent organiser leurs élections, la Belgique est toujours au taquet. La Belgique n'est pas capable de faire un rapport de commission sur son passé colonial, mais elle est capable d'organiser les élections du Congo!
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+La Belgique est, en tout état de cause, particulièrement mal placée pour s'immiscer dans les élections du Congo. Un seul pays a cette légitimité: le Congo, et non la Belgique!
 
-10
 
-10
-10
 
-Abstentions
+Nous trouvons étrange que même les partis progressistes soutiennent ce texte et que le président de la commission Passé colonial le soutienne également. C'est hallucinant!
 
-Abstentions
-Abstentions
 
 
-Totaal
+Dans la demande n° 11, "nous demandons d'insister au niveau européen sur le développement d'une coopération européenne coordonnée pour rendre l'ensemble du processus électoral congolais aussi fluide que possible". Dans le même temps, "nous demandons l'adoption de sanctions s'il apparait que le Rwanda ou d'autres pays voisins tentent d'influencer le processus électoral".
 
 
-126
 
+En d'autres termes, nous avons le droit d'aller influencer le processus électoral, mais si d'autres le font, il faut les sanctionner. La Belgique va-t-elle s'appliquer des sanctions à elle-même pour avoir influencé le processus électoral? Il y a ici une forme de schizophrénie dans le sens où ce qui est permis à la Belgique n'est pas permis aux autres. Même l'Union africaine, dont la République démocratique du Congo fait partie, n'a pas le droit d'avoir une influence sur les élections, mais nous, l'Union européenne, oui!
 
-Total
 
 
+Chers collègues, ce n'est pas un scoop, nous allons voter contre ce texte. Il n'appartient pas à notre pays d'interférer dans le processus électoral d'un autre pays, surtout pas quand il s'agit d'une ancienne colonie. Je pense qu'il faut un peu de décence, et voter ce genre de texte aujourd'hui en 2023 ne nous grandit pas.
 
-Totaal
 
-Totaal
-Totaal
 
-126
+23.06  Georges Dallemagne (Les Engagés): Je voudrais, par contre, me réjouir que nous ayons ce texte aujourd'hui à l'examen. Oui, monsieur Boukili, moi je m'intéresse au sort de tout le monde, encore une fois, et je ne suis pas surpris de votre solidarité à géométrie variable.
 
-126
-126
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en
-sera donné connaissance au gouvernement. 
-En conséquence, la Chambre adopte la
-proposition de résolution. 
-Il en
-sera donné connaissance au gouvernement. 
+Je vais vous dire une chose: les Congolais sont de grands amoureux de la démocratie et ils vont voter en masse, comme ils ont déjà voté en masse la dernière fois. Ils vont y croire. Ils vont essayer d'y croire et de faire en sorte que cette démocratie ne soit pas manipulée, distordue, ils vont essayer de faire en sorte que cela marche bien. Et vous savez quoi? Ils s'adressent à nous. Ils nous demandent un coup de main.
 
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht.
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht.
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
 
- 
- 
- 
-39 Proposition de résolution sur la préparation d'élections démocratiques
-en République démocratique du Congo 
-(3381/4)
-39
-39
- Proposition de résolution sur la préparation d'élections démocratiques
-en République démocratique du Congo 
-(3381/4)
- Proposition de résolution sur la préparation d'élections démocratiques
-en République démocratique du Congo 
-(3381/4)
- 
 
+Nous sommes allés au Congo récemment à la demande de la coopération. Nous avons en effet une forte coopération avec le Congo. Je ne comprendrais pas que, d'un côté, nous ayons une forte coopération et que, de l'autre, nous nous cachions et nous fermions les yeux sur les problèmes de liberté, de démocratie ou de droits pour faire de la coopération aveuglément. C'est finalement cela que vous nous demandez, à savoir d'accroître la coopération sans regarder le contexte politique dans lequel se joue cette coopération. Ce serait totalement absurde.
 
-39 Voorstel van
-resolutie betreffende het voorbereiden van democratische verkiezingen in de
-Democra­tische Republiek Congo  (3381/4)
-39
-39
-39
- Voorstel van
-resolutie betreffende het voorbereiden van democratische verkiezingen in de
-Democra­tische Republiek Congo  (3381/4)
- Voorstel van
-resolutie betreffende het voorbereiden van democratische verkiezingen in de
-Democra­tische Republiek Congo  (3381/4)
- Voorstel van
-resolutie betreffende het voorbereiden van democratische verkiezingen in de
-Democra­tische Republiek Congo  (3381/4)
-  
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+Pour vous, tous les autres peuples qui vous laissent indifférent doivent se démerder avec leurs dictateurs, leur pauvreté ou leurs problèmes. Nous avons bien compris que c'était votre message, mais telle n'est pas notre vision. Nous ne sommes pas comme ça. Nous sommes des humanistes, des universalistes, et nous pensons effectivement que la dignité humaine a le même prix partout.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+Vous savez, le président Tshisekedi nous a reçus longuement, très longuement, pour un dialogue politique.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+Pourtant, il revenait de Chine et tous ses ministres l'attendaient dans l'antichambre. Il nous a accordé – à cinq parlementaires belges – deux heures et demie d'entretien à sa descente d'avion. Cela peut impressionner. Rarement, un président d'un aussi grand pays avait accordé autant d'importance à un si petit pays, avec des parlementaires qui, finalement, n'avaient pas beaucoup de poids ou de droit à discuter avec lui. Il l'a fait. Et nous avons abordé toutes les questions avec lui. Nous avons abordé les choses courtoisement, comme il sied avec un président de la République, mais clairement sur chacun des points: chaque problème sur le processus électoral, chaque question en matière de droits de l'homme. Il nous a écouté, il nous a répondu, il y avait un vrai dialogue.
 
-## Proposal 13
 
 
-(Stemming/vote 12)
+Pour moi, c'est la responsabilité du dialogue sur les questions internationales et c'est la responsabilité de notre Parlement. C'est faire preuve à la fois de responsabilité, de courage et d'implication dans la liberté des peuples, dans le sort de cette population qui croit à la démocratie et qui a besoin de nous, de notre assistance technique, de notre regard, de cette relation qui existe entre le Congo et la Belgique et qui n'est pas aujourd'hui aussi insupportable aux Congolais que vous ne pouvez le croire. Au contraire, ils souhaitent qu'on rétablisse cette coopération, ce lien, ce dialogue, cette amitié que nous avons avec ce pays depuis longtemps. C'est exactement le message que nous avons reçu à chaque discussion là-bas, avec chaque intervenant. Nous avons vu le président de l'Assemblée nationale congolaise, nous avons vu les ONG, nous avons vu tous les opposants. Ils nous ont dit leur effroi, ils nous ont dit leurs cris, ils nous ont dit la dérive des institutions et la dérive de la gouvernance.
 
-(Stemming/vote 12)
-(Stemming/vote 12)
-(Stemming/vote 12)
 
 
+Nous avons abordé tout cela avec le président Tshisekedi parce que c'est important et parce que c'est cela se préoccuper de l'avenir du monde, de l'avenir de cette population, de l'avenir du Congo. C'est cette responsabilité que nous prenons aujourd'hui à travers cette résolution.
 
-Ja
 
 
-104
+Je veux me réjouir que ce Parlement ne soit pas à nouveau indifférent à ce qu'il se passe là-bas, dans ce pays de 100 millions d'habitants qui connaît toutes les tragédies qu'on peut imaginer – la pauvreté, la violence, la guerre, le déplacement massif de population, les graves problèmes climatiques. Nous faisons en sorte d'être attentifs à toutes ces questions, y compris les questions démocratiques et les questions électorales. Je me réjouis que nous ayons pu le faire dans cette résolution.
 
 
-Oui
 
+23.07  Nabil Boukili (PVDA-PTB): Monsieur Dallemagne, vous avez encore répété que je ne me souciais pas des autres conflits. Dans ce parlement, j'ai appelé à des sanctions contre l'Arabie saoudite pour ce qu'elle fait au Yémen. Mais, ici, aucune sanction n'a été prise contre l'Arabie saoudite, parce que c'est un pays allié. Donc, ce n'est pas moi qui suis hypocrite dans la gestion du droit international, ce n'est pas moi qui l'utilise à géométrie variable, ce sont ce parlement et ce gouvernement. Les exemples sont là. Arrêtez de déformer la réalité!
 
 
-Ja
 
-Ja
-Ja
+Concernant le Congo, monsieur Dallemagne, il n'y a bien sûr que des bonnes intentions dans votre discours et dans ce texte. C'est exactement avec ces bonnes intentions qu'on justifiait la colonisation à l'époque. C'est exactement avec ces bonnes intentions qu'on a soutenu la dictature de Mobutu pendant des années.
 
-104
 
-104
-104
 
-Oui
+Ce qui se passe actuellement au Congo, c'est aussi le résultat de notre colonisation. La Belgique fait partie du problème dans ce qui se passe au Congo, elle ne fait pas partie des solutions. Aujourd'hui, vous venez avec un esprit paternaliste, en disant dans ce texte aux Congolais comment ils doivent organiser leurs élections. C'est quand même incroyable! Et vous justifiez cela comme si c'était de la bonne volonté. La bonne volonté a permis de coloniser, elle a permis de mettre des zoos humains ici, elle a permis d'exploiter ces pays-là et de soutenir des dictatures. C'est ça la bonne volonté du colon! Et cette bonne volonté du colon n'est plus à l'ordre du jour en 2023. Il faut arrêter d'avoir cet état d'esprit de supériorité européenne, qui va faire la leçon aux autres et leur dire comment ils doivent vivre. C'est insupportable!
 
-Oui
-Oui
 
 
-Nee
+23.08  Els Van Hoof (cd&v): (…) niet de verkiezingen organiseren. Nogmaals, wij gaan geen verkiezingen organiseren in Congo. Weet u wie de verkiezingen organiseert? Dat is de instelling CENI, die we ook hebben bezocht en waaraan we in dialoog hebben gevraagd hoe ze die gaat organiseren. We hebben vragen gekregen van het parlement en van de regering voor ondersteuning en het sturen van waarnemers. Wat is in godsnaam het probleem? We ondersteunen daar de democratie in het grootste land van Afrika. Wij hebben er alle belang bij dat dit land stabiel wordt. Ik zou u toch willen vragen om daar ondersteuning aan te geven, want ik denk dat ook  uw kiezers daar zeer veel belang aan hechten.
 
 
-21
 
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
-Non
+Vraagt nog iemand het woord? (Nee)
 
 
 
-Nee
+La discussion est close.
 
-Nee
-Nee
+De bespreking is gesloten.
 
-21
 
-21
-21
 
-Non
+Aucun amendement n'a été déposé.
 
-Non
-Non
+Er werden geen amendementen ingediend.
 
 
-Onthoudingen
 
+Le vote sur la proposition aura lieu ultérieurement.
 
-1
+De stemming over het voorstel zal later plaatsvinden.
 
 
-Abstentions
 
+### Discussed proposals:
 
+## Proposal discussion (agenda item 24)
 
-Onthoudingen
+### Description in Dutch:
 
-Onthoudingen
-Onthoudingen
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3652/3)
+Het wetsontwerp telt 12 artikelen, alsmede tabellen in bijlage.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel, evenals de tabellen gevoegd als bijlage, zal later plaatsvinden.
 
-1
+### Description in French:
 
-1
-1
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3652/3)
+Le projet de loi compte 12 articles, ainsi que des tableaux en annexe.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble, ainsi que sur les tableaux annexés aura lieu ultérieurement.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+### Discussed proposals:
 
-Totaal
+## Proposal discussion (agenda item 25)
 
+### Description in Dutch:
 
-126
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3469/4)
+Het opschrift werd door de commissie gewijzigd in "wetsontwerp tot wijziging van de wet van 13 juni 2005 betreffende de elektronische communicatie wat het gebruik van stoorzenders betreft".
+Het wetsontwerp telt 4 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-Total
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3469/4)
+L’intitulé a été modifié par la commission en "projet de loi modifiant la loi du 13juin 2005 relative aux communications électroniques en ce qui concerne l’utilisation des brouilleurs".
+Le projet de loi compte 4 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
-Totaal
+### Discussed proposals:
 
-Totaal
-Totaal
+## Proposal discussion (agenda item 26)
 
-126
+### Description in Dutch:
 
-126
-126
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3601/3)
+Het wetsontwerp telt 16 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Total
+### Description in French:
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en
-sera donné connaissance au gouvernement. 
-En conséquence, la Chambre adopte la
-proposition de résolution. 
-Il en
-sera donné connaissance au gouvernement. 
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3601/3)
+Le projet de loi compte 16 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht.
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht.
- 
- 
- 
-40 Projet de loi contenant le deuxième ajustement du Budget général des
-dépenses pour l'année budgétaire 2023 (3652/3)
-40
-40
- Projet de loi contenant le deuxième ajustement du Budget général des
-dépenses pour l'année budgétaire 2023 (3652/3)
- Projet de loi contenant le deuxième ajustement du Budget général des
-dépenses pour l'année budgétaire 2023 (3652/3)
 
-40 Wetsontwerp houdende
-de tweede aanpassing van de Algemene uitgavenbegroting voor het begrotings­jaar
-2023 (3652/3)
-40
-40
-40
- Wetsontwerp houdende
-de tweede aanpassing van de Algemene uitgavenbegroting voor het begrotings­jaar
-2023 (3652/3)
- Wetsontwerp houdende
-de tweede aanpassing van de Algemene uitgavenbegroting voor het begrotings­jaar
-2023 (3652/3)
- Wetsontwerp houdende
-de tweede aanpassing van de Algemene uitgavenbegroting voor het begrotings­jaar
-2023 (3652/3)
 
+### Discussed proposals:
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+## Proposal discussion (agenda item 27)
 
+### Description in Dutch:
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2657/9)
+Het opschrift werd door de commissie gewijzigd in "wetsvoorstel tot wijziging van de wet van 10 november 2006 betreffende de openingsuren in handel, ambacht en dienstverlening".
+Het wetsvoorstel telt 7 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+### Description in French:
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2657/9)
+L’intitulé a été modifié par la commission en "proposition de loi modifiant la loi du 10 novembre 2006 relative aux heures d’ouverture dans le commerce, l’artisanat et les services".
+La proposition de loi compte 7 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 14
+### Discussed proposals:
 
+## Proposal discussion (agenda item 28)
 
-(Stemming/vote 13)
+### Description in Dutch:
 
-(Stemming/vote 13)
-(Stemming/vote 13)
-(Stemming/vote 13)
+Propositions déposées par:
 
+Voorstellen ingediend door:
 
+- 384: Stefaan Van Hecke
 
-Ja
+- 655: Els Van Hoof, Nawal Farih
 
+- 701: Els Van Hoof, Jan Briers, Franky Demon, Nahima Lanjri, Nawal Farih
 
-76
+- 805: Melissa Depraetere, Ben Segers
 
+- 957: Els Van Hoof
 
-Oui
+- 958: Els Van Hoof.
 
 
 
-Ja
+Discussion générale
 
-Ja
-Ja
+Algemene bespreking
 
-76
 
-76
-76
 
-Oui
+La discussion est ouverte.
 
-Oui
-Oui
+De bespreking is geopend.
 
 
-Nee
 
+Les rapporteurs, Mmes Claire Hugon et Katleen Bury, se réfèrent au rapport écrit.
 
-47
+### Description in French:
 
+Propositions déposées par:
 
-Non
+Voorstellen ingediend door:
 
+- 384: Stefaan Van Hecke
 
+- 655: Els Van Hoof, Nawal Farih
 
-Nee
+- 701: Els Van Hoof, Jan Briers, Franky Demon, Nahima Lanjri, Nawal Farih
 
-Nee
-Nee
+- 805: Melissa Depraetere, Ben Segers
 
-47
+- 957: Els Van Hoof
 
-47
-47
+- 958: Els Van Hoof.
 
-Non
 
-Non
-Non
 
+Discussion générale
 
-Onthoudingen
+Algemene bespreking
 
 
-3
 
+La discussion est ouverte.
 
-Abstentions
+De bespreking is geopend.
 
 
 
-Onthoudingen
+Les rapporteurs, Mmes Claire Hugon et Katleen Bury, se réfèrent au rapport écrit.
 
-Onthoudingen
-Onthoudingen
 
-3
 
-3
-3
+### Discussed proposals:
 
-Abstentions
+## Proposal discussion (agenda item 29)
 
-Abstentions
-Abstentions
+### Description in Dutch:
 
+None
 
-Totaal
+### Description in French:
 
+None
 
-126
 
 
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-126
-
-126
-126
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi, ainsi que les tableaux annexés. Il sera soumis à la sanction royale.
-En conséquence, la Chambre adopte le projet de
-loi, ainsi que les tableaux annexés. 
-Il sera soumis à la sanction royale.
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan, alsmede de bijgevoegde tabellen. Het zal aan de Koning ter bekrachtiging
-worden voorgelegd.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan, alsmede de bijgevoegde tabellen. Het zal aan de Koning ter bekrachtiging
-worden voorgelegd.
- 
- 
- 
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
-
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
-
- 
- 
- 
-41 Projet de loi portant modification de la loi du 13 juin 2005
-relative aux communications électroniques (nouvel intitulé)  (3469/4)
-41
-41
- Projet de loi portant modification de la loi du 13 juin 2005
-relative aux communications électroniques (nouvel intitulé)  (3469/4)
- Projet de loi portant modification de la loi du 13 juin 2005
-relative aux communications électroniques (nouvel intitulé)  (3469/4)
-  
-
-41 Wetsontwerp
-houdende wijziging van de wet van 13 juni 2005 betreffende de
-elektronische communicatie (nieuw opschrift) 
-(3469/4)
-41
-41
-41
- Wetsontwerp
-houdende wijziging van de wet van 13 juni 2005 betreffende de
-elektronische communicatie (nieuw opschrift) 
-(3469/4)
- Wetsontwerp
-houdende wijziging van de wet van 13 juni 2005 betreffende de
-elektronische communicatie (nieuw opschrift) 
-(3469/4)
- Wetsontwerp
-houdende wijziging van de wet van 13 juni 2005 betreffende de
-elektronische communicatie (nieuw opschrift) 
-(3469/4)
- 
-
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 15
-
-
-(Stemming/vote 14)
-
-(Stemming/vote 14)
-(Stemming/vote 14)
-(Stemming/vote 14)
-
-
-
-Ja
-
-
-126
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-126
-
-126
-126
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-126
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-126
-
-126
-126
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
- 
- 
- 
- 
- 
- 
- 
-42 Projet de loi modifiant la loi du 11 février 2013 organisant
-la profession d'agent immobilier (3601/3)
-42
-42
- Projet de loi modifiant la loi du 11 février 2013 organisant
-la profession d'agent immobilier (3601/3)
- Projet de loi modifiant la loi du 11 février 2013 organisant
-la profession d'agent immobilier (3601/3)
-
-42 Wetsontwerp tot
-wijziging van de wet van 11 februari 2013 houdende organisatie van
-het beroep van vastgoedmakelaar (3601/3)
-42
-42
-42
- Wetsontwerp tot
-wijziging van de wet van 11 februari 2013 houdende organisatie van
-het beroep van vastgoedmakelaar (3601/3)
- Wetsontwerp tot
-wijziging van de wet van 11 februari 2013 houdende organisatie van
-het beroep van vastgoedmakelaar (3601/3)
- Wetsontwerp tot
-wijziging van de wet van 11 februari 2013 houdende organisatie van
-het beroep van vastgoedmakelaar (3601/3)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 16
-
-
-(Stemming/vote 15)
-
-(Stemming/vote 15)
-(Stemming/vote 15)
-(Stemming/vote 15)
-
-
-
-Ja
-
-
-125
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-125
-
-125
-125
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-1
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-1
-
-1
-1
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-126
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-126
-
-126
-126
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd.
- 
- 
- 
-(Door een technisch probleem heeft mevrouw
-Nathalie Dewulf niet kunnen voorstemmen)
-(Door een technisch probleem heeft mevrouw
-Nathalie Dewulf niet kunnen voorstemmen)
-(Door een technisch probleem heeft mevrouw
-Nathalie Dewulf niet kunnen voorstemmen)
-
- 
- 
- 
- 
-43 Proposition de loi modifiant la loi du 10 novembre 2006
-relative aux heures d'ouverture dans le commerce, l'artisanat et les services
-(nouvel intitulé)  (2657/9)
-43
-43
- Proposition de loi modifiant la loi du 10 novembre 2006
-relative aux heures d'ouverture dans le commerce, l'artisanat et les services
-(nouvel intitulé)  (2657/9)
- Proposition de loi modifiant la loi du 10 novembre 2006
-relative aux heures d'ouverture dans le commerce, l'artisanat et les services
-(nouvel intitulé)  (2657/9)
-  
-
-43 Wetsvoorstel tot
-wijziging van de wet van 10 november 2006 betreffende de openingsuren
-in handel, ambacht en dienstverlening (nieuw opschrift)  (2657/9)
-43
-43
-43
- Wetsvoorstel tot
-wijziging van de wet van 10 november 2006 betreffende de openingsuren
-in handel, ambacht en dienstverlening (nieuw opschrift)  (2657/9)
- Wetsvoorstel tot
-wijziging van de wet van 10 november 2006 betreffende de openingsuren
-in handel, ambacht en dienstverlening (nieuw opschrift)  (2657/9)
- Wetsvoorstel tot
-wijziging van de wet van 10 november 2006 betreffende de openingsuren
-in handel, ambacht en dienstverlening (nieuw opschrift)  (2657/9)
-  
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
+### Discussed proposals:
 
 Motion # 1.
 

@@ -6,2702 +6,1205 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip181.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip181x.html
 
-## Proposal 1
-
-
- 
- 
- 
-20.02  Peter De Roover (N-VA): Mevrouw de voorzitster, collega Van Peel zal bij haar
-stemgedrag rekening houden met de gerechtvaardigde afwezigheid van collega
-Liekens. Zij hebben een stemafspraak.
-20.02
-20.02
-  Peter De Roover 
-  Peter De Roover 
- 
-(N-VA): Mevrouw de voorzitster, collega Van Peel zal bij haar
-stemgedrag rekening houden met de gerechtvaardigde afwezigheid van collega
-Liekens. Zij hebben een stemafspraak.
- 
- 
- 
-De voorzitster: Zijn er nog
-stemafspraken? (Nee)
-De voorzitster: Zijn er nog
-stemafspraken? 
-voorzitster
-(Nee)
-Nee
-
- 
- 
- 
-21 Motions déposées en conclusion de l’interpellation de
-Mme Dominiek Sneppe sur "La déclaration du tribunal du travail
-relative au remboursement de la vaccination contre le VPH" (n° 276)
-21
-21
- Motions déposées en conclusion de l’interpellation de
-Mme Dominiek Sneppe sur "La déclaration du tribunal du travail
-relative au remboursement de la vaccination contre le VPH" (n° 276)
- Motions déposées en conclusion de l’interpellation de
-Mme Dominiek Sneppe sur "La déclaration du tribunal du travail
-relative au remboursement de la vaccination contre le VPH" (n° 276)
-
-21 Moties ingediend
-tot besluit van de interpellatie van mevrouw Dominiek Sneppe over "De
-uitspraak van de arbeidsrechtbank inzake de terugbetaling van de
-HPV-vaccinatie" (nr. 276)
-21
-21
-21
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Dominiek Sneppe over "De
-uitspraak van de arbeidsrechtbank inzake de terugbetaling van de
-HPV-vaccinatie" (nr. 276)
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Dominiek Sneppe over "De
-uitspraak van de arbeidsrechtbank inzake de terugbetaling van de
-HPV-vaccinatie" (nr. 276)
- Moties ingediend
-tot besluit van de interpellatie van mevrouw Dominiek Sneppe over "De
-uitspraak van de arbeidsrechtbank inzake de terugbetaling van de
-HPV-vaccinatie" (nr. 276)
-
-
- 
- 
- 
-Cette interpellation a été développée en
-réunion publique de la commission de la Santé et de l'Égalité des chances du
-11 mai 2022.
-Cette interpellation a été développée en
-réunion publique de la commission de la Santé et de l'Égalité des chances du
-11 mai 2022.
-Deze interpellatie werd gehouden in de openbare
-vergadering van de commissie voor Gezondheid en Gelijke Kansen van
-11 mei 2022.
-Deze interpellatie werd gehouden in de openbare
-vergadering van de commissie voor Gezondheid en Gelijke Kansen van
-11 mei 2022.
- 
- 
- 
-Deux motions ont été déposées
-(MOT n° 276/1):
-Deux motions ont été déposées
-(MOT n° 276/1):
-- une motion de recommandation a été
-déposée par Mme Dominiek Sneppe;
-- une motion de recommandation a été
-déposée par Mme Dominiek Sneppe;
-- une motion pure et simple a été déposée
-par Mme Karin Jiroflée.
-- une motion pure et simple a été déposée
-par Mme Karin Jiroflée.
-Twee moties werden ingediend
-(MOT nr. 276/1):
-Twee moties werden ingediend
-(MOT nr. 276/1):
-- een motie van aanbeveling werd
-ingediend door mevrouw Dominiek Sneppe;
-- een motie van aanbeveling werd
-ingediend door mevrouw Dominiek Sneppe;
-- een eenvoudige motie werd ingediend
-door mevrouw Karin Jiroflée.
-- een eenvoudige motie werd ingediend
-door mevrouw Karin Jiroflée.
- 
- 
- 
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-
-Vraagt iemand het woord voor een
-stemverklaring? 
-Vraagt iemand het woord voor een
-stemverklaring? 
- 
-
- 
- 
- 
-21.01  Dominiek Sneppe (VB): Collega's, het humaan papillomavirus, in de volksmond HPV, is
-een groep van sterk verwante virussen die abnormale celgroei in huid- en
-slijmvliezen veroorzaken. Hierdoor kunnen verschillende soorten kanker
-ontstaan. De meest bekende is baarmoederhals­kanker. Daardoor werd lang gedacht
-dat dit virus enkel vrouwen trof. Toch blijkt uit een advies van de Hoge
-Gezondheidsraad dat een kwart van de HPV-gerelateerde kankers ook bij mannen
-optreedt. Sinds schooljaar 2019-2020 kunnen meisjes en jongens zich daarom via
-het gratis schoolvaccinatieprogramma laten beschermen. Wie hiervoor niet in
-aanmerking komt, kan het vaccin zelf kopen bij de apotheker, maar zonder
-terugbetaling. Vandaag voorziet het RIZIV enkel in terugbetaling van het HPV-vaccin,
-onder bepaalde voorwaarden dan nog, voor meisjes en niet voor jongens. Een
-jongen die bijvoorbeeld het vaccin Gardasil 9 aanschaft in de apotheek,
-betaalt daarvoor bijna 135 euro. Deze kosten kunnen oplopen tot meer dan
-400 euro, omdat meerdere doses nodig zijn voor een volledige bescherming.
-Een meisje in dezelfde situatie betaalt daarvoor 8 of 12 euro.
-21.01
-21.01
-  Dominiek Sneppe 
-  Dominiek Sneppe 
- 
-(VB): Collega's, het humaan papillomavirus, in de volksmond HPV, is
-een groep van sterk verwante virussen die abnormale celgroei in huid- en
-slijmvliezen veroorzaken. Hierdoor kunnen verschillende soorten kanker
-ontstaan. De meest bekende is baarmoederhals­kanker. Daardoor werd lang gedacht
-dat dit virus enkel vrouwen trof. Toch blijkt uit een advies van de Hoge
-Gezondheidsraad dat een kwart van de HPV-gerelateerde kankers ook bij mannen
-optreedt. Sinds schooljaar 2019-2020 kunnen meisjes en jongens zich daarom via
-het gratis schoolvaccinatieprogramma laten beschermen. Wie hiervoor niet in
-aanmerking komt, kan het vaccin zelf kopen bij de apotheker, maar zonder
-terugbetaling. Vandaag voorziet het RIZIV enkel in terugbetaling van het HPV-vaccin,
-onder bepaalde voorwaarden dan nog, voor meisjes en niet voor jongens. Een
-jongen die bijvoorbeeld het vaccin Gardasil 9 aanschaft in de apotheek,
-betaalt daarvoor bijna 135 euro. Deze kosten kunnen oplopen tot meer dan
-400 euro, omdat meerdere doses nodig zijn voor een volledige bescherming.
-Een meisje in dezelfde situatie betaalt daarvoor 8 of 12 euro.
- 
- 
- 
-Naar aanleiding van deze ongelijke
-terugbetaling ontving het Instituut voor de gelijkheid van vrouwen en mannen
-een klacht van een jongen. Samen gingen ze in beroep tegen de weigering van het
-RIZIV om tussen te komen in de kosten. Volgens hen is de ongelijke behandeling
-een schending van de genderwet en de antidiscriminatiewet. De arbeidsrechtbank
-van Brussel gaf hun gelijk. Op 30 maart laatstleden oordeelde de
-arbeidsrechtbank van Brussel dat jongens gediscrimineerd worden bij de
-terugbetaling van het vaccin tegen HPV.
-Naar aanleiding van deze ongelijke
-terugbetaling ontving het Instituut voor de gelijkheid van vrouwen en mannen
-een klacht van een jongen. Samen gingen ze in beroep tegen de weigering van het
-RIZIV om tussen te komen in de kosten. Volgens hen is de ongelijke behandeling
-een schending van de genderwet en de antidiscriminatiewet. De arbeidsrechtbank
-van Brussel gaf hun gelijk. Op 30 maart laatstleden oordeelde de
-arbeidsrechtbank van Brussel dat jongens gediscrimineerd worden bij de
-terugbetaling van het vaccin tegen HPV.
- 
- 
- 
-Mijn woorden in de commissie voor Gezondheid
-en Gelijke Kansen naar aanleiding van mijn vraag in verband met deze vaccinatie
-waren dan ook profetisch: "Waarom zou u dit dan ook niet doen voor de
-jongens? In het kader van discriminatie kan dit immers wel tellen."
-Mijn woorden in de commissie voor Gezondheid
-en Gelijke Kansen naar aanleiding van mijn vraag in verband met deze vaccinatie
-waren dan ook profetisch: "Waarom zou u dit dan ook niet doen voor de
-jongens? In het kader van discriminatie kan dit immers wel tellen."
- 
- 
- 
-Datgene waarvoor ik toen waarschuwde, wordt
-nu bevestigd door de rechtbank, namelijk discriminatie op basis van geslacht,
-of om het in linkse wokebewoordingen te zeggen, op basis van gender.
-Datgene waarvoor ik toen waarschuwde, wordt
-nu bevestigd door de rechtbank, namelijk discriminatie op basis van geslacht,
-of om het in linkse wokebewoordingen te zeggen, op basis van gender.
- 
- 
- 
-In zijn antwoord op mijn vraag over dit
-thema sprak de minister over drie stappen. De eerste stap is zorgen voor
-maximale vaccinatie van jonge meisjes. De tweede stap is de vaccinatie van de cohorte
-jonge jongens, namelijk in het eerste secundair in Vlaanderen en in het tweede
-secundair in Wallonië en Brussel. Dit gebeurt sinds 2019. De derde stap is
-eventueel de inhaalvaccinatie van jongens die net te oud waren in 2019 en die
-nu nog geen 19 jaar oud zijn.
-In zijn antwoord op mijn vraag over dit
-thema sprak de minister over drie stappen. De eerste stap is zorgen voor
-maximale vaccinatie van jonge meisjes. De tweede stap is de vaccinatie van de cohorte
-jonge jongens, namelijk in het eerste secundair in Vlaanderen en in het tweede
-secundair in Wallonië en Brussel. Dit gebeurt sinds 2019. De derde stap is
-eventueel de inhaalvaccinatie van jongens die net te oud waren in 2019 en die
-nu nog geen 19 jaar oud zijn.
- 
- 
- 
-De voorzitster:
-Mevrouw Sneppe, mag ik u vragen uw betoog af te ronden, alstublieft?
-De voorzitster:
-Mevrouw Sneppe, mag ik u vragen uw betoog af te ronden, alstublieft?
-voorzitster
- 
- 
- 
-21.02  Dominiek Sneppe (VB): In dit dossier stuiten wij op twee problemen. Ten eerste, zou
-de vaccinatie tegen HPV uitgebreid moeten worden tot de leeftijd van
-26 jaar. Ten tweede zou de terugbetaling van de vaccinatie moeten gelden
-voor jongens en voor meisjes tot 26 jaar, want de vaccinatie van de
-meisjes is ook een zaak van de jongens en omgekeerd. Beiden beschermen elkaar.
-21.02
-21.02
-  Dominiek Sneppe 
-  Dominiek Sneppe 
- 
-(VB): In dit dossier stuiten wij op twee problemen. Ten eerste, zou
-de vaccinatie tegen HPV uitgebreid moeten worden tot de leeftijd van
-26 jaar. Ten tweede zou de terugbetaling van de vaccinatie moeten gelden
-voor jongens en voor meisjes tot 26 jaar, want de vaccinatie van de
-meisjes is ook een zaak van de jongens en omgekeerd. Beiden beschermen elkaar.
- 
- 
- 
-Collega's, het Vlaams Belang vraagt dan
-ook deze motie in het belang van onze jongeren te steunen. (…)
-Collega's, het Vlaams Belang vraagt dan
-ook deze motie in het belang van onze jongeren te steunen. (…)
- 
- 
- 
-De voorzitster:
-Mevrouw Sneppe, voor een stemverklaring beschikt u over twee minuten.
-De voorzitster:
-Mevrouw Sneppe, voor een stemverklaring beschikt u over twee minuten.
-voorzitster
- 
- 
- 
-Début du
-vote / Begin van de stemming.
-Début du
-vote / Begin van de stemming.
-
-Tout le
-monde a-t-il voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem
-gecontroleerd?
-Tout le
-monde a-t-il voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem
-gecontroleerd?
-
-Fin du vote
-/ Einde van de stemming.
-Fin du vote
-/ Einde van de stemming.
-
-Résultat du
-vote / Uitslag van de stemming.
-Résultat du
-vote / Uitslag van de stemming.
-
- 
- 
- 
-
-## Proposal 2
-
-
-(Stemming/vote 1)
-
-(Stemming/vote 1)
-(Stemming/vote 1)
-(Stemming/vote 1)
-
-
-
-Ja
-
-
-83
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-
-83
-
-83
-83
-
-
-Oui
-
-Oui
-Oui
-
-
-
-Nee
-
-
-45
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-
-45
-
-45
-45
-
-
-Non
-
-Non
-Non
-
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-
-0
-
-0
-0
-
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-
-Totaal
-
-
-128
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-
-128
-
-128
-128
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
- 
- 
- 
-22 Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "Le parc automobile de la SNCB" (n° 278)
-22
-22
- Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "Le parc automobile de la SNCB" (n° 278)
- Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "Le parc automobile de la SNCB" (n° 278)
-
-22 Moties ingediend
-tot besluit van de interpellatie van de heer Frank Troosters over "Het
-wagenpark van de NMBS" (nr. 278)
-22
-22
-22
- Moties ingediend
-tot besluit van de interpellatie van de heer Frank Troosters over "Het
-wagenpark van de NMBS" (nr. 278)
- Moties ingediend
-tot besluit van de interpellatie van de heer Frank Troosters over "Het
-wagenpark van de NMBS" (nr. 278)
- Moties ingediend
-tot besluit van de interpellatie van de heer Frank Troosters over "Het
-wagenpark van de NMBS" (nr. 278)
-
-
- 
- 
- 
-Cette interpellation a été développée en
-réunion publique de la commission de la Mobilité, des Entreprises publiques et
-des Institutions fédérales du 11 mai 2022.
-Cette interpellation a été développée en
-réunion publique de la commission de la Mobilité, des Entreprises publiques et
-des Institutions fédérales du 11 mai 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Mobiliteit, Overheidsbedrijven en
-Federale Instellingen van 11 mei 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Mobiliteit, Overheidsbedrijven en
-Federale Instellingen van 11 mei 2022.
- 
- 
- 
-Deux motions ont été déposées
-(MOT n° 278/1):
-Deux motions ont été déposées
-(MOT n° 278/1):
-- une motion de recommandation a été
-déposée par M. Frank Troosters;
-- une motion de recommandation a été
-déposée par M. Frank Troosters;
-- une motion pure et simple a été déposée
-par M. Nicolas Parent.
-- une motion pure et simple a été déposée
-par M. Nicolas Parent.
-Twee moties werden ingediend
-(MOT nr. 278/1):
-Twee moties werden ingediend
-(MOT nr. 278/1):
-- een motie van aanbeveling werd
-ingediend door de heer Frank Troosters;
-- een motie van aanbeveling werd
-ingediend door de heer Frank Troosters;
-- een eenvoudige motie werd ingediend
-door de heer Nicolas Parent.
-- een eenvoudige motie werd ingediend
-door de heer Nicolas Parent.
- 
- 
- 
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-
-
-Vraagt iemand het woord voor een
-stemverklaring?
-Vraagt iemand het woord voor een
-stemverklaring?
-
-
- 
- 
- 
-22.01  Frank Troosters (VB): Mevrouw de voorzitster, de federale regering heeft de
-uitgesproken ambitie om de CO2-uitstoot in dit land met 55 %
-terug te dringen tegen 2030. Derhalve wil men de burgers bewegen tot of
-misschien dwingen tot het gebruik van emissievrije wagens. Voor bedrijfswagens
-wordt dit al in 2026 concreet. Om haar doelen te bereiken, probeert deze
-regering burgers te verleiden tot het nemen van het openbaar vervoer, waarbij
-volgens bevoegd minister de heer Gilkinet de trein de ruggengraat van de
-toekomstige mobiliteit moet worden.
-22.01
-22.01
-  Frank Troosters 
-  Frank Troosters 
- 
-(VB): Mevrouw de voorzitster, de federale regering heeft de
-uitgesproken ambitie om de CO2-uitstoot in dit land met 55 %
-terug te dringen tegen 2030. Derhalve wil men de burgers bewegen tot of
-misschien dwingen tot het gebruik van emissievrije wagens. Voor bedrijfswagens
-wordt dit al in 2026 concreet. Om haar doelen te bereiken, probeert deze
-regering burgers te verleiden tot het nemen van het openbaar vervoer, waarbij
-volgens bevoegd minister de heer Gilkinet de trein de ruggengraat van de
-toekomstige mobiliteit moet worden.
-2
- 
- 
- 
-Het is daarom niet alleen bijzonder vreemd
-maar zelfs wraakroepend om te moeten vaststellen dat uitgerekend het
-overheidsbedrijf dat bij uitstek het alternatief moet vormen voor een duurzame
-mobiliteit, de NMBS, zelf schromelijk haar voeten veegt aan de doelstelling van
-de regering om de CO2-uitstoot te reduceren. De NMBS beschikt over
-een wagenpark van 607 voertuigen, waarvan 0 wagens volledig
-emissievrij zijn. Van de 607 NMBS-voertuigen rijden er maar liefst 470 op
-diesel, 123 op benzine en 14 wagens zijn hybride.
-Het is daarom niet alleen bijzonder vreemd
-maar zelfs wraakroepend om te moeten vaststellen dat uitgerekend het
-overheidsbedrijf dat bij uitstek het alternatief moet vormen voor een duurzame
-mobiliteit, de NMBS, zelf schromelijk haar voeten veegt aan de doelstelling van
-de regering om de CO2-uitstoot te reduceren. De NMBS beschikt over
-een wagenpark van 607 voertuigen, waarvan 0 wagens volledig
-emissievrij zijn. Van de 607 NMBS-voertuigen rijden er maar liefst 470 op
-diesel, 123 op benzine en 14 wagens zijn hybride.
-2
- 
- 
- 
-Het is stuitend te moeten vaststellen dat
-deze overheid schaamteloos allerhande verplichtingen aan bedrijven en burgers
-oplegt om de CO2-uitstoot te verminderen, waarbij ondernemingen en
-burgers in de richting van dure emissiearme wagens gedreven worden, maar dat
-zij intussen zelf haar verantwoordelijkheid en voorbeeldrol aan haar laars
-lapt. Deze vivaldiregering, die ook nog eens de vervuilende CO2-uitstotende
-gascentrales wil bouwen, lacht de burgers gewoon uit.
-Het is stuitend te moeten vaststellen dat
-deze overheid schaamteloos allerhande verplichtingen aan bedrijven en burgers
-oplegt om de CO2-uitstoot te verminderen, waarbij ondernemingen en
-burgers in de richting van dure emissiearme wagens gedreven worden, maar dat
-zij intussen zelf haar verantwoordelijkheid en voorbeeldrol aan haar laars
-lapt. Deze vivaldiregering, die ook nog eens de vervuilende CO2-uitstotende
-gascentrales wil bouwen, lacht de burgers gewoon uit.
-2
-2
- 
- 
- 
-Daarom vraagt het Vlaams Belang met
-deze motie de federale regering om onmiddellijk de nodige maatregelen te nemen
-opdat de NMBS haar voorbeeldrol inzake ecologisch vervoer ter harte zal nemen
-via een aanpassing van het wagenpark. Alleen zo zal minister Gilkinet nog enige
-geloofwaardigheid kunnen behouden.
-Daarom vraagt het Vlaams Belang met
-deze motie de federale regering om onmiddellijk de nodige maatregelen te nemen
-opdat de NMBS haar voorbeeldrol inzake ecologisch vervoer ter harte zal nemen
-via een aanpassing van het wagenpark. Alleen zo zal minister Gilkinet nog enige
-geloofwaardigheid kunnen behouden.
- 
- 
- 
-La présidente:
-Début du vote / Begin van de stemming.
-La présidente:
-Début du vote / Begin van de stemming.
-présidente
-Tout le
-monde a-t-il voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem
-nagekeken?
-Tout le
-monde a-t-il voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem
-nagekeken?
-
-Fin du vote
-/ Einde van de stemming.
-Fin du vote
-/ Einde van de stemming.
-
-Résultat du
-vote / Uitslag van de stemming.
-Résultat du
-vote / Uitslag van de stemming.
-
- 
- 
- 
-
-## Proposal 3
-
-
-(Stemming/vote 2)
-
-(Stemming/vote 2)
-(Stemming/vote 2)
-(Stemming/vote 2)
-
-
-
-Ja
-
-
-84
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-
-84
-
-84
-84
-
-
-Oui
-
-Oui
-Oui
-
-
-
-Nee
-
-
-44
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-
-44
-
-44
-44
-
-
-Non
-
-Non
-Non
-
-
-
-Onthoudingen
-
-
-1
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-
-1
-
-1
-1
-
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-
-Totaal
-
-
-129
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-
-129
-
-129
-129
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? 
-(Non)
-(Non)
-
-
-Reden van onthouding? (Nee)
-Reden van onthouding? 
-(Nee)
-(Nee)
-
- 
- 
- 
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
- 
- 
- 
-23 Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "Les prévisions du Bureau fédéral du Plan en matière de
-mobilité" (n° 281)
-23
-23
- Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "Les prévisions du Bureau fédéral du Plan en matière de
-mobilité" (n° 281)
- Motions déposées en conclusion de l'interpellation de M. Frank
-Troosters sur "Les prévisions du Bureau fédéral du Plan en matière de
-mobilité" (n° 281)
-
-23 Moties ingediend
-tot besluit van de interpellatie van de heer Frank Troosters over "De
-mobiliteitsverwachtingen van het Federaal Planbureau" (nr. 281)
-23
-23
-23
- Moties ingediend
-tot besluit van de interpellatie van de heer Frank Troosters over "De
-mobiliteitsverwachtingen van het Federaal Planbureau" (nr. 281)
- Moties ingediend
-tot besluit van de interpellatie van de heer Frank Troosters over "De
-mobiliteitsverwachtingen van het Federaal Planbureau" (nr. 281)
- Moties ingediend
-tot besluit van de interpellatie van de heer Frank Troosters over "De
-mobiliteitsverwachtingen van het Federaal Planbureau" (nr. 281)
-
-
- 
- 
- 
-Cette interpellation a été développée en
-réunion publique de la commission de la Mobilité, des Entreprises publiques et
-des Institutions fédérales du 11 mai 2022.
-Cette interpellation a été développée en
-réunion publique de la commission de la Mobilité, des Entreprises publiques et
-des Institutions fédérales du 11 mai 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Mobiliteit, Overheidsbedrijven en
-Federale Instellingen van 11 mei 2022.
-Deze interpellatie werd gehouden in de
-openbare vergadering van de commissie voor Mobiliteit, Overheidsbedrijven en
-Federale Instellingen van 11 mei 2022.
- 
- 
- 
-Deux motions ont été déposées
-(MOT n° 281/1):
-Deux motions ont été déposées
-(MOT n° 281/1):
-- une motion de recommandation a été
-déposée par M. Frank Troosters;
-- une motion de recommandation a été
-déposée par M. Frank Troosters;
-- une motion pure et simple a été déposée
-par M. Nicolas Parent.
-- une motion pure et simple a été déposée
-par M. Nicolas Parent.
-Twee moties werden ingediend
-(MOT nr. 281/1):
-Twee moties werden ingediend
-(MOT nr. 281/1):
-- een motie van aanbeveling werd
-ingediend door de heer Frank Troosters;
-- een motie van aanbeveling werd
-ingediend door de heer Frank Troosters;
-- een eenvoudige motie werd ingediend
-door de heer Nicolas Parent.
-- een eenvoudige motie werd ingediend
-door de heer Nicolas Parent.
- 
- 
- 
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-La motion pure et simple ayant la priorité de
-droit, je mets cette motion aux voix.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
-Daar de eenvoudige motie van rechtswege
-voorrang heeft, breng ik deze motie in stemming.
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-
-
-Vraagt iemand het woord voor een
-stemverklaring? 
-Vraagt iemand het woord voor een
-stemverklaring? 
-
-
- 
- 
- 
-23.01  Frank Troosters (VB): Mevrouw de voorzitster, collega's, het Federaal Planbureau is
-een onafhankelijke nationale instelling van openbaar nut. Ze maakt studies en
-vooruitzichten op de economische, sociale en milieubeleidskwesties. Het
-Federaal Planbureau publiceerde recent de resultaten van een studie over de
-transport­vooruitzichten tot 2040. Deze studie hebben zij in samenwerking met
-de FOD Mobiliteit uitgevoerd.
-23.01
-23.01
-  Frank Troosters 
-  Frank Troosters 
- 
-(VB): Mevrouw de voorzitster, collega's, het Federaal Planbureau is
-een onafhankelijke nationale instelling van openbaar nut. Ze maakt studies en
-vooruitzichten op de economische, sociale en milieubeleidskwesties. Het
-Federaal Planbureau publiceerde recent de resultaten van een studie over de
-transport­vooruitzichten tot 2040. Deze studie hebben zij in samenwerking met
-de FOD Mobiliteit uitgevoerd.
- 
- 
- 
-Uit de resultaten van die studie bleek dat
-in de komende jaren minder mensen de trein zullen nemen. Minder mensen zullen
-de trein verkiezen om zich te verplaatsen. Concreet zou het aantal
-treinreizigers met 3 % dalen. Opvallend daarbij is dat het aantal
-treinreizigers voor het woon-werkverkeer met maar liefst 20 % daalt. De
-oorzaken hiervoor zijn de demografische evolutie en een toename van het
-telewerk, zo blijkt uit de studie.
-Uit de resultaten van die studie bleek dat
-in de komende jaren minder mensen de trein zullen nemen. Minder mensen zullen
-de trein verkiezen om zich te verplaatsen. Concreet zou het aantal
-treinreizigers met 3 % dalen. Opvallend daarbij is dat het aantal
-treinreizigers voor het woon-werkverkeer met maar liefst 20 % daalt. De
-oorzaken hiervoor zijn de demografische evolutie en een toename van het
-telewerk, zo blijkt uit de studie.
- 
- 
- 
-Tegenover het dalend aantal treinreizigers
-is het opvallend dat het aandeel van de auto in onze verplaatsingen tegen 2040
-ongeveer even groot zal blijven met 82 %. De auto zal volgens het Federaal
-Planbureau dus duidelijk de dominante mobiliteitskeuze blijven.
-Tegenover het dalend aantal treinreizigers
-is het opvallend dat het aandeel van de auto in onze verplaatsingen tegen 2040
-ongeveer even groot zal blijven met 82 %. De auto zal volgens het Federaal
-Planbureau dus duidelijk de dominante mobiliteitskeuze blijven.
- 
- 
- 
-Dat alles betekent weinig goed nieuws voor
-de mobiliteitsplannen van deze regering en van de verantwoordelijke minister,
-de heer Georges Gilkinet. De minister blijft dromen van en strijden voor een terugdringing
-van het autogebruik, waarbij een modal shift naar het openbaar vervoer aan de
-burgers opgedrongen moet worden. De trein, waarvan het rapport dus duidelijk
-maakt dat die niet gesmaakt wordt, moet daarbij de ruggengraat vormen van de
-toekomstige mobiliteit. Meer treinen in elk station, minstens twee per uur,
-volgens een naar Zwitsers voorbeeld gecadanceerd aangestuurd model, betere en
-stiptere treinen, meer personeel, service en toegankelijkheid en meer
-efficiëntie zijn de ambities van minister Gilkinet, zonder daar een budgettair
-plan aan te koppelen.
-Dat alles betekent weinig goed nieuws voor
-de mobiliteitsplannen van deze regering en van de verantwoordelijke minister,
-de heer Georges Gilkinet. De minister blijft dromen van en strijden voor een terugdringing
-van het autogebruik, waarbij een modal shift naar het openbaar vervoer aan de
-burgers opgedrongen moet worden. De trein, waarvan het rapport dus duidelijk
-maakt dat die niet gesmaakt wordt, moet daarbij de ruggengraat vormen van de
-toekomstige mobiliteit. Meer treinen in elk station, minstens twee per uur,
-volgens een naar Zwitsers voorbeeld gecadanceerd aangestuurd model, betere en
-stiptere treinen, meer personeel, service en toegankelijkheid en meer
-efficiëntie zijn de ambities van minister Gilkinet, zonder daar een budgettair
-plan aan te koppelen.
- 
- 
- 
-Omdat tegen 2040 ook het aantal vrachtwagens
-op de weg met ongeveer 20 % zal toenemen, voorspelt het Federaal
-Planbureau een toename van het aantal files en een daling van de snelheid op
-onze wegen. Daarom vraagt het Vlaams Belang aan de federale regering met de
-voorliggende motie van aanbeveling onmiddellijk de nodige maatregelen te nemen
-opdat het federaal mobiliteitsbeleid zal worden afgestemd op de voorspellingen
-zoals vastgesteld door het Federaal Planbureau, waarbij wordt uitgegaan van
-minder treinreizigers en de vaststellingen van de studie.
-Omdat tegen 2040 ook het aantal vrachtwagens
-op de weg met ongeveer 20 % zal toenemen, voorspelt het Federaal
-Planbureau een toename van het aantal files en een daling van de snelheid op
-onze wegen. Daarom vraagt het Vlaams Belang aan de federale regering met de
-voorliggende motie van aanbeveling onmiddellijk de nodige maatregelen te nemen
-opdat het federaal mobiliteitsbeleid zal worden afgestemd op de voorspellingen
-zoals vastgesteld door het Federaal Planbureau, waarbij wordt uitgegaan van
-minder treinreizigers en de vaststellingen van de studie.
- 
- 
- 
-La présidente:
-Début du vote / Begin van de stemming.
-La présidente:
-Début du vote / Begin van de stemming.
-présidente
-Tout le
-monde a-t-il voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem
-nagekeken?
-Tout le
-monde a-t-il voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem
-nagekeken?
-
-Fin du vote
-/ Einde van de stemming.
-Fin du vote
-/ Einde van de stemming.
-
-Résultat du
-vote / Uitslag van de stemming.
-Résultat du
-vote / Uitslag van de stemming.
-
- 
- 
- 
-
-## Proposal 4
-
-
-(Stemming/vote 3)
-
-(Stemming/vote 3)
-(Stemming/vote 3)
-(Stemming/vote 3)
-
-
-
-Ja
-
-
-85
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-
-85
-
-85
-85
-
-
-Oui
-
-Oui
-Oui
-
-
-
-Nee
-
-
-46
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-
-46
-
-46
-46
-
-
-Non
-
-Non
-Non
-
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-
-0
-
-0
-0
-
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-
-Totaal
-
-
-131
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-
-131
-
-131
-131
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-La motion pure et simple est adoptée. Par
-conséquent, la motion de recommandation est caduque.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
-De eenvoudige motie is aangenomen. Bijgevolg
-vervalt de motie van aanbeveling.
- 
- 
- 
-24 Wetsontwerp met
-betrekking tot wijziging van hoofdstukken 3 en 9 van titel 2 van de wet
-van 24 oktober 2011 tot vrijwaring van een duurzame financiering van
-de pensioenen van de vastbenoemde personeelsleden van de provinciale en
-plaatselijke overheidsdiensten en van de lokale politiezones, tot wijziging van
-de wet van 6 mei 2002 tot oprichting van het Fonds voor de pensioenen
-van de geïntegreerde politie en houdende bijzondere bepalingen inzake sociale
-zekerheid en houdende diverse wijzigingsbepalingen (2625/3)
-24
-24
-24
- Wetsontwerp met
-betrekking tot wijziging van hoofdstukken 3 en 9 van titel 2 van de wet
-van 24 oktober 2011 tot vrijwaring van een duurzame financiering van
-de pensioenen van de vastbenoemde personeelsleden van de provinciale en
-plaatselijke overheidsdiensten en van de lokale politiezones, tot wijziging van
-de wet van 6 mei 2002 tot oprichting van het Fonds voor de pensioenen
-van de geïntegreerde politie en houdende bijzondere bepalingen inzake sociale
-zekerheid en houdende diverse wijzigingsbepalingen (2625/3)
- Wetsontwerp met
-betrekking tot wijziging van hoofdstukken 3 en 9 van titel 2 van de wet
-van 24 oktober 2011 tot vrijwaring van een duurzame financiering van
-de pensioenen van de vastbenoemde personeelsleden van de provinciale en
-plaatselijke overheidsdiensten en van de lokale politiezones, tot wijziging van
-de wet van 6 mei 2002 tot oprichting van het Fonds voor de pensioenen
-van de geïntegreerde politie en houdende bijzondere bepalingen inzake sociale
-zekerheid en houdende diverse wijzigingsbepalingen (2625/3)
- Wetsontwerp met
-betrekking tot wijziging van hoofdstukken 3 en 9 van titel 2 van de wet
-van 24 oktober 2011 tot vrijwaring van een duurzame financiering van
-de pensioenen van de vastbenoemde personeelsleden van de provinciale en
-plaatselijke overheidsdiensten en van de lokale politiezones, tot wijziging van
-de wet van 6 mei 2002 tot oprichting van het Fonds voor de pensioenen
-van de geïntegreerde politie en houdende bijzondere bepalingen inzake sociale
-zekerheid en houdende diverse wijzigingsbepalingen (2625/3)
-
-
-24 Projet de loi modifiant les chapitres 3 et 9 du titre 2 de la loi
-du 24 octobre 2011 assurant un financement pérenne des pensions des
-membres du personnel nommé à titre définitif des administrations provinciales
-et locales et des zones de police locale, modifiant la loi du
-6 mai 2002 portant création du Fonds des pensions de la police intégrée
-et portant des dispositions particulières en matière de sécurité sociale et
-portant diverses dispositions modificatives (2625/3)
-24
-24
- Projet de loi modifiant les chapitres 3 et 9 du titre 2 de la loi
-du 24 octobre 2011 assurant un financement pérenne des pensions des
-membres du personnel nommé à titre définitif des administrations provinciales
-et locales et des zones de police locale, modifiant la loi du
-6 mai 2002 portant création du Fonds des pensions de la police intégrée
-et portant des dispositions particulières en matière de sécurité sociale et
-portant diverses dispositions modificatives (2625/3)
- Projet de loi modifiant les chapitres 3 et 9 du titre 2 de la loi
-du 24 octobre 2011 assurant un financement pérenne des pensions des
-membres du personnel nommé à titre définitif des administrations provinciales
-et locales et des zones de police locale, modifiant la loi du
-6 mai 2002 portant création du Fonds des pensions de la police intégrée
-et portant des dispositions particulières en matière de sécurité sociale et
-portant diverses dispositions modificatives (2625/3)
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+## Proposal discussion (agenda item 13)
 
- 
- 
- 
+### Description in Dutch:
 
-## Proposal 5
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2297/5)
+Het wetsontwerp telt 4 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over het aangehouden amendement en over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-(Stemming/vote 4)
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2297/5)
+Le projet de loi compte 4 articles.
+13.01  Nabil Boukili (PVDA-PTB): Madame la présidente, nous allons soutenir ce projet de loi car il répare une anomalie ou un oubli sur les déclarations de patrimoine concernant les bourgmestres et échevins de district.
 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
+Néanmoins, nous trouvons qu'il manque quelque chose dans ce texte.
 
+On parle de déclaration de patrimoine mais à aucun moment on ne parle de transparence vis-à-vis des citoyens. Il faut que les citoyens puissent avoir accès à ces déclarations. D'autres pays le font et on se demande pourquoi ce ne serait pas possible en Belgique.
 
+Des scandales politiques liés à de la corruption, à des malversations, à des abus de biens publics, nous en avons pratiquement tous les jours. La Belgique n'est pas une exception en la matière. Ces dernières années, un cap a même été franchi. Il n'y a pas de frontière linguistique en ce domaine car il y a eu des scandales des deux côtés du pays ces dernières années: Publifin, Publilec, le Brackegate, l'affaire Kubla, l'affaire du Samusocial. Dans ce dernier cas, le bourgmestre et la présidente du CPAS de Bruxelles ont été mis en cause pour des réunions rémunérées à des prix exorbitants.
 
-Ja
+Tous ces scandales posent question sur le lien du monde politique avec l'argent, qui est assez malsain. Nos concitoyens nous élisent et nous paient. Nous sommes employés par la population pour faire un travail et les gens qui sont censés défendre les intérêts de la population et faire respecter les règles sont les premiers à les enfreindre.
 
+La moindre des choses pour les citoyens, c'est d'obtenir la transparence. Je ne parle même pas de rendre des comptes ou de l'argent. Rappelons-nous le slogan dans l'affaire Fillon "Rends l'argent!". Ce slogan peut s'appliquer à plein de politiciens ici en Belgique mais on n'en est même pas à ce stade-là. Ce que nous demandons ici, c'est juste de la transparence sur les patrimoines des politiciens afin de savoir qui nous représente et s'il s'enrichit pendant son mandat politique. Si on fait de la politique, ce n'est pas pour se servir mais pour servir. Beaucoup ont confondu les deux.
 
-131
+Dans ce sens, nous avons déposé un amendement pour compléter ce texte de loi qui est bon jusqu'à aujourd'hui mais qui est incomplet, faute de voir la transparence y figurer.
 
+Dans cet hémicycle, j'entends le mot transparence chez tout le monde. Là, je demande à le traduire dans un acte simple: que les représentants politiques déclarent au moins leur patrimoine et que cela soit transparent! Que les citoyens puissent consulter ces patrimoines-là et vérifier si on s'enrichit durant son mandat politique!
 
-Oui
+Madame la présidente, c'est la raison pour laquelle j'ai déposé cet amendement. J'espère qu'il recevra la majorité ou l'unanimité des votes puisque tout le monde défend ces valeurs-là. J'espère une unanimité sur cet amendement pour qu'il soit intégré dans le texte de loi qui sera ainsi complet. Nous n'aurons alors plus besoin de le refaire ultérieurement et de revenir avec un autre texte pour le modifier.
 
+La présidente: Merci, monsieur Boukili.
 
+La discussion des articles est close. Le vote sur l'amendement réservé ainsi que sur l'ensemble aura lieu ultérieurement.
 
-Ja
 
-Ja
-Ja
 
+### Discussed proposals:
 
-131
+## Proposal discussion (agenda item 14)
 
-131
-131
+### Description in Dutch:
 
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2625/3)
+Het wetsontwerp telt 6 artikelen.
+Er werden geen amendementen ingediend.
+De artikelen 1 tot 6 worden artikel per artikel aangenomen.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Oui
+### Description in French:
 
-Oui
-Oui
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2625/3)
+Le projet de loi compte 6 articles.
+Aucun amendement n'a été déposé.
+Les articles 1 à 6 sont adoptés article par article.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
-Nee
+### Discussed proposals:
 
+## Proposal discussion (agenda item 15)
 
-0
+### Description in Dutch:
 
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2373/5)
+Het opschrift werd door de commissie gewijzigd in "wetsvoorstel tot wijziging van de wet van 23 maart 1989 betreffende de verkiezing van het Europees Parlement, teneinde de burgers vanaf de leeftijd van 16 jaar de mogelijkheid te geven om te stemmen".
+Het wetsvoorstel telt 16 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Non
+### Description in French:
 
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2373/5)
+L’intitulé en néerlandais a été modifié par la commission en "wetsvoorstel tot wijziging van de wet van 23 maart 1989 betreffende de verkiezing van het Europees Parlement, teneinde de burgers vanaf de leeftijd van 16 jaar de mogelijkheid te geven om te stemmen".
+La proposition de loi compte 16 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-Nee
 
-Nee
-Nee
+### Discussed proposals:
 
+## Proposal discussion (agenda item 16)
 
-0
+### Description in Dutch:
 
-0
-0
+Proposition déposée par:
 
+Voorstel ingediend door:
 
-Non
+Marianne Verhaert, Goedele Liekens, Christophe Lacroix, Kattrin Jadin, Séverine de Laveleye, Els Van Hoof, Vicky Reynaert, Wouter De Vriendt, Michel De Maegd.
 
-Non
-Non
 
 
+Discussion
 
-Onthoudingen
+Bespreking
 
 
-0
 
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2672/4)
 
-Abstentions
+De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2672/4)
 
 
 
-Onthoudingen
+L'intitulé a été modifié par la commission en "proposition de résolution relative à la poursuite d’une enquête pénale internationale sur les actes de violence sexuelle commis dans le cadre du conflit armé en Ukraine et à l’application de la résolution 1325 du Conseil de sécurité de l’ONU, intitulée "Femmes, Paix et Sécurité".
 
-Onthoudingen
-Onthoudingen
+Het opschrift werd door de commissie gewijzigd in "voorstel van resolutie betreffende de voortzetting van een internationaal strafrechtelijk onderzoek naar het seksueel geweld in het gewapend conflict in Oekraïne en de toepassing van VN-Veiligheidsraad resolutie 1325 getiteld "Vrouwen, Vrede en Veiligheid".
 
 
-0
 
-0
-0
+La discussion est ouverte.
 
+De bespreking is geopend.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Président: Séverine de Laveleye, vice-présidente.
 
+Voorzitter: Séverine de Laveleye, ondervoorzitster.
 
-Totaal
 
 
-131
+16.01  Annick Ponthier, rapporteur: Mevrouw de voorzitster, collega's, het voorstel van resolutie over de instelling van een internationaal strafrechtelijk onderzoek naar het seksueel geweld in de oorlog in Oekraïne verkreeg twee weken geleden in de plenaire vergadering urgentie en alzo vond vorige week de bespreking plaats in de commissie voor Buitenlandse Betrekkingen.
 
 
-Total
 
+Mevrouw Verhaert van de Open Vld-fractie, lichtte als hoofdindiener het voorstel toe. Alsmaar luider en vaker klinken er afschuwelijke getuigenissen van seksueel geweld in Oekraïne. Die verhalen grijpen ons uiteraard allen aan. Mevrouw Verhaert verwees onder meer naar de horrorbeelden van Boetsja en de gebeurtenissen in Irpin.
 
 
-Totaal
-
-Totaal
-Totaal
 
-
-131
-
-131
-131
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (2625/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(2625/4)
-(2625/4)
+Mevrouw Verhaert zegt dat het van belang is om van meet af aan bewijsmateriaal te bezorgen en getuigenissen te documenteren en stelt dat slachtoffers in geen geval in de kou mogen blijven staan. Zij drong erop aan dat België het voorbeeld zou volgen van het Verenigd Koninkrijk, dat het Internationaal Strafhof daarin zal ondersteunen. Immers, hoe langer het onderzoek naar de misdaden van seksueel geweld uitblijft, zo zegt mevrouw Verhaert, des te moeilijker wordt het om bewijsstukken te verzamelen. Iedereen die zich schuldig maakt, moet geïdentificeerd, vervolgd en bestraft worden. De cultuur van straffeloosheid moet aangepakt worden. Volgens de hoofdindiener moet België daaraan bijdragen. Verkrachting is het oudste en het goedkoopste oorlogswapen, aldus nog mevrouw Verhaert. In een gewapend conflict worden verkrachting en andere vormen van seksueel geweld als een wapen van vernedering en vernietiging ingezet. Er zijn wel verdragen over de inzet van biologische en chemische wapens in oorlog, maar niet over seksueel geweld in conflictsituaties.
 
 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (2625/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(2625/4)
-(2625/4)
 
+Er wordt in de politiek daarover weinig gesproken, laat staan initiatieven genomen om het fenomeen een halt toe te roepen, aldus de hoofdindienster van het voorstel van resolutie. Hoewel het niet ontbreekt aan rapporten, is dat veel minder het geval voor veroordelingen. Het mag daarbij niet alleen gaan over het straffen van daders, maar ook over slachtofferondersteuning. De psychologische impact van verkrachting en van seksuele foltering wordt, volgens mevrouw Verhaert, nog altijd onderschat. Zodra een oorlog eindigt – we hopen allemaal dat dat zo snel mogelijk zal zijn –, denkt men al snel aan de heropbouw en worden de onzichtbare wonden van de slachtoffers vergeten.
 
- 
- 
- 
-25 Wetsvoorstel tot
-wijziging van de wet van 23 maart 1989 betreffende de verkiezing van
-het Europees Parlement, teneinde de burgers vanaf de leeftijd van 16 jaar
-de mogelijkheid te geven om te stemmen (nieuw opschrift) (2373/5)
-25
-25
-25
- Wetsvoorstel tot
-wijziging van de wet van 23 maart 1989 betreffende de verkiezing van
-het Europees Parlement, teneinde de burgers vanaf de leeftijd van 16 jaar
-de mogelijkheid te geven om te stemmen (nieuw opschrift) (2373/5)
- Wetsvoorstel tot
-wijziging van de wet van 23 maart 1989 betreffende de verkiezing van
-het Europees Parlement, teneinde de burgers vanaf de leeftijd van 16 jaar
-de mogelijkheid te geven om te stemmen (nieuw opschrift) (2373/5)
- Wetsvoorstel tot
-wijziging van de wet van 23 maart 1989 betreffende de verkiezing van
-het Europees Parlement, teneinde de burgers vanaf de leeftijd van 16 jaar
-de mogelijkheid te geven om te stemmen (nieuw opschrift) (2373/5)
 
 
-25 Proposition de loi modifiant la loi du 23 mars 1989 relative
-à l'élection du Parlement européen en vue d'offrir aux citoyens la faculté de
-voter dès l'âge de 16 ans (2373/5)
-25
-25
- Proposition de loi modifiant la loi du 23 mars 1989 relative
-à l'élection du Parlement européen en vue d'offrir aux citoyens la faculté de
-voter dès l'âge de 16 ans (2373/5)
- Proposition de loi modifiant la loi du 23 mars 1989 relative
-à l'élection du Parlement européen en vue d'offrir aux citoyens la faculté de
-voter dès l'âge de 16 ans (2373/5)
+Tot slot verwijst mevrouw Verhaert naar enkele passages uit het boek Ons lichaam, jullie slagveld, dat haar ertoe heeft aangezet om het voorstel in te dienen. Zij concludeert dat de politici wakker moeten worden geschud en getuigenissen in het boek centraal moeten komen te staan in het traject naar herstel.
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming
-/ Début du vote.
-Begin van de stemming
-/ Début du vote.
+In de algemene bespreking geeft mevrouw Safai van de N-VA aan dat haar fractie zonder enige twijfel het voorstel zal steunen.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Mevrouw de Laveleye van de Ecolo-Groenfractie merkt op dat gevallen van seksueel geweld in de geschiedenis vaak onder de radar bleven en slechts beperkt met bewijsstukken werden gestaafd. Ze herinnert eraan dat misdrijven van seksuele aard al in internationale teksten zijn opgenomen en onderstreept dat de Belgische regering dus niet op het voorstel heeft gewacht om in dat verband noodzakelijke stappen te ondernemen. Mevrouw de Laveleye concludeert dat de tekst, aangezien de federale regering in het hele verhaal een doorslaggevende rol kan spelen, de regering daarin zal sterken.
 
- 
- 
- 
 
-## Proposal 6
 
+Mevrouw Bonaventure van de PS-fractie spreekt ook haar steun uit voor het voorstel.
 
-(Stemming/vote 5)
 
-(Stemming/vote 5)
-(Stemming/vote 5)
-(Stemming/vote 5)
 
+Volgens mevrouw Ponthier van de Vlaams Belangfractie heeft iedereen met de ogen de onaanvaardbare misdaden ten gevolge van de oorlog in Oekraïne kunnen vaststellen en argumenteert dat we ervoor moeten zorgen dat de misdaden grondig worden onderzocht, te meer omdat vrouwen in een oorlogssituatie bijzonder kwetsbaar zijn, misschien nog meer dan andere burgers. De Vlaams Belangfractie zal het voorstel dan ook steunen.
 
 
-Ja
 
+Mevrouw Jadin van de MR-fractie zegt dat de oorlog in Oekraïne ons niet alleen confronteert met herhaalde mensenrechtenschendingen, maar ook met geweld specifiek gericht tegen vrouwen en kinderen als oorlogswapen. Zij acht het dan ook essentieel dat dat zo krachtig mogelijk wordt veroordeeld en dat men zichzelf de instrumenten geeft om die misdaden tegen te gaan, zoals onderhavig voorstel van resolutie.
 
-95
 
 
-Oui
+De heer De Maegd van de MR-fractie zegt dat seksueel geweld op veel plaatsen ter wereld een echt oorlogswapen is, onder andere in Oost-Congo, en dat dergelijke oorlogsmisdaden en misdaden tegen de menselijkheid met vaak onherstelbare psychologische en fysieke gevolgen voor de slachtoffers nu ook in Oekraïne plaatsvinden. Het is volgens hem van groot belang om de slachtoffers te steunen en om de verantwoordelijken strafrechtelijk te vervolgen. De heer De Maegd is dan ook van oordeel dat het voorstel een krachtig signaal zou moeten geven aan de agressors in Oekraïne.
 
 
 
-Ja
+De heer De Vuyst van de PVDA-PTB-fractie verwees naar de processen van Neurenberg na de Tweede Wereldoorlog waarin oorlog werd erkend als de grootste misdaad tegen de menselijkheid. Dat die misdaden worden begaan, is niets nieuws volgens collega De Vuyst en in die zin is het erg positief dat het voorstel tot stand komt en een solide rechtskader krijgt zodat de verantwoordelijken kunnen worden gestraft en de slachtoffers kunnen worden gesteund.
 
-Ja
-Ja
 
 
-95
+Voorzitter: Eliane Tillieux, voorzitster.
 
-95
-95
+Président: Eliane Tillieux, présidente.
 
 
-Oui
 
-Oui
-Oui
+Het lid wijst er niettemin op dat gezien de context de focus vooral ligt op de Oekraïense ontheemden, maar dat er tegelijkertijd ook misdaden in veel andere regio's gebeuren over de hele wereld. Hij dient ter zake dan ook een amendement in, dat die formulering sterkt.
 
 
 
-Nee
+Mevrouw Reynaert van de Vooruitfractie bevestigt dat verkrachtingen inderdaad ook vaak als oorlogswapen worden gebruikt. Zij acht het dan ook van het hoogste belang dat die misdaden worden veroordeeld, onderzocht en vervolgd. Zij haalt daarbij nog aan dat de toegang tot voorbehoedsmiddelen beperkt is, dat het risico van seksueel overdraagbare aandoeningen is toegenomen tijdens de oorlogsperiode, dat er een tekort is aan levensbelangrijke geneesmiddelen voor hiv-patiënten, dat het aantal risicozwanger­schappen en -bevallingen stijgt, dat de rechten van de lgbtqia+-gemeenschap onder druk komen te staan en dat het aantal risicovolle abortussen in stijgende lijn gaat.
 
 
-36
 
+Mevrouw Van Hoof, ten slotte, stelt dat de beschikbare cijfers slechts een deel van de feiten betreffen en dat het van belang is de oorlogsmisdaden te bekampen. Zij wijst er bovendien op dat de betrokken vrouwen en meisjes doorgaans weinig en te weinig worden betrokken bij het zoeken van oplossingen en bij de conflicten, terwijl deelname van die groep aan de onderhandelingen natuurlijk net een deel van de oplossing zou kunnen bieden. Uit die ervaring blijkt immers dat gevoerde onderhandelingen en vredesakkoorden meer kans maken, om tot een duurzaam succes uit te groeien.
 
-Non
 
 
+Vervolgens werden een aantal amendementen ingediend, vooral door mevrouw Verhaert, die het voorstel van resolutie moeten versterken. Ze bevatten een aantal verwijzingen naar internationale resoluties en overeenkomsten. Zij verwijst ook naar de Murad Code, een wereldwijde gedragscode die seksueel geweld in conflicten wenst aan te pakken. Zij hecht veel belang aan de vraag dat die code, net als de andere amendementen, wordt toegevoegd.
 
-Nee
 
-Nee
-Nee
 
+In de commissie werd, ten slotte, de stemming gehouden. Het voorstel van resolutie werd unaniem goedgekeurd. Er waren geen tegenstemmen en geen onthoudingen.
 
-36
 
-36
-36
 
+16.02  Darya Safai (N-VA): Mevrouw de voorzitster, de berichten van systematisch en geïnstitutionaliseerd geweld tegen de burgerbevolking die wij uit Oekraïne krijgen, zijn alarmerend en druisen direct in tegen de internationale verdragen waar alle strijdende partijen in het conflict aan moeten gehoorzamen. Het gebruik van verkrachting als wapen tegen vooral de vrouwelijke bevolking, maar ook tegen kinderen en mannen, is bijzonder verontrustend. Niet enkel zal de burgerbevolking hiervan het slachtoffer worden, vrouwen vervullen ook een niet onaanzienlijke rol in de verdediging van het land in zowel gevechts- als ondersteunende rollen.
 
-Non
 
-Non
-Non
 
+Zo'n 15 % van de Oekraïense strijdkrachten zou op dit moment uit vrouwen bestaan, wat er ook toe leidde dat vrouwen krijgsgevangen werden genomen. Ook hier zijn er berichten dat zij gemarteld en vernederd werden en dat zij onderworpen werden aan seksueel geweld. Dat het Russische leger verkrachting gebruikt als een van zijn oorlogswapens tegen de bevolking van Oekraïne is meer dan duidelijk. Enkel de schaal en de mogelijkheden van de internationale gemeenschap om dit te bestrijden zijn onduidelijk.
 
 
-Onthoudingen
 
+Wij steunen dus volwaardig dit voorstel van resolutie, maar wij hebben wel enkele bedenkingen bij het verder invoeren van nieuwe internationale instrumenten om verkrachting in postconflictsituaties te bestrijden. Een belangrijk luik in deze resolutie zal dan ook moeten zijn wat de Belgische bijdrage kan of moet zijn aan de daadwerkelijke bestrijding van wat wij nu zien gebeuren in Oekraïne.
 
-0
 
 
-Abstentions
+16.03  Séverine de Laveleye (Ecolo-Groen): Madame la présidente, je voudrais tout d'abord remercier Mme Verhaert d'avoir mis le sujet des violences sexuelles en Ukraine sur la table du Parlement. En effet, les violences sexuelles en général, et spécifiquement en temps de guerre, sont des crimes qui sont très anciens, souvent systématiques, trop souvent tus et beaucoup trop souvent frappés d'impunité mais pourtant abjects et qui détruisent les victimes au moins autant que les bombes.
 
 
 
-Onthoudingen
+Voir notre Parlement dénoncer ces faits et appeler tous les niveaux de pouvoir ainsi que la Cour pénale internationale à avoir une attention spécifique sur ces crimes est non seulement pertinent mais aussi nécessaire. Bien sûr, le gouvernement fédéral n'a pas attendu nos travaux parlementaires pour avancer et j'ai envie de dire heureusement! La Belgique fait partie des pays qui ont déposé une requête demandant au procureur de la Cour pénale internationale d'enquêter sur la situation en Ukraine. Notre gouvernement n'a pas juste demandé de le faire. Il a aussi donné les moyens pour mener cette enquête en allouant une contribution volontaire de 500 000 euros au Fonds d'affectation spéciale de la Cour pénale internationale.
 
-Onthoudingen
-Onthoudingen
 
 
-0
+Ceci étant, cette résolution nous permet, en tant que Parlement, de rappeler la nécessité d'avoir une attention particulière sur ce type de violence qui touche principalement les femmes mais aussi, de plus en plus, les enfants et les hommes.
 
-0
-0
 
 
-Abstentions
+À ce titre, notre groupe est heureux d'avoir pu cosigner ce texte mais surtout de pouvoir le voter ce soir et, par-là, soutenir les efforts des différentes parties prenantes pour mettre fin à ces crimes et pour poursuivre ceux qui les ont commis. Madame Verhaert, je vous remercie encore d'avoir permis ce débat.
 
-Abstentions
-Abstentions
 
 
+16.04  Christophe Lacroix (PS): Madame la présidente, tout comme ma collègue, je veux remercier la collègue Verhaert qui est à l'initiative de cette importante résolution. En effet, chers collègues, il est devenu clair que le nombre de violences sexuelles et de viols perpétrés par les Russes à l'égard de femmes ukrainiennes est de plus en plus documenté. Les informations sur les difficultés rencontrées par les réfugiés et les déplacés internes ukrainiens en matière d'accès à des soins de santé sexuelle et reproductive en Ukraine et dans les pays limitrophes et de transit dans lesquels ils se trouvent sont très inquiétantes.
 
-Totaal
 
 
-131
+En effet, le Haut Commissariat des Nations Unies pour les réfugiés estime que, depuis le 24 février, ce sont plusieurs millions d'Ukrainiens qui ont fui leur pays. Plus de 7 millions d'Ukrainiens sont déplacés à l'intérieur de leur pays et beaucoup d'entre eux se trouvent toujours dans des zones frappées par les combats. La guerre exerce une forte pression sur les soins de santé ukrainiens. Ces personnes risquent donc de subir des violences sexuelles, des grossesses non planifiées, ainsi que des grossesses et des accouchements à risque. Les défis sont également énormes pour les personnes LGBTQIA+ en fuite, notamment dans les pays où elles se retrouvent ensuite tels que la Hongrie et la Pologne qui stigmatisent et criminalisent les minorités sexuelles.
 
 
-Total
 
+Vous comprendrez donc pourquoi j'ai cosigné ce texte que je trouve essentiel. Il a également un mérite très fort, celui de remettre en avant la notion de viol comme arme de guerre, sujet éminemment préoccupant que mon groupe défend par ailleurs depuis longtemps et qui fait l'objet d'une proposition de résolution que je porte sur ce sujet pour les femmes en RDC et plus particulièrement dans les Nord et Sud-Kivu, régions en proie à des conflits armés depuis près de 30 ans. La guerre en Ukraine ne doit évidemment pas nous faire oublier les atrocités qui se passent ailleurs dans le monde et dont nous devons, toutes et tous, continuer à nous préoccuper. Je vous remercie.
 
 
-Totaal
 
-Totaal
-Totaal
+16.05  Annick Ponthier (VB): Mevrouw de voorzitster, collega's, wij hebben in de gruwelijke oorlog in Oekraïne reeds veel verschrikkelijke zaken gezien, namelijk hele dorpen die worden platgegooid, massa-executies van burgers en bombardementen. Wij mogen echter gerust ook stilstaan bij de gruwel die vrouwen in Oekraïne en andere conflictgebieden vandaag moeten doorstaan. Tijdens oorlogssituaties zijn vrouwen en kinderen steeds de eerste slachtoffers. Zij zijn nu eenmaal fysiek kwetsbaarder en hiervan wordt gretig gebruikgemaakt door agressors. Een oorlog maakt nu eenmaal het slechtste in de mensen los.
 
 
-131
 
-131
-131
+Voorbeelden van het kwaad dat vrouwen te beurt valt, zijn natuurlijk de massale verkrachtingen in steden als Boetsja en Charkov. Russische militairen en huurlingen lopen gefrustreerd rond door de militaire verliezen die ze lijden. Zij werken hun frustraties op beestachtige wijze af op Oekraïense vrouwen. Er is voor dat seksuele geweld geen enkele rechtvaardiging.
 
 
-Total
 
-Total
-Total
+Het vindt niet alleen at random plaats, omdat soldaten gefrustreerd zijn, het is ook een welbewust strategisch oorlogswapen dat door bezetters wordt gebruikt, ook in Oekraïne. Hiervoor moet internationaal veel meer aandacht komen. Wij scharen ons daar ook volledig achter. Verkrachting als oorlogswapen is geen ondergeschikte misdaad, dat is psychologische en fysieke terreur, met een bredere impact dan alleen op het individu dat slachtoffer is.
 
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd.
-(2373/6)
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd.
 
-(2373/6)
-(2373/6)
 
+Het is nu tijd voor actie, voor al die vrouwen die slachtoffer worden van een wapen dat even verboden hoort te zijn als chemische of biologische wapens, namelijk het verkrachtingswapen. Dat wij dit verankeren in het internationaal strafrecht als autonome misdaad, spreekt bijna voor zich. Er moet een multilateraal juridisch bindend kader komen om seksueel geweld in oorlogsgebieden te voorkomen en te bestrijden.
 
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction
-royale. (2373/6)
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction
-royale. (2373/6)
-(2373/6)
- 
- 
- 
-26 Amendement réservé à la proposition de résolution relative à la
-poursuite d'une enquête pénale internationale sur les actes de violence
-sexuelle commis dans le cadre du conflit armé en Ukraine et à l'application de
-la résolution 1325 du Conseil de sécurité de l'ONU, intitulée "Femmes,
-Paix et Sécurité" (nouvel intitulé) (2672/1-5)
-26
-26
- Amendement réservé à la proposition de résolution relative à la
-poursuite d'une enquête pénale internationale sur les actes de violence
-sexuelle commis dans le cadre du conflit armé en Ukraine et à l'application de
-la résolution 1325 du Conseil de sécurité de l'ONU, intitulée "Femmes,
-Paix et Sécurité" (nouvel intitulé) (2672/1-5)
- Amendement réservé à la proposition de résolution relative à la
-poursuite d'une enquête pénale internationale sur les actes de violence
-sexuelle commis dans le cadre du conflit armé en Ukraine et à l'application de
-la résolution 1325 du Conseil de sécurité de l'ONU, intitulée "Femmes,
-Paix et Sécurité" (nouvel intitulé) (2672/1-5)
 
-26 Aangehouden
-amendement op het voorstel van resolutie betreffende de voortzetting van een
-internationaal strafrechtelijk onderzoek naar het seksueel geweld in het
-gewapend conflict in Oekraïne en de toepassing van VN-Veiligheidsraad resolutie
-1325 getiteld "Vrouwen, Vrede en Veiligheid" (nieuw opschrift)
-(2672/1-5)
-26
-26
-26
- Aangehouden
-amendement op het voorstel van resolutie betreffende de voortzetting van een
-internationaal strafrechtelijk onderzoek naar het seksueel geweld in het
-gewapend conflict in Oekraïne en de toepassing van VN-Veiligheidsraad resolutie
-1325 getiteld "Vrouwen, Vrede en Veiligheid" (nieuw opschrift)
-(2672/1-5)
- Aangehouden
-amendement op het voorstel van resolutie betreffende de voortzetting van een
-internationaal strafrechtelijk onderzoek naar het seksueel geweld in het
-gewapend conflict in Oekraïne en de toepassing van VN-Veiligheidsraad resolutie
-1325 getiteld "Vrouwen, Vrede en Veiligheid" (nieuw opschrift)
-(2672/1-5)
- Aangehouden
-amendement op het voorstel van resolutie betreffende de voortzetting van een
-internationaal strafrechtelijk onderzoek naar het seksueel geweld in het
-gewapend conflict in Oekraïne en de toepassing van VN-Veiligheidsraad resolutie
-1325 getiteld "Vrouwen, Vrede en Veiligheid" (nieuw opschrift)
-(2672/1-5)
 
+In dat verband zijn er de door mevrouw Verhaert ingediende amendementen. Onder andere de voorgestelde Murad Code van Nobelprijswinnares Nadia Murad kan interessant zijn als richtlijn. In de commissie kende ik de exacte inhoud van die Murad Code nog niet. Ik heb daarover extra uitleg gevraagd aan mevrouw Verhaert. Zij moest mij op dat moment het concrete antwoord schuldig blijven.
 
- 
- 
- 
-Vote sur l'amendement n° 19 de Nabil
-Boukili au point IV.4. (2672/5)
-Vote sur l'amendement n° 19 de Nabil
-Boukili au point IV.4. 
-(2672/5)
-(2672/5)
 
-Stemming over amendement nr. 19 van
-Nabil Boukili op punt IV.4. (2672/5)
-Stemming over amendement nr. 19 van
-Nabil Boukili op punt IV.4. (2672/5)
-(2672/5)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Mevrouw Verhaert, u gaf toen aan dat u alle commissieleden daarover nog zou inlichten. Wij wachten nog steeds op de nota die u ons zou bezorgen. Ik hoop dat die heel snel bezorgd kan worden.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le m
-onde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Voorts moeten we slachtoffers van seksueel geweld, die bij ons worden opgevangen en in de conflictgebieden zelf, ook van de nodige medische en psychologische bijstand voorzien. Hulp op maat dus, aangepast aan hun specifieke situatie.
 
- 
- 
- 
 
-## Proposal 7
 
+Het is ook dringend tijd voor een onafhankelijk VN-onderzoek naar seksuele misdaden in Oekraïne. Ook het Internationaal Strafhof moet een rol spelen om daders op te volgen, te vervolgen en te bestraffen.
 
-(Stemming/vote 6)
 
-(Stemming/vote 6)
-(Stemming/vote 6)
-(Stemming/vote 6)
 
+Collega's, wij zullen dit voorstel dan ook volmondig steunen.
 
 
-Ja
 
+16.06  Kattrin Jadin (MR): Madame la présidente, chers collègues, je tiens également à remercier Marianne Verhaert qui a pris l'initiative de déposer cette proposition de résolution.
 
-12
 
 
-Oui
+Comme on a pu l'entendre à l'occasion des différentes interventions, cette problématique doit malheureusement encore être mise en exergue. Le viol comme arme de guerre est particulièrement violent et indigne. Nous nous devons, tel que cela a été rappelé en commission et encore cet après-midi en séance plénière, de nous doter d'un cadre juridique qui permette une poursuite au niveau international, qui permette également de faire preuve d'une très grande fermeté à l'égard de ces viols perpétrés dans ces régions en guerre.
 
 
 
-Ja
+On a parlé de Nadia Murad que j'ai eu l'occasion d'inviter à participer à un colloque dans le cadre duquel elle a pu nous faire part des expériences vécues par les minorités yézidies notamment victimes de l'État islamique. Rien qu'à y penser, madame la présidente, cela nous donne la chair de poule. Nous ne pouvons qu'être solidaires de toutes ces femmes, de tous ces enfants qui subissent ces atrocités dans des régions en guerre, en particulier en Ukraine.
 
-Ja
-Ja
 
 
-12
+J'espère qu'au travers de cette résolution que mon groupe soutiendra, bien évidemment, vigoureusement, nous pourrons aussi apporter notre petite pierre à l'édifice pour que ces atrocités soient non seulement reconnues comme crimes sur le plan international, mais aussi et surtout pour qu'elles fassent l'objet de poursuites et qu'elles soient sévèrement punies.
 
-12
-12
 
 
-Oui
+16.07  Nabil Boukili (PVDA-PTB): Madame la présidente, à mon tour, je veux associer ma voix à ce texte qui appelle à une enquête contre ces crimes sexuels, ce crime de guerre qu'est le viol. Comme indiqué dans le texte, il s'agit d'un des crimes de guerre les plus anciens, et qui est toujours utilisé aujourd'hui, au XXIe siècle, de manière aussi atroce. Un crime qui nous rappelle, une fois de plus, que ceux qui paient le prix le plus cher de la guerre restent les populations et, en l'occurrence, les femmes et les enfants. Mon groupe va bien entendu soutenir ce texte, car il s'agit d'une question à prendre très au sérieux, afin que les coupables de ces crimes soient sévèrement punis.
 
-Oui
-Oui
 
 
+Je profite de cette discussion pour redéposer un amendement que j'avais déposé en commission. Je pense que, dans un moment d'inattention de mes collègues en commission, cet amendement n'a pas obtenu la majorité pour être adopté, de sorte que je le redépose aujourd'hui. En effet, avec mon groupe, nous ne voyons aucune raison de limiter, dans la demande n°4, aux seuls rapatriés ukrainiens ce soutien psychologique et cette assistance médicale nécessaires au cas où il s'avérerait que des personnes ont été victimes de violences sexuelles et au cas où il serait nécessaire de prendre pour ces personnes des mesures afin que ces témoignages soient soigneusement documentés et qu'ils puissent être transmis aux instances internationales compétentes.
 
-Nee
 
 
-116
+Il n'y a aucune raison de ne pas offrir également cette aide et ce soutien aux réfugiés de conflits en Afghanistan, en Syrie, en Irak, en Somalie, en Éthiopie, au Yémen, au Congo ou au Rwanda, des réfugiés qui sont également présents sur notre territoire, ici en Belgique. En effet, si on considère que cette arme de guerre est si atroce qu'il faut agir et punir les coupables et apporter un soutien aux victimes, je pense que toutes les victimes de viol en cas de guerre mériteraient ce soutien-là.
 
 
-Non
 
+C'est une rectification dans ce texte pour ne pas faire de distinction entre les victimes et les réfugiés de guerre. Tous les réfugiés qui se trouvent en Belgique et qui ont subi ces atrocités doivent être traités de la même manière et doivent également pouvoir bénéficier de ce soutien psychologique si important.
 
 
-Nee
 
-Nee
-Nee
+16.08  Marianne Verhaert (Open Vld): Mevrouw de voorzitster, ons bereiken inderdaad afschuwelijke getuigenissen van seksueel geweld in Oekraïne. Het werd reeds aangehaald, de verhalen gaan door merg en been. In Irpin getuigde een 17-jarig meisje hoe haar moeder en haar 15-jarig zusje door Russische soldaten werden verkracht en daarna vermoord. Ze hadden haar in leven gelaten – ze was te lelijk – opdat ze kon vertellen welke gruweldaden zich daar hadden afgespeeld. Dit is één van de vele berichten over seksueel geweld door Russische troepen en huurlingen. De Mukwege Foundation rapporteerde al meer dan 400 gevallen van seksueel geweld en dat is nog maar het topje van de ijsberg.
 
 
-116
 
-116
-116
+De Oekraïense autoriteiten zouden momenteel een tiental actieve verkrachtingsonderzoeken voeren. Onderzoek toont aan dat niet enkel meisjes en vrouwen slachtoffer zijn van seksueel geweld, maar ook jongens en mannen. De Oekraïense minister van Binnenlandse Zaken heeft aangegeven dat het onderzoek bijzonder moeilijk verloopt. Veel slachtoffers zijn te getraumatiseerd en durven niet spreken. Het is duidelijk dat de Oekraïense onderzoekers hulp nodig hebben en dat er psychologische ondersteuning moet komen. Veel te veel slachtoffers zwijgen over het seksueel misbruik. Veel te veel slachtoffers dragen dit trauma alleen, het trauma van een leven lang blijven sterven vanbinnen. Veel te veel slachtoffers beslissen dan ook om over te gaan tot stil lijden.
 
 
-Non
 
-Non
-Non
+Met deze resolutie roepen wij de federale regering dan ook op om bij het Internationaal Strafhof (ICC) te pleiten voor een diepgaand en onafhankelijk onderzoek naar de misdaden van seksueel geweld. Speciale eenheden met experten moeten hiervoor worden samengesteld en naar Oekraïne worden gestuurd. Ons land moet ondersteunen waar het kan.
 
 
 
-Onthoudingen
+Het is belangrijk om vanaf het begin bewijsmateriaal te verzamelen en getuigenissen te documenteren. We mogen de slachtoffers absoluut niet in de kou laten staan. Het Verenigd Koninkrijk gaat het Internationaal Strafhof hierin ondersteunen en ook ons land moet dit doen. Hoe langer het duurt om het onderzoek naar die misdaden van seksueel geweld op te starten, hoe moeilijker het wordt om bewijzen te verzamelen. De soldaten en huurlingen die zich hieraan schuldig maken, moeten geïdentificeerd, vervolgd en bestraft worden. Die cultuur van straffeloosheid rond seksueel geweld moet definitief worden doorbroken, want verkrachting is het oudste en goedkoopste oorlogswapen.
 
 
-0
 
+In een gewapend conflict worden verkrachting en andere vormen van seksueel geweld ingezet als een wapen van vernedering en vernietiging. Landmijnen, biologische en chemische wapens worden door internationale verdragen verboden, maar er bestaat daarentegen geen verdrag voor seksueel geweld in conflict en post-conflictsituaties. In talrijke hedendaagse conflicten zijn burgers, zowel vrouwen als mannen, het slachtoffer van seksueel geweld, overal ter wereld. Van de Republiek Congo tot Tigray, van Colombia tot Myanmar zijn burgers in conflicten het slachtoffer van verkrachting, seksuele slavernij, gedwongen prostitutie, seksuele foltering, seksuele verminking, seksuele vernedering en tal van andere vormen van seksueel geweld. Toch wordt er op politiek niveau bijzonder weinig over gesproken.
 
-Abstentions
 
 
+Ik weet dat het ICC reeds mensen heeft veroordeeld voor verkrachtingen in oorlogsgebied en ik weet ook dat verkrachtingen expliciet in het Statuut van Rome staan. Ik weet dat het een oorlogsmisdaad kan zijn, dat het een misdaad tegen de menselijkheid kan zijn en dat het zelfs een element kan zijn in een genocidaal proces. Wat mooi is op papier, is dat niet altijd in de praktijk. Ik besef heel goed dat het in gewapende conflicten bijzonder moeilijk is om daders te identificeren en op te sporen. Het gaat echter niet alleen over het straffen van daders, het gaat ook over de ondersteuning van slachtoffers. Daarom vragen wij aan de federale regering om werk te maken van een verdrag omtrent seksueel geweld als wapen in gewapende conflicten.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+Het is belangrijk de daders te straffen, maar het is even belangrijk de slachtoffers medisch en psychologisch te ondersteunen. Slachtoffers van verkrachting hebben vaak te lijden onder stigmatisering en sociaal isolement. Zij worden zelfs verstoten door de gemeenschap of in de steek gelaten door hun familie. Zij hebben bescherming nodig. Immers, zelfs nadat de oorlog voorbij is, blijven er vaak nog verkrachtingen plaatsvinden. Veel slachtoffers worden gewoonweg vergeten en aan hun lot overgelaten, omdat onvoldoende wordt ingezet op re-integratie. Dat zien wij vandaag nog steeds in Rwanda, in Bosnië en in Syrië.
 
-0
 
-0
-0
 
+De psychologische impact van verkrachtingen en seksuele folteringen wordt nog steeds onderschat. De onzichtbare wonden van vele slachtoffers worden vergeten. Verkrachting is een vorm van psychologische terreur en moord. Seksueel geweld in conflict- en postconflictsituaties is geen collateral damage. Het is een doelgerichte strategie, om de tegenstander zowel moreel als fysisch te vernederen en te vernielen. Het gaat zelfs verder. Het is een strategie die mensen, zowel meisjes en vrouwen als jongens en mannen, zodanig beschadigt dat zij niet meer in staat zijn om mentaal en fysiek nog een volgende generatie op de wereld te zetten.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+Er moet internationaal een mindshift komen. Slachtoffers van misdaden van seksueel geweld moeten centraal komen te staan, ook in het internationaal humanitair recht en ook in het internationaal strafrecht. Daarom vraagt de voorliggende resolutie de regering ook om de nieuwe Murad Code te onderschrijven.
 
 
-Totaal
 
+Mevrouw Ponthier is hier niet meer aanwezig, maar zij overviel mij in de commissie. De Murad Code is, zoals ik ook in de commissie heb geantwoord, een gedragscode waarin staten zich engageren om meer actie te ondernemen tegen seksueel geweld in gewapende conflicten. Ze bevat onder andere een aantal hoofdcomponenten, namelijk een wereldwijde gedragscode voor zij die informatie verzamelen van overlevenden van systematisch en conflictgerelateerd geweld. Bovendien is er ook een praktische leidraad, waarin tien beginselen zijn opgenomen voor die gedragscode. Bijkomend is er ook een overlevendenhandvest, zijnde een document met perspectieven voor overlevenden.
 
-128
 
 
-Total
+Tot slot, is er ook een gids nodig voor nabestaanden, zodat zij beter weten welke hun rechten zijn. In de commissievergadering werd, via het commissiesecretariaat, aan alle commissieleden de link bezorgd, zodat iedereen de uitgebreide informatie kan terugvinden.
 
 
 
-Totaal
+Collega's, de rode draad bij de code heb ik ook uitgebreid toegelicht tijdens de algemene bespreking van de tekst. Het doel van de gedragscode is om de rechten van de slachtoffers, de overlevenden van seksueel geweld, centraal te stellen. Zo stelt de gedragscode voor dat staten beter samenwerken op vlak van onderzoek, documentatie en vergaring van bewijzen. Bewijsmateriaal moet op een ethischere, efficiëntere en doeltreffendere wijze worden verzameld om straffeloosheid tegen te gaan. De gedragscode plaatst het slachtoffer en getuigen van misdaden van seksueel geweld in gewapende conflicten centraal. Dat is dan ook de boodschap van het voorstel van resolutie.
 
-Totaal
-Totaal
 
 
-128
+Achter de term slachtoffer schuilt een persoon, een gezicht, een naam en een verhaal. Dat wil ik net met de tekst aantonen. Wanneer we telkens opnieuw moeten vaststellen hoe slachtoffers van misdaden van seksueel geweld aan hun lot worden overgelaten, dan kunnen we niet anders dan concluderen dat de politieke wereld dringend wakker wordt geschud. Ik hoop dan ook oprecht dat mijn voorstel vandaag de steun krijgt van alle politieke fracties en dus unaniem wordt goedgekeurd.
 
-128
-128
 
 
-Total
+16.09  Vicky Reynaert (Vooruit): Mevrouw de voorzitster, collega's, verkrachting als oorlogswapen is vreselijk en steekt bijna elke oorlog de kop op. Dat is vandaag helaas ook het geval in Oekraïne. De getuigenissen stromen binnen, maar dat is allicht nog maar het topje van de ijsberg. Het is namelijk zeer moeilijk om een juist beeld te krijgen van wat er zich afspeelt in de regio's onder Russische bezetting. Wel is het duidelijk dat Rusland niet alleen een oorlog voert tegen Oekraïne, maar ook een oorlog tegen vrouwen, kinderen en zelfs baby's. Wanneer dat op grote schaal gebeurt, wordt een volledige samenleving ontwricht. Het is dus van het uiterst belang dat zulke misdaden onderzocht, vervolgd en veroordeeld worden door het Internationaal Strafhof. Wij steunen dan ook het voorstel van resolutie. We danken de indienster, mevrouw Verhaert, voor haar initiatief.
 
-Total
-Total
 
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-27 Proposition de résolution relative à la poursuite d'une enquête pénale
-internationale sur les actes de violence sexuelle commis dans le cadre du
-conflit armé en Ukraine et à l'application de la résolution 1325 du Conseil de
-sécurité de l'ONU, intitulée "Femmes, Paix et Sécurité" (nouvel
-intitulé) (2672/4)
-27
-27
- Proposition de résolution relative à la poursuite d'une enquête pénale
-internationale sur les actes de violence sexuelle commis dans le cadre du
-conflit armé en Ukraine et à l'application de la résolution 1325 du Conseil de
-sécurité de l'ONU, intitulée "Femmes, Paix et Sécurité" (nouvel
-intitulé) (2672/4)
- Proposition de résolution relative à la poursuite d'une enquête pénale
-internationale sur les actes de violence sexuelle commis dans le cadre du
-conflit armé en Ukraine et à l'application de la résolution 1325 du Conseil de
-sécurité de l'ONU, intitulée "Femmes, Paix et Sécurité" (nouvel
-intitulé) (2672/4)
 
-27 Voorstel van
-resolutie betreffende de voortzetting van een internationaal strafrechtelijk
-onderzoek naar het seksueel geweld in het gewapend conflict in Oekraïne en de
-toepassing van VN-Veiligheidsraad resolutie 1325 getiteld "Vrouwen, Vrede
-en Veiligheid" (nieuw opschrift) (2672/4)
-27
-27
-27
- Voorstel van
-resolutie betreffende de voortzetting van een internationaal strafrechtelijk
-onderzoek naar het seksueel geweld in het gewapend conflict in Oekraïne en de
-toepassing van VN-Veiligheidsraad resolutie 1325 getiteld "Vrouwen, Vrede
-en Veiligheid" (nieuw opschrift) (2672/4)
- Voorstel van
-resolutie betreffende de voortzetting van een internationaal strafrechtelijk
-onderzoek naar het seksueel geweld in het gewapend conflict in Oekraïne en de
-toepassing van VN-Veiligheidsraad resolutie 1325 getiteld "Vrouwen, Vrede
-en Veiligheid" (nieuw opschrift) (2672/4)
- Voorstel van
-resolutie betreffende de voortzetting van een internationaal strafrechtelijk
-onderzoek naar het seksueel geweld in het gewapend conflict in Oekraïne en de
-toepassing van VN-Veiligheidsraad resolutie 1325 getiteld "Vrouwen, Vrede
-en Veiligheid" (nieuw opschrift) (2672/4)
+Wij hadden daarnaast graag de aandacht gevestigd op het feit dat zeer veel mensen vandaag uit Oekraïne op de vlucht zijn. Ofwel zijn ze hun land ontvlucht, ofwel zijn ze intern op de vlucht. Er is echter slechts een heel beperkte toegang tot voorbehoedsmiddelen. Er is dus een verhoogd risico op seksueel overdraagbare aandoeningen. Er is ook een gebrek aan levensreddende medicatie voor mensen met hiv, een verhoogd risico op onveilige zwangerschappen en bevallingen, een nog grotere toename van gendergerelateerd geweld, druk op rechten van lgbtqi+-personen en ten slotte een verhoogd risico van onveilige abortussen.
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
+Op dat vlak heeft ons land ook een rol te spelen. Het is zeker van belang om te pleiten voor de verlening van medische, psychologische en juridische steun van slachtoffers van seksueel misbruik in Oekraïne. Het is goed dat dat hier in het voorstel van resolutie nogmaals beklemtoond wordt.
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+16.10  Vanessa Matz (Les Engagés): Madame la présidente, je remercie Mme Verhaert ainsi que l'ensemble des cosignataires pour le dépôt de cette proposition de résolution. Des exactions atroces, traumatisantes, meurtrières ont lieu en Ukraine depuis le début du conflit. Les violences sexuelles sont une arme terrifiante, traumatisante qui blesse les personnes qui en sont victimes dans leur dignité la plus intime. C'est insupportable pour la Communauté internationale. Tout doit être mis en œuvre pour prévenir, lutter et punir ces crimes odieux et lâches.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 8
+Les demandes qui sont formulées dans cette résolution sont évidemment extrêmement importantes. La demande de saisine de la Cour pénale internationale, les enquêtes indépendantes, la collecte de données au travers de témoignages, le fait de considérer toutes ces violences comme des crimes autonomes sont des objectifs que nous soutenons activement.
 
 
-(Stemming/vote 7)
 
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
+Pour ces raisons, chers collègues, nous apporterons bien sûr notre soutien à cette proposition de résolution qui mentionne aussi notre capacité d'action lors de l'accueil de ces réfugiés, notamment un suivi psychologique et la protection de ces victimes de crimes atroces qui sont souvent très insidieux. Je vous remercie encore pour cette proposition de résolution que nous soutiendrons de manière très forte.
 
 
 
-Ja
+16.11  Sophie Rohonyi (DéFI): Madame la présidente, chers collègues, à chaque fois qu'une guerre éclate, elle s'accompagne des pires atrocités que l'être humain est capable de commettre, précisément parce que la guerre lui fait perdre toute humanité, qu'il s'agisse de terroriser, blesser, déporter, violer, torturer ou encore de tuer. Ce sont des crimes qui violent le droit humanitaire, à savoir l'ensemble des règles qui tendent à viser à assurer la protection des civils contre les effets néfastes des conflits armés.
 
 
-126
 
+Malheureusement, force est de constater que, dans de nombreux conflits et la guerre en Ukraine ne fait pas exception, ces règles sont bafouées.
 
-Oui
 
 
+Comme je l'ai dit, lorsque des conflits armés éclatent, les femmes sont systématiquement violées et violentées, parfois même devant leurs enfants, leur mari ou leur famille. La guerre dépossède les femmes de leur corps et de leur sexualité, allant jusqu'à mutiler leurs organes génitaux. Ces terribles atteintes à l'intégrité physique et psychologique de ces femmes et de ces filles les poussent à fuir leur pays, sous peine d'être les victimes de ce qui pourrait devenir un génocide. On l'a vu en République démocratique du Congo, dans le Tigré, en Colombie, en ex-Yougoslavie ou encore en Birmanie. Ce sont toujours les populations civiles qui sont victimes des viols et qui sont plongées dans la prostitution ou encore dans l'esclavage sexuel.
 
-Ja
 
-Ja
-Ja
 
+Aujourd'hui, nous ne pouvons pas accepter qu'après plus de 75 années de paix, l'Europe connaisse à nouveau la guerre et ses atrocités. Plus les jours passent, plus les médias et les ONG révèlent les crimes commis par l'armée russe, et plus les témoignages de victimes de violences sexuelles se succèdent. Ce sont des centaines et des centaines de jeunes femmes qui ont été violées par des soldats russes depuis le début de la guerre en Ukraine. Aucun État ne peut - quel que soit le moment - fermer les yeux sur cette réalité. C'est pourquoi, à l'instar de mes collègues, je tenais à saluer les auteurs de cette proposition de résolution, parce que depuis le début, nous sommes convaincus que ces crimes atroces doivent être poursuivis devant la Cour pénale internationale.
 
-126
 
-126
-126
 
+Nous devons répondre à l'appel des Nations Unies qui vise à ouvrir une enquête indépendante sur les viols et les violences sexuelles aujourd'hui commises en Ukraine, mais aussi investir dans la recherche des preuves qui permettront à la justice de faire son travail. Nous devons fournir une assistance médicale, y compris psychologique, à toutes les victimes qui parviennent à rejoindre notre pays. Qu'elles soient victimes de la guerre en Ukraine ou de tout autre conflit armé, raison pour laquelle nous soutiendrons l'amendement du PTB qui vise à élargir le champ d'application de cette proposition de résolution.
 
-Oui
 
-Oui
-Oui
 
+Nous devons enfin, et bien évidemment, aider les victimes restées sur place, là où ces atrocités sont perpétrées. C'est également la raison pour laquelle je salue la demande qu'une attention particulière soit accordée à la dimension du genre dans le cadre de l'aide humanitaire offerte à l'Ukraine, en veillant, par exemple, à ce que notre aide humanitaire prête attention à l'accès des femmes et des jeunes filles ukrainiennes aux soins de santé sexuelle et reproductive.
 
 
-Nee
 
+Dans ce cadre, il est impératif de ne pas fermer les yeux sur la situation des femmes ukrainiennes, empêchées de pratiquer une IVG en Pologne au vu des conditions ultra-restrictives pour accéder à l'avortement de manière sûre et légale dans ce pays, parce que si l'avortement pour cause de viol y est autorisé, les lacunes et la politisation du système judiciaire polonais sont telles qu'elles rendent presque impossible toute preuve d'une telle agression et donc tout avortement sur la base de ce motif.
 
-0
 
 
-Non
+L'ONG Human Rights Watch a ainsi eu raison de nous alerter sur la situation des réfugiés ukrainiens arrivés en Pologne, et ce, en ces mots: "La Pologne doit renforcer de façon urgente ses mesures de prévention et de surveillance pour protéger les réfugiés ukrainiens sur son sol, en particulier les femmes victimes de trafics, de violences, de viols."
 
 
 
-Nee
+Vous l'aurez compris, chers collègues, c'est avec conviction que nous soutiendrons cette proposition de résolution. Je vous remercie.
 
-Nee
-Nee
 
 
-0
+16.12  Michel De Maegd (MR): Madame la présidente, chers collègues, la guerre en Ukraine a, dès ses premiers jours, mis en évidence le sort des femmes et des enfants ukrainiens fuyant les bombardements russes, d'abord vers la Pologne puis vers d'autres pays de l'Union européenne. On sait que 90 % des réfugiés fuyant cette guerre sont des femmes et des enfants.
 
-0
-0
 
 
-Non
+Malgré le désespoir de leur situation, certains sombres et cyniques vautours furent présents dès leur arrivée en Pologne pour tendre les filets de la traite d'êtres humains, de l'exploitation sexuelle. Devant les nombreuses sonnettes d'alarme tirées par les autorités compétentes, l'Union européenne et les pays européens devaient protéger les femmes fuyant l'Ukraine contre ces violences. De plus, les victimes devaient évidemment avoir accès aux services de santé fondamentaux.
 
-Non
-Non
 
 
+Ce n'est que dans une deuxième phase de la guerre, lors du retrait des forces russes des villages entourant Kiev, que les dépouilles furent découvertes et que les témoignages des victimes de viol furent recueillis. Face à cette réalité qu'on retrouve dans d'autres conflits, nous désirons condamner fermement l'utilisation des violences sexuelles comme arme de guerre. Elles entraînent des blessures indélébiles physiques et psychologiques. Que dire des grossesses non planifiées? Je parlerais même de grossesses non désirées, qui sont une blessure d'autant plus grande pour ces victimes.
 
-Onthoudingen
 
 
-0
+Le docteur Denis Mukwege et son équipe ont contribué à faire connaître ces faits atroces mais, hélas, le prix Nobel 2018 devra déployer encore de nombreux efforts pour sensibiliser tous les organismes dans ce combat et mettre en avant la lutte contre l'impunité, ce qui nécessite le recueil de preuves.
 
 
-Abstentions
 
+Les instruments de l'Union européenne doivent démontrer leur pertinence. Il existe une enquête conjointe d'Eurojust avec l'Ukraine et on peut étoffer les compétences de l'Agence de l'Union européenne pour la coopération judiciaire en matière pénale afin qu'elle puisse collecter, conserver et partager des preuves de crimes de guerre.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+16.13  Els Van Hoof (CD&V): Mevrouw de voorzitster, het is belangrijk dat ons land en het Parlement zich blijven verzetten tegen elke vorm van seksueel geweld in conflicten. Daarom is het van belang dat wij deze resolutie vandaag aannemen. Ze veroordeelt expliciet het gebruik van seksueel geweld op Oekraïense vrouwen en meisjes.
 
 
-0
 
-0
-0
+Wij weten reeds langer dat oorlogen niet alleen plaatsvinden tussen legers van dappere mannen, maar dat vrouwen en kinderen helaas ook vaak prominent aanwezig zijn onder de slachtoffers. Het gebruik van seksueel geweld lijkt bijna een routineoperatie tijdens hedendaagse oorlogen, het is vaste prik.
 
 
-Abstentions
 
-Abstentions
-Abstentions
+Mevrouw Verhaert zei het reeds, wij kunnen deze vrouwen en meisjes niet in de kou laten staan of hen behandelen als collateral damage. Niet voor niets neemt seksueel geweld een prominente plaats in op de lijst van oorlogsmisdaden of misdaden tegen de mensheid, zoals gedefinieerd in het internationaal recht. Wij mogen deze daden dan ook niet straffeloos laten voorbijgaan. Er is hierover reeds heel wat plenair debat geweest. Wij moeten het Internationaal Strafhof effectief ondersteunen, zowel met mensen als middelen, om het onderzoek afdoende te ondersteunen, samen met andere landen en de VN.
 
 
 
-Totaal
+De risico's die vrouwen en meisjes lopen tijdens conflicten zijn reeds langer bekend, ook op het internationale niveau. Er is de heel interessante resolutie nr. 1325 van de VN-Veiligheidsraad, die reeds in 2000 werd aangenomen en die heel goed gekend is bij de vrouwenbeweging. Deze resolutie gaat over vrouwen, vrede en veiligheid. Die wil net meisjes effectief beschermen tegen geweld in tijden van conflict. Wij nemen elke vier jaar een actieplan aan met betrekking tot die resolutie nr. 1325. Wij hebben dat in België recent gedaan, in februari van dit jaar. Wat heeft het echter voor zin om plannen te maken als ze niet worden toegepast en stof liggen te vergaren?
 
 
-126
 
+Daarom vond CD&V het heel belangrijk om in deze resolutie te verwijzen naar dat actieplan en de concrete doelstellingen en acties die daarmee gepaard gaan. Ik geef enkele voorbeelden. Wij moeten het internationaal normatief kader voor vrouwen in conflictsituaties versterken, zodat zij het oorlogsgeweld niet zomaar lijdzaam moeten ondergaan. Ook vragen we heel expliciet om humanitaire hulp te richten op slachtoffers van seksueel geweld en om hen toegang te geven tot seksuele en reproductieve rechten. Dit staat ook in ons actieplan. Ten slotte vragen wij dat de regering actief strijdt tegen alle mogelijke vormen van mensenhandel waarvan vrouwen en meisjes uit Oekraïne het slachtoffer kunnen worden. Dat doen we op dit moment ook.
 
-Total
 
 
+Naar het laatste element is al verwezen in het verslag. Vrouwen moeten deel worden van de vredesonderhandelingen. Hopelijk komen die er ooit. Uit veel onderzoeken is namelijk gebleken dat wanneer vrouwen mee aan de onderhandelingstafel zitten, de vredesakkoorden ook veel duurzamer zijn. Het is ten slotte ook hun toekomst die op het spel staat.
 
-Totaal
 
-Totaal
-Totaal
 
+Met deze resolutie willen we vrouwen empoweren. In onze solidariteit met Oekraïne mogen we de vele verkrachte Oekraïense vrouwen en meisjes niet vergeten. Daarom zullen wij met volle overtuiging deze resolutie ondersteunen. Ik dank de indieners nogmaals.
 
-126
 
-126
-126
 
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
-Total
+Vraagt nog iemand het woord? (Nee)
 
-Total
-Total
 
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en sera donné connaissance au gouvernement. (2672/6)
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en sera donné connaissance au gouvernement. 
-(2672/6)
-(2672/6)
 
+La discussion est close.
 
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. (2672/6)
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht. 
-(2672/6)
-(2672/6)
+De bespreking is gesloten.
 
 
- 
- 
- 
-28 Proposition de rejet par la commission de l'Intérieur, de la Sécurité,
-de la Migration et des Matières administratives de la proposition de loi
-modifiant la loi du 15 décembre 1980 sur l'accès au territoire, le
-séjour, l'établissement et l'éloignement des étrangers et modifiant l'arrêté
-royal du 8 octobre 1981 sur l'accès au territoire, le séjour,
-l'établissement et l'éloignement des étrangers, en vue de créer un statut et un
-titre de séjour distincts pour les personnes déplacées temporairement
-(2588/1-2)
-28
-28
- Proposition de rejet par la commission de l'Intérieur, de la Sécurité,
-de la Migration et des Matières administratives de la proposition de loi
-modifiant la loi du 15 décembre 1980 sur l'accès au territoire, le
-séjour, l'établissement et l'éloignement des étrangers et modifiant l'arrêté
-royal du 8 octobre 1981 sur l'accès au territoire, le séjour,
-l'établissement et l'éloignement des étrangers, en vue de créer un statut et un
-titre de séjour distincts pour les personnes déplacées temporairement
-(2588/1-2)
- Proposition de rejet par la commission de l'Intérieur, de la Sécurité,
-de la Migration et des Matières administratives de la proposition de loi
-modifiant la loi du 15 décembre 1980 sur l'accès au territoire, le
-séjour, l'établissement et l'éloignement des étrangers et modifiant l'arrêté
-royal du 8 octobre 1981 sur l'accès au territoire, le séjour,
-l'établissement et l'éloignement des étrangers, en vue de créer un statut et un
-titre de séjour distincts pour les personnes déplacées temporairement
-(2588/1-2)
 
-28 Voorstel tot
-verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en
-Bestuurszaken van het wetsvoorstel tot wijziging van de wet van
-15 december 1980 betreffende de toegang tot het grondgebied, het
-verblijf, de vestiging en de verwijdering van vreemdelingen en tot wijziging
-van het koninklijk besluit van 8 oktober 1981 betreffende de toegang
-tot het grondgebied, het verblijf, de vestiging en de verwijdering van
-vreemdelingen, teneinde een apart verblijfsstatuut en -vergunning te creëren
-voor tijdelijk ontheemden (2588/1-2)
-28
-28
-28
- Voorstel tot
-verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en
-Bestuurszaken van het wetsvoorstel tot wijziging van de wet van
-15 december 1980 betreffende de toegang tot het grondgebied, het
-verblijf, de vestiging en de verwijdering van vreemdelingen en tot wijziging
-van het koninklijk besluit van 8 oktober 1981 betreffende de toegang
-tot het grondgebied, het verblijf, de vestiging en de verwijdering van
-vreemdelingen, teneinde een apart verblijfsstatuut en -vergunning te creëren
-voor tijdelijk ontheemden (2588/1-2)
- Voorstel tot
-verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en
-Bestuurszaken van het wetsvoorstel tot wijziging van de wet van
-15 december 1980 betreffende de toegang tot het grondgebied, het
-verblijf, de vestiging en de verwijdering van vreemdelingen en tot wijziging
-van het koninklijk besluit van 8 oktober 1981 betreffende de toegang
-tot het grondgebied, het verblijf, de vestiging en de verwijdering van
-vreemdelingen, teneinde een apart verblijfsstatuut en -vergunning te creëren
-voor tijdelijk ontheemden (2588/1-2)
- Voorstel tot
-verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en
-Bestuurszaken van het wetsvoorstel tot wijziging van de wet van
-15 december 1980 betreffende de toegang tot het grondgebied, het
-verblijf, de vestiging en de verwijdering van vreemdelingen en tot wijziging
-van het koninklijk besluit van 8 oktober 1981 betreffende de toegang
-tot het grondgebied, het verblijf, de vestiging en de verwijdering van
-vreemdelingen, teneinde een apart verblijfsstatuut en -vergunning te creëren
-voor tijdelijk ontheemden (2588/1-2)
+*  *  *  *  *
 
+Amendement déposé:
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
-(Non)
-(Non)
+Ingediend amendement:
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-(Nee)
- 
- 
- 
-Début du vote /
-Begin van de stemming.
-Début du vote /
-Begin van de stemming.
+Punt IV.4
 
-Tout le
-monde a-t-il voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem
-nagekeken?
-Tout le
-monde a-t-il voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem
-nagekeken?
+• 19 – Nabil Boukili (2672/5)
 
-Fin du vote /
-Einde van de stemming.
-Fin du vote /
-Einde van de stemming.
+*  *  *  *  *
 
-Résultat du vote
-/ Uitslag van de stemming.
-Résultat du vote
-/ Uitslag van de stemming.
 
- 
- 
- 
 
-## Proposal 9
+L’amendement est réservé.
 
+Het amendement wordt aangehouden.
 
-(Stemming/vote 8)
 
-(Stemming/vote 8)
-(Stemming/vote 8)
 
+Le vote sur l'amendement réservé et sur la proposition aura lieu ultérieurement.
 
+De stemming over het aangehouden amendement en over het voorstel zal later plaatsvinden.
 
-Oui
+### Description in French:
 
+Proposition déposée par:
 
-96
+Voorstel ingediend door:
 
+Marianne Verhaert, Goedele Liekens, Christophe Lacroix, Kattrin Jadin, Séverine de Laveleye, Els Van Hoof, Vicky Reynaert, Wouter De Vriendt, Michel De Maegd.
 
-Ja
 
 
+Discussion
 
-Oui
+Bespreking
 
-Oui
-Oui
 
 
-96
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2672/4)
 
-96
-96
+De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2672/4)
 
 
-Ja
 
-Ja
-Ja
+L'intitulé a été modifié par la commission en "proposition de résolution relative à la poursuite d’une enquête pénale internationale sur les actes de violence sexuelle commis dans le cadre du conflit armé en Ukraine et à l’application de la résolution 1325 du Conseil de sécurité de l’ONU, intitulée "Femmes, Paix et Sécurité".
 
+Het opschrift werd door de commissie gewijzigd in "voorstel van resolutie betreffende de voortzetting van een internationaal strafrechtelijk onderzoek naar het seksueel geweld in het gewapend conflict in Oekraïne en de toepassing van VN-Veiligheidsraad resolutie 1325 getiteld "Vrouwen, Vrede en Veiligheid".
 
 
-Non
 
+La discussion est ouverte.
 
-36
+De bespreking is geopend.
 
 
-Nee
 
+Président: Séverine de Laveleye, vice-présidente.
 
+Voorzitter: Séverine de Laveleye, ondervoorzitster.
 
-Non
 
-Non
-Non
 
+16.01  Annick Ponthier, rapporteur: Mevrouw de voorzitster, collega's, het voorstel van resolutie over de instelling van een internationaal strafrechtelijk onderzoek naar het seksueel geweld in de oorlog in Oekraïne verkreeg twee weken geleden in de plenaire vergadering urgentie en alzo vond vorige week de bespreking plaats in de commissie voor Buitenlandse Betrekkingen.
 
-36
 
-36
-36
 
+Mevrouw Verhaert van de Open Vld-fractie, lichtte als hoofdindiener het voorstel toe. Alsmaar luider en vaker klinken er afschuwelijke getuigenissen van seksueel geweld in Oekraïne. Die verhalen grijpen ons uiteraard allen aan. Mevrouw Verhaert verwees onder meer naar de horrorbeelden van Boetsja en de gebeurtenissen in Irpin.
 
-Nee
 
-Nee
-Nee
 
+Mevrouw Verhaert zegt dat het van belang is om van meet af aan bewijsmateriaal te bezorgen en getuigenissen te documenteren en stelt dat slachtoffers in geen geval in de kou mogen blijven staan. Zij drong erop aan dat België het voorbeeld zou volgen van het Verenigd Koninkrijk, dat het Internationaal Strafhof daarin zal ondersteunen. Immers, hoe langer het onderzoek naar de misdaden van seksueel geweld uitblijft, zo zegt mevrouw Verhaert, des te moeilijker wordt het om bewijsstukken te verzamelen. Iedereen die zich schuldig maakt, moet geïdentificeerd, vervolgd en bestraft worden. De cultuur van straffeloosheid moet aangepakt worden. Volgens de hoofdindiener moet België daaraan bijdragen. Verkrachting is het oudste en het goedkoopste oorlogswapen, aldus nog mevrouw Verhaert. In een gewapend conflict worden verkrachting en andere vormen van seksueel geweld als een wapen van vernedering en vernietiging ingezet. Er zijn wel verdragen over de inzet van biologische en chemische wapens in oorlog, maar niet over seksueel geweld in conflictsituaties.
 
 
-Abstentions
 
+Er wordt in de politiek daarover weinig gesproken, laat staan initiatieven genomen om het fenomeen een halt toe te roepen, aldus de hoofdindienster van het voorstel van resolutie. Hoewel het niet ontbreekt aan rapporten, is dat veel minder het geval voor veroordelingen. Het mag daarbij niet alleen gaan over het straffen van daders, maar ook over slachtofferondersteuning. De psychologische impact van verkrachting en van seksuele foltering wordt, volgens mevrouw Verhaert, nog altijd onderschat. Zodra een oorlog eindigt – we hopen allemaal dat dat zo snel mogelijk zal zijn –, denkt men al snel aan de heropbouw en worden de onzichtbare wonden van de slachtoffers vergeten.
 
-0
 
 
-Onthoudingen
+Tot slot verwijst mevrouw Verhaert naar enkele passages uit het boek Ons lichaam, jullie slagveld, dat haar ertoe heeft aangezet om het voorstel in te dienen. Zij concludeert dat de politici wakker moeten worden geschud en getuigenissen in het boek centraal moeten komen te staan in het traject naar herstel.
 
 
 
-Abstentions
+In de algemene bespreking geeft mevrouw Safai van de N-VA aan dat haar fractie zonder enige twijfel het voorstel zal steunen.
 
-Abstentions
-Abstentions
 
 
-0
+Mevrouw de Laveleye van de Ecolo-Groenfractie merkt op dat gevallen van seksueel geweld in de geschiedenis vaak onder de radar bleven en slechts beperkt met bewijsstukken werden gestaafd. Ze herinnert eraan dat misdrijven van seksuele aard al in internationale teksten zijn opgenomen en onderstreept dat de Belgische regering dus niet op het voorstel heeft gewacht om in dat verband noodzakelijke stappen te ondernemen. Mevrouw de Laveleye concludeert dat de tekst, aangezien de federale regering in het hele verhaal een doorslaggevende rol kan spelen, de regering daarin zal sterken.
 
-0
-0
 
 
-Onthoudingen
+Mevrouw Bonaventure van de PS-fractie spreekt ook haar steun uit voor het voorstel.
 
-Onthoudingen
-Onthoudingen
 
 
+Volgens mevrouw Ponthier van de Vlaams Belangfractie heeft iedereen met de ogen de onaanvaardbare misdaden ten gevolge van de oorlog in Oekraïne kunnen vaststellen en argumenteert dat we ervoor moeten zorgen dat de misdaden grondig worden onderzocht, te meer omdat vrouwen in een oorlogssituatie bijzonder kwetsbaar zijn, misschien nog meer dan andere burgers. De Vlaams Belangfractie zal het voorstel dan ook steunen.
 
-Total
 
 
-132
+Mevrouw Jadin van de MR-fractie zegt dat de oorlog in Oekraïne ons niet alleen confronteert met herhaalde mensenrechtenschendingen, maar ook met geweld specifiek gericht tegen vrouwen en kinderen als oorlogswapen. Zij acht het dan ook essentieel dat dat zo krachtig mogelijk wordt veroordeeld en dat men zichzelf de instrumenten geeft om die misdaden tegen te gaan, zoals onderhavig voorstel van resolutie.
 
 
-Totaal
 
+De heer De Maegd van de MR-fractie zegt dat seksueel geweld op veel plaatsen ter wereld een echt oorlogswapen is, onder andere in Oost-Congo, en dat dergelijke oorlogsmisdaden en misdaden tegen de menselijkheid met vaak onherstelbare psychologische en fysieke gevolgen voor de slachtoffers nu ook in Oekraïne plaatsvinden. Het is volgens hem van groot belang om de slachtoffers te steunen en om de verantwoordelijken strafrechtelijk te vervolgen. De heer De Maegd is dan ook van oordeel dat het voorstel een krachtig signaal zou moeten geven aan de agressors in Oekraïne.
 
 
-Total
 
-Total
-Total
+De heer De Vuyst van de PVDA-PTB-fractie verwees naar de processen van Neurenberg na de Tweede Wereldoorlog waarin oorlog werd erkend als de grootste misdaad tegen de menselijkheid. Dat die misdaden worden begaan, is niets nieuws volgens collega De Vuyst en in die zin is het erg positief dat het voorstel tot stand komt en een solide rechtskader krijgt zodat de verantwoordelijken kunnen worden gestraft en de slachtoffers kunnen worden gesteund.
 
 
-132
 
-132
-132
+Voorzitter: Eliane Tillieux, voorzitster.
 
+Président: Eliane Tillieux, présidente.
 
-Totaal
 
-Totaal
-Totaal
 
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de rejet. La proposition de loi n° 2588/1 est donc rejetée.
-En conséquence, la Chambre adopte la
-proposition de rejet. La proposition de loi n° 2588/1 est donc rejetée.
-Bijgevolg neemt de Kamer het voorstel tot
-verwerping aan. Het wetsvoorstel nr. 2588/1 is dus verworpen.
-Bijgevolg neemt de Kamer het voorstel tot
-verwerping aan. Het wetsvoorstel nr. 2588/1 is dus verworpen.
- 
- 
- 
-28.01  Peter De Roover (N-VA): Mevrouw de voorzitster, deze week ben ik toen ik met de
-trein naar huis reed een station te laat afgestapt. Ik was verstrooid.
-Hetzelfde is mij nu overkomen bij de stemming over het voorstel van resolutie
-nr. 2672/4 (stemming/vote 7). De stemming was afgesloten toen ik nog
-driftig op het knopje aan het drukken was. Ik heb echter gestemd zoals mijn
-fractie, maar ik had dit graag in het verslag laten opnemen.
-28.01
-28.01
-  Peter De Roover 
-  Peter De Roover 
- 
-(N-VA): Mevrouw de voorzitster, deze week ben ik toen ik met de
-trein naar huis reed een station te laat afgestapt. Ik was verstrooid.
-Hetzelfde is mij nu overkomen bij de stemming over het voorstel van resolutie
-nr. 2672/4 (stemming/vote 7). De stemming was afgesloten toen ik nog
-driftig op het knopje aan het drukken was. Ik heb echter gestemd zoals mijn
-fractie, maar ik had dit graag in het verslag laten opnemen.
- 
- 
- 
-De voorzitster:
-Geen probleem.
-De voorzitster:
-Geen probleem.
-voorzitster
- 
- 
- 
-29 Aangehouden
-amendement op het ontwerp van bijzondere wet tot wijziging van de bijzondere
-wetgeving inzake mandatenlijst en vermogensaangifte, wat de uitbreiding van het
-toepassingsgebied tot districtsburgemeesters en -schepenen betreft (2297/5-8)
-29
-29
-29
- Aangehouden
-amendement op het ontwerp van bijzondere wet tot wijziging van de bijzondere
-wetgeving inzake mandatenlijst en vermogensaangifte, wat de uitbreiding van het
-toepassingsgebied tot districtsburgemeesters en -schepenen betreft (2297/5-8)
- Aangehouden
-amendement op het ontwerp van bijzondere wet tot wijziging van de bijzondere
-wetgeving inzake mandatenlijst en vermogensaangifte, wat de uitbreiding van het
-toepassingsgebied tot districtsburgemeesters en -schepenen betreft (2297/5-8)
- Aangehouden
-amendement op het ontwerp van bijzondere wet tot wijziging van de bijzondere
-wetgeving inzake mandatenlijst en vermogensaangifte, wat de uitbreiding van het
-toepassingsgebied tot districtsburgemeesters en -schepenen betreft (2297/5-8)
+Het lid wijst er niettemin op dat gezien de context de focus vooral ligt op de Oekraïense ontheemden, maar dat er tegelijkertijd ook misdaden in veel andere regio's gebeuren over de hele wereld. Hij dient ter zake dan ook een amendement in, dat die formulering sterkt.
 
 
-29 Amendement réservé au projet de loi spéciale modifiant la législation
-spéciale relative aux listes de mandats et déclarations de patrimoine, en ce
-qui concerne l'extension du champ d'application aux bourgmestres et échevins de
-district (2297/5-8)
-29
-29
- Amendement réservé au projet de loi spéciale modifiant la législation
-spéciale relative aux listes de mandats et déclarations de patrimoine, en ce
-qui concerne l'extension du champ d'application aux bourgmestres et échevins de
-district (2297/5-8)
- Amendement réservé au projet de loi spéciale modifiant la législation
-spéciale relative aux listes de mandats et déclarations de patrimoine, en ce
-qui concerne l'extension du champ d'application aux bourgmestres et échevins de
-district (2297/5-8)
 
- 
- 
- 
-Stemming over amendement nr. 1 van
-Nabil Boukili tot invoeging van een artikel 3/1(n). (2297/8)
-Stemming over amendement nr. 1 van
-Nabil Boukili tot invoeging van een artikel 3/1(n). 
-(2297/8)
-(2297/8)
+Mevrouw Reynaert van de Vooruitfractie bevestigt dat verkrachtingen inderdaad ook vaak als oorlogswapen worden gebruikt. Zij acht het dan ook van het hoogste belang dat die misdaden worden veroordeeld, onderzocht en vervolgd. Zij haalt daarbij nog aan dat de toegang tot voorbehoedsmiddelen beperkt is, dat het risico van seksueel overdraagbare aandoeningen is toegenomen tijdens de oorlogsperiode, dat er een tekort is aan levensbelangrijke geneesmiddelen voor hiv-patiënten, dat het aantal risicozwanger­schappen en -bevallingen stijgt, dat de rechten van de lgbtqia+-gemeenschap onder druk komen te staan en dat het aantal risicovolle abortussen in stijgende lijn gaat.
 
-Vote sur
-l'amendement n° 1 de Nabil Boukili tendant à insérer un
-article 3/1(n). (2297/8)
-Vote sur
-l'amendement n° 1 de Nabil Boukili tendant à insérer un
-article 3/1(n). (2297/8)
-(2297/8)
 
- 
- 
- 
-Begin van
-de stemming / Début du vote.
-Begin van
-de stemming / Début du vote.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
+Mevrouw Van Hoof, ten slotte, stelt dat de beschikbare cijfers slechts een deel van de feiten betreffen en dat het van belang is de oorlogsmisdaden te bekampen. Zij wijst er bovendien op dat de betrokken vrouwen en meisjes doorgaans weinig en te weinig worden betrokken bij het zoeken van oplossingen en bij de conflicten, terwijl deelname van die groep aan de onderhandelingen natuurlijk net een deel van de oplossing zou kunnen bieden. Uit die ervaring blijkt immers dat gevoerde onderhandelingen en vredesakkoorden meer kans maken, om tot een duurzaam succes uit te groeien.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+Vervolgens werden een aantal amendementen ingediend, vooral door mevrouw Verhaert, die het voorstel van resolutie moeten versterken. Ze bevatten een aantal verwijzingen naar internationale resoluties en overeenkomsten. Zij verwijst ook naar de Murad Code, een wereldwijde gedragscode die seksueel geweld in conflicten wenst aan te pakken. Zij hecht veel belang aan de vraag dat die code, net als de andere amendementen, wordt toegevoegd.
 
-## Proposal 10
 
 
-(Stemming/vote 9)
+In de commissie werd, ten slotte, de stemming gehouden. Het voorstel van resolutie werd unaniem goedgekeurd. Er waren geen tegenstemmen en geen onthoudingen.
 
-(Stemming/vote 9)
-(Stemming/vote 9)
-(Stemming/vote 9)
 
 
+16.02  Darya Safai (N-VA): Mevrouw de voorzitster, de berichten van systematisch en geïnstitutionaliseerd geweld tegen de burgerbevolking die wij uit Oekraïne krijgen, zijn alarmerend en druisen direct in tegen de internationale verdragen waar alle strijdende partijen in het conflict aan moeten gehoorzamen. Het gebruik van verkrachting als wapen tegen vooral de vrouwelijke bevolking, maar ook tegen kinderen en mannen, is bijzonder verontrustend. Niet enkel zal de burgerbevolking hiervan het slachtoffer worden, vrouwen vervullen ook een niet onaanzienlijke rol in de verdediging van het land in zowel gevechts- als ondersteunende rollen.
 
-Ja
 
 
-10
+Zo'n 15 % van de Oekraïense strijdkrachten zou op dit moment uit vrouwen bestaan, wat er ook toe leidde dat vrouwen krijgsgevangen werden genomen. Ook hier zijn er berichten dat zij gemarteld en vernederd werden en dat zij onderworpen werden aan seksueel geweld. Dat het Russische leger verkrachting gebruikt als een van zijn oorlogswapens tegen de bevolking van Oekraïne is meer dan duidelijk. Enkel de schaal en de mogelijkheden van de internationale gemeenschap om dit te bestrijden zijn onduidelijk.
 
 
-Oui
 
+Wij steunen dus volwaardig dit voorstel van resolutie, maar wij hebben wel enkele bedenkingen bij het verder invoeren van nieuwe internationale instrumenten om verkrachting in postconflictsituaties te bestrijden. Een belangrijk luik in deze resolutie zal dan ook moeten zijn wat de Belgische bijdrage kan of moet zijn aan de daadwerkelijke bestrijding van wat wij nu zien gebeuren in Oekraïne.
 
 
-Ja
 
-Ja
-Ja
+16.03  Séverine de Laveleye (Ecolo-Groen): Madame la présidente, je voudrais tout d'abord remercier Mme Verhaert d'avoir mis le sujet des violences sexuelles en Ukraine sur la table du Parlement. En effet, les violences sexuelles en général, et spécifiquement en temps de guerre, sont des crimes qui sont très anciens, souvent systématiques, trop souvent tus et beaucoup trop souvent frappés d'impunité mais pourtant abjects et qui détruisent les victimes au moins autant que les bombes.
 
 
-10
 
-10
-10
+Voir notre Parlement dénoncer ces faits et appeler tous les niveaux de pouvoir ainsi que la Cour pénale internationale à avoir une attention spécifique sur ces crimes est non seulement pertinent mais aussi nécessaire. Bien sûr, le gouvernement fédéral n'a pas attendu nos travaux parlementaires pour avancer et j'ai envie de dire heureusement! La Belgique fait partie des pays qui ont déposé une requête demandant au procureur de la Cour pénale internationale d'enquêter sur la situation en Ukraine. Notre gouvernement n'a pas juste demandé de le faire. Il a aussi donné les moyens pour mener cette enquête en allouant une contribution volontaire de 500 000 euros au Fonds d'affectation spéciale de la Cour pénale internationale.
 
 
-Oui
 
-Oui
-Oui
+Ceci étant, cette résolution nous permet, en tant que Parlement, de rappeler la nécessité d'avoir une attention particulière sur ce type de violence qui touche principalement les femmes mais aussi, de plus en plus, les enfants et les hommes.
 
 
 
-Nee
+À ce titre, notre groupe est heureux d'avoir pu cosigner ce texte mais surtout de pouvoir le voter ce soir et, par-là, soutenir les efforts des différentes parties prenantes pour mettre fin à ces crimes et pour poursuivre ceux qui les ont commis. Madame Verhaert, je vous remercie encore d'avoir permis ce débat.
 
 
-108
 
+16.04  Christophe Lacroix (PS): Madame la présidente, tout comme ma collègue, je veux remercier la collègue Verhaert qui est à l'initiative de cette importante résolution. En effet, chers collègues, il est devenu clair que le nombre de violences sexuelles et de viols perpétrés par les Russes à l'égard de femmes ukrainiennes est de plus en plus documenté. Les informations sur les difficultés rencontrées par les réfugiés et les déplacés internes ukrainiens en matière d'accès à des soins de santé sexuelle et reproductive en Ukraine et dans les pays limitrophes et de transit dans lesquels ils se trouvent sont très inquiétantes.
 
-Non
 
 
+En effet, le Haut Commissariat des Nations Unies pour les réfugiés estime que, depuis le 24 février, ce sont plusieurs millions d'Ukrainiens qui ont fui leur pays. Plus de 7 millions d'Ukrainiens sont déplacés à l'intérieur de leur pays et beaucoup d'entre eux se trouvent toujours dans des zones frappées par les combats. La guerre exerce une forte pression sur les soins de santé ukrainiens. Ces personnes risquent donc de subir des violences sexuelles, des grossesses non planifiées, ainsi que des grossesses et des accouchements à risque. Les défis sont également énormes pour les personnes LGBTQIA+ en fuite, notamment dans les pays où elles se retrouvent ensuite tels que la Hongrie et la Pologne qui stigmatisent et criminalisent les minorités sexuelles.
 
-Nee
 
-Nee
-Nee
 
+Vous comprendrez donc pourquoi j'ai cosigné ce texte que je trouve essentiel. Il a également un mérite très fort, celui de remettre en avant la notion de viol comme arme de guerre, sujet éminemment préoccupant que mon groupe défend par ailleurs depuis longtemps et qui fait l'objet d'une proposition de résolution que je porte sur ce sujet pour les femmes en RDC et plus particulièrement dans les Nord et Sud-Kivu, régions en proie à des conflits armés depuis près de 30 ans. La guerre en Ukraine ne doit évidemment pas nous faire oublier les atrocités qui se passent ailleurs dans le monde et dont nous devons, toutes et tous, continuer à nous préoccuper. Je vous remercie.
 
-108
 
-108
-108
 
+16.05  Annick Ponthier (VB): Mevrouw de voorzitster, collega's, wij hebben in de gruwelijke oorlog in Oekraïne reeds veel verschrikkelijke zaken gezien, namelijk hele dorpen die worden platgegooid, massa-executies van burgers en bombardementen. Wij mogen echter gerust ook stilstaan bij de gruwel die vrouwen in Oekraïne en andere conflictgebieden vandaag moeten doorstaan. Tijdens oorlogssituaties zijn vrouwen en kinderen steeds de eerste slachtoffers. Zij zijn nu eenmaal fysiek kwetsbaarder en hiervan wordt gretig gebruikgemaakt door agressors. Een oorlog maakt nu eenmaal het slechtste in de mensen los.
 
-Non
 
-Non
-Non
 
+Voorbeelden van het kwaad dat vrouwen te beurt valt, zijn natuurlijk de massale verkrachtingen in steden als Boetsja en Charkov. Russische militairen en huurlingen lopen gefrustreerd rond door de militaire verliezen die ze lijden. Zij werken hun frustraties op beestachtige wijze af op Oekraïense vrouwen. Er is voor dat seksuele geweld geen enkele rechtvaardiging.
 
 
-Onthoudingen
 
+Het vindt niet alleen at random plaats, omdat soldaten gefrustreerd zijn, het is ook een welbewust strategisch oorlogswapen dat door bezetters wordt gebruikt, ook in Oekraïne. Hiervoor moet internationaal veel meer aandacht komen. Wij scharen ons daar ook volledig achter. Verkrachting als oorlogswapen is geen ondergeschikte misdaad, dat is psychologische en fysieke terreur, met een bredere impact dan alleen op het individu dat slachtoffer is.
 
-13
 
 
-Abstentions
+Het is nu tijd voor actie, voor al die vrouwen die slachtoffer worden van een wapen dat even verboden hoort te zijn als chemische of biologische wapens, namelijk het verkrachtingswapen. Dat wij dit verankeren in het internationaal strafrecht als autonome misdaad, spreekt bijna voor zich. Er moet een multilateraal juridisch bindend kader komen om seksueel geweld in oorlogsgebieden te voorkomen en te bestrijden.
 
 
 
-Onthoudingen
+In dat verband zijn er de door mevrouw Verhaert ingediende amendementen. Onder andere de voorgestelde Murad Code van Nobelprijswinnares Nadia Murad kan interessant zijn als richtlijn. In de commissie kende ik de exacte inhoud van die Murad Code nog niet. Ik heb daarover extra uitleg gevraagd aan mevrouw Verhaert. Zij moest mij op dat moment het concrete antwoord schuldig blijven.
 
-Onthoudingen
-Onthoudingen
 
 
-13
+Mevrouw Verhaert, u gaf toen aan dat u alle commissieleden daarover nog zou inlichten. Wij wachten nog steeds op de nota die u ons zou bezorgen. Ik hoop dat die heel snel bezorgd kan worden.
 
-13
-13
 
 
-Abstentions
+Voorts moeten we slachtoffers van seksueel geweld, die bij ons worden opgevangen en in de conflictgebieden zelf, ook van de nodige medische en psychologische bijstand voorzien. Hulp op maat dus, aangepast aan hun specifieke situatie.
 
-Abstentions
-Abstentions
 
 
+Het is ook dringend tijd voor een onafhankelijk VN-onderzoek naar seksuele misdaden in Oekraïne. Ook het Internationaal Strafhof moet een rol spelen om daders op te volgen, te vervolgen en te bestraffen.
 
-Totaal
 
 
-131
+Collega's, wij zullen dit voorstel dan ook volmondig steunen.
 
 
-Total
 
+16.06  Kattrin Jadin (MR): Madame la présidente, chers collègues, je tiens également à remercier Marianne Verhaert qui a pris l'initiative de déposer cette proposition de résolution.
 
 
-Totaal
 
-Totaal
-Totaal
+Comme on a pu l'entendre à l'occasion des différentes interventions, cette problématique doit malheureusement encore être mise en exergue. Le viol comme arme de guerre est particulièrement violent et indigne. Nous nous devons, tel que cela a été rappelé en commission et encore cet après-midi en séance plénière, de nous doter d'un cadre juridique qui permette une poursuite au niveau international, qui permette également de faire preuve d'une très grande fermeté à l'égard de ces viols perpétrés dans ces régions en guerre.
 
 
-131
 
-131
-131
+On a parlé de Nadia Murad que j'ai eu l'occasion d'inviter à participer à un colloque dans le cadre duquel elle a pu nous faire part des expériences vécues par les minorités yézidies notamment victimes de l'État islamique. Rien qu'à y penser, madame la présidente, cela nous donne la chair de poule. Nous ne pouvons qu'être solidaires de toutes ces femmes, de tous ces enfants qui subissent ces atrocités dans des régions en guerre, en particulier en Ukraine.
 
 
-Total
 
-Total
-Total
+J'espère qu'au travers de cette résolution que mon groupe soutiendra, bien évidemment, vigoureusement, nous pourrons aussi apporter notre petite pierre à l'édifice pour que ces atrocités soient non seulement reconnues comme crimes sur le plan international, mais aussi et surtout pour qu'elles fassent l'objet de poursuites et qu'elles soient sévèrement punies.
 
- 
- 
- 
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
- 
- 
- 
-30 Geheel van het
-ontwerp van bijzondere wet tot wijziging van de bijzondere wetgeving inzake
-mandatenlijst en vermogensaangifte, wat de uitbreiding van het
-toepassingsgebied tot districtsburgemeesters en -schepenen betreft (2297/5)
-(geamendeerd door de Senaat)
-30
-30
-30
- Geheel van het
-ontwerp van bijzondere wet tot wijziging van de bijzondere wetgeving inzake
-mandatenlijst en vermogensaangifte, wat de uitbreiding van het
-toepassingsgebied tot districtsburgemeesters en -schepenen betreft (2297/5)
-(geamendeerd door de Senaat)
- Geheel van het
-ontwerp van bijzondere wet tot wijziging van de bijzondere wetgeving inzake
-mandatenlijst en vermogensaangifte, wat de uitbreiding van het
-toepassingsgebied tot districtsburgemeesters en -schepenen betreft (2297/5)
-(geamendeerd door de Senaat)
- Geheel van het
-ontwerp van bijzondere wet tot wijziging van de bijzondere wetgeving inzake
-mandatenlijst en vermogensaangifte, wat de uitbreiding van het
-toepassingsgebied tot districtsburgemeesters en -schepenen betreft (2297/5)
-(geamendeerd door de Senaat)
 
 
-30 Ensemble du projet de loi spéciale modifiant la législation spéciale
-relative aux listes de mandats et déclarations de patrimoine, en ce qui
-concerne l'extension du champ d'application aux bourgmestres et échevins de
-district (2297/5) (amendé par le Sénat)
-30
-30
- Ensemble du projet de loi spéciale modifiant la législation spéciale
-relative aux listes de mandats et déclarations de patrimoine, en ce qui
-concerne l'extension du champ d'application aux bourgmestres et échevins de
-district (2297/5) (amendé par le Sénat)
- Ensemble du projet de loi spéciale modifiant la législation spéciale
-relative aux listes de mandats et déclarations de patrimoine, en ce qui
-concerne l'extension du champ d'application aux bourgmestres et échevins de
-district (2297/5) (amendé par le Sénat)
+16.07  Nabil Boukili (PVDA-PTB): Madame la présidente, à mon tour, je veux associer ma voix à ce texte qui appelle à une enquête contre ces crimes sexuels, ce crime de guerre qu'est le viol. Comme indiqué dans le texte, il s'agit d'un des crimes de guerre les plus anciens, et qui est toujours utilisé aujourd'hui, au XXIe siècle, de manière aussi atroce. Un crime qui nous rappelle, une fois de plus, que ceux qui paient le prix le plus cher de la guerre restent les populations et, en l'occurrence, les femmes et les enfants. Mon groupe va bien entendu soutenir ce texte, car il s'agit d'une question à prendre très au sérieux, afin que les coupables de ces crimes soient sévèrement punis.
 
- 
- 
- 
-Ik herinner eraan dat de bepalingen en het
-geheel van een ontwerp van bijzondere wet moeten aangenomen worden met de
-meerderheid van de stemmen in elke taalgroep, op voorwaarde dat de meerderheid
-van de leden van elke taalgroep aanwezig is en voor zover het totaal van de ja-stemmen
-in beide taalgroepen twee derden van de uitgebrachte stemmen bereikt
-(artikel 4, laatste lid, van de Grondwet).
-Ik herinner eraan dat de bepalingen en het
-geheel van een ontwerp van bijzondere wet moeten aangenomen worden met de
-meerderheid van de stemmen in elke taalgroep, op voorwaarde dat de meerderheid
-van de leden van elke taalgroep aanwezig is en voor zover het totaal van de ja-stemmen
-in beide taalgroepen twee derden van de uitgebrachte stemmen bereikt
-(artikel 4, laatste lid, van de Grondwet).
-Je vous rappelle que les dispositions et
-l'ensemble d'un projet de loi spéciale doivent être adoptés à la majorité des
-suffrages dans chaque groupe linguistique, à condition que la majorité des
-membres de chaque groupe se trouve réunie et pour autant que le total des votes
-positifs émis dans les deux groupes linguistiques atteigne les deux tiers des
-suffrages exprimés (article 4, dernier alinéa, de la Constitution).
-Je vous rappelle que les dispositions et
-l'ensemble d'un projet de loi spéciale doivent être adoptés à la majorité des
-suffrages dans chaque groupe linguistique, à condition que la majorité des
-membres de chaque groupe se trouve réunie et pour autant que le total des votes
-positifs émis dans les deux groupes linguistiques atteigne les deux tiers des
-suffrages exprimés (article 4, dernier alinéa, de la Constitution).
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Je profite de cette discussion pour redéposer un amendement que j'avais déposé en commission. Je pense que, dans un moment d'inattention de mes collègues en commission, cet amendement n'a pas obtenu la majorité pour être adopté, de sorte que je le redépose aujourd'hui. En effet, avec mon groupe, nous ne voyons aucune raison de limiter, dans la demande n°4, aux seuls rapatriés ukrainiens ce soutien psychologique et cette assistance médicale nécessaires au cas où il s'avérerait que des personnes ont été victimes de violences sexuelles et au cas où il serait nécessaire de prendre pour ces personnes des mesures afin que ces témoignages soient soigneusement documentés et qu'ils puissent être transmis aux instances internationales compétentes.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Il n'y a aucune raison de ne pas offrir également cette aide et ce soutien aux réfugiés de conflits en Afghanistan, en Syrie, en Irak, en Somalie, en Éthiopie, au Yémen, au Congo ou au Rwanda, des réfugiés qui sont également présents sur notre territoire, ici en Belgique. En effet, si on considère que cette arme de guerre est si atroce qu'il faut agir et punir les coupables et apporter un soutien aux victimes, je pense que toutes les victimes de viol en cas de guerre mériteraient ce soutien-là.
 
- 
- 
- 
+
+
+C'est une rectification dans ce texte pour ne pas faire de distinction entre les victimes et les réfugiés de guerre. Tous les réfugiés qui se trouvent en Belgique et qui ont subi ces atrocités doivent être traités de la même manière et doivent également pouvoir bénéficier de ce soutien psychologique si important.
+
+
+
+16.08  Marianne Verhaert (Open Vld): Mevrouw de voorzitster, ons bereiken inderdaad afschuwelijke getuigenissen van seksueel geweld in Oekraïne. Het werd reeds aangehaald, de verhalen gaan door merg en been. In Irpin getuigde een 17-jarig meisje hoe haar moeder en haar 15-jarig zusje door Russische soldaten werden verkracht en daarna vermoord. Ze hadden haar in leven gelaten – ze was te lelijk – opdat ze kon vertellen welke gruweldaden zich daar hadden afgespeeld. Dit is één van de vele berichten over seksueel geweld door Russische troepen en huurlingen. De Mukwege Foundation rapporteerde al meer dan 400 gevallen van seksueel geweld en dat is nog maar het topje van de ijsberg.
+
+
+
+De Oekraïense autoriteiten zouden momenteel een tiental actieve verkrachtingsonderzoeken voeren. Onderzoek toont aan dat niet enkel meisjes en vrouwen slachtoffer zijn van seksueel geweld, maar ook jongens en mannen. De Oekraïense minister van Binnenlandse Zaken heeft aangegeven dat het onderzoek bijzonder moeilijk verloopt. Veel slachtoffers zijn te getraumatiseerd en durven niet spreken. Het is duidelijk dat de Oekraïense onderzoekers hulp nodig hebben en dat er psychologische ondersteuning moet komen. Veel te veel slachtoffers zwijgen over het seksueel misbruik. Veel te veel slachtoffers dragen dit trauma alleen, het trauma van een leven lang blijven sterven vanbinnen. Veel te veel slachtoffers beslissen dan ook om over te gaan tot stil lijden.
+
+
+
+Met deze resolutie roepen wij de federale regering dan ook op om bij het Internationaal Strafhof (ICC) te pleiten voor een diepgaand en onafhankelijk onderzoek naar de misdaden van seksueel geweld. Speciale eenheden met experten moeten hiervoor worden samengesteld en naar Oekraïne worden gestuurd. Ons land moet ondersteunen waar het kan.
+
+
+
+Het is belangrijk om vanaf het begin bewijsmateriaal te verzamelen en getuigenissen te documenteren. We mogen de slachtoffers absoluut niet in de kou laten staan. Het Verenigd Koninkrijk gaat het Internationaal Strafhof hierin ondersteunen en ook ons land moet dit doen. Hoe langer het duurt om het onderzoek naar die misdaden van seksueel geweld op te starten, hoe moeilijker het wordt om bewijzen te verzamelen. De soldaten en huurlingen die zich hieraan schuldig maken, moeten geïdentificeerd, vervolgd en bestraft worden. Die cultuur van straffeloosheid rond seksueel geweld moet definitief worden doorbroken, want verkrachting is het oudste en goedkoopste oorlogswapen.
+
+
+
+In een gewapend conflict worden verkrachting en andere vormen van seksueel geweld ingezet als een wapen van vernedering en vernietiging. Landmijnen, biologische en chemische wapens worden door internationale verdragen verboden, maar er bestaat daarentegen geen verdrag voor seksueel geweld in conflict en post-conflictsituaties. In talrijke hedendaagse conflicten zijn burgers, zowel vrouwen als mannen, het slachtoffer van seksueel geweld, overal ter wereld. Van de Republiek Congo tot Tigray, van Colombia tot Myanmar zijn burgers in conflicten het slachtoffer van verkrachting, seksuele slavernij, gedwongen prostitutie, seksuele foltering, seksuele verminking, seksuele vernedering en tal van andere vormen van seksueel geweld. Toch wordt er op politiek niveau bijzonder weinig over gesproken.
+
+
+
+Ik weet dat het ICC reeds mensen heeft veroordeeld voor verkrachtingen in oorlogsgebied en ik weet ook dat verkrachtingen expliciet in het Statuut van Rome staan. Ik weet dat het een oorlogsmisdaad kan zijn, dat het een misdaad tegen de menselijkheid kan zijn en dat het zelfs een element kan zijn in een genocidaal proces. Wat mooi is op papier, is dat niet altijd in de praktijk. Ik besef heel goed dat het in gewapende conflicten bijzonder moeilijk is om daders te identificeren en op te sporen. Het gaat echter niet alleen over het straffen van daders, het gaat ook over de ondersteuning van slachtoffers. Daarom vragen wij aan de federale regering om werk te maken van een verdrag omtrent seksueel geweld als wapen in gewapende conflicten.
+
+
+
+Het is belangrijk de daders te straffen, maar het is even belangrijk de slachtoffers medisch en psychologisch te ondersteunen. Slachtoffers van verkrachting hebben vaak te lijden onder stigmatisering en sociaal isolement. Zij worden zelfs verstoten door de gemeenschap of in de steek gelaten door hun familie. Zij hebben bescherming nodig. Immers, zelfs nadat de oorlog voorbij is, blijven er vaak nog verkrachtingen plaatsvinden. Veel slachtoffers worden gewoonweg vergeten en aan hun lot overgelaten, omdat onvoldoende wordt ingezet op re-integratie. Dat zien wij vandaag nog steeds in Rwanda, in Bosnië en in Syrië.
+
+
+
+De psychologische impact van verkrachtingen en seksuele folteringen wordt nog steeds onderschat. De onzichtbare wonden van vele slachtoffers worden vergeten. Verkrachting is een vorm van psychologische terreur en moord. Seksueel geweld in conflict- en postconflictsituaties is geen collateral damage. Het is een doelgerichte strategie, om de tegenstander zowel moreel als fysisch te vernederen en te vernielen. Het gaat zelfs verder. Het is een strategie die mensen, zowel meisjes en vrouwen als jongens en mannen, zodanig beschadigt dat zij niet meer in staat zijn om mentaal en fysiek nog een volgende generatie op de wereld te zetten.
+
+
+
+Er moet internationaal een mindshift komen. Slachtoffers van misdaden van seksueel geweld moeten centraal komen te staan, ook in het internationaal humanitair recht en ook in het internationaal strafrecht. Daarom vraagt de voorliggende resolutie de regering ook om de nieuwe Murad Code te onderschrijven.
+
+
+
+Mevrouw Ponthier is hier niet meer aanwezig, maar zij overviel mij in de commissie. De Murad Code is, zoals ik ook in de commissie heb geantwoord, een gedragscode waarin staten zich engageren om meer actie te ondernemen tegen seksueel geweld in gewapende conflicten. Ze bevat onder andere een aantal hoofdcomponenten, namelijk een wereldwijde gedragscode voor zij die informatie verzamelen van overlevenden van systematisch en conflictgerelateerd geweld. Bovendien is er ook een praktische leidraad, waarin tien beginselen zijn opgenomen voor die gedragscode. Bijkomend is er ook een overlevendenhandvest, zijnde een document met perspectieven voor overlevenden.
+
+
+
+Tot slot, is er ook een gids nodig voor nabestaanden, zodat zij beter weten welke hun rechten zijn. In de commissievergadering werd, via het commissiesecretariaat, aan alle commissieleden de link bezorgd, zodat iedereen de uitgebreide informatie kan terugvinden.
+
+
+
+Collega's, de rode draad bij de code heb ik ook uitgebreid toegelicht tijdens de algemene bespreking van de tekst. Het doel van de gedragscode is om de rechten van de slachtoffers, de overlevenden van seksueel geweld, centraal te stellen. Zo stelt de gedragscode voor dat staten beter samenwerken op vlak van onderzoek, documentatie en vergaring van bewijzen. Bewijsmateriaal moet op een ethischere, efficiëntere en doeltreffendere wijze worden verzameld om straffeloosheid tegen te gaan. De gedragscode plaatst het slachtoffer en getuigen van misdaden van seksueel geweld in gewapende conflicten centraal. Dat is dan ook de boodschap van het voorstel van resolutie.
+
+
+
+Achter de term slachtoffer schuilt een persoon, een gezicht, een naam en een verhaal. Dat wil ik net met de tekst aantonen. Wanneer we telkens opnieuw moeten vaststellen hoe slachtoffers van misdaden van seksueel geweld aan hun lot worden overgelaten, dan kunnen we niet anders dan concluderen dat de politieke wereld dringend wakker wordt geschud. Ik hoop dan ook oprecht dat mijn voorstel vandaag de steun krijgt van alle politieke fracties en dus unaniem wordt goedgekeurd.
+
+
+
+16.09  Vicky Reynaert (Vooruit): Mevrouw de voorzitster, collega's, verkrachting als oorlogswapen is vreselijk en steekt bijna elke oorlog de kop op. Dat is vandaag helaas ook het geval in Oekraïne. De getuigenissen stromen binnen, maar dat is allicht nog maar het topje van de ijsberg. Het is namelijk zeer moeilijk om een juist beeld te krijgen van wat er zich afspeelt in de regio's onder Russische bezetting. Wel is het duidelijk dat Rusland niet alleen een oorlog voert tegen Oekraïne, maar ook een oorlog tegen vrouwen, kinderen en zelfs baby's. Wanneer dat op grote schaal gebeurt, wordt een volledige samenleving ontwricht. Het is dus van het uiterst belang dat zulke misdaden onderzocht, vervolgd en veroordeeld worden door het Internationaal Strafhof. Wij steunen dan ook het voorstel van resolutie. We danken de indienster, mevrouw Verhaert, voor haar initiatief.
+
+
+
+Wij hadden daarnaast graag de aandacht gevestigd op het feit dat zeer veel mensen vandaag uit Oekraïne op de vlucht zijn. Ofwel zijn ze hun land ontvlucht, ofwel zijn ze intern op de vlucht. Er is echter slechts een heel beperkte toegang tot voorbehoedsmiddelen. Er is dus een verhoogd risico op seksueel overdraagbare aandoeningen. Er is ook een gebrek aan levensreddende medicatie voor mensen met hiv, een verhoogd risico op onveilige zwangerschappen en bevallingen, een nog grotere toename van gendergerelateerd geweld, druk op rechten van lgbtqi+-personen en ten slotte een verhoogd risico van onveilige abortussen.
+
+
+
+Op dat vlak heeft ons land ook een rol te spelen. Het is zeker van belang om te pleiten voor de verlening van medische, psychologische en juridische steun van slachtoffers van seksueel misbruik in Oekraïne. Het is goed dat dat hier in het voorstel van resolutie nogmaals beklemtoond wordt.
+
+
+
+16.10  Vanessa Matz (Les Engagés): Madame la présidente, je remercie Mme Verhaert ainsi que l'ensemble des cosignataires pour le dépôt de cette proposition de résolution. Des exactions atroces, traumatisantes, meurtrières ont lieu en Ukraine depuis le début du conflit. Les violences sexuelles sont une arme terrifiante, traumatisante qui blesse les personnes qui en sont victimes dans leur dignité la plus intime. C'est insupportable pour la Communauté internationale. Tout doit être mis en œuvre pour prévenir, lutter et punir ces crimes odieux et lâches.
+
+
+
+Les demandes qui sont formulées dans cette résolution sont évidemment extrêmement importantes. La demande de saisine de la Cour pénale internationale, les enquêtes indépendantes, la collecte de données au travers de témoignages, le fait de considérer toutes ces violences comme des crimes autonomes sont des objectifs que nous soutenons activement.
+
+
+
+Pour ces raisons, chers collègues, nous apporterons bien sûr notre soutien à cette proposition de résolution qui mentionne aussi notre capacité d'action lors de l'accueil de ces réfugiés, notamment un suivi psychologique et la protection de ces victimes de crimes atroces qui sont souvent très insidieux. Je vous remercie encore pour cette proposition de résolution que nous soutiendrons de manière très forte.
+
+
+
+16.11  Sophie Rohonyi (DéFI): Madame la présidente, chers collègues, à chaque fois qu'une guerre éclate, elle s'accompagne des pires atrocités que l'être humain est capable de commettre, précisément parce que la guerre lui fait perdre toute humanité, qu'il s'agisse de terroriser, blesser, déporter, violer, torturer ou encore de tuer. Ce sont des crimes qui violent le droit humanitaire, à savoir l'ensemble des règles qui tendent à viser à assurer la protection des civils contre les effets néfastes des conflits armés.
+
+
+
+Malheureusement, force est de constater que, dans de nombreux conflits et la guerre en Ukraine ne fait pas exception, ces règles sont bafouées.
+
+
+
+Comme je l'ai dit, lorsque des conflits armés éclatent, les femmes sont systématiquement violées et violentées, parfois même devant leurs enfants, leur mari ou leur famille. La guerre dépossède les femmes de leur corps et de leur sexualité, allant jusqu'à mutiler leurs organes génitaux. Ces terribles atteintes à l'intégrité physique et psychologique de ces femmes et de ces filles les poussent à fuir leur pays, sous peine d'être les victimes de ce qui pourrait devenir un génocide. On l'a vu en République démocratique du Congo, dans le Tigré, en Colombie, en ex-Yougoslavie ou encore en Birmanie. Ce sont toujours les populations civiles qui sont victimes des viols et qui sont plongées dans la prostitution ou encore dans l'esclavage sexuel.
+
+
+
+Aujourd'hui, nous ne pouvons pas accepter qu'après plus de 75 années de paix, l'Europe connaisse à nouveau la guerre et ses atrocités. Plus les jours passent, plus les médias et les ONG révèlent les crimes commis par l'armée russe, et plus les témoignages de victimes de violences sexuelles se succèdent. Ce sont des centaines et des centaines de jeunes femmes qui ont été violées par des soldats russes depuis le début de la guerre en Ukraine. Aucun État ne peut - quel que soit le moment - fermer les yeux sur cette réalité. C'est pourquoi, à l'instar de mes collègues, je tenais à saluer les auteurs de cette proposition de résolution, parce que depuis le début, nous sommes convaincus que ces crimes atroces doivent être poursuivis devant la Cour pénale internationale.
+
+
+
+Nous devons répondre à l'appel des Nations Unies qui vise à ouvrir une enquête indépendante sur les viols et les violences sexuelles aujourd'hui commises en Ukraine, mais aussi investir dans la recherche des preuves qui permettront à la justice de faire son travail. Nous devons fournir une assistance médicale, y compris psychologique, à toutes les victimes qui parviennent à rejoindre notre pays. Qu'elles soient victimes de la guerre en Ukraine ou de tout autre conflit armé, raison pour laquelle nous soutiendrons l'amendement du PTB qui vise à élargir le champ d'application de cette proposition de résolution.
+
+
+
+Nous devons enfin, et bien évidemment, aider les victimes restées sur place, là où ces atrocités sont perpétrées. C'est également la raison pour laquelle je salue la demande qu'une attention particulière soit accordée à la dimension du genre dans le cadre de l'aide humanitaire offerte à l'Ukraine, en veillant, par exemple, à ce que notre aide humanitaire prête attention à l'accès des femmes et des jeunes filles ukrainiennes aux soins de santé sexuelle et reproductive.
+
+
+
+Dans ce cadre, il est impératif de ne pas fermer les yeux sur la situation des femmes ukrainiennes, empêchées de pratiquer une IVG en Pologne au vu des conditions ultra-restrictives pour accéder à l'avortement de manière sûre et légale dans ce pays, parce que si l'avortement pour cause de viol y est autorisé, les lacunes et la politisation du système judiciaire polonais sont telles qu'elles rendent presque impossible toute preuve d'une telle agression et donc tout avortement sur la base de ce motif.
+
+
+
+L'ONG Human Rights Watch a ainsi eu raison de nous alerter sur la situation des réfugiés ukrainiens arrivés en Pologne, et ce, en ces mots: "La Pologne doit renforcer de façon urgente ses mesures de prévention et de surveillance pour protéger les réfugiés ukrainiens sur son sol, en particulier les femmes victimes de trafics, de violences, de viols."
+
+
+
+Vous l'aurez compris, chers collègues, c'est avec conviction que nous soutiendrons cette proposition de résolution. Je vous remercie.
+
+
+
+16.12  Michel De Maegd (MR): Madame la présidente, chers collègues, la guerre en Ukraine a, dès ses premiers jours, mis en évidence le sort des femmes et des enfants ukrainiens fuyant les bombardements russes, d'abord vers la Pologne puis vers d'autres pays de l'Union européenne. On sait que 90 % des réfugiés fuyant cette guerre sont des femmes et des enfants.
+
+
+
+Malgré le désespoir de leur situation, certains sombres et cyniques vautours furent présents dès leur arrivée en Pologne pour tendre les filets de la traite d'êtres humains, de l'exploitation sexuelle. Devant les nombreuses sonnettes d'alarme tirées par les autorités compétentes, l'Union européenne et les pays européens devaient protéger les femmes fuyant l'Ukraine contre ces violences. De plus, les victimes devaient évidemment avoir accès aux services de santé fondamentaux.
+
+
+
+Ce n'est que dans une deuxième phase de la guerre, lors du retrait des forces russes des villages entourant Kiev, que les dépouilles furent découvertes et que les témoignages des victimes de viol furent recueillis. Face à cette réalité qu'on retrouve dans d'autres conflits, nous désirons condamner fermement l'utilisation des violences sexuelles comme arme de guerre. Elles entraînent des blessures indélébiles physiques et psychologiques. Que dire des grossesses non planifiées? Je parlerais même de grossesses non désirées, qui sont une blessure d'autant plus grande pour ces victimes.
+
+
+
+Le docteur Denis Mukwege et son équipe ont contribué à faire connaître ces faits atroces mais, hélas, le prix Nobel 2018 devra déployer encore de nombreux efforts pour sensibiliser tous les organismes dans ce combat et mettre en avant la lutte contre l'impunité, ce qui nécessite le recueil de preuves.
+
+
+
+Les instruments de l'Union européenne doivent démontrer leur pertinence. Il existe une enquête conjointe d'Eurojust avec l'Ukraine et on peut étoffer les compétences de l'Agence de l'Union européenne pour la coopération judiciaire en matière pénale afin qu'elle puisse collecter, conserver et partager des preuves de crimes de guerre.
+
+
+
+16.13  Els Van Hoof (CD&V): Mevrouw de voorzitster, het is belangrijk dat ons land en het Parlement zich blijven verzetten tegen elke vorm van seksueel geweld in conflicten. Daarom is het van belang dat wij deze resolutie vandaag aannemen. Ze veroordeelt expliciet het gebruik van seksueel geweld op Oekraïense vrouwen en meisjes.
+
+
+
+Wij weten reeds langer dat oorlogen niet alleen plaatsvinden tussen legers van dappere mannen, maar dat vrouwen en kinderen helaas ook vaak prominent aanwezig zijn onder de slachtoffers. Het gebruik van seksueel geweld lijkt bijna een routineoperatie tijdens hedendaagse oorlogen, het is vaste prik.
+
+
+
+Mevrouw Verhaert zei het reeds, wij kunnen deze vrouwen en meisjes niet in de kou laten staan of hen behandelen als collateral damage. Niet voor niets neemt seksueel geweld een prominente plaats in op de lijst van oorlogsmisdaden of misdaden tegen de mensheid, zoals gedefinieerd in het internationaal recht. Wij mogen deze daden dan ook niet straffeloos laten voorbijgaan. Er is hierover reeds heel wat plenair debat geweest. Wij moeten het Internationaal Strafhof effectief ondersteunen, zowel met mensen als middelen, om het onderzoek afdoende te ondersteunen, samen met andere landen en de VN.
+
+
+
+De risico's die vrouwen en meisjes lopen tijdens conflicten zijn reeds langer bekend, ook op het internationale niveau. Er is de heel interessante resolutie nr. 1325 van de VN-Veiligheidsraad, die reeds in 2000 werd aangenomen en die heel goed gekend is bij de vrouwenbeweging. Deze resolutie gaat over vrouwen, vrede en veiligheid. Die wil net meisjes effectief beschermen tegen geweld in tijden van conflict. Wij nemen elke vier jaar een actieplan aan met betrekking tot die resolutie nr. 1325. Wij hebben dat in België recent gedaan, in februari van dit jaar. Wat heeft het echter voor zin om plannen te maken als ze niet worden toegepast en stof liggen te vergaren?
+
+
+
+Daarom vond CD&V het heel belangrijk om in deze resolutie te verwijzen naar dat actieplan en de concrete doelstellingen en acties die daarmee gepaard gaan. Ik geef enkele voorbeelden. Wij moeten het internationaal normatief kader voor vrouwen in conflictsituaties versterken, zodat zij het oorlogsgeweld niet zomaar lijdzaam moeten ondergaan. Ook vragen we heel expliciet om humanitaire hulp te richten op slachtoffers van seksueel geweld en om hen toegang te geven tot seksuele en reproductieve rechten. Dit staat ook in ons actieplan. Ten slotte vragen wij dat de regering actief strijdt tegen alle mogelijke vormen van mensenhandel waarvan vrouwen en meisjes uit Oekraïne het slachtoffer kunnen worden. Dat doen we op dit moment ook.
+
+
+
+Naar het laatste element is al verwezen in het verslag. Vrouwen moeten deel worden van de vredesonderhandelingen. Hopelijk komen die er ooit. Uit veel onderzoeken is namelijk gebleken dat wanneer vrouwen mee aan de onderhandelingstafel zitten, de vredesakkoorden ook veel duurzamer zijn. Het is ten slotte ook hun toekomst die op het spel staat.
+
+
+
+Met deze resolutie willen we vrouwen empoweren. In onze solidariteit met Oekraïne mogen we de vele verkrachte Oekraïense vrouwen en meisjes niet vergeten. Daarom zullen wij met volle overtuiging deze resolutie ondersteunen. Ik dank de indieners nogmaals.
+
+
+
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
+
+Vraagt nog iemand het woord? (Nee)
+
+
+
+La discussion est close.
+
+De bespreking is gesloten.
+
+
+
+*  *  *  *  *
+
+Amendement déposé:
+
+Ingediend amendement:
+
+Punt IV.4
+
+• 19 – Nabil Boukili (2672/5)
+
+*  *  *  *  *
+
+
+
+L’amendement est réservé.
+
+Het amendement wordt aangehouden.
+
+
+
+Le vote sur l'amendement réservé et sur la proposition aura lieu ultérieurement.
+
+De stemming over het aangehouden amendement en over het voorstel zal later plaatsvinden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 17)
+
+### Description in Dutch:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Theo Francken, Darya Safai, Anneleen Van Bossuyt, Kathleen Depoorter, Sigrid Goethals, Tomas Roggeman, Koen Metsu, Michael Freilich, Björn Anseeuw.
+
+
+
+La commission de l'Intérieur, de la Sécurité, de la Migration et des Matières administratives propose de rejeter cette proposition de loi. (2588/2)
+
+De commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken stelt voor het wetsvoorstel te verwerpen. (2588/2)
+
+
+
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, les auteurs.
+
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over het voorstel tot verwerping, na de rapporteur en eventueel de indieners te hebben gehoord.
+
+
+
+La discussion est ouverte.
+
+De bespreking is geopend.
+
+
+
+Discussion
+
+Bespreking
+
+
+
+17.01  Theo Francken (N-VA): Mevrouw de voorzitster, wij zijn het er allemaal over eens dat we Oekraïense gezinnen in ons land moeten ontvangen. Dat is absoluut niet het punt. De grote discussie gaat over wat we moeten geven als zij in België toekomen.
+
+
+
+Ons oordeel is dat er geen noodzaak is om een leefloon te geven. Wij hebben een apart wetsvoorstel ingediend, dat ertoe strekt dat zij geen A-kaart maar een T-kaart krijgen. Dat is een apart statuut, zoals men krijgt in Denemarken, Duitsland en andere landen in Europa. Men geeft dan niet automatisch een leefloon, maar past een bed-bad-broodregeling toe met begeleiding en beperkt weekgeld.
+
+
+
+Ik wil dat voorstel opnieuw op tafel leggen, want ik ben ervan overtuigd dat de meerderheid in Vlaanderen en in België daarvoor is. Daarom vraag ik opnieuw de stemming over het wetsvoorstel.
+
+
+
+La présidente: Plus personne ne peut prendre la parole.
+
+Geen andere spreker mag het woord nemen.
+
+
+
+Le vote sur la proposition de rejet de cette proposition de loi aura lieu ultérieurement.
+
+De stemming over het voorstel tot verwerping van dit wetsvoorstel zal later plaatsvinden.
+
+### Description in French:
+
+Proposition déposée par:
+
+Voorstel ingediend door:
+
+Theo Francken, Darya Safai, Anneleen Van Bossuyt, Kathleen Depoorter, Sigrid Goethals, Tomas Roggeman, Koen Metsu, Michael Freilich, Björn Anseeuw.
+
+
+
+La commission de l'Intérieur, de la Sécurité, de la Migration et des Matières administratives propose de rejeter cette proposition de loi. (2588/2)
+
+De commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken stelt voor het wetsvoorstel te verwerpen. (2588/2)
+
+
+
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, les auteurs.
+
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over het voorstel tot verwerping, na de rapporteur en eventueel de indieners te hebben gehoord.
+
+
+
+La discussion est ouverte.
+
+De bespreking is geopend.
+
+
+
+Discussion
+
+Bespreking
+
+
+
+17.01  Theo Francken (N-VA): Mevrouw de voorzitster, wij zijn het er allemaal over eens dat we Oekraïense gezinnen in ons land moeten ontvangen. Dat is absoluut niet het punt. De grote discussie gaat over wat we moeten geven als zij in België toekomen.
+
+
+
+Ons oordeel is dat er geen noodzaak is om een leefloon te geven. Wij hebben een apart wetsvoorstel ingediend, dat ertoe strekt dat zij geen A-kaart maar een T-kaart krijgen. Dat is een apart statuut, zoals men krijgt in Denemarken, Duitsland en andere landen in Europa. Men geeft dan niet automatisch een leefloon, maar past een bed-bad-broodregeling toe met begeleiding en beperkt weekgeld.
+
+
+
+Ik wil dat voorstel opnieuw op tafel leggen, want ik ben ervan overtuigd dat de meerderheid in Vlaanderen en in België daarvoor is. Daarom vraag ik opnieuw de stemming over het wetsvoorstel.
+
+
+
+La présidente: Plus personne ne peut prendre la parole.
+
+Geen andere spreker mag het woord nemen.
+
+
+
+Le vote sur la proposition de rejet de cette proposition de loi aura lieu ultérieurement.
+
+De stemming over het voorstel tot verwerping van dit wetsvoorstel zal later plaatsvinden.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 18)
+
+### Description in Dutch:
+
+Par lettre du 9 mai 2022, MM. Frédéric Givron et Serge Lipszyc, respectivement greffier et président du Comité R, demandent que la Chambre, en application de l'article 20, deuxième alinéa, du Règlement d'ordre intérieur du Comité R, octroie à M. Wouter De Ridder, ancien greffier du Comité R, le titre honorifique de sa fonction.
+
+Bij brief van 9 mei 2022 vragen de heren Frédéric Givron en Serge Lipszyc, respectievelijk griffier en voorzitter van het Comité I, dat de Kamer, met toepassing van artikel 20, tweede lid, van het Huishoudelijk Reglement van het Comité I, aan de heer Wouter De Ridder, voormalige griffier van het Comité I, de eretitel van zijn ambt toekent.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 18 mai 2022, je propose à la Chambre de faire droit à cette requête et d'octroyer à M. Wouter De Ridder le titre honorifique de sa fonction.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 18 mei 2022 stel ik de Kamer voor op het verzoek in te gaan en de heer Wouter De Ridder de eretitel van zijn ambt toe te kennen.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+### Description in French:
+
+Par lettre du 9 mai 2022, MM. Frédéric Givron et Serge Lipszyc, respectivement greffier et président du Comité R, demandent que la Chambre, en application de l'article 20, deuxième alinéa, du Règlement d'ordre intérieur du Comité R, octroie à M. Wouter De Ridder, ancien greffier du Comité R, le titre honorifique de sa fonction.
+
+Bij brief van 9 mei 2022 vragen de heren Frédéric Givron en Serge Lipszyc, respectievelijk griffier en voorzitter van het Comité I, dat de Kamer, met toepassing van artikel 20, tweede lid, van het Huishoudelijk Reglement van het Comité I, aan de heer Wouter De Ridder, voormalige griffier van het Comité I, de eretitel van zijn ambt toekent.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 18 mai 2022, je propose à la Chambre de faire droit à cette requête et d'octroyer à M. Wouter De Ridder le titre honorifique de sa fonction.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 18 mei 2022 stel ik de Kamer voor op het verzoek in te gaan en de heer Wouter De Ridder de eretitel van zijn ambt toe te kennen.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 19)
+
+### Description in Dutch:
+
+Par lettre du 12 mai 2022, Mme Kathleen Stinckens, présidente du Comité P, communique que M. Guy Cumps, vice-président du Comité P, sera admis à la pension le 1er juin 2022.
+
+Bij brief van 12 mei 2022 deelt mevrouw Kathleen Stinckens, voorzitster van het Comité P, mee dat de heer Guy Cumps, ondervoorzitter van het Comité P, op 1 juni 2022 met pensioen gaat.
+
+
+
+Elle demande de lui octroyer le titre honorifique de sa fonction.
+
+Zij vraagt om hem de eretitel van zijn functie toe te kennen.
+
+
+
+Ce titre honorifique est en principe octroyé après expiration de deux mandats complets.
+
+De eretitel wordt in principe toegekend na het verstrijken van twee volledige mandaten.
+
+
+
+M. Guy Cumps a exercé quatre mandats comme membre du Comité P.
+
+De heer Guy Cumps heeft vier mandaten uitgeoefend als lid van het Comité P.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 18 mai 2022, je propose à la Chambre de faire droit à cette requête et d'octroyer à M. Guy Cumps le titre de vice-président honoraire du Comité P à dater du 1er juin 2022.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 18 mei 2022 stel ik de Kamer voor op het verzoek in te gaan en de heer Guy Cumps de titel van ereondervoorzitter van het Comité P toe te kennen vanaf 1 juni 2022.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+### Description in French:
+
+Par lettre du 12 mai 2022, Mme Kathleen Stinckens, présidente du Comité P, communique que M. Guy Cumps, vice-président du Comité P, sera admis à la pension le 1er juin 2022.
+
+Bij brief van 12 mei 2022 deelt mevrouw Kathleen Stinckens, voorzitster van het Comité P, mee dat de heer Guy Cumps, ondervoorzitter van het Comité P, op 1 juni 2022 met pensioen gaat.
+
+
+
+Elle demande de lui octroyer le titre honorifique de sa fonction.
+
+Zij vraagt om hem de eretitel van zijn functie toe te kennen.
+
+
+
+Ce titre honorifique est en principe octroyé après expiration de deux mandats complets.
+
+De eretitel wordt in principe toegekend na het verstrijken van twee volledige mandaten.
+
+
+
+M. Guy Cumps a exercé quatre mandats comme membre du Comité P.
+
+De heer Guy Cumps heeft vier mandaten uitgeoefend als lid van het Comité P.
+
+
+
+Conformément à l'avis de la Conférence des présidents du 18 mai 2022, je propose à la Chambre de faire droit à cette requête et d'octroyer à M. Guy Cumps le titre de vice-président honoraire du Comité P à dater du 1er juin 2022.
+
+Overeenkomstig het advies van de Conferentie van voorzitters van 18 mei 2022 stel ik de Kamer voor op het verzoek in te gaan en de heer Guy Cumps de titel van ereondervoorzitter van het Comité P toe te kennen vanaf 1 juni 2022.
+
+
+
+Pas d'observation? (Non)
+
+Il en sera ainsi.
+
+
+
+Geen bezwaar? (Nee)
+
+Aldus wordt besloten.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 20)
+
+### Description in Dutch:
+
+None
+
+### Description in French:
+
+None
+
+
+
+### Discussed proposals:
 
 Motion # 1.
 

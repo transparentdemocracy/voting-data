@@ -6,3431 +6,491 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip289.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip289x.html
 
-## Proposal 1
+## Proposal discussion (agenda item 17)
 
-??? text not found ???
+### Description in Dutch:
 
-## Proposal 2
+17.01  Nabil Boukili (PVDA-PTB): Madame la présidente, comme nous l’avons dit dans le passé, ce projet de loi est vraiment incomplet. Là-dedans, il y a beaucoup de manquements. Si nous voulons voter ici un projet sur la transparence administrative, il faut que cette transparence soit effective et qu’il y ait réellement une transparence administrative. Depuis la dernière fois que le projet a été renvoyé au Conseil d'État, nous avons eu connaissance de nouveaux faits qui démontrent les manquements de cette loi.
 
-??? text not found ???
 
-## Proposal 3
 
+C’est pour cette raison que j’ai déposé un amendement qui vise à étendre le champ d’application de la loi aux institutions investies d’une mission de service public. Sont visées les institutions majoritairement contrôlées ou financées par le Parlement fédéral, les services publics fédéraux, une autorité locale ou une autre institution investie d’une mission de service public.
 
-(Stemming/vote 2)
 
-(Stemming/vote 2)
-(Stemming/vote 2)
-(Stemming/vote 2)
 
+Est notamment visée l’ASBL Smals, l’association sans but lucratif au service ICT des institutions publiques belges. Actuellement, les députés n’ont aucun moyen de savoir par exemple pourquoi Smals n’a pas réussi, depuis des années, à construire le nouveau site web de la Chambre malgré un financement important. Il est question de centaines de milliers d’euros. Par conséquent, les auteurs de cet amendement considèrent qu’il est opportun de soumettre Smals à l’obligation de transparence de cette loi.
 
 
-Ja
 
+C’est la raison pour laquelle nous déposons cet amendement. C’est aussi pour répondre aux demandes de la société civile et des journalistes qui trouvent aussi que ce projet est largement insuffisant et qui voudraient qu’il soit réellement un projet de transparence, répondant vraiment aux manquements de notre législation actuelle. Cela n’est toujours pas le cas.
 
-84
 
 
-Oui
+C’est pour cela que je demande l’examen de cet amendement par le Conseil d'État, madame la présidente. Merci.
 
 
 
-Ja
+17.02 Minister Annelies Verlinden: Mevrouw de voorzitster, de heer Boukili heeft gezegd dat het ontwerp incompleet is, maar het is wel een stap ter versterking van de transparantie van bestuursdocumenten. Op die manier kan het bijdragen tot een versterking van de legitimiteit van het overheidshandelen. Nu worden hier voor de zoveelste keer amendementen voorgesteld om naar de Raad van State te sturen, die gelijkaardig zijn aan wat we al eerder in de commissie hebben besproken. Op deze manier wordt geen stap gezet naar de versterking van de transparantie en dus de legitimiteit van de overheid.
 
-Ja
-Ja
 
 
-84
+In tegenstelling tot het voorwendsel dat er hier partijen zijn die vechten voor transparantie, moet ik vaststellen dat die transparantie door hun handelen wordt tegengehouden. Ik zal mij uiteraard schikken naar wat hier vandaag wordt beslist, maar ik zou toch graag genoteerd zien dat degenen die zeggen te vechten voor transparantie zich daar in de feiten tegen verzetten.
 
-84
-84
 
 
-Oui
+17.03  Nabil Boukili (PVDA-PTB): Madame la présidente, je rappelle à Mme la ministre que ce n'est pas uniquement mon groupe qui entreprend cette démarche visant à obtenir une réelle transparence au lieu du simulacre proposé par ce projet de loi. En effet, d'autres partis défendent cette position, mais c'est avant tout le cas de la société civile. Nous parlons de l'Association des journalistes – ce n'est quand même pas rien. Nous parlons de journalistes qui ne parviennent pas à accéder à des documents administratifs pour accomplir leur travail et informer la population. C'est de cela que nous parlons. Aucune contrainte n'est imposée à la CADA, par exemple, pour qu'elle rende des documents publics. Or c'est normalement le principe d'une société démocratique. C'est de cela que nous parlons, madame la ministre.
 
-Oui
-Oui
 
 
+Alors, quand vous venez nous dire que vous avancez pas à pas vers la transparence et que c'est nous qui bloquons, c'est faux: vous, vous nous vendez du vent pour obtenir seulement un titre évoquant la transparence, mais il n'y en a aucune, en définitive. Au contraire! Vous rendez encore plus opaques les institutions fédérales, et c'est inacceptable. Si c'était seulement le PTB qui le disait, peut-être le débat pourrait-il avoir lieu, mais c'est la majorité de la société civile qui le pense, de même que d'autres partis d'opposition. Par conséquent, madame la présidente, je ne peux pas laisser dire que nous empêchons la transparence. C'est tout le contraire, nous la défendons ici et nous nous battons pour qu'elle soit réelle!
 
-Nee
 
 
-45
+17.04  Vanessa Matz (Les Engagés): Madame la présidente, depuis le début, l'incompréhension est totale dans ce dossier, non seulement de la part de certains groupes politiques de l'opposition, mais aussi de plusieurs organisations de la société civile, quant à l'absence de parallélisme entre la CADA fédérale et la CADA décisionnelle. Aucune des justifications avancées n'a trouvé de légitimité. On nous a ainsi parlé de moyens. Or nous savons que ceux de la CADA ont été augmentés. On nous a parlé de plusieurs choses.
 
 
-Non
 
+Les entités fédérées disposent de CADA décisionnelles. Pourquoi ne peut-on pas appliquer cette mesure à l'échelle fédérale? À l'époque qui nous occupe, et je l'ai souvent dit dans ce dossier, c'est complètement à contre-courant! Les citoyens désirent en effet être davantage informés, demandent de la transparence et veulent plus de citoyenneté. Le gouvernement Vivaldi, dans toutes ses composantes, va donc complètement à contre-courant de ces principes essentiels pour une bonne gouvernance.
 
 
-Nee
 
-Nee
-Nee
+Lorsque nous aurons reçu une justification qui tienne la route, nous pourrons en discuter, mais ce n'est toujours pas le cas. Et c'est incompréhen­sible. Par conséquent, nous soutiendrons l'envoi des amendements au Conseil d'État.
 
 
-45
 
-45
-45
+La présidente: Il y a un seul amendement à envoyer au Conseil d’État. C’est celui déposé par M. Boukili et qui vient d’être largement défendu.
 
 
-Non
 
-Non
-Non
+Je vous propose de nous prononcer sur cette demande.
 
+Ik stel u voor om ons over deze vraag uit te spreken.
 
 
-Onthoudingen
 
+Au moins 50 membres soutiennent la demande d'avis au Conseil d'État.
 
-2
+Ten minste 50 leden steunen het verzoek om advies van de Raad van State.
 
 
-Abstentions
 
+En conséquence, la présidente demandera l'avis du Conseil d'État en application de l'article 98, § 3, du Règlement.
 
+Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98, § 3, van het Reglement.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
+L'amendement no 19 sera envoyé au Conseil d’État pour avis.
 
-2
+Het amendement nr. 19 zal voor advies naar de Raad van State worden verzonden.
 
-2
-2
+### Description in French:
 
+17.01  Nabil Boukili (PVDA-PTB): Madame la présidente, comme nous l’avons dit dans le passé, ce projet de loi est vraiment incomplet. Là-dedans, il y a beaucoup de manquements. Si nous voulons voter ici un projet sur la transparence administrative, il faut que cette transparence soit effective et qu’il y ait réellement une transparence administrative. Depuis la dernière fois que le projet a été renvoyé au Conseil d'État, nous avons eu connaissance de nouveaux faits qui démontrent les manquements de cette loi.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+C’est pour cette raison que j’ai déposé un amendement qui vise à étendre le champ d’application de la loi aux institutions investies d’une mission de service public. Sont visées les institutions majoritairement contrôlées ou financées par le Parlement fédéral, les services publics fédéraux, une autorité locale ou une autre institution investie d’une mission de service public.
 
-
-Totaal
-
-
-131
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-
-131
-
-131
-131
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
 
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
 
- 
- 
- 
-30 Projet de loi modifiant la loi du 15 mai 2007 relative à la sécurité
-civile en vue de régler l'utilisation de caméras par les services opérationnels
-de la sécurité civile (3769/3)
-30
-30
- Projet de loi modifiant la loi du 15 mai 2007 relative à la sécurité
-civile en vue de régler l'utilisation de caméras par les services opérationnels
-de la sécurité civile (3769/3)
- Projet de loi modifiant la loi du 15 mai 2007 relative à la sécurité
-civile en vue de régler l'utilisation de caméras par les services opérationnels
-de la sécurité civile (3769/3)
+Est notamment visée l’ASBL Smals, l’association sans but lucratif au service ICT des institutions publiques belges. Actuellement, les députés n’ont aucun moyen de savoir par exemple pourquoi Smals n’a pas réussi, depuis des années, à construire le nouveau site web de la Chambre malgré un financement important. Il est question de centaines de milliers d’euros. Par conséquent, les auteurs de cet amendement considèrent qu’il est opportun de soumettre Smals à l’obligation de transparence de cette loi.
 
-30 Wetsontwerp tot
-wijziging van de wet van 15 mei 2007 betreffende de civiele veiligheid, om het
-gebruik van camera's door de operationele diensten van de civiele veiligheid te
-regelen (3769/3)
-30
-30
-30
- Wetsontwerp tot
-wijziging van de wet van 15 mei 2007 betreffende de civiele veiligheid, om het
-gebruik van camera's door de operationele diensten van de civiele veiligheid te
-regelen (3769/3)
- Wetsontwerp tot
-wijziging van de wet van 15 mei 2007 betreffende de civiele veiligheid, om het
-gebruik van camera's door de operationele diensten van de civiele veiligheid te
-regelen (3769/3)
- Wetsontwerp tot
-wijziging van de wet van 15 mei 2007 betreffende de civiele veiligheid, om het
-gebruik van camera's door de operationele diensten van de civiele veiligheid te
-regelen (3769/3)
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+C’est la raison pour laquelle nous déposons cet amendement. C’est aussi pour répondre aux demandes de la société civile et des journalistes qui trouvent aussi que ce projet est largement insuffisant et qui voudraient qu’il soit réellement un projet de transparence, répondant vraiment aux manquements de notre législation actuelle. Cela n’est toujours pas le cas.
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
+C’est pour cela que je demande l’examen de cet amendement par le Conseil d'État, madame la présidente. Merci.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+17.02 Minister Annelies Verlinden: Mevrouw de voorzitster, de heer Boukili heeft gezegd dat het ontwerp incompleet is, maar het is wel een stap ter versterking van de transparantie van bestuursdocumenten. Op die manier kan het bijdragen tot een versterking van de legitimiteit van het overheidshandelen. Nu worden hier voor de zoveelste keer amendementen voorgesteld om naar de Raad van State te sturen, die gelijkaardig zijn aan wat we al eerder in de commissie hebben besproken. Op deze manier wordt geen stap gezet naar de versterking van de transparantie en dus de legitimiteit van de overheid.
 
-## Proposal 4
 
 
-(Stemming/vote 3)
+In tegenstelling tot het voorwendsel dat er hier partijen zijn die vechten voor transparantie, moet ik vaststellen dat die transparantie door hun handelen wordt tegengehouden. Ik zal mij uiteraard schikken naar wat hier vandaag wordt beslist, maar ik zou toch graag genoteerd zien dat degenen die zeggen te vechten voor transparantie zich daar in de feiten tegen verzetten.
 
-(Stemming/vote 3)
-(Stemming/vote 3)
-(Stemming/vote 3)
 
 
+17.03  Nabil Boukili (PVDA-PTB): Madame la présidente, je rappelle à Mme la ministre que ce n'est pas uniquement mon groupe qui entreprend cette démarche visant à obtenir une réelle transparence au lieu du simulacre proposé par ce projet de loi. En effet, d'autres partis défendent cette position, mais c'est avant tout le cas de la société civile. Nous parlons de l'Association des journalistes – ce n'est quand même pas rien. Nous parlons de journalistes qui ne parviennent pas à accéder à des documents administratifs pour accomplir leur travail et informer la population. C'est de cela que nous parlons. Aucune contrainte n'est imposée à la CADA, par exemple, pour qu'elle rende des documents publics. Or c'est normalement le principe d'une société démocratique. C'est de cela que nous parlons, madame la ministre.
 
-Ja
 
 
-116
+Alors, quand vous venez nous dire que vous avancez pas à pas vers la transparence et que c'est nous qui bloquons, c'est faux: vous, vous nous vendez du vent pour obtenir seulement un titre évoquant la transparence, mais il n'y en a aucune, en définitive. Au contraire! Vous rendez encore plus opaques les institutions fédérales, et c'est inacceptable. Si c'était seulement le PTB qui le disait, peut-être le débat pourrait-il avoir lieu, mais c'est la majorité de la société civile qui le pense, de même que d'autres partis d'opposition. Par conséquent, madame la présidente, je ne peux pas laisser dire que nous empêchons la transparence. C'est tout le contraire, nous la défendons ici et nous nous battons pour qu'elle soit réelle!
 
 
-Oui
 
+17.04  Vanessa Matz (Les Engagés): Madame la présidente, depuis le début, l'incompréhension est totale dans ce dossier, non seulement de la part de certains groupes politiques de l'opposition, mais aussi de plusieurs organisations de la société civile, quant à l'absence de parallélisme entre la CADA fédérale et la CADA décisionnelle. Aucune des justifications avancées n'a trouvé de légitimité. On nous a ainsi parlé de moyens. Or nous savons que ceux de la CADA ont été augmentés. On nous a parlé de plusieurs choses.
 
 
-Ja
 
-Ja
-Ja
+Les entités fédérées disposent de CADA décisionnelles. Pourquoi ne peut-on pas appliquer cette mesure à l'échelle fédérale? À l'époque qui nous occupe, et je l'ai souvent dit dans ce dossier, c'est complètement à contre-courant! Les citoyens désirent en effet être davantage informés, demandent de la transparence et veulent plus de citoyenneté. Le gouvernement Vivaldi, dans toutes ses composantes, va donc complètement à contre-courant de ces principes essentiels pour une bonne gouvernance.
 
-116
 
-116
-116
 
-Oui
+Lorsque nous aurons reçu une justification qui tienne la route, nous pourrons en discuter, mais ce n'est toujours pas le cas. Et c'est incompréhen­sible. Par conséquent, nous soutiendrons l'envoi des amendements au Conseil d'État.
 
-Oui
-Oui
 
 
-Nee
+La présidente: Il y a un seul amendement à envoyer au Conseil d’État. C’est celui déposé par M. Boukili et qui vient d’être largement défendu.
 
 
-0
 
+Je vous propose de nous prononcer sur cette demande.
 
-Non
+Ik stel u voor om ons over deze vraag uit te spreken.
 
 
 
-Nee
+Au moins 50 membres soutiennent la demande d'avis au Conseil d'État.
 
-Nee
-Nee
+Ten minste 50 leden steunen het verzoek om advies van de Raad van State.
 
-0
 
-0
-0
 
-Non
+En conséquence, la présidente demandera l'avis du Conseil d'État en application de l'article 98, § 3, du Règlement.
 
-Non
-Non
+Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98, § 3, van het Reglement.
 
 
-Onthoudingen
 
+L'amendement no 19 sera envoyé au Conseil d’État pour avis.
 
-17
+Het amendement nr. 19 zal voor advies naar de Raad van State worden verzonden.
 
 
-Abstentions
 
+### Discussed proposals:
 
+## Proposal discussion (agenda item 18)
 
-Onthoudingen
+### Description in Dutch:
 
-Onthoudingen
-Onthoudingen
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3769/3)
+Het wetsontwerp telt 20 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-17
+### Description in French:
 
-17
-17
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3769/3)
+Le projet de loi compte 20 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Abstentions
 
-Abstentions
-Abstentions
 
+### Discussed proposals:
 
-Totaal
+## Proposal discussion (agenda item 19)
 
+### Description in Dutch:
 
-133
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3614/7)
+Het wetsontwerp telt 4 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
-Total
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3614/7)
+Le projet de loi compte 4 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
-Totaal
+### Discussed proposals:
 
-Totaal
-Totaal
+## Proposal discussion (agenda item 20)
 
-133
+### Description in Dutch:
 
-133
-133
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3726/6)
+Het opschrift werd door de commissie gewijzigd in "wetsontwerp tot wijziging van de wet van 26 januari 2018 betreffende de postdiensten".
+Het wetsontwerp telt 5 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over het aangehouden amendement, het aangehouden artikel en over het geheel zal later plaatsvinden.
 
-Total
+### Description in French:
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
-(3769/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3726/6)
+L’intitulé a été modifié par la commission en "projet de loi modifiant la loi du 26 janvier 2018 relative aux services postaux".
+Le projet de loi compte 5 articles.
+La discussion des articles est close. Le vote sur l'amendement et l'article réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
 
 
-(3769/4)
-(3769/4)
+### Discussed proposals:
 
+## Proposal discussion (agenda item 21)
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3769/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
- 
-(3769/4)
-(3769/4)
+### Description in Dutch:
 
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3766/4)
+Het wetsontwerp telt 14 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen, de aangehouden artikelen en over het geheel zal later plaatsvinden.
 
- 
- 
- 
-Raison d’abstention?
-(Non)
-Raison d’abstention?
-(Non)
-(Non)
+### Description in French:
 
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3766/4)
+Le projet de loi compte 14 articles.
+La discussion des articles est close. Le vote sur les amendements et les articles réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
- 
- 
- 
-31 Projet de loi portant diverses adaptations relatives aux services de
-médiation (3614/7)
-31
-31
- Projet de loi portant diverses adaptations relatives aux services de
-médiation (3614/7)
- Projet de loi portant diverses adaptations relatives aux services de
-médiation (3614/7)
 
-31 Wetsontwerp
-houdende diverse aanpassingen inzake ombudsdiensten (3614/7)
-31
-31
-31
- Wetsontwerp
-houdende diverse aanpassingen inzake ombudsdiensten (3614/7)
- Wetsontwerp
-houdende diverse aanpassingen inzake ombudsdiensten (3614/7)
- Wetsontwerp
-houdende diverse aanpassingen inzake ombudsdiensten (3614/7)
 
+### Discussed proposals:
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
+## Proposal discussion (agenda item 22)
 
+### Description in Dutch:
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3665/10)
+Het opschrift werd door de commissie gewijzigd in "wetsontwerp houdende diverse bepalingen inzake economie".
+Het wetsontwerp telt 210 artikelen.
+Zullen later plaatsvinden:
+- de stemming over de aangehouden amende­menten en het aangehouden artikel;
+- op verzoek van de N-VA-fractie de gesplitste stemming over de artikelen 24 tot 27;
+- de stemming over het geheel.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
+### Description in French:
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3665/10)
+L’intitulé a été modifié par la commission en "projet de loi portant dispositions diverses en matière d’économie".
+Le projet de loi compte 210 articles.
+Auront lieu ultérieurement:
+- le vote sur les amendements et l'article réservés;
+- à la demande du groupe N-VA, le vote divisé sur les articles 24 à 27;
+- le vote sur l'ensemble.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
 
-## Proposal 5
+### Discussed proposals:
 
+## Proposal discussion (agenda item 23)
 
-(Stemming/vote 4)
+### Description in Dutch:
 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3750/3)
+Het wetsontwerp telt 2 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
+### Description in French:
 
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3750/3)
+Le projet de loi compte 2 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
-Ja
 
 
-131
+### Discussed proposals:
 
+## Proposal discussion (agenda item 24)
 
-Oui
+### Description in Dutch:
 
+Proposition déposée par:
 
+Voorstel ingediend door:
 
-Ja
+Nathalie Dewulf, Barbara Pas.
 
-Ja
-Ja
 
-131
 
-131
-131
+La commission du Règlement et de la Réforme du travail parlementaire propose de rejeter cette proposition. (2149/2)
 
-Oui
+De commissie voor het Reglement en voor de Hervorming van de parlementaire werkzaamheden stelt voor dit voorstel te verwerpen. (2149/2)
 
-Oui
-Oui
 
 
-Nee
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, l’auteur.
 
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over dit voorstel tot verwerping, na de rapporteur en eventueel de indiener te hebben gehoord.
 
-0
 
 
-Non
+De rapporteur, de heer Loones, verwijst naar het schriftelijk verslag.
 
 
 
-Nee
+24.01  Barbara Pas (VB): Mevrouw de voorzitster, collega's, de bijzondere commissie voor het Reglement en Hervorming van de Parlementaire Werkzaamheden in dit Huis vergadert ondanks mijn regelmatig aandringen in de Conferentie van voorzitters bijzonder zelden. Als die al eens een zeldzame keer bijeenkwam, kon de vergadering zelfs nog niet doorgaan wegens een gebrek aan quorum van de meerderheid. Bij die afgelaste vergadering deed de heer Calvo wel een bijna emotionele oproep om tegen de volgende vergadering van die commissie voorstellen te agenderen waar geen politiek rond gedaan wordt, om voorstellen te agenderen waar een ruime consensus over is, zodat er toch eindelijk iets gerealiseerd kan worden en eindelijk kon worden voortgewerkt in die commissie. Dat was terecht.
 
-Nee
-Nee
 
-0
 
-0
-0
+Constructief als we zijn, gaf ik dan uiteraard gevolg aan die oproep en ik heb toen als prioritair te behandelen voorstel een van onze voorstellen genomen dat totaal niet politiek en totaal niet ideologisch is. Ik heb daarnet de vice-eersteminister, de heer Vandenbroucke, nog horen zeggen dat alles wat we hier doen een politieke afweging is. Dit is een uitzondering. Dit is het niet. Dit heeft niets met politiek te maken. Dit heeft niets met ideologie te maken. Het is een voorstel waar niemand iets op tegen kan hebben.
 
-Non
 
-Non
-Non
 
+Wie kan er immers bezwaar hebben tegen een voorstel dat een achterhaalde bepaling, die al jaren niet meer wordt toegepast, uit het Kamerreglement schrapt? Niemand, dacht ik. Tot mijn grote verbazing is dat wel het geval, namelijk alle meerderheidspartijen. Zoals de voorzitter daarnet zei, werd dit voorstel immers verworpen. Omdat ze het allicht verkeerd begrepen hebben, zal ik vandaag nog een poging doen voor ons eenvoudige en niet-politieke voorstel dat niet meer of niet minder doet dan het opheffen van een nodeloos voorschrift dat niet meer wordt toegepast.
 
-Onthoudingen
 
 
-0
+Concreet gaat het om artikel 44, vierde lid, van ons Kamerreglement, dat voorschrijft dat leden in de plenaire vergadering staande moeten spreken, niet alleen achter het spreekgestoelte, maar ook vanop de banken. ʺDe spreker mag slechts het woord richten tot de voorzitter of tot de vergadering. De leden spreken staande en van hun plaats of van het spreekgestoelte.ʺ Dat is letterlijk artikel 44, vierde lid.
 
 
-Abstentions
 
+Collega’s, u bent er hier samen met mij wekelijks getuige van dat zo goed als niemand dat toepast. Deze regel wordt niet nageleefd. Tijdens de periode van bijna 17 jaar die ik hier zetel, heb ik nog nooit een Kamervoorzitter gehoord die collega’s erop wees dat zij staande het woord dienden te voeren. U deed dat terecht niet, mevrouw de Kamervoorzitster, want die regel is niet meer van deze tijd.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+Er zijn heel wat argumenten om dat niet meer te doen. In de praktijk zijn er heel wat leden die met de ogen gericht op de laptop het woord nemen. Vanzelfsprekend is dat niet bevorderlijk voor staand spreken. De geluidskwaliteit van de microfoons is beter, wanneer u uw toespraak zittend houdt, wanneer u vanop de bank spreekt. Mensen zijn ook groter dan vroeger. Als u plots deze regel zou toepassen, moeten we de microfoons langer maken en met dure, nieuwe geluidsinstallaties heeft dit halfrond niet de beste ervaringen.
 
-0
 
-0
-0
 
-Abstentions
+Ik heb opzoekingen gedaan om u toch nog te overtuigen vandaag. Er zijn heel wat wetenschappelijke argumenten in de literatuur met betrekking tot lichaamstaal die staven dat zittend spreken beter is. Ik heb enkele argumenten uit de literatuur gehaald.
 
-Abstentions
-Abstentions
 
 
-Totaal
+Zittend nemen we niet te weinig, maar ook niet te veel ruimte in. We komen eerlijk, belangstellend, respectvol en zelfverzekerd over. Staan zorgt voor te korte, dynamische interacties. Zitten zorgt voor rust in de communicatie en voor een diepgaandere verwerking van de informatie die men ontvangt. Een zittend contact neemt gewoonlijk meer tijd in beslag en heeft een minder vrijblijvend karakter. Willen we verdieping in de onderwerpen dan moeten we gaan zitten, volgens de literatuur.
 
 
-131
 
+Als we staan, aldus andere literatuur over lichaamstaal, voelt onze bijdrage aan als een presentatie en worden de anderen gedegradeerd tot toehoorders. Ik zou nog even kunnen verdergaan, maar het Kamerreglement zegt dat mijn tijd beknopt en als er in dit huis iets is wat we moeten respecteren, is het wel het Kamerreglement.
 
-Total
 
 
+Bovendien, collega's, als we deze regel over het staande spreken zouden toepassen, zou dat problematisch zijn voor leden met een beperkte mobiliteit. Hoe hardvochtig is het om zulke mensen te verplichten recht te staan om zich tot een vergadering te kunnen richten? Ik denk daarbij in het bijzonder aan de eeuwelingen die zich verkiesbaar wensen te stellen: Wivina Demeester, Mieke Vogels, Jan Peumans, Louis Tobback, de veroordeelde Willy Claes, Herman De Croo en misschien zelfs Jean-Luc Dehaene. Ik mag er niet aan denken dat we die mensen het zullen aandoen om lange staande toespraken te moeten houden.
 
-Totaal
 
-Totaal
-Totaal
 
-131
+Collega's, alle gekheid op een stokje, een Kamerreglement moet worden toegepast. Dat is althans de logische mening van mijn fractie. Uitspraken als "Het Reglement, mijn botten" zult u van een Vlaams Belangkamerlid niet horen. Het Kamerreglement bestaat om toegepast te worden. U als Kamervoorzitster dient daarop toe te zien, mevrouw de voorzitster. Als u een bepaalde regel in het Reglement wel toepast en een andere niet, is dat natuurlijk willekeur en dat druist net in tegen het wezen van een Kamerreglement.
 
-131
-131
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3614/8)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3614/8)
-(3614/8)
+Als er dus achterhaalde regels zijn die in onbruik zijn geraakt, zoals het staande spreken, is het toch de logica zelve dat die uit het Reglement worden geschrapt? Zelfs in het Britste Hogerhuis, toch wel een baken van traditie en standvastigheid, bestaat dit niet meer.
 
 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3614/8)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3614/8)
-(3614/8)
 
+Collega's, u hebt dus de keuze. Ofwel doet u het tegenovergestelde van in de commissie en stemt u straks tegen de verwerping van dit voorstel en zult u de verplichting tot staand spreken van op de banken schrappen uit het Reglement. Dan passen we het inderdaad, zoals we nu al lang doen, niet meer toe. Ofwel, en dat is de andere keuze als u voor de verwerping stemt, behoudt u de verplichting tot het staande spreken in het Kamerreglement. En dan ga ik ervan uit, collega's, dat u enige consequentie aan de dag zult leggen en vanaf nu aan uw bank staand zult spreken, zoals het Kamerreglement voorschrijft. Ik kan mij niet voorstellen dat u de ene regel van het Kamerreglement wel wilt toepassen en de andere niet.
 
- 
- 
- 
-32 Amendement et article réservés du projet de loi modifiant la loi du 26
-janvier 2018 relative aux services postaux (nouvel intitulé) (3726/1-7)
-32
-32
- Amendement et article réservés du projet de loi modifiant la loi du 26
-janvier 2018 relative aux services postaux (nouvel intitulé) (3726/1-7)
- Amendement et article réservés du projet de loi modifiant la loi du 26
-janvier 2018 relative aux services postaux (nouvel intitulé) (3726/1-7)
 
-32 Aangehouden
-amendement en artikel van het wetsontwerp tot wijziging van de wet van 26
-januari 2018 betreffende de postdiensten (nieuw opschrift) (3726/1-7)
-32
-32
-32
- Aangehouden
-amendement en artikel van het wetsontwerp tot wijziging van de wet van 26
-januari 2018 betreffende de postdiensten (nieuw opschrift) (3726/1-7)
- Aangehouden
-amendement en artikel van het wetsontwerp tot wijziging van de wet van 26
-januari 2018 betreffende de postdiensten (nieuw opschrift) (3726/1-7)
- Aangehouden
-amendement en artikel van het wetsontwerp tot wijziging van de wet van 26
-januari 2018 betreffende de postdiensten (nieuw opschrift) (3726/1-7)
 
+Mevrouw de voorzitster, het is aan u om erop te letten dat het Reglement toegepast wordt. Ik neem aan dat u dat in de toekomst dan ook zult doen. Collega's, ik ben zeer benieuwd naar uw keuze. En ik zal u zeker wijzen op de consequente opvolging ervan.
 
- 
- 
- 
-Vote sur l'amendement n° 4 de Michael Freilich
-à l'article 4. (3726/7)
-Vote sur l'amendement n° 4 de Michael Freilich
-à l'article 4. 
-(3726/7)
-(3726/7)
 
-Stemming over amendement nr. 4 van Michael
-Freilich op artikel 4. (3726/7)
-Stemming over amendement nr. 4 van Michael
-Freilich op artikel 4. (3726/7)
-(3726/7)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+La présidente: Plus personne ne peut prendre la parole.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+Geen andere spreker mag het woord nemen.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de stemming
-/ Résultat du vote.
-Uitslag van de stemming
-/ Résultat du vote.
 
- 
- 
- 
+Le vote sur la proposition de rejet de cette proposition aura lieu ultérieurement.
 
-## Proposal 6
+De stemming over het voorstel tot verwerping van dit voorstel zal later plaatsvinden.
 
+### Description in French:
 
-(Stemming/vote 5)
+Proposition déposée par:
 
-(Stemming/vote 5)
-(Stemming/vote 5)
-(Stemming/vote 5)
+Voorstel ingediend door:
 
+Nathalie Dewulf, Barbara Pas.
 
 
-Ja
 
+La commission du Règlement et de la Réforme du travail parlementaire propose de rejeter cette proposition. (2149/2)
 
-38
+De commissie voor het Reglement en voor de Hervorming van de parlementaire werkzaamheden stelt voor dit voorstel te verwerpen. (2149/2)
 
 
-Oui
 
+Conformément à l'article 88 du Règlement, l'assemblée plénière se prononcera sur cette proposition de rejet après avoir entendu le rapporteur et, éventuellement, l’auteur.
 
+Overeenkomstig artikel 88 van het Reglement spreekt de plenaire vergadering zich uit over dit voorstel tot verwerping, na de rapporteur en eventueel de indiener te hebben gehoord.
 
-Ja
 
-Ja
-Ja
 
-38
+De rapporteur, de heer Loones, verwijst naar het schriftelijk verslag.
 
-38
-38
 
-Oui
 
-Oui
-Oui
+24.01  Barbara Pas (VB): Mevrouw de voorzitster, collega's, de bijzondere commissie voor het Reglement en Hervorming van de Parlementaire Werkzaamheden in dit Huis vergadert ondanks mijn regelmatig aandringen in de Conferentie van voorzitters bijzonder zelden. Als die al eens een zeldzame keer bijeenkwam, kon de vergadering zelfs nog niet doorgaan wegens een gebrek aan quorum van de meerderheid. Bij die afgelaste vergadering deed de heer Calvo wel een bijna emotionele oproep om tegen de volgende vergadering van die commissie voorstellen te agenderen waar geen politiek rond gedaan wordt, om voorstellen te agenderen waar een ruime consensus over is, zodat er toch eindelijk iets gerealiseerd kan worden en eindelijk kon worden voortgewerkt in die commissie. Dat was terecht.
 
 
-Nee
 
+Constructief als we zijn, gaf ik dan uiteraard gevolg aan die oproep en ik heb toen als prioritair te behandelen voorstel een van onze voorstellen genomen dat totaal niet politiek en totaal niet ideologisch is. Ik heb daarnet de vice-eersteminister, de heer Vandenbroucke, nog horen zeggen dat alles wat we hier doen een politieke afweging is. Dit is een uitzondering. Dit is het niet. Dit heeft niets met politiek te maken. Dit heeft niets met ideologie te maken. Het is een voorstel waar niemand iets op tegen kan hebben.
 
-89
 
 
-Non
+Wie kan er immers bezwaar hebben tegen een voorstel dat een achterhaalde bepaling, die al jaren niet meer wordt toegepast, uit het Kamerreglement schrapt? Niemand, dacht ik. Tot mijn grote verbazing is dat wel het geval, namelijk alle meerderheidspartijen. Zoals de voorzitter daarnet zei, werd dit voorstel immers verworpen. Omdat ze het allicht verkeerd begrepen hebben, zal ik vandaag nog een poging doen voor ons eenvoudige en niet-politieke voorstel dat niet meer of niet minder doet dan het opheffen van een nodeloos voorschrift dat niet meer wordt toegepast.
 
 
 
-Nee
+Concreet gaat het om artikel 44, vierde lid, van ons Kamerreglement, dat voorschrijft dat leden in de plenaire vergadering staande moeten spreken, niet alleen achter het spreekgestoelte, maar ook vanop de banken. ʺDe spreker mag slechts het woord richten tot de voorzitter of tot de vergadering. De leden spreken staande en van hun plaats of van het spreekgestoelte.ʺ Dat is letterlijk artikel 44, vierde lid.
 
-Nee
-Nee
 
-89
 
-89
-89
+Collega’s, u bent er hier samen met mij wekelijks getuige van dat zo goed als niemand dat toepast. Deze regel wordt niet nageleefd. Tijdens de periode van bijna 17 jaar die ik hier zetel, heb ik nog nooit een Kamervoorzitter gehoord die collega’s erop wees dat zij staande het woord dienden te voeren. U deed dat terecht niet, mevrouw de Kamervoorzitster, want die regel is niet meer van deze tijd.
 
-Non
 
-Non
-Non
 
+Er zijn heel wat argumenten om dat niet meer te doen. In de praktijk zijn er heel wat leden die met de ogen gericht op de laptop het woord nemen. Vanzelfsprekend is dat niet bevorderlijk voor staand spreken. De geluidskwaliteit van de microfoons is beter, wanneer u uw toespraak zittend houdt, wanneer u vanop de bank spreekt. Mensen zijn ook groter dan vroeger. Als u plots deze regel zou toepassen, moeten we de microfoons langer maken en met dure, nieuwe geluidsinstallaties heeft dit halfrond niet de beste ervaringen.
 
-Onthoudingen
 
 
-6
+Ik heb opzoekingen gedaan om u toch nog te overtuigen vandaag. Er zijn heel wat wetenschappelijke argumenten in de literatuur met betrekking tot lichaamstaal die staven dat zittend spreken beter is. Ik heb enkele argumenten uit de literatuur gehaald.
 
 
-Abstentions
 
+Zittend nemen we niet te weinig, maar ook niet te veel ruimte in. We komen eerlijk, belangstellend, respectvol en zelfverzekerd over. Staan zorgt voor te korte, dynamische interacties. Zitten zorgt voor rust in de communicatie en voor een diepgaandere verwerking van de informatie die men ontvangt. Een zittend contact neemt gewoonlijk meer tijd in beslag en heeft een minder vrijblijvend karakter. Willen we verdieping in de onderwerpen dan moeten we gaan zitten, volgens de literatuur.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+Als we staan, aldus andere literatuur over lichaamstaal, voelt onze bijdrage aan als een presentatie en worden de anderen gedegradeerd tot toehoorders. Ik zou nog even kunnen verdergaan, maar het Kamerreglement zegt dat mijn tijd beknopt en als er in dit huis iets is wat we moeten respecteren, is het wel het Kamerreglement.
 
-6
 
-6
-6
 
-Abstentions
+Bovendien, collega's, als we deze regel over het staande spreken zouden toepassen, zou dat problematisch zijn voor leden met een beperkte mobiliteit. Hoe hardvochtig is het om zulke mensen te verplichten recht te staan om zich tot een vergadering te kunnen richten? Ik denk daarbij in het bijzonder aan de eeuwelingen die zich verkiesbaar wensen te stellen: Wivina Demeester, Mieke Vogels, Jan Peumans, Louis Tobback, de veroordeelde Willy Claes, Herman De Croo en misschien zelfs Jean-Luc Dehaene. Ik mag er niet aan denken dat we die mensen het zullen aandoen om lange staande toespraken te moeten houden.
 
-Abstentions
-Abstentions
 
 
-Totaal
+Collega's, alle gekheid op een stokje, een Kamerreglement moet worden toegepast. Dat is althans de logische mening van mijn fractie. Uitspraken als "Het Reglement, mijn botten" zult u van een Vlaams Belangkamerlid niet horen. Het Kamerreglement bestaat om toegepast te worden. U als Kamervoorzitster dient daarop toe te zien, mevrouw de voorzitster. Als u een bepaalde regel in het Reglement wel toepast en een andere niet, is dat natuurlijk willekeur en dat druist net in tegen het wezen van een Kamerreglement.
 
 
-133
 
+Als er dus achterhaalde regels zijn die in onbruik zijn geraakt, zoals het staande spreken, is het toch de logica zelve dat die uit het Reglement worden geschrapt? Zelfs in het Britste Hogerhuis, toch wel een baken van traditie en standvastigheid, bestaat dit niet meer.
 
-Total
 
 
+Collega's, u hebt dus de keuze. Ofwel doet u het tegenovergestelde van in de commissie en stemt u straks tegen de verwerping van dit voorstel en zult u de verplichting tot staand spreken van op de banken schrappen uit het Reglement. Dan passen we het inderdaad, zoals we nu al lang doen, niet meer toe. Ofwel, en dat is de andere keuze als u voor de verwerping stemt, behoudt u de verplichting tot het staande spreken in het Kamerreglement. En dan ga ik ervan uit, collega's, dat u enige consequentie aan de dag zult leggen en vanaf nu aan uw bank staand zult spreken, zoals het Kamerreglement voorschrijft. Ik kan mij niet voorstellen dat u de ene regel van het Kamerreglement wel wilt toepassen en de andere niet.
 
-Totaal
 
-Totaal
-Totaal
 
-133
+Mevrouw de voorzitster, het is aan u om erop te letten dat het Reglement toegepast wordt. Ik neem aan dat u dat in de toekomst dan ook zult doen. Collega's, ik ben zeer benieuwd naar uw keuze. En ik zal u zeker wijzen op de consequente opvolging ervan.
 
-133
-133
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l’article 4 est adopté.
-En conséquence, l'amendement est rejeté et
-l’article 4 est adopté.
-Bijgevolg is het amendement verworpen et is
-artikel 4 aangenomen.
-Bijgevolg is het amendement verworpen et is
-artikel 4 aangenomen.
- 
- 
- 
-33 Ensemble du projet de loi modifiant la loi du 26 janvier 2018 relative
-aux services postaux (nouvel intitulé) (3726/6)
-33
-33
- Ensemble du projet de loi modifiant la loi du 26 janvier 2018 relative
-aux services postaux (nouvel intitulé) (3726/6)
- Ensemble du projet de loi modifiant la loi du 26 janvier 2018 relative
-aux services postaux (nouvel intitulé) (3726/6)
+La présidente: Plus personne ne peut prendre la parole.
 
-33 Geheel van het
-wetsontwerp tot wijziging van de wet van 26 januari 2018 betreffende de
-postdiensten (nieuw opschrift)  (3726/6)
-33
-33
-33
- Geheel van het
-wetsontwerp tot wijziging van de wet van 26 januari 2018 betreffende de
-postdiensten (nieuw opschrift)  (3726/6)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 26 januari 2018 betreffende de
-postdiensten (nieuw opschrift)  (3726/6)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 26 januari 2018 betreffende de
-postdiensten (nieuw opschrift)  (3726/6)
-  
+Geen andere spreker mag het woord nemen.
 
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
+Le vote sur la proposition de rejet de cette proposition aura lieu ultérieurement.
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+De stemming over het voorstel tot verwerping van dit voorstel zal later plaatsvinden.
 
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+### Discussed proposals:
 
- 
- 
- 
+## Proposal discussion (agenda item 25)
 
-## Proposal 7
+### Description in Dutch:
 
+None
 
-(Stemming/vote 6)
+### Description in French:
 
-(Stemming/vote 6)
-(Stemming/vote 6)
-(Stemming/vote 6)
+None
 
 
 
-Ja
-
-
-133
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-
-133
-
-133
-133
-
-
-Oui
-
-Oui
-Oui
-
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-
-0
-
-0
-0
-
-
-Non
-
-Non
-Non
-
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-
-0
-
-0
-0
-
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-
-Totaal
-
-
-133
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-
-133
-
-133
-133
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3726/8)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3726/8)
-(3726/8)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3726/8)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
- 
-(3726/8)
-(3726/8)
-
-
- 
- 
- 
-34 Amendements et articles réservés du projet de loi sur la promotion de
-la réparabilité et de la durabilité des biens (3766/1-5)
-34
-34
- Amendements et articles réservés du projet de loi sur la promotion de
-la réparabilité et de la durabilité des biens (3766/1-5)
- Amendements et articles réservés du projet de loi sur la promotion de
-la réparabilité et de la durabilité des biens (3766/1-5)
-
-34 Aangehouden amendementen
-en artikelen van het wetsontwerp ter bevordering van de herstelbaarheid en de
-levensduur van goederen (3766/1-5)
-34
-34
-34
- Aangehouden amendementen
-en artikelen van het wetsontwerp ter bevordering van de herstelbaarheid en de
-levensduur van goederen (3766/1-5)
- Aangehouden amendementen
-en artikelen van het wetsontwerp ter bevordering van de herstelbaarheid en de
-levensduur van goederen (3766/1-5)
- Aangehouden amendementen
-en artikelen van het wetsontwerp ter bevordering van de herstelbaarheid en de
-levensduur van goederen (3766/1-5)
-
-
- 
- 
- 
-Vote sur l'amendement n° 10 de Vanessa Matz à
-l'article 2. (3766/5)
-Vote sur l'amendement n° 10 de Vanessa Matz à
-l'article 2. 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 10 van Vanessa
-Matz op artikel 2. (3766/5)
-Stemming over amendement nr. 10 van Vanessa
-Matz op artikel 2. (3766/5)
-(3766/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 8
-
-
-(Stemming/vote 7)
-
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
-
-
-
-Ja
-
-
-29
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-29
-
-29
-29
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-79
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-79
-
-79
-79
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-25
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-25
-
-25
-25
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-133
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-133
-
-133
-133
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 2 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 2 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 11 de Vanessa Matz à
-l'article 3. (3766/5)
-Vote sur l'amendement n° 11 de Vanessa Matz à
-l'article 3. 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 11 van Vanessa
-Matz op artikel 3. (3766/5)
-Stemming over amendement nr. 11 van Vanessa
-Matz op artikel 3. 
-(3766/5)
-(3766/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 7)
-(Stemming/vote 7)
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 3 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 3 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 3 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 3 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 12 de Vanessa Matz à
-l'article 5. (3766/5)
-Vote sur l'amendement n° 12 de Vanessa Matz à
-l'article 5. 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 12 van Vanessa
-Matz op artikel 5. (3766/5)
-Stemming over amendement nr. 12 van Vanessa
-Matz op artikel 5. (3766/5)
-(3766/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 9
-
-
-(Stemming/vote 8)
-
-(Stemming/vote 8)
-(Stemming/vote 8)
-(Stemming/vote 8)
-
-
-
-Ja
-
-
-30
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-30
-
-30
-30
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-100
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-100
-
-100
-100
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-3
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-3
-
-3
-3
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-133
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-133
-
-133
-133
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 5 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 5 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 5 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 5 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 13 de Vanessa Matz
-tendant à insérer un article 5/1(n). (3766/5)
-Vote sur l'amendement n° 13 de Vanessa Matz
-tendant à insérer un article 5/1(n). 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 13 van Vanessa
-Matz tot invoeging van een artikel 5/1(n). (3766/5)
-Stemming over amendement nr. 13 van Vanessa
-Matz tot invoeging van een artikel 5/1(n). 
-(3766/5)
-(3766/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 8)
-(Stemming/vote 8)
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 14 de Vanessa Matz
-tendant à insérer un article 5/1(n). (3766/5)
-Vote sur l'amendement n° 14 de Vanessa Matz
-tendant à insérer un article 5/1(n). 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 14 van Vanessa
-Matz tot invoeging van een artikel 5/1(n). (3766/5)
-Stemming over amendement nr. 14 van Vanessa
-Matz tot invoeging van een artikel 5/1(n). 
-(3766/5)
-(3766/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 8)
-(Stemming/vote 8)
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 15 de Vanessa Matz
-tendant à insérer un article 5/2(n). (3766/5)
-Vote sur l'amendement n° 15 de Vanessa Matz
-tendant à insérer un article 5/2(n). 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 15 van Vanessa
-Matz tot invoeging van een artikel 5/2(n). (3766/5)
-Stemming over amendement nr. 15 van Vanessa
-Matz tot invoeging van een artikel 5/2(n). 
-(3766/5)
-(3766/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 8)
-(Stemming/vote 8)
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-Vote sur l'amendement n° 16 de Vanessa Matz à
-l'article 10. (3766/5)
-Vote sur l'amendement n° 16 de Vanessa Matz à
-l'article 10. 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 16 van Vanessa
-Matz op artikel 10. (3766/5)
-Stemming over amendement nr. 16 van Vanessa
-Matz op artikel 10. 
-(3766/5)
-(3766/5)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 8)
-(Stemming/vote 8)
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 10 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 10 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 10 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 10 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 17 de Vanessa Matz à
-l'article 11. (3766/5)
-Vote sur l'amendement n° 17 de Vanessa Matz à
-l'article 11. 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 17 van Vanessa
-Matz op artikel 11. (3766/5)
-Stemming over amendement nr. 17 van Vanessa
-Matz op artikel 11. (3766/5)
-(3766/5)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 10
-
-
-(Stemming/vote 9)
-
-(Stemming/vote 9)
-(Stemming/vote 9)
-(Stemming/vote 9)
-
-
-
-Ja
-
-
-30
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-30
-
-30
-30
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-78
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-78
-
-78
-78
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-24
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-24
-
-24
-24
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-132
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-132
-
-132
-132
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l'article 11 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 11 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 11 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 11 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 18 de Vanessa Matz
-tendant à insérer un article 11/1(n). (3766/5)
-Vote sur l'amendement n° 18 de Vanessa Matz
-tendant à insérer un article 11/1(n). 
-(3766/5)
-(3766/5)
-
-Stemming over amendement nr. 18 van Vanessa
-Matz tot invoeging van een artikel 11/1(n). (3766/5)
-Stemming over amendement nr. 18 van Vanessa
-Matz tot invoeging van een artikel 11/1(n). 
-(3766/5)
-(3766/5)
-
- 
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 9)
-(Stemming/vote 9)
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-35 Ensemble du projet de loi sur la promotion de la réparabilité et de la
-durabilité des biens (3766/4)
-35
-35
- Ensemble du projet de loi sur la promotion de la réparabilité et de la
-durabilité des biens (3766/4)
- Ensemble du projet de loi sur la promotion de la réparabilité et de la
-durabilité des biens (3766/4)
-
-35 Geheel van het
-wetsontwerp ter bevordering van de herstelbaarheid en de levensduur van
-goederen (3766/4)
-35
-35
-35
- Geheel van het
-wetsontwerp ter bevordering van de herstelbaarheid en de levensduur van
-goederen (3766/4)
- Geheel van het
-wetsontwerp ter bevordering van de herstelbaarheid en de levensduur van
-goederen (3766/4)
- Geheel van het
-wetsontwerp ter bevordering van de herstelbaarheid en de levensduur van
-goederen (3766/4)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 11
-
-
-(Stemming/vote 10)
-
-(Stemming/vote 10)
-(Stemming/vote 10)
-(Stemming/vote 10)
-
-
-
-Ja
-
-
-108
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-108
-
-108
-108
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-25
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-25
-
-25
-25
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-133
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-133
-
-133
-133
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3766/6)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3766/6)
-(3766/6)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3766/6)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3766/6)
-(3766/6)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
-
- 
- 
- 
-36 Amendements et articles réservés du projet de loi portant dispositions
-diverses en matière d'économie (nouvel intitulé) (3665/1-11)
-36
-36
- Amendements et articles réservés du projet de loi portant dispositions
-diverses en matière d'économie (nouvel intitulé) (3665/1-11)
- Amendements et articles réservés du projet de loi portant dispositions
-diverses en matière d'économie (nouvel intitulé) (3665/1-11)
-
-36 Aangehouden
-amendementen en artikelen van het wetsontwerp houdende diverse bepalingen
-inzake economie (nieuw opschrift) (3665/1-11)
-36
-36
-36
- Aangehouden
-amendementen en artikelen van het wetsontwerp houdende diverse bepalingen
-inzake economie (nieuw opschrift) (3665/1-11)
- Aangehouden
-amendementen en artikelen van het wetsontwerp houdende diverse bepalingen
-inzake economie (nieuw opschrift) (3665/1-11)
- Aangehouden
-amendementen en artikelen van het wetsontwerp houdende diverse bepalingen
-inzake economie (nieuw opschrift) (3665/1-11)
-
-
- 
- 
- 
-Vote sur l'amendement n° 19 de Reccino Van
-Lommel tendant à insérer un article 17/1(n). (3665/11)
-Vote sur l'amendement n° 19 de Reccino Van
-Lommel tendant à insérer un article 17/1(n). 
-(3665/11)
-(3665/11)
-
-Stemming over amendement nr. 19 van Reccino
-Van Lommel tot invoeging van een artikel 17/1(n). (3665/11)
-Stemming over amendement nr. 19 van Reccino
-Van Lommel tot invoeging van een artikel 17/1(n). (3665/11)
-(3665/11)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming
-/ Fin du vote.
-Einde van de stemming
-/ Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 12
-
-
-(Stemming/vote 11)
-
-(Stemming/vote 11)
-(Stemming/vote 11)
-(Stemming/vote 11)
-
-
-
-Ja
-
-
-17
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-17
-
-17
-17
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-90
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-90
-
-90
-90
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-22
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-22
-
-22
-22
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-129
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-129
-
-129
-129
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur les articles 24 à 27. (3665/10)
-Vote sur les articles 24 à 27. 
-(3665/10)
-(3665/10)
-
-Stemming over de artikelen 24 tot 27. (3665/10)
-Stemming over de artikelen 24 tot 27. (3665/10)
-(3665/10)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 13
-
-
-(Stemming/vote 12)
-
-(Stemming/vote 12)
-(Stemming/vote 12)
-(Stemming/vote 12)
-
-
-
-Ja
-
-
-130
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-130
-
-130
-130
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-130
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-130
-
-130
-130
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, les articles 24 à 27 sont
-adoptés article par article.
-En conséquence, les articles 24 à 27 sont
-adoptés article par article.
-Bijgevolg zijn de artikelen 24 tot 27
-artikel per artikel aangenomen.
-Bijgevolg zijn de artikelen 24 tot 27
-artikel per artikel aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 20 de Anneleen Van
-Bossuyt tendant à insérer un article 197/1(n). (3665/11)
-Vote sur l'amendement n° 20 de Anneleen Van
-Bossuyt tendant à insérer un article 197/1(n). 
-(3665/11)
-(3665/11)
-
-Stemming over amendement nr. 20 van Anneleen
-Van Bossuyt tot invoeging van een artikel 197/1(n). (3665/11)
-Stemming over amendement nr. 20 van Anneleen
-Van Bossuyt tot invoeging van een artikel 197/1(n). (3665/11)
-(3665/11)
-
- 
- 
- 
-Begin van de stemming
-/ Début du vote.
-Begin van de stemming
-/ Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 14
-
-
-(Stemming/vote 13)
-
-(Stemming/vote 13)
-(Stemming/vote 13)
-(Stemming/vote 13)
-
-
-
-Ja
-
-
-49
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-49
-
-49
-49
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-78
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-78
-
-78
-78
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-5
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-5
-
-5
-5
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-132
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-132
-
-132
-132
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 21 de Anneleen Van
-Bossuyt tendant à insérer un article 200/1(n). (3665/11)
-Vote sur l'amendement n° 21 de Anneleen Van
-Bossuyt tendant à insérer un article 200/1(n). 
-(3665/11)
-(3665/11)
-
-Stemming over amendement nr. 21 van Anneleen
-Van Bossuyt tot invoeging van een artikel 200/1(n). (3665/11)
-Stemming over amendement nr. 21 van Anneleen
-Van Bossuyt tot invoeging van een artikel 200/1(n). 
-(3665/11)
-(3665/11)
-
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
- 
-(Oui)
-(Oui)
-
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
- 
-(Ja)
-(Ja)
-
- 
- 
- 
-(Stemming/vote 13)
-(Stemming/vote 13)
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
-
- 
- 
- 
-37 Ensemble du projet de loi portant dispositions diverses en matière
-d'économie (nouvel intitulé) (3665/10)
-37
-37
- Ensemble du projet de loi portant dispositions diverses en matière
-d'économie (nouvel intitulé) (3665/10)
- Ensemble du projet de loi portant dispositions diverses en matière
-d'économie (nouvel intitulé) (3665/10)
-
-37 Geheel van het
-wetsontwerp houdende diverse bepalingen inzake economie (nieuw opschrift)
-(3665/10)
-37
-37
-37
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake economie (nieuw opschrift)
-(3665/10)
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake economie (nieuw opschrift)
-(3665/10)
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake economie (nieuw opschrift)
-(3665/10)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 15
-
-
-(Stemming/vote 14)
-
-(Stemming/vote 14)
-(Stemming/vote 14)
-(Stemming/vote 14)
-
-
-
-Ja
-
-
-109
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-109
-
-109
-109
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-22
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-22
-
-22
-22
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-131
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-131
-
-131
-131
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3665/12)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3665/12)
-(3665/12)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3665/12)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3665/12)
-(3665/12)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
-
- 
- 
- 
-38 Projet de loi portant assentiment à l'Accord de coopération législatif
-du 22 décembre 2023 entre l'État fédéral, la Communauté flamande, la Communauté
-française, la Communauté germanophone, la Commission communautaire commune, la
-Région wallonne et la Commission communautaire française concernant le
-traitement de données relatives à CoBRHA+ (3750/3)
-38
-38
- Projet de loi portant assentiment à l'Accord de coopération législatif
-du 22 décembre 2023 entre l'État fédéral, la Communauté flamande, la Communauté
-française, la Communauté germanophone, la Commission communautaire commune, la
-Région wallonne et la Commission communautaire française concernant le
-traitement de données relatives à CoBRHA+ (3750/3)
- Projet de loi portant assentiment à l'Accord de coopération législatif
-du 22 décembre 2023 entre l'État fédéral, la Communauté flamande, la Communauté
-française, la Communauté germanophone, la Commission communautaire commune, la
-Région wallonne et la Commission communautaire française concernant le
-traitement de données relatives à CoBRHA+ (3750/3)
-
-38 Wetsontwerp
-houdende instemming met het wetgevend Samenwerkingsakkoord van 22 december 2023
-tussen de Federale Staat, de Vlaamse Gemeenschap, de Franse Gemeenschap, de
-Duitstalige Gemeenschap, de Gemeenschappelijke Gemeenschapscommissie, het
-Waalse Gewest en de Franse Gemeenschapscommissie betreffende de verwerking van
-gegevens met betrekking tot CoBRHA+ (3750/3)
-38
-38
-38
- Wetsontwerp
-houdende instemming met het wetgevend Samenwerkingsakkoord van 22 december 2023
-tussen de Federale Staat, de Vlaamse Gemeenschap, de Franse Gemeenschap, de
-Duitstalige Gemeenschap, de Gemeenschappelijke Gemeenschapscommissie, het
-Waalse Gewest en de Franse Gemeenschapscommissie betreffende de verwerking van
-gegevens met betrekking tot CoBRHA+ (3750/3)
- Wetsontwerp
-houdende instemming met het wetgevend Samenwerkingsakkoord van 22 december 2023
-tussen de Federale Staat, de Vlaamse Gemeenschap, de Franse Gemeenschap, de
-Duitstalige Gemeenschap, de Gemeenschappelijke Gemeenschapscommissie, het
-Waalse Gewest en de Franse Gemeenschapscommissie betreffende de verwerking van
-gegevens met betrekking tot CoBRHA+ (3750/3)
- Wetsontwerp
-houdende instemming met het wetgevend Samenwerkingsakkoord van 22 december 2023
-tussen de Federale Staat, de Vlaamse Gemeenschap, de Franse Gemeenschap, de
-Duitstalige Gemeenschap, de Gemeenschappelijke Gemeenschapscommissie, het
-Waalse Gewest en de Franse Gemeenschapscommissie betreffende de verwerking van
-gegevens met betrekking tot CoBRHA+ (3750/3)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 16
-
-
-(Stemming/vote 15)
-
-(Stemming/vote 15)
-(Stemming/vote 15)
-(Stemming/vote 15)
-
-
-
-Ja
-
-
-107
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-107
-
-107
-107
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-25
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-25
-
-25
-25
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-132
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-132
-
-132
-132
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. (3750/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale. 
-(3750/4)
-(3750/4)
-
-
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. (3750/4)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. 
-(3750/4)
-(3750/4)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
-
- 
- 
- 
-39 Proposition de rejet faite par la commission du Règlement et de la
-Réforme du travail parlementaire de la proposition de modification du Règlement
-de la Chambre des représentants en vue d'adapter la façon dont les députés
-prennent la parole en séance plénière (2149/1-2)
-39
-39
- Proposition de rejet faite par la commission du Règlement et de la
-Réforme du travail parlementaire de la proposition de modification du Règlement
-de la Chambre des représentants en vue d'adapter la façon dont les députés
-prennent la parole en séance plénière (2149/1-2)
- Proposition de rejet faite par la commission du Règlement et de la
-Réforme du travail parlementaire de la proposition de modification du Règlement
-de la Chambre des représentants en vue d'adapter la façon dont les députés
-prennent la parole en séance plénière (2149/1-2)
-
-39 Voorstel tot
-verwerping door de commissie voor het Reglement en voor de Hervorming van de
-parlementaire werkzaamheden van het voorstel tot wijziging van het Reglement
-van de Kamer van volksvertegenwoordigers, teneinde de manier waarop het woord
-in plenaire vergadering wordt gevoerd anders te regelen (2149/1-2)
-39
-39
-39
- Voorstel tot
-verwerping door de commissie voor het Reglement en voor de Hervorming van de
-parlementaire werkzaamheden van het voorstel tot wijziging van het Reglement
-van de Kamer van volksvertegenwoordigers, teneinde de manier waarop het woord
-in plenaire vergadering wordt gevoerd anders te regelen (2149/1-2)
- Voorstel tot
-verwerping door de commissie voor het Reglement en voor de Hervorming van de
-parlementaire werkzaamheden van het voorstel tot wijziging van het Reglement
-van de Kamer van volksvertegenwoordigers, teneinde de manier waarop het woord
-in plenaire vergadering wordt gevoerd anders te regelen (2149/1-2)
- Voorstel tot
-verwerping door de commissie voor het Reglement en voor de Hervorming van de
-parlementaire werkzaamheden van het voorstel tot wijziging van het Reglement
-van de Kamer van volksvertegenwoordigers, teneinde de manier waarop het woord
-in plenaire vergadering wordt gevoerd anders te regelen (2149/1-2)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 17
-
-
-(Stemming/vote 16)
-
-(Stemming/vote 16)
-(Stemming/vote 16)
-(Stemming/vote 16)
-
-
-
-Ja
-
-
-94
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-
-94
-
-94
-94
-
-
-Oui
-
-Oui
-Oui
-
-
-
-Nee
-
-
-38
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-
-38
-
-38
-38
-
-
-Non
-
-Non
-Non
-
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-
-0
-
-0
-0
-
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-
-Totaal
-
-
-132
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-
-132
-
-132
-132
-
-
-Total
-
-Total
-Total
-
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de rejet. La proposition de modification du Règlement
-n° 2149/1 est donc rejetée. (2149/2)
-En conséquence, la Chambre adopte la
-proposition de rejet. La proposition de modification du Règlement
-n° 2149/1 est donc rejetée. 
-(2149/2)
-(2149/2)
-
-
-Bijgevolg neemt de Kamer het voorstel tot
-verwerping aan. Het voorstel tot wijziging van het Reglement nr. 2149/1 is
-dus verworpen. (2149/2)
-Bijgevolg neemt de Kamer het voorstel tot
-verwerping aan. Het voorstel tot wijziging van het Reglement nr. 2149/1 is
-dus verworpen. 
-(2149/2)
-(2149/2)
-
-
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? (Nee)
-(Nee)
-
- 
- 
- 
-40 Proposition de rejet faite par la commission des Affaires sociales, de
-l’Emploi et des Pensions de la proposition de loi modifiant la réglementation
-en vue de relever le montant de certaines prestations au niveau du seuil de
-pauvreté européen (473/1-5)
-40
-40
- Proposition de rejet faite par la commission des Affaires sociales, de
-l’Emploi et des Pensions de la proposition de loi modifiant la réglementation
-en vue de relever le montant de certaines prestations au niveau du seuil de
-pauvreté européen (473/1-5)
- Proposition de rejet faite par la commission des Affaires sociales, de
-l’Emploi et des Pensions de la proposition de loi modifiant la réglementation
-en vue de relever le montant de certaines prestations au niveau du seuil de
-pauvreté européen (473/1-5)
-
-40 Voorstel tot
-verwerping door de commissie voor Sociale Zaken, Werk en Pensioenen van het
-wetsvoorstel tot wijziging van de regelgeving met het oog op het optrekken van
-bepaalde uitkeringen tot op het niveau van de Europese armoedegrens (473/1-5)
-40
-40
-40
- Voorstel tot
-verwerping door de commissie voor Sociale Zaken, Werk en Pensioenen van het
-wetsvoorstel tot wijziging van de regelgeving met het oog op het optrekken van
-bepaalde uitkeringen tot op het niveau van de Europese armoedegrens (473/1-5)
- Voorstel tot
-verwerping door de commissie voor Sociale Zaken, Werk en Pensioenen van het
-wetsvoorstel tot wijziging van de regelgeving met het oog op het optrekken van
-bepaalde uitkeringen tot op het niveau van de Europese armoedegrens (473/1-5)
- Voorstel tot
-verwerping door de commissie voor Sociale Zaken, Werk en Pensioenen van het
-wetsvoorstel tot wijziging van de regelgeving met het oog op het optrekken van
-bepaalde uitkeringen tot op het niveau van de Europese armoedegrens (473/1-5)
-
-
- 
- 
- 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? (Non)
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? 
-(Non)
-(Non)
-
-
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-(Nee)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-Heeft
-iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié
-son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
+### Discussed proposals:
 
 Motion # 1.
 

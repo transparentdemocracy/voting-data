@@ -6,3448 +6,537 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip262.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip262x.html
 
-## Proposal 1
-
-
-Votes nominatifs
-Votes nominatifs
-
- 
- 
- 
-07.01  Catherine Fonck (Les
-Engagés): Madame la présidente, nous allons assurer les pairages suivants pour
-nos collègues malades: Maxime Prévot adaptera son vote pour Christophe Lacroix,
-Georges Dallemagne adaptera son vote pour Barbara Creemers et Josy Arens
-adaptera son vote pour Emmanuel Burton.
-07.01
-07.01
-  Catherine Fonck 
-  Catherine Fonck 
- 
-(Les
-Engagés): Madame la présidente, nous allons assurer les pairages suivants pour
-nos collègues malades: Maxime Prévot adaptera son vote pour Christophe Lacroix,
-Georges Dallemagne adaptera son vote pour Barbara Creemers et Josy Arens
-adaptera son vote pour Emmanuel Burton.
- 
- 
- 
-07.02  Sofie Merckx (PVDA-PTB):
-Madame la présidente, Roberto D'Amico va pairer avec Chanelle Bonaventure.
-07.02
-07.02
-  Sofie Merckx 
-  Sofie Merckx 
- 
-(PVDA-PTB):
-Madame la présidente, Roberto D'Amico va pairer avec Chanelle Bonaventure.
- 
- 
- 
-La présidente:
-Merci, mesdames.
-La présidente:
-Merci, mesdames.
-présidente
- 
- 
- 
-08 Motions déposées en conclusion de l'interpellation de M. Kurt Ravyts
-sur "Le rapport de la Cour des comptes européenne sur les énergies marines
-renouvelables dans l'UE" (n° 453)
-08
-08
- Motions déposées en conclusion de l'interpellation de M. Kurt Ravyts
-sur "Le rapport de la Cour des comptes européenne sur les énergies marines
-renouvelables dans l'UE" (n° 453)
- Motions déposées en conclusion de l'interpellation de M. Kurt Ravyts
-sur "Le rapport de la Cour des comptes européenne sur les énergies marines
-renouvelables dans l'UE" (n° 453)
-
-08 Moties ingediend tot besluit van de
-interpellatie van de heer Kurt Ravyts over "Het verslag van de Europese
-Rekenkamer over hernieuwbare offshore-energie in de EU" (nr. 453)
-08
-08
-08
- Moties ingediend tot besluit van de
-interpellatie van de heer Kurt Ravyts over "Het verslag van de Europese
-Rekenkamer over hernieuwbare offshore-energie in de EU" (nr. 453)
- Moties ingediend tot besluit van de
-interpellatie van de heer Kurt Ravyts over "Het verslag van de Europese
-Rekenkamer over hernieuwbare offshore-energie in de EU" (nr. 453)
- Moties ingediend tot besluit van de
-interpellatie van de heer Kurt Ravyts over "Het verslag van de Europese
-Rekenkamer over hernieuwbare offshore-energie in de EU" (nr. 453)
-
-
- 
- 
- 
-Cette
-interpellation a été développée en réunion publique de la commission de
-l'Énergie, de l'Environnement et du Climat du 26 septembre 2023.
-Cette
-interpellation a été développée en réunion publique de la commission de
-l'Énergie, de l'Environnement et du Climat du 26 septembre 2023.
-
-Deze
-interpellatie werd gehouden in de openbare vergadering van de commissie voor
-Energie, Leefmilieu en Klimaat van 26 september 2023.
-Deze
-interpellatie werd gehouden in de openbare vergadering van de commissie voor
-Energie, Leefmilieu en Klimaat van 26 september 2023.
-
- 
- 
- 
-Deux motions
-ont été déposées (MOT n° 453/1):
-Deux motions
-ont été déposées (MOT n° 453/1):
-
-- une
-motion de recommandation a été déposée par M. Kurt Ravyts;
-- une
-motion de recommandation a été déposée par M. Kurt Ravyts;
-
-- une
-motion pure et simple a été déposée par Mme Kim Buyst.
-- une
-motion pure et simple a été déposée par Mme Kim Buyst.
-
-Twee
-moties werden ingediend (MOT nr. 453/1):
-Twee
-moties werden ingediend (MOT nr. 453/1):
-
-- een
-motie van aanbeveling werd ingediend door de heer Kurt Ravyts;
-- een
-motie van aanbeveling werd ingediend door de heer Kurt Ravyts;
-
-- een
-eenvoudige motie werd ingediend door mevrouw Kim Buyst.
-- een
-eenvoudige motie werd ingediend door mevrouw Kim Buyst.
-
- 
- 
- 
-La motion
-pure et simple ayant la priorité de droit, je mets cette motion aux voix.
-La motion
-pure et simple ayant la priorité de droit, je mets cette motion aux voix.
-
-Daar de
-eenvoudige motie van rechtswege voorrang heeft, breng ik deze motie in
-stemming.
-Daar de
-eenvoudige motie van rechtswege voorrang heeft, breng ik deze motie in
-stemming.
-
- 
- 
- 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? 
-
-
-Vraagt
-iemand het woord voor een stemverklaring?
-Vraagt
-iemand het woord voor een stemverklaring?
-
- 
- 
- 
-08.01  Kurt Ravyts (VB):
-Mevrouw de voorzitster, beste collega's, mijn motie is bijzonder actueel. Deze
-week werd een milieuvergunning voor het energie-eiland toegekend, raakte bekend
-dat een derde energiezone binnen de Belgische territoriale wateren niet
-haalbaar is en stelden milieuorganisaties dat de door de RED III-richtlijn
-verplichte versnelling van de plaatsing van windmolens op zee en aan land
-rekening dient te houden met de ecosystemen en gepland dient te worden met en
-voor de bevolking.
-08.01
-08.01
-  Kurt Ravyts 
-  Kurt Ravyts 
- 
-(VB):
-Mevrouw de voorzitster, beste collega's, mijn motie is bijzonder actueel. Deze
-week werd een milieuvergunning voor het energie-eiland toegekend, raakte bekend
-dat een derde energiezone binnen de Belgische territoriale wateren niet
-haalbaar is en stelden milieuorganisaties dat de door de RED III-richtlijn
-verplichte versnelling van de plaatsing van windmolens op zee en aan land
-rekening dient te houden met de ecosystemen en gepland dient te worden met en
-voor de bevolking.
- 
- 
- 
-Op 18 september jongstleden publiceerde de
-EU-Rekenkamer een bijzonder verslag over de offshore ontwikkelingen in vier
-EU-landen, waaronder drie van onze buurlanden. De auditoren stellen dat
-ecologische en sociaal-economische gevolgen van de geplande snelle uitbreiding
-van offshore installaties in de EU in de vier betrokken landen niet naar
-behoren worden beoordeeld. Men waarschuwt voor cumulatieve milieueffecten van
-de geplande snelle uitbreiding en schetst tevens de reële mogelijkheid van
-bevoorradingsproblemen bij de voorziening van de voor het productieproces van
-de installaties noodzakelijke kritische grondstoffen.
-Op 18 september jongstleden publiceerde de
-EU-Rekenkamer een bijzonder verslag over de offshore ontwikkelingen in vier
-EU-landen, waaronder drie van onze buurlanden. De auditoren stellen dat
-ecologische en sociaal-economische gevolgen van de geplande snelle uitbreiding
-van offshore installaties in de EU in de vier betrokken landen niet naar
-behoren worden beoordeeld. Men waarschuwt voor cumulatieve milieueffecten van
-de geplande snelle uitbreiding en schetst tevens de reële mogelijkheid van
-bevoorradingsproblemen bij de voorziening van de voor het productieproces van
-de installaties noodzakelijke kritische grondstoffen.
- 
- 
- 
-De minister stelde dat rapport eerder als
-een aanmoediging voor dan als een waarschuwing en verwees naar de Belgische
-pioniersrol inzake de natuurinclusieve bouw en de monitoring van de gevolgen
-voor de biodiversiteit en het marien milieu.
-De minister stelde dat rapport eerder als
-een aanmoediging voor dan als een waarschuwing en verwees naar de Belgische
-pioniersrol inzake de natuurinclusieve bouw en de monitoring van de gevolgen
-voor de biodiversiteit en het marien milieu.
- 
- 
- 
-Tot slot, minister Van der Straeten heeft
-vorige week bij het Internationaal Energieagentschap op een bijeenkomst in
-Parijs gesteld dat België het potentieel heeft om een wereldleider te worden in
-het hergebruik van zeldzame aardmetalen. Wij roepen de regering in ieder geval
-op om alles in het werk te stellen om de mogelijkheden in de nieuwe Europese
-wetgeving rond kritieke grondstoffen te benutten. Ook voor het offshore
-gebeuren moeten de verschillende stadia van de waardeketen worden versterkt en
-de duurzame voorziening met kritieke grondstoffen worden gewaarborgd.
-Tot slot, minister Van der Straeten heeft
-vorige week bij het Internationaal Energieagentschap op een bijeenkomst in
-Parijs gesteld dat België het potentieel heeft om een wereldleider te worden in
-het hergebruik van zeldzame aardmetalen. Wij roepen de regering in ieder geval
-op om alles in het werk te stellen om de mogelijkheden in de nieuwe Europese
-wetgeving rond kritieke grondstoffen te benutten. Ook voor het offshore
-gebeuren moeten de verschillende stadia van de waardeketen worden versterkt en
-de duurzame voorziening met kritieke grondstoffen worden gewaarborgd.
- 
- 
- 
-Collega's, ik ben ervan overtuigd dat u mijn
-zeer constructieve motie – u kent mij – met een ruime meerderheid
-zult goedkeuren.
-Collega's, ik ben ervan overtuigd dat u mijn
-zeer constructieve motie – u kent mij – met een ruime meerderheid
-zult goedkeuren.
- 
- 
- 
-La présidente: Début du vote /
-Begin van de stemming.
-La présidente: 
-présidente
-Début du vote /
-Begin van de stemming.
+## Proposal discussion (agenda item 1)
 
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
+### Description in Dutch:
 
-Fin du vote / Einde van de stemming.
-Fin du vote / Einde van de stemming.
-Résultat du vote / Uitslag van de stemming.
-Résultat du vote / Uitslag van de stemming.
- 
- 
- 
+Proposition déposée par:
 
-## Proposal 2
+Voorstel ingediend door:
 
+André Flahaut, Christophe Lacroix, Guillaume Defossé, Els Van Hoof, Vicky Reynaert, Wouter De Vriendt, Christophe Bombled, Michel De Maegd.
 
-(Stemming/vote 1)
 
-(Stemming/vote 1)
-(Stemming/vote 1)
-(Stemming/vote 1)
 
+Discussion
 
+Bespreking
 
-Ja
 
 
-84
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2406/4)
 
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (2406/4)
 
-Oui
 
 
+L’intitulé a été modifié par la commission en "proposition de résolution relative à l'aide à apporter aux victimes de l'utilisation de l'Agent orange durant la guerre du Vietnam".
 
-Ja
+Het opschrift werd door de commissie gewijzigd in "voorstel van resolutie over de noodzakelijke steun aan de slachtoffers van het inzetten van Agent Orange tijdens de oorlog in Vietnam".
 
-Ja
-Ja
 
-84
 
-84
-84
+La discussion est ouverte.
 
-Oui
+De bespreking is geopend.
 
-Oui
-Oui
 
 
+Mme Goedele Liekens, rapporteur, renvoie au rapport écrit.
 
-Nee
 
 
-47
+01.01  André Flahaut (PS): Madame la présidente, chers collègues, je vais aller à l’essentiel, pour essayer de gagner un peu de temps, même si le problème n’est pas si simple que cela.
 
 
-Non
 
+Tout d’abord, je voudrais remercier les membres de la commission qui ont accepté à l’unanimité, si j’ai bien compris, cette résolution, qui vise, 50 ans après les tragédies de la guerre du Vietnam, à mettre en évidence un problème qui subsiste depuis la fin de cette guerre. Malgré les évolutions, les déclarations, quelquefois les accords et les conventions, et les reconnaissances, excuses et demandes de pardon et/ou de reconstruction, on ne peut pas oublier les drames.
 
 
-Nee
 
-Nee
-Nee
+Entre 1961 et 1971, des produits chimiques très toxiques ont été utilisés et déversés par les forces militaires américaines sur le territoire vietnamien, et en particulier sur le centre et le sud du pays: 77 millions de litres de différents défoliants sur 2,6 millions d’hectares, soit 10 % de la superficie du Vietnam au sud du 17e parallèle. Entre 2 et 4 millions de personnes vivant dans 20 000 villages ont été touchées par ce qui était en fait de la dioxine, et qu’on a après plus tard appelé "l’Agent orange".
 
 
-47
 
-47
-47
+Les produits répandus par opération aérienne visaient ainsi à détruire durablement la couverture végétale des régions aspergées, et priver ainsi les populations et les combattants vietnamiens de toute possibilité de se dissimuler. Il n’était aussi plus possible de cultiver ces terres.
 
 
-Non
 
-Non
-Non
+Ensuite, des décisions ont été prises sans tenir compte des conséquences dramatiques de ces épandages. Plusieurs années après, des malformations imputées à cette contamination sont apparues.
 
 
 
-Onthoudingen
+J’ai eu l’occasion d’aller au Vietnam. J’ai notamment eu l’occasion de découvrir la cité de l’amitié, qui héberge une série de victimes qui, trois ou quatre générations après, sont encore atteintes de malformations très difficiles à supporter du regard. Il y a là un problème sur le plan humain que nous ne pouvons pas oublier.
 
 
-2
 
+Ces personnes qui ont été exposées directement sont donc victimes de cette guerre. Ce qu’il faut savoir, c’est que les militaires américains, eux, ont été indemnisés. Lorsque les victimes vietnamiennes ont demandé cette indemnisation, on leur a répondu que ce n’était pas possible. Elles n’ont donc pas été indemnisées. Des experts disent aujourd’hui que c’est pratiquement le plus grand écocide perpétré au XXe siècle.
 
-Abstentions
 
-
-
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
-
-2
-
-2
-2
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-133
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-133
-
-133
-133
-
-Total
-
-Total
-Total
-
- 
- 
- 
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
-
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
-
- 
- 
- 
-09 Motions déposées en conclusion de l'interpellation de M. Michael
-Freilich sur "La connaissance préalable concernant la reprise des Press
-Shops de bpost par un groupe de casinos" (n° 457)
-09
-09
- Motions déposées en conclusion de l'interpellation de M. Michael
-Freilich sur "La connaissance préalable concernant la reprise des Press
-Shops de bpost par un groupe de casinos" (n° 457)
- Motions déposées en conclusion de l'interpellation de M. Michael
-Freilich sur "La connaissance préalable concernant la reprise des Press
-Shops de bpost par un groupe de casinos" (n° 457)
-
-09 Moties ingediend tot besluit van de
-interpellatie van de heer Michael Freilich over "De voorkennis aangaande
-de overname van de Press Shops van bpost door een casinogroep"
-(nr. 457)
-09
-09
-09
- Moties ingediend tot besluit van de
-interpellatie van de heer Michael Freilich over "De voorkennis aangaande
-de overname van de Press Shops van bpost door een casinogroep"
-(nr. 457)
- Moties ingediend tot besluit van de
-interpellatie van de heer Michael Freilich over "De voorkennis aangaande
-de overname van de Press Shops van bpost door een casinogroep"
-(nr. 457)
- Moties ingediend tot besluit van de
-interpellatie van de heer Michael Freilich over "De voorkennis aangaande
-de overname van de Press Shops van bpost door een casinogroep"
-(nr. 457)
-
-
- 
- 
- 
-Cette
-interpellation a été développée en séance plénière de ce jour.
-Cette
-interpellation a été développée en séance plénière de ce jour.
-
-Deze
-interpellatie werd gehouden in de plenaire vergadering
-van heden.
-Deze
-interpellatie werd gehouden 
-in de plenaire vergadering
-van heden
-.
-
- 
- 
- 
-Deux motions
-ont été déposées (MOT n° 457/1):
-Deux motions
-ont été déposées (MOT n° 457/1):
-
-- une
-motion de recommandation a été déposée par M. Michael Freilich;
-- une
-motion de recommandation a été déposée par M. Michael Freilich;
-
-- une
-motion pure et simple a été déposée par Mmes Maggie
-De Block et Melissa Depraetere et MM. Jean-Marc Delizée, Servais Verherstraeten, Benoît Piedboeuf et Wouter De Vriendt.
-- une
-motion pure et simple a été déposée 
-par Mmes Maggie
-De Block et Melissa Depraetere et MM. 
-Jean-Marc Delizée,
- Servais Verherstraeten, 
-Benoît Piedboeuf et Wouter De Vriendt
-.
-
-Twee
-moties werden ingediend (MOT nr. 457/1):
-Twee
-moties werden ingediend (MOT nr. 457/1):
-
-- een
-motie van aanbeveling werd ingediend door de heer Michael Freilich;
-- een
-motie van aanbeveling werd ingediend door de heer Michael Freilich;
-
-- een
-eenvoudige motie werd ingediend door de dames Maggie
-De Block en Melissa Depraetere en de heren Jean-Marc Delizée, Servais
-Verherstraeten, Benoît Piedboeuf en Wouter De Vriendt.
-- een
-eenvoudige motie werd ingediend 
-door de dames Maggie
-De Block en Melissa Depraetere en de heren Jean-Marc Delizée, Servais
-Verherstraeten, Benoît Piedboeuf en Wouter De Vriendt
-.
+Face à cela, il nous est apparu que des mesures devaient être prises pour protéger ces populations touchées, pour aider à traiter ces personnes mais aussi pour restaurer l’environnement. L’État américain a été la première entité mise en cause par ses propres militaires victimes des conséquences de l’Agent orange, mais comme l’État américain bénéficie d’une immunité de juridiction pour tout acte commis en temps de guerre, les vétérans américains ont été indemnisés non pas par l’État américain mais par les entreprises comme Monsanto. Aujourd’hui, des victimes sont encore devant les tribunaux pour tenter d’obtenir de ces multinationales une forme de reconnaissance et d’indemnisation.
 
- 
- 
- 
-La motion
-pure et simple ayant la priorité de droit, je mets cette motion aux voix.
-La motion
-pure et simple ayant la priorité de droit, je mets cette motion aux voix.
 
-Daar de
-eenvoudige motie van rechtswege voorrang heeft, breng ik deze motie in
-stemming.
-Daar de
-eenvoudige motie van rechtswege voorrang heeft, breng ik deze motie in
-stemming.
 
- 
- 
- 
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? (Non)
-Quelqu'un
-demande-t-il la parole pour une déclaration avant le vote? 
-(Non)
-(Non)
+C’est dans ce contexte qu’à cette date anniversaire, il nous apparaissait important d’attirer l’attention sur cette situation, de rétablir les vérités de responsabilités et quelque part aussi de demander au gouvernement belge que dans les relations diplomatiques bilatérales, on accentue la demande d’une reconsidération de l’aide humanitaire, notamment de la part des États-Unis et des entreprises productrices de défoliants.
 
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-Vraagt
-iemand het woord voor een stemverklaring? (Nee)
-(Nee)
 
- 
- 
- 
-Début du vote /
-Begin van de stemming.
-Début du vote /
-Begin van de stemming.
 
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
-Tout le monde a-t-il
-voté et vérifié son vote? / Heeft iedereen gestemd en zijn stem nagekeken?
+L'Union européenne pourrait également intégrer cette problématique dans sa réflexion.
 
-Fin du vote / Einde van de stemming.
-Fin du vote / Einde van de stemming.
-Résultat du vote / Uitslag van de stemming.
-Résultat du vote / Uitslag van de stemming.
- 
- 
- 
 
-## Proposal 3
 
+Par ailleurs, je relève une anomalie. Seules les entreprises américaines peuvent obtenir les marchés pour assainir les sols. Or, l'assainissement des sols opéré par les entreprises américaines n'est pas suffisant. Il est trop superficiel. Cela crée de la poussière qui retombe sur le terrain et c'est comme si on n'avait rien fait. Il faut pouvoir ouvrir la possibilité d'assainissement à d'autres entreprises spécialisées. Notre pays compte des entreprises spécialisées qui pourraient assainir ces terrains de façon durable et en grande profondeur. On pourrait donc faire la demande d'ouvrir cette possibilité et d'aider ces populations.
 
-(Stemming/vote 2)
 
-(Stemming/vote 2)
-(Stemming/vote 2)
-(Stemming/vote 2)
 
+Je remercie encore le rapporteur et les collègues pour avoir contribué à l'amélioration du texte initial.
 
 
-Ja
 
+01.02  Michel De Maegd (MR): Madame la présidente, chers collègues, durant un déplacement au Vietnam fin août au sein d'une délégation de députés et de sénateurs belges, dont la présidente du Sénat, nous avons eu l'occasion de rencontrer les autorités vietnamiennes comme des membres de la société civile et nous avons pu échanger sur différentes questions, ce qui est évidemment l'objectif de ce genre de déplacement de nature politique. Un thème est revenu systématiquement, madame la présidente. Il s'agit de la résolution de M. André Flahaut que nous allons voter en séance, je l'espère à l'unanimité comme ce fut le cas en commission.
 
-79
 
 
-Oui
+Alors, chers collègues, on peut sourire ou ironiser sur certaines résolutions droit-de-l'hommistes ou idéalistes. Mais, lorsque les personnes concernées par le sujet d'une de nos résolutions ou les autorités d'un pays concerné manifestent leur intérêt pour la position de la Belgique, une position en pointe, nous pouvons, je pense, être fiers de nos travaux.
 
 
 
-Ja
+Le Vietnam a besoin d'une aide à long terme concernant la lutte contre les ravages causés par l'Agent orange sur son sol. André Flahaut l'a explicité de manière claire. La nature, les êtres humains et sans doute les faunes sont touches depuis cinquante ans de façon structurelle par les effets de ce produit toxique. Les cours d'eau, les nappes phréatiques et l'agriculture du pays sont impactés de façon malheureusement extrêmement durable et les zones identifiées comme contaminées sont très nombreuses.
 
-Ja
-Ja
 
-79
 
-79
-79
+Le Vietnam a besoin d'une aide coordonnée, lisible et efficace pendant non pas des années mais des décennies. Je songe à une aide publique à travers les canaux classiques des organismes publics nationaux et internationaux, une aide privée à travers les entreprises américaines concernées mais aussi une aide au niveau de la recherche et de moyens technologiques nouveaux.
 
-Oui
 
-Oui
-Oui
 
+Une entreprise belge est à la pointe sur ce dossier. Nous avons auditionné M. Jan Haemers, CEO de Haemers Technologies. À mon sens, cette entreprise basée à Bruxelles doit être soutenue.
 
 
-Nee
 
+Ce dossier de l'Agent orange au Vietnam doit nous pousser à réfléchir à la manière dont nous traitons les conséquences écologiques des conflits. Nous le voyons en Ukraine, où la faune et la flore sont impactées, où des barrages sont détruits, où des terres agricoles seront impropres à la culture, où des cours d'eau seront souillés par des huiles non recyclées, où des sites industriels sont bombardés. Cette dimension doit être introduite dans des accords de paix.
 
-52
 
 
-Non
+C'est dans cette perspective que mon groupe soutiendra cette proposition de résolution, que j'ai eu le plaisir de cosigner.
 
 
 
-Nee
+01.03  Els Van Hoof (cd&v): Mevrouw de voorzitster, in eerste instantie wil ik collega Flahaut bedanken voor de indiening van onderhavig voorstel van resolutie.
 
-Nee
-Nee
 
 
-52
+Miljoenen mensen werden rechtstreeks slachtoffer van Agent Orange in Vietnam. Bovendien zal men er decennialang nog de effecten van het gebruik van Agent Orange, zoals ziektes, misvormingen en vervuilde gronden voelen. Er zijn dus absoluut maatregelen nodig om ook vandaag nog maatregelen te nemen om de bevolking te beschermen, de aandoeningen van de slachtoffers van de toxische producten te behandelen en het milieu te herstellen.
 
-52
-52
 
 
-Non
+België kan daarin inderdaad een rol opnemen, ook al is Vietnam geen partnerland. Door de hoorzittingen ben ik ervan overtuigd geraakt – daarom heeft cd&v ook een amendement ingediend – dat innovatieve technologieën Agent Orange kunnen elimineren. België is daar heel sterk in; ik verwijs naar de firma Haemers Technologies. De zending in augustus heeft ons geleerd dat het bedrijf heel hoog aangeschreven staat voor zijn technologie waarmee het efficiënt Agent Orange uit de bodem kan halen. Wij moeten die veelbelovende innovatieve technologieën zeker ondersteunen.
 
-Non
-Non
 
 
+Dat kunnen we niet met rechtstreekse financiering noch via een ontwikkelingsprogramma. Misschien kunnen we via onze diplomatieke contacten ervoor zorgen dat de VS oog krijgen voor die efficiënte technologie van de firma Haemers Technologies, die ook een filiaal in de VS geopend heeft. Zo kan België een rol spelen in de bodemsanering en de verwijdering van Agent Orange, waardoor niet alleen mensenlevens, maar ook het milieu worden gered.
 
-Onthoudingen
 
 
-4
+Wij hechten ook veel belang aan onze relaties met Vietnam. Wij zijn vertrokken voor nog eens 50 jaar diplomatieke betrekkingen. Uit de hoorzitting bleek alvast dat Vietnam alle steun vanuit België aanvaardt om de bevolking aldaar te beschermen tegen het effect van de gebruikte toxische stoffen, onder andere Agent Orange.
 
 
-Abstentions
 
+Onze fractie zal uiteraard het voorstel van resolutie goedkeuren.
 
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
+01.04  Steven De Vuyst (PVDA-PTB): Mevrouw de voorzitster, ik feliciteer graag collega Flahaut met onderhavig uitstekende initiatief, ook al lag de oorspronkelijke tekst, zeker wat de verzoeken betreft, ons beter. Door de ‘vivaldisering’ van het voorstel van resolutie zijn de verzoeken na amendering toch wel wat afgezwakt.
 
-4
 
-4
-4
 
-Abstentions
+In het eerste verzoek van de oorspronkelijke tekst werden de Verenigde Staten, onze zelfverklaarde bondgenoot, bilateraal en de bedrijven die de Agent Orange fabriceerden en aanleverden, verzocht hun verantwoordelijkheid te nemen, de aangebrachte schade volledig te herstellen en de sanering van alle gronden waar de Amerikaanse strijdkrachten het goedje tijdens de Vietnamoorlog hebben gebruikt, te bekostigen. Dat hadden wij heel graag teruggezien in de tekst. In die zin is hij jammer genoeg een beetje afgezwakt.
 
-Abstentions
-Abstentions
 
 
-Totaal
+Een belangrijk facet van het gebruik van Agent Orange blijft toch ietwat onderbelicht: eigenlijk is de inzet van dat gruwelijk oorlogswapen een oorlogsmisdaad. De Amerikanen waren ook niet aan hun proefstuk toe, ze hebben meerdere oorlogsmisdaden gepleegd. Ze hebben meerdere verschrikkelijke en wansmakelijke oorlogswapens ingezet. Dat heeft het Vietnamese volk tien jaar lang moeten ondergaan. Ook dat hadden we heel graag in de tekst beklemtoond gezien en in die zin hadden we de tekst toch wat ruimer gezien.
 
 
-135
 
+Ik breng nog even het bloedbad van Mỹ Lai in herinnering. Meer dan 500 burgers, vooral vrouwen en kinderen, werden toen gemarteld, verkracht en vermoord. Uit getuigenissen van soldaten blijkt dat, ook al springt het bloedbad van Mỹ Lai eruit door het hoge aantal slachtoffers, dergelijke slachtpartijen elke maand gebeurden.
 
-Total
 
 
+Het totaal aantal gedode Vietnamezen in 1961 in de regio van Mỹ Lai werd op 50.000 geschat. Zo goed als alle mannen werden als strijder genoteerd, terwijl het eigenlijk hoofdzakelijk gewone dorpelingen waren. Dat was een onderdeel geworden van de Amerikaanse militaire doctrine van dat moment, search and destroy. Voor het Pentagon was vooral van belang dat zo veel mogelijk mensen werden vermoord; het ging vooral om de body counts.
 
-Totaal
 
-Totaal
-Totaal
 
-135
+Nadat de Amerikanen de oorlog hadden verloren, bleven er heel wat landmijnen achter. Dat heeft nog tot op vandaag gevolgen. Nog steeds sterven mensen, omdat ze per ongeluk op een achtergebleven landmijn stappen. In 2016, meer dan 40 jaar na het einde van de oorlog, lagen er nog mijnen en andere niet-ontplofte munitie in 6,1 miljoen hectare grondgebied of 18 % van het totaal.
 
-135
-135
 
-Total
 
-Total
-Total
+We mogen ook het massale gebruik van napalm niet vergeten. Dat vloeibaar vuur werd op grote schaal ingezet tegen allerlei doelwitten, zowel militaire doelwitten als dorpen. We herinneren ons allemaal wel het iconische beeld van het vluchtende meisje nadat haar dorp werd gebombardeerd met napalm, een foto genomen door fotograaf Nick Ut. Tijdens die grootschalige bombardementen vielen er heel wat burgerslachtoffers. Er waren ook conventionele bombardementen. De Amerikanen hebben in die tien jaar meer bommen gedropt dan in de Tweede Wereldoorlog.
 
- 
- 
- 
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
-La motion
-pure et simple est adoptée. Par conséquent, la motion de recommandation est
-caduque.
 
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
-De
-eenvoudige motie is aangenomen. Bijgevolg vervalt de motie van aanbeveling.
 
- 
- 
- 
-10 Amendements et article réservés du projet de loi visant à renforcer la
-politique fédérale de lutte contre la pauvreté (3528/1-5)
-10
-10
- Amendements et article réservés du projet de loi visant à renforcer la
-politique fédérale de lutte contre la pauvreté (3528/1-5)
- Amendements et article réservés du projet de loi visant à renforcer la
-politique fédérale de lutte contre la pauvreté (3528/1-5)
+Waarom is het belangrijk om dat aspect mee te nemen? Zo maakt men duidelijk dat het gebruik van Agent Orange door het Amerikaanse leger geen uitzondering was. Men pleegde oorlogsmisdaden gedurende lange tijd, op grote schaal en op alle mogelijke manieren. Het oorlogsrecht was nochtans toen ook al van kracht. De Conventie van Genève stelt dat wapens geen niet-discriminerend karakter mogen hebben. Met andere woorden, wapens moeten zodanig worden ingezet dat burgers worden ontzien. Dat is net dat wat de Amerikanen hebben nagelaten te doen. Het was zelfs een bewuste strategie om dorpelingen niet te ontzien. Landmijnen, Agent Orange, napalm en grootschalige bombardementen, al die smeerlapperij ontzag niets of niemand. De Verenigde Staten pleegden minstens tien jaar lang oorlogsmisdaden en misdaden tegen de menselijkheid.
 
-10 Aangehouden
-amendementen en artikel van het wetsontwerp tot versterking van het federale
-armoedebeleid (3528/1-5)
-10
-10
-10
- Aangehouden
-amendementen en artikel van het wetsontwerp tot versterking van het federale
-armoedebeleid (3528/1-5)
- Aangehouden
-amendementen en artikel van het wetsontwerp tot versterking van het federale
-armoedebeleid (3528/1-5)
- Aangehouden
-amendementen en artikel van het wetsontwerp tot versterking van het federale
-armoedebeleid (3528/1-5)
 
 
- 
- 
- 
-Vote sur l'amendement n° 10 de Gaby
-Colebunders à l'article 12. (3528/5)
-Vote sur l'amendement n° 10 de Gaby
-Colebunders à l'article 12. 
-(3528/5)
-(3528/5)
+In die zin is het voorstel van resolutie inderdaad een stap in de goede richting, waarmee België onze zelfverklaarde bondgenoot aanspoort om zijn verantwoordelijkheid voor de ravage en het aangerichte menselijk leed in Vietnam te erkennen. Wat ons betreft, moeten zij blijvend aansprakelijk en verantwoordelijk worden gesteld voor de kosten van de sanering van de door Agent Orange gecontamineerde gronden.
 
-Stemming over amendement nr. 10 van
-Gaby Colebunders op artikel 12. (3528/5)
-Stemming over amendement nr. 10 van
-Gaby Colebunders op artikel 12. (3528/5)
-(3528/5)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+De PVDA-PTB-fractie zal het voorstel van resolutie steunen en verwelkomt die als de noodzakelijke eerste stap om de Verenigde Staten aan hun verantwoordelijkheid te blijven herinneren.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+01.05  Georges Dallemagne (Les Engagés): Madame la présidente, au nom de mon groupe, je me réjouis de l'adoption – je l'espère à l'unanimité – de cette proposition de résolution tout à l'heure. J'en félicite les auteurs, en particulier M. Flahaut.
 
-## Proposal 4
 
 
-(Stemming/vote 3)
+Tout le monde a encore en tête la crise de la dioxine qui avait affecté notre pays en 1999, ses impacts très lourds sur le secteur agricole et sa propagation par des farines animales. Cette crise avait ensuite donné lieu à la création de l'AFSCA. Tout le monde a aussi gardé en mémoire la catastrophe de Seveso, en Italie, également liée à l'émission massive de dioxine. Mais qui se souvient de l'Agent orange? On a presque oublié les bombardements massifs par l'armée américaine au Vietnam dans les années 60, qui dévastèrent des milliers de mètres carrés de forêt par des défoliants à base de concentrations massives de dioxine. Vingt mille villages avaient été affectés et plusieurs millions de personnes avaient été touchées par ces bombardements qui seraient certainement aujourd'hui qualifiés de crimes de guerre. Ce fut une immense catastrophe écologique et sanitaire, dont les populations locales paient encore le prix aujourd'hui.
 
-(Stemming/vote 3)
-(Stemming/vote 3)
-(Stemming/vote 3)
 
 
+Cette catastrophe immense, ce crime d'écocide est largement tombé dans l'oubli. La résolution que nous adopterons tout à l'heure a le mérite de rappeler que les conséquences dramatiques de ces épandages massifs pèsent encore lourdement sur les populations touchées et leurs descendants.
 
-Ja
 
 
-10
+Mais ce texte fait mieux, en encourageant notre pays – en coordination avec les autorités vietnamiennes et avec la communauté internationale – à intensifier l'aide aux personnes dont la santé est encore gravement affectée, à accélérer la dépollution des sols, à poursuivre la recherche et l'innovation dans ces domaines.
 
 
-Oui
 
+J'espère donc, chers collègues, que le vote de cette proposition de résolution incitera notre gouvernement à intensifier sa coopération et ses relations avec le Vietnam. En effet, au-delà de la question gravissime de l'Agent orange, l'Union européenne, notre pays et le Vietnam ont des intérêts convergents de sécurité, économiques et sociaux qu'il convient de renforcer – sans occulter néanmoins les enjeux relatifs aux libertés fondamentales. Je vous remercie.
 
 
-Ja
 
-Ja
-Ja
+01.06  André Flahaut (PS): Madame la présidente, ce n'est pas une réplique. Je souhaite simplement préciser que c'est une première mondiale. Aucun Parlement au monde n'a pris de résolution comme celle-là pour le Vietnam. Lorsque nous sommes les premiers à prendre une initiative mondiale, il est important de le souligner.
 
-10
 
-10
-10
 
-Oui
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
-Oui
-Oui
+Vraagt nog iemand het woord? (Nee)
 
 
-Nee
 
+La discussion est close.
 
-119
+De bespreking is gesloten.
 
 
-Non
 
+Aucun amendement n'a été déposé.
 
+Er werden geen amendementen ingediend.
 
-Nee
 
-Nee
-Nee
 
-119
+Le vote sur la proposition aura lieu ultérieurement.
 
-119
-119
+De stemming over het voorstel zal later plaatsvinden.
 
-Non
+### Description in French:
 
-Non
-Non
+Proposition déposée par:
 
+Voorstel ingediend door:
 
-Onthoudingen
+André Flahaut, Christophe Lacroix, Guillaume Defossé, Els Van Hoof, Vicky Reynaert, Wouter De Vriendt, Christophe Bombled, Michel De Maegd.
 
 
-6
 
+Discussion
 
-Abstentions
+Bespreking
 
 
 
-Onthoudingen
+Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2406/4)
 
-Onthoudingen
-Onthoudingen
+De door de commissie aangenomen tekst geldt als basis voor de bespreking (Rgt 85, 4) (2406/4)
 
-6
 
-6
-6
 
-Abstentions
+L’intitulé a été modifié par la commission en "proposition de résolution relative à l'aide à apporter aux victimes de l'utilisation de l'Agent orange durant la guerre du Vietnam".
 
-Abstentions
-Abstentions
+Het opschrift werd door de commissie gewijzigd in "voorstel van resolutie over de noodzakelijke steun aan de slachtoffers van het inzetten van Agent Orange tijdens de oorlog in Vietnam".
 
 
-Totaal
 
+La discussion est ouverte.
 
-135
+De bespreking is geopend.
 
 
-Total
 
+Mme Goedele Liekens, rapporteur, renvoie au rapport écrit.
 
 
-Totaal
 
-Totaal
-Totaal
+01.01  André Flahaut (PS): Madame la présidente, chers collègues, je vais aller à l’essentiel, pour essayer de gagner un peu de temps, même si le problème n’est pas si simple que cela.
 
-135
 
-135
-135
 
-Total
+Tout d’abord, je voudrais remercier les membres de la commission qui ont accepté à l’unanimité, si j’ai bien compris, cette résolution, qui vise, 50 ans après les tragédies de la guerre du Vietnam, à mettre en évidence un problème qui subsiste depuis la fin de cette guerre. Malgré les évolutions, les déclarations, quelquefois les accords et les conventions, et les reconnaissances, excuses et demandes de pardon et/ou de reconstruction, on ne peut pas oublier les drames.
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté et
-l’article 12 est adopté.
-En conséquence, l'amendement est rejeté et
-l’article 12 est adopté.
-Bijgevolg is het amendement verworpen en is
-artikel 12 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 12 aangenomen.
- 
- 
- 
-Vote sur l'amendement n° 11 de Gaby
-Colebunders tendant à insérer un article 12/1(n). (3528/5)
-Vote sur l'amendement n° 11 de Gaby
-Colebunders tendant à insérer un article 12/1(n). 
-(3528/5)
-(3528/5)
 
-Stemming over amendement nr. 11 van
-Gaby Colebunders tot invoeging van een artikel 12/1(n). (3528/5)
-Stemming over amendement nr. 11 van
-Gaby Colebunders tot invoeging van een artikel 12/1(n). 
-(3528/5)
-(3528/5)
 
- 
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
+Entre 1961 et 1971, des produits chimiques très toxiques ont été utilisés et déversés par les forces militaires américaines sur le territoire vietnamien, et en particulier sur le centre et le sud du pays: 77 millions de litres de différents défoliants sur 2,6 millions d’hectares, soit 10 % de la superficie du Vietnam au sud du 17e parallèle. Entre 2 et 4 millions de personnes vivant dans 20 000 villages ont été touchées par ce qui était en fait de la dioxine, et qu’on a après plus tard appelé "l’Agent orange".
 
 
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
 
- 
- 
- 
- 
-(Vote/stemming 3)
- 
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
+Les produits répandus par opération aérienne visaient ainsi à détruire durablement la couverture végétale des régions aspergées, et priver ainsi les populations et les combattants vietnamiens de toute possibilité de se dissimuler. Il n’était aussi plus possible de cultiver ces terres.
 
- 
- 
- 
-11 Ensemble du projet de loi visant à renforcer la politique fédérale de
-lutte contre la pauvreté (3528/1)
-11
-11
- Ensemble du projet de loi visant à renforcer la politique fédérale de
-lutte contre la pauvreté (3528/1)
- Ensemble du projet de loi visant à renforcer la politique fédérale de
-lutte contre la pauvreté (3528/1)
 
-11 Geheel van het
-wetsontwerp tot versterking van het federale armoedebeleid (3528/1)
-11
-11
-11
- Geheel van het
-wetsontwerp tot versterking van het federale armoedebeleid (3528/1)
- Geheel van het
-wetsontwerp tot versterking van het federale armoedebeleid (3528/1)
- Geheel van het
-wetsontwerp tot versterking van het federale armoedebeleid (3528/1)
 
+Ensuite, des décisions ont été prises sans tenir compte des conséquences dramatiques de ces épandages. Plusieurs années après, des malformations imputées à cette contamination sont apparues.
 
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
 
 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+J’ai eu l’occasion d’aller au Vietnam. J’ai notamment eu l’occasion de découvrir la cité de l’amitié, qui héberge une série de victimes qui, trois ou quatre générations après, sont encore atteintes de malformations très difficiles à supporter du regard. Il y a là un problème sur le plan humain que nous ne pouvons pas oublier.
 
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+Ces personnes qui ont été exposées directement sont donc victimes de cette guerre. Ce qu’il faut savoir, c’est que les militaires américains, eux, ont été indemnisés. Lorsque les victimes vietnamiennes ont demandé cette indemnisation, on leur a répondu que ce n’était pas possible. Elles n’ont donc pas été indemnisées. Des experts disent aujourd’hui que c’est pratiquement le plus grand écocide perpétré au XXe siècle.
 
- 
- 
- 
 
-## Proposal 5
 
+Face à cela, il nous est apparu que des mesures devaient être prises pour protéger ces populations touchées, pour aider à traiter ces personnes mais aussi pour restaurer l’environnement. L’État américain a été la première entité mise en cause par ses propres militaires victimes des conséquences de l’Agent orange, mais comme l’État américain bénéficie d’une immunité de juridiction pour tout acte commis en temps de guerre, les vétérans américains ont été indemnisés non pas par l’État américain mais par les entreprises comme Monsanto. Aujourd’hui, des victimes sont encore devant les tribunaux pour tenter d’obtenir de ces multinationales une forme de reconnaissance et d’indemnisation.
 
-(Stemming/vote 4)
 
-(Stemming/vote 4)
-(Stemming/vote 4)
-(Stemming/vote 4)
 
+C’est dans ce contexte qu’à cette date anniversaire, il nous apparaissait important d’attirer l’attention sur cette situation, de rétablir les vérités de responsabilités et quelque part aussi de demander au gouvernement belge que dans les relations diplomatiques bilatérales, on accentue la demande d’une reconsidération de l’aide humanitaire, notamment de la part des États-Unis et des entreprises productrices de défoliants.
 
 
-Ja
 
+L'Union européenne pourrait également intégrer cette problématique dans sa réflexion.
 
-111
 
 
-Oui
+Par ailleurs, je relève une anomalie. Seules les entreprises américaines peuvent obtenir les marchés pour assainir les sols. Or, l'assainissement des sols opéré par les entreprises américaines n'est pas suffisant. Il est trop superficiel. Cela crée de la poussière qui retombe sur le terrain et c'est comme si on n'avait rien fait. Il faut pouvoir ouvrir la possibilité d'assainissement à d'autres entreprises spécialisées. Notre pays compte des entreprises spécialisées qui pourraient assainir ces terrains de façon durable et en grande profondeur. On pourrait donc faire la demande d'ouvrir cette possibilité et d'aider ces populations.
 
 
 
-Ja
+Je remercie encore le rapporteur et les collègues pour avoir contribué à l'amélioration du texte initial.
 
-Ja
-Ja
 
-111
 
-111
-111
+01.02  Michel De Maegd (MR): Madame la présidente, chers collègues, durant un déplacement au Vietnam fin août au sein d'une délégation de députés et de sénateurs belges, dont la présidente du Sénat, nous avons eu l'occasion de rencontrer les autorités vietnamiennes comme des membres de la société civile et nous avons pu échanger sur différentes questions, ce qui est évidemment l'objectif de ce genre de déplacement de nature politique. Un thème est revenu systématiquement, madame la présidente. Il s'agit de la résolution de M. André Flahaut que nous allons voter en séance, je l'espère à l'unanimité comme ce fut le cas en commission.
 
-Oui
 
-Oui
-Oui
 
+Alors, chers collègues, on peut sourire ou ironiser sur certaines résolutions droit-de-l'hommistes ou idéalistes. Mais, lorsque les personnes concernées par le sujet d'une de nos résolutions ou les autorités d'un pays concerné manifestent leur intérêt pour la position de la Belgique, une position en pointe, nous pouvons, je pense, être fiers de nos travaux.
 
-Nee
 
 
-0
+Le Vietnam a besoin d'une aide à long terme concernant la lutte contre les ravages causés par l'Agent orange sur son sol. André Flahaut l'a explicité de manière claire. La nature, les êtres humains et sans doute les faunes sont touches depuis cinquante ans de façon structurelle par les effets de ce produit toxique. Les cours d'eau, les nappes phréatiques et l'agriculture du pays sont impactés de façon malheureusement extrêmement durable et les zones identifiées comme contaminées sont très nombreuses.
 
 
-Non
 
+Le Vietnam a besoin d'une aide coordonnée, lisible et efficace pendant non pas des années mais des décennies. Je songe à une aide publique à travers les canaux classiques des organismes publics nationaux et internationaux, une aide privée à travers les entreprises américaines concernées mais aussi une aide au niveau de la recherche et de moyens technologiques nouveaux.
 
 
-Nee
 
-Nee
-Nee
+Une entreprise belge est à la pointe sur ce dossier. Nous avons auditionné M. Jan Haemers, CEO de Haemers Technologies. À mon sens, cette entreprise basée à Bruxelles doit être soutenue.
 
-0
 
-0
-0
 
-Non
+Ce dossier de l'Agent orange au Vietnam doit nous pousser à réfléchir à la manière dont nous traitons les conséquences écologiques des conflits. Nous le voyons en Ukraine, où la faune et la flore sont impactées, où des barrages sont détruits, où des terres agricoles seront impropres à la culture, où des cours d'eau seront souillés par des huiles non recyclées, où des sites industriels sont bombardés. Cette dimension doit être introduite dans des accords de paix.
 
-Non
-Non
 
 
-Onthoudingen
+C'est dans cette perspective que mon groupe soutiendra cette proposition de résolution, que j'ai eu le plaisir de cosigner.
 
 
-21
 
+01.03  Els Van Hoof (cd&v): Mevrouw de voorzitster, in eerste instantie wil ik collega Flahaut bedanken voor de indiening van onderhavig voorstel van resolutie.
 
-Abstentions
 
 
+Miljoenen mensen werden rechtstreeks slachtoffer van Agent Orange in Vietnam. Bovendien zal men er decennialang nog de effecten van het gebruik van Agent Orange, zoals ziektes, misvormingen en vervuilde gronden voelen. Er zijn dus absoluut maatregelen nodig om ook vandaag nog maatregelen te nemen om de bevolking te beschermen, de aandoeningen van de slachtoffers van de toxische producten te behandelen en het milieu te herstellen.
 
-Onthoudingen
 
-Onthoudingen
-Onthoudingen
 
-21
+België kan daarin inderdaad een rol opnemen, ook al is Vietnam geen partnerland. Door de hoorzittingen ben ik ervan overtuigd geraakt – daarom heeft cd&v ook een amendement ingediend – dat innovatieve technologieën Agent Orange kunnen elimineren. België is daar heel sterk in; ik verwijs naar de firma Haemers Technologies. De zending in augustus heeft ons geleerd dat het bedrijf heel hoog aangeschreven staat voor zijn technologie waarmee het efficiënt Agent Orange uit de bodem kan halen. Wij moeten die veelbelovende innovatieve technologieën zeker ondersteunen.
 
-21
-21
 
-Abstentions
 
-Abstentions
-Abstentions
+Dat kunnen we niet met rechtstreekse financiering noch via een ontwikkelingsprogramma. Misschien kunnen we via onze diplomatieke contacten ervoor zorgen dat de VS oog krijgen voor die efficiënte technologie van de firma Haemers Technologies, die ook een filiaal in de VS geopend heeft. Zo kan België een rol spelen in de bodemsanering en de verwijdering van Agent Orange, waardoor niet alleen mensenlevens, maar ook het milieu worden gered.
 
 
-Totaal
 
+Wij hechten ook veel belang aan onze relaties met Vietnam. Wij zijn vertrokken voor nog eens 50 jaar diplomatieke betrekkingen. Uit de hoorzitting bleek alvast dat Vietnam alle steun vanuit België aanvaardt om de bevolking aldaar te beschermen tegen het effect van de gebruikte toxische stoffen, onder andere Agent Orange.
 
-132
 
 
-Total
+Onze fractie zal uiteraard het voorstel van resolutie goedkeuren.
 
 
 
-Totaal
+01.04  Steven De Vuyst (PVDA-PTB): Mevrouw de voorzitster, ik feliciteer graag collega Flahaut met onderhavig uitstekende initiatief, ook al lag de oorspronkelijke tekst, zeker wat de verzoeken betreft, ons beter. Door de ‘vivaldisering’ van het voorstel van resolutie zijn de verzoeken na amendering toch wel wat afgezwakt.
 
-Totaal
-Totaal
 
-132
 
-132
-132
+In het eerste verzoek van de oorspronkelijke tekst werden de Verenigde Staten, onze zelfverklaarde bondgenoot, bilateraal en de bedrijven die de Agent Orange fabriceerden en aanleverden, verzocht hun verantwoordelijkheid te nemen, de aangebrachte schade volledig te herstellen en de sanering van alle gronden waar de Amerikaanse strijdkrachten het goedje tijdens de Vietnamoorlog hebben gebruikt, te bekostigen. Dat hadden wij heel graag teruggezien in de tekst. In die zin is hij jammer genoeg een beetje afgezwakt.
 
-Total
 
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3528/6).
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3528/6).
-(3528/6)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3528/6).
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3528/6).
-(3528/6)
- 
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
 
- 
- 
- 
-12 Amendements réservés au projet de loi portant des dispositions
-diverses en matière sociale (3495/1-5)
-12
-12
- Amendements réservés au projet de loi portant des dispositions
-diverses en matière sociale (3495/1-5)
- Amendements réservés au projet de loi portant des dispositions
-diverses en matière sociale (3495/1-5)
+Een belangrijk facet van het gebruik van Agent Orange blijft toch ietwat onderbelicht: eigenlijk is de inzet van dat gruwelijk oorlogswapen een oorlogsmisdaad. De Amerikanen waren ook niet aan hun proefstuk toe, ze hebben meerdere oorlogsmisdaden gepleegd. Ze hebben meerdere verschrikkelijke en wansmakelijke oorlogswapens ingezet. Dat heeft het Vietnamese volk tien jaar lang moeten ondergaan. Ook dat hadden we heel graag in de tekst beklemtoond gezien en in die zin hadden we de tekst toch wat ruimer gezien.
 
-12 Aangehouden
-amendementen op het wetsontwerp houdende diverse bepalingen inzake sociale
-zaken (3495/1-5)
-12
-12
-12
- Aangehouden
-amendementen op het wetsontwerp houdende diverse bepalingen inzake sociale
-zaken (3495/1-5)
- Aangehouden
-amendementen op het wetsontwerp houdende diverse bepalingen inzake sociale
-zaken (3495/1-5)
- Aangehouden
-amendementen op het wetsontwerp houdende diverse bepalingen inzake sociale
-zaken (3495/1-5)
 
 
- 
- 
- 
-Vote sur l'amendement n° 4 de Catherine
-Fonck tendant à insérer un article 2/1(n). (3495/5)
-Vote sur l'amendement n° 4 de Catherine
-Fonck tendant à insérer un article 2/1(n). 
-(3495/5)
-(3495/5)
+Ik breng nog even het bloedbad van Mỹ Lai in herinnering. Meer dan 500 burgers, vooral vrouwen en kinderen, werden toen gemarteld, verkracht en vermoord. Uit getuigenissen van soldaten blijkt dat, ook al springt het bloedbad van Mỹ Lai eruit door het hoge aantal slachtoffers, dergelijke slachtpartijen elke maand gebeurden.
 
-Stemming over amendement nr. 4 van
-Catherine Fonck tot invoeging van een artikel 2/1(n). (3495/5)
-Stemming over amendement nr. 4 van
-Catherine Fonck tot invoeging van een artikel 2/1(n). (3495/5)
-(3495/5)
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+Het totaal aantal gedode Vietnamezen in 1961 in de regio van Mỹ Lai werd op 50.000 geschat. Zo goed als alle mannen werden als strijder genoteerd, terwijl het eigenlijk hoofdzakelijk gewone dorpelingen waren. Dat was een onderdeel geworden van de Amerikaanse militaire doctrine van dat moment, search and destroy. Voor het Pentagon was vooral van belang dat zo veel mogelijk mensen werden vermoord; het ging vooral om de body counts.
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
 
- 
- 
- 
+Nadat de Amerikanen de oorlog hadden verloren, bleven er heel wat landmijnen achter. Dat heeft nog tot op vandaag gevolgen. Nog steeds sterven mensen, omdat ze per ongeluk op een achtergebleven landmijn stappen. In 2016, meer dan 40 jaar na het einde van de oorlog, lagen er nog mijnen en andere niet-ontplofte munitie in 6,1 miljoen hectare grondgebied of 18 % van het totaal.
 
-## Proposal 6
 
 
-(Stemming/vote 5)
+We mogen ook het massale gebruik van napalm niet vergeten. Dat vloeibaar vuur werd op grote schaal ingezet tegen allerlei doelwitten, zowel militaire doelwitten als dorpen. We herinneren ons allemaal wel het iconische beeld van het vluchtende meisje nadat haar dorp werd gebombardeerd met napalm, een foto genomen door fotograaf Nick Ut. Tijdens die grootschalige bombardementen vielen er heel wat burgerslachtoffers. Er waren ook conventionele bombardementen. De Amerikanen hebben in die tien jaar meer bommen gedropt dan in de Tweede Wereldoorlog.
 
-(Stemming/vote 5)
-(Stemming/vote 5)
-(Stemming/vote 5)
 
 
+Waarom is het belangrijk om dat aspect mee te nemen? Zo maakt men duidelijk dat het gebruik van Agent Orange door het Amerikaanse leger geen uitzondering was. Men pleegde oorlogsmisdaden gedurende lange tijd, op grote schaal en op alle mogelijke manieren. Het oorlogsrecht was nochtans toen ook al van kracht. De Conventie van Genève stelt dat wapens geen niet-discriminerend karakter mogen hebben. Met andere woorden, wapens moeten zodanig worden ingezet dat burgers worden ontzien. Dat is net dat wat de Amerikanen hebben nagelaten te doen. Het was zelfs een bewuste strategie om dorpelingen niet te ontzien. Landmijnen, Agent Orange, napalm en grootschalige bombardementen, al die smeerlapperij ontzag niets of niemand. De Verenigde Staten pleegden minstens tien jaar lang oorlogsmisdaden en misdaden tegen de menselijkheid.
 
-Ja
 
 
-6
+In die zin is het voorstel van resolutie inderdaad een stap in de goede richting, waarmee België onze zelfverklaarde bondgenoot aanspoort om zijn verantwoordelijkheid voor de ravage en het aangerichte menselijk leed in Vietnam te erkennen. Wat ons betreft, moeten zij blijvend aansprakelijk en verantwoordelijk worden gesteld voor de kosten van de sanering van de door Agent Orange gecontamineerde gronden.
 
 
-Oui
 
+De PVDA-PTB-fractie zal het voorstel van resolutie steunen en verwelkomt die als de noodzakelijke eerste stap om de Verenigde Staten aan hun verantwoordelijkheid te blijven herinneren.
 
 
-Ja
 
-Ja
-Ja
+01.05  Georges Dallemagne (Les Engagés): Madame la présidente, au nom de mon groupe, je me réjouis de l'adoption – je l'espère à l'unanimité – de cette proposition de résolution tout à l'heure. J'en félicite les auteurs, en particulier M. Flahaut.
 
-6
 
-6
-6
 
-Oui
+Tout le monde a encore en tête la crise de la dioxine qui avait affecté notre pays en 1999, ses impacts très lourds sur le secteur agricole et sa propagation par des farines animales. Cette crise avait ensuite donné lieu à la création de l'AFSCA. Tout le monde a aussi gardé en mémoire la catastrophe de Seveso, en Italie, également liée à l'émission massive de dioxine. Mais qui se souvient de l'Agent orange? On a presque oublié les bombardements massifs par l'armée américaine au Vietnam dans les années 60, qui dévastèrent des milliers de mètres carrés de forêt par des défoliants à base de concentrations massives de dioxine. Vingt mille villages avaient été affectés et plusieurs millions de personnes avaient été touchées par ces bombardements qui seraient certainement aujourd'hui qualifiés de crimes de guerre. Ce fut une immense catastrophe écologique et sanitaire, dont les populations locales paient encore le prix aujourd'hui.
 
-Oui
-Oui
 
 
-Nee
+Cette catastrophe immense, ce crime d'écocide est largement tombé dans l'oubli. La résolution que nous adopterons tout à l'heure a le mérite de rappeler que les conséquences dramatiques de ces épandages massifs pèsent encore lourdement sur les populations touchées et leurs descendants.
 
 
-100
 
+Mais ce texte fait mieux, en encourageant notre pays – en coordination avec les autorités vietnamiennes et avec la communauté internationale – à intensifier l'aide aux personnes dont la santé est encore gravement affectée, à accélérer la dépollution des sols, à poursuivre la recherche et l'innovation dans ces domaines.
 
-Non
 
 
+J'espère donc, chers collègues, que le vote de cette proposition de résolution incitera notre gouvernement à intensifier sa coopération et ses relations avec le Vietnam. En effet, au-delà de la question gravissime de l'Agent orange, l'Union européenne, notre pays et le Vietnam ont des intérêts convergents de sécurité, économiques et sociaux qu'il convient de renforcer – sans occulter néanmoins les enjeux relatifs aux libertés fondamentales. Je vous remercie.
 
-Nee
 
-Nee
-Nee
 
-100
+01.06  André Flahaut (PS): Madame la présidente, ce n'est pas une réplique. Je souhaite simplement préciser que c'est une première mondiale. Aucun Parlement au monde n'a pris de résolution comme celle-là pour le Vietnam. Lorsque nous sommes les premiers à prendre une initiative mondiale, il est important de le souligner.
 
-100
-100
 
-Non
 
-Non
-Non
+La présidente: Quelqu'un demande-t-il encore la parole? (Non)
 
+Vraagt nog iemand het woord? (Nee)
 
-Onthoudingen
 
 
-28
+La discussion est close.
 
+De bespreking is gesloten.
 
-Abstentions
 
 
+Aucun amendement n'a été déposé.
 
-Onthoudingen
+Er werden geen amendementen ingediend.
 
-Onthoudingen
-Onthoudingen
 
-28
 
-28
-28
+Le vote sur la proposition aura lieu ultérieurement.
 
-Abstentions
+De stemming over het voorstel zal later plaatsvinden.
 
-Abstentions
-Abstentions
 
 
-Totaal
+### Discussed proposals:
 
+## Proposal discussion (agenda item 2)
 
-134
+### Description in Dutch:
 
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (194/9)
+Het opschrift werd door de commissie gewijzigd in "wetsvoorstel tot vereenvoudiging van de opzeggings­regels voor verzekerings­overeenkomsten".
+Het wetsvoorstel telt 6 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Total
+### Description in French:
 
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (194/9)
+L’intitulé a été modifié par la commission en "proposition de loi simplifiant les règles de résiliation des contrats d’assurance".
+La proposition de loi compte 6 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
-Totaal
 
-Totaal
-Totaal
+### Discussed proposals:
 
-134
+## Proposal discussion (agenda item 3)
 
-134
-134
+### Description in Dutch:
 
-Total
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3530/3)
+Het wetsontwerp telt 7 artikelen.
+Er werden geen amendementen ingediend.
+De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-Vote sur l'amendement n° 5 de Catherine
-Fonck tendant à insérer un article 2/2(n). (3495/5)
-Vote sur l'amendement n° 5 de Catherine
-Fonck tendant à insérer un article 2/2(n). 
-(3495/5)
-(3495/5)
+### Description in French:
 
-Stemming over amendement nr. 5 van
-Catherine Fonck tot invoeging van een artikel 2/2(n). (3495/5)
-Stemming over amendement nr. 5 van
-Catherine Fonck tot invoeging van een artikel 2/2(n). 
-(3495/5)
-(3495/5)
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3530/3)
+Le projet de loi compte 7 articles.
+Aucun amendement n'a été déposé.
+La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
- 
- 
- 
- 
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? (Oui)
-Peut-on considérer que le résultat du vote
-précédent est valable pour celui-ci? 
-(Oui)
-(Oui)
 
 
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? (Ja)
-Mag de uitslag van de vorige stemming ook
-gelden voor deze stemming? 
-(Ja)
-(Ja)
+### Discussed proposals:
 
- 
- 
- 
- 
-(Vote/stemming 5)
- 
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het
-amendement verworpen.
-Bijgevolg is het
-amendement verworpen.
+## Proposal discussion (agenda item 4)
 
- 
- 
- 
-Vote sur l'amendement n° 3 de Gaby
-Colebunders tendant à insérer un article 9/1(n). (3495/5)
-Vote sur l'amendement n° 3 de Gaby
-Colebunders tendant à insérer un article 9/1(n). 
-(3495/5)
-(3495/5)
+### Description in Dutch:
 
-Stemming over amendement nr. 3 van Gaby
-Colebunders tot invoeging van een artikel 9/1(n). (3495/5)
-Stemming over amendement nr. 3 van Gaby
-Colebunders tot invoeging van een artikel 9/1(n). (3495/5)
-(3495/5)
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3524/3)
+Het opschrift werd door de commissie gewijzigd in "wetsontwerp tot wijziging van de wet op het politieambt wat betreft het gebruik van individuele camera’s door de politiediensten".
+Het wetsontwerp telt 13 artikelen.
+De bespreking van de artikelen is gesloten. De stemming over het aangehouden amendement, het aangehouden artikel en over het geheel zal later plaatsvinden.
 
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
+### Description in French:
 
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3524/3)
 
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
+L’intitulé a été modifié par la commission en "projet de loi modifiant la loi sur la fonction de police, en ce qui concerne l’utilisation des caméras individuelles par les services de police".
+Le projet de loi compte 13 articles.
 
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
+La discussion des articles est close. Le vote sur l'amendement et l'article réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
- 
- 
- 
 
-## Proposal 7
 
+### Discussed proposals:
 
-(Stemming/vote 6)
+## Proposal discussion (agenda item 5)
 
-(Stemming/vote 6)
-(Stemming/vote 6)
-(Stemming/vote 6)
+### Description in Dutch:
 
+None
 
+### Description in French:
 
-Ja
+None
 
 
-9
 
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-9
-
-9
-9
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-117
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-117
-
-117
-117
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-9
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-9
-
-9
-9
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-135
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-135
-
-135
-135
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, l'amendement est rejeté.
-En conséquence, l'amendement est rejeté.
-Bijgevolg is het amendement verworpen.
-Bijgevolg is het amendement verworpen.
- 
- 
- 
-(De heer Wouter Vermeersch heeft tegengestemd)
-(De heer Wouter Vermeersch heeft tegengestemd)
- 
- 
- 
-13 Ensemble du projet de loi portant des dispositions diverses en matière
-sociale (3495/4)
-13
-13
- Ensemble du projet de loi portant des dispositions diverses en matière
-sociale (3495/4)
- Ensemble du projet de loi portant des dispositions diverses en matière
-sociale (3495/4)
-
-13 Geheel van het
-wetsontwerp houdende diverse bepalingen inzake sociale zaken (3495/4)
-13
-13
-13
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake sociale zaken (3495/4)
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake sociale zaken (3495/4)
- Geheel van het
-wetsontwerp houdende diverse bepalingen inzake sociale zaken (3495/4)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 8
-
-
-(Stemming/vote 7)
-
-(Stemming/vote 7)
-(Stemming/vote 7)
-(Stemming/vote 7)
-
-
-
-Ja
-
-
-98
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-98
-
-98
-98
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-24
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-24
-
-24
-24
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-13
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-13
-
-13
-13
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-135
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-135
-
-135
-135
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3495/6).
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3495/6).
-(3495/6)
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3495/6).
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3495/6).
-(3495/6)
- 
- 
- 
- 
-Raison d'abstention? (Non)
-Raison d'abstention? (Non)
-(Non)
-Reden van
-onthouding? (Nee)
-Reden van
-onthouding? 
-(Nee)
-(Nee)
-
- 
- 
- 
-14 Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-10 mei 2015 betreffende de uitoefening van de gezondheidszorgberoepen
-(3562/1-8)
-14
-14
-14
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-10 mei 2015 betreffende de uitoefening van de gezondheidszorgberoepen
-(3562/1-8)
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-10 mei 2015 betreffende de uitoefening van de gezondheidszorgberoepen
-(3562/1-8)
- Aangehouden
-amendementen en artikelen van het wetsontwerp tot wijziging van de wet van
-10 mei 2015 betreffende de uitoefening van de gezondheidszorgberoepen
-(3562/1-8)
-
-
-14 Amendements et articles réservés du projet de loi modifiant la loi du
-10 mai 2015 relative à l'exercice des professions des soins de santé
-(3562/1-8)
-14
-14
- Amendements et articles réservés du projet de loi modifiant la loi du
-10 mai 2015 relative à l'exercice des professions des soins de santé
-(3562/1-8)
- Amendements et articles réservés du projet de loi modifiant la loi du
-10 mai 2015 relative à l'exercice des professions des soins de santé
-(3562/1-8)
-
- 
- 
- 
-Stemming over amendement nr. 6 van
-Catherine Fonck op artikel 2.(3562/8)
-Stemming over amendement nr. 6 van
-Catherine Fonck op artikel 2.(3562/8)
-(3562/8)
-
-Vote sur l'amendement n° 6 de Catherine
-Fonck à l'article 2.(3562/8)
-Vote sur l'amendement n° 6 de Catherine
-Fonck à l'article 2.(3562/8)
-(3562/8)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 9
-
-
-(Stemming/vote 8)
-
-(Stemming/vote 8)
-(Stemming/vote 8)
-(Stemming/vote 8)
-
-
-
-Ja
-
-
-15
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-15
-
-15
-15
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-97
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-97
-
-97
-97
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-23
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-23
-
-23
-23
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-135
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-135
-
-135
-135
-
-Total
-
-Total
-Total
- 
- 
- 
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 2 aangenomen.
-En conséquence, l'amendement est rejeté et
-l’article 2 est adopté.
-En conséquence, l'amendement est rejeté et
-l’article 2 est adopté.
- 
- 
- 
-Stemming over amendement nr. 5 van
-Catherine Fonck op artikel 3.(3562/8)
-Stemming over amendement nr. 5 van
-Catherine Fonck op artikel 3.(3562/8)
-(3562/8)
-
-Vote sur l'amendement n° 5 de Catherine
-Fonck à l'article 3.(3562/8)
-Vote sur l'amendement n° 5 de Catherine
-Fonck à l'article 3.(3562/8)
-(3562/8)
-
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 10
-
-
-(Stemming/vote 9)
-
-(Stemming/vote 9)
-(Stemming/vote 9)
-(Stemming/vote 9)
-
-
-
-Ja
-
-
-24
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-24
-
-24
-24
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-79
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-79
-
-79
-79
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-32
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-32
-
-32
-32
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-135
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-135
-
-135
-135
-
-Total
-
-Total
-Total
- 
- 
- 
-Bijgevolg is het amendement verworpen en is
-artikel 3 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 3 aangenomen.
-En conséquence, l'amendement est rejeté et
-l’article 3 est adopté.
-En conséquence, l'amendement est rejeté et
-l’article 3 est adopté.
- 
- 
- 
-15 Geheel van het
-wetsontwerp tot wijziging van de wet van 10 mei 2015 betreffende de
-uitoefening van de gezondheidszorgberoepen (3562/4)
-15
-15
-15
- Geheel van het
-wetsontwerp tot wijziging van de wet van 10 mei 2015 betreffende de
-uitoefening van de gezondheidszorgberoepen (3562/4)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 10 mei 2015 betreffende de
-uitoefening van de gezondheidszorgberoepen (3562/4)
- Geheel van het
-wetsontwerp tot wijziging van de wet van 10 mei 2015 betreffende de
-uitoefening van de gezondheidszorgberoepen (3562/4)
-
-
-15 Ensemble du projet de loi modifiant la loi du 10 mai 2015
-relative à l'exercice des professions des soins de santé (3562/4)
-15
-15
- Ensemble du projet de loi modifiant la loi du 10 mai 2015
-relative à l'exercice des professions des soins de santé (3562/4)
- Ensemble du projet de loi modifiant la loi du 10 mai 2015
-relative à l'exercice des professions des soins de santé (3562/4)
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de
-stemming / Début du vote.
-Begin van de
-stemming / Début du vote.
-
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de
-stemming / Fin du vote.
-Einde van de
-stemming / Fin du vote.
-
-Uitslag van de
-stemming / Résultat du vote.
-Uitslag van de
-stemming / Résultat du vote.
-
- 
- 
- 
-
-## Proposal 11
-
-
-(Stemming/vote 10)
-
-(Stemming/vote 10)
-(Stemming/vote 10)
-(Stemming/vote 10)
-
-
-
-Ja
-
-
-107
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-107
-
-107
-107
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-28
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-28
-
-28
-28
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-135
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-135
-
-135
-135
-
-Total
-
-Total
-Total
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3562/9).
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3562/9).
-(3562/9)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3562/9).
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3562/9).
-(3562/9)
- 
- 
- 
-Reden van onthouding? (Nee)
-Reden van onthouding? (Nee)
-(Nee)
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? 
-(Non)
-(Non)
- 
- 
- 
-16 Proposition de résolution relative à l’aide à apporter aux victimes de
-l’utilisation de l’Agent orange durant la guerre du Vietnam (nouvel intitulé)
-(2406/4)
-16
-16
- Proposition de résolution relative à l’aide à apporter aux victimes de
-l’utilisation de l’Agent orange durant la guerre du Vietnam (nouvel intitulé)
-(2406/4)
- Proposition de résolution relative à l’aide à apporter aux victimes de
-l’utilisation de l’Agent orange durant la guerre du Vietnam (nouvel intitulé)
-(2406/4)
-
-16 Voorstel van
-resolutie over de noodzakelijke steun aan de slachtoffers van het inzetten van
-Agent Orange tijdens de oorlog in Vietnam (nieuw opschrift) (2406/4)
-16
-16
-16
- Voorstel van
-resolutie over de noodzakelijke steun aan de slachtoffers van het inzetten van
-Agent Orange tijdens de oorlog in Vietnam (nieuw opschrift) (2406/4)
- Voorstel van
-resolutie over de noodzakelijke steun aan de slachtoffers van het inzetten van
-Agent Orange tijdens de oorlog in Vietnam (nieuw opschrift) (2406/4)
- Voorstel van
-resolutie over de noodzakelijke steun aan de slachtoffers van het inzetten van
-Agent Orange tijdens de oorlog in Vietnam (nieuw opschrift) (2406/4)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 12
-
-
-(Stemming/vote 11)
-
-(Stemming/vote 11)
-(Stemming/vote 11)
-(Stemming/vote 11)
-
-
-
-Ja
-
-
-134
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-134
-
-134
-134
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-0
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-0
-
-0
-0
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-134
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-134
-
-134
-134
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de résolution. Il en
-sera donné connaissance au gouvernement (2406/5).
-En conséquence, la Chambre adopte la
-proposition de résolution. 
-Il en
-sera donné connaissance au gouvernement (2406/5).
-(2406/5)
-
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht (2406/5).
-Bijgevolg neemt de Kamer het voorstel van
-resolutie aan. Het zal ter kennis van de regering worden gebracht (2406/5).
-(2406/5)
- 
- 
- 
- 
-17 Proposition de loi simplifiant les règles de résiliation des contrats
-d’assurance (nouvel intitulé) (194/9)
-17
-17
- Proposition de loi simplifiant les règles de résiliation des contrats
-d’assurance (nouvel intitulé) (194/9)
- Proposition de loi simplifiant les règles de résiliation des contrats
-d’assurance (nouvel intitulé) (194/9)
-
-17 Wetsvoorstel tot
-vereenvoudiging van de opzeggingsregels voor verzekerings­overeen­komsten
-(nieuw opschrift) (194/9)
-17
-17
-17
- Wetsvoorstel tot
-vereenvoudiging van de opzeggingsregels voor verzekerings­overeen­komsten
-(nieuw opschrift) (194/9)
- Wetsvoorstel tot
-vereenvoudiging van de opzeggingsregels voor verzekerings­overeen­komsten
-(nieuw opschrift) (194/9)
- Wetsvoorstel tot
-vereenvoudiging van de opzeggingsregels voor verzekerings­overeen­komsten
-(nieuw opschrift) (194/9)
-
-
- 
- 
- 
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? 
- 
-(Non)
-(Non)
-
-
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
- (Nee)
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-Heeft iedereen
-gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son
-vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 13
-
-
-(Stemming/vote 12)
-
-(Stemming/vote 12)
-(Stemming/vote 12)
-(Stemming/vote 12)
-
-
-
-Ja
-
-
-134
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-134
-
-134
-134
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-1
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-1
-
-1
-1
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-135
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-135
-
-135
-135
-
-Total
-
-Total
-Total
- 
- 
- 
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction royale
-(194/10).
-En conséquence, la Chambre adopte la
-proposition de loi. Elle sera soumise en tant que projet de loi à la sanction royale
-(194/10).
-(194/10)
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd (194/10). 
-Bijgevolg neemt de Kamer het wetsvoorstel
-aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd (194/10). 
-(194/10)
- 
- 
- 
-(De
-heer Jasper Pillen heeft voorgestemd)
-(De
-heer Jasper Pillen heeft voorgestemd)
-(De
-heer Jasper Pillen heeft voorgestemd)
-
- 
- 
- 
-18 Wetsontwerp tot
-wijziging van de wet van 26 juni 1963 tot instelling van een orde van
-architecten wat de organisatie van de verkiezingen betreft (3530/3)
-18
-18
-18
- Wetsontwerp tot
-wijziging van de wet van 26 juni 1963 tot instelling van een orde van
-architecten wat de organisatie van de verkiezingen betreft (3530/3)
- Wetsontwerp tot
-wijziging van de wet van 26 juni 1963 tot instelling van een orde van
-architecten wat de organisatie van de verkiezingen betreft (3530/3)
- Wetsontwerp tot
-wijziging van de wet van 26 juni 1963 tot instelling van een orde van
-architecten wat de organisatie van de verkiezingen betreft (3530/3)
-
-
-18 Projet de loi modifiant la loi du 26 juin 1963 créant un
-Ordre des architectes en ce qui concerne l'organisation des élections (3530/3)
-18
-18
- Projet de loi modifiant la loi du 26 juin 1963 créant un
-Ordre des architectes en ce qui concerne l'organisation des élections (3530/3)
- Projet de loi modifiant la loi du 26 juin 1963 créant un
-Ordre des architectes en ce qui concerne l'organisation des élections (3530/3)
-
- 
- 
- 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? 
- 
-(Nee)
-(Nee)
-
-
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
- (Non)
- 
- 
- 
-Begin van de stemming
-/ Début du vote.
-Begin van de stemming
-/ Début du vote.
-
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 14
-
-
-(Stemming/vote 13)
-
-(Stemming/vote 13)
-(Stemming/vote 13)
-(Stemming/vote 13)
-
-
-
-Ja
-
-
-95
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-95
-
-95
-95
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-39
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-39
-
-39
-39
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-134
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-134
-
-134
-134
-
-Total
-
-Total
-Total
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3530/4).
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3530/4).
-(3530/4)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3530/4).
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3530/4).
-(3530/4)
- 
- 
- 
-Reden van onthouding? (Nee)
-Reden van onthouding? (Nee)
-(Nee)
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
-
- 
- 
- 
-19 Aangehouden
-amendement en artikel van het wetsontwerp tot wijziging van de wet op het
-politieambt wat betreft het gebruik van individuele camera’s door de
-politiediensten (nieuw opschrift) (3524/1-4)
-19
-19
-19
- Aangehouden
-amendement en artikel van het wetsontwerp tot wijziging van de wet op het
-politieambt wat betreft het gebruik van individuele camera’s door de
-politiediensten (nieuw opschrift) (3524/1-4)
- Aangehouden
-amendement en artikel van het wetsontwerp tot wijziging van de wet op het
-politieambt wat betreft het gebruik van individuele camera’s door de
-politiediensten (nieuw opschrift) (3524/1-4)
- Aangehouden
-amendement en artikel van het wetsontwerp tot wijziging van de wet op het
-politieambt wat betreft het gebruik van individuele camera’s door de
-politiediensten (nieuw opschrift) (3524/1-4)
-
-
-19 Amendement et article réservés du projet de loi modifiant la loi sur
-la fonction de police, en ce qui concerne l’utilisation des caméras
-individuelles par les services de police (nouvel intitulé) (3524/1-4)
-19
-19
- Amendement et article réservés du projet de loi modifiant la loi sur
-la fonction de police, en ce qui concerne l’utilisation des caméras
-individuelles par les services de police (nouvel intitulé) (3524/1-4)
- Amendement et article réservés du projet de loi modifiant la loi sur
-la fonction de police, en ce qui concerne l’utilisation des caméras
-individuelles par les services de police (nouvel intitulé) (3524/1-4)
-
- 
- 
- 
-Stemming over amendement nr. 1 van
-Nabil Boukili op artikel 3. (3524/4)
-Stemming over amendement nr. 1 van
-Nabil Boukili op artikel 3. 
-(3524/4)
-(3524/4)
-
-Vote sur l'amendement n° 1 de Nabil
-Boukili à l'article 3. (3524/4)
-Vote sur l'amendement n° 1 de Nabil
-Boukili à l'article 3. 
-(3524/4)
-(3524/4)
-
- 
- 
- 
-Begin van de stemming / Début du vote.
-Begin van de stemming / Début du vote.
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 15
-
-
-(Stemming/vote 14)
-
-(Stemming/vote 14)
-(Stemming/vote 14)
-(Stemming/vote 14)
-
-
-
-Ja
-
-
-11
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-11
-
-11
-11
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-116
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-116
-
-116
-116
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-5
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-5
-
-5
-5
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-132
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-132
-
-132
-132
-
-Total
-
-Total
-Total
- 
- 
- 
-Bijgevolg is het amendement verworpen en is
-artikel 3 aangenomen.
-Bijgevolg is het amendement verworpen en is
-artikel 3 aangenomen.
-En conséquence, l'amendement est rejeté et
-l'article 3 est adopté.
-En conséquence, l'amendement est rejeté et
-l'article 3 est adopté.
- 
- 
- 
-20 Geheel van het
-wetsontwerp tot wijziging van de wet op het politieambt wat betreft het gebruik
-van individuele camera’s door de politiediensten (nieuw opschrift) (3524/3)
-20
-20
-20
- Geheel van het
-wetsontwerp tot wijziging van de wet op het politieambt wat betreft het gebruik
-van individuele camera’s door de politiediensten (nieuw opschrift) (3524/3)
- Geheel van het
-wetsontwerp tot wijziging van de wet op het politieambt wat betreft het gebruik
-van individuele camera’s door de politiediensten (nieuw opschrift) (3524/3)
- Geheel van het
-wetsontwerp tot wijziging van de wet op het politieambt wat betreft het gebruik
-van individuele camera’s door de politiediensten (nieuw opschrift) (3524/3)
-
-
-20 Ensemble du projet de loi modifiant la loi sur la fonction de police,
-en ce qui concerne l’utilisation des caméras individuelles par les services de
-police (nouvel intitulé) (3524/3)
-20
-20
- Ensemble du projet de loi modifiant la loi sur la fonction de police,
-en ce qui concerne l’utilisation des caméras individuelles par les services de
-police (nouvel intitulé) (3524/3)
- Ensemble du projet de loi modifiant la loi sur la fonction de police,
-en ce qui concerne l’utilisation des caméras individuelles par les services de
-police (nouvel intitulé) (3524/3)
-
- 
- 
- 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? 
- 
-(Nee)
-(Nee)
-
-
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
- (Non)
- 
- 
- 
-Begin van de stemming
-/ Début du vote.
-Begin van de stemming
-/ Début du vote.
-
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
-
-## Proposal 16
-
-
-(Stemming/vote 15)
-
-(Stemming/vote 15)
-(Stemming/vote 15)
-(Stemming/vote 15)
-
-
-
-Ja
-
-
-119
-
-
-Oui
-
-
-
-Ja
-
-Ja
-Ja
-
-119
-
-119
-119
-
-Oui
-
-Oui
-Oui
-
-
-Nee
-
-
-0
-
-
-Non
-
-
-
-Nee
-
-Nee
-Nee
-
-0
-
-0
-0
-
-Non
-
-Non
-Non
-
-
-Onthoudingen
-
-
-10
-
-
-Abstentions
-
-
-
-Onthoudingen
-
-Onthoudingen
-Onthoudingen
-
-10
-
-10
-10
-
-Abstentions
-
-Abstentions
-Abstentions
-
-
-Totaal
-
-
-129
-
-
-Total
-
-
-
-Totaal
-
-Totaal
-Totaal
-
-129
-
-129
-129
-
-Total
-
-Total
-Total
- 
- 
- 
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3524/5).
-Bijgevolg neemt de Kamer het wetsontwerp
-aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd (3524/5).
-(3524/5)
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3524/5).
-En conséquence, la Chambre adopte le projet de
-loi. Il sera soumis à la sanction royale (3524/5).
-(3524/5)
- 
- 
- 
-Reden van onthouding? (Nee)
-Reden van onthouding? (Nee)
-(Nee)
-Raison
-d'abstention? (Non)
-Raison
-d'abstention? (Non)
-(Non)
-
- 
- 
- 
- 
-21 Wetsontwerp tot
-wijziging van artikel 11, §1, van de wet van 24 maart 1999 tot
-regeling van de betrekkingen tussen de overheid en de vakverenigingen van het
-personeel van de politiediensten wat de invoering van detacheringen van
-personeelsleden van de geïntegreerde politie naar haar sociale dienst betreft
-(3548/3)
-21
-21
-21
- Wetsontwerp tot
-wijziging van artikel 11, §1, van de wet van 24 maart 1999 tot
-regeling van de betrekkingen tussen de overheid en de vakverenigingen van het
-personeel van de politiediensten wat de invoering van detacheringen van
-personeelsleden van de geïntegreerde politie naar haar sociale dienst betreft
-(3548/3)
- Wetsontwerp tot
-wijziging van artikel 11, §1, van de wet van 24 maart 1999 tot
-regeling van de betrekkingen tussen de overheid en de vakverenigingen van het
-personeel van de politiediensten wat de invoering van detacheringen van
-personeelsleden van de geïntegreerde politie naar haar sociale dienst betreft
-(3548/3)
- Wetsontwerp tot
-wijziging van artikel 11, §1, van de wet van 24 maart 1999 tot
-regeling van de betrekkingen tussen de overheid en de vakverenigingen van het
-personeel van de politiediensten wat de invoering van detacheringen van
-personeelsleden van de geïntegreerde politie naar haar sociale dienst betreft
-(3548/3)
-
-
-21 Projet de loi modifiant l'article 11, §1er, de la loi du
-24 mars 1999 organisant les relations entre les autorités publiques
-et les organisations syndicales du personnel des services de police en ce qui
-concerne la mise en œuvre du détachement de membres du personnel de la police
-intégrée vers son service social (3548/3)
-21
-21
- Projet de loi modifiant l'article 11, §1er, de la loi du
-24 mars 1999 organisant les relations entre les autorités publiques
-et les organisations syndicales du personnel des services de police en ce qui
-concerne la mise en œuvre du détachement de membres du personnel de la police
-intégrée vers son service social (3548/3)
- Projet de loi modifiant l'article 11, §1er, de la loi du
-24 mars 1999 organisant les relations entre les autorités publiques
-et les organisations syndicales du personnel des services de police en ce qui
-concerne la mise en œuvre du détachement de membres du personnel de la police
-intégrée vers son service social (3548/3)
-
- 
- 
- 
-Vraagt iemand het woord voor een
-stemverklaring? (Nee)
-Vraagt iemand het woord voor een
-stemverklaring? 
- 
-(Nee)
-(Nee)
-
-
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
-Quelqu'un demande-t-il la parole pour une
-déclaration avant le vote? (Non)
- (Non)
- 
- 
- 
-Begin van de stemming
-/ Début du vote.
-Begin van de stemming
-/ Début du vote.
-
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-Heeft iedereen gestemd
-en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote?
-
-Einde van de stemming / Fin du vote.
-Einde van de stemming / Fin du vote.
-Uitslag van de stemming / Résultat du vote.
-Uitslag van de stemming / Résultat du vote.
- 
- 
- 
+### Discussed proposals:
 
 Motion # 1.
 
