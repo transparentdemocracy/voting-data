@@ -2,12 +2,12 @@ import json
 import os
 from typing import List
 
-from transparentdemocracy import POLITICIANS_JSON_OUTPUT_PATH
+from transparentdemocracy import CONFIG
 from transparentdemocracy.model import Politician
 
 
 class JsonSerializer:
-	def __init__(self, output_path=POLITICIANS_JSON_OUTPUT_PATH):
+	def __init__(self, output_path=CONFIG.politicians_json_output_path()):
 		self.output_path = output_path
 		os.makedirs(self.output_path, exist_ok=True)
 

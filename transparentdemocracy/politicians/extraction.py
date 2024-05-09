@@ -7,7 +7,7 @@ import os
 import Levenshtein
 from tqdm.asyncio import tqdm
 
-from transparentdemocracy import POLITICIANS_JSON_OUTPUT_PATH, CONFIG
+from transparentdemocracy import CONFIG
 from transparentdemocracy.model import Politician
 from transparentdemocracy.politicians.serialization import JsonSerializer
 
