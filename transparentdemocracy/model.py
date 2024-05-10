@@ -9,14 +9,16 @@ It is split into two parts, which in the end result in two datasets:
 from dataclasses import dataclass
 from datetime import date
 from enum import Enum
-from typing import List, Any, Optional
+from typing import List, Optional
+
+from bs4 import PageElement
 
 
 # Classes related to the plenaries and their "topics": proposals, motions (and later: interpellations).
 
 @dataclass
 class Proposal:
-	document_reference: Optional[str] # official reference in the parliament, as mentioned in plenary reports.
+	document_reference: Optional[str]  # official reference in the parliament, as mentioned in plenary reports.
 	title_nl: str
 	title_fr: str
 
@@ -49,11 +51,11 @@ class BodyTextPart:
 class ReportItem:
 	label: str
 	nl_title: str
-	nl_title_tags: List[Any]
+	nl_title_tags: List[PageElement]
 	fr_title: str
-	fr_title_tags: List[Any]
+	fr_title_tags: List[PageElement]
 	body_text_parts: List[BodyTextPart]
-	body: List[Any]
+	body: List[PageElement]
 
 
 @dataclass

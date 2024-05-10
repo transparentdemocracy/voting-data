@@ -7,7 +7,7 @@ import glob
 import logging
 import os
 import re
-from typing import Tuple, List, Any
+from typing import Tuple, List
 
 from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
 from nltk.tokenize import WhitespaceTokenizer
@@ -363,18 +363,11 @@ def _extract_report_items(report_path: str, elements: List[PageElement]) -> List
 		logger.warning(f"No report item titles after naamstemmingen in {report_path}")
 		return []
 
-	first_item_title = item_titles[0]
-
 	tag_groups = create_tag_groups(elements)
-
 	report_items = find_report_items(report_path, tag_groups)
 
-	# print(
-	# 	json.dumps([dict(label=m.label, nl_title=m.nl_title, fr_title=m.fr_title,
-	# 					 body_text_parts=[dict(lang=part.lang, text=part.text) for part in m.body_text_parts]) for m in
-	# 				report_items], indent=2))
-
-	return report_items
+	# TODO: should we filter items that are missing titles of is that not our concern?
+	return [item for item in report_items if item.nl_title.strip() != "" and item.fr_title.strip() != ""]
 
 
 def is_report_item_title(el):
@@ -467,22 +460,10 @@ def find_report_items(report_path, tag_groups):
 	result = []
 
 	for tag_group in tag_groups:
-		# TODO: analyse group
-		# how many titles nl/fr? are they consecutive?
-		# can we find the motion number?
-		# ...
-
 		titles = [tag for tag in tag_group if is_level2_title(tag)]
 
 		fr_title_tags = [tag for tag in titles if is_french_title(tag)]
 		nl_title_tags = [tag for tag in titles if is_dutch_title(tag)]
-
-		if not fr_title_tags:
-			logger.warning(f"Ignoring group without french title tags in {report_path}")
-			continue
-		if not nl_title_tags:
-			logger.warning(f"Ignoring group without dutch title tags in {report_path}")
-			continue
 
 		fr_title = "\n".join([tag.text for tag in fr_title_tags])
 		nl_title = "\n".join([tag.text for tag in nl_title_tags])
@@ -491,7 +472,10 @@ def find_report_items(report_path, tag_groups):
 
 		body_text_parts = [create_body_text_part(el) for el in remaining_elements]
 
-		result.append(ReportItem("TODO - label", nl_title, nl_title_tags, fr_title, fr_title_tags, body_text_parts,
+		label_candidates = [tag for title_tag in nl_title_tags for tag in title_tag.select("*") if re.match("\\d\\d", tag.text)]
+		label = "??" if not label_candidates else label_candidates[0].text
+
+		result.append(ReportItem(label, nl_title, nl_title_tags, fr_title, fr_title_tags, body_text_parts,
 								 remaining_elements))
 
 	return result
