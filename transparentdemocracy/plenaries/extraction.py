@@ -438,18 +438,6 @@ def get_class(el):
 		return []
 
 
-def has_border(attr):
-	return "border:solid" in attr
-
-
-def contains_bordered_span(el):
-	return len(find_bordered_span(el)) == 1
-
-
-def find_bordered_span(el):
-	return el.find_all("span", style=has_border)
-
-
 def create_tag_groups(tags):
 	""" Creates groups that consist of consecutive titles followed by non-titles"""
 
@@ -484,8 +472,6 @@ def is_level2_title(tag):
 
 
 def find_report_items(report_path, tag_groups):
-	""" Each of the tag groups starts with a H2 containing a bordered span"""
-
 	result = []
 
 	for tag_group in tag_groups:
