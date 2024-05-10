@@ -10,7 +10,6 @@ import re
 from re import RegexFlag
 from typing import Tuple, List
 
-import sys
 from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
@@ -76,7 +75,7 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposal_discussions(html, plenary_id)
 	motion_report_items = _extract_motion_report_items(report_filename, html)
-	_, votes = __extract_motions_and_votes(plenary_id, html, politicians)
+	votes = __extract_votes(plenary_id, html, politicians)
 	motions = _report_items_to_motions(plenary_id, motion_report_items)
 
 	return (
@@ -196,13 +195,12 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 	proposal_id = f"{plenary_id}_{item.label}"
 
 	stemming_re = re.compile("\\(Stemming/vote\\W+(\\d+)", RegexFlag.MULTILINE)
-	canceled_re = re.compile("\\(Stemming\W\D*(\d+).*geannuleerd", RegexFlag.MULTILINE)
+	canceled_re = re.compile("\\(Stemming\\W\\D*(\\d+).*geannuleerd", RegexFlag.MULTILINE)
 
 	result = []
 	for el in item.body:
 		match_canceled = canceled_re.match(el.text)
 		if match_canceled:
-			print(match_canceled.group(1), el.text)
 			motion_number = match_canceled.group(1)
 			motion_id = f"{plenary_id}_{motion_number}"
 			result.append(Motion(motion_id, motion_number, proposal_id, True))
@@ -335,7 +333,7 @@ def __split_proposal_header(proposal_header):
 	return number, title, doc_ref
 
 
-def __extract_motions_and_votes(plenary_id: str, html, politicians: Politicians) -> Tuple[List[Motion], List[Vote]]:
+def __extract_votes(plenary_id: str, html, politicians: Politicians) -> List[Vote]:
 	tokens = WhitespaceTokenizer().tokenize(html.text)
 
 	votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
@@ -343,13 +341,11 @@ def __extract_motions_and_votes(plenary_id: str, html, politicians: Politicians)
 	bounds = zip(votings, votings[1:] + [len(tokens)])
 	voting_sequences = [tokens[start:end] for start, end in bounds]
 
-	motions = []
 	votes = []
 
 	for seq in voting_sequences:
-		motion_number = int(seq[4], 10)
+		motion_number = str(int(seq[4], 10))
 		motion_id = f"{plenary_id}_{motion_number}"
-		cancelled = sum([1 if "geannuleerd" in token else 0 for token in seq[4:8]]) > 0
 
 		# Extract detailed votes:
 		yes_start = get_sequence(seq, ["Oui"])
@@ -367,22 +363,13 @@ def __extract_motions_and_votes(plenary_id: str, html, politicians: Politicians)
 		no_voter_names = get_names(seq[no_start + 3:abstention_start], no_count, 'no', motion_id)
 		abstention_voter_names = get_names(seq[abstention_start + 3:], abstention_count, 'abstention', motion_id)
 
-		# Create the votes:
 		votes.extend(
 			create_votes_for_same_vote_type(yes_voter_names, VoteType.YES, motion_id, politicians) +
 			create_votes_for_same_vote_type(no_voter_names, VoteType.NO, motion_id, politicians) +
 			create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, motion_id, politicians)
 		)
 
-		# Create the motion:
-		motions.append(Motion(
-			motion_id,
-			motion_number,
-			"",  # TODO fix proposal_id writing
-			cancelled
-		))
-
-	return motions, votes
+	return votes
 
 
 def _extract_motion_report_items(report_path: str, elements: List[PageElement]) -> List[ReportItem]:
