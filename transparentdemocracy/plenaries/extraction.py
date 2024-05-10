@@ -9,7 +9,7 @@ import os
 import re
 from typing import Tuple, List, Any
 
-from bs4 import BeautifulSoup, NavigableString
+from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
@@ -73,8 +73,9 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposal_discussions(html, plenary_id)
+	motion_report_items = _extract_motion_report_items(report_filename, html)
 	motions, votes = __extract_motions(plenary_id, html, politicians)
-	report_items = _extract_report_items(report_filename, html)
+
 	return (
 		Plenary(
 			plenary_id,
@@ -85,7 +86,7 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
 			proposals,
 			motions,
-			report_items
+			motion_report_items
 		),
 		votes
 	)
@@ -297,8 +298,7 @@ def __split_proposal_header(proposal_header):
 	return number, title, doc_ref
 
 
-def __extract_motions(plenary_id: str, html, politicians: Politicians) -> Tuple[
-	Proposal, List[Motion], List[Vote], List[Any]]:
+def __extract_motions(plenary_id: str, html, politicians: Politicians) -> Tuple[List[Motion], List[Vote]]:
 	tokens = WhitespaceTokenizer().tokenize(html.text)
 
 	votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
@@ -348,7 +348,45 @@ def __extract_motions(plenary_id: str, html, politicians: Politicians) -> Tuple[
 	return motions, votes
 
 
-def _extract_report_items(report_path: str, html: BeautifulSoup) -> List[ReportItem]:
+def _extract_motion_report_items(report_path: str, elements: List[PageElement]) -> List[ReportItem]:
+	after_naamstemmingen = find_elements_after_naamstemmingen(report_path, elements)
+	return _extract_report_items(report_path, after_naamstemmingen)
+
+
+def _extract_report_items(report_path: str, elements: List[PageElement]) -> List[ReportItem]:
+	if not elements:
+		return []
+
+	item_titles = list(filter(is_report_item_title, elements))
+
+	if not item_titles:  # this check doesn't feel
+		logger.warning(f"No report item titles after naamstemmingen in {report_path}")
+		return []
+
+	first_item_title = item_titles[0]
+
+	tag_groups = create_tag_groups(elements)
+
+	report_items = find_report_items(report_path, tag_groups)
+
+	# print(
+	# 	json.dumps([dict(label=m.label, nl_title=m.nl_title, fr_title=m.fr_title,
+	# 					 body_text_parts=[dict(lang=part.lang, text=part.text) for part in m.body_text_parts]) for m in
+	# 				report_items], indent=2))
+
+	return report_items
+
+
+def is_report_item_title(el):
+	if el.name == "h2":
+		return True
+	if el.name == "p" and any([clazz in ["Titre2NL", "Titre2FR"] for clazz in ((el and el.get("class")) or [])]):
+		return True
+
+	return False
+
+
+def find_elements_after_naamstemmingen(report_path: str, html: Tag):
 	def is_start_naamstemmingen(el):
 		if el.name == "h1" and ("naamstemmingen" == el.text.lower().strip()):
 			return True
@@ -363,36 +401,13 @@ def _extract_report_items(report_path: str, html: BeautifulSoup) -> List[ReportI
 		else:
 			# There aren't any naamstemmingen, not even logging it
 			pass
-		return []
+		return None
 
 	if len(start_naamstemmingen) > 1:
-		logger.info(f"multiple candidates for start of 'naamstemmingen' in {report_path}")
-		return []
+		logger.warning(f"multiple candidates for start of 'naamstemmingen' in {report_path}")
+		return None
 
-	def is_report_item_title(el):
-		if el.name == "h2":
-			return True
-		if el.name == "p" and any([clazz in ["Titre2NL", "Titre2FR"] for clazz in ((el and el.get("class")) or [])]):
-			return True
-
-		return False
-
-	item_titles = list(filter(is_report_item_title, start_naamstemmingen[0].find_next_siblings()))
-	if not item_titles:
-		logger.warning(f"No report item titles after naamstemmingen in {report_path}")
-		return []
-	first_item_title = item_titles[0]
-
-	tag_groups = create_tag_groups([first_item_title] + first_item_title.find_next_siblings())
-
-	report_items = find_report_items(report_path, tag_groups)
-
-	# print(
-	# 	json.dumps([dict(label=m.label, nl_title=m.nl_title, fr_title=m.fr_title,
-	# 					 body_text_parts=[dict(lang=part.lang, text=part.text) for part in m.body_text_parts]) for m in
-	# 				report_items], indent=2))
-
-	return report_items
+	return start_naamstemmingen[0].find_next_siblings()
 
 
 def get_class(el):

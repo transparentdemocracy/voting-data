@@ -5,7 +5,7 @@ import unittest
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
 from transparentdemocracy.model import ReportItem
-from transparentdemocracy.plenaries.extraction import _extract_report_items, _read_plenary_html
+from transparentdemocracy.plenaries.extraction import _read_plenary_html, _extract_motion_report_items
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -19,7 +19,7 @@ class TestNewReportItemExtraction(unittest.TestCase):
 		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
 
 	def test_extract_ip298_happy_case(self):
-		report_items = self.extract_report_items('ip298x.html')
+		report_items = self.extract_motion_report_items('ip298x.html')
 
 		self.assertEqual(len(report_items), 14)  # motions 10 - 23 (?)
 
@@ -34,12 +34,12 @@ class TestNewReportItemExtraction(unittest.TestCase):
 								"11 Projet de loi portant diverses modifications du Code d'instruction\ncriminelle II, tel qu'amendé lors de la séance plénière du 28 mars 2024\n(3515/10)")
 
 	def test_extract_ip280_has_1_naamstemming_but_no_identifiable_motion_title(self):
-		report_items = self.extract_report_items('ip280x.html')
+		report_items = self.extract_motion_report_items('ip280x.html')
 
 		self.assertEqual(len(report_items), 0)
 
 	def test_extract_ip271(self):
-		report_items = self.extract_report_items('ip271x.html')
+		report_items = self.extract_motion_report_items('ip271x.html')
 
 		self.assertEqual(len(report_items), 14)  # todo: check manually
 
@@ -56,7 +56,7 @@ class TestNewReportItemExtraction(unittest.TestCase):
 								'27 Projet de loi visant à modi')
 
 	def test_extract_ip290_has_no_naamstemmingen(self):
-		report_items = self.extract_report_items('ip290x.html')
+		report_items = self.extract_motion_report_items('ip290x.html')
 
 		self.assertEqual(report_items, [])
 
@@ -65,6 +65,6 @@ class TestNewReportItemExtraction(unittest.TestCase):
 		self.assertEqual(nl_title_prefix, report_item.nl_title[:len(nl_title_prefix)])
 		self.assertEqual(fr_title_prefix, report_item.fr_title[:len(fr_title_prefix)])
 
-	def extract_report_items(self, plenary_filename):
-		path = CONFIG.plenary_html_input_path(plenary_filename)
-		return _extract_report_items(path, _read_plenary_html(path))
+	def extract_motion_report_items(self, report_path):
+		path = CONFIG.plenary_html_input_path(report_path)
+		return _extract_motion_report_items(path, _read_plenary_html(path))
