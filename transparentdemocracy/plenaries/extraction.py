@@ -14,7 +14,7 @@ from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
 from transparentdemocracy import CONFIG
-from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, MotionData, \
+from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, ReportItem, \
 	BodyTextPart
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
@@ -74,7 +74,7 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposal_discussions(html, plenary_id)
 	motions, votes = __extract_motions(plenary_id, html, politicians)
-	motion_data = _extract_motiondata(report_filename, html)
+	report_items = _extract_report_items(report_filename, html)
 	return (
 		Plenary(
 			plenary_id,
@@ -85,7 +85,7 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
 			proposals,
 			motions,
-			motion_data
+			report_items
 		),
 		votes
 	)
@@ -348,7 +348,7 @@ def __extract_motions(plenary_id: str, html, politicians: Politicians) -> Tuple[
 	return motions, votes
 
 
-def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionData]:
+def _extract_report_items(report_path: str, html: BeautifulSoup) -> List[ReportItem]:
 	def is_start_naamstemmingen(el):
 		if el.name == "h1" and ("naamstemmingen" == el.text.lower().strip()):
 			return True
@@ -369,7 +369,7 @@ def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionDat
 		logger.info(f"multiple candidates for start of 'naamstemmingen' in {report_path}")
 		return []
 
-	def is_motion_title(el):
+	def is_report_item_title(el):
 		if el.name == "h2":
 			return True
 		if el.name == "p" and any([clazz in ["Titre2NL", "Titre2FR"] for clazz in ((el and el.get("class")) or [])]):
@@ -377,22 +377,22 @@ def _extract_motiondata(report_path: str, html: BeautifulSoup) -> List[MotionDat
 
 		return False
 
-	motion_titles = list(filter(is_motion_title, start_naamstemmingen[0].find_next_siblings()))
-	if not motion_titles:
-		logger.warning(f"No motion titles after naamstemmingen in {report_path}")
+	item_titles = list(filter(is_report_item_title, start_naamstemmingen[0].find_next_siblings()))
+	if not item_titles:
+		logger.warning(f"No report item titles after naamstemmingen in {report_path}")
 		return []
-	first_motion_title = motion_titles[0]
+	first_item_title = item_titles[0]
 
-	tag_groups = create_tag_groups([first_motion_title] + first_motion_title.find_next_siblings())
+	tag_groups = create_tag_groups([first_item_title] + first_item_title.find_next_siblings())
 
-	motion_data = find_motion_datas(report_path, tag_groups)
+	report_items = find_report_items(report_path, tag_groups)
 
 	# print(
 	# 	json.dumps([dict(label=m.label, nl_title=m.nl_title, fr_title=m.fr_title,
 	# 					 body_text_parts=[dict(lang=part.lang, text=part.text) for part in m.body_text_parts]) for m in
-	# 				motion_data], indent=2))
+	# 				report_items], indent=2))
 
-	return motion_data
+	return report_items
 
 
 def get_class(el):
@@ -446,7 +446,7 @@ def is_level2_title(tag):
 			tag.name == "p" and any([clazz in ['Titre2FR', 'Titre2NL'] for clazz in tag.get("class")]))
 
 
-def find_motion_datas(report_path, tag_groups):
+def find_report_items(report_path, tag_groups):
 	""" Each of the tag groups starts with a H2 containing a bordered span"""
 
 	result = []
@@ -476,7 +476,7 @@ def find_motion_datas(report_path, tag_groups):
 
 		body_text_parts = [create_body_text_part(el) for el in remaining_elements]
 
-		result.append(MotionData("TODO - label", nl_title, nl_title_tags, fr_title, fr_title_tags, body_text_parts,
+		result.append(ReportItem("TODO - label", nl_title, nl_title_tags, fr_title, fr_title_tags, body_text_parts,
 								 remaining_elements))
 
 	return result
@@ -665,11 +665,6 @@ def _get_plenary_date(path, html):
 
 def main():
 	extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
-
-
-# test_path = CONFIG.plenary_html_input_path(ip298x.html)
-# html = read_plenary_html(test_path)
-# _extract_motiondata(test_path, html)
 
 
 if __name__ == "__main__":

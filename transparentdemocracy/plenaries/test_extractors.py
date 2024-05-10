@@ -4,71 +4,67 @@ import unittest
 
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
-from transparentdemocracy.model import MotionData
-from transparentdemocracy.plenaries.extraction import _extract_motiondata, _read_plenary_html
+from transparentdemocracy.model import ReportItem
+from transparentdemocracy.plenaries.extraction import _extract_report_items, _read_plenary_html
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 logger.setLevel(logging.INFO)
 
 
-class TestNewMotionDataExtraction(unittest.TestCase):
+class TestNewReportItemExtraction(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(cls):
 		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
 
 	def test_extract_ip298_happy_case(self):
-		motion_data = self.extract_motiondata('ip298x.html')
+		report_items = self.extract_report_items('ip298x.html')
 
-		self.assertIsNotNone(motion_data, "motion data")
-		self.assertEqual(len(motion_data), 14)  # motions 10 - 23 (?)
+		self.assertEqual(len(report_items), 14)  # motions 10 - 23 (?)
 
-		self.assert_motion_data(motion_data[0],
+		self.assert_report_item(report_items[0],
 								"TODO - label",
 								"10 Moties ingediend",
 								"10 Motions déposées en conclusion des interpellations de")
 
-		self.assert_motion_data(motion_data[1],
+		self.assert_report_item(report_items[1],
 								"TODO - label",
 								"11 Wetsontwerp\nhoudende diverse wijzigingen van het Wetboek van strafvordering II, zoals\ngeamendeerd tijdens de plenaire vergadering van 28 maart 2024 (3515/10)",
 								"11 Projet de loi portant diverses modifications du Code d'instruction\ncriminelle II, tel qu'amendé lors de la séance plénière du 28 mars 2024\n(3515/10)")
 
 	def test_extract_ip280_has_1_naamstemming_but_no_identifiable_motion_title(self):
-		motion_data = self.extract_motiondata('ip280x.html')
+		report_items = self.extract_report_items('ip280x.html')
 
-		self.assertIsNotNone(motion_data, "motion data")
-		self.assertEqual(len(motion_data), 0)
+		self.assertEqual(len(report_items), 0)
 
 	def test_extract_ip271(self):
-		motion_data = self.extract_motiondata('ip271x.html')
+		report_items = self.extract_report_items('ip271x.html')
 
-		self.assertIsNotNone(motion_data, "motion data")
-		self.assertEqual(len(motion_data), 14)  # todo: check manually
+		self.assertEqual(len(report_items), 14)  # todo: check manually
 
-		self.assert_motion_data(motion_data[0],
+		self.assert_report_item(report_items[0],
 								'TODO - label',
 								'14 Moties ingediend tot besluit van de\ninterpellatie van mevrouw Barbara Pas',
 								'14 Motions déposées en conclusion de l\'interpellation de Mme Barbara\nPas')
 
 		# FIXME: Do we count 'Goedkeuring van de agenda' as a motion?
 		# If we link the motions with their votes we could exclude motions without votes
-		self.assert_motion_data(motion_data[-1],
+		self.assert_report_item(report_items[-1],
 								'TODO - label',
 								'27 Wetsontwerp tot\nwijziging',
 								'27 Projet de loi visant à modi')
 
 	def test_extract_ip290_has_no_naamstemmingen(self):
-		motion_data = self.extract_motiondata('ip290x.html')
+		report_items = self.extract_report_items('ip290x.html')
 
-		self.assertIsNotNone(motion_data, "motion data")
-		self.assertEqual(len(motion_data), 0)
+		self.assertEqual(report_items, [])
 
-	def assert_motion_data(self, motion_data: MotionData, label: str, nl_title_prefix: str, fr_title_prefix: str):
-		self.assertEqual(motion_data.label, label)
-		self.assertEqual(nl_title_prefix, motion_data.nl_title[:len(nl_title_prefix)])
-		self.assertEqual(fr_title_prefix, motion_data.fr_title[:len(fr_title_prefix)])
+	def assert_report_item(self, report_item: ReportItem, label: str, nl_title_prefix: str, fr_title_prefix: str):
+		self.assertEqual(report_item.label, label)
+		self.assertEqual(nl_title_prefix, report_item.nl_title[:len(nl_title_prefix)])
+		self.assertEqual(fr_title_prefix, report_item.fr_title[:len(fr_title_prefix)])
 
-	def extract_motiondata(self, plenary_filename):
+	def extract_report_items(self, plenary_filename):
 		path = CONFIG.plenary_html_input_path(plenary_filename)
-		return _extract_motiondata(path, _read_plenary_html(path))
+		return _extract_report_items(path, _read_plenary_html(path))

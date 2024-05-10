@@ -15,7 +15,7 @@ from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
 from transparentdemocracy import CONFIG
-from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, MotionData, \
+from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, ReportItem, \
 	BodyTextPart
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
@@ -33,9 +33,9 @@ def main():
 	print(f"# plenaries: {len(plenaries)}")
 	print(f"# votes: {len(votes)}")
 	print(f"# motions: {sum([len(p.motions) for p in plenaries])}")
-	print(f"# motions_datas: {sum([len(p.motion_data) for p in plenaries])}")
+	print(f"# report_items: {sum([len(p.report_items) for p in plenaries])}")
 
-	for m in [m for p in plenaries for m in p.motion_data]:
+	for m in [m for p in plenaries for m in p.report_items]:
 		print(">> MOTION")
 		print(m.nl_title)
 

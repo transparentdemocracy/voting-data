@@ -46,7 +46,7 @@ class BodyTextPart:
 
 
 @dataclass
-class MotionData:
+class ReportItem:
 	label: str
 	nl_title: str
 	nl_title_tags: List[Any]
@@ -66,7 +66,7 @@ class Plenary:
 	html_report_url: str
 	proposal_discussions: List[ProposalDiscussion]
 	motions: List[Motion]
-	motion_data: List[MotionData]
+	report_items: List[ReportItem]
 
 
 # Classes related to the detail of votes cast in plenaries:
