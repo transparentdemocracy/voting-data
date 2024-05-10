@@ -3,6 +3,9 @@ Extract info from HTML-formatted voting reports from the Belgian federal chamber
 see https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&cfm=/site/wwwcfm/flwb/LastDocument.cfm.
 """
 import logging
+import glob
+
+import tqdm
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.plenaries.extraction import _read_plenary_html, \
@@ -13,12 +16,14 @@ logging.basicConfig(level=logging.INFO)
 
 
 def main():
-	report_path = CONFIG.plenary_html_input_path("ip298x.html")
-	motion_report_items = _extract_motion_report_items(report_path, _read_plenary_html(report_path))
+	report_paths = glob.glob(CONFIG.plenary_html_input_path("*.html"))
+	for report_path in tqdm.tqdm(sorted(report_paths), "analyzing reports"):
+		motion_report_items = _extract_motion_report_items(report_path, _read_plenary_html(report_path))
 
-	# print_report_items(motion_report_items)
-	motions = _report_items_to_motions("55_test", motion_report_items)
-	print_motions(motions)
+		# print_report_items(motion_report_items)
+		motions = _report_items_to_motions("55_test", motion_report_items)
+		print(f"{report_path} -> {len(motions)}")
+		# print_motions(motions)
 
 
 def print_motions(motions):

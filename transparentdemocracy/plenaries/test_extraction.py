@@ -3,23 +3,118 @@ import os
 import unittest
 from datetime import date
 
+import transparentdemocracy
 from transparentdemocracy.config import CONFIG
+from transparentdemocracy.model import ReportItem, Motion, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
-	extract_from_html_plenary_report, _read_plenary_html, _get_plenary_date
+	extract_from_html_plenary_report, _read_plenary_html, _get_plenary_date, _extract_motion_report_items, \
+	_extract_motions, _extract_votes
+from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 logger.setLevel(logging.INFO)
 
 
-class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
+class ReportItemExtractionTest(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(cls):
-		CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "testdata")
+		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
+
+	def test_extract_ip298_happy_case(self):
+		report_items = self.extract_motion_report_items('ip298x.html')
+
+		self.assertEqual(len(report_items), 14)  # motions 10 - 23 (?)
+
+		self.assert_report_item(report_items[0],
+								"10",
+								"10 Moties ingediend",
+								"10 Motions déposées en conclusion des interpellations de")
+
+		self.assert_report_item(report_items[1],
+								"11",
+								"11 Wetsontwerp\nhoudende diverse wijzigingen van het Wetboek van strafvordering II, zoals\ngeamendeerd tijdens de plenaire vergadering van 28 maart 2024 (3515/10)",
+								"11 Projet de loi portant diverses modifications du Code d'instruction\ncriminelle II, tel qu'amendé lors de la séance plénière du 28 mars 2024\n(3515/10)")
+
+	def test_extract_ip280_has_1_naamstemming_but_no_identifiable_motion_title(self):
+		report_items = self.extract_motion_report_items('ip280x.html')
+
+		self.assertEqual(len(report_items), 0)
+
+	def test_extract_ip271(self):
+		report_items = self.extract_motion_report_items('ip271x.html')
+
+		self.assertEqual(len(report_items), 14)  # todo: check manually
+
+		self.assert_report_item(report_items[0],
+								'14',
+								'14 Moties ingediend tot besluit van de\ninterpellatie van mevrouw Barbara Pas',
+								'14 Motions déposées en conclusion de l\'interpellation de Mme Barbara\nPas')
+
+		# FIXME: Do we count 'Goedkeuring van de agenda' as a motion?
+		# If we link the motions with their votes we could exclude motions without votes
+		self.assert_report_item(report_items[-1],
+								'27',
+								'27 Wetsontwerp tot\nwijziging',
+								'27 Projet de loi visant à modi')
+
+	def test_extract_ip290_has_no_naamstemmingen(self):
+		report_items = self.extract_motion_report_items('ip290x.html')
+
+		self.assertEqual(report_items, [])
+
+	def assert_report_item(self, report_item: ReportItem, label: str, nl_title_prefix: str, fr_title_prefix: str):
+		self.assertEqual(label, report_item.label)
+		self.assertEqual(report_item.nl_title[:len(nl_title_prefix)], nl_title_prefix)
+		self.assertEqual(report_item.fr_title[:len(fr_title_prefix)], fr_title_prefix)
+
+	def extract_motion_report_items(self, report_path):
+		path = CONFIG.plenary_html_input_path(report_path)
+		return _extract_motion_report_items(path, _read_plenary_html(path))
+
+class MotionExtractionTest(unittest.TestCase):
+	@classmethod
+	def setUpClass(cls):
+		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
+
+	def test_extract_motions(self):
+		report_path = CONFIG.plenary_html_input_path("ip298x.html")
+		motion_report_items, motions = _extract_motions("55_298", report_path, _read_plenary_html(report_path))
+
+		self.assertEqual(28, len(motions))
+		self.assertEqual(Motion("55_298_1","1","55_298_10",False), motions[0])
+
+
+class VoteExtractionTest(unittest.TestCase):
+	@classmethod
+	def setUpClass(cls):
+		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
+
+	def test_extract_votes_ip298x(self):
+		report_path = CONFIG.plenary_html_input_path("ip298x.html")
+		politicians = load_politicians()
+		votes = _extract_votes("55_298", _read_plenary_html(report_path), politicians)
+
+		# I Honestly didn't count this. This is just to make sure we notice if parsing changes
+		self.assertEqual(3732, len(votes))
+		self.assertEqual(133, len([v for v in votes if v.motion_id == "55_298_1"]))
+		self.assertEqual(134, len([v for v in votes if v.motion_id == "55_298_2"]))
+		self.assertEqual(132, len([v for v in votes if v.motion_id == "55_298_3"]))
+
+		expected_vote = Vote(politicians[7124], motion_id="55_298_1", vote_type="YES")
+		self.assertEqual(expected_vote, votes[0])
+
+
+class PlenaryExtractionTest(unittest.TestCase):
+
+	@classmethod
+	def setUpClass(cls):
+		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):
+		CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
 		plenaries, all_votes = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
 		self.assertEqual(len(plenaries), 300)
@@ -161,6 +256,7 @@ class TestFederalChamberVotingHtmlExtractor(unittest.TestCase):
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_votes_must_have_politician(self):
+		CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
 		actual, votes = extract_from_html_plenary_reports()
 
 		for vote in votes:

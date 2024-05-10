@@ -74,9 +74,8 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposal_discussions(html, plenary_id)
-	motion_report_items = _extract_motion_report_items(report_filename, html)
-	votes = __extract_votes(plenary_id, html, politicians)
-	motions = _report_items_to_motions(plenary_id, motion_report_items)
+	motion_report_items, motions = _extract_motions(plenary_id, report_filename, html)
+	votes = _extract_votes(plenary_id, html, politicians)
 
 	return (
 		Plenary(
@@ -92,6 +91,12 @@ def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tu
 		),
 		votes
 	)
+
+
+def _extract_motions(plenary_id, report_filename, html):
+	motion_report_items = _extract_motion_report_items(report_filename, html)
+	motions = _report_items_to_motions(plenary_id, motion_report_items)
+	return motion_report_items, motions
 
 
 def __extract_proposal_discussions(html, plenary_id: str) -> List[Proposal]:
@@ -333,7 +338,7 @@ def __split_proposal_header(proposal_header):
 	return number, title, doc_ref
 
 
-def __extract_votes(plenary_id: str, html, politicians: Politicians) -> List[Vote]:
+def _extract_votes(plenary_id: str, html, politicians: Politicians) -> List[Vote]:
 	tokens = WhitespaceTokenizer().tokenize(html.text)
 
 	votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
