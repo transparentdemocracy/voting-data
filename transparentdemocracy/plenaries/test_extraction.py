@@ -114,7 +114,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):
-		CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
+		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "data")
 		plenaries, all_votes = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
 		self.assertEqual(len(plenaries), 300)

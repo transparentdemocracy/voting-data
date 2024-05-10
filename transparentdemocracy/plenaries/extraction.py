@@ -377,9 +377,11 @@ def _extract_votes(plenary_id: str, html, politicians: Politicians) -> List[Vote
 	return votes
 
 
-def _extract_motion_report_items(report_path: str, elements: List[PageElement]) -> List[ReportItem]:
-	after_naamstemmingen = find_elements_after_naamstemmingen(report_path, elements)
-	return _extract_report_items(report_path, after_naamstemmingen)
+def _extract_motion_report_items(report_path: str, html: Tag) -> List[ReportItem]:
+	naamstemmingen_title = find_naamstemmingen_title(report_path, html)
+	if naamstemmingen_title is None:
+		return []
+	return _extract_report_items(report_path, naamstemmingen_title.find_next_siblings())
 
 
 def _extract_report_items(report_path: str, elements: List[PageElement]) -> List[ReportItem]:
@@ -408,7 +410,7 @@ def is_report_item_title(el):
 	return False
 
 
-def find_elements_after_naamstemmingen(report_path: str, html: Tag):
+def find_naamstemmingen_title(report_path: str, html: Tag):
 	def is_start_naamstemmingen(el):
 		if el.name == "h1" and ("naamstemmingen" == el.text.lower().strip()):
 			return True
@@ -418,18 +420,13 @@ def find_elements_after_naamstemmingen(report_path: str, html: Tag):
 
 	start_naamstemmingen = list(filter(is_start_naamstemmingen, html.find_all()))
 	if not start_naamstemmingen:
-		if "naamstemmingen" in html.text.lower():
-			logger.info(f"no naamstemmingen found in {report_path}")
-		else:
-			# There aren't any naamstemmingen, not even logging it
-			pass
 		return None
 
 	if len(start_naamstemmingen) > 1:
-		logger.warning(f"multiple candidates for start of 'naamstemmingen' in {report_path}")
-		return None
+		logger.warning(f"multiple candidates for start of 'naamstemmingen' in {report_path}.")
+		raise Exception("if this happens we need to decide how to resolve this")
 
-	return start_naamstemmingen[0].find_next_siblings()
+	return start_naamstemmingen[0]
 
 
 def get_class(el):
