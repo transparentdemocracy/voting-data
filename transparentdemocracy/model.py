@@ -27,7 +27,7 @@ class Proposal:
 class ProposalDiscussion:
 	id: str
 	plenary_id: str
-	plenary_agenda_item_number: str  # item number on the agenda in the plenary session during which the proposal was discussed. This is the number surrounded with a black border seen in all plenary reports.
+	plenary_agenda_item_number: int  # item number on the agenda in the plenary session during which the proposal was discussed. This is the number surrounded with a black border seen in all plenary reports.
 	description_nl: str
 	description_fr: str
 	proposals: List[Proposal]  # first proposal is the main one under discussion, optional others are linked proposals.

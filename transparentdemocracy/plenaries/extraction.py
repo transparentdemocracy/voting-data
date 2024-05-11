@@ -8,7 +8,7 @@ import logging
 import os
 import re
 from re import RegexFlag
-from typing import Tuple, List
+from typing import Tuple, List, Optional
 
 from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
 from nltk.tokenize import WhitespaceTokenizer
@@ -69,19 +69,19 @@ def _read_plenary_html(report_filename):
 	return html
 
 
-def _extract_plenary(report_filename: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
-	plenary_number = os.path.split(report_filename)[1][2:5]  # example: ip078x.html -> 078
+def _extract_plenary(report_path: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
+	plenary_number = os.path.split(report_path)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
-	proposals = __extract_proposal_discussions(html, plenary_id)
-	motion_report_items, motions = _extract_motions(plenary_id, report_filename, html)
+	proposals = __extract_proposal_discussions(report_path, html, plenary_id)
+	motion_report_items, motions = _extract_motions(plenary_id, report_path, html)
 	votes = _extract_votes(plenary_id, html, politicians)
 
 	return (
 		Plenary(
 			plenary_id,
 			int(plenary_number),
-			_get_plenary_date(report_filename, html),
+			_get_plenary_date(report_path, html),
 			legislature,
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
@@ -99,94 +99,100 @@ def _extract_motions(plenary_id, report_filename, html):
 	return motion_report_items, motions
 
 
-def __extract_proposal_discussions(html, plenary_id: str) -> List[Proposal]:
+def is_article_discussion_item(item: ReportItem) -> bool:
+	white = re.compile("\\s+")
+	normalized_nl = re.sub(white, " ", item.nl_title).strip().lower()
+	return normalized_nl == "bespreking van de artikelen"
+
+
+def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[ProposalDiscussion]:
 	proposal_discussions = []
 
 	# We'll be able to extract the proposals after the header of the proposals section in the plenary report:
-	proposals_section_header = [
-		h1_span for h1_span in html.select("h1 span")
-		if h1_span.text in ["Projets de loi", "Wetsontwerpen en voorstellen"]
-	][0].find_parent("h1")
-
-	# Find all sibling h2 headers, until the next h1 header:
-	# (Indeed, proposals_section_header.find_next_siblings("h2") returns headers that are not about proposals anymore,
-	# which are below next h1 section headers.)
-	proposal_headers = [
-		sibling for sibling in __find_siblings_between_elements(start_element=proposals_section_header,
-																stop_element_name="h1", filter_tag_name="h2")
-		if type(sibling) is not NavigableString  # = Text in the HTML that is not enclosed within tags
+	level1_headers = [
+		el for el in html.find_all()
+		if is_level1_title(el)
 	]
 
-	# Extract the proposal number and titles (in Dutch and French):
-	previous_proposal_header = None
-	header_idx_within_language = 0  # Important for processing multi-line headers: which line is currently processed.
+	if not level1_headers:
+		raise Exception("no level1 found - analyse and fix if this occurs.")
 
-	for proposal_header in proposal_headers:
-		plenary_agenda_item_number, title, doc_ref = __split_proposal_header(proposal_header)
-		if len(proposal_discussions) == 0 \
-				or (plenary_agenda_item_number is not None
-					and int(plenary_agenda_item_number) > proposal_discussions[-1].plenary_agenda_item_number):
-			# A new plenary agenda item number was found.
-			header_idx_within_language = 0
+	proposal_section_headers = [
+		el for el in level1_headers if
+		el.text.strip().lower() in ["projets de loi", "wetsontwerpen en voorstellen",
+									"wetsontwerpen"]
+	]
+	if not proposal_section_headers:
+		raise Exception("no proposal header found - analyse and fix if this occurs.")
 
-			# First, extract the description of the previous proposal and save that:
-			if len(proposal_discussions) > 0:
-				description_nl, description_fr = __extract_proposal_description(
-					previous_proposal_header)  # last header of the previous proposal.
-				proposal_discussions[-1].description_nl = description_nl
-				proposal_discussions[-1].description_fr = description_fr
+	proposal_header_idx = level1_headers.index(proposal_section_headers[-1])
+	next_level1_headers = level1_headers[proposal_header_idx + 1:]
 
-			# Then, create the new proposal discussion, corresponding with that plenary agenda item.
-			# The first header of this agenda item always is in French.
-			# So, we can already add the main proposal under discussion, with the found doc reference and *French* 
-			# title:
-			discussion_id = f"{plenary_id}_d{plenary_agenda_item_number}"
-			proposal_discussions.append(
-				ProposalDiscussion(
-					discussion_id, plenary_id, int(plenary_agenda_item_number),
-					None, None,
-					# The descriptions will be saved later, when the last h2 header of this proposal has been identified. (The description comes after that.)
-					[
-						Proposal(doc_ref, None, title)  # French title
-					]
-				))
-		else:
-			if plenary_agenda_item_number is None:
-				# No plenary agenda item number is in front of the plenary agenda item number.
-				# This introduces an additional proposal that is *related* to the discussion.
-				# Indeed, sometimes multiple headers in the same language occur on consecutive lines, corresponding 
-				# with a proposal discussion about multiple proposals.
-				if proposal_discussions[-1].proposals[-1].title_nl is None:  # No Dutch title has been saved yet.
-					# If we are currently processing French headers, add the new related proposal, with the found 
-					# document reference and *French* title:
-					proposal_discussions[-1].proposals.append(Proposal(doc_ref, None, title))
-				else:
-					# If we are currently processing Dutch headers, set the *Dutch* title:
-					proposal_discussions[-1].proposals[header_idx_within_language].title_nl = title
-					assert doc_ref == proposal_discussions[-1].proposals[header_idx_within_language].document_reference
-			else:
-				# A plenary agenda item number is in front of the title, equal to the one that is currently being 
-				# processed.
-				# This introduces the header(s) for the proposal in Dutch.
-				# Save the title of this first Dutch header:
-				proposal_discussions[-1].proposals[0].title_nl = title
-				assert doc_ref == proposal_discussions[-1].proposals[0].document_reference
-				assert int(plenary_agenda_item_number) == proposal_discussions[-1].plenary_agenda_item_number
+	if next_level1_headers:
+		proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings()
+		next_level1_index = proposal_discussion_elements.index(next_level1_headers[0])
+		proposal_discussion_elements = proposal_discussion_elements[:next_level1_index]
+	else:
+		proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings()
 
-		previous_proposal_header = proposal_header
-		header_idx_within_language += 1
+	proposal_discussion_elements = [el for el in proposal_discussion_elements if el.text.strip() != ""]
 
-	# Manual corrections:
-	# Some errors after processing proposals are just impossible to correct with a general rule. They are just one-off # "formatting mistakes" in the plenary report that are not in line with the template.
-	# We could correct them in our json dumps manually, but when generating the json dumps again, those manual 
-	# corrections would be lost.
-	# Therefore, we register - or *also* "register" them here:
+	# print("PROPOSALS FROM", proposal_discussion_elements[0].text)
+	# print("PROPOSALS TO", proposal_discussion_elements[-1].text)
 
-	# - One proposal title was first mentioned in Dutch, instead of French. Switch the resulting titles:
-	if plenary_id == "55_261":
-		title_nl = proposal_discussions[0].proposals[0].title_nl
-		proposal_discussions[0].proposals[0].title_nl = proposal_discussions[0].proposals[0].title_fr
-		proposal_discussions[0].proposals[0].title_fr = title_nl
+	tag_groups = create_level2_tag_groups(proposal_discussion_elements)
+	report_items = find_report_items(report_path, tag_groups)
+
+	for level2_item in report_items:
+		nl_proposals = level2_item.nl_title_tags
+		fr_proposals = level2_item.fr_title_tags
+
+		if level2_item.label == "??":
+			raise Exception("no label", level2_item.fr_title)
+
+		if len(nl_proposals) != len(fr_proposals):
+			raise Exception(
+				f"{report_path}: {level2_item.label} number of proposal tags nl/fr doesn't match up - analyse and fix if this happens")
+
+		proposal_id = f"{plenary_id}_d{level2_item.label}"
+
+		level3_groups = create_level3_tag_groups(level2_item.body)
+		level3_items = find_report_items(report_path, level3_groups, is_level3_title)
+
+		discussion_items = [item for item in level3_items if is_article_discussion_item(item)]
+		if not discussion_items:
+			raise Exception(f"{proposal_id} could not find announcement of discussion")
+		if len(discussion_items) > 1:
+			raise Exception(f"{proposal_id} discussion was announced more than once?")
+
+		discussion_item = discussion_items[0]
+
+		proposals = []
+		if len(level2_item.nl_title_tags) != len(level2_item.fr_title_tags):
+			raise Exception(f"{proposal_id} {level2_item.label} proposal discussion nl/fr title tags does not match")
+
+		white = re.compile("\\s+")
+
+		for nl, fr in zip(level2_item.nl_title_tags, level2_item.fr_title_tags):
+			nl_proposal_text = re.sub(white, " ", nl.text).strip()
+			fr_proposal_text = re.sub(white, " ", fr.text).strip()
+			nl_label, nl_text, nl_doc_ref = __split_proposal_header(nl_proposal_text)
+			fr_label, fr_text, fr_doc_ref = __split_proposal_header(fr_proposal_text)
+			# TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
+			proposals.append(Proposal(nl_doc_ref, nl_text.strip(), fr_text.strip()))
+
+		pd = ProposalDiscussion(
+			proposal_id,
+			plenary_id,
+			plenary_agenda_item_number=int(level2_item.label, 10),
+			description_nl=re.sub(white, " ",
+								  " ".join([el.text for el in discussion_item.body_text_parts if el.lang == "nl"])),
+			description_fr=re.sub(white, " ",
+								  " ".join([el.text for el in discussion_item.body_text_parts if el.lang == "fr"])),
+			proposals=proposals
+		)
+
+		proposal_discussions.append(pd)
 
 	return proposal_discussions
 
@@ -222,48 +228,6 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 			result.append(Motion(motion_id, motion_number, proposal_id, cancelled))
 
 	return result
-
-
-def __extract_proposal_description(proposal_header) -> Tuple[str, str]:
-	"""
-	First, still fetch the description of the previous plenary agenda item.
-	Extract the description of the proposal, below the "Bespreking van de artikelen" header between the 
-	proposal title, and the next proposal title.
-	"""
-	description_header = [
-		sibling_tag for sibling_tag in __find_siblings_between_elements(start_element=proposal_header,
-																		stop_element_name="h2",
-																		filter_class_name="Titre3NL")
-		if type(sibling_tag) is not NavigableString  # otherwise .findChild() cannot be used next.
-		   and sibling_tag.findChild("span").text.strip().replace("\n", " ") == "Bespreking van de artikelen"
-	]
-	if len(description_header) == 1:
-		# If the description header was found, extract the descriptions:
-		description_header = description_header[0]
-		description_nl = "\n".join([
-			description_paragraph.text.strip().replace("\n", " ")
-			for description_paragraph in __find_siblings_between_elements(description_header, "h2",
-																		  filter_class_name="NormalNL")
-		])
-		description_fr = "\n".join([
-			description_paragraph.text.strip().replace("\n", " ")
-			for description_paragraph in __find_siblings_between_elements(description_header, "h2",
-																		  filter_class_name="NormalFR")
-		])
-	else:
-		# If the description header could not be found, extract the description in a best-effort fallback way as
-		# all text starting between the proposal header and the next proposal header.
-		# Note: we cannot filter only the NormalNL / NormalFR classes here, to build a separate description in 
-		# the respective languages, as the parts of the description are not available in both languages, but 
-		# intermittently in one language, then the other.
-		description = "\n".join([
-			description_paragraph.text.strip().replace("\n", " ")
-			for description_paragraph in __find_siblings_between_elements(proposal_header, "h2")
-		])
-		description_nl = description
-		description_fr = description
-	return description_nl.replace(u'\xa0', u' ').strip("\n"), description_fr.replace(u'\xa0', u' ').strip(
-		"\n")  # replace non-breaking space characters with regular spaces, etc.
 
 
 def __find_siblings_between_elements(
@@ -317,23 +281,21 @@ def __get_next_sibling_tag_name(element):
 	return next_element, next_element_name
 
 
-def __split_proposal_header(proposal_header):
+def __split_proposal_header(proposal_title) -> Tuple[Optional[int], str, str]:
 	# Extract the proposal number and title:
-	spans = [span.text.strip().replace("\n", " ") for span in proposal_header.findChildren("span")]
-	if len(spans) >= 2:
-		number, title = spans[
-						:2]  # TODO weirdly enough, sometimes the title occurs multiple times in the result, whereas only once in the html.
-	elif len(spans) == 1:
-		number = None
-		title = spans[0]
+	title = proposal_title
 
-	# If the proposal title contains proposal document reference at the end, split the title into the actual title and 
-	# the document reference (for example, "... les armes (3849/1-4)" should result in "... les armes" and "3849/1-4"):
-	match = re.match(r"(.*) \((.*)\)", title)
-	if match:
-		title, doc_ref = match.groups()
-	else:
-		doc_ref = None
+	item_number_pattern = re.compile("^(\\d+)\\W")
+	number_match = item_number_pattern.search(title)
+	number = int(number_match.group(1), 10) if number_match else None
+	if number_match:
+		title = title[number_match.end():]
+
+	doc_ref_pattern = re.compile("\\(([\\d/-]*)\\)")
+	doc_ref_match = doc_ref_pattern.search(title)
+	doc_ref = doc_ref_match.group(1) if doc_ref_match else None
+	if doc_ref_match:
+		title = title[:doc_ref_match.start()]
 
 	return number, title, doc_ref
 
@@ -394,7 +356,7 @@ def _extract_report_items(report_path: str, elements: List[PageElement]) -> List
 		logger.warning(f"No report item titles after naamstemmingen in {report_path}")
 		return []
 
-	tag_groups = create_tag_groups(elements)
+	tag_groups = create_level2_tag_groups(elements)
 	report_items = find_report_items(report_path, tag_groups)
 
 	# TODO: should we filter items that are missing titles of is that not our concern?
@@ -435,7 +397,15 @@ def get_class(el):
 		return []
 
 
-def create_tag_groups(tags):
+def create_level2_tag_groups(tags):
+	return create_tag_groups(tags, is_level2_title)
+
+
+def create_level3_tag_groups(tags):
+	return create_tag_groups(tags, is_level3_title)
+
+
+def create_tag_groups(tags, header_condition):
 	""" Creates groups that consist of consecutive titles followed by non-titles"""
 
 	groups = []
@@ -447,7 +417,7 @@ def create_tag_groups(tags):
 	for tag in tags:
 		if tag.text.strip() == "":  # ignore empty tags (see motion 23 of ip271)
 			continue
-		if is_level2_title(tag):
+		if header_condition(tag):
 			if not last_was_title and current_group:
 				groups.append(current_group)
 				current_group = []
@@ -463,16 +433,26 @@ def create_tag_groups(tags):
 	return groups
 
 
-def is_level2_title(tag):
+def is_level1_title(tag):
+	return (tag.name == "h1") or (
+			tag.name == "p" and any([clazz in ['Titre1FR', 'Titre1NL'] for clazz in tag.get("class")]))
+
+
+def is_level2_title(tag) -> bool:
 	return (tag.name == "h2") or (
 			tag.name == "p" and any([clazz in ['Titre2FR', 'Titre2NL'] for clazz in tag.get("class")]))
 
 
-def find_report_items(report_path, tag_groups):
+def is_level3_title(tag) -> bool:
+	return (tag.name == "h3") or (
+			tag.name == "p" and any([clazz in ['Titre3FR', 'Titre3NL'] for clazz in tag.get("class")]))
+
+
+def find_report_items(report_path, tag_groups, header_condition=is_level2_title):
 	result = []
 
 	for tag_group in tag_groups:
-		titles = [tag for tag in tag_group if is_level2_title(tag)]
+		titles = [tag for tag in tag_group if header_condition(tag)]
 
 		fr_title_tags = [tag for tag in titles if is_french_title(tag)]
 		nl_title_tags = [tag for tag in titles if is_dutch_title(tag)]
@@ -480,13 +460,13 @@ def find_report_items(report_path, tag_groups):
 		fr_title = "\n".join([tag.text for tag in fr_title_tags])
 		nl_title = "\n".join([tag.text for tag in nl_title_tags])
 
-		remaining_elements = [tag for tag in tag_group if not is_level2_title(tag) if tag.text.strip() != ""]
+		remaining_elements = [tag for tag in tag_group if not header_condition(tag) if tag.text.strip() != ""]
 
 		body_text_parts = [create_body_text_part(el) for el in remaining_elements]
 
-		label_candidates = [tag for title_tag in nl_title_tags for tag in title_tag.select("*") if
-							re.match("\\d\\d", tag.text)]
-		label = "??" if not label_candidates else label_candidates[0].text
+		label_pattern = re.compile("^(\\d+)")
+		label_match = re.search(label_pattern, nl_title.strip())
+		label = None if not label_match else label_match.group(1)
 
 		result.append(ReportItem(label, nl_title, nl_title_tags, fr_title, fr_title_tags, body_text_parts,
 								 remaining_elements))
@@ -494,16 +474,24 @@ def find_report_items(report_path, tag_groups):
 	return result
 
 
+def _has_nl_title_class(el):
+	return tag_has_class(el, "Titre1NL") or tag_has_class(el, "Titre2NL") or tag_has_class(el, "Titre3NL")
+
+
+def _has_fr_title_class(el):
+	return tag_has_class(el, "Titre1FR") or tag_has_class(el, "Titre2FR") or tag_has_class(el, "Titre3FR")
+
+
 def is_dutch_title(tag):
-	return tag_has_class(tag, "Titre2FR")
+	if _has_fr_title_class(tag):
+		return False
+	return _has_nl_title_class(tag) or (tag.name in ["h1", "h2", "h3"] and tag.select('span[lang="NL"]'))
 
 
 def is_french_title(tag):
-	return tag_has_class(tag, "Titre2FR") or tag.select('span[lang="FR"]')
-
-
-def is_dutch_title(tag):
-	return tag_has_class(tag, "Titre2NL") or tag.select('span[lang="NL"]')
+	# may is not a perfect heuristic (esp when tag is not a title tag), but atm it's only used on title tags AND
+	# it has nice property of always being the opposite of is_dutch_title
+	return not is_dutch_title(tag)
 
 
 def tag_has_class(tag, clazz):
