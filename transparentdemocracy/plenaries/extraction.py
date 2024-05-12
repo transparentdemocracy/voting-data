@@ -22,6 +22,8 @@ from transparentdemocracy.politicians.extraction import Politicians, load_politi
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
+WHITESPACE = re.compile("\\s+")
+
 DAYS_NL = "maandag,dinsdag,woensdag,donderdag,vrijdag,zaterdag,zondag".split(",")
 MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktober,november,december".split(",")
 
@@ -100,9 +102,12 @@ def _extract_motions(plenary_id, report_filename, html):
 
 
 def is_article_discussion_item(item: ReportItem) -> bool:
-	white = re.compile("\\s+")
-	normalized_nl = re.sub(white, " ", item.nl_title).strip().lower()
+	normalized_nl = normalize_whitespace(item.nl_title).lower()
 	return normalized_nl == "bespreking van de artikelen"
+
+
+def normalize_whitespace(text) -> str:
+	return re.sub(WHITESPACE, " ", text).strip()
 
 
 def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[ProposalDiscussion]:
@@ -111,7 +116,7 @@ def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[P
 	# We'll be able to extract the proposals after the header of the proposals section in the plenary report:
 	level1_headers = [
 		el for el in html.find_all()
-		if is_level1_title(el)
+		if el.text.strip() != "" and is_level1_title(el)
 	]
 
 	if not level1_headers:
@@ -150,9 +155,17 @@ def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[P
 		if level2_item.label == "??":
 			raise Exception("no label", level2_item.fr_title)
 
+		if len(nl_proposals) + len(fr_proposals) == 0:
+			raise Exception(f"{report_path}: {level2_item.label} has no proposals")
 		if len(nl_proposals) != len(fr_proposals):
-			raise Exception(
-				f"{report_path}: {level2_item.label} number of proposal tags nl/fr doesn't match up - analyse and fix if this happens")
+			if len(fr_proposals) == 0 and len(nl_proposals) % 2 == 0:
+				# Just split into 2. Simply assuming the first half is dutch (we might use tools to recognize languages if this doesn't turn out right
+				middle = int(len(nl_proposals) / 2)
+				fr_proposals = nl_proposals[:middle]
+				nl_proposals = nl_proposals[middle:]
+			else:
+				raise Exception(
+					f"{report_path}: {level2_item.label} number of proposal tags nl/fr doesn't match up - analyse and fix if this happens")
 
 		proposal_id = f"{plenary_id}_d{level2_item.label}"
 
@@ -161,7 +174,11 @@ def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[P
 
 		discussion_items = [item for item in level3_items if is_article_discussion_item(item)]
 		if not discussion_items:
-			raise Exception(f"{proposal_id} could not find announcement of discussion")
+			if "verzoek om advies van de raad van state" in normalize_whitespace(level2_item.nl_title).lower():
+				# ip 261 item 20 doesn't have a discussion part. That's ok
+				continue
+			else:
+				raise Exception(f"{proposal_id} could not find announcement of discussion")
 		if len(discussion_items) > 1:
 			raise Exception(f"{proposal_id} discussion was announced more than once?")
 
@@ -171,11 +188,9 @@ def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[P
 		if len(level2_item.nl_title_tags) != len(level2_item.fr_title_tags):
 			raise Exception(f"{proposal_id} {level2_item.label} proposal discussion nl/fr title tags does not match")
 
-		white = re.compile("\\s+")
-
 		for nl, fr in zip(level2_item.nl_title_tags, level2_item.fr_title_tags):
-			nl_proposal_text = re.sub(white, " ", nl.text).strip()
-			fr_proposal_text = re.sub(white, " ", fr.text).strip()
+			nl_proposal_text = normalize_whitespace(nl.text)
+			fr_proposal_text = normalize_whitespace(fr.text)
 			nl_label, nl_text, nl_doc_ref = __split_proposal_header(nl_proposal_text)
 			fr_label, fr_text, fr_doc_ref = __split_proposal_header(fr_proposal_text)
 			# TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
@@ -185,10 +200,8 @@ def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[P
 			proposal_id,
 			plenary_id,
 			plenary_agenda_item_number=int(level2_item.label, 10),
-			description_nl=re.sub(white, " ",
-								  " ".join([el.text for el in discussion_item.body_text_parts if el.lang == "nl"])),
-			description_fr=re.sub(white, " ",
-								  " ".join([el.text for el in discussion_item.body_text_parts if el.lang == "fr"])),
+			description_nl=normalize_whitespace(" ".join([el.text for el in discussion_item.body_text_parts if el.lang == "nl"])),
+			description_fr=normalize_whitespace(" ".join([el.text for el in discussion_item.body_text_parts if el.lang == "fr"])),
 			proposals=proposals
 		)
 
