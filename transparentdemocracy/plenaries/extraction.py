@@ -34,6 +34,7 @@ def extract_from_html_plenary_reports(
 	politicians = load_politicians()
 	plenaries = []
 	all_votes = []
+	all_problems = []
 	logging.info(f"Report files must be found at: {report_file_pattern}.")
 	report_filenames = glob.glob(report_file_pattern)
 	if num_reports_to_process is not None:
@@ -44,9 +45,10 @@ def extract_from_html_plenary_reports(
 		try:
 			logging.debug(f"Processing input report {voting_report}...")
 			if voting_report.endswith(".html"):
-				plenary, votes = extract_from_html_plenary_report(voting_report, politicians)
+				plenary, votes, problems = extract_from_html_plenary_report(voting_report, politicians)
 				plenaries.append(plenary)
 				all_votes.extend(votes)
+				all_problems += problems
 			else:
 				raise RuntimeError("Plenary reports in other formats than HTML cannot be processed.")
 
@@ -57,33 +59,42 @@ def extract_from_html_plenary_reports(
 	return plenaries, all_votes
 
 
+class PlenaryExtractionContext:
+	def __init__(self, report_path, politicians: Politicians):
+		self.report_path = report_path
+		self.politicians = politicians
+		self.html = None
+		self.problems = []
+
+
 def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
-	Plenary, List[Vote]]:
+	Plenary, List[Vote], List[str]]:
 	politicians = politicians or load_politicians()
-	html = _read_plenary_html(report_filename)
-	return _extract_plenary(report_filename, html, politicians)
+	ctx = PlenaryExtractionContext(report_filename, politicians)
+	ctx.html = _read_plenary_html(report_filename)
+	return _extract_plenary(ctx)
 
 
 def _read_plenary_html(report_filename):
 	with open(report_filename, "r", encoding="cp1252") as file:
 		html_content = file.read()
-	html = BeautifulSoup(html_content, "html.parser")  # "lxml")
-	return html
+	return BeautifulSoup(html_content, "html.parser")  # "lxml")
 
 
-def _extract_plenary(report_path: str, html, politicians: Politicians) -> Tuple[Plenary, List[Vote]]:
-	plenary_number = os.path.split(report_path)[1][2:5]  # example: ip078x.html -> 078
+def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[
+	Plenary, List[Vote]]:
+	plenary_number = os.path.split(ctx.report_path)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
-	proposals = __extract_proposal_discussions(report_path, html, plenary_id)
-	motion_report_items, motions = _extract_motions(plenary_id, report_path, html)
-	votes = _extract_votes(plenary_id, html, politicians)
+	proposals = __extract_proposal_discussions(ctx, plenary_id)
+	motion_report_items, motions = _extract_motions(plenary_id, ctx.report_path, ctx.html)
+	votes = _extract_votes(plenary_id, ctx.html, ctx.politicians)
 
 	return (
 		Plenary(
 			plenary_id,
 			int(plenary_number),
-			_get_plenary_date(report_path, html),
+			_get_plenary_date(ctx.report_path, ctx.html),
 			legislature,
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
@@ -110,12 +121,13 @@ def normalize_whitespace(text) -> str:
 	return re.sub(WHITESPACE, " ", text).strip()
 
 
-def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[ProposalDiscussion]:
+def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: str) -> List[
+	ProposalDiscussion]:
 	proposal_discussions = []
 
 	# We'll be able to extract the proposals after the header of the proposals section in the plenary report:
 	level1_headers = [
-		el for el in html.find_all()
+		el for el in ctx.html.find_all()
 		if el.text.strip() != "" and is_level1_title(el)
 	]
 
@@ -146,17 +158,19 @@ def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[P
 	# print("PROPOSALS TO", proposal_discussion_elements[-1].text)
 
 	tag_groups = create_level2_tag_groups(proposal_discussion_elements)
-	report_items = find_report_items(report_path, tag_groups)
+	report_items = find_report_items(ctx.report_path, tag_groups)
 
 	for level2_item in report_items:
 		nl_proposals = level2_item.nl_title_tags
 		fr_proposals = level2_item.fr_title_tags
 
-		if level2_item.label == "??":
-			raise Exception("no label", level2_item.fr_title)
+		if not level2_item.label:
+			# ip182x: Wetsontwerpen en voorstellen has a paragraph before the first proposal start at [15]. We ignore this
+			ctx.problems.append("LEVEL2_ITEM_WITHOUT_LABEL")
+			continue
 
 		if len(nl_proposals) + len(fr_proposals) == 0:
-			raise Exception(f"{report_path}: {level2_item.label} has no proposals")
+			raise Exception(f"{ctx.report_path}: {level2_item.label} has no proposals")
 		if len(nl_proposals) != len(fr_proposals):
 			if len(fr_proposals) == 0 and len(nl_proposals) % 2 == 0:
 				# Just split into 2. Simply assuming the first half is dutch (we might use tools to recognize languages if this doesn't turn out right
@@ -165,12 +179,14 @@ def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[P
 				nl_proposals = nl_proposals[middle:]
 			else:
 				raise Exception(
-					f"{report_path}: {level2_item.label} number of proposal tags nl/fr doesn't match up - analyse and fix if this happens")
+					f"{ctx.report_path}: {level2_item.label} number of proposal tags nl/fr doesn't match up - analyse and fix if this happens")
+
+		# TODO: what do we do with nl_proposals and nl_proposals now that we have them?
 
 		proposal_id = f"{plenary_id}_d{level2_item.label}"
 
 		level3_groups = create_level3_tag_groups(level2_item.body)
-		level3_items = find_report_items(report_path, level3_groups, is_level3_title)
+		level3_items = find_report_items(ctx.report_path, level3_groups, is_level3_title)
 
 		discussion_items = [item for item in level3_items if is_article_discussion_item(item)]
 		if not discussion_items:
@@ -200,8 +216,10 @@ def __extract_proposal_discussions(report_path, html, plenary_id: str) -> List[P
 			proposal_id,
 			plenary_id,
 			plenary_agenda_item_number=int(level2_item.label, 10),
-			description_nl=normalize_whitespace(" ".join([el.text for el in discussion_item.body_text_parts if el.lang == "nl"])),
-			description_fr=normalize_whitespace(" ".join([el.text for el in discussion_item.body_text_parts if el.lang == "fr"])),
+			description_nl=normalize_whitespace(
+				" ".join([el.text for el in discussion_item.body_text_parts if el.lang == "nl"])),
+			description_fr=normalize_whitespace(
+				" ".join([el.text for el in discussion_item.body_text_parts if el.lang == "fr"])),
 			proposals=proposals
 		)
 
