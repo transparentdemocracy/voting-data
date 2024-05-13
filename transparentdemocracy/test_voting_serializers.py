@@ -12,7 +12,8 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(cls):
-		CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "testdata")
+		root_folder = os.path.dirname(os.path.dirname(__file__))
+		CONFIG.data_dir = os.path.join(root_folder, "testdata")
 
 	@unittest.skip("broken because proposal parsing fails")
 	def test_serialize(self):

@@ -10,7 +10,8 @@ class TestPoliticians(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(cls):
-		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
+		root_folder = os.path.dirname(os.path.dirname(transparentdemocracy.__file__))
+		CONFIG.data_dir = os.path.join(root_folder, "testdata")
 
 	def test_extract(self):
 		politicians = PoliticianExtractor().extract_politicians(pattern="7???.json")

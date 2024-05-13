@@ -8,7 +8,8 @@ from transparentdemocracy import CONFIG
 class TestMotionSummarizer(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "testdata")
+        root_folder = os.path.dirname(os.path.dirname(__file__))
+        CONFIG.data_dir = os.path.join(root_folder, "testdata")
 
     @unittest.skipIf("OPENAI_API_KEY" not in os.environ, "test needs an openapi key")
     def test_summarize(self):

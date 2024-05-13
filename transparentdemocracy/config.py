@@ -30,7 +30,8 @@ class Config:
 
 
 def _create_config():
-	return Config(os.path.join(os.path.dirname(__file__), "..", "data"))
+	root_folder = os.path.dirname(os.path.dirname(__file__))
+	return Config(os.path.join(root_folder, "data"))
 
 
 CONFIG = _create_config()

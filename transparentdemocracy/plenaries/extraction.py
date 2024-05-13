@@ -60,20 +60,19 @@ def extract_from_html_plenary_reports(
 		report_filenames = report_filenames[:num_reports_to_process]
 	logging.debug(f"Will process the following input reports: {report_filenames}.")
 
-	for voting_report in tqdm(report_filenames, desc="Processing plenary reports..."):
+	for report_filename in tqdm(report_filenames, desc="Processing plenary reports..."):
 		try:
-			logging.debug(f"Processing input report {voting_report}...")
-			if voting_report.endswith(".html"):
-				plenary, votes, problems = extract_from_html_plenary_report(voting_report, politicians)
+			logging.debug(f"Processing input report {report_filename}...")
+			if report_filename.endswith(".html"):
+				plenary, votes = extract_from_html_plenary_report(report_filename, politicians)
 				plenaries.append(plenary)
 				all_votes.extend(votes)
-				all_problems += problems
 			else:
 				raise RuntimeError("Plenary reports in other formats than HTML cannot be processed.")
 
 		except Exception as e:
 			# raise e
-			logging.warning("Failed to process %s", voting_report, exc_info=True)
+			logging.warning("Failed to process %s", report_filename, exc_info=True)
 
 	return plenaries, all_votes
 

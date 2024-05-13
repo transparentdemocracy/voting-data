@@ -16,11 +16,14 @@ logging.basicConfig(level=logging.INFO)
 logger.setLevel(logging.INFO)
 
 
+ROOT_FOLDER = os.path.dirname(os.path.dirname(transparentdemocracy.__file__))
+
+
 class ReportItemExtractionTest(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(cls):
-		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
+		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
 	def test_extract_ip298_happy_case(self):
 		report_items = self.extract_motion_report_items('ip298x.html')
@@ -77,7 +80,7 @@ class ReportItemExtractionTest(unittest.TestCase):
 class MotionExtractionTest(unittest.TestCase):
 	@classmethod
 	def setUpClass(cls):
-		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
+		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
 	def test_extract_motions(self):
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
@@ -90,7 +93,7 @@ class MotionExtractionTest(unittest.TestCase):
 class VoteExtractionTest(unittest.TestCase):
 	@classmethod
 	def setUpClass(cls):
-		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
+		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
 	def test_extract_votes_ip298x(self):
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
@@ -111,11 +114,11 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(cls):
-		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "testdata")
+		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):
-		CONFIG.data_dir = os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", "data")
+		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
 		plenaries, all_votes = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
 		self.assertEqual(len(plenaries), 300)
@@ -298,7 +301,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_votes_must_have_politician(self):
-		CONFIG.data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
+		CONFIG.data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 		actual, votes = extract_from_html_plenary_reports()
 
 		for vote in votes:
