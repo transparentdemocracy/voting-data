@@ -148,6 +148,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 		el.text.strip().lower() in ["projets de loi", "wetsontwerpen en voorstellen",
 									"wetsontwerpen",
 									"wetsontwerp en -voorstellen",
+									"wetsontwerp en voorstellen",
 									"voorstellen van resolutie",
 									"wetsvoorstellen",
 									"voorstel van resolutie",

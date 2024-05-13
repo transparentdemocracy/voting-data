@@ -380,6 +380,19 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(1, len(plenary.proposal_discussions[0].proposals))
 		self.assertEqual(1, len(plenary.proposal_discussions[1].proposals))
 
+	def test_extract_from_html_plenary_report__ip099x_html(self):
+		# This report has a different proposals section title: "Wetsontwerp en voorstellen".
+		# Arrange
+		report_file_name = CONFIG.plenary_html_input_path("ip099x.html")
+
+		# Act
+		plenary, votes = extract_from_html_plenary_report(report_file_name)
+
+		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
+		self.assertEqual(14, len(plenary.proposal_discussions))
+		self.assertEqual(13, plenary.proposal_discussions[0].plenary_agenda_item_number)
+		self.assertEqual(26, plenary.proposal_discussions[-1].plenary_agenda_item_number)
+
 	def test_extract_from_html_plenary_report__ip038x_html(self):
 		# This report has a different proposals section title: "Wetsvoorstellen".
 		# Arrange
