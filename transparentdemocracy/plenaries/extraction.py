@@ -7,6 +7,7 @@ import glob
 import logging
 import os
 import re
+from dataclasses import dataclass
 from re import RegexFlag
 from typing import Tuple, List, Optional
 
@@ -26,6 +27,23 @@ WHITESPACE = re.compile("\\s+")
 
 DAYS_NL = "maandag,dinsdag,woensdag,donderdag,vrijdag,zaterdag,zondag".split(",")
 MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktober,november,december".split(",")
+
+
+@dataclass
+class ParseProblem:
+	report_path: str
+	problem_type: str
+	location: str
+
+class PlenaryExtractionContext:
+	def __init__(self, report_path, politicians: Politicians):
+		self.report_path = report_path
+		self.politicians = politicians
+		self.html = None
+		self.problems = []
+
+	def add_problem(self, problem_type: str, location: str = None):
+		self.problems.append(ParseProblem(self.report_path, problem_type, location))
 
 
 def extract_from_html_plenary_reports(
@@ -57,14 +75,6 @@ def extract_from_html_plenary_reports(
 			logging.warning("Failed to process %s", voting_report, exc_info=True)
 
 	return plenaries, all_votes
-
-
-class PlenaryExtractionContext:
-	def __init__(self, report_path, politicians: Politicians):
-		self.report_path = report_path
-		self.politicians = politicians
-		self.html = None
-		self.problems = []
 
 
 def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
@@ -166,7 +176,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 		if not level2_item.label:
 			# ip182x: Wetsontwerpen en voorstellen has a paragraph before the first proposal start at [15]. We ignore this
-			ctx.problems.append("LEVEL2_ITEM_WITHOUT_LABEL")
+			ctx.add_problem("LEVEL2_ITEM_WITHOUT_LABEL")
 			continue
 
 		if len(nl_proposals) + len(fr_proposals) == 0:
@@ -191,10 +201,11 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 		discussion_items = [item for item in level3_items if is_article_discussion_item(item)]
 		if not discussion_items:
 			if "verzoek om advies van de raad van state" in normalize_whitespace(level2_item.nl_title).lower():
-				# ip 261 item 20 doesn't have a discussion part. That's ok
+				# ip 261 item 20 doesn't have a discussion part. Ignoring this
 				continue
 			else:
-				raise Exception(f"{proposal_id} could not find announcement of discussion")
+				ctx.add_problem("PROPOSAL_WITHOUT_DISCUSSION_ANNOUNCEMENT", proposal_id)
+				continue
 		if len(discussion_items) > 1:
 			raise Exception(f"{proposal_id} discussion was announced more than once?")
 
