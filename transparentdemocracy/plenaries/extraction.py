@@ -148,6 +148,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 		el.text.strip().lower() in ["projets de loi", "wetsontwerpen en voorstellen",
 									"wetsontwerpen",
 									"wetsontwerp en -voorstellen",
+									"voorstellen van resolutie",
 									# "Begrotingen" (= financial cost estimates) for the coming year are the replacement
 									# for normal proposal discussions, but are in fact just another title for what are
 									# still proposals:

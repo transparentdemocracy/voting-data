@@ -354,6 +354,19 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(1, len(plenary.proposal_discussions[1].proposals))
 		self.assertEqual(1, len(plenary.proposal_discussions[2].proposals))
 
+	def test_extract_from_html_plenary_report__ip125x_html(self):
+		# This report has a different proposals section title: "Voorstellen van resolutie".
+		# Arrange
+		report_file_name = CONFIG.plenary_html_input_path("ip125x.html")
+
+		# Act
+		plenary, votes = extract_from_html_plenary_report(report_file_name)
+
+		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
+		self.assertEqual(2, len(plenary.proposal_discussions))
+		self.assertEqual(1, len(plenary.proposal_discussions[0].proposals))
+		self.assertEqual(1, len(plenary.proposal_discussions[1].proposals))
+
 	@unittest.skip(
 		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
 	def test_extract_ip67(self):
