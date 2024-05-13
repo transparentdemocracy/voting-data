@@ -35,6 +35,7 @@ class ParseProblem:
 	problem_type: str
 	location: str
 
+
 class PlenaryExtractionContext:
 	def __init__(self, report_path, politicians: Politicians):
 		self.report_path = report_path
@@ -171,22 +172,22 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 	report_items = find_report_items(ctx.report_path, tag_groups)
 
 	for level2_item in report_items:
-		nl_proposals = level2_item.nl_title_tags
-		fr_proposals = level2_item.fr_title_tags
+		nl_proposal_titles = level2_item.nl_title_tags
+		fr_proposal_titles = level2_item.fr_title_tags
 
 		if not level2_item.label:
 			# ip182x: Wetsontwerpen en voorstellen has a paragraph before the first proposal start at [15]. We ignore this
 			ctx.add_problem("LEVEL2_ITEM_WITHOUT_LABEL")
 			continue
 
-		if len(nl_proposals) + len(fr_proposals) == 0:
+		if len(nl_proposal_titles) + len(fr_proposal_titles) == 0:
 			raise Exception(f"{ctx.report_path}: {level2_item.label} has no proposals")
-		if len(nl_proposals) != len(fr_proposals):
-			if len(fr_proposals) == 0 and len(nl_proposals) % 2 == 0:
+		if len(nl_proposal_titles) != len(fr_proposal_titles):
+			if len(fr_proposal_titles) == 0 and len(nl_proposal_titles) % 2 == 0:
 				# Just split into 2. Simply assuming the first half is dutch (we might use tools to recognize languages if this doesn't turn out right
-				middle = int(len(nl_proposals) / 2)
-				fr_proposals = nl_proposals[:middle]
-				nl_proposals = nl_proposals[middle:]
+				middle = int(len(nl_proposal_titles) / 2)
+				fr_proposal_titles = nl_proposal_titles[middle:]
+				nl_proposal_titles = nl_proposal_titles[:middle]
 			else:
 				raise Exception(
 					f"{ctx.report_path}: {level2_item.label} number of proposal tags nl/fr doesn't match up - analyse and fix if this happens")
@@ -200,22 +201,21 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 		discussion_items = [item for item in level3_items if is_article_discussion_item(item)]
 		if not discussion_items:
-			if "verzoek om advies van de raad van state" in normalize_whitespace(level2_item.nl_title).lower():
-				# ip 261 item 20 doesn't have a discussion part. Ignoring this
-				continue
-			else:
-				ctx.add_problem("PROPOSAL_WITHOUT_DISCUSSION_ANNOUNCEMENT", proposal_id)
-				continue
-		if len(discussion_items) > 1:
-			raise Exception(f"{proposal_id} discussion was announced more than once?")
+			# 55_261_d20 doesn't have a discussion part -> fall back to the entire text as discussion body
+			logger.info("%s does not have a discussion part. using fallback", proposal_id)
+			discussion_body = level2_item.body
+		else:
+			if len(discussion_items) > 1:
+				raise Exception(f"{proposal_id} discussion was announced more than once?")
 
-		discussion_item = discussion_items[0]
+			discussion_item = discussion_items[0]
+			discussion_body = discussion_item.body
 
 		proposals = []
-		if len(level2_item.nl_title_tags) != len(level2_item.fr_title_tags):
-			raise Exception(f"{proposal_id} {level2_item.label} proposal discussion nl/fr title tags does not match")
+		if len(nl_proposal_titles) != len(fr_proposal_titles):
+			raise Exception(f"{proposal_id} {level2_item.label} / nl-fr should have same number of proposals")
 
-		for nl, fr in zip(level2_item.nl_title_tags, level2_item.fr_title_tags):
+		for nl, fr in zip(nl_proposal_titles, fr_proposal_titles):
 			nl_proposal_text = normalize_whitespace(nl.text)
 			fr_proposal_text = normalize_whitespace(fr.text)
 			nl_label, nl_text, nl_doc_ref = __split_proposal_header(nl_proposal_text)
@@ -223,20 +223,38 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 			# TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
 			proposals.append(Proposal(nl_doc_ref, nl_text.strip(), fr_text.strip()))
 
+		if "verzoek om advies van de raad van state" in nl_proposal_text.lower():
+			description_nl = normalize_whitespace(" ".join([el.text for el in discussion_body if el.text.strip() != ""]))
+			description_fr = normalize_whitespace(" ".join([el.text for el in discussion_body if el.text.strip() != ""]))
+		else:
+			description_nl = normalize_whitespace(" ".join([el.text for el in discussion_body if el.text.strip() != "" and determine_discussion_body_language(el) in ["nl", None]]))
+			description_fr = normalize_whitespace(" ".join([el.text for el in discussion_body if el.text.strip() != "" and determine_discussion_body_language(el) in ["fr", None]]))
+
 		pd = ProposalDiscussion(
 			proposal_id,
 			plenary_id,
 			plenary_agenda_item_number=int(level2_item.label, 10),
-			description_nl=normalize_whitespace(
-				" ".join([el.text for el in discussion_item.body_text_parts if el.lang == "nl"])),
-			description_fr=normalize_whitespace(
-				" ".join([el.text for el in discussion_item.body_text_parts if el.lang == "fr"])),
+			description_nl=description_nl,
+			description_fr=description_fr,
 			proposals=proposals
 		)
 
 		proposal_discussions.append(pd)
 
 	return proposal_discussions
+
+
+def determine_discussion_body_language(el: Tag) -> Optional[str]:
+	if tag_has_class(el, "NormalNL"):
+		return "nl"
+	if tag_has_class(el, "NormalFR"):
+		return "fr"
+	if el.lang == "NL":
+		return "nl"
+	if el.lang == "FR":
+		return "fr"
+
+	return None
 
 
 def _report_items_to_motions(plenary_id: str, report_items: List[ReportItem]):

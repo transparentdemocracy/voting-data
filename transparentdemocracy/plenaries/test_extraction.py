@@ -150,14 +150,17 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual("55_298_d01", plenary.proposal_discussions[0].id)
 		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_298")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 1)
+
 		self.assertStartsWith("Wij vatten de bespreking van de artikelen aan.",
 							  plenary.proposal_discussions[0].description_nl)
 		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
 			"De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden."))
-		self.assertTrue(
-			plenary.proposal_discussions[0].description_fr.startswith("Nous passons à la discussion des articles."))
+
+		self.assertStartsWith(
+			"Nous passons à la discussion des articles.", plenary.proposal_discussions[0].description_fr)
 		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
 			"La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement."))
+
 		self.assertEqual(
 			"Wetsontwerp houdende optimalisatie van de werking van het Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en het Overlegorgaan voor de coördinatie van de invordering van niet-fiscale schulden in strafzaken en houdende wijziging van de Wapenwet",
 			plenary.proposal_discussions[0].proposals[0].title_nl)
@@ -228,7 +231,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 	def test_extract_from_html_plenary_report__ip261x_html__different_proposals_header(self):
 		# This example proposal has "Projets de loi et propositions" as proposals header, rather than "Projets de loi".
-		# Also, the proposal description header ("Bespreking van de artikelen") cannot be found, so we fall back to 
+		# Also, the proposal description header ("Bespreking van de artikelen") cannot be found in item [20], so we fall back to
 		# taking the entire text after the proposal header in a best-effort as the description, both for Dutch and 
 		# French.
 		# Arrange
@@ -248,17 +251,21 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# The proposals are extracted correctly:
 		self.assertEqual(len(plenary.proposal_discussions), 4)
+
 		self.assertEqual(plenary.proposal_discussions[0].id, "55_261_d20")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_261")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 20)
-		self.assertTrue(plenary.proposal_discussions[0].description_nl.startswith(
-			"20.01  Peter De Roover (N-VA): Mevrouw de voorzitster, "))
+
+		self.startsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
+						plenary.proposal_discussions[0].description_nl)
 		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
 			"Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
-		self.assertTrue(plenary.proposal_discussions[0].description_fr.startswith(
-			"20.01  Peter De Roover (N-VA): Mevrouw de voorzitster, "))
+
+		self.startsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
+						plenary.proposal_discussions[0].description_fr)
 		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
 			"Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
+
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl,
 						 "Verzoek om advies van de Raad van State")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr, "Demande d'avis du Conseil d'État")
