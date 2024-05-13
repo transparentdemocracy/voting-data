@@ -311,6 +311,19 @@ class PlenaryExtractionTest(unittest.TestCase):
 						 "Budget et note de politique générale de la Commission de Régulation de l'Électricité et du Gaz (CREG) pour l'année 2023")
 		self.assertEqual("1678/1-3", plenary.proposal_discussions[3].proposals[0].document_reference)
 
+	def test_extract_from_html_plenary_report__ip219x_html(self):
+		# This report has a different proposals section title: "Wetsontwerpen en -voorstellen".
+		# Arrange
+		report_file_name = CONFIG.plenary_html_input_path("ip219x.html")
+
+		# Act
+		plenary, votes = extract_from_html_plenary_report(report_file_name)
+
+		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
+		self.assertEqual(6, len(plenary.proposal_discussions))
+		self.assertEqual(11, plenary.proposal_discussions[0].plenary_agenda_item_number)
+		self.assertEqual(16, plenary.proposal_discussions[5].plenary_agenda_item_number)
+
 	def test_extract_from_html_plenary_report__ip200x_html(self):
 		report_file_name = CONFIG.plenary_html_input_path("ip200x.html")
 
