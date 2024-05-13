@@ -200,42 +200,10 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(4, count_abstention)
 		self.assertEqual(['Arens Josy', 'Daems Greet'], abstention_voters[:2])
 
-	def test_extract_from_html_plenary_report__ip200x_html(self):
-		report_file_name = CONFIG.plenary_html_input_path("ip200x.html")
-
-		# Act
-		plenary, votes = extract_from_html_plenary_report(report_file_name)
-
-		# Assert
-		# The plenary info is extracted correctly:
-		self.assertEqual(plenary.id, "55_200")
-		self.assertEqual(plenary.number, 200)
-		self.assertEqual(plenary.date, date(2022, 7, 20))
-		self.assertEqual(plenary.legislature, 55)
-		self.assertEqual(plenary.pdf_report_url, "https://www.dekamer.be/doc/PCRI/pdf/55/ip200.pdf")
-		self.assertEqual(plenary.html_report_url, "https://www.dekamer.be/doc/PCRI/html/55/ip200x.html")
-
-		# The proposals are extracted correctly:
-		self.assertEqual(2, len(plenary.proposal_discussions))
-		self.startsWith("Projet de loi portant assentiment aux actes internationaux suivants",
-						plenary.proposal_discussions[0].proposals[0].title_fr)
-		self.startsWith("Wetsontwerp houdende instemming met volgende internationale akten",
-						plenary.proposal_discussions[0].proposals[0].title_nl)
-		self.startsWith("Projet de loi portant assentiment aux actes internationaux suivants",
-						plenary.proposal_discussions[0].proposals[0].title_fr)
-		self.startsWith("Wetsontwerp houdende instemming met volgende internationale akten",
-						plenary.proposal_discussions[0].proposals[0].title_nl)
-
-		# The motions are extracted correctly:
-		self.assertEqual(0, len(plenary.motions))
-
-	def assertStartsWith(self, expected, actual):
-		self.assertEqual(expected, actual[:len(expected)])
-
 	def test_extract_from_html_plenary_report__ip261x_html__different_proposals_header(self):
 		# This example proposal has "Projets de loi et propositions" as proposals header, rather than "Projets de loi".
 		# Also, the proposal description header ("Bespreking van de artikelen") cannot be found in item [20], so we fall back to
-		# taking the entire text after the proposal header in a best-effort as the description, both for Dutch and 
+		# taking the entire text after the proposal header in a best-effort as the description, both for Dutch and
 		# French.
 		# Arrange
 		report_file_name = CONFIG.plenary_html_input_path("ip261x.html")
@@ -259,13 +227,13 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_261")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 20)
 
-		self.startsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
-						plenary.proposal_discussions[0].description_nl)
+		self.assertStartsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
+								plenary.proposal_discussions[0].description_nl)
 		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
 			"Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
 
-		self.startsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
-						plenary.proposal_discussions[0].description_fr)
+		self.assertStartsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
+								plenary.proposal_discussions[0].description_fr)
 		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
 			"Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
 
@@ -273,6 +241,104 @@ class PlenaryExtractionTest(unittest.TestCase):
 						 "Verzoek om advies van de Raad van State")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr, "Demande d'avis du Conseil d'État")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].document_reference, None)
+
+	def test_extract_from_html_plenary_report__ip224x_html__different_proposals_header(self):
+		# This example plenary report has "Begrotingen" as proposals header, rather than "Projets de loi".
+		# Arrange
+		report_file_name = CONFIG.plenary_html_input_path("ip224x.html")
+
+		# Act
+		plenary, votes = extract_from_html_plenary_report(report_file_name)
+
+		# Assert
+		# The plenary info is extracted correctly:
+		self.assertEqual(plenary.id, "55_224")
+		self.assertEqual(plenary.number, 224)
+		self.assertEqual(plenary.date, date(2022, 12, 21))
+		self.assertEqual(plenary.legislature, 55)
+		self.assertEqual(plenary.pdf_report_url, "https://www.dekamer.be/doc/PCRI/pdf/55/ip224.pdf")
+		self.assertEqual(plenary.html_report_url, "https://www.dekamer.be/doc/PCRI/html/55/ip224x.html")
+
+		# Regardless of the different section title announcing them, the proposal discussions are found:
+		self.assertEqual(len(plenary.proposal_discussions), 4)
+
+		# -> First proposal discussion:
+		self.assertEqual(plenary.proposal_discussions[0].id, "55_224_d01")
+		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_224")
+		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 1)
+
+		self.assertStartsWith("Wij vatten de bespreking van de artikelen aan van het wetsontwerp houdende de Middelenbegroting voor het begrotingsjaar 2023.",
+							  plenary.proposal_discussions[0].description_nl)
+		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
+			"en over het geheel van het wetsontwerp houdende de Algemene uitgavenbegroting voor het begrotingsjaar 2023 zal later plaatsvinden."))
+
+		self.assertStartsWith("Nous passons à la discussion des articles du projet de loi contenant le budget des Voies et Moyens pour l'année budgétaire 2023.",
+							  plenary.proposal_discussions[0].description_fr)
+		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
+			"l'ensemble du projet de loi contenant le Budget général des dépenses pour l'année budgétaire 2023 aura lieu ultérieurement."))
+
+		# ---> First proposal linked to the first proposal discussion:
+		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl,
+						 "Wetsontwerp houdende de Middelenbegroting voor het begrotingsjaar 2023")
+		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr, "Projet de loi contenant le budget des Voies et Moyens pour l'année budgétaire 2023")
+		self.assertEqual("2931/1-6", plenary.proposal_discussions[0].proposals[0].document_reference)
+
+		# ---> Last proposal linked to the first proposal discussion:
+		self.assertEqual(plenary.proposal_discussions[0].proposals[4].title_nl,
+						 "- Lijst van Beleidsnota's")
+		self.assertEqual(plenary.proposal_discussions[0].proposals[4].title_fr,
+						 "- Liste des notes de politique générale")
+		self.assertEqual("2934/1-30", plenary.proposal_discussions[0].proposals[4].document_reference)
+
+
+		# -> Last proposal discussion (no proposal discussion header, so description = all text below the proposal title):
+		self.assertEqual(plenary.proposal_discussions[3].id, "55_224_d04")
+		self.assertEqual(plenary.proposal_discussions[3].plenary_id, "55_224")
+		self.assertEqual(plenary.proposal_discussions[3].plenary_agenda_item_number, 4)
+
+		self.assertStartsWith("Discussion", plenary.proposal_discussions[3].description_nl)
+		self.assertTrue(plenary.proposal_discussions[3].description_nl.endswith(
+			"CRIV 55 PLEN 224 bijlage."))
+
+		self.assertStartsWith("Discussion", plenary.proposal_discussions[3].description_fr)
+		self.assertTrue(plenary.proposal_discussions[3].description_fr.endswith(
+			"CRIV 55 PLEN 224 bijlage."))
+
+		# ---> First and only proposal linked to the last proposal discussion:
+		self.assertEqual(plenary.proposal_discussions[3].proposals[0].title_nl,
+						 "Begroting en beleidsnota van de Commissie voor de Regulering van de elektriciteit en het gas (CREG) voor het begrotingsjaar 2023")
+		self.assertEqual(plenary.proposal_discussions[3].proposals[0].title_fr,
+						 "Budget et note de politique générale de la Commission de Régulation de l'Électricité et du Gaz (CREG) pour l'année 2023")
+		self.assertEqual("1678/1-3", plenary.proposal_discussions[3].proposals[0].document_reference)
+
+	def test_extract_from_html_plenary_report__ip200x_html(self):
+		report_file_name = CONFIG.plenary_html_input_path("ip200x.html")
+
+		# Act
+		plenary, votes = extract_from_html_plenary_report(report_file_name)
+
+		# Assert
+		# The plenary info is extracted correctly:
+		self.assertEqual(plenary.id, "55_200")
+		self.assertEqual(plenary.number, 200)
+		self.assertEqual(plenary.date, date(2022, 7, 20))
+		self.assertEqual(plenary.legislature, 55)
+		self.assertEqual(plenary.pdf_report_url, "https://www.dekamer.be/doc/PCRI/pdf/55/ip200.pdf")
+		self.assertEqual(plenary.html_report_url, "https://www.dekamer.be/doc/PCRI/html/55/ip200x.html")
+
+		# The proposals are extracted correctly:
+		self.assertEqual(2, len(plenary.proposal_discussions))
+		self.assertStartsWith("Projet de loi portant assentiment aux actes internationaux suivants",
+								plenary.proposal_discussions[0].proposals[0].title_fr)
+		self.assertStartsWith("Wetsontwerp houdende instemming met volgende internationale akten",
+								plenary.proposal_discussions[0].proposals[0].title_nl)
+		self.assertStartsWith("Projet de loi portant assentiment aux actes internationaux suivants",
+								plenary.proposal_discussions[0].proposals[0].title_fr)
+		self.assertStartsWith("Wetsontwerp houdende instemming met volgende internationale akten",
+								plenary.proposal_discussions[0].proposals[0].title_nl)
+
+		# The motions are extracted correctly:
+		self.assertEqual(0, len(plenary.motions))
 
 	@unittest.skip(
 		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
@@ -321,5 +387,5 @@ class PlenaryExtractionTest(unittest.TestCase):
 		path = CONFIG.plenary_html_input_path(filename)
 		return _get_plenary_date(path, _read_plenary_html(path))
 
-	def startsWith(self, expected, actual):
+	def assertStartsWith(self, expected, actual):
 		self.assertEqual(expected, actual[:len(expected)])

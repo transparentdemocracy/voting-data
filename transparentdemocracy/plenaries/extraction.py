@@ -53,7 +53,6 @@ def extract_from_html_plenary_reports(
 	politicians = load_politicians()
 	plenaries = []
 	all_votes = []
-	all_problems = []
 	logging.info(f"Report files must be found at: {report_file_pattern}.")
 	report_filenames = glob.glob(report_file_pattern)
 	if num_reports_to_process is not None:
@@ -147,7 +146,11 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 	proposal_section_headers = [
 		el for el in level1_headers if
 		el.text.strip().lower() in ["projets de loi", "wetsontwerpen en voorstellen",
-									"wetsontwerpen"]
+									"wetsontwerpen",
+									# "Begrotingen" (= financial cost estimates) for the coming year are the replacement
+									# for normal proposal discussions, but are in fact just another title for what are
+									# still proposals:
+									"begrotingen"]
 	]
 	if not proposal_section_headers:
 		raise Exception("no proposal header found - analyse and fix if this occurs.")
@@ -201,7 +204,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 		discussion_items = [item for item in level3_items if is_article_discussion_item(item)]
 		if not discussion_items:
 			# 55_261_d20 doesn't have a discussion part -> fall back to the entire text as discussion body
-			logger.info("%s does not have a discussion part. using fallback", proposal_id)
+			logger.info("%s does not have a discussion part. Using fallback.", proposal_id)
 			discussion_body = level2_item.body
 		else:
 			if len(discussion_items) > 1:
