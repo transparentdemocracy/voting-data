@@ -79,7 +79,7 @@ def extract_from_html_plenary_reports(
 
 
 def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
-	Plenary, List[Vote], List[str]]:
+	Plenary, List[Vote]]:
 	politicians = politicians or load_politicians()
 	ctx = PlenaryExtractionContext(report_filename, politicians)
 	ctx.html = _read_plenary_html(report_filename)
