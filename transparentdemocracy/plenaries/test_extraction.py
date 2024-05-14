@@ -380,18 +380,32 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(1, len(plenary.proposal_discussions[1].proposals))
 		self.assertEqual(1, len(plenary.proposal_discussions[2].proposals))
 
-	def test_extract_from_html_plenary_report__ip125x_html(self):
-		# This report has a different proposals section title: "Voorstellen van resolutie".
+	def test_extract_from_html_plenary_report__ip160x_html(self):
+		# This report has a different proposals section title: "Wetsontwerp en -voorstellen".
 		# Arrange
-		report_file_name = CONFIG.plenary_html_input_path("ip125x.html")
+		report_file_name = CONFIG.plenary_html_input_path("ip160x.html")
 
 		# Act
 		plenary, votes = extract_from_html_plenary_report(report_file_name)
 
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
-		self.assertEqual(2, len(plenary.proposal_discussions))
-		self.assertEqual(1, len(plenary.proposal_discussions[0].proposals))
+		self.assertEqual(3, len(plenary.proposal_discussions))
+		self.assertEqual(2, len(plenary.proposal_discussions[0].proposals))
 		self.assertEqual(1, len(plenary.proposal_discussions[1].proposals))
+		self.assertEqual(1, len(plenary.proposal_discussions[2].proposals))
+
+	def test_extract_from_html_plenary_report__ip144x_html(self):
+		# This report has a different proposals section title: "Voorstellen en wetsontwerp".
+		# Arrange
+		report_file_name = CONFIG.plenary_html_input_path("ip144x.html")
+
+		# Act
+		plenary, votes = extract_from_html_plenary_report(report_file_name)
+
+		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
+		self.assertEqual(12, len(plenary.proposal_discussions))
+		self.assertEqual(14, plenary.proposal_discussions[0].plenary_agenda_item_number)
+		self.assertEqual(25, plenary.proposal_discussions[-1].plenary_agenda_item_number)
 
 	def test_extract_from_html_plenary_report__ip099x_html(self):
 		# This report has a different proposals section title: "Wetsontwerp en voorstellen".
