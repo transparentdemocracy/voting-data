@@ -54,7 +54,7 @@ def create_plenary_extraction_context(report_path: str, politicians) -> PlenaryE
 
 def extract_from_html_plenary_reports(
 		report_file_pattern: str = CONFIG.plenary_html_input_path("*.html"),
-		num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote]]:
+		num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
 	politicians = load_politicians()
 	all_problems = []
 	plenaries = []
@@ -69,9 +69,10 @@ def extract_from_html_plenary_reports(
 		try:
 			logging.debug(f"Processing input report {report_filename}...")
 			if report_filename.endswith(".html"):
-				plenary, votes = extract_from_html_plenary_report(report_filename, politicians)
+				plenary, votes, problems = extract_from_html_plenary_report(report_filename, politicians)
 				plenaries.append(plenary)
 				all_votes.extend(votes)
+				all_problems.extend(problems)
 			else:
 				all_problems.append(ParseProblem(report_filename, "NOT_HTML", "filename"))
 				continue
@@ -80,14 +81,16 @@ def extract_from_html_plenary_reports(
 			all_problems.append(ParseProblem(report_filename, "EXCEPTION", "report"))
 			logging.warning("Failed to process %s", report_filename, exc_info=True)
 
-	return plenaries, all_votes
+	return plenaries, all_votes, all_problems
 
 
-def extract_from_html_plenary_report(report_path: str, politicians: Politicians = None) -> Tuple[
-	Plenary, List[Vote]]:
+def extract_from_html_plenary_report(report_path: str, politicians: Politicians = None) \
+		-> Tuple[Plenary, List[Vote], List[ParseProblem]]:
 	politicians = politicians or load_politicians()
 	ctx = create_plenary_extraction_context(report_path, politicians)
-	return _extract_plenary(ctx)
+	plenary, votes = _extract_plenary(ctx)
+
+	return plenary, votes, ctx.problems
 
 
 def _read_plenary_html(report_filename):

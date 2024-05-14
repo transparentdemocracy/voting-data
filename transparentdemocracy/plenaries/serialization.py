@@ -130,17 +130,17 @@ def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
 
 def write_markdown(plenaries=None, votes=None):
 	if plenaries is None and votes is None:
-		plenaries, votes = extract_from_html_plenary_reports()
+		plenaries, votes, problems = extract_from_html_plenary_reports()
 	MarkdownSerializer().serialize_plenaries(plenaries, votes)
 
 def write_plenaries_json(plenaries=None):
 	if plenaries is None:
-		plenaries, votes = extract_from_html_plenary_reports()
+		plenaries, votes, problems = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_plenaries(plenaries)
 
 def write_votes_json(votes=None):
 	if votes is None:
-		plenaries, votes = extract_from_html_plenary_reports()
+		plenaries, votes, problems = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_votes(votes)
 
 def main():
