@@ -144,24 +144,16 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 		raise Exception("no level1 found - analyse and fix if this occurs.")
 
 	proposal_section_headers = [
-		el for el in level1_headers if
-		el.text.strip().lower() in ["projets de loi", "wetsontwerpen en voorstellen",
-									"wetsontwerpen",
-									"wetsontwerp en -voorstellen",
-									"wetsontwerp en voorstellen",
-									"voorstellen van resolutie",
-									"wetsvoorstellen",
-									"voorstel van resolutie",
-									"wetsontwerpen en -voorstellen",
-									"wetsontwerpen en voorstel",
-									"wetsvoorstel",
-									"voorstellen",
-									"voorstellen en wetsontwerp",
+		el for el in level1_headers
+		if "wetsontwerp" in el.text.strip()
+		or "voorstel" in el.text.strip()
+		or el.text.strip().lower() in ["projets de loi",
 									# "Begrotingen" (= financial cost estimates) for the coming year are the replacement
 									# for normal proposal discussions, but are in fact just another title for what are
 									# still proposals:
 									"begrotingen"]
 	]
+
 	if not proposal_section_headers:
 		raise Exception("no proposal header found - analyse and fix if this occurs.")
 
