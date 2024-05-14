@@ -419,7 +419,7 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
 
 
 def _extract_motion_report_items(ctx: PlenaryExtractionContext) -> List[ReportItem]:
-	naamstemmingen_title = find_naamstemmingen_title(ctx.report_path, ctx.html)
+	naamstemmingen_title = find_naamstemmingen_title(ctx)
 	if naamstemmingen_title is None:
 		return []
 	return _extract_report_items(ctx.report_path, naamstemmingen_title.find_next_siblings())
@@ -451,7 +451,7 @@ def is_report_item_title(el):
 	return False
 
 
-def find_naamstemmingen_title(report_path: str, html: Tag):
+def find_naamstemmingen_title(ctx: PlenaryExtractionContext):
 	def is_start_naamstemmingen(el):
 		if el.name == "h1" and ("naamstemmingen" == el.text.lower().strip()):
 			return True
@@ -459,13 +459,14 @@ def find_naamstemmingen_title(report_path: str, html: Tag):
 			return True
 		return False
 
-	start_naamstemmingen = list(filter(is_start_naamstemmingen, html.find_all()))
+	start_naamstemmingen = list(filter(is_start_naamstemmingen, ctx.html.find_all()))
 	if not start_naamstemmingen:
+		# Not a problem, naamstemmingen doesn't happen in every plenary
 		return None
 
 	if len(start_naamstemmingen) > 1:
-		logger.warning(f"multiple candidates for start of 'naamstemmingen' in {report_path}.")
-		raise Exception("if this happens we need to decide how to resolve this")
+		ctx.add_problem("MULTIPLE_START_NAAMSTEMMINGEN")
+		return None
 
 	return start_naamstemmingen[0]
 
