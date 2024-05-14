@@ -8,7 +8,7 @@ from transparentdemocracy.config import CONFIG
 from transparentdemocracy.model import ReportItem, Motion, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
 	extract_from_html_plenary_report, _read_plenary_html, _get_plenary_date, _extract_motion_report_items, \
-	_extract_motions, _extract_votes
+	_extract_motions, _extract_votes, PlenaryExtractionContext
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
@@ -96,9 +96,12 @@ class VoteExtractionTest(unittest.TestCase):
 		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
 	def test_extract_votes_ip298x(self):
+		# TODO: create helper function for creating a PlenaryExtractionContext with html
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
 		politicians = load_politicians()
-		votes = _extract_votes("55_298", _read_plenary_html(report_path), politicians)
+		ctx = PlenaryExtractionContext("ip298x.html", politicians)
+		ctx.html = _read_plenary_html(CONFIG.plenary_html_input_path((report_path)))
+		votes = _extract_votes(ctx, "55_298")
 
 		# I Honestly didn't count this. This is just to make sure we notice if parsing changes
 		self.assertEqual(3732, len(votes))

@@ -51,6 +51,7 @@ def extract_from_html_plenary_reports(
 		report_file_pattern: str = CONFIG.plenary_html_input_path("*.html"),
 		num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote]]:
 	politicians = load_politicians()
+	all_problems = []
 	plenaries = []
 	all_votes = []
 	logging.info(f"Report files must be found at: {report_file_pattern}.")
@@ -67,10 +68,11 @@ def extract_from_html_plenary_reports(
 				plenaries.append(plenary)
 				all_votes.extend(votes)
 			else:
-				raise RuntimeError("Plenary reports in other formats than HTML cannot be processed.")
+				all_problems.append(ParseProblem(report_filename, "NOT_HTML", "filename"))
+				continue
 
 		except Exception as e:
-			# raise e
+			all_problems.append(ParseProblem(report_filename, "EXCEPTION", "report"))
 			logging.warning("Failed to process %s", report_filename, exc_info=True)
 
 	return plenaries, all_votes
@@ -97,7 +99,7 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposal_discussions(ctx, plenary_id)
 	motion_report_items, motions = _extract_motions(plenary_id, ctx.report_path, ctx.html)
-	votes = _extract_votes(plenary_id, ctx.html, ctx.politicians)
+	votes = _extract_votes(ctx, plenary_id)
 
 	return (
 		Plenary(
@@ -141,7 +143,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 	]
 
 	if not level1_headers:
-		raise Exception("no level1 found - analyse and fix if this occurs.")
+		ctx.add_problem("NO_LEVEL1_TITLE", None)
+		return proposal_discussions
 
 	proposal_section_headers = [
 		el for el in level1_headers
@@ -169,9 +172,6 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 	proposal_discussion_elements = [el for el in proposal_discussion_elements if el.text.strip() != ""]
 
-	# print("PROPOSALS FROM", proposal_discussion_elements[0].text)
-	# print("PROPOSALS TO", proposal_discussion_elements[-1].text)
-
 	tag_groups = create_level2_tag_groups(proposal_discussion_elements)
 	report_items = find_report_items(ctx.report_path, tag_groups)
 
@@ -185,7 +185,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 			continue
 
 		if len(nl_proposal_titles) + len(fr_proposal_titles) == 0:
-			raise Exception(f"{ctx.report_path}: {level2_item.label} has no proposals")
+			ctx.add_problem("NO_PROPOSAL_TITLES", level2_item.label)
+
 		if len(nl_proposal_titles) != len(fr_proposal_titles):
 			if len(fr_proposal_titles) == 0 and len(nl_proposal_titles) % 2 == 0:
 				# Just split into 2. Simply assuming the first half is dutch (we might use tools to recognize languages if this doesn't turn out right
@@ -193,8 +194,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 				fr_proposal_titles = nl_proposal_titles[middle:]
 				nl_proposal_titles = nl_proposal_titles[:middle]
 			else:
-				raise Exception(
-					f"{ctx.report_path}: {level2_item.label} number of proposal tags nl/fr doesn't match up - analyse and fix if this happens")
+				ctx.add_problem("NL_FR_TITLE_COUNT_DIFFERENT", level2_item.label)
+				continue
 
 		# TODO: what do we do with nl_proposals and nl_proposals now that we have them?
 
@@ -210,14 +211,16 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 			discussion_body = level2_item.body
 		else:
 			if len(discussion_items) > 1:
-				raise Exception(f"{proposal_id} discussion was announced more than once?")
+				ctx.add_problem("MULTIPLE_DISCUSSION_ANNOUNCEMENTS", proposal_id)
+				continue
 
 			discussion_item = discussion_items[0]
 			discussion_body = discussion_item.body
 
 		proposals = []
 		if len(nl_proposal_titles) != len(fr_proposal_titles):
-			raise Exception(f"{proposal_id} {level2_item.label} / nl-fr should have same number of proposals")
+			ctx.add_problem("NL_FR_PROPOSAL_COUNT_MISMATCH", proposal_id)
+			continue
 
 		for nl, fr in zip(nl_proposal_titles, fr_proposal_titles):
 			nl_proposal_text = normalize_whitespace(nl.text)
@@ -364,8 +367,8 @@ def __split_proposal_header(proposal_title) -> Tuple[Optional[int], str, str]:
 	return number, title, doc_ref
 
 
-def _extract_votes(plenary_id: str, html, politicians: Politicians) -> List[Vote]:
-	tokens = WhitespaceTokenizer().tokenize(html.text)
+def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]:
+	tokens = WhitespaceTokenizer().tokenize(ctx.html.text)
 
 	votings = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
 
@@ -384,7 +387,8 @@ def _extract_votes(plenary_id: str, html, politicians: Politicians) -> List[Vote
 		abstention_start = get_sequence(seq, ["Abstentions"])
 
 		if not (yes_start < no_start < abstention_start):
-			raise Exception("Could not parse voting sequence: %s", (" ".join(seq)))
+			ctx.add_problem("VOTES_YES_NO_ABSTENTION_OUT_OF_ORDER", motion_id)
+			continue
 
 		yes_count = int(seq[yes_start + 1], 10)
 		no_count = int(seq[no_start + 1], 10)
@@ -395,9 +399,9 @@ def _extract_votes(plenary_id: str, html, politicians: Politicians) -> List[Vote
 		abstention_voter_names = get_names(seq[abstention_start + 3:], abstention_count, 'abstention', motion_id)
 
 		votes.extend(
-			create_votes_for_same_vote_type(yes_voter_names, VoteType.YES, motion_id, politicians) +
-			create_votes_for_same_vote_type(no_voter_names, VoteType.NO, motion_id, politicians) +
-			create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, motion_id, politicians)
+			create_votes_for_same_vote_type(yes_voter_names, VoteType.YES, motion_id, ctx.politicians) +
+			create_votes_for_same_vote_type(no_voter_names, VoteType.NO, motion_id, ctx.politicians) +
+			create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, motion_id, ctx.politicians)
 		)
 
 	return votes
