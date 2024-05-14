@@ -10,20 +10,11 @@ PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip298x.html
 
 ### Description in Dutch:
 
-Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3849/4)
-
-Het opschrift in het Frans werd door de commissie gewijzigd in "projet de loi optimisant le fonctionnement de l’Organe central pour la Saisie et la Confiscation et de l’Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la Loi sur les armes".
-Het wetsontwerp telt 36 artikelen.
-Er werden geen amendementen ingediend.
-De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3849/4) Het opschrift in het Frans werd door de commissie gewijzigd in "projet de loi optimisant le fonctionnement de l’Organe central pour la Saisie et la Confiscation et de l’Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la Loi sur les armes". Het wetsontwerp telt 36 artikelen. Er werden geen amendementen ingediend. Les articles 1 à 36 sont adoptés article par article. De artikelen 1 tot 36 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
 ### Description in French:
 
-Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3849/4)
-L'intitulé en français a été modifié par la commission en "projet de loi optimisant le fonctionnement de l’Organe central pour la Saisie et la Confiscation et de l’Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la Loi sur les armes".
-Le projet de loi compte 36 articles.
-Aucun amendement n'a été déposé.
-La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3849/4) L'intitulé en français a été modifié par la commission en "projet de loi optimisant le fonctionnement de l’Organe central pour la Saisie et la Confiscation et de l’Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la Loi sur les armes". Le projet de loi compte 36 articles. Aucun amendement n'a été déposé. Les articles 1 à 36 sont adoptés article par article. De artikelen 1 tot 36 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
@@ -33,17 +24,11 @@ La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieu
 
 ### Description in Dutch:
 
-Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3745/4)
-Het wetsontwerp telt 4 artikelen.
-Er werden geen amendementen ingediend.
-De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3745/4) Het wetsontwerp telt 4 artikelen. Er werden geen amendementen ingediend. Les articles 1 à 4 sont adoptés article par article. De artikelen 1 tot 4 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
 ### Description in French:
 
-Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3745/4)
-Le projet de loi compte 4 articles.
-Aucun amendement n'a été déposé.
-La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3745/4) Le projet de loi compte 4 articles. Aucun amendement n'a été déposé. Les articles 1 à 4 sont adoptés article par article. De artikelen 1 tot 4 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
@@ -53,17 +38,11 @@ La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieu
 
 ### Description in Dutch:
 
-Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3815/7)
-Het wetsontwerp telt 36 artikelen.
-Er werden geen amendementen ingediend.
-De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3815/7) Het wetsontwerp telt 36 artikelen. Er werden geen amendementen ingediend. Les articles 1 à 36 sont adoptés article par article. De artikelen 1 tot 36 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
 ### Description in French:
 
-Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3815/7)
-Le projet de loi compte 36 articles.
-Aucun amendement n'a été déposé.
-La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3815/7) Le projet de loi compte 36 articles. Aucun amendement n'a été déposé. Les articles 1 à 36 sont adoptés article par article. De artikelen 1 tot 36 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
@@ -73,17 +52,11 @@ La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieu
 
 ### Description in Dutch:
 
-Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3826/1)
-Het wetsontwerp telt 2 artikelen.
-Er werden geen amendementen ingediend.
-De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3826/1) Het wetsontwerp telt 2 artikelen. Er werden geen amendementen ingediend. Les articles 1 et 2 sont adoptés article par article. De artikelen 1 en 2 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
 ### Description in French:
 
-Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3826/1)
-Le projet de loi compte 2 articles.
-Aucun amendement n'a été déposé.
-La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3826/1) Le projet de loi compte 2 articles. Aucun amendement n'a été déposé. Les articles 1 et 2 sont adoptés article par article. De artikelen 1 en 2 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
@@ -93,17 +66,11 @@ La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieu
 
 ### Description in Dutch:
 
-Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3864/1)
-Het wetsontwerp telt 222 artikelen.
-Er werden geen amendementen ingediend.
-De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3864/1) Het wetsontwerp telt 222 artikelen. Er werden geen amendementen ingediend. Les articles 1 à 222 sont adoptés article par article. De artikelen 1 tot 222 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
 
 ### Description in French:
 
-Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3864/1)
-Le projet de loi compte 222 articles.
-Aucun amendement n'a été déposé.
-La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3864/1) Le projet de loi compte 222 articles. Aucun amendement n'a été déposé. Les articles 1 à 222 sont adoptés article par article. De artikelen 1 tot 222 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
 
 
 
@@ -113,11 +80,11 @@ La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieu
 
 ### Description in Dutch:
 
-None
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3878/3) Het wetsontwerp telt 5 artikelen. * * * * * Amendements déposés: Ingediende amendementen: Art. 4/1(n) • 1 – Peter De Roover cs (3878/4) Art. 4/2(n) • 2 – Peter De Roover cs (3878/4) Art. 4/3(n) • 3 – Peter De Roover cs (3878/4) Art. 4/4(n) • 4 – Peter De Roover cs (3878/4) * * * * * Conclusion de la discussion des articles: Besluit van de artikelsgewijze bespreking: Réservés: les amendements. Aangehouden: de amendementen. Adoptés article par article: les articles 1 à 5. Artikel per artikel aangenomen: de artikelen 1 tot 5. * * * * * De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen en over het geheel zal later plaatsvinden.
 
 ### Description in French:
 
-None
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3878/3) Le projet de loi compte 5 articles. * * * * * Amendements déposés: Ingediende amendementen: Art. 4/1(n) • 1 – Peter De Roover cs (3878/4) Art. 4/2(n) • 2 – Peter De Roover cs (3878/4) Art. 4/3(n) • 3 – Peter De Roover cs (3878/4) Art. 4/4(n) • 4 – Peter De Roover cs (3878/4) * * * * * Conclusion de la discussion des articles: Besluit van de artikelsgewijze bespreking: Réservés: les amendements. Aangehouden: de amendementen. Adoptés article par article: les articles 1 à 5. Artikel per artikel aangenomen: de artikelen 1 tot 5. * * * * * La discussion des articles est close. Le vote sur les amendements réservés ainsi que sur l'ensemble aura lieu ultérieurement.
 
 
 

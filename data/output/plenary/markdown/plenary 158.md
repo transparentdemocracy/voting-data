@@ -6,6 +6,34 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip158.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip158x.html
 
+## Proposal discussion (agenda item 8)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2338/1) Het wetsontwerp telt 2 artikelen. Er werden geen amendementen ingediend. Les articles 1 et 2 sont adoptés article par article. De artikelen 1 en 2 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2338/1) Le projet de loi compte 2 articles. Aucun amendement n'a été déposé. Les articles 1 et 2 sont adoptés article par article. De artikelen 1 en 2 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 9)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (2359/1) Het wetsontwerp telt 2 artikelen. Er werden geen amendementen ingediend. Les articles 1 et 2 sont adoptés article par article. De artikelen 1 en 2 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (2359/1) Le projet de loi compte 2 articles. Aucun amendement n'a été déposé. Les articles 1 et 2 sont adoptés article par article. De artikelen 1 en 2 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
 Motion # 1.
 
 ### Yes votes (81)

@@ -6,6 +6,62 @@ Source (HTML report): https://www.dekamer.be/doc/PCRI/pdf/55/ip241.pdf
 
 PDF-formatted alternative: https://www.dekamer.be/doc/PCRI/html/55/ip241x.html
 
+## Proposal discussion (agenda item 13)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3220/10) Het wetsontwerp telt 29 artikelen. * * * * * Amendements déposés: Ingediende amendementen: Art. 23 • 25 – Nabil Boukili (3220/11) • 26 – Vanessa Matz cs (3220/11) * * * * * Conclusion de la discussion des articles: Besluit van de artikelsgewijze bespreking: Réservés: les amendements et l'article 23. Aangehouden: de amendementen en het artikel 23. Adoptés article par article: les articles 1 à 22 et 24 à 29. Artikel per artikel aangenomen: de artikelen 1 tot 22 en 24 tot 29. * * * * * De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen, het aangehouden artikel en over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3220/10) Le projet de loi compte 29 articles. * * * * * Amendements déposés: Ingediende amendementen: Art. 23 • 25 – Nabil Boukili (3220/11) • 26 – Vanessa Matz cs (3220/11) * * * * * Conclusion de la discussion des articles: Besluit van de artikelsgewijze bespreking: Réservés: les amendements et l'article 23. Aangehouden: de amendementen en het artikel 23. Adoptés article par article: les articles 1 à 22 et 24 à 29. Artikel per artikel aangenomen: de artikelen 1 tot 22 en 24 tot 29. * * * * * La discussion des articles est close. Le vote sur les amendements et l'article réservés ainsi que sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 14)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3218/5) Het wetsontwerp telt 17 artikelen. Er werden geen amendementen ingediend. Les articles 1 à 17 sont adoptés article par article. De artikelen 1 tot 17 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3218/5) Le projet de loi compte 17 articles. Aucun amendement n'a été déposé. Les articles 1 à 17 sont adoptés article par article. De artikelen 1 tot 17 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 15)
+
+### Description in Dutch:
+
+Wij vatten de bespreking van de artikelen aan. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3219/4) Het wetsontwerp telt 89 artikelen. Er werden geen amendementen ingediend. Les articles 1 à 89 sont adoptés article par article. De artikelen 1 tot 89 worden artikel per artikel aangenomen. De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3219/4) Le projet de loi compte 89 articles. Aucun amendement n'a été déposé. Les articles 1 à 89 sont adoptés article par article. De artikelen 1 tot 89 worden artikel per artikel aangenomen. La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
+## Proposal discussion (agenda item 16)
+
+### Description in Dutch:
+
+Wij vatten de bespreking aan van de artikelen van het wetsontwerp nr. 3132. De door de commissie aangenomen tekst geldt als basis voor de bespreking. (Rgt 85, 4) (3132/7) Het wetsontwerp telt 15 artikelen. * * * * * Amendements déposés: Ingediende amendementen: Art. 3 • 9 - Anneleen Van Bossuyt cs (3132/8) Art. 4 • 10 - Anneleen Van Bossuyt cs (3132/8) • 11 - Anneleen Van Bossuyt cs (3132/8) • 12 - Anneleen Van Bossuyt cs (3132/8) Art. 15 • 13 - Anneleen Van Bossuyt cs (3132/8) * * * * * Conclusion de la discussion des articles: Besluit van de artikelsgewijze bespreking: Réservés: les amendements et les articles 3, 4 et 15. Aangehouden: de amendementen en de artikelen 3, 4 en 15. Adoptés article par article: les articles 1, 2 et 5 à 14 Artikel per artikel aangenomen: de artikelen 1, 2 en 5 tot 14. * * * * * De bespreking van de artikelen is gesloten. De stemming over de aangehouden amendementen, de aangehouden artikelen en over het geheel zal later plaatsvinden.
+
+### Description in French:
+
+Nous passons à la discussion des articles du projet de loi n° 3132. Le texte adopté par la commission sert de base à la discussion. (Rgt 85, 4) (3132/7) Le projet de loi compte 15 articles. * * * * * Amendements déposés: Ingediende amendementen: Art. 3 • 9 - Anneleen Van Bossuyt cs (3132/8) Art. 4 • 10 - Anneleen Van Bossuyt cs (3132/8) • 11 - Anneleen Van Bossuyt cs (3132/8) • 12 - Anneleen Van Bossuyt cs (3132/8) Art. 15 • 13 - Anneleen Van Bossuyt cs (3132/8) * * * * * Conclusion de la discussion des articles: Besluit van de artikelsgewijze bespreking: Réservés: les amendements et les articles 3, 4 et 15. Aangehouden: de amendementen en de artikelen 3, 4 en 15. Adoptés article par article: les articles 1, 2 et 5 à 14 Artikel per artikel aangenomen: de artikelen 1, 2 en 5 tot 14. * * * * * La discussion des articles est close. Le vote sur les amendements et les articles réservés ainsi que sur l'ensemble aura lieu ultérieurement.
+
+
+
+### Discussed proposals:
+
 Motion # 1.
 
 ### Yes votes (98)
