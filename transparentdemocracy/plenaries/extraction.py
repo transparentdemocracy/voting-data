@@ -145,8 +145,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 	proposal_section_headers = [
 		el for el in level1_headers
-		if "wetsontwerp" in el.text.strip()
-		or "voorstel" in el.text.strip()
+		if "wetsontwerp" in el.text.strip().lower()
+		or "voorstel" in el.text.strip().lower()
 		or el.text.strip().lower() in ["projets de loi",
 									# "Begrotingen" (= financial cost estimates) for the coming year are the replacement
 									# for normal proposal discussions, but are in fact just another title for what are
