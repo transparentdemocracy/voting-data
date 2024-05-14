@@ -37,14 +37,19 @@ class ParseProblem:
 
 
 class PlenaryExtractionContext:
-	def __init__(self, report_path, politicians: Politicians):
+	def __init__(self, report_path, politicians: Politicians, html=None):
 		self.report_path = report_path
 		self.politicians = politicians
-		self.html = None
+		self.html = html
 		self.problems = []
 
 	def add_problem(self, problem_type: str, location: str = None):
 		self.problems.append(ParseProblem(self.report_path, problem_type, location))
+
+
+def create_plenary_extraction_context(report_path: str, politicians):
+	html = _read_plenary_html(report_path)
+	return PlenaryExtractionContext(report_path, politicians, html)
 
 
 def extract_from_html_plenary_reports(
@@ -78,11 +83,10 @@ def extract_from_html_plenary_reports(
 	return plenaries, all_votes
 
 
-def extract_from_html_plenary_report(report_filename: str, politicians: Politicians = None) -> Tuple[
+def extract_from_html_plenary_report(report_path: str, politicians: Politicians = None) -> Tuple[
 	Plenary, List[Vote]]:
 	politicians = politicians or load_politicians()
-	ctx = PlenaryExtractionContext(report_filename, politicians)
-	ctx.html = _read_plenary_html(report_filename)
+	ctx = create_plenary_extraction_context(report_path, politicians)
 	return _extract_plenary(ctx)
 
 
@@ -231,11 +235,17 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 			proposals.append(Proposal(nl_doc_ref, nl_text.strip(), fr_text.strip()))
 
 		if "verzoek om advies van de raad van state" in nl_proposal_text.lower():
-			description_nl = normalize_whitespace(" ".join([el.text for el in discussion_body if el.text.strip() != ""]))
-			description_fr = normalize_whitespace(" ".join([el.text for el in discussion_body if el.text.strip() != ""]))
+			description_nl = normalize_whitespace(
+				" ".join([el.text for el in discussion_body if el.text.strip() != ""]))
+			description_fr = normalize_whitespace(
+				" ".join([el.text for el in discussion_body if el.text.strip() != ""]))
 		else:
-			description_nl = normalize_whitespace(" ".join([el.text for el in discussion_body if el.text.strip() != "" and determine_discussion_body_language(el) in ["nl", None]]))
-			description_fr = normalize_whitespace(" ".join([el.text for el in discussion_body if el.text.strip() != "" and determine_discussion_body_language(el) in ["fr", None]]))
+			description_nl = normalize_whitespace(" ".join([el.text for el in discussion_body if
+															el.text.strip() != "" and determine_discussion_body_language(
+																el) in ["nl", None]]))
+			description_fr = normalize_whitespace(" ".join([el.text for el in discussion_body if
+															el.text.strip() != "" and determine_discussion_body_language(
+																el) in ["fr", None]]))
 
 		pd = ProposalDiscussion(
 			proposal_id,
