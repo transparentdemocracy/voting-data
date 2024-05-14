@@ -109,7 +109,7 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[
 		Plenary(
 			plenary_id,
 			int(plenary_number),
-			_get_plenary_date(ctx.report_path, ctx.html),
+			_get_plenary_date(ctx),
 			legislature,
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
@@ -397,6 +397,15 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
 		no_start = get_sequence(seq, ["Non"])
 		abstention_start = get_sequence(seq, ["Abstentions"])
 
+		if yes_start is None:
+			ctx.add_problem("YES_PART_NOT_FOUND", motion_id)
+			continue
+		if no_start is None:
+			ctx.add_problem("NO_PART_NOT_FOUND", motion_id)
+			continue
+		if abstention_start is None:
+			ctx.add_problem("ABSTENTION_PART_NOT_FOUND", motion_id)
+			continue
 		if not (yes_start < no_start < abstention_start):
 			ctx.add_problem("VOTES_YES_NO_ABSTENTION_OUT_OF_ORDER", motion_id)
 			continue
@@ -689,11 +698,11 @@ def get_motion_blocks(html):
 
 
 def get_sequence(tokens, query):
-	"""@return like find_sequence but raises ValueError if the query was not found"""
+	"""@return like find_sequence or None if the query was not found"""
 	pos = find_sequence(tokens, query)
 	if pos >= 0:
 		return pos
-	raise ValueError("query %s not found in tokens %s" % (str(query), str(tokens)))
+	return None
 
 
 def get_names(sequence, count, log_type, location="unknown location"):
@@ -720,8 +729,8 @@ def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType,
 		]
 
 
-def _get_plenary_date(path, html):
-	first_table_paragraphs = [p.text for p in html.find('table').select('p')]
+def _get_plenary_date(ctx):
+	first_table_paragraphs = [p.text for p in ctx.html.find('table').select('p')]
 	text_containing_weekday = [t.lower() for t in first_table_paragraphs if any([m in t.lower() for m in DAYS_NL])]
 	if len(text_containing_weekday) > 0:
 		for candidate in text_containing_weekday:
@@ -740,7 +749,8 @@ def _get_plenary_date(path, html):
 		year = int(match.group(3), 10)
 		return datetime.date.fromisoformat("%d-%02d-%02d" % (year, month, day))
 
-	raise Exception(f"Could not find determine date for {path}")
+	ctx.add_problem("PLENARY_DATE_PARSING_FAILS")
+	return None
 
 
 def main():

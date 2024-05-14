@@ -15,7 +15,6 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 logger.setLevel(logging.INFO)
 
-
 ROOT_FOLDER = os.path.dirname(os.path.dirname(transparentdemocracy.__file__))
 
 
@@ -232,12 +231,12 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 20)
 
 		self.assertStartsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
-								plenary.proposal_discussions[0].description_nl)
+							  plenary.proposal_discussions[0].description_nl)
 		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
 			"Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
 
 		self.assertStartsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
-								plenary.proposal_discussions[0].description_fr)
+							  plenary.proposal_discussions[0].description_fr)
 		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
 			"Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
 
@@ -271,20 +270,23 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_224")
 		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 1)
 
-		self.assertStartsWith("Wij vatten de bespreking van de artikelen aan van het wetsontwerp houdende de Middelenbegroting voor het begrotingsjaar 2023.",
-							  plenary.proposal_discussions[0].description_nl)
+		self.assertStartsWith(
+			"Wij vatten de bespreking van de artikelen aan van het wetsontwerp houdende de Middelenbegroting voor het begrotingsjaar 2023.",
+			plenary.proposal_discussions[0].description_nl)
 		self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
 			"en over het geheel van het wetsontwerp houdende de Algemene uitgavenbegroting voor het begrotingsjaar 2023 zal later plaatsvinden."))
 
-		self.assertStartsWith("Nous passons à la discussion des articles du projet de loi contenant le budget des Voies et Moyens pour l'année budgétaire 2023.",
-							  plenary.proposal_discussions[0].description_fr)
+		self.assertStartsWith(
+			"Nous passons à la discussion des articles du projet de loi contenant le budget des Voies et Moyens pour l'année budgétaire 2023.",
+			plenary.proposal_discussions[0].description_fr)
 		self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
 			"l'ensemble du projet de loi contenant le Budget général des dépenses pour l'année budgétaire 2023 aura lieu ultérieurement."))
 
 		# ---> First proposal linked to the first proposal discussion:
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl,
 						 "Wetsontwerp houdende de Middelenbegroting voor het begrotingsjaar 2023")
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr, "Projet de loi contenant le budget des Voies et Moyens pour l'année budgétaire 2023")
+		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr,
+						 "Projet de loi contenant le budget des Voies et Moyens pour l'année budgétaire 2023")
 		self.assertEqual("2931/1-6", plenary.proposal_discussions[0].proposals[0].document_reference)
 
 		# ---> Last proposal linked to the first proposal discussion:
@@ -293,7 +295,6 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(plenary.proposal_discussions[0].proposals[4].title_fr,
 						 "- Liste des notes de politique générale")
 		self.assertEqual("2934/1-30", plenary.proposal_discussions[0].proposals[4].document_reference)
-
 
 		# -> Last proposal discussion (no proposal discussion header, so description = all text below the proposal title):
 		self.assertEqual(plenary.proposal_discussions[3].id, "55_224_d04")
@@ -359,13 +360,13 @@ class PlenaryExtractionTest(unittest.TestCase):
 		# The proposals are extracted correctly:
 		self.assertEqual(2, len(plenary.proposal_discussions))
 		self.assertStartsWith("Projet de loi portant assentiment aux actes internationaux suivants",
-								plenary.proposal_discussions[0].proposals[0].title_fr)
+							  plenary.proposal_discussions[0].proposals[0].title_fr)
 		self.assertStartsWith("Wetsontwerp houdende instemming met volgende internationale akten",
-								plenary.proposal_discussions[0].proposals[0].title_nl)
+							  plenary.proposal_discussions[0].proposals[0].title_nl)
 		self.assertStartsWith("Projet de loi portant assentiment aux actes internationaux suivants",
-								plenary.proposal_discussions[0].proposals[0].title_fr)
+							  plenary.proposal_discussions[0].proposals[0].title_fr)
 		self.assertStartsWith("Wetsontwerp houdende instemming met volgende internationale akten",
-								plenary.proposal_discussions[0].proposals[0].title_nl)
+							  plenary.proposal_discussions[0].proposals[0].title_nl)
 
 		# The motions are extracted correctly:
 		self.assertEqual(0, len(plenary.motions))
@@ -475,7 +476,6 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(23, plenary.proposal_discussions[0].plenary_agenda_item_number)
 		self.assertEqual(26, plenary.proposal_discussions[-1].plenary_agenda_item_number)
 
-
 	@unittest.skip(
 		"suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
 	def test_extract_ip67(self):
@@ -521,7 +521,8 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 	def get_plenary_date(self, filename):
 		path = CONFIG.plenary_html_input_path(filename)
-		return _get_plenary_date(path, _read_plenary_html(path))
+		ctx = create_plenary_extraction_context(path, None) # Politicians not needed for this test
+		return _get_plenary_date(ctx)
 
 	def assertStartsWith(self, expected, actual):
 		self.assertEqual(expected, actual[:len(expected)])
