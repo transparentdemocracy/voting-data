@@ -151,6 +151,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 	if not level1_headers:
 		ctx.add_problem("NO_LEVEL1_TITLE", None)
+		logging.warning(f"No 'level1' (h1) section titles found (Plenary report {os.path.basename(ctx.report_path)}). "
+						f"No proposal discussions will be added to the data about this plenary.")
 		return proposal_discussions
 
 	proposal_section_headers = [
@@ -166,6 +168,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 	if not proposal_section_headers:
 		ctx.add_problem("NO_PROPOSAL_HEADER_FOUND")
+		logging.warning(f"No proposal section title found (Plenary report {os.path.basename(ctx.report_path)}). "
+						f"No proposal discussions will be added to the data about this plenary.")
 		return proposal_discussions
 
 	proposal_header_idx = level1_headers.index(proposal_section_headers[-1])
