@@ -5,11 +5,11 @@ from datetime import date
 
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
-from transparentdemocracy.model import ReportItem, Motion, Vote, VoteType
+from transparentdemocracy.model import ReportItem, Motion, Vote
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
 	extract_from_html_plenary_report, _read_plenary_html, _get_plenary_date, _extract_motion_report_items, \
-	_extract_motions, _extract_votes, PlenaryExtractionContext, create_plenary_extraction_context
-from transparentdemocracy.politicians.extraction import Politicians, load_politicians
+	_extract_motions, _extract_votes, create_plenary_extraction_context
+from transparentdemocracy.politicians.extraction import load_politicians
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -74,7 +74,8 @@ class ReportItemExtractionTest(unittest.TestCase):
 
 	def extract_motion_report_items(self, report_path):
 		path = CONFIG.plenary_html_input_path(report_path)
-		return _extract_motion_report_items(path, _read_plenary_html(path))
+		ctx = create_plenary_extraction_context(path, load_politicians())
+		return _extract_motion_report_items(ctx)
 
 
 class MotionExtractionTest(unittest.TestCase):
@@ -84,7 +85,8 @@ class MotionExtractionTest(unittest.TestCase):
 
 	def test_extract_motions(self):
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
-		motion_report_items, motions = _extract_motions("55_298", report_path, _read_plenary_html(report_path))
+		ctx = create_plenary_extraction_context(report_path, load_politicians())
+		motion_report_items, motions = _extract_motions("55_298", ctx)
 
 		self.assertEqual(28, len(motions))
 		self.assertEqual(Motion("55_298_1", "1", "55_298_10", False), motions[0])

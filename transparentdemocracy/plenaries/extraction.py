@@ -47,7 +47,7 @@ class PlenaryExtractionContext:
 		self.problems.append(ParseProblem(self.report_path, problem_type, location))
 
 
-def create_plenary_extraction_context(report_path: str, politicians):
+def create_plenary_extraction_context(report_path: str, politicians) -> PlenaryExtractionContext:
 	html = _read_plenary_html(report_path)
 	return PlenaryExtractionContext(report_path, politicians, html)
 
@@ -102,7 +102,7 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposal_discussions(ctx, plenary_id)
-	motion_report_items, motions = _extract_motions(plenary_id, ctx.report_path, ctx.html)
+	motion_report_items, motions = _extract_motions(plenary_id, ctx)
 	votes = _extract_votes(ctx, plenary_id)
 
 	return (
@@ -121,8 +121,8 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[
 	)
 
 
-def _extract_motions(plenary_id, report_filename, html):
-	motion_report_items = _extract_motion_report_items(report_filename, html)
+def _extract_motions(plenary_id: str, ctx: PlenaryExtractionContext):
+	motion_report_items = _extract_motion_report_items(ctx)
 	motions = _report_items_to_motions(plenary_id, motion_report_items)
 	return motion_report_items, motions
 
@@ -162,7 +162,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 	]
 
 	if not proposal_section_headers:
-		raise Exception("no proposal header found - analyse and fix if this occurs.")
+		ctx.add_problem("NO_PROPOSAL_HEADER_FOUND")
+		return proposal_discussions
 
 	proposal_header_idx = level1_headers.index(proposal_section_headers[-1])
 	next_level1_headers = level1_headers[proposal_header_idx + 1:]
@@ -417,11 +418,11 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
 	return votes
 
 
-def _extract_motion_report_items(report_path: str, html: Tag) -> List[ReportItem]:
-	naamstemmingen_title = find_naamstemmingen_title(report_path, html)
+def _extract_motion_report_items(ctx: PlenaryExtractionContext) -> List[ReportItem]:
+	naamstemmingen_title = find_naamstemmingen_title(ctx.report_path, ctx.html)
 	if naamstemmingen_title is None:
 		return []
-	return _extract_report_items(report_path, naamstemmingen_title.find_next_siblings())
+	return _extract_report_items(ctx.report_path, naamstemmingen_title.find_next_siblings())
 
 
 def _extract_report_items(report_path: str, elements: List[PageElement]) -> List[ReportItem]:
