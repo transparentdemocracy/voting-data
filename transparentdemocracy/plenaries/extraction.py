@@ -153,6 +153,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 									"wetsvoorstellen",
 									"voorstel van resolutie",
 									"wetsontwerpen en -voorstellen",
+									"wetsontwerpen en voorstel",
 									"wetsvoorstel",
 									"voorstellen",
 									"voorstellen en wetsontwerp",
