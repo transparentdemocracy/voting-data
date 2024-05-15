@@ -225,6 +225,19 @@ class PlenaryExtractionTest(unittest.TestCase):
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
 		self.assertEqual(0, len(plenary.proposal_discussions))
 
+	def test_extract_from_html_plenary_report__ip262x_html_motion_proposal_id(self):
+		# Test case for motions
+		# Arrange
+		report_file_name = CONFIG.plenary_html_input_path("ip262x.html")
+
+		# Act
+		plenary, votes, problems = extract_from_html_plenary_report(report_file_name)
+
+		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
+		self.assertEqual(16, len(plenary.motions))
+		self.assertEqual(plenary.motions[0].id, "55_262_1")
+		self.assertEqual(plenary.motions[0].proposal_id, "55_262_to_be_decided")
+
 	def test_extract_from_html_plenary_report__ip263x_html(self):
 		# This report has no proposal discussion section.
 		# Arrange
@@ -616,7 +629,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 	def get_plenary_date(self, filename):
 		path = CONFIG.plenary_html_input_path(filename)
-		ctx = create_plenary_extraction_context(path, None) # Politicians not needed for this test
+		ctx = create_plenary_extraction_context(path, None)  # Politicians not needed for this test
 		return _get_plenary_date(ctx)
 
 	def assertStartsWith(self, expected, actual):

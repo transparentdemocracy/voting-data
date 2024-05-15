@@ -211,7 +211,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 		# TODO: what do we do with nl_proposals and nl_proposals now that we have them?
 
-		proposal_id = f"{plenary_id}_d{level2_item.label}"
+		proposal_discussion_id = f"{plenary_id}_d{level2_item.label}"
 
 		level3_groups = create_level3_tag_groups(level2_item.body)
 		level3_items = find_report_items(ctx.report_path, level3_groups, is_level3_title)
@@ -219,11 +219,11 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 		discussion_items = [item for item in level3_items if is_article_discussion_item(item)]
 		if not discussion_items:
 			# 55_261_d20 doesn't have a discussion part -> fall back to the entire text as discussion body
-			logger.info("%s does not have a discussion part. Using fallback.", proposal_id)
+			logger.info("%s does not have a discussion part. Using fallback.", proposal_discussion_id)
 			discussion_body = level2_item.body
 		else:
 			if len(discussion_items) > 1:
-				ctx.add_problem("MULTIPLE_DISCUSSION_ANNOUNCEMENTS", proposal_id)
+				ctx.add_problem("MULTIPLE_DISCUSSION_ANNOUNCEMENTS", proposal_discussion_id)
 				continue
 
 			discussion_item = discussion_items[0]
@@ -231,7 +231,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 		proposals = []
 		if len(nl_proposal_titles) != len(fr_proposal_titles):
-			ctx.add_problem("NL_FR_PROPOSAL_COUNT_MISMATCH", proposal_id)
+			ctx.add_problem("NL_FR_PROPOSAL_COUNT_MISMATCH", proposal_discussion_id)
 			continue
 
 		for nl, fr in zip(nl_proposal_titles, fr_proposal_titles):
@@ -256,7 +256,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 																el) in ["fr", None]]))
 
 		pd = ProposalDiscussion(
-			proposal_id,
+			proposal_discussion_id,
 			plenary_id,
 			plenary_agenda_item_number=int(level2_item.label, 10),
 			description_nl=description_nl,
@@ -288,7 +288,7 @@ def _report_items_to_motions(plenary_id: str, report_items: List[ReportItem]):
 
 
 def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
-	proposal_id = f"{plenary_id}_{item.label}"
+	proposal_id = f"{plenary_id}_what_is_proposal_id"
 
 	stemming_re = re.compile("\\(Stemming/vote\\W+(\\d+)", RegexFlag.MULTILINE)
 	canceled_re = re.compile("\\(Stemming\\W\\D*(\\d+).*geannuleerd", RegexFlag.MULTILINE)
@@ -299,7 +299,7 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 		if match_canceled:
 			motion_number = match_canceled.group(1)
 			motion_id = f"{plenary_id}_{motion_number}"
-			result.append(Motion(motion_id, motion_number, proposal_id, True))
+			result.append(Motion(motion_id, motion_number, proposal_id, True, description_nl="TODO", description_fr="TODO"))
 			continue
 
 		if el.name != "table":
@@ -310,7 +310,7 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 			motion_number = match_voting.group(1)
 			motion_id = f"{plenary_id}_{motion_number}"
 			cancelled = "geannuleerd" in el.text.lower()
-			result.append(Motion(motion_id, motion_number, proposal_id, cancelled))
+			result.append(Motion(motion_id, motion_number, proposal_id, cancelled, description_nl="TODO", description_fr="TODO"))
 
 	return result
 

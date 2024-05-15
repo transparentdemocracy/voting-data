@@ -39,6 +39,7 @@ class Motion:
 	number: str  # sequence number of the motion in the series of motions held towards the end of a plenary.
 	proposal_id: str
 	cancelled: bool
+	description: str
 
 
 @dataclass
