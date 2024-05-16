@@ -78,7 +78,7 @@ def extract_from_html_plenary_reports(
 				continue
 
 		except Exception as e:
-			all_problems.append(ParseProblem(report_filename, "EXCEPTION", "report"))
+			all_problems.append(ParseProblem(report_filename, "EXCEPTION", None))
 			logging.warning("Failed to process %s", report_filename, exc_info=True)
 
 	return plenaries, all_votes, all_problems
@@ -193,7 +193,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 		if not level2_item.label:
 			# ip182x: Wetsontwerpen en voorstellen has a paragraph before the first proposal start at [15]. We ignore this
-			ctx.add_problem("LEVEL2_ITEM_WITHOUT_LABEL")
+			ctx.add_problem("LEVEL2_ITEM_WITHOUT_LABEL", level2_item.text[:20])
 			continue
 
 		if len(nl_proposal_titles) + len(fr_proposal_titles) == 0:
