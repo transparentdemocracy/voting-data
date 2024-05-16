@@ -158,12 +158,12 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 	proposal_section_headers = [
 		el for el in level1_headers
 		if "wetsontwerp" in el.text.strip().lower()
-		or "voorstel" in el.text.strip().lower()
-		or el.text.strip().lower() in ["projets de loi",
-									# "Begrotingen" (= financial cost estimates) for the coming year are the replacement
-									# for normal proposal discussions, but are in fact just another title for what are
-									# still proposals:
-									"begrotingen"]
+		   or "voorstel" in el.text.strip().lower()
+		   or el.text.strip().lower() in ["projets de loi",
+										  # "Begrotingen" (= financial cost estimates) for the coming year are the replacement
+										  # for normal proposal discussions, but are in fact just another title for what are
+										  # still proposals:
+										  "begrotingen"]
 	]
 
 	if not proposal_section_headers:
@@ -288,7 +288,7 @@ def _report_items_to_motions(plenary_id: str, report_items: List[ReportItem]):
 
 
 def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
-	proposal_id = f"{plenary_id}_what_is_proposal_id"
+	proposal_id = f"{plenary_id}_{item.label}"
 
 	stemming_re = re.compile("\\(Stemming/vote\\W+(\\d+)", RegexFlag.MULTILINE)
 	canceled_re = re.compile("\\(Stemming\\W\\D*(\\d+).*geannuleerd", RegexFlag.MULTILINE)
@@ -299,7 +299,7 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 		if match_canceled:
 			motion_number = match_canceled.group(1)
 			motion_id = f"{plenary_id}_{motion_number}"
-			result.append(Motion(motion_id, motion_number, proposal_id, True, description_nl="TODO", description_fr="TODO"))
+			result.append(Motion(motion_id, motion_number, proposal_id, True, description="TODO"))
 			continue
 
 		if el.name != "table":
@@ -310,7 +310,7 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 			motion_number = match_voting.group(1)
 			motion_id = f"{plenary_id}_{motion_number}"
 			cancelled = "geannuleerd" in el.text.lower()
-			result.append(Motion(motion_id, motion_number, proposal_id, cancelled, description_nl="TODO", description_fr="TODO"))
+			result.append(Motion(motion_id, motion_number, proposal_id, cancelled, description="TODO"))
 
 	return result
 

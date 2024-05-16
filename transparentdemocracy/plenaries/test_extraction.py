@@ -88,7 +88,7 @@ class MotionExtractionTest(unittest.TestCase):
 		motion_report_items, motions = _extract_motions("55_298", ctx)
 
 		self.assertEqual(28, len(motions))
-		self.assertEqual(Motion("55_298_1", "1", "55_298_10", False), motions[0])
+		self.assertEqual(Motion("55_298_1", "1", "55_298_10", False, "TODO"), motions[0])
 
 
 class VoteExtractionTest(unittest.TestCase):
