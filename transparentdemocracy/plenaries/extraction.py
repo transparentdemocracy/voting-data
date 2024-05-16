@@ -297,7 +297,7 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 	for el in item.body:
 		match_canceled = canceled_re.match(el.text)
 		if match_canceled:
-			motion_number = match_canceled.group(1)
+			motion_number = str(int(match_canceled.group(1), 10))
 			motion_id = f"{plenary_id}_{motion_number}"
 			result.append(Motion(motion_id, motion_number, proposal_id, True, description="TODO"))
 			continue
@@ -307,7 +307,7 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 
 		match_voting = stemming_re.search(el.text)
 		if match_voting:
-			motion_number = match_voting.group(1)
+			motion_number = str(int(match_voting.group(1), 10))
 			motion_id = f"{plenary_id}_{motion_number}"
 			cancelled = "geannuleerd" in el.text.lower()
 			result.append(Motion(motion_id, motion_number, proposal_id, cancelled, description="TODO"))

@@ -236,7 +236,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
 		self.assertEqual(16, len(plenary.motions))
 		self.assertEqual(plenary.motions[0].id, "55_262_1")
-		self.assertEqual(plenary.motions[0].proposal_id, "55_262_to_be_decided")
+		self.assertEqual(plenary.motions[0].proposal_id, "55_262_08")
 
 	def test_extract_from_html_plenary_report__ip263x_html(self):
 		# This report has no proposal discussion section.
