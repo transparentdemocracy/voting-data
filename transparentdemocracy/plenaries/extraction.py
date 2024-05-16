@@ -193,7 +193,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 		if not level2_item.label:
 			# ip182x: Wetsontwerpen en voorstellen has a paragraph before the first proposal start at [15]. We ignore this
-			ctx.add_problem("LEVEL2_ITEM_WITHOUT_LABEL", level2_item.text[:20])
+			ctx.add_problem("LEVEL2_ITEM_WITHOUT_LABEL", normalize_whitespace(" ".join([level2_item.nl_title, level2_item.fr_title])))
 			continue
 
 		if len(nl_proposal_titles) + len(fr_proposal_titles) == 0:
