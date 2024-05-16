@@ -2,10 +2,11 @@ import logging
 import os
 import unittest
 from datetime import date
+from typing import List
 
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
-from transparentdemocracy.model import ReportItem, Motion, Vote
+from transparentdemocracy.model import ReportItem, Motion, Vote, MotionGroup
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
 	extract_from_html_plenary_report, _get_plenary_date, _extract_motion_report_items, \
 	_extract_motions, _extract_votes, create_plenary_extraction_context
@@ -82,13 +83,54 @@ class MotionExtractionTest(unittest.TestCase):
 	def setUpClass(cls):
 		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
-	def test_extract_motions(self):
+	def test_extract_motions__ip298x_html__go_to_example_report(self):
+		# The example report we used for implementing extraction of other sub-objects of a plenary object.
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
 		ctx = create_plenary_extraction_context(report_path, load_politicians())
 		motion_report_items, motions = _extract_motions("55_298", ctx)
 
 		self.assertEqual(28, len(motions))
-		self.assertEqual(Motion("55_298_m1", "1", "55_298_10", False, "TODO"), motions[0])
+		self.assertEqual(Motion("55_298_m1", "1", "TODO", "TODO", "TODO", False, "TODO", "55_298_10"), motions[0])
+
+	def test_extract_motions__ip262x_html__go_to_example_report(self):
+		# The example report we used for agreeing on how to implement extraction of motions.
+		# Arrange
+		report_path = CONFIG.plenary_html_input_path("ip262x.html")
+		ctx = create_plenary_extraction_context(report_path, load_politicians())
+
+		# Act
+		motion_report_items, motions = _extract_motions("55_262", ctx)
+		motion_groups: List[MotionGroup] = []  # TODO the actual extraction. First creating the test with the expected behavior (TDD).
+
+		# Assert
+		"""
+		# TODO expected outcomes after updated implementation:
+		self.assertEqual(15, len(motion_groups))
+		self.assertEqual(8, motion_groups[0].plenary_agenda_item_number)
+		self.assertEqual(22, motion_groups[-1].plenary_agenda_item_number)
+
+		self.assertEqual("55_262_mg_12", motion_groups[4].id)
+		self.assertEqual(12, motion_groups[4].plenary_agenda_item_number)
+		self.assertEqual("Aangehouden amendementen op het wetsontwerp houdende diverse bepalingen inzake sociale zaken",
+							motion_groups[4].title_nl)
+		self.assertEqual("12 Amendements réservés au projet de loi portant des dispositions diverses en matière sociale",
+							motion_groups[4].title_fr)
+		self.assertEqual("3495/1-5", motion_groups[4].documents_reference)
+		self.assertEqual("55_261_d22", motion_groups[4].proposal_discussion_id)  # before this is voted on in this plenary 262, in this motion group, it was actually discussed in the preceding plenary 261, as agenda item number 22.
+
+		self.assertEqual(3, len(motion_groups[4].motions))
+		self.assertEqual(Motion("55_262_m5", "5",
+								"Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
+								"Vote sur l'amendement n° 4 de Catherine Fonck tendant à insérer un article 2/1(n).",
+								"3495/5", False,
+								None, # Not including boilerplate text for motions, there is no description text following this motion's title.
+								"55_261_d22_p1"), # There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
+						motion_groups[4].motions[0])
+		"""
+
+		# Outcomes with current implementation:
+		self.assertEqual(16, len(motions))
+		self.assertEqual(Motion("55_262_m1", "1", "TODO", "TODO", "TODO", False, "TODO", "55_262_08"), motions[0])
 
 
 class VoteExtractionTest(unittest.TestCase):
@@ -113,6 +155,8 @@ class VoteExtractionTest(unittest.TestCase):
 		self.assertEqual(expected_vote, votes[0])
 
 
+# More like integration tests, testing the outcome of the execution of all puzzle pieces tested separately above:
+# (Maybe at some point I should extract unit tests for __extract_proposal_discussion() from the below tests.)
 class PlenaryExtractionTest(unittest.TestCase):
 
 	@classmethod
@@ -173,7 +217,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(
 			"Projet de loi optimisant le fonctionnement de l'Organe central pour la Saisie et la Confiscation et de l'Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la loi sur les armes",
 			plenary.proposal_discussions[0].proposals[0].title_fr)
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].document_reference, "3849/1-4")
+		self.assertEqual(plenary.proposal_discussions[0].proposals[0].documents_reference, "3849/1-4")
 
 		# The motions are extracted correctly:
 		self.assertEqual(28, len(plenary.motions))
@@ -225,6 +269,17 @@ class PlenaryExtractionTest(unittest.TestCase):
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
 		self.assertEqual(0, len(plenary.proposal_discussions))
 
+	def test_extract_from_html_plenary_report__ip263x_html(self):
+		# This report has no proposal discussion section.
+		# Arrange
+		report_file_name = CONFIG.plenary_html_input_path("ip263x.html")
+
+		# Act
+		plenary, votes, problems = extract_from_html_plenary_report(report_file_name)
+
+		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
+		self.assertEqual(0, len(plenary.proposal_discussions))
+
 	def test_extract_from_html_plenary_report__ip262x_html_motion_proposal_id(self):
 		# Test case for motions
 		# Arrange
@@ -237,17 +292,6 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(16, len(plenary.motions))
 		self.assertEqual(plenary.motions[0].id, "55_262_m1")
 		self.assertEqual(plenary.motions[0].proposal_id, "55_262_08")
-
-	def test_extract_from_html_plenary_report__ip263x_html(self):
-		# This report has no proposal discussion section.
-		# Arrange
-		report_file_name = CONFIG.plenary_html_input_path("ip263x.html")
-
-		# Act
-		plenary, votes, problems = extract_from_html_plenary_report(report_file_name)
-
-		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
-		self.assertEqual(0, len(plenary.proposal_discussions))
 
 	def test_extract_from_html_plenary_report__ip261x_html__different_proposals_header(self):
 		# This example proposal has "Projets de loi et propositions" as proposals header, rather than "Projets de loi".
@@ -289,7 +333,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl,
 						 "Verzoek om advies van de Raad van State")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr, "Demande d'avis du Conseil d'État")
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].document_reference, None)
+		self.assertEqual(plenary.proposal_discussions[0].proposals[0].documents_reference, None)
 
 	def test_extract_from_html_plenary_report__ip226x_html(self):
 		# This report has no proposal discussion section.
@@ -344,14 +388,14 @@ class PlenaryExtractionTest(unittest.TestCase):
 						 "Wetsontwerp houdende de Middelenbegroting voor het begrotingsjaar 2023")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr,
 						 "Projet de loi contenant le budget des Voies et Moyens pour l'année budgétaire 2023")
-		self.assertEqual("2931/1-6", plenary.proposal_discussions[0].proposals[0].document_reference)
+		self.assertEqual("2931/1-6", plenary.proposal_discussions[0].proposals[0].documents_reference)
 
 		# ---> Last proposal linked to the first proposal discussion:
 		self.assertEqual(plenary.proposal_discussions[0].proposals[4].title_nl,
 						 "- Lijst van Beleidsnota's")
 		self.assertEqual(plenary.proposal_discussions[0].proposals[4].title_fr,
 						 "- Liste des notes de politique générale")
-		self.assertEqual("2934/1-30", plenary.proposal_discussions[0].proposals[4].document_reference)
+		self.assertEqual("2934/1-30", plenary.proposal_discussions[0].proposals[4].documents_reference)
 
 		# -> Last proposal discussion (no proposal discussion header, so description = all text below the proposal title):
 		self.assertEqual(plenary.proposal_discussions[3].id, "55_224_d04")
@@ -371,7 +415,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 						 "Begroting en beleidsnota van de Commissie voor de Regulering van de elektriciteit en het gas (CREG) voor het begrotingsjaar 2023")
 		self.assertEqual(plenary.proposal_discussions[3].proposals[0].title_fr,
 						 "Budget et note de politique générale de la Commission de Régulation de l'Électricité et du Gaz (CREG) pour l'année 2023")
-		self.assertEqual("1678/1-3", plenary.proposal_discussions[3].proposals[0].document_reference)
+		self.assertEqual("1678/1-3", plenary.proposal_discussions[3].proposals[0].documents_reference)
 
 	def test_extract_from_html_plenary_report__ip245x_html(self):
 		# This report has a different proposals section title: "Wetsontwerpen en voorstel".

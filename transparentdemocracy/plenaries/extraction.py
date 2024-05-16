@@ -299,7 +299,8 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 		if match_canceled:
 			motion_number = str(int(match_canceled.group(1), 10))
 			motion_id = f"{plenary_id}_m{motion_number}"
-			result.append(Motion(motion_id, motion_number, proposal_id, True, description="TODO"))
+			result.append(Motion(motion_id, motion_number, "TODO", "TODO", "TODO", True, description="TODO",
+								proposal_id=proposal_id))
 			continue
 
 		if el.name != "table":
@@ -310,7 +311,8 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 			motion_number = str(int(match_voting.group(1), 10))
 			motion_id = f"{plenary_id}_m{motion_number}"
 			cancelled = "geannuleerd" in el.text.lower()
-			result.append(Motion(motion_id, motion_number, proposal_id, cancelled, description="TODO"))
+			result.append(Motion(motion_id, motion_number, "TODO", "TODO", "TODO", cancelled, description="TODO",
+								proposal_id=proposal_id))
 
 	return result
 

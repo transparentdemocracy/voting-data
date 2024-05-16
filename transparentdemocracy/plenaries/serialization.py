@@ -52,7 +52,7 @@ class MarkdownSerializer:
 		return markdown_result
 
 	def _serialize_proposal(self, proposal: Proposal) -> None:
-		markdown_result = f"## Proposal {proposal.document_reference}:\n\n"
+		markdown_result = f"## Proposal {proposal.documents_reference}:\n\n"
 		markdown_result += f"Title (Dutch): {proposal.title_nl}"
 		markdown_result += f"Title (French): {proposal.title_fr}"
 		markdown_result += "\n\n"

@@ -16,9 +16,18 @@ from bs4 import PageElement
 
 # Classes related to the plenaries and their "topics": proposals, motions (and later: interpellations).
 
+# not using this yet, but might be an interesting type for the documents_reference attributes below, instead of
+# str-typing them.
+@dataclass
+class DocumentsReference:
+	document_reference: int  # example: 3495
+	all_documents_reference: str  # example: 3495/1-5, or 3495/5
+	main_document_reference: int  # example: 1
+	sub_document_references: List[int]  # example: 1 until 5 inclusive.
+
 @dataclass
 class Proposal:
-	document_reference: Optional[str]  # official reference in the parliament, as mentioned in plenary reports.
+	documents_reference: Optional[str]  # official reference in the parliament, as mentioned in plenary reports.
 	title_nl: str
 	title_fr: str
 
@@ -35,11 +44,25 @@ class ProposalDiscussion:
 
 @dataclass
 class Motion:
-	id: str
-	number: str  # sequence number of the motion in the series of motions held towards the end of a plenary.
-	proposal_id: str
+	id: str  # Example: 55_262_m5.
+	sequence_number: str  # Example: 5, corresponding with "(Stemming/vote 5)" in the plenary report.
+	title_nl: str
+	title_fr: str
+	documents_reference: str  # example: 3495/1-5
 	cancelled: bool
 	description: str
+	proposal_id: str
+
+
+@dataclass
+class MotionGroup:
+	id: str  # Example: 55_262_mg12.
+	plenary_agenda_item_number: int  # the agenda item number in the plenary meeting where the motion group was situated.
+	title_nl: str
+	title_fr: str
+	documents_reference: str  # example: 3495/5
+	proposal_discussion_id: str
+	motions: List[Motion]
 
 
 @dataclass
