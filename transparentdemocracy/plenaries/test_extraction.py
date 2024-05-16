@@ -88,7 +88,7 @@ class MotionExtractionTest(unittest.TestCase):
 		motion_report_items, motions = _extract_motions("55_298", ctx)
 
 		self.assertEqual(28, len(motions))
-		self.assertEqual(Motion("55_298_1", "1", "55_298_10", False, "TODO"), motions[0])
+		self.assertEqual(Motion("55_298_m1", "1", "55_298_10", False, "TODO"), motions[0])
 
 
 class VoteExtractionTest(unittest.TestCase):
@@ -178,7 +178,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		# The motions are extracted correctly:
 		self.assertEqual(28, len(plenary.motions))
 		self.assertEqual(plenary.motions[0].id,
-						 "55_298_1")  # TODO modify id creation so it doesn't clash with proposals and sections
+						 "55_298_m1")  # TODO modify id creation so it doesn't clash with proposals and sections
 		self.assertEqual(False, plenary.motions[0].cancelled)
 		self.assertEqual(True, plenary.motions[11].cancelled)
 
@@ -235,7 +235,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
 		self.assertEqual(16, len(plenary.motions))
-		self.assertEqual(plenary.motions[0].id, "55_262_1")
+		self.assertEqual(plenary.motions[0].id, "55_262_m1")
 		self.assertEqual(plenary.motions[0].proposal_id, "55_262_08")
 
 	def test_extract_from_html_plenary_report__ip263x_html(self):
