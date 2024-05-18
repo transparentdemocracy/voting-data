@@ -310,7 +310,18 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 		# TODO: detect cancellation (there should be a failing test)
 		motion_id = f"{motion_group_id}_m{index}"
 		cancelled = any("wordt geannuleerd" in normalize_whitespace(tag.text).lower() for tag in motion_tag_group)
-		motions.append(Motion(motion_id, str(index), "TODO", "TODO", None, cancelled, "TODO", proposal_id))
+
+		title_fr = normalize_whitespace(motion_tag_group[0].text)
+		title_nl = normalize_whitespace(motion_tag_group[1].text)
+
+		label_nl, title_nl, doc_ref_fr = __split_number_title_doc_ref(title_nl)
+		label_fr, title_fr, doc_ref_nl = __split_number_title_doc_ref(title_fr)
+
+		if doc_ref_fr != doc_ref_nl:
+			ctx.add_problem("MOTION_DOC_REF_DIFFERENCE_NL_FR", motion_id)
+
+		description = normalize_whitespace("\n".join([t.text for t in motion_tag_group[2:]]))
+		motions.append(Motion(motion_id, str(index), title_nl, title_fr, doc_ref_nl, cancelled, description, proposal_id))
 
 	_, nl_title, doc_ref_nl = __split_number_title_doc_ref(normalize_whitespace(item.nl_title))
 	_, fr_title, doc_ref_fr = __split_number_title_doc_ref(normalize_whitespace(item.fr_title))

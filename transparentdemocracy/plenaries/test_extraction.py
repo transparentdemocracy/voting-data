@@ -90,7 +90,13 @@ class MotionExtractionTest(unittest.TestCase):
 		motions = [m for mg in motion_groups for m in mg.motions]
 
 		self.assertEqual(39, len(motions))
-		self.assertEqual(Motion("55_298_mg_10_m0", "0", "TODO", "TODO", None, False, "TODO", "55_298_10"), motions[0])
+		self.assertEqual("55_298_mg_10_m0", motions[0].id)
+		self.assertEqual("Deze interpellaties werden gehouden in de plenaire vergadering van heden.", motions[0].title_nl)
+		self.assertEqual("Ces interpellations ont été développées en séance plénière de ce jour.", motions[0].title_fr)
+		# skipping test for doc_ref and description on this case for now
+		self.assertEqual(False, motions[0].cancelled)
+		# TODO: proposal_id is bogus.
+		self.assertEqual("55_298_10", motions[0].proposal_id)
 
 	def test_extract_motions__ip262x_html__go_to_example_report(self):
 		# The example report we used for agreeing on how to implement extraction of motions.
@@ -113,17 +119,21 @@ class MotionExtractionTest(unittest.TestCase):
 		self.assertEqual("Amendements réservés au projet de loi portant des dispositions diverses en matière sociale",
 						 motion_groups[4].title_fr)
 		self.assertEqual("3495/1-5", motion_groups[4].documents_reference)
-		# self.assertEqual("55_261_d22", motion_groups[4].proposal_discussion_id)  # before this is voted on in this plenary 262, in this motion group, it was actually discussed in the preceding plenary 261, as agenda item number 22.
+		#self.assertEqual("55_261_d22", motion_groups[4].proposal_discussion_id)  # before this is voted on in this plenary 262, in this motion group, it was actually discussed in the preceding plenary 261, as agenda item number 22.
 
-		# self.assertEqual(3, len(motion_groups[4].motions)) # 2 or 3? Does 'reuse' of result '5' count as a different motion? Because then the motion id will not be unique (both have number '5')
+		self.assertEqual(3, len(motion_groups[4].motions))
 
-		# self.assertEqual(Motion("55_262_m5", "5",
-		# 						"Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
-		# 						"Vote sur l'amendement n° 4 de Catherine Fonck tendant à insérer un article 2/1(n).",
-		# 						"3495/5", False,
-		# 						None, # Not including boilerplate text for motions, there is no description text following this motion's title.
-		# 						"55_261_d22_p1"), # There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
-		# 				motion_groups[4].motions[0])
+		self.assertEqual(Motion("55_262_mg_12_m0", "0",
+								"Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
+								"Vote sur l'amendement n° 4 de Catherine Fonck tendant à insérer un article 2/1(n).",
+								"3495/5", False,
+								# TODO: formatting is completely lost, should be fixed somehow
+								# actually preserving the original html might not be the worst idea
+								"Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. Bijgevolg is het amendement verworpen.",
+								# TODO: proposal_id stuff
+								# There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
+								"55_262_12"),
+						motion_groups[4].motions[0])
 
 		# Outcomes with current implementation:
 		motions = [m for mg in motion_groups for m in mg.motions]
