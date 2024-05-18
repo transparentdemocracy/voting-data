@@ -296,16 +296,13 @@ def determine_discussion_body_language(el: Tag) -> Optional[str]:
 def _report_items_to_motion_groups(ctx: PlenaryExtractionContext, plenary_id: str, report_items: List[ReportItem]) \
 		-> List[MotionGroup]:
 	# get motions for each report item and flatten
-	return [_report_item_to_motion_group(ctx, plenary_id, item) for item in report_items]
+	return [_report_item_to_motion_group(ctx, plenary_id, item, index) for index, item in enumerate(report_items)]
 
 
-def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str, item: ReportItem) -> MotionGroup:
+def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str, item: ReportItem, index: int) -> MotionGroup:
 	proposal_id = f"{plenary_id}_{item.label}"
-	motion_group_number = int(item.label, 10)
-	motion_group_id = f"{plenary_id}_mg_{item.label}"
-
-	stemming_re = re.compile("\\(Stemming/vote\\W+(\\d+)", RegexFlag.MULTILINE)
-	canceled_re = re.compile("\\(Stemming\\W\\D*(\\d+).*geannuleerd", RegexFlag.MULTILINE)
+	motion_group_number = int(item.label, 10) if item.label is not None else (- index)
+	motion_group_id = f"{plenary_id}_mg_{motion_group_number}"
 
 	motions = []
 	motion_tag_groups = split_motion_group_item(ctx, item)
@@ -338,11 +335,12 @@ STATE_VOTE_STARTED = "STARTED"
 STATE_VOTE_TABLE_FOUND = "VOTE_TABLE_FOUND"
 STATE_VOTE_REUSE_FOUND = "VOTE_REUSE_FOUND"
 
-TAG_CLASS_MISC = "EMPTY"
+TAG_CLASS_MISC = "MISC"
 TAG_CLASS_EMPTY = "EMPTY"
 TAG_CLASS_START_VOTE = "START_VOTE"
 TAG_CLASS_VOTE_TABLE = "VOTE_TABLE"
 TAG_CLASS_VOTE_REUSE = "VOTE_REUSE"
+TAG_CLASS_VOTE_CANCELLED = "VOTE_CANCELLED"
 
 
 def split_motion_group_item(ctx: PlenaryExtractionContext, item):
@@ -357,15 +355,17 @@ def split_motion_group_item(ctx: PlenaryExtractionContext, item):
 	count_since_table = None
 
 	for tag in item.body:
-		norm_text = normalize_whitespace(tag.text)
+		norm_text = normalize_whitespace(tag.text).lower()
 
 		if len(norm_text) == 0:
 			tag_class = TAG_CLASS_EMPTY
-		elif "Begin van de stemming" in norm_text:
+		elif "begin van de stemming" in norm_text:
 			tag_class = TAG_CLASS_START_VOTE
-		elif tag.name == "table" and norm_text.lower().startswith("(stemming/vote "):
+		elif "wordt geannuleerd" in norm_text:
+			tag_class = TAG_CLASS_VOTE_CANCELLED
+		elif tag.name == "table" and norm_text.startswith("(stemming/vote "):
 			tag_class = TAG_CLASS_VOTE_TABLE
-		elif norm_text.lower().startswith("(stemming/vote "):
+		elif norm_text.startswith("(stemming/vote ") or norm_text.startswith("(vote/stemming "):
 			tag_class = TAG_CLASS_VOTE_REUSE
 		else:
 			tag_class = TAG_CLASS_MISC
@@ -380,7 +380,9 @@ def split_motion_group_item(ctx: PlenaryExtractionContext, item):
 		elif state == STATE_VOTE_STARTED:
 			motion_tags.append(tag)
 			if tag_class == TAG_CLASS_START_VOTE:
-				raise Exception("Unexpected 'Begin van de stemming' at %s/%s", ctx.report_path, item.label)
+				raise Exception(f"Unexpected 'Begin van de stemming' at {ctx.report_path}/{item.label}")
+			if tag_class == TAG_CLASS_VOTE_CANCELLED:
+				state = STATE_INTRO
 			if tag_class == TAG_CLASS_VOTE_TABLE:
 				state = STATE_VOTE_TABLE_FOUND
 				count_since_table = 0
@@ -410,8 +412,24 @@ def split_motion_group_item(ctx: PlenaryExtractionContext, item):
 	if motion_tags:
 		result.append(motion_tags)
 
-	return result
+	# hacky way to make sure the last group of tags contains at least a vote (not cancelled / cancelled / reused)
+	def contains_vote(tag):
+		tag_text = normalize_whitespace(tag.text).lower()
+		if "wordt geannuleerd" in tag_text:
+			return True
+		elif tag.name == "table" and tag_text.startswith("(stemming/vote "):
+			return True
+		elif tag_text.startswith("(stemming/vote ") or tag_text.startswith("(vote/stemming "):
+			return True
 
+		return False
+
+	if len(result) > 1:
+		if not any(contains_vote(t) for t in result[-1]):
+			last_group = result.pop()
+			result[-1].extend(last_group)
+
+	return result
 
 def __find_siblings_between_elements(
 		start_element,

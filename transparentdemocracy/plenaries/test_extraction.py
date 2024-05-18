@@ -89,7 +89,7 @@ class MotionExtractionTest(unittest.TestCase):
 		report_items, motion_groups = _extract_motion_groups("55_298", ctx)
 		motions = [m for mg in motion_groups for m in mg.motions]
 
-		self.assertEqual(25, len(motions))
+		self.assertEqual(39, len(motions))
 		self.assertEqual(Motion("55_298_mg_10_m0", "0", "TODO", "TODO", None, False, "TODO", "55_298_10"), motions[0])
 
 	def test_extract_motions__ip262x_html__go_to_example_report(self):
@@ -127,38 +127,40 @@ class MotionExtractionTest(unittest.TestCase):
 
 		# Outcomes with current implementation:
 		motions = [m for mg in motion_groups for m in mg.motions]
-		self.assertEqual(17, len(motions))
-		self.assertEqual("55_262_mg_08_m0", motions[0].id)
+		self.assertEqual(19, len(motions))
+		self.assertEqual("55_262_mg_8_m0", motions[0].id)
 
-		self.assertEqual("55_262_mg_09_m0", motions[1].id)
+		self.assertEqual("55_262_mg_9_m0", motions[1].id)
 
 		self.assertEqual("55_262_mg_10_m0", motions[2].id)
 
-		self.assertEqual("55_262_mg_11_m0", motions[3].id)
+		self.assertEqual("55_262_mg_10_m1", motions[3].id)
+		self.assertEqual("55_262_mg_11_m0", motions[4].id)
 
-		self.assertEqual("55_262_mg_12_m0", motions[4].id)  ### TBD: does mg 12 have 2 or 3 motions?
-		self.assertEqual("55_262_mg_12_m1", motions[5].id)
+		self.assertEqual("55_262_mg_12_m0", motions[5].id)
+		self.assertEqual("55_262_mg_12_m1", motions[6].id)
+		self.assertEqual("55_262_mg_12_m2", motions[7].id)
 
-		self.assertEqual("55_262_mg_13_m0", motions[6].id)
+		self.assertEqual("55_262_mg_13_m0", motions[8].id)
 
-		self.assertEqual("55_262_mg_14_m0", motions[7].id)
-		self.assertEqual("55_262_mg_14_m1", motions[8].id)
+		self.assertEqual("55_262_mg_14_m0", motions[9].id)
+		self.assertEqual("55_262_mg_14_m1", motions[10].id)
 
-		self.assertEqual("55_262_mg_15_m0", motions[9].id)
+		self.assertEqual("55_262_mg_15_m0", motions[11].id)
 
-		self.assertEqual("55_262_mg_16_m0", motions[10].id)
+		self.assertEqual("55_262_mg_16_m0", motions[12].id)
 
-		self.assertEqual("55_262_mg_17_m0", motions[11].id)
+		self.assertEqual("55_262_mg_17_m0", motions[13].id)
 
-		self.assertEqual("55_262_mg_18_m0", motions[12].id)
+		self.assertEqual("55_262_mg_18_m0", motions[14].id)
 
-		self.assertEqual("55_262_mg_19_m0", motions[13].id)
+		self.assertEqual("55_262_mg_19_m0", motions[15].id)
 
-		self.assertEqual("55_262_mg_20_m0", motions[14].id)
+		self.assertEqual("55_262_mg_20_m0", motions[16].id)
 
-		self.assertEqual("55_262_mg_21_m0", motions[15].id)
+		self.assertEqual("55_262_mg_21_m0", motions[17].id)
 
-		self.assertEqual("55_262_mg_22_m0", motions[16].id)
+		self.assertEqual("55_262_mg_22_m0", motions[18].id)
 
 
 class VoteExtractionTest(unittest.TestCase):
@@ -191,14 +193,19 @@ class PlenaryExtractionTest(unittest.TestCase):
 	def setUpClass(cls):
 		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
+	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "This test isn't really slow but requires data")
 	def test_currently_failing(self):
-		plenary_nrs = ["162"] # , "161", "280", "052", "111", "153", "010"
+		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
+		plenary_nrs = "162,161,280,052,111,153,010".split(",")
 		patterns = [CONFIG.plenary_html_input_path(f"ip{plenary_nr}x.html") for plenary_nr in plenary_nrs]
 
 		plenaries, all_votes, problems = extract_from_html_plenary_reports(patterns)
 
 		exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
+		for p in exceptions:
+			print("FIXME:", p.report_path)
 		self.assertEqual(0, len(exceptions))
+
 		self.assertEqual(len(plenary_nrs), len(plenaries))
 
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
@@ -260,8 +267,8 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual("3849/1-4", plenary.proposal_discussions[0].proposals[0].documents_reference)
 
 		# The motions are extracted correctly:
-		self.assertEqual(25, len(plenary.motions))
-		self.assertEqual("55_298_mg_10_m0", plenary.motions[0].id, )
+		self.assertEqual(39, len(plenary.motions))
+		self.assertEqual("55_298_mg_10_m0", plenary.motions[0].id)
 		self.assertEqual(False, plenary.motions[0].cancelled)
 
 		#### TODO: interesting test case:
@@ -269,8 +276,8 @@ class PlenaryExtractionTest(unittest.TestCase):
 		### this is a motion that took a vote which was cancelled, immediately followed by another vote
 		### This means that motion <-> name vote it not a 1-1 relationship
 
-		self.assertEqual("55_298_mg_14_m6", plenary.motions[10].id)
-		self.assertEqual(True, plenary.motions[10].cancelled)
+		self.assertEqual("55_298_mg_14_m15", plenary.motions[19].id)
+		self.assertEqual(True, plenary.motions[19].cancelled)
 
 		# The votes are extracted correctly:
 		yes_voters = [vote.politician.full_name for vote in votes if
@@ -347,8 +354,8 @@ class PlenaryExtractionTest(unittest.TestCase):
 		plenary, votes, problems = extract_from_html_plenary_report(report_file_name)
 
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
-		self.assertEqual(17, len(plenary.motions))
-		self.assertEqual("55_262_mg_08_m0", plenary.motions[0].id)
+		self.assertEqual(19, len(plenary.motions))
+		self.assertEqual("55_262_mg_8_m0", plenary.motions[0].id)
 		self.assertEqual("55_262_08", plenary.motions[0].proposal_id)
 
 	def test_extract_from_html_plenary_report__ip261x_html__different_proposals_header(self):
