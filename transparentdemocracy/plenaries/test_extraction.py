@@ -160,6 +160,7 @@ class MotionExtractionTest(unittest.TestCase):
 
 		self.assertEqual("55_262_mg_22_m0", motions[16].id)
 
+
 class VoteExtractionTest(unittest.TestCase):
 	@classmethod
 	def setUpClass(cls):
@@ -190,13 +191,23 @@ class PlenaryExtractionTest(unittest.TestCase):
 	def setUpClass(cls):
 		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
+	def test_currently_failing(self):
+		plenary_nrs = ["162"] # , "161", "280", "052", "111", "153", "010"
+		patterns = [CONFIG.plenary_html_input_path(f"ip{plenary_nr}x.html") for plenary_nr in plenary_nrs]
+
+		plenaries, all_votes, problems = extract_from_html_plenary_reports(patterns)
+
+		exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
+		self.assertEqual(0, len(exceptions))
+		self.assertEqual(len(plenary_nrs), len(plenaries))
+
 	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):
 		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
 		plenaries, all_votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
-		for p in plenaries:
-			print(p.id)
+		exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
+		self.assertEqual(0, len(exceptions))
 		self.assertEqual(300, len(plenaries))
 
 		all_motions = [motion for plenary in plenaries for motion in plenary.motions]

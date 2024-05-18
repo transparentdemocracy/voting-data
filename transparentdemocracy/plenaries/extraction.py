@@ -9,7 +9,7 @@ import os
 import re
 from dataclasses import dataclass
 from re import RegexFlag
-from typing import Tuple, List, Optional
+from typing import Tuple, List, Optional, Union
 
 from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
 from nltk.tokenize import WhitespaceTokenizer
@@ -53,14 +53,22 @@ def create_plenary_extraction_context(report_path: str, politicians) -> PlenaryE
 
 
 def extract_from_html_plenary_reports(
-		report_file_pattern: str = CONFIG.plenary_html_input_path("*.html"),
+		report_file_pattern: Union[str, List[str]] = CONFIG.plenary_html_input_path("*.html"),
 		num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
 	politicians = load_politicians()
 	all_problems = []
 	plenaries = []
 	all_votes = []
 	logging.info(f"Report files must be found at: {report_file_pattern}.")
-	report_filenames = glob.glob(report_file_pattern)
+
+	if isinstance(report_file_pattern, str):
+		report_filenames = glob.glob(report_file_pattern)
+	else:
+		report_filenames = [path for pattern in report_file_pattern for path in glob.glob(pattern)]
+
+	# deduplication
+	report_filenames = list(dict.fromkeys(report_filenames))
+
 	if num_reports_to_process is not None:
 		report_filenames = report_filenames[:num_reports_to_process]
 	logging.debug(f"Will process the following input reports: {report_filenames}.")
@@ -178,8 +186,9 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 	if next_level1_headers:
 		proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings()
-		next_level1_index = proposal_discussion_elements.index(next_level1_headers[0])
-		proposal_discussion_elements = proposal_discussion_elements[:next_level1_index]
+		if next_level1_headers[0] in proposal_discussion_elements:
+			next_level1_index = proposal_discussion_elements.index(next_level1_headers[0])
+			proposal_discussion_elements = proposal_discussion_elements[:next_level1_index]
 	else:
 		proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings()
 
