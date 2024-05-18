@@ -17,7 +17,7 @@ from tqdm.auto import tqdm
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, ReportItem, \
-	BodyTextPart
+	BodyTextPart, MotionGroup
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
@@ -99,13 +99,12 @@ def _read_plenary_html(report_filename):
 	return BeautifulSoup(html_content, "html.parser")  # "lxml")
 
 
-def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[
-	Plenary, List[Vote]]:
+def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]]:
 	plenary_number = os.path.split(ctx.report_path)[1][2:5]  # example: ip078x.html -> 078
 	legislature = 55  # We currently only process plenary reports from legislature 55 with our download script.
 	plenary_id = f"{legislature}_{plenary_number}"  # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
 	proposals = __extract_proposal_discussions(ctx, plenary_id)
-	motion_report_items, motions = _extract_motions(plenary_id, ctx)
+	motion_report_items, motion_groups = _extract_motion_groups(plenary_id, ctx)
 	votes = _extract_votes(ctx, plenary_id)
 
 	return (
@@ -117,17 +116,19 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
 			proposals,
-			motions,
+			[m for motion_group in motion_groups for m in motion_group.motions],
+			motion_groups,
 			motion_report_items
 		),
 		votes
 	)
 
 
-def _extract_motions(plenary_id: str, ctx: PlenaryExtractionContext):
+def _extract_motion_groups(plenary_id: str, ctx: PlenaryExtractionContext) \
+		-> Tuple[List[ReportItem], List[MotionGroup]]:
 	motion_report_items = _extract_motion_report_items(ctx)
-	motions = _report_items_to_motions(plenary_id, motion_report_items)
-	return motion_report_items, motions
+	motion_groups = _report_items_to_motion_groups(ctx, plenary_id, motion_report_items)
+	return motion_report_items, motion_groups
 
 
 def is_article_discussion_item(item: ReportItem) -> bool:
@@ -193,7 +194,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
 		if not level2_item.label:
 			# ip182x: Wetsontwerpen en voorstellen has a paragraph before the first proposal start at [15]. We ignore this
-			ctx.add_problem("LEVEL2_ITEM_WITHOUT_LABEL", normalize_whitespace(" ".join([level2_item.nl_title, level2_item.fr_title])))
+			ctx.add_problem("LEVEL2_ITEM_WITHOUT_LABEL",
+							normalize_whitespace(" ".join([level2_item.nl_title, level2_item.fr_title])))
 			continue
 
 		if len(nl_proposal_titles) + len(fr_proposal_titles) == 0:
@@ -237,8 +239,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 		for nl, fr in zip(nl_proposal_titles, fr_proposal_titles):
 			nl_proposal_text = normalize_whitespace(nl.text)
 			fr_proposal_text = normalize_whitespace(fr.text)
-			nl_label, nl_text, nl_doc_ref = __split_proposal_header(nl_proposal_text)
-			fr_label, fr_text, fr_doc_ref = __split_proposal_header(fr_proposal_text)
+			nl_label, nl_text, nl_doc_ref = __split_number_title_doc_ref(nl_proposal_text)
+			fr_label, fr_text, fr_doc_ref = __split_number_title_doc_ref(fr_proposal_text)
 			# TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
 			proposals.append(Proposal(nl_doc_ref, nl_text.strip(), fr_text.strip()))
 
@@ -282,25 +284,28 @@ def determine_discussion_body_language(el: Tag) -> Optional[str]:
 	return None
 
 
-def _report_items_to_motions(plenary_id: str, report_items: List[ReportItem]):
+def _report_items_to_motion_groups(ctx: PlenaryExtractionContext, plenary_id: str, report_items: List[ReportItem]) \
+		-> List[MotionGroup]:
 	# get motions for each report item and flatten
-	return [m for item in report_items for m in _report_item_to_motions(plenary_id, item)]
+	return [_report_item_to_motion_group(ctx, plenary_id, item) for item in report_items]
 
 
-def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
+def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str, item: ReportItem) -> MotionGroup:
 	proposal_id = f"{plenary_id}_{item.label}"
+	motion_group_number = int(item.label, 10)
+	motion_group_id = f"{plenary_id}_mg_{item.label}"
 
 	stemming_re = re.compile("\\(Stemming/vote\\W+(\\d+)", RegexFlag.MULTILINE)
 	canceled_re = re.compile("\\(Stemming\\W\\D*(\\d+).*geannuleerd", RegexFlag.MULTILINE)
 
-	result = []
+	motions = []
 	for el in item.body:
 		match_canceled = canceled_re.match(el.text)
 		if match_canceled:
 			motion_number = str(int(match_canceled.group(1), 10))
 			motion_id = f"{plenary_id}_m{motion_number}"
-			result.append(Motion(motion_id, motion_number, "TODO", "TODO", "TODO", True, description="TODO",
-								proposal_id=proposal_id))
+			motions.append(Motion(motion_id, motion_number, "TODO", "TODO", "TODO", True, description="TODO",
+								  proposal_id=proposal_id))
 			continue
 
 		if el.name != "table":
@@ -311,10 +316,23 @@ def _report_item_to_motions(plenary_id: str, item: ReportItem) -> List[Motion]:
 			motion_number = str(int(match_voting.group(1), 10))
 			motion_id = f"{plenary_id}_m{motion_number}"
 			cancelled = "geannuleerd" in el.text.lower()
-			result.append(Motion(motion_id, motion_number, "TODO", "TODO", "TODO", cancelled, description="TODO",
-								proposal_id=proposal_id))
+			motions.append(Motion(motion_id, motion_number, "TODO", "TODO", "TODO", cancelled, description="TODO",
+								  proposal_id=proposal_id))
 
-	return result
+	_, nl_title, doc_ref_nl = __split_number_title_doc_ref(normalize_whitespace(item.nl_title))
+	_, fr_title, doc_ref_fr = __split_number_title_doc_ref(normalize_whitespace(item.fr_title))
+
+	if doc_ref_nl != doc_ref_fr:
+		ctx.add_problem("DOC_REF_NL_FR_DIFFERENT", motion_group_id)
+
+	return MotionGroup(
+		motion_group_id,
+		motion_group_number,
+		nl_title,
+		fr_title,
+		doc_ref_nl,
+		None, # TODO: link motion group to proposal discussions (does this need to be part of the model? We could have a domain service to look things up by document reference)
+		motions)
 
 
 def __find_siblings_between_elements(
@@ -368,7 +386,7 @@ def __get_next_sibling_tag_name(element):
 	return next_element, next_element_name
 
 
-def __split_proposal_header(proposal_title) -> Tuple[Optional[int], str, str]:
+def __split_number_title_doc_ref(proposal_title) -> Tuple[Optional[int], str, str]:
 	# Extract the proposal number and title:
 	title = proposal_title
 
@@ -384,7 +402,9 @@ def __split_proposal_header(proposal_title) -> Tuple[Optional[int], str, str]:
 	if doc_ref_match:
 		title = title[:doc_ref_match.start()]
 
-	return number, title, doc_ref
+	#TODO: detect multiple document references and report as problems
+
+	return number, normalize_whitespace(title), doc_ref
 
 
 def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]:
@@ -456,8 +476,7 @@ def _extract_report_items(report_path: str, elements: List[PageElement]) -> List
 	tag_groups = create_level2_tag_groups(elements)
 	report_items = find_report_items(report_path, tag_groups)
 
-	# TODO: should we filter items that are missing titles of is that not our concern?
-	return [item for item in report_items if item.nl_title.strip() != "" and item.fr_title.strip() != ""]
+	return [item for item in report_items if (item.nl_title.strip() != "" or item.fr_title.strip() != "")]
 
 
 def is_report_item_title(el):
@@ -563,8 +582,12 @@ def find_report_items(report_path, tag_groups, header_condition=is_level2_title)
 		body_text_parts = [create_body_text_part(el) for el in remaining_elements]
 
 		label_pattern = re.compile("^(\\d+)")
-		label_match = re.search(label_pattern, nl_title.strip())
-		label = None if not label_match else label_match.group(1)
+		label = None
+		for title in titles:
+			label_match = re.search(label_pattern, title.text.strip())
+			label = None if not label_match else label_match.group(1)
+			if label is not None:
+				break
 
 		result.append(ReportItem(label, nl_title, nl_title_tags, fr_title, fr_title_tags, body_text_parts,
 								 remaining_elements))

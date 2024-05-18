@@ -92,6 +92,7 @@ class Plenary:
 	html_report_url: str
 	proposal_discussions: List[ProposalDiscussion]
 	motions: List[Motion]
+	motion_groups: List[MotionGroup]
 	report_items: List[ReportItem]
 
 

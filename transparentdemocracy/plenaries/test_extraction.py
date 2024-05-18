@@ -2,14 +2,13 @@ import logging
 import os
 import unittest
 from datetime import date
-from typing import List
 
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
-from transparentdemocracy.model import ReportItem, Motion, Vote, MotionGroup
+from transparentdemocracy.model import ReportItem, Motion, Vote
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
 	extract_from_html_plenary_report, _get_plenary_date, _extract_motion_report_items, \
-	_extract_motions, _extract_votes, create_plenary_extraction_context
+	_extract_motion_groups, _extract_votes, create_plenary_extraction_context
 from transparentdemocracy.politicians.extraction import load_politicians
 
 logger = logging.getLogger(__name__)
@@ -87,7 +86,8 @@ class MotionExtractionTest(unittest.TestCase):
 		# The example report we used for implementing extraction of other sub-objects of a plenary object.
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
 		ctx = create_plenary_extraction_context(report_path, load_politicians())
-		motion_report_items, motions = _extract_motions("55_298", ctx)
+		report_items, motion_groups = _extract_motion_groups("55_298", ctx)
+		motions = [m for mg in motion_groups for m in mg.motions ]
 
 		self.assertEqual(28, len(motions))
 		self.assertEqual(Motion("55_298_m1", "1", "TODO", "TODO", "TODO", False, "TODO", "55_298_10"), motions[0])
@@ -96,39 +96,37 @@ class MotionExtractionTest(unittest.TestCase):
 		# The example report we used for agreeing on how to implement extraction of motions.
 		# Arrange
 		report_path = CONFIG.plenary_html_input_path("ip262x.html")
-		ctx = create_plenary_extraction_context(report_path, load_politicians())
 
 		# Act
-		motion_report_items, motions = _extract_motions("55_262", ctx)
-		motion_groups: List[MotionGroup] = []  # TODO the actual extraction. First creating the test with the expected behavior (TDD).
+		plenary, votes, problems = extract_from_html_plenary_report(report_path, load_politicians())
+		motion_groups = plenary.motion_groups
 
 		# Assert
-		"""
-		# TODO expected outcomes after updated implementation:
 		self.assertEqual(15, len(motion_groups))
 		self.assertEqual(8, motion_groups[0].plenary_agenda_item_number)
-		self.assertEqual(22, motion_groups[-1].plenary_agenda_item_number)
+		self.assertEqual(22, motion_groups[-1].plenary_agenda_item_number) # TODO: why isn't 22 a motion group?
 
 		self.assertEqual("55_262_mg_12", motion_groups[4].id)
 		self.assertEqual(12, motion_groups[4].plenary_agenda_item_number)
 		self.assertEqual("Aangehouden amendementen op het wetsontwerp houdende diverse bepalingen inzake sociale zaken",
 							motion_groups[4].title_nl)
-		self.assertEqual("12 Amendements réservés au projet de loi portant des dispositions diverses en matière sociale",
+		self.assertEqual("Amendements réservés au projet de loi portant des dispositions diverses en matière sociale",
 							motion_groups[4].title_fr)
 		self.assertEqual("3495/1-5", motion_groups[4].documents_reference)
-		self.assertEqual("55_261_d22", motion_groups[4].proposal_discussion_id)  # before this is voted on in this plenary 262, in this motion group, it was actually discussed in the preceding plenary 261, as agenda item number 22.
+		# self.assertEqual("55_261_d22", motion_groups[4].proposal_discussion_id)  # before this is voted on in this plenary 262, in this motion group, it was actually discussed in the preceding plenary 261, as agenda item number 22.
 
-		self.assertEqual(3, len(motion_groups[4].motions))
-		self.assertEqual(Motion("55_262_m5", "5",
-								"Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
-								"Vote sur l'amendement n° 4 de Catherine Fonck tendant à insérer un article 2/1(n).",
-								"3495/5", False,
-								None, # Not including boilerplate text for motions, there is no description text following this motion's title.
-								"55_261_d22_p1"), # There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
-						motion_groups[4].motions[0])
-		"""
+		# self.assertEqual(3, len(motion_groups[4].motions)) # 2 or 3? Does 'reuse' of result '5' count as a different motion? Because then the motion id will not be unique (both have number '5')
+
+		# self.assertEqual(Motion("55_262_m5", "5",
+		# 						"Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
+		# 						"Vote sur l'amendement n° 4 de Catherine Fonck tendant à insérer un article 2/1(n).",
+		# 						"3495/5", False,
+		# 						None, # Not including boilerplate text for motions, there is no description text following this motion's title.
+		# 						"55_261_d22_p1"), # There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
+		# 				motion_groups[4].motions[0])
 
 		# Outcomes with current implementation:
+		motions = [m for mg in motion_groups for m in mg.motions]
 		self.assertEqual(16, len(motions))
 		self.assertEqual(Motion("55_262_m1", "1", "TODO", "TODO", "TODO", False, "TODO", "55_262_08"), motions[0])
 
