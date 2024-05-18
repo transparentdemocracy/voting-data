@@ -23,13 +23,16 @@ download_overview() {
 download_actors() {
   for file in data/input/actors/pages/*.json; do
     for gaabId in $(cat "$file"|jq '.items[].gaabId'); do
-      echo "downloading $gaabId"
-      curl -fsS --header 'Accept: application/json' "https://data.dekamer.be/v0/actr/$gaabId" -o data/input/actors/actor/$gaabId.json
+      ACTOR_JSON="data/input/actors/actor/$gaabId.json"
+      if [ ! -e "$ACTOR_JSON" ]; then
+        echo "downloading $gaabId"
+        curl -fsS --header 'Accept: application/json' "https://data.dekamer.be/v0/actr/$gaabId" -o "$ACTOR_JSON"
+      fi
     done
   done
 }
 
 mkdir -p data/input/actors/pages
 mkdir -p data/input/actors/actor
-#download_overview
+download_overview
 download_actors
