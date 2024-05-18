@@ -25,7 +25,7 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
 		MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries([plenary], votes)
 
 		with open(os.path.join(tmp_markdown_output_dir, 'plenary 298.md')) as plenary_file:
-			self.assertEqual(plenary_file.read(), expected_markdown)
+			self.assertEqual(expected_markdown, plenary_file.read())
 
 
 class TestPlenaryJsonSerializer(unittest.TestCase):
@@ -39,5 +39,5 @@ class TestPlenaryJsonSerializer(unittest.TestCase):
 
 		with open(os.path.join(tmp_json_output_dir, "plenaries.json")) as fp:
 			actual_json = json.load(fp)
-		self.assertEqual(actual_json[0]['id'], "55_298")
-		self.assertEqual(actual_json[0]['date'], "2024-04-04")
+		self.assertEqual("55_298", actual_json[0]['id'])
+		self.assertEqual("2024-04-04", actual_json[0]['date'])

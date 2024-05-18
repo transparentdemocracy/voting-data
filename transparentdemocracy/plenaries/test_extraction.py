@@ -42,7 +42,7 @@ class ReportItemExtractionTest(unittest.TestCase):
 	def test_extract_ip280_has_1_naamstemming_but_no_identifiable_motion_title(self):
 		report_items = self.extract_motion_report_items('ip280x.html')
 
-		self.assertEqual(len(report_items), 0)
+		self.assertEqual(0, len(report_items))
 
 	def test_extract_ip271(self):
 		report_items = self.extract_motion_report_items('ip271x.html')
@@ -63,10 +63,11 @@ class ReportItemExtractionTest(unittest.TestCase):
 	def test_extract_ip290_has_no_naamstemmingen(self):
 		report_items = self.extract_motion_report_items('ip290x.html')
 
-		self.assertEqual(report_items, [])
+		self.assertEqual([], report_items)
 
-	def assert_report_item(self, report_item: ReportItem, label: str, expected_nl_title_prefix: str, expected_fr_title_prefix: str):
-		self.assertEqual(label, report_item.label)
+	def assert_report_item(self, report_item: ReportItem,
+						   expected_label: str, expected_nl_title_prefix: str, expected_fr_title_prefix: str):
+		self.assertEqual(expected_label, report_item.label)
 		self.assertEqual(expected_nl_title_prefix, report_item.nl_title[:len(expected_nl_title_prefix)])
 		self.assertEqual(expected_fr_title_prefix, report_item.fr_title[:len(expected_fr_title_prefix)])
 
@@ -86,7 +87,7 @@ class MotionExtractionTest(unittest.TestCase):
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
 		ctx = create_plenary_extraction_context(report_path, load_politicians())
 		report_items, motion_groups = _extract_motion_groups("55_298", ctx)
-		motions = [m for mg in motion_groups for m in mg.motions ]
+		motions = [m for mg in motion_groups for m in mg.motions]
 
 		self.assertEqual(28, len(motions))
 		self.assertEqual(Motion("55_298_m1", "1", "TODO", "TODO", "TODO", False, "TODO", "55_298_10"), motions[0])
@@ -103,14 +104,14 @@ class MotionExtractionTest(unittest.TestCase):
 		# Assert
 		self.assertEqual(15, len(motion_groups))
 		self.assertEqual(8, motion_groups[0].plenary_agenda_item_number)
-		self.assertEqual(22, motion_groups[-1].plenary_agenda_item_number) # TODO: why isn't 22 a motion group?
+		self.assertEqual(22, motion_groups[-1].plenary_agenda_item_number)  # TODO: why isn't 22 a motion group?
 
 		self.assertEqual("55_262_mg_12", motion_groups[4].id)
 		self.assertEqual(12, motion_groups[4].plenary_agenda_item_number)
 		self.assertEqual("Aangehouden amendementen op het wetsontwerp houdende diverse bepalingen inzake sociale zaken",
-							motion_groups[4].title_nl)
+						 motion_groups[4].title_nl)
 		self.assertEqual("Amendements réservés au projet de loi portant des dispositions diverses en matière sociale",
-							motion_groups[4].title_fr)
+						 motion_groups[4].title_fr)
 		self.assertEqual("3495/1-5", motion_groups[4].documents_reference)
 		# self.assertEqual("55_261_d22", motion_groups[4].proposal_discussion_id)  # before this is voted on in this plenary 262, in this motion group, it was actually discussed in the preceding plenary 261, as agenda item number 22.
 
@@ -165,15 +166,15 @@ class PlenaryExtractionTest(unittest.TestCase):
 		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
 		plenaries, all_votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
-		self.assertEqual(len(plenaries), 300)
+		self.assertEqual(300, len(plenaries))
 
 		all_motions = [motion for plenary in plenaries for motion in plenary.motions]
-		self.assertEqual(len(all_motions), 2842)
+		self.assertEqual(2842, len(all_motions))
 
 		motions_with_problems = list(filter(lambda m: len(m.parse_problems) > 0, all_motions))
 
 		# TODO: Improve how we handle parsing problems
-		self.assertEqual(len(motions_with_problems), 17)
+		self.assertEqual(17, len(motions_with_problems))
 
 	def test_extract_from_html_plenary_report__ip298x_html__go_to_example_report(self):
 		# Plenary report 298 has long been our first go-to example plenary report to test our extraction against.
@@ -185,18 +186,18 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# Assert
 		# The plenary info is extracted correctly:
-		self.assertEqual(plenary.id, "55_298")
-		self.assertEqual(plenary.number, 298)
-		self.assertEqual(plenary.date, date(2024, 4, 4))
-		self.assertEqual(plenary.legislature, 55)
-		self.assertEqual(plenary.pdf_report_url, "https://www.dekamer.be/doc/PCRI/pdf/55/ip298.pdf")
-		self.assertEqual(plenary.html_report_url, "https://www.dekamer.be/doc/PCRI/html/55/ip298x.html")
+		self.assertEqual("55_298", plenary.id)
+		self.assertEqual(298, plenary.number)
+		self.assertEqual(date(2024, 4, 4), plenary.date)
+		self.assertEqual(55, plenary.legislature)
+		self.assertEqual("https://www.dekamer.be/doc/PCRI/pdf/55/ip298.pdf", plenary.pdf_report_url)
+		self.assertEqual("https://www.dekamer.be/doc/PCRI/html/55/ip298x.html", plenary.html_report_url)
 
 		# The proposals are extracted correctly:
 		self.assertEqual(6, len(plenary.proposal_discussions))
 		self.assertEqual("55_298_d01", plenary.proposal_discussions[0].id)
-		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_298")
-		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 1)
+		self.assertEqual("55_298", plenary.proposal_discussions[0].plenary_id)
+		self.assertEqual(1, plenary.proposal_discussions[0].plenary_agenda_item_number)
 
 		self.assertStartsWith("Wij vatten de bespreking van de artikelen aan.",
 							  plenary.proposal_discussions[0].description_nl)
@@ -214,12 +215,11 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(
 			"Projet de loi optimisant le fonctionnement de l'Organe central pour la Saisie et la Confiscation et de l'Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la loi sur les armes",
 			plenary.proposal_discussions[0].proposals[0].title_fr)
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].documents_reference, "3849/1-4")
+		self.assertEqual("3849/1-4", plenary.proposal_discussions[0].proposals[0].documents_reference)
 
 		# The motions are extracted correctly:
 		self.assertEqual(28, len(plenary.motions))
-		self.assertEqual(plenary.motions[0].id,
-						 "55_298_m1")  # TODO modify id creation so it doesn't clash with proposals and sections
+		self.assertEqual("55_298_m1", plenary.motions[0].id, )
 		self.assertEqual(False, plenary.motions[0].cancelled)
 		self.assertEqual(True, plenary.motions[11].cancelled)
 
@@ -287,8 +287,8 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
 		self.assertEqual(16, len(plenary.motions))
-		self.assertEqual(plenary.motions[0].id, "55_262_m1")
-		self.assertEqual(plenary.motions[0].proposal_id, "55_262_08")
+		self.assertEqual("55_262_m1", plenary.motions[0].id)
+		self.assertEqual("55_262_08", plenary.motions[0].proposal_id)
 
 	def test_extract_from_html_plenary_report__ip261x_html__different_proposals_header(self):
 		# This example proposal has "Projets de loi et propositions" as proposals header, rather than "Projets de loi".
@@ -307,15 +307,15 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(plenary.number, 261)
 		self.assertEqual(plenary.date, date(2023, 10, 5))
 		self.assertEqual(plenary.legislature, 55)
-		self.assertEqual(plenary.pdf_report_url, "https://www.dekamer.be/doc/PCRI/pdf/55/ip261.pdf")
-		self.assertEqual(plenary.html_report_url, "https://www.dekamer.be/doc/PCRI/html/55/ip261x.html")
+		self.assertEqual("https://www.dekamer.be/doc/PCRI/pdf/55/ip261.pdf", plenary.pdf_report_url)
+		self.assertEqual("https://www.dekamer.be/doc/PCRI/html/55/ip261x.html", plenary.html_report_url)
 
 		# The proposals are extracted correctly:
 		self.assertEqual(len(plenary.proposal_discussions), 4)
 
-		self.assertEqual(plenary.proposal_discussions[0].id, "55_261_d20")
-		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_261")
-		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 20)
+		self.assertEqual("55_261_d20", plenary.proposal_discussions[0].id)
+		self.assertEqual("55_261", plenary.proposal_discussions[0].plenary_id)
+		self.assertEqual(20, plenary.proposal_discussions[0].plenary_agenda_item_number)
 
 		self.assertStartsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
 							  plenary.proposal_discussions[0].description_nl)
@@ -329,8 +329,8 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_nl,
 						 "Verzoek om advies van de Raad van State")
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].title_fr, "Demande d'avis du Conseil d'État")
-		self.assertEqual(plenary.proposal_discussions[0].proposals[0].documents_reference, None)
+		self.assertEqual("Demande d'avis du Conseil d'État", plenary.proposal_discussions[0].proposals[0].title_fr)
+		self.assertIsNone(plenary.proposal_discussions[0].proposals[0].documents_reference)
 
 	def test_extract_from_html_plenary_report__ip226x_html(self):
 		# This report has no proposal discussion section.
@@ -353,20 +353,20 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# Assert
 		# The plenary info is extracted correctly:
-		self.assertEqual(plenary.id, "55_224")
-		self.assertEqual(plenary.number, 224)
-		self.assertEqual(plenary.date, date(2022, 12, 21))
-		self.assertEqual(plenary.legislature, 55)
-		self.assertEqual(plenary.pdf_report_url, "https://www.dekamer.be/doc/PCRI/pdf/55/ip224.pdf")
+		self.assertEqual("55_224", plenary.id)
+		self.assertEqual(224, plenary.number)
+		self.assertEqual(date(2022, 12, 21), plenary.date)
+		self.assertEqual(55, plenary.legislature)
+		self.assertEqual("https://www.dekamer.be/doc/PCRI/pdf/55/ip224.pdf", plenary.pdf_report_url)
 		self.assertEqual(plenary.html_report_url, "https://www.dekamer.be/doc/PCRI/html/55/ip224x.html")
 
 		# Regardless of the different section title announcing them, the proposal discussions are found:
 		self.assertEqual(len(plenary.proposal_discussions), 4)
 
 		# -> First proposal discussion:
-		self.assertEqual(plenary.proposal_discussions[0].id, "55_224_d01")
-		self.assertEqual(plenary.proposal_discussions[0].plenary_id, "55_224")
-		self.assertEqual(plenary.proposal_discussions[0].plenary_agenda_item_number, 1)
+		self.assertEqual("55_224_d01", plenary.proposal_discussions[0].id)
+		self.assertEqual("55_224", plenary.proposal_discussions[0].plenary_id)
+		self.assertEqual(1, plenary.proposal_discussions[0].plenary_agenda_item_number)
 
 		self.assertStartsWith(
 			"Wij vatten de bespreking van de artikelen aan van het wetsontwerp houdende de Middelenbegroting voor het begrotingsjaar 2023.",
@@ -395,9 +395,9 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual("2934/1-30", plenary.proposal_discussions[0].proposals[4].documents_reference)
 
 		# -> Last proposal discussion (no proposal discussion header, so description = all text below the proposal title):
-		self.assertEqual(plenary.proposal_discussions[3].id, "55_224_d04")
-		self.assertEqual(plenary.proposal_discussions[3].plenary_id, "55_224")
-		self.assertEqual(plenary.proposal_discussions[3].plenary_agenda_item_number, 4)
+		self.assertEqual("55_224_d04", plenary.proposal_discussions[3].id)
+		self.assertEqual("55_224", plenary.proposal_discussions[3].plenary_id)
+		self.assertEqual(4, plenary.proposal_discussions[3].plenary_agenda_item_number)
 
 		self.assertStartsWith("Discussion", plenary.proposal_discussions[3].description_nl)
 		self.assertTrue(plenary.proposal_discussions[3].description_nl.endswith(
@@ -460,12 +460,12 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# Assert
 		# The plenary info is extracted correctly:
-		self.assertEqual(plenary.id, "55_200")
-		self.assertEqual(plenary.number, 200)
-		self.assertEqual(plenary.date, date(2022, 7, 20))
-		self.assertEqual(plenary.legislature, 55)
-		self.assertEqual(plenary.pdf_report_url, "https://www.dekamer.be/doc/PCRI/pdf/55/ip200.pdf")
-		self.assertEqual(plenary.html_report_url, "https://www.dekamer.be/doc/PCRI/html/55/ip200x.html")
+		self.assertEqual("55_200", plenary.id)
+		self.assertEqual(200, plenary.number)
+		self.assertEqual(date(2022, 7, 20), plenary.date)
+		self.assertEqual(55, plenary.legislature)
+		self.assertEqual("https://www.dekamer.be/doc/PCRI/pdf/55/ip200.pdf", plenary.pdf_report_url)
+		self.assertEqual("https://www.dekamer.be/doc/PCRI/html/55/ip200x.html", plenary.html_report_url)
 
 		# The proposals are extracted correctly:
 		self.assertEqual(2, len(plenary.proposal_discussions))
@@ -661,12 +661,12 @@ class PlenaryExtractionTest(unittest.TestCase):
 	def test_plenary_date1(self):
 		plenary_date = self.get_plenary_date("ip123x.html")
 
-		self.assertEqual(plenary_date, date.fromisoformat("2021-07-19"))
+		self.assertEqual(date.fromisoformat("2021-07-19"), plenary_date)
 
 	def test_plenary_date2(self):
 		plenary_date = self.get_plenary_date("ip007x.html")
 
-		self.assertEqual(plenary_date, date.fromisoformat("2019-10-03"))
+		self.assertEqual(date.fromisoformat("2019-10-03"), plenary_date)
 
 	def get_plenary_date(self, filename):
 		path = CONFIG.plenary_html_input_path(filename)
