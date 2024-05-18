@@ -33,7 +33,7 @@ MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktob
 class ParseProblem:
 	report_path: str
 	problem_type: str
-	location: str
+	location: Optional[str]
 
 
 class PlenaryExtractionContext:
@@ -137,7 +137,7 @@ def is_article_discussion_item(item: ReportItem) -> bool:
 
 
 def normalize_whitespace(text) -> str:
-	return re.sub(WHITESPACE, " ", text).strip()
+	return re.sub(WHITESPACE, " ", text.strip()).strip()
 
 
 def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: str) -> List[
@@ -299,25 +299,12 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 	canceled_re = re.compile("\\(Stemming\\W\\D*(\\d+).*geannuleerd", RegexFlag.MULTILINE)
 
 	motions = []
-	for el in item.body:
-		match_canceled = canceled_re.match(el.text)
-		if match_canceled:
-			motion_number = str(int(match_canceled.group(1), 10))
-			motion_id = f"{plenary_id}_m{motion_number}"
-			motions.append(Motion(motion_id, motion_number, "TODO", "TODO", "TODO", True, description="TODO",
-								  proposal_id=proposal_id))
-			continue
-
-		if el.name != "table":
-			continue
-
-		match_voting = stemming_re.search(el.text)
-		if match_voting:
-			motion_number = str(int(match_voting.group(1), 10))
-			motion_id = f"{plenary_id}_m{motion_number}"
-			cancelled = "geannuleerd" in el.text.lower()
-			motions.append(Motion(motion_id, motion_number, "TODO", "TODO", "TODO", cancelled, description="TODO",
-								  proposal_id=proposal_id))
+	motion_tag_groups = split_motion_group_item(ctx, item)
+	for index, motion_tag_group in enumerate(motion_tag_groups):
+		# TODO: detect cancellation (there should be a failing test)
+		motion_id = f"{motion_group_id}_m{index}"
+		cancelled = any("wordt geannuleerd" in normalize_whitespace(tag.text).lower() for tag in motion_tag_group)
+		motions.append(Motion(motion_id, str(index), "TODO", "TODO", None, cancelled, "TODO", proposal_id))
 
 	_, nl_title, doc_ref_nl = __split_number_title_doc_ref(normalize_whitespace(item.nl_title))
 	_, fr_title, doc_ref_fr = __split_number_title_doc_ref(normalize_whitespace(item.fr_title))
@@ -331,8 +318,90 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 		nl_title,
 		fr_title,
 		doc_ref_nl,
-		None, # TODO: link motion group to proposal discussions (does this need to be part of the model? We could have a domain service to look things up by document reference)
+		None,
+		# TODO: link motion group to proposal discussions (does this need to be part of the model? We could have a domain service to look things up by document reference)
 		motions)
+
+
+# TODO: move this state machine used to parse motions to a separate module
+STATE_INTRO = "INTRO"
+STATE_VOTE_STARTED = "STARTED"
+STATE_VOTE_TABLE_FOUND = "VOTE_TABLE_FOUND"
+STATE_VOTE_REUSE_FOUND = "VOTE_REUSE_FOUND"
+
+TAG_CLASS_MISC = "EMPTY"
+TAG_CLASS_EMPTY = "EMPTY"
+TAG_CLASS_START_VOTE = "START_VOTE"
+TAG_CLASS_VOTE_TABLE = "VOTE_TABLE"
+TAG_CLASS_VOTE_REUSE = "VOTE_REUSE"
+
+
+def split_motion_group_item(ctx: PlenaryExtractionContext, item):
+	result = []
+
+	motion_tags = []
+
+	state = STATE_INTRO
+
+	# Initialising with 'None' will make us fail fast when the state machine has bugs
+	count_since_reuse = None
+	count_since_table = None
+
+	for tag in item.body:
+		norm_text = normalize_whitespace(tag.text)
+
+		if len(norm_text) == 0:
+			tag_class = TAG_CLASS_EMPTY
+		elif "Begin van de stemming" in norm_text:
+			tag_class = TAG_CLASS_START_VOTE
+		elif tag.name == "table" and norm_text.lower().startswith("(stemming/vote "):
+			tag_class = TAG_CLASS_VOTE_TABLE
+		elif norm_text.lower().startswith("(stemming/vote "):
+			tag_class = TAG_CLASS_VOTE_REUSE
+		else:
+			tag_class = TAG_CLASS_MISC
+
+		motion_tags.append(tag)
+		if state == STATE_INTRO:
+			if tag_class == TAG_CLASS_START_VOTE:
+				state = STATE_VOTE_STARTED
+			elif tag_class == TAG_CLASS_VOTE_REUSE:
+				state = STATE_VOTE_REUSE_FOUND
+				count_since_reuse = 0
+		elif state == STATE_VOTE_STARTED:
+			motion_tags.append(tag)
+			if tag_class == TAG_CLASS_START_VOTE:
+				raise Exception("Unexpected 'Begin van de stemming' at %s/%s", ctx.report_path, item.label)
+			if tag_class == TAG_CLASS_VOTE_TABLE:
+				state = STATE_VOTE_TABLE_FOUND
+				count_since_table = 0
+		elif state == STATE_VOTE_TABLE_FOUND:
+			if tag_class != TAG_CLASS_EMPTY:
+				# TODO: check if the tags match specific patterns, otherwise report as problem
+				count_since_table += 1
+			if count_since_table == 2:
+				# start new group
+				result.append(motion_tags)
+				motion_tags = []
+				state = STATE_INTRO
+				count_since_reuse = None
+				count_since_table = None
+		elif state == STATE_VOTE_REUSE_FOUND:
+			if tag_class != TAG_CLASS_EMPTY:
+				# TODO: check if the tags match specific patterns, otherwise report as problem
+				count_since_reuse += 1
+			if count_since_reuse == 2:
+				# start new group
+				result.append(motion_tags)
+				motion_tags = []
+				state = STATE_INTRO
+				count_since_reuse = None
+				count_since_table = None
+
+	if motion_tags:
+		result.append(motion_tags)
+
+	return result
 
 
 def __find_siblings_between_elements(
@@ -402,7 +471,7 @@ def __split_number_title_doc_ref(proposal_title) -> Tuple[Optional[int], str, st
 	if doc_ref_match:
 		title = title[:doc_ref_match.start()]
 
-	#TODO: detect multiple document references and report as problems
+	# TODO: detect multiple document references and report as problems
 
 	return number, normalize_whitespace(title), doc_ref
 
