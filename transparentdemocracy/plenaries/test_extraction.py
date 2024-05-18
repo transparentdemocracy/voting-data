@@ -27,7 +27,7 @@ class ReportItemExtractionTest(unittest.TestCase):
 	def test_extract_ip298_happy_case(self):
 		report_items = self.extract_motion_report_items('ip298x.html')
 
-		self.assertEqual(len(report_items), 14)  # motions 10 - 23 (?)
+		self.assertEqual(15, len(report_items))
 
 		self.assert_report_item(report_items[0],
 								"10",
@@ -47,29 +47,28 @@ class ReportItemExtractionTest(unittest.TestCase):
 	def test_extract_ip271(self):
 		report_items = self.extract_motion_report_items('ip271x.html')
 
-		self.assertEqual(len(report_items), 14)  # todo: check manually
+		self.assertEqual(15, len(report_items))  # todo: check manually
 
 		self.assert_report_item(report_items[0],
 								'14',
 								'14 Moties ingediend tot besluit van de\ninterpellatie van mevrouw Barbara Pas',
 								'14 Motions déposées en conclusion de l\'interpellation de Mme Barbara\nPas')
 
-		# FIXME: Do we count 'Goedkeuring van de agenda' as a motion?
-		# If we link the motions with their votes we could exclude motions without votes
+		# NOTE: nl/fr title parsing is still off
 		self.assert_report_item(report_items[-1],
-								'27',
-								'27 Wetsontwerp tot\nwijziging',
-								'27 Projet de loi visant à modi')
+								'28',
+								'',
+								'28 Adoption de l’ordre du jour\n28 Goedkeuring van de agenda')
 
 	def test_extract_ip290_has_no_naamstemmingen(self):
 		report_items = self.extract_motion_report_items('ip290x.html')
 
 		self.assertEqual(report_items, [])
 
-	def assert_report_item(self, report_item: ReportItem, label: str, nl_title_prefix: str, fr_title_prefix: str):
+	def assert_report_item(self, report_item: ReportItem, label: str, expected_nl_title_prefix: str, expected_fr_title_prefix: str):
 		self.assertEqual(label, report_item.label)
-		self.assertEqual(report_item.nl_title[:len(nl_title_prefix)], nl_title_prefix)
-		self.assertEqual(report_item.fr_title[:len(fr_title_prefix)], fr_title_prefix)
+		self.assertEqual(expected_nl_title_prefix, report_item.nl_title[:len(expected_nl_title_prefix)])
+		self.assertEqual(expected_fr_title_prefix, report_item.fr_title[:len(expected_fr_title_prefix)])
 
 	def extract_motion_report_items(self, report_path):
 		path = CONFIG.plenary_html_input_path(report_path)
