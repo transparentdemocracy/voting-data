@@ -25,8 +25,10 @@ class DocumentsReference:
 	main_document_reference: int  # example: 1
 	sub_document_references: List[int]  # example: 1 until 5 inclusive.
 
+
 @dataclass
 class Proposal:
+	id: str
 	documents_reference: Optional[str]  # official reference in the parliament, as mentioned in plenary reports.
 	title_nl: str
 	title_fr: str
@@ -48,7 +50,7 @@ class Motion:
 	sequence_number: str  # Example: 5, corresponding with "(Stemming/vote 5)" in the plenary report.
 	title_nl: str
 	title_fr: str
-	documents_reference: str  # example: 3495/1-5
+	documents_reference: str  # example: 3495/1-4
 	voting_id: Optional[str]
 	cancelled: bool
 	description: str
@@ -61,9 +63,9 @@ class MotionGroup:
 	plenary_agenda_item_number: int  # the agenda item number in the plenary meeting where the motion group was situated.
 	title_nl: str
 	title_fr: str
-	documents_reference: str  # example: 3495/5
-	proposal_discussion_id: str
+	documents_reference: str  # example: 3495/1-5
 	motions: List[Motion]
+	proposal_discussion_id: Optional[str]
 
 
 @dataclass
@@ -92,9 +94,15 @@ class Plenary:
 	pdf_report_url: str
 	html_report_url: str
 	proposal_discussions: List[ProposalDiscussion]
-	motions: List[Motion]
 	motion_groups: List[MotionGroup]
 	report_items: List[ReportItem]
+
+	def get_motions(self) -> List[Motion]:
+		return [
+			motion
+			for motion_group in self.motion_groups
+			for motion in motion_group.motions
+		]
 
 
 # Classes related to the detail of votes cast in plenaries:

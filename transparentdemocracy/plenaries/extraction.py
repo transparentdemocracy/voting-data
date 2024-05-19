@@ -123,7 +123,6 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
 			proposals,
-			[m for motion_group in motion_groups for m in motion_group.motions],
 			motion_groups,
 			motion_report_items
 		),
@@ -244,13 +243,14 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 			ctx.add_problem("NL_FR_PROPOSAL_COUNT_MISMATCH", proposal_discussion_id)
 			continue
 
-		for nl, fr in zip(nl_proposal_titles, fr_proposal_titles):
+		for idx, (nl, fr) in enumerate(zip(nl_proposal_titles, fr_proposal_titles)):
 			nl_proposal_text = normalize_whitespace(nl.text)
 			fr_proposal_text = normalize_whitespace(fr.text)
 			nl_label, nl_text, nl_doc_ref = __split_number_title_doc_ref(nl_proposal_text)
 			fr_label, fr_text, fr_doc_ref = __split_number_title_doc_ref(fr_proposal_text)
 			# TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
-			proposals.append(Proposal(nl_doc_ref, nl_text.strip(), fr_text.strip()))
+			proposal_id = f"55_{plenary_id}_p{idx}"
+			proposals.append(Proposal(proposal_id, nl_doc_ref, nl_text.strip(), fr_text.strip()))
 
 		if "verzoek om advies van de raad van state" in nl_proposal_text.lower():
 			description_nl = normalize_whitespace(
@@ -345,9 +345,8 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 		nl_title,
 		fr_title,
 		doc_ref_nl,
-		None,
-		# TODO: link motion group to proposal discussions (does this need to be part of the model? We could have a domain service to look things up by document reference)
-		motions)
+		motions,
+		None) # The link with a proposal will be filled in later, by the motion_proposal_linker.py.
 
 
 def find_voting_numbers(motion_tags):

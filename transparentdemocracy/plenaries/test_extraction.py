@@ -91,11 +91,11 @@ class MotionExtractionTest(unittest.TestCase):
 
 		self.assertEqual(39, len(motions))
 		self.assertEqual("55_298_mg_10_m0", motions[0].id)
-		self.assertEqual("Deze interpellaties werden gehouden in de plenaire vergadering van heden.", motions[0].title_nl)
+		self.assertEqual("Deze interpellaties werden gehouden in de plenaire vergadering van heden.", 
+                         motions[0].title_nl)
 		self.assertEqual("Ces interpellations ont été développées en séance plénière de ce jour.", motions[0].title_fr)
 		# skipping test for doc_ref and description on this case for now
 		self.assertEqual(False, motions[0].cancelled)
-		# TODO: proposal_id is bogus.
 		self.assertEqual("55_298_10", motions[0].proposal_id)
 
 	def test_extract_motions__ip262x_html__go_to_example_report(self):
@@ -119,16 +119,13 @@ class MotionExtractionTest(unittest.TestCase):
 		self.assertEqual("Amendements réservés au projet de loi portant des dispositions diverses en matière sociale",
 						 motion_groups[4].title_fr)
 		self.assertEqual("3495/1-5", motion_groups[4].documents_reference)
-		#self.assertEqual("55_261_d22", motion_groups[4].proposal_discussion_id)  # before this is voted on in this plenary 262, in this motion group, it was actually discussed in the preceding plenary 261, as agenda item number 22.
 
 		self.assertEqual(3, len(motion_groups[4].motions))
 
 		self.assertEqual(Motion("55_262_mg_12_m0", "0",
 								"Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
 								"Vote sur l'amendement n° 4 de Catherine Fonck tendant à insérer un article 2/1(n).",
-								"3495/5",
-								"55_262_v5",
-								False,
+								"3495/5", False,
 								# TODO: formatting is completely lost, should be fixed somehow
 								# actually preserving the original html might not be the worst idea
 								"Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. Bijgevolg is het amendement verworpen.",
@@ -138,7 +135,7 @@ class MotionExtractionTest(unittest.TestCase):
 						motion_groups[4].motions[0])
 
 		# Outcomes with current implementation:
-		motions = [m for mg in motion_groups for m in mg.motions]
+		motions = plenary.get_motions()
 		self.assertEqual(19, len(motions))
 		self.assertEqual("55_262_mg_8_m0", motions[0].id)
 
@@ -229,13 +226,10 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(0, len(exceptions))
 		self.assertEqual(300, len(plenaries))
 
-		all_motions = [motion for plenary in plenaries for motion in plenary.motions]
-		self.assertEqual(2842, len(all_motions))
+        all_motions = [motion for plenary in plenaries for motion in plenary.get_motions()]
+        self.assertEqual(3557, len(all_motions))
 
-		motions_with_problems = list(filter(lambda m: len(m.parse_problems) > 0, all_motions))
-
-		# TODO: Improve how we handle parsing problems
-		self.assertEqual(17, len(motions_with_problems))
+        self.assertEqual(256, len(problems))
 
 	def test_extract_from_html_plenary_report__ip298x_html__go_to_example_report(self):
 		# Plenary report 298 has long been our first go-to example plenary report to test our extraction against.
@@ -279,9 +273,10 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual("3849/1-4", plenary.proposal_discussions[0].proposals[0].documents_reference)
 
 		# The motions are extracted correctly:
-		self.assertEqual(39, len(plenary.motions))
-		self.assertEqual("55_298_mg_10_m0", plenary.motions[0].id)
-		self.assertEqual(False, plenary.motions[0].cancelled)
+        motions = plenary.get_motions()
+        self.assertEqual(39, len(motions))
+        self.assertEqual("55_298_mg_10_m0", motions[0].id)
+        self.assertEqual(False, motions[0].cancelled)
 
 		#### TODO: interesting test case:
 		### Vote sur l'amendement n° 44 de Gaby Colebunders tendant à insérer un article 76(n). (3808/10)
@@ -293,11 +288,11 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# The votes are extracted correctly:
 		yes_voters = [vote.politician.full_name for vote in votes if
-					  vote.vote_type == "YES" and vote.voting_id == "55_298_v1"]
+					  vote.vote_type == "YES" and vote.motion_id == "55_298_1"]
 		no_voters = [vote.politician.full_name for vote in votes if
-					 vote.vote_type == "NO" and vote.voting_id == "55_298_v1"]
+					 vote.vote_type == "NO" and vote.motion_id == "55_298_1"]
 		abstention_voters = [vote.politician.full_name for vote in votes if
-							 vote.vote_type == "ABSTENTION" and vote.voting_id == "55_298_v1"]
+							 vote.vote_type == "ABSTENTION" and vote.motion_id == "55_298_1"]
 
 		count_yes = len(yes_voters)
 		count_no = len(no_voters)
@@ -366,9 +361,10 @@ class PlenaryExtractionTest(unittest.TestCase):
 		plenary, votes, problems = extract_from_html_plenary_report(report_file_name)
 
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
-		self.assertEqual(19, len(plenary.motions))
-		self.assertEqual("55_262_mg_8_m0", plenary.motions[0].id)
-		self.assertEqual("55_262_08", plenary.motions[0].proposal_id)
+        motions = plenary.get_motions()
+        self.assertEqual(19, len(motions))
+        self.assertEqual("55_262_mg_8_m0", motions[0].id)
+        self.assertEqual("55_262_08", motions[0].proposal_id)
 
 	def test_extract_from_html_plenary_report__ip261x_html__different_proposals_header(self):
 		# This example proposal has "Projets de loi et propositions" as proposals header, rather than "Projets de loi".
@@ -710,7 +706,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 	def test_extract_ip67(self):
 		actual, votes, problems = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip067x.html'))
 
-		vote_types_motion_1 = set([v.vote_type for v in votes if v.voting_id == "55_067_1"])
+		vote_types_motion_1 = set([v.vote_type for v in votes if v.motion_id == "55_067_1"])
 		self.assertTrue("NO" in vote_types_motion_1)
 
 	@unittest.skip(
@@ -720,7 +716,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		"""vote 2 has an extra '(' in the vote result indicator"""
 		actual, votes, problems = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip072x.html'))
 
-		self.assertEqual(len(actual.motions), 5)
+        self.assertEqual(5, len(actual.get_motions()))
 
 	def test_voter_dots_are_removed_from_voter_names(self):
 		actual, votes, problems = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip182x.html'))
