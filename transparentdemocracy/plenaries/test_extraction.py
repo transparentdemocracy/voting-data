@@ -110,7 +110,7 @@ class MotionExtractionTest(unittest.TestCase):
 		# Assert
 		self.assertEqual(15, len(motion_groups))
 		self.assertEqual(8, motion_groups[0].plenary_agenda_item_number)
-		self.assertEqual(22, motion_groups[-1].plenary_agenda_item_number)  # TODO: why isn't 22 a motion group?
+		self.assertEqual(22, motion_groups[-1].plenary_agenda_item_number)
 
 		self.assertEqual("55_262_mg_12", motion_groups[4].id)
 		self.assertEqual(12, motion_groups[4].plenary_agenda_item_number)
