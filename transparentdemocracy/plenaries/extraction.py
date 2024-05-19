@@ -243,13 +243,13 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 			ctx.add_problem("NL_FR_PROPOSAL_COUNT_MISMATCH", proposal_discussion_id)
 			continue
 
-		for idx, (nl, fr) in enumerate(zip(nl_proposal_titles, fr_proposal_titles)):
+		for proposal_idx, (nl, fr) in enumerate(zip(nl_proposal_titles, fr_proposal_titles)):
 			nl_proposal_text = normalize_whitespace(nl.text)
 			fr_proposal_text = normalize_whitespace(fr.text)
 			nl_label, nl_text, nl_doc_ref = __split_number_title_doc_ref(nl_proposal_text)
 			fr_label, fr_text, fr_doc_ref = __split_number_title_doc_ref(fr_proposal_text)
 			# TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
-			proposal_id = f"55_{plenary_id}_p{idx}"
+			proposal_id = f"{proposal_discussion_id}_p{proposal_idx}"
 			proposals.append(Proposal(proposal_id, nl_doc_ref, nl_text.strip(), fr_text.strip()))
 
 		if "verzoek om advies van de raad van state" in nl_proposal_text.lower():

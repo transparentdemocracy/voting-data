@@ -72,7 +72,8 @@ def link_motions_with_proposals(plenaries: List[Plenary]):
                     matching_proposal = find_matching_proposal(motion,
                                                                matching_proposal_discussion,
                                                                os.path.basename(plenary.html_report_url),
-                                                               problems)
+                                                               problems,
+                                                               exact_match=False)
                     if matching_proposal:
                         motion.proposal_id = matching_proposal.id
 
@@ -118,10 +119,16 @@ def find_matching_proposal(
         motion: Motion,
         proposal_discussion: ProposalDiscussion,
         report_file_name: str,
-        linking_problems: List[LinkProblem]) -> Proposal:
+        linking_problems: List[LinkProblem],
+        exact_match: bool = True) -> Proposal:
     """
     Find a proposal that matches (on documents reference) with the given motion.
     The proposal is searched within an already found proposal discussion.
+
+    The proposal must either share an exactly matching documents reference with the given motion (for example,
+    "3495/1-5"), or a match just on the main document reference instead ("3495").
+    For now, we are non-exact matching, until we encounter a case where multiple proposals about the same main document
+    occur, obliging us to start using exact matching in some way.
 
     A motion contains a reference to the overarching document and one or more sub-documents (at least the main
     sub-document numbered "1") that will be voted on, for example "3495/1", "3495/2" or "3495/1-4".
@@ -131,7 +138,11 @@ def find_matching_proposal(
     matching_proposals = [
         proposal
         for proposal in proposal_discussion.proposals
-        if proposal.documents_reference == motion.documents_reference
+        if motion.documents_reference and (
+               (exact_match and proposal.documents_reference == motion.documents_reference) or
+               get_main_document_reference(proposal.documents_reference) == get_main_document_reference(
+                motion.documents_reference)
+           )
     ]
 
     matching_proposal = None
@@ -146,3 +157,10 @@ def find_matching_proposal(
         matching_proposal = matching_proposals[0]
 
     return matching_proposal
+
+
+def get_main_document_reference(documents_reference: str):
+    if '/' in documents_reference:
+        return documents_reference.split('/')[0]
+    else:
+        return documents_reference
