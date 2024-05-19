@@ -187,11 +187,11 @@ class VoteExtractionTest(unittest.TestCase):
 
 		# I Honestly didn't count this. This is just to make sure we notice if parsing changes
 		self.assertEqual(3732, len(votes))
-		self.assertEqual(133, len([v for v in votes if v.motion_id == "55_298_1"]))
-		self.assertEqual(134, len([v for v in votes if v.motion_id == "55_298_2"]))
-		self.assertEqual(132, len([v for v in votes if v.motion_id == "55_298_3"]))
+		self.assertEqual(133, len([v for v in votes if v.voting_id == "55_298_v1"]))
+		self.assertEqual(134, len([v for v in votes if v.voting_id == "55_298_v2"]))
+		self.assertEqual(132, len([v for v in votes if v.voting_id == "55_298_v3"]))
 
-		expected_vote = Vote(politicians[7124], motion_id="55_298_1", vote_type="YES")
+		expected_vote = Vote(politicians[7124], voting_id="55_298_v1", vote_type="YES")
 		self.assertEqual(expected_vote, votes[0])
 
 
@@ -291,11 +291,11 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# The votes are extracted correctly:
 		yes_voters = [vote.politician.full_name for vote in votes if
-					  vote.vote_type == "YES" and vote.motion_id == "55_298_1"]
+					  vote.vote_type == "YES" and vote.voting_id == "55_298_v1"]
 		no_voters = [vote.politician.full_name for vote in votes if
-					 vote.vote_type == "NO" and vote.motion_id == "55_298_1"]
+					 vote.vote_type == "NO" and vote.voting_id == "55_298_v1"]
 		abstention_voters = [vote.politician.full_name for vote in votes if
-							 vote.vote_type == "ABSTENTION" and vote.motion_id == "55_298_1"]
+							 vote.vote_type == "ABSTENTION" and vote.voting_id == "55_298_v1"]
 
 		count_yes = len(yes_voters)
 		count_no = len(no_voters)
@@ -708,7 +708,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 	def test_extract_ip67(self):
 		actual, votes, problems = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip067x.html'))
 
-		vote_types_motion_1 = set([v.vote_type for v in votes if v.motion_id == "55_067_1"])
+		vote_types_motion_1 = set([v.vote_type for v in votes if v.voting_id == "55_067_1"])
 		self.assertTrue("NO" in vote_types_motion_1)
 
 	@unittest.skip(

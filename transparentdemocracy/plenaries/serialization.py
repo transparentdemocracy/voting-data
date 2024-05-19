@@ -15,7 +15,7 @@ class MarkdownSerializer:
 		os.makedirs(output_path, exist_ok=True)
 
 	def serialize_plenaries(self, plenaries: List[Plenary], votes: List[Vote]) -> None:
-		votes_by_motion_id = dict([(k, list(v)) for k, v in itertools.groupby(votes, lambda v: v.motion_id)])
+		votes_by_motion_id = dict([(k, list(v)) for k, v in itertools.groupby(votes, lambda v: v.voting_id)])
 		for plenary in plenaries:
 			markdown_result = ""
 			markdown_result += f"# Plenary gathering {plenary.number}\n\n"
@@ -95,7 +95,7 @@ class JsonSerializer:
 
 	def serialize_votes(self, votes: List[Vote]) -> None:
 		self._serialize_list([dict(
-			motion_id=v.motion_id,
+			motion_id=v.voting_id,
 			vote_type=v.vote_type,
 			politician_id=v.politician.id) for v
 			in votes], "votes.json")

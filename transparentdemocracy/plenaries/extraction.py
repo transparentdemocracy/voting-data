@@ -525,8 +525,8 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
 	votes = []
 
 	for seq in voting_sequences:
-		motion_number = str(int(seq[4], 10))
-		motion_id = f"{plenary_id}_{motion_number}"
+		voting_number = str(int(seq[4], 10))
+		voting_id = f"{plenary_id}_v{voting_number}"
 
 		# Extract detailed votes:
 		yes_start = get_sequence(seq, ["Oui"])
@@ -534,30 +534,30 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
 		abstention_start = get_sequence(seq, ["Abstentions"])
 
 		if yes_start is None:
-			ctx.add_problem("YES_PART_NOT_FOUND", motion_id)
+			ctx.add_problem("YES_PART_NOT_FOUND", voting_id)
 			continue
 		if no_start is None:
-			ctx.add_problem("NO_PART_NOT_FOUND", motion_id)
+			ctx.add_problem("NO_PART_NOT_FOUND", voting_id)
 			continue
 		if abstention_start is None:
-			ctx.add_problem("ABSTENTION_PART_NOT_FOUND", motion_id)
+			ctx.add_problem("ABSTENTION_PART_NOT_FOUND", voting_id)
 			continue
 		if not (yes_start < no_start < abstention_start):
-			ctx.add_problem("VOTES_YES_NO_ABSTENTION_OUT_OF_ORDER", motion_id)
+			ctx.add_problem("VOTES_YES_NO_ABSTENTION_OUT_OF_ORDER", voting_id)
 			continue
 
 		yes_count = int(seq[yes_start + 1], 10)
 		no_count = int(seq[no_start + 1], 10)
 		abstention_count = int(seq[abstention_start + 1], 10)
 
-		yes_voter_names = get_names(seq[yes_start + 3: no_start], yes_count, 'yes', motion_id)
-		no_voter_names = get_names(seq[no_start + 3:abstention_start], no_count, 'no', motion_id)
-		abstention_voter_names = get_names(seq[abstention_start + 3:], abstention_count, 'abstention', motion_id)
+		yes_voter_names = get_names(seq[yes_start + 3: no_start], yes_count, 'yes', voting_id)
+		no_voter_names = get_names(seq[no_start + 3:abstention_start], no_count, 'no', voting_id)
+		abstention_voter_names = get_names(seq[abstention_start + 3:], abstention_count, 'abstention', voting_id)
 
 		votes.extend(
-			create_votes_for_same_vote_type(yes_voter_names, VoteType.YES, motion_id, ctx.politicians) +
-			create_votes_for_same_vote_type(no_voter_names, VoteType.NO, motion_id, ctx.politicians) +
-			create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, motion_id, ctx.politicians)
+			create_votes_for_same_vote_type(yes_voter_names, VoteType.YES, voting_id, ctx.politicians) +
+			create_votes_for_same_vote_type(no_voter_names, VoteType.NO, voting_id, ctx.politicians) +
+			create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, voting_id, ctx.politicians)
 		)
 
 	return votes

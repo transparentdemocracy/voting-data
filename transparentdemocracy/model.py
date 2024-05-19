@@ -113,14 +113,14 @@ class VoteType(Enum):
 
 @dataclass
 class Vote:
-	def __init__(self, politician: Politician, motion_id: str, vote_type: VoteType):
+	def __init__(self, politician: Politician, voting_id: str, vote_type: VoteType):
 		assert politician is not None, "politician can not be None"
-		assert motion_id is not None, "motion_id can not be None"
+		assert voting_id is not None, "motion_id can not be None"
 		assert vote_type is not None, "vote_type can not be None"
 		self.politician = politician
-		self.motion_id = motion_id
+		self.voting_id = voting_id
 		self.vote_type = vote_type
 
 	politician: Politician
-	motion_id: str
+	voting_id: str
 	vote_type: VoteType
