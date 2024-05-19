@@ -300,7 +300,6 @@ def _report_items_to_motion_groups(ctx: PlenaryExtractionContext, plenary_id: st
 
 def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str, item: ReportItem,
 								 index: int) -> MotionGroup:
-	proposal_id = f"{plenary_id}_{item.label}"
 	motion_group_number = int(item.label, 10) if item.label is not None else (- index)
 	motion_group_id = f"{plenary_id}_mg_{motion_group_number}"
 
@@ -331,7 +330,7 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 
 		description = normalize_whitespace("\n".join([t.text for t in motion_tag_group[2:]]))
 		motions.append(Motion(motion_id, str(index), title_nl, title_fr, doc_ref_nl, voting_id, cancelled, description,
-							  proposal_id))
+							  None))
 
 	_, nl_title, doc_ref_nl = __split_number_title_doc_ref(normalize_whitespace(item.nl_title))
 	_, fr_title, doc_ref_fr = __split_number_title_doc_ref(normalize_whitespace(item.fr_title))

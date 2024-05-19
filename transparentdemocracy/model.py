@@ -54,7 +54,7 @@ class Motion:
 	voting_id: Optional[str]
 	cancelled: bool
 	description: str
-	proposal_id: str
+	proposal_id: Optional[str]
 
 
 @dataclass
