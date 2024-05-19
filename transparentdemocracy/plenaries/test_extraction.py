@@ -126,7 +126,9 @@ class MotionExtractionTest(unittest.TestCase):
 		self.assertEqual(Motion("55_262_mg_12_m0", "0",
 								"Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
 								"Vote sur l'amendement n° 4 de Catherine Fonck tendant à insérer un article 2/1(n).",
-								"3495/5", False,
+								"3495/5",
+								"55_262_v5",
+								False,
 								# TODO: formatting is completely lost, should be fixed somehow
 								# actually preserving the original html might not be the worst idea
 								"Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. Bijgevolg is het amendement verworpen.",

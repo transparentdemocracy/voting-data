@@ -49,6 +49,7 @@ class Motion:
 	title_nl: str
 	title_fr: str
 	documents_reference: str  # example: 3495/1-5
+	voting_id: str
 	cancelled: bool
 	description: str
 	proposal_id: str

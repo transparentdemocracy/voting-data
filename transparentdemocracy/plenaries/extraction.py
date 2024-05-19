@@ -8,7 +8,6 @@ import logging
 import os
 import re
 from dataclasses import dataclass
-from re import RegexFlag
 from typing import Tuple, List, Optional, Union
 
 from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
@@ -299,7 +298,8 @@ def _report_items_to_motion_groups(ctx: PlenaryExtractionContext, plenary_id: st
 	return [_report_item_to_motion_group(ctx, plenary_id, item, index) for index, item in enumerate(report_items)]
 
 
-def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str, item: ReportItem, index: int) -> MotionGroup:
+def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str, item: ReportItem,
+								 index: int) -> MotionGroup:
 	proposal_id = f"{plenary_id}_{item.label}"
 	motion_group_number = int(item.label, 10) if item.label is not None else (- index)
 	motion_group_id = f"{plenary_id}_mg_{motion_group_number}"
@@ -309,6 +309,15 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 	for index, motion_tag_group in enumerate(motion_tag_groups):
 		# TODO: detect cancellation (there should be a failing test)
 		motion_id = f"{motion_group_id}_m{index}"
+		voting_numbers = find_voting_numbers(motion_tag_group)
+		voting_numbers = list(dict.fromkeys(voting_numbers))
+
+		if len(voting_numbers) > 1:
+			ctx.add_problem("MOTION_HAS_MULTIPLE_VOTING_IDS", motion_id)
+
+		voting_number = voting_numbers[-1] if voting_numbers else None
+		voting_id = f"{plenary_id}_v{voting_number}" if voting_number else None
+
 		cancelled = any("wordt geannuleerd" in normalize_whitespace(tag.text).lower() for tag in motion_tag_group)
 
 		title_fr = normalize_whitespace(motion_tag_group[0].text)
@@ -321,7 +330,8 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 			ctx.add_problem("MOTION_DOC_REF_DIFFERENCE_NL_FR", motion_id)
 
 		description = normalize_whitespace("\n".join([t.text for t in motion_tag_group[2:]]))
-		motions.append(Motion(motion_id, str(index), title_nl, title_fr, doc_ref_nl, cancelled, description, proposal_id))
+		motions.append(Motion(motion_id, str(index), title_nl, title_fr, doc_ref_nl, voting_id, cancelled, description,
+							  proposal_id))
 
 	_, nl_title, doc_ref_nl = __split_number_title_doc_ref(normalize_whitespace(item.nl_title))
 	_, fr_title, doc_ref_fr = __split_number_title_doc_ref(normalize_whitespace(item.fr_title))
@@ -338,6 +348,23 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 		None,
 		# TODO: link motion group to proposal discussions (does this need to be part of the model? We could have a domain service to look things up by document reference)
 		motions)
+
+
+def find_voting_numbers(motion_tags):
+	pattern1 = re.compile("\\(Stemming/vote\\s+(\\d+)", re.IGNORECASE)
+	pattern2 = re.compile("\\(Vote/stemming\\s+(\\d+)", re.IGNORECASE)
+	result = []
+
+	for tag in motion_tags:
+		norm_text = normalize_whitespace(tag.text)
+		match1 = pattern1.match(norm_text)
+		if match1:
+			result.append(match1.group(1))
+		match2 = pattern2.match(norm_text)
+		if match2:
+			result.append(match2.group(1))
+
+	return result
 
 
 # TODO: move this state machine used to parse motions to a separate module
@@ -441,6 +468,7 @@ def split_motion_group_item(ctx: PlenaryExtractionContext, item):
 			result[-1].extend(last_group)
 
 	return result
+
 
 def __find_siblings_between_elements(
 		start_element,
