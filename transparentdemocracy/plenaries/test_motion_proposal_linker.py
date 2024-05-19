@@ -1,8 +1,8 @@
 import unittest
 
-from plenaries.extraction import extract_from_html_plenary_reports
-from plenaries.motion_proposal_linker import link_motions_with_proposals
 from transparentdemocracy import CONFIG
+from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
+from transparentdemocracy.plenaries.motion_proposal_linker import link_motions_with_proposals
 
 
 class MotionProposalLinkerTest(unittest.TestCase):
