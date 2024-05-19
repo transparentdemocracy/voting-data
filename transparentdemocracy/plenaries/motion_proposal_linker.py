@@ -22,7 +22,7 @@ from typing import List
 
 from tqdm.auto import tqdm
 
-from model import Plenary, ProposalDiscussion, MotionGroup, Proposal, Motion
+from transparentdemocracy.model import Plenary, ProposalDiscussion, MotionGroup, Proposal, Motion
 
 
 class LinkProblemType(enum.Enum):
