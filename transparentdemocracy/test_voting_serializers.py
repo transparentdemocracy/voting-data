@@ -5,6 +5,7 @@ import unittest
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_report
+from transparentdemocracy.plenaries.motion_proposal_linker import link_motions_with_proposals
 from transparentdemocracy.plenaries.serialization import MarkdownSerializer, JsonSerializer
 
 
@@ -35,6 +36,7 @@ class TestPlenaryJsonSerializer(unittest.TestCase):
 		serializer = JsonSerializer(tmp_json_output_dir)
 		plenary, votes, problems = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip298x.html'))
 
+		link_motions_with_proposals([plenary])
 		serializer.serialize_plenaries([plenary])
 
 		with open(os.path.join(tmp_json_output_dir, "plenaries.json")) as fp:

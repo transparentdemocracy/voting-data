@@ -172,3 +172,4 @@ cython_debug/
 data/input/plenary/pdf/
 data/input/plenary/html/
 data/input/actors/
+data/input/documents/
