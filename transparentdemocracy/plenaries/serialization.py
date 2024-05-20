@@ -100,8 +100,16 @@ class JsonSerializer:
 			politician_id=v.politician.id) for v
 			in votes], "votes.json")
 
-	def _serialize_plenaries(self, some_list: List[Plenary], output_file: str) -> None:
-		list_json = json.dumps([self._plenary_to_dict(p) for p in some_list], default=lambda o: o.__dict__,
+	def _serialize_plenaries(self, plenaries: List[Plenary], output_file: str) -> None:
+		# Verify that post-processing of the plenaries (linking motions and proposals) has been run as well:
+		if not any(
+				motion_group for plenary in plenaries for motion_group in plenary.motion_groups
+				if motion_group.proposal_discussion_id
+		):
+			raise ValueError("No plenaries occur with motion-proposal links. Run the motion_proposal_linker.py before "
+							 "serializing plenaries.")
+
+		list_json = json.dumps([self._plenary_to_dict(p) for p in plenaries], default=lambda o: o.__dict__,
 							   cls=DateTimeEncoder)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
