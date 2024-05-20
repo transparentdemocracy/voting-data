@@ -119,7 +119,7 @@ class JsonSerializer:
 			pdf_report_url=plenary.pdf_report_url,
 			html_report_url=plenary.html_report_url,
 			proposal_discussions=plenary.proposal_discussions,
-			motions=plenary.get_motions(),
+			motions=plenary.motions,
 		)
 
 def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:

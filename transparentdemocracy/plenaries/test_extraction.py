@@ -136,7 +136,7 @@ class MotionExtractionTest(unittest.TestCase):
 						motion_groups[4].motions[0])
 
 		# Outcomes with current implementation:
-		motions = plenary.get_motions()
+		motions = plenary.motions
 		self.assertEqual(19, len(motions))
 		self.assertEqual("55_262_mg_8_m0", motions[0].id)
 
@@ -227,7 +227,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(0, len(exceptions))
 		self.assertEqual(300, len(plenaries))
 
-		all_motions = [motion for plenary in plenaries for motion in plenary.get_motions()]
+		all_motions = [motion for plenary in plenaries for motion in plenary.motions]
 		self.assertEqual(3557, len(all_motions))
 
 		self.assertEqual(257, len(problems))
@@ -274,7 +274,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual("3849/1-4", plenary.proposal_discussions[0].proposals[0].documents_reference)
 
 		# The motions are extracted correctly:
-		motions = plenary.get_motions()
+		motions = plenary.motions
 		self.assertEqual(39, len(motions))
 		self.assertEqual("55_298_mg_10_m0", motions[0].id)
 		self.assertEqual(False, motions[0].cancelled)
@@ -284,7 +284,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		### this is a motion that took a vote which was cancelled, immediately followed by another vote
 		### This means that motion <-> name vote it not a 1-1 relationship
 
-		motions = plenary.get_motions()
+		motions = plenary.motions
 		self.assertEqual("55_298_mg_14_m15", motions[19].id)
 		self.assertEqual(True, motions[19].cancelled)
 
@@ -363,7 +363,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		plenary, votes, problems = extract_from_html_plenary_report(report_file_name)
 
 		# Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
-		motions = plenary.get_motions()
+		motions = plenary.motions
 		self.assertEqual(19, len(motions))
 		self.assertEqual("55_262_mg_8_m0", motions[0].id)
 		self.assertEqual(None, motions[0].proposal_id)
@@ -557,7 +557,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 							  plenary.proposal_discussions[0].proposals[0].title_nl)
 
 		# The motions are extracted correctly:
-		self.assertEqual(0, len(plenary.get_motions()))
+		self.assertEqual(0, len(plenary.motions))
 
 	def test_extract_from_html_plenary_report__ip184x_html(self):
 		# This report has a different proposals section title: "Voorstellen".

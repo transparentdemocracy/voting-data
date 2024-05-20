@@ -95,9 +95,9 @@ class Plenary:
 	html_report_url: str
 	proposal_discussions: List[ProposalDiscussion]
 	motion_groups: List[MotionGroup]
-	report_items: List[ReportItem]
 
-	def get_motions(self) -> List[Motion]:
+	@property
+	def motions(self) -> List[Motion]:
 		return [
 			motion
 			for motion_group in self.motion_groups

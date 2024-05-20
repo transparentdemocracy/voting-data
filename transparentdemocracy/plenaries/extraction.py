@@ -123,8 +123,7 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]
 			f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
 			f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
 			proposals,
-			motion_groups,
-			motion_report_items
+			motion_groups
 		),
 		votes
 	)
