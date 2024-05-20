@@ -4,6 +4,7 @@ from typing import List
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.model import Politician
+from transparentdemocracy.politicians.extraction import PoliticianExtractor
 
 
 class JsonSerializer:
@@ -30,3 +31,13 @@ def serialize(politicians: List[Politician]) -> None:
 def serialize_json(politicians: List[Politician]) -> None:
 	json_serializer = JsonSerializer()
 	json_serializer.serialize_politicians(politicians)
+
+
+def create_json():
+	JsonSerializer().serialize_politicians(PoliticianExtractor().extract_politicians().politicians)
+
+
+def print_politicians_by_party():
+	politicians = PoliticianExtractor().extract_politicians()
+
+	politicians.print_by_party()

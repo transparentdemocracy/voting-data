@@ -9,7 +9,6 @@ from tqdm.asyncio import tqdm
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.model import Politician
-from transparentdemocracy.politicians.serialization import JsonSerializer
 
 logger = logging.getLogger(__name__)
 
@@ -54,12 +53,6 @@ class PoliticianExtractor(object):
 
 	def extract_politicians(self, pattern="*.json") -> Politicians:
 		return Politicians([simplify_actor(a) for a in get_relevant_actors(self.actors_path, pattern)])
-
-
-def print_politicians_by_party():
-	politicians = PoliticianExtractor().extract_politicians()
-
-	politicians.print_by_party()
 
 
 def simplify_actor(actor):
@@ -133,6 +126,7 @@ def json_dict_to_politician(data):
 		data['party']
 	)
 
+
 def get_leg55_role(actor):
 	plenum_fullname = '/Wetgevende macht/Kvvcr/Leg 55/Plenum/PLENUMVERGADERING'
 
@@ -145,15 +139,3 @@ def get_leg55_role(actor):
 		return None
 
 	return roles[-1]
-
-
-def main():
-	print_politicians_by_party()
-
-
-def create_json():
-	JsonSerializer().serialize_politicians(PoliticianExtractor().extract_politicians().politicians)
-
-
-if __name__ == "__main__":
-	main()
