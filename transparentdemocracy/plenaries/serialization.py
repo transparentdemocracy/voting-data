@@ -86,7 +86,7 @@ class MarkdownSerializer:
 
 
 class JsonSerializer:
-	def __init__(self, output_path = None):
+	def __init__(self, output_path=None):
 		self.plenary_output_json_path = CONFIG.plenary_json_output_path() if output_path is None else output_path
 		os.makedirs(self.plenary_output_json_path, exist_ok=True)
 
@@ -101,7 +101,7 @@ class JsonSerializer:
 			in votes], "votes.json")
 
 	def _serialize_plenaries(self, some_list: List[Plenary], output_file: str) -> None:
-		list_json = json.dumps([self.to_dict(p) for p in some_list], default=lambda o: o.__dict__, cls=DateTimeEncoder)
+		list_json = json.dumps([self._plenary_to_dict(p) for p in some_list], default=lambda o: o.__dict__, cls=DateTimeEncoder)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
@@ -110,7 +110,7 @@ class JsonSerializer:
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
-	def to_dict(self, plenary: Plenary) -> Dict:
+	def _plenary_to_dict(self, plenary: Plenary) -> Dict:
 		return dict(
 			id=plenary.id,
 			number=plenary.number,
@@ -119,8 +119,9 @@ class JsonSerializer:
 			pdf_report_url=plenary.pdf_report_url,
 			html_report_url=plenary.html_report_url,
 			proposal_discussions=plenary.proposal_discussions,
-			motions=plenary.motions,
+			motion_groups=plenary.motion_groups,
 		)
+
 
 def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
 	write_markdown(plenaries, votes)
@@ -128,23 +129,28 @@ def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
 	write_plenaries_json(plenaries)
 	write_votes_json(votes)
 
+
 def write_markdown(plenaries=None, votes=None):
 	if plenaries is None and votes is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
 	MarkdownSerializer().serialize_plenaries(plenaries, votes)
+
 
 def write_plenaries_json(plenaries=None):
 	if plenaries is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_plenaries(plenaries)
 
+
 def write_votes_json(votes=None):
 	if votes is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_votes(votes)
 
+
 def main():
 	write_markdown()
+
 
 if __name__ == "__main__":
 	main()
