@@ -20,10 +20,29 @@ from bs4 import PageElement
 # str-typing them.
 @dataclass
 class DocumentsReference:
-	document_reference: int  # example: 3495
+	document_reference: Optional[int]  # example: 3495 (optional, for unparseable documents references
 	all_documents_reference: str  # example: 3495/1-5, or 3495/5
 	main_document_reference: Optional[int]  # example: 1
 	sub_document_references: List[int]  # example: 1 until 5 inclusive.
+
+	@property
+	def info_url(self):
+		if not document_reference:
+			return None
+		return "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&cfm=/site/wwwcfm/flwb/flwbn.cfm?legislat=55&dossierID=%04d" % (
+			self.document_reference)
+
+	@property
+	def sub_document_pdf_urls(self):
+		if not self.document_reference:
+			return []
+		return [self._sub_document_pdf_url(sub_doc_ref) for sub_doc_ref in self.sub_document_references]
+
+	def _sub_document_pdf_url(self, sub_doc_reference):
+		if not self.document_reference:
+			return None
+		return f"https://www.dekamer.be/FLWB/PDF/55/%04d/55K%04d%03d.pdf" % (
+			self.document_reference, self.document_reference, sub_doc_reference)
 
 
 @dataclass

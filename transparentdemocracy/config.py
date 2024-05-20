@@ -28,6 +28,9 @@ class Config:
 	def politicians_json_output_path(self, *path):
 		return self.resolve(self.data_dir, "output", "politician", *path)
 
+	def documents_path(self, *path):
+		return self.resolve(self.data_dir, "input", "documents", *path)
+
 
 def _create_config():
 	root_folder = os.path.dirname(os.path.dirname(__file__))

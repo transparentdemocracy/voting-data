@@ -3,3 +3,4 @@ nltk==3.8.1
 tqdm==4.66.3
 python-Levenshtein==0.25.1
 openai==1.25.1
+requests==2.31.0

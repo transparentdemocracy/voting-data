@@ -1,7 +1,11 @@
+import os.path
 import re
 from collections import defaultdict
-from typing import List, Optional
+from typing import List, Optional, Generator
 
+import requests
+
+from transparentdemocracy import CONFIG
 from transparentdemocracy.model import Plenary, DocumentsReference
 from transparentdemocracy.plenaries.serialization import load_plenaries
 
@@ -12,8 +16,6 @@ def analyse_document_references():
 	collected_doc_refs = collect_document_references(plenaries)
 	doc_refs_and_locations = dict(
 		(lambda d: [(d[k].append(v) or d) for k, v in collected_doc_refs] and d)(defaultdict(list)))
-
-	print(f"{len(doc_refs_and_locations)} unique document references")
 
 	doc_refs = []
 	for doc_ref_spec in doc_refs_and_locations.keys():
@@ -27,7 +29,27 @@ def analyse_document_references():
 		print(f"   {bad_ref.all_documents_reference}")
 
 
-def collect_document_references(plenaries: List[Plenary]):
+def print_subdocument_pdf_urls():
+	pdf_urls = get_referenced_document_pdf_urls()
+
+	for url in pdf_urls:
+		print(url)
+
+
+def get_referenced_document_pdf_urls():
+	document_references = get_document_references()
+	pdf_urls = [url for document_reference in document_references for url in document_reference.sub_document_pdf_urls]
+	return pdf_urls
+
+
+def get_document_references():
+	plenaries = load_plenaries()
+	specs = set([ref for ref, loc in collect_document_references(plenaries)])
+	document_references = [parse_document_reference(spec) for spec in specs]
+	return document_references
+
+
+def collect_document_references(plenaries: List[Plenary]) -> Generator[str, str, None]:
 	for plenary in plenaries:
 		for discussion in plenary.proposal_discussions:
 			for proposal in discussion.proposals:
@@ -53,7 +75,7 @@ def parse_document_reference(doc_ref_spec: str) -> Optional[DocumentsReference]:
 		return _unparsed(doc_ref_spec)
 
 	if len(parts) == 1:
-		sub_doc_refs = []
+		sub_doc_refs = [1]
 	else:
 		sub_doc_spec = parts[1]
 		sub_doc_refs = [int(part) for part in sub_doc_spec.split("-")]
@@ -80,7 +102,9 @@ def _unparsed(spec):
 
 
 def main():
-	analyse_document_references()
+	# analyse_document_references()
+	# print_subdocument_pdf_urls()
+	download_referenced_documents()
 
 
 if __name__ == "__main__":
