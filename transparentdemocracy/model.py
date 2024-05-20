@@ -22,7 +22,7 @@ from bs4 import PageElement
 class DocumentsReference:
 	document_reference: int  # example: 3495
 	all_documents_reference: str  # example: 3495/1-5, or 3495/5
-	main_document_reference: int  # example: 1
+	main_document_reference: Optional[int]  # example: 1
 	sub_document_references: List[int]  # example: 1 until 5 inclusive.
 
 

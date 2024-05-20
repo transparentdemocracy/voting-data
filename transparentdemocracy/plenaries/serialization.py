@@ -5,7 +5,7 @@ from typing import List, Dict
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.json_serde import DateTimeEncoder
-from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType
+from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType, MotionGroup
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 
 
@@ -101,7 +101,8 @@ class JsonSerializer:
 			in votes], "votes.json")
 
 	def _serialize_plenaries(self, some_list: List[Plenary], output_file: str) -> None:
-		list_json = json.dumps([self._plenary_to_dict(p) for p in some_list], default=lambda o: o.__dict__, cls=DateTimeEncoder)
+		list_json = json.dumps([self._plenary_to_dict(p) for p in some_list], default=lambda o: o.__dict__,
+							   cls=DateTimeEncoder)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
@@ -146,6 +147,72 @@ def write_votes_json(votes=None):
 	if votes is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
 	JsonSerializer().serialize_votes(votes)
+
+
+def load_plenaries():
+	path = os.path.join(CONFIG.plenary_json_output_path(), "plenaries.json")
+	with open(path, 'r') as fp:
+		data = json.load(fp)
+	return [_json_to_plenary(p) for p in data]
+
+
+def _json_to_plenary(data):
+	return Plenary(
+		id=data['id'],
+		number=data['number'],
+		date=data['date'],  # TODO: parse to datetime.date
+		legislature=data['legislature'],
+		pdf_report_url=data['pdf_report_url'],
+		html_report_url=data['html_report_url'],
+		proposal_discussions=[_json_to_proposal_discussion(pd) for pd in data['proposal_discussions']],
+		motion_groups=[_json_to_motion_group(mg) for mg in data['motion_groups']],
+	)
+
+
+def _json_to_proposal_discussion(data):
+	return ProposalDiscussion(
+		id=data['id'],
+		plenary_id=data['plenary_id'],
+		plenary_agenda_item_number=data['plenary_agenda_item_number'],
+		description_nl=data['description_nl'],
+		description_fr=data['description_fr'],
+		proposals=[_json_to_proposal(p) for p in data['proposals']],
+	)
+
+
+def _json_to_proposal(data):
+	return Proposal(
+		id=data['id'],
+		documents_reference=data['documents_reference'],
+		title_nl=data['title_nl'],
+		title_fr=data['title_fr']
+	)
+
+
+def _json_to_motion_group(data):
+	return MotionGroup(
+		id=data['id'],
+		plenary_agenda_item_number=data['plenary_agenda_item_number'],
+		title_nl=data['title_nl'],
+		title_fr=data['title_fr'],
+		documents_reference=data['documents_reference'],
+		motions=[_json_to_motion(m) for m in data['motions']],
+		proposal_discussion_id=data['proposal_discussion_id'],
+	)
+
+
+def _json_to_motion(data):
+	return Motion(
+		id=data['id'],
+		sequence_number=data['sequence_number'],
+		title_nl=data['title_nl'],
+		title_fr=data['title_fr'],
+		documents_reference=data['documents_reference'],
+		voting_id=data['voting_id'],
+		cancelled=data['cancelled'],
+		description=data['description'],
+		proposal_id=data['proposal_id'],
+	)
 
 
 def main():
