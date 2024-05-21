@@ -104,317 +104,317 @@ Proposition déposée par: Theo Francken, Peter Buysrogge, Darya Safai, Wim Van 
 
 ### Discussed proposals:
 
-Motion # 1.
+### Motion 0.
 
-### Yes votes (80)
+#### Yes votes (80)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Buyst Kim, Calvo Kristof, Cornet Cécile, Creemers Barbara, Dallemagne Georges, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depraetere Melissa, De Smet François, De Vriendt Wouter, Dierick Leen, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Gabriëls Katja, Geens Koen, Goffin Philippe, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Matz Vanessa, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Prévot Patrick, Reuter Florence, Rigot Hervé, Scourneau Vincent, Senesael Daniel, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Hecke Stefaan, Van Hoof Els, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vicaire Albert, Wilmès Sophie, Zanchetta Laurence
 
-### No votes (49)
+#### No votes (49)
 
 Anseeuw Björn, Bury Katleen, Buysrogge Peter, Claes Mieke, Colebunders Gaby, Creyelman Steven, Daems Greet, D'Amico Roberto, Dedecker Jean-Marie, Depoorter Kathleen, Depoortere Ortwin, De Roover Peter, De Spiegeleer Pieter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dillen Marijke, Francken Theo, Gijbels Frieda, Gilissen Erik, Hedebouw Raoul, Houtmeyers Katrien, Loones Sander, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Pas Barbara, Ponthier Annick, Raskin Wouter, Ravyts Kurt, Roggeman Tomas, Safai Darya, Sneppe Dominiek, Troosters Frank, Van Bossuyt Anneleen, Van Camp Yoleen, Van Grieken Tom, Van Hees Marco, Van Langenhove Dries, Van Lommel Reccino, Van Peel Valerie, Van Vaerenbergh Kristien, Vermeersch Wouter, Verreyt Hans, Vindevoghel Maria, Warmoes Thierry, Wollants Bert
 
-### Abstentions (3)
+#### Abstentions (3)
 
 Freilich Michael, Ingels Yngvild, Van der Donckt Wim
 
 
-Motion # 2.
+### Motion 0.
 
-### Yes votes (81)
+#### Yes votes (81)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Buyst Kim, Calvo Kristof, Cornet Cécile, Creemers Barbara, Dallemagne Georges, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depraetere Melissa, De Smet François, De Vriendt Wouter, Dierick Leen, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Gabriëls Katja, Geens Koen, Goffin Philippe, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Matz Vanessa, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Prévot Patrick, Reuter Florence, Rigot Hervé, Scourneau Vincent, Segers Ben, Senesael Daniel, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Hecke Stefaan, Van Hoof Els, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vicaire Albert, Wilmès Sophie, Zanchetta Laurence
 
-### No votes (49)
+#### No votes (49)
 
 Anseeuw Björn, Bury Katleen, Buysrogge Peter, Claes Mieke, Colebunders Gaby, Creyelman Steven, Daems Greet, D'Amico Roberto, Dedecker Jean-Marie, Depoorter Kathleen, Depoortere Ortwin, De Roover Peter, De Spiegeleer Pieter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dillen Marijke, Francken Theo, Gijbels Frieda, Gilissen Erik, Hedebouw Raoul, Houtmeyers Katrien, Loones Sander, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Pas Barbara, Ponthier Annick, Raskin Wouter, Ravyts Kurt, Roggeman Tomas, Safai Darya, Sneppe Dominiek, Troosters Frank, Van Bossuyt Anneleen, Van Camp Yoleen, Van Grieken Tom, Van Hees Marco, Van Langenhove Dries, Van Lommel Reccino, Van Peel Valerie, Van Vaerenbergh Kristien, Vermeersch Wouter, Verreyt Hans, Vindevoghel Maria, Warmoes Thierry, Wollants Bert
 
-### Abstentions (3)
+#### Abstentions (3)
 
 Freilich Michael, Ingels Yngvild, Van der Donckt Wim
 
 
-Motion # 3.
+### Motion 0.
 
-### Yes votes (108)
+#### Yes votes (108)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Calvo Kristof, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoortere Ortwin, Depraetere Melissa, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, Dewulf Nathalie, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Gabriëls Katja, Geens Koen, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Ravyts Kurt, Reuter Florence, Rigot Hervé, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Zanchetta Laurence
 
-### No votes (21)
+#### No votes (21)
 
 Anseeuw Björn, Buysrogge Peter, Claes Mieke, Dedecker Jean-Marie, Depoorter Kathleen, De Roover Peter, De Wit Sophie, D'Haese Christoph, Francken Theo, Gijbels Frieda, Houtmeyers Katrien, Loones Sander, Metsu Koen, Raskin Wouter, Roggeman Tomas, Safai Darya, Van Bossuyt Anneleen, Van Camp Yoleen, Van Peel Valerie, Van Vaerenbergh Kristien, Wollants Bert
 
-### Abstentions (3)
+#### Abstentions (3)
 
 Freilich Michael, Ingels Yngvild, Van der Donckt Wim
 
 
-Motion # 4.
+### Motion 0.
 
-### Yes votes (77)
+#### Yes votes (77)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Buyst Kim, Calvo Kristof, Cornet Cécile, Creemers Barbara, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depraetere Melissa, De Vriendt Wouter, Dierick Leen, Ducarme Denis, Farih Nawal, Flahaut André, Gabriëls Katja, Geens Koen, Goffin Philippe, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Prévot Patrick, Reuter Florence, Rigot Hervé, Scourneau Vincent, Segers Ben, Senesael Daniel, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Hecke Stefaan, Van Hoof Els, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vicaire Albert, Wilmès Sophie, Zanchetta Laurence
 
-### No votes (50)
+#### No votes (50)
 
 Anseeuw Björn, Bury Katleen, Buysrogge Peter, Claes Mieke, Colebunders Gaby, Creyelman Steven, Daems Greet, D'Amico Roberto, Dedecker Jean-Marie, Depoorter Kathleen, Depoortere Ortwin, De Roover Peter, De Smet François, De Spiegeleer Pieter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dillen Marijke, Francken Theo, Gijbels Frieda, Gilissen Erik, Hedebouw Raoul, Houtmeyers Katrien, Loones Sander, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Pas Barbara, Ponthier Annick, Raskin Wouter, Ravyts Kurt, Roggeman Tomas, Safai Darya, Sneppe Dominiek, Troosters Frank, Van Bossuyt Anneleen, Van Camp Yoleen, Van Grieken Tom, Van Hees Marco, Van Langenhove Dries, Van Lommel Reccino, Van Peel Valerie, Van Vaerenbergh Kristien, Vermeersch Wouter, Verreyt Hans, Vindevoghel Maria, Warmoes Thierry, Wollants Bert
 
-### Abstentions (6)
+#### Abstentions (6)
 
 Dallemagne Georges, Fonck Catherine, Freilich Michael, Ingels Yngvild, Matz Vanessa, Van der Donckt Wim
 
 
-Motion # 5.
+### Motion 0.
 
-### Yes votes (13)
+#### Yes votes (13)
 
 Colebunders Gaby, Daems Greet, D'Amico Roberto, De Smet François, De Vuyst Steven, Hedebouw Raoul, Matz Vanessa, Merckx Sofie, Mertens Peter, Moscufo Nadia, Van Hees Marco, Vindevoghel Maria, Warmoes Thierry
 
-### No votes (118)
+#### No votes (118)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Cornet Cécile, Creemers Barbara, Creyelman Steven, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Spiegeleer Pieter, De Vriendt Wouter, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Metsu Koen, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### Abstentions (2)
+#### Abstentions (2)
 
 Dallemagne Georges, Fonck Catherine
 
 
-Motion # 6.
+### Motion 1.
 
-### Yes votes (14)
+#### Yes votes (14)
 
 Colebunders Gaby, Daems Greet, D'Amico Roberto, De Smet François, De Vuyst Steven, Fonck Catherine, Hedebouw Raoul, Matz Vanessa, Merckx Sofie, Mertens Peter, Moscufo Nadia, Van Hees Marco, Vindevoghel Maria, Warmoes Thierry
 
-### No votes (118)
+#### No votes (118)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Cornet Cécile, Creemers Barbara, Creyelman Steven, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Spiegeleer Pieter, De Vriendt Wouter, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Metsu Koen, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### Abstentions (1)
+#### Abstentions (1)
 
 Dallemagne Georges
 
 
-Motion # 7.
+### Motion 0.
 
-### Yes votes (77)
+#### Yes votes (77)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Buyst Kim, Calvo Kristof, Cornet Cécile, Creemers Barbara, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depraetere Melissa, De Vriendt Wouter, Dierick Leen, Ducarme Denis, Farih Nawal, Flahaut André, Gabriëls Katja, Geens Koen, Goffin Philippe, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Prévot Patrick, Reuter Florence, Rigot Hervé, Scourneau Vincent, Segers Ben, Senesael Daniel, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Hecke Stefaan, Van Hoof Els, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vicaire Albert, Wilmès Sophie, Zanchetta Laurence
 
-### No votes (52)
+#### No votes (52)
 
 Anseeuw Björn, Bury Katleen, Buysrogge Peter, Claes Mieke, Colebunders Gaby, Creyelman Steven, Daems Greet, D'Amico Roberto, Dedecker Jean-Marie, Depoorter Kathleen, Depoortere Ortwin, De Roover Peter, De Smet François, De Spiegeleer Pieter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dillen Marijke, Fonck Catherine, Francken Theo, Gijbels Frieda, Gilissen Erik, Hedebouw Raoul, Houtmeyers Katrien, Loones Sander, Matz Vanessa, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Pas Barbara, Ponthier Annick, Raskin Wouter, Ravyts Kurt, Roggeman Tomas, Safai Darya, Sneppe Dominiek, Troosters Frank, Van Bossuyt Anneleen, Van Camp Yoleen, Van Grieken Tom, Van Hees Marco, Van Langenhove Dries, Van Lommel Reccino, Van Peel Valerie, Van Vaerenbergh Kristien, Vermeersch Wouter, Verreyt Hans, Vindevoghel Maria, Warmoes Thierry, Wollants Bert
 
-### Abstentions (4)
+#### Abstentions (4)
 
 Dallemagne Georges, Freilich Michael, Ingels Yngvild, Van der Donckt Wim
 
 
-Motion # 8.
+### Motion 0.
 
-### Yes votes (121)
+#### Yes votes (121)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Cornet Cécile, Creemers Barbara, Creyelman Steven, Dallemagne Georges, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Flahaut André, Fonck Catherine, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Matz Vanessa, Metsu Koen, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (11)
+#### No votes (11)
 
 Colebunders Gaby, Daems Greet, D'Amico Roberto, De Vuyst Steven, Hedebouw Raoul, Merckx Sofie, Mertens Peter, Moscufo Nadia, Van Hees Marco, Vindevoghel Maria, Warmoes Thierry
 
-### Abstentions (0)
+#### Abstentions (0)
 
 
 
 
-Motion # 9.
+### Motion 0.
 
-### Yes votes (133)
+#### Yes votes (133)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (0)
+#### No votes (0)
 
 
 
-### Abstentions (0)
+#### Abstentions (0)
 
 
 
 
-Motion # 10.
+### Motion 0.
 
-### Yes votes (129)
+#### Yes votes (129)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (3)
+#### No votes (3)
 
 De Smet François, Fonck Catherine, Matz Vanessa
 
-### Abstentions (1)
+#### Abstentions (1)
 
 Dallemagne Georges
 
 
-Motion # 11.
+### Motion 0.
 
-### Yes votes (131)
+#### Yes votes (131)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (0)
+#### No votes (0)
 
 
 
-### Abstentions (0)
+#### Abstentions (0)
 
 
 
 
-Motion # 12.
+### Motion 0.
 
-### Yes votes (132)
+#### Yes votes (132)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (0)
+#### No votes (0)
 
 
 
-### Abstentions (0)
+#### Abstentions (0)
 
 
 
 
-Motion # 13.
+### Motion 0.
 
-### Yes votes (107)
+#### Yes votes (107)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buyst Kim, Calvo Kristof, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoortere Ortwin, Depraetere Melissa, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, Dewulf Nathalie, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Gabriëls Katja, Geens Koen, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Ravyts Kurt, Reuter Florence, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie
 
-### No votes (0)
+#### No votes (0)
 
 
 
-### Abstentions (24)
+#### Abstentions (24)
 
 Anseeuw Björn, Buysrogge Peter, Claes Mieke, Dedecker Jean-Marie, Depoorter Kathleen, De Roover Peter, De Wit Sophie, D'Haese Christoph, Francken Theo, Freilich Michael, Gijbels Frieda, Houtmeyers Katrien, Ingels Yngvild, Loones Sander, Metsu Koen, Raskin Wouter, Roggeman Tomas, Safai Darya, Van Bossuyt Anneleen, Van Camp Yoleen, Van der Donckt Wim, Van Peel Valerie, Van Vaerenbergh Kristien, Wollants Bert
 
 
-Motion # 14.
+### Motion 0.
 
-### Yes votes (117)
+#### Yes votes (117)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Cornet Cécile, Creemers Barbara, Creyelman Steven, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Spiegeleer Pieter, De Vriendt Wouter, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Metsu Koen, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (12)
+#### No votes (12)
 
 Colebunders Gaby, Daems Greet, D'Amico Roberto, De Smet François, De Vuyst Steven, Hedebouw Raoul, Merckx Sofie, Mertens Peter, Moscufo Nadia, Van Hees Marco, Vindevoghel Maria, Warmoes Thierry
 
-### Abstentions (3)
+#### Abstentions (3)
 
 Dallemagne Georges, Fonck Catherine, Matz Vanessa
 
 
-Motion # 15.
+### Motion 0.
 
-### Yes votes (131)
+#### Yes votes (131)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (0)
+#### No votes (0)
 
 
 
-### Abstentions (0)
+#### Abstentions (0)
 
 
 
 
-Motion # 16.
+### Motion 0.
 
-### Yes votes (131)
+#### Yes votes (131)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (0)
+#### No votes (0)
 
 
 
-### Abstentions (0)
+#### Abstentions (0)
 
 
 
 
-Motion # 17.
+### Motion 0.
 
-### Yes votes (38)
+#### Yes votes (38)
 
 Anseeuw Björn, Bury Katleen, Buysrogge Peter, Claes Mieke, Creyelman Steven, Dedecker Jean-Marie, Depoorter Kathleen, Depoortere Ortwin, De Roover Peter, De Spiegeleer Pieter, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dillen Marijke, Francken Theo, Gijbels Frieda, Gilissen Erik, Houtmeyers Katrien, Loones Sander, Metsu Koen, Pas Barbara, Ponthier Annick, Raskin Wouter, Ravyts Kurt, Roggeman Tomas, Safai Darya, Sneppe Dominiek, Troosters Frank, Van Bossuyt Anneleen, Van Camp Yoleen, Van Grieken Tom, Van Langenhove Dries, Van Lommel Reccino, Van Peel Valerie, Van Vaerenbergh Kristien, Vermeersch Wouter, Verreyt Hans, Wollants Bert
 
-### No votes (89)
+#### No votes (89)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Buyst Kim, Calvo Kristof, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Daems Greet, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depraetere Melissa, De Smet François, De Vriendt Wouter, De Vuyst Steven, Dierick Leen, Ducarme Denis, Farih Nawal, Flahaut André, Gabriëls Katja, Geens Koen, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Merckx Sofie, Mertens Peter, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Prévot Patrick, Reuter Florence, Rigot Hervé, Scourneau Vincent, Segers Ben, Senesael Daniel, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Zanchetta Laurence
 
-### Abstentions (6)
+#### Abstentions (6)
 
 Dallemagne Georges, Fonck Catherine, Freilich Michael, Ingels Yngvild, Matz Vanessa, Van der Donckt Wim
 
 
-Motion # 18.
+### Motion 1.
 
-### Yes votes (38)
+#### Yes votes (38)
 
 Anseeuw Björn, Bury Katleen, Buysrogge Peter, Claes Mieke, Creyelman Steven, Dedecker Jean-Marie, Depoorter Kathleen, Depoortere Ortwin, De Roover Peter, De Spiegeleer Pieter, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dillen Marijke, Francken Theo, Gijbels Frieda, Gilissen Erik, Houtmeyers Katrien, Loones Sander, Metsu Koen, Pas Barbara, Ponthier Annick, Raskin Wouter, Ravyts Kurt, Roggeman Tomas, Safai Darya, Sneppe Dominiek, Troosters Frank, Van Bossuyt Anneleen, Van Camp Yoleen, Van Grieken Tom, Van Langenhove Dries, Van Lommel Reccino, Van Peel Valerie, Van Vaerenbergh Kristien, Vermeersch Wouter, Verreyt Hans, Wollants Bert
 
-### No votes (81)
+#### No votes (81)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Buyst Kim, Calvo Kristof, Cornet Cécile, Creemers Barbara, Dallemagne Georges, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depraetere Melissa, De Smet François, De Vriendt Wouter, Dierick Leen, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Gabriëls Katja, Geens Koen, Goffin Philippe, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Matz Vanessa, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Prévot Patrick, Reuter Florence, Rigot Hervé, Scourneau Vincent, Segers Ben, Senesael Daniel, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Hecke Stefaan, Van Hoof Els, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vicaire Albert, Wilmès Sophie, Zanchetta Laurence
 
-### Abstentions (14)
+#### Abstentions (14)
 
 Colebunders Gaby, Daems Greet, D'Amico Roberto, De Vuyst Steven, Freilich Michael, Hedebouw Raoul, Ingels Yngvild, Merckx Sofie, Mertens Peter, Moscufo Nadia, Van der Donckt Wim, Van Hees Marco, Vindevoghel Maria, Warmoes Thierry
 
 
-Motion # 19.
+### Motion 2.
 
-### Yes votes (40)
+#### Yes votes (40)
 
 Anseeuw Björn, Bury Katleen, Buysrogge Peter, Claes Mieke, Creyelman Steven, Dedecker Jean-Marie, Depoorter Kathleen, Depoortere Ortwin, De Roover Peter, De Spiegeleer Pieter, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dillen Marijke, Fonck Catherine, Francken Theo, Gijbels Frieda, Gilissen Erik, Houtmeyers Katrien, Loones Sander, Matz Vanessa, Metsu Koen, Pas Barbara, Ponthier Annick, Raskin Wouter, Ravyts Kurt, Roggeman Tomas, Safai Darya, Sneppe Dominiek, Troosters Frank, Van Bossuyt Anneleen, Van Camp Yoleen, Van Grieken Tom, Van Langenhove Dries, Van Lommel Reccino, Van Peel Valerie, Van Vaerenbergh Kristien, Vermeersch Wouter, Verreyt Hans, Wollants Bert
 
-### No votes (77)
+#### No votes (77)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Buyst Kim, Calvo Kristof, Cornet Cécile, Creemers Barbara, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depraetere Melissa, De Smet François, De Vriendt Wouter, Dierick Leen, Ducarme Denis, Farih Nawal, Flahaut André, Gabriëls Katja, Geens Koen, Goffin Philippe, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Prévot Patrick, Reuter Florence, Rigot Hervé, Scourneau Vincent, Segers Ben, Senesael Daniel, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Hecke Stefaan, Van Hoof Els, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Vicaire Albert, Wilmès Sophie, Zanchetta Laurence
 
-### Abstentions (15)
+#### Abstentions (15)
 
 Colebunders Gaby, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Vuyst Steven, Freilich Michael, Hedebouw Raoul, Ingels Yngvild, Merckx Sofie, Mertens Peter, Moscufo Nadia, Van der Donckt Wim, Van Hees Marco, Vindevoghel Maria, Warmoes Thierry
 
 
-Motion # 20.
+### Motion 0.
 
-### Yes votes (109)
+#### Yes votes (109)
 
 Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buyst Kim, Calvo Kristof, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoortere Ortwin, Depraetere Melissa, De Smet François, De Spiegeleer Pieter, De Vriendt Wouter, De Vuyst Steven, Dewulf Nathalie, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Gabriëls Katja, Geens Koen, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Hugon Claire, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Ravyts Kurt, Reuter Florence, Rigot Hervé, Scourneau Vincent, Segers Ben, Senesael Daniel, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Vanrobaeys Anja, Verduyckt Kris, Verhaert Marianne, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Zanchetta Laurence
 
-### No votes (0)
+#### No votes (0)
 
 
 
-### Abstentions (24)
+#### Abstentions (24)
 
 Anseeuw Björn, Buysrogge Peter, Claes Mieke, Dedecker Jean-Marie, Depoorter Kathleen, De Roover Peter, De Wit Sophie, D'Haese Christoph, Francken Theo, Freilich Michael, Gijbels Frieda, Houtmeyers Katrien, Ingels Yngvild, Loones Sander, Metsu Koen, Raskin Wouter, Roggeman Tomas, Safai Darya, Van Bossuyt Anneleen, Van Camp Yoleen, Van der Donckt Wim, Van Peel Valerie, Van Vaerenbergh Kristien, Wollants Bert
 
 
-Motion # 21.
+### Motion 0.
 
-### Yes votes (130)
+#### Yes votes (130)
 
 Anseeuw Björn, Aouasti Khalil, Bacquelaine Daniel, Bayet Hugues, Beke Wouter, Ben Achour Malik, Bihet Mathieu, Bombled Christophe, Bonaventure Chanelle, Briers Jan, Burton Emmanuel, Bury Katleen, Buysrogge Peter, Buyst Kim, Calvo Kristof, Claes Mieke, Colebunders Gaby, Cornet Cécile, Creemers Barbara, Creyelman Steven, Daems Greet, Dallemagne Georges, D'Amico Roberto, De Block Maggie, De Caluwé Robby, Dedecker Jean-Marie, Defossé Guillaume, De Jonge Tania, Delizée Jean-Marc, De Maegd Michel, Demon Franky, Depoorter Kathleen, Depoortere Ortwin, Depraetere Melissa, De Roover Peter, De Smet François, De Vriendt Wouter, De Vuyst Steven, De Wit Sophie, Dewulf Nathalie, D'Haese Christoph, Dierick Leen, Dillen Marijke, Ducarme Denis, Farih Nawal, Flahaut André, Fonck Catherine, Francken Theo, Freilich Michael, Gabriëls Katja, Geens Koen, Gijbels Frieda, Gilissen Erik, Goffin Philippe, Hedebouw Raoul, Hennuy Laurence, Houtmeyers Katrien, Hugon Claire, Ingels Yngvild, Jiroflée Karin, Kir Emir, Laaouej Ahmed, Lachaert Egbert, Lacroix Christophe, Lanjri Nahima, Leoni Leslie, Leroy Marie-Colline, Loones Sander, Marghem Marie-Christine, Matz Vanessa, Merckx Sofie, Mertens Peter, Metsu Koen, Moscufo Nadia, Moutquin Simon, Moyaers Bert, Muylle Nathalie, Parent Nicolas, Pas Barbara, Piedboeuf Benoît, Pillen Jasper, Pisman Kathleen, Pivin Philippe, Platteau Eva, Ponthier Annick, Prévot Patrick, Raskin Wouter, Ravyts Kurt, Reuter Florence, Rigot Hervé, Roggeman Tomas, Safai Darya, Scourneau Vincent, Segers Ben, Sneppe Dominiek, Taquin Caroline, Thémont Sophie, Thiébaut Eric, Tillieux Eliane, Troosters Frank, Vajda Olivier, Vanbesien Dieter, Van Bossuyt Anneleen, Van Camp Yoleen, Van den Bergh Jef, Vandenbroucke Joris, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van Grieken Tom, Van Hecke Stefaan, Van Hees Marco, Van Hoof Els, Van Langenhove Dries, Van Lommel Reccino, Vanpeborgh Gitta, Van Peel Valerie, Vanrobaeys Anja, Van Vaerenbergh Kristien, Verduyckt Kris, Verhelst Kathleen, Verherstraeten Servais, Vermeersch Wouter, Verreyt Hans, Vicaire Albert, Vindevoghel Maria, Warmoes Thierry, Wilmès Sophie, Wollants Bert, Zanchetta Laurence
 
-### No votes (0)
+#### No votes (0)
 
 
 
-### Abstentions (0)
+#### Abstentions (0)
 
 
 
