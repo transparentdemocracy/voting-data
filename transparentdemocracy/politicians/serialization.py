@@ -19,7 +19,7 @@ class JsonSerializer:
 		list_json = json.dumps(
 			some_list,
 			default=lambda o: o.__dict__,
-			indent=4)
+			indent=2)
 		with open(os.path.join(self.output_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
