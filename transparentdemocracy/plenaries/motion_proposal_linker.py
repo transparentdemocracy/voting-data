@@ -141,20 +141,20 @@ def find_matching_proposal(
 		matching_proposals = [
 			proposal
 			for proposal in proposal_discussion.proposals
-				if proposal.documents_reference and
-				   (
-					(exact_match and proposal.documents_reference == motion.documents_reference) or
-					get_main_document_reference(proposal.documents_reference) == get_main_document_reference(
-				motion.documents_reference)
-			)
+			if proposal.documents_reference and
+			   (
+					   (exact_match and proposal.documents_reference == motion.documents_reference) or
+					   get_main_document_reference(proposal.documents_reference) == get_main_document_reference(
+				   motion.documents_reference)
+			   )
 		]
 
 		if len(matching_proposals) > 0:
 			if len(matching_proposals) > 1:
 				linking_problems.append(LinkProblem(
-                    report_file_name,
-                    LinkProblemType.MULTIPLE_PROPOSALS_FOUND
-                ))
+					report_file_name,
+					LinkProblemType.MULTIPLE_PROPOSALS_FOUND
+				))
 
 		matching_proposal = matching_proposals[0]
 
