@@ -135,24 +135,26 @@ def find_matching_proposal(
 	These sub-documents are often amendments, presented during the plenary and have a written trace in the plenary
 	report as a specific proposal, with the same document reference.
 	"""
-	matching_proposals = [
-		proposal
-		for proposal in proposal_discussion.proposals
-		if motion.documents_reference and (
-				(exact_match and proposal.documents_reference == motion.documents_reference) or
-				get_main_document_reference(proposal.documents_reference) == get_main_document_reference(
-			motion.documents_reference)
-		)
-	]
-
 	matching_proposal = None
 
-	if len(matching_proposals) > 0:
-		if len(matching_proposals) > 1:
-			linking_problems.append(LinkProblem(
-				report_file_name,
-				LinkProblemType.MULTIPLE_PROPOSALS_FOUND
-			))
+	if motion.documents_reference:
+		matching_proposals = [
+			proposal
+			for proposal in proposal_discussion.proposals
+				if proposal.documents_reference and
+				   (
+					(exact_match and proposal.documents_reference == motion.documents_reference) or
+					get_main_document_reference(proposal.documents_reference) == get_main_document_reference(
+				motion.documents_reference)
+			)
+		]
+
+		if len(matching_proposals) > 0:
+			if len(matching_proposals) > 1:
+				linking_problems.append(LinkProblem(
+                    report_file_name,
+                    LinkProblemType.MULTIPLE_PROPOSALS_FOUND
+                ))
 
 		matching_proposal = matching_proposals[0]
 
@@ -162,7 +164,7 @@ def find_matching_proposal(
 def get_main_document_reference(documents_reference: str):
 	if documents_reference is None:
 		return None
-	if '/' in documents_reference:
+	elif '/' in documents_reference:
 		return documents_reference.split('/')[0]
 	else:
 		return documents_reference
