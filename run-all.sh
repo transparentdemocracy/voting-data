@@ -3,7 +3,7 @@
 set -e
 set -x
 
-#./test.sh
+./test.sh
 
 mkdir -p out
 td-plenaries-markdown >out/td-plenaries-markdown.out 2>&1
