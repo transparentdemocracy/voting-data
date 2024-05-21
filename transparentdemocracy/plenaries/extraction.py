@@ -252,24 +252,28 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 			proposals.append(Proposal(proposal_id, nl_doc_ref, nl_text.strip(), fr_text.strip()))
 
 		if "verzoek om advies van de raad van state" in nl_proposal_text.lower():
-			description_nl = normalize_whitespace(
-				" ".join([el.text for el in discussion_body if el.text.strip() != ""]))
-			description_fr = normalize_whitespace(
-				" ".join([el.text for el in discussion_body if el.text.strip() != ""]))
+			description_nl_tags = [el for el in discussion_body if el.text.strip() != ""]
+			description_nl = normalize_whitespace(" ".join([el.text for el in description_nl_tags]))
+			description_fr_tags = [el for el in discussion_body if el.text.strip() != ""]
+			description_fr = normalize_whitespace(" ".join([el.text for el in description_fr_tags]))
 		else:
-			description_nl = normalize_whitespace(" ".join([el.text for el in discussion_body if
-															el.text.strip() != "" and determine_discussion_body_language(
-																el) in ["nl", None]]))
-			description_fr = normalize_whitespace(" ".join([el.text for el in discussion_body if
-															el.text.strip() != "" and determine_discussion_body_language(
-																el) in ["fr", None]]))
+			description_nl_tags = [el
+								   for el in discussion_body
+								   if el.text.strip() != "" and determine_discussion_body_language(el) in ["nl", None]]
+			description_nl = normalize_whitespace(" ".join([el.text for el in description_nl_tags]))
+			description_fr_tags = [el
+								   for el in discussion_body
+								   if el.text.strip() != "" and determine_discussion_body_language(el) in ["fr", None]]
+			description_fr = normalize_whitespace(" ".join(el.text for el in description_fr_tags))
 
 		pd = ProposalDiscussion(
 			proposal_discussion_id,
 			plenary_id,
 			plenary_agenda_item_number=int(level2_item.label, 10),
 			description_nl=description_nl,
+			description_nl_tags=description_nl_tags,
 			description_fr=description_fr,
+			description_fr_tags=description_fr_tags,
 			proposals=proposals
 		)
 

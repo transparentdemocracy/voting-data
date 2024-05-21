@@ -11,7 +11,7 @@ from datetime import date
 from enum import Enum
 from typing import List, Optional
 
-from bs4 import PageElement
+from bs4 import PageElement, Tag
 
 
 # Classes related to the plenaries and their "topics": proposals, motions (and later: interpellations).
@@ -59,7 +59,9 @@ class ProposalDiscussion:
 	plenary_id: str
 	plenary_agenda_item_number: int  # item number on the agenda in the plenary session during which the proposal was discussed. This is the number surrounded with a black border seen in all plenary reports.
 	description_nl: str
+	description_nl_tags: List[Tag]
 	description_fr: str
+	description_fr_tags: List[Tag]
 	proposals: List[Proposal]  # first proposal is the main one under discussion, optional others are linked proposals.
 
 

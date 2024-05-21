@@ -1,11 +1,7 @@
-import os.path
 import re
 from collections import defaultdict
 from typing import List, Optional, Generator
 
-import requests
-
-from transparentdemocracy import CONFIG
 from transparentdemocracy.model import Plenary, DocumentsReference
 from transparentdemocracy.plenaries.serialization import load_plenaries
 

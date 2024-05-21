@@ -3,8 +3,11 @@ import json
 import os
 from typing import List, Dict
 
+import bs4
+from bs4 import Tag
+
 from transparentdemocracy import CONFIG
-from transparentdemocracy.json_serde import DateTimeEncoder
+from transparentdemocracy.json_serde import PlenaryEncoder
 from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType, MotionGroup
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 from transparentdemocracy.plenaries.motion_proposal_linker import link_motions_with_proposals
@@ -111,10 +114,11 @@ class JsonSerializer:
 			raise ValueError("No plenaries occur with motion-proposal links. Run the motion_proposal_linker.py before "
 							 "serializing plenaries.")
 
+		print(self._plenary_to_dict(plenaries[0]))
+
 		list_json = json.dumps([self._plenary_to_dict(p) for p in plenaries],
-							   default=lambda o: o.__dict__,
 							   indent=2,
-							   cls=DateTimeEncoder)
+							   cls=PlenaryEncoder)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
@@ -185,14 +189,25 @@ def _json_to_plenary(data):
 
 
 def _json_to_proposal_discussion(data):
+	description_nl_tags = parse_tags(data.get('description_nl_tags', []))
+	description_fr_tags = parse_tags(data.get('description_fr_tags', []))
+
 	return ProposalDiscussion(
 		id=data['id'],
 		plenary_id=data['plenary_id'],
 		plenary_agenda_item_number=data['plenary_agenda_item_number'],
 		description_nl=data['description_nl'],
+		description_nl_tags=description_nl_tags,
 		description_fr=data['description_fr'],
+		description_fr_tags=description_fr_tags,
 		proposals=[_json_to_proposal(p) for p in data['proposals']],
 	)
+
+
+def parse_tags(html_snippets) -> List[Tag]:
+	if html_snippets:
+		return bs4.BeautifulSoup("".join(html_snippets)).contents
+	return []
 
 
 def _json_to_proposal(data):

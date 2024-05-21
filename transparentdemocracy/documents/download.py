@@ -39,15 +39,12 @@ def download_referenced_documents():
 
 
 def _download(url, local_path):
-	# Send a GET request to the URL
 	response = requests.get(url)
 
-	# Raise an exception if the request was unsuccessful
 	if response.status_code != 200:
-		print(f"{response.status_code}: {url}")
+		logger.info(f"Failed to download document, status code {response.status_code}: {url}")
 		return
 
-	# Open the local file in write-binary mode and write the content to it
 	with open(local_path, 'wb') as file:
 		file.write(response.content)
 

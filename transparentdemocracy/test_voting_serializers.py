@@ -26,7 +26,6 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
 
 		MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries([plenary], votes)
 
-		print(tmp_markdown_output_dir)
 		with open(os.path.join(tmp_markdown_output_dir, 'plenary 298.md')) as plenary_file:
 			actual_markdown = plenary_file.read()
 
