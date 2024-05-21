@@ -98,7 +98,9 @@ def find_matching_proposal_discussion(
 		proposal_discussion
 		for plenary in plenaries
 		for proposal_discussion in plenary.proposal_discussions
-		if proposal_discussion.proposals[0].documents_reference == motion_group.documents_reference
+	# link proposal discussions and proposals with same main document number, but different sub-documents:
+		if get_main_document_reference(proposal_discussion.proposals[0].documents_reference) \
+		   == get_main_document_reference(motion_group.documents_reference)
 	]
 
 	matching_proposal_discussion = None
