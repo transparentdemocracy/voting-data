@@ -160,6 +160,8 @@ def find_matching_proposal(
 
 
 def get_main_document_reference(documents_reference: str):
+	if documents_reference is None:
+		return None
 	if '/' in documents_reference:
 		return documents_reference.split('/')[0]
 	else:

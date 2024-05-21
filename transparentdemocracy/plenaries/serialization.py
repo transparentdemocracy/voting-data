@@ -7,6 +7,7 @@ from transparentdemocracy import CONFIG
 from transparentdemocracy.json_serde import DateTimeEncoder
 from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType, MotionGroup
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
+from transparentdemocracy.plenaries.motion_proposal_linker import link_motions_with_proposals
 
 
 class MarkdownSerializer:
@@ -153,6 +154,7 @@ def write_markdown(plenaries=None, votes=None):
 def write_plenaries_json(plenaries=None):
 	if plenaries is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
+	link_motions_with_proposals(plenaries)
 	JsonSerializer().serialize_plenaries(plenaries)
 
 
