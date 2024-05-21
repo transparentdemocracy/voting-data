@@ -30,8 +30,6 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
 		with open(os.path.join(tmp_markdown_output_dir, 'plenary 298.md')) as plenary_file:
 			actual_markdown = plenary_file.read()
 
-		print(actual_markdown)
-		print("FIN")
 		self.assertEqual(expected_markdown, actual_markdown)
 
 
