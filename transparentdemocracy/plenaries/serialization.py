@@ -15,7 +15,7 @@ class MarkdownSerializer:
 		os.makedirs(output_path, exist_ok=True)
 
 	def serialize_plenaries(self, plenaries: List[Plenary], votes: List[Vote]) -> None:
-		votes_by_motion_id = dict([(k, list(v)) for k, v in itertools.groupby(votes, lambda v: v.voting_id)])
+		votes_by_voting_id = dict([(k, list(v)) for k, v in itertools.groupby(votes, lambda v: v.voting_id)])
 		for plenary in plenaries:
 			markdown_result = ""
 			markdown_result += f"# Plenary gathering {plenary.number}\n\n"
@@ -27,10 +27,11 @@ class MarkdownSerializer:
 				markdown_result += self._serialize_proposal_discussions(proposal_discussion)
 
 			for motion in plenary.motions:
-				motion_votes = dict(votes_by_motion_id).get(motion.id, None)
-				motion_votes = list(motion_votes) if motion_votes else []
+				if motion.voting_id:
+					motion_votes = dict(votes_by_voting_id).get(motion.voting_id, None)
+					motion_votes = list(motion_votes) if motion_votes else []
 
-				markdown_result += self._serialize_motion(motion, motion_votes)
+					markdown_result += self._serialize_motion(motion, motion_votes)
 
 			with open(os.path.join(self.output_path, f"plenary {str(plenary.number).zfill(3)}.md"), "w",
 					  encoding="utf-8") as output_file:
@@ -59,7 +60,7 @@ class MarkdownSerializer:
 		return markdown_result
 
 	def _serialize_motion(self, motion: Motion, votes: List[Vote]) -> None:
-		markdown_result = f"Motion # {motion.number}."
+		markdown_result = f"### Motion {motion.sequence_number}."
 		if motion.cancelled:
 			markdown_result += " (cancelled)"
 		markdown_result += "\n\n"
@@ -79,7 +80,7 @@ class MarkdownSerializer:
 
 	def _serialize_votes_for_type(self, votes: List[Vote], vote_type: VoteType, title: str):
 		filtered_votes = [v for v in votes if v.vote_type == vote_type]
-		markdown_result = f"### {title} ({len(filtered_votes)})\n\n"
+		markdown_result = f"#### {title} ({len(filtered_votes)})\n\n"
 		markdown_result += ", ".join([vote.politician.full_name for vote in filtered_votes])
 		markdown_result += "\n\n"
 		return markdown_result
@@ -95,7 +96,7 @@ class JsonSerializer:
 
 	def serialize_votes(self, votes: List[Vote]) -> None:
 		self._serialize_list([dict(
-			motion_id=v.voting_id,
+			voting_id=v.voting_id,
 			vote_type=v.vote_type,
 			politician_id=v.politician.id) for v
 			in votes], "votes.json")
@@ -109,13 +110,17 @@ class JsonSerializer:
 			raise ValueError("No plenaries occur with motion-proposal links. Run the motion_proposal_linker.py before "
 							 "serializing plenaries.")
 
-		list_json = json.dumps([self._plenary_to_dict(p) for p in plenaries], default=lambda o: o.__dict__,
+		list_json = json.dumps([self._plenary_to_dict(p) for p in plenaries],
+							   default=lambda o: o.__dict__,
+							   indent=2,
 							   cls=DateTimeEncoder)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 
 	def _serialize_list(self, some_list: List, output_file: str) -> None:
-		list_json = json.dumps(some_list, default=lambda o: o.__dict__)
+		list_json = json.dumps(some_list,
+							   indent=2,
+							   default=lambda o: o.__dict__)
 		with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
 			output_file.write(list_json)
 

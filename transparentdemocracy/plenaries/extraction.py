@@ -10,7 +10,7 @@ import re
 from dataclasses import dataclass
 from typing import Tuple, List, Optional, Union
 
-from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
+from bs4 import BeautifulSoup, NavigableString, Tag
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
@@ -318,8 +318,10 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 
 		cancelled = any("wordt geannuleerd" in normalize_whitespace(tag.text).lower() for tag in motion_tag_group)
 
-		title_fr = normalize_whitespace(motion_tag_group[0].text)
-		title_nl = normalize_whitespace(motion_tag_group[1].text)
+		title_tag_nl, title_tag_fr = find_nl_and_fr_tag(motion_tag_group[:2])
+
+		title_fr = normalize_whitespace(title_tag_fr.text)
+		title_nl = normalize_whitespace(title_tag_nl.text)
 
 		label_nl, title_nl, doc_ref_fr = __split_number_title_doc_ref(title_nl)
 		label_fr, title_fr, doc_ref_nl = __split_number_title_doc_ref(title_fr)
@@ -344,7 +346,19 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 		fr_title,
 		doc_ref_nl,
 		motions,
-		None) # The link with a proposal will be filled in later, by the motion_proposal_linker.py.
+		None)  # The link with a proposal will be filled in later, by the motion_proposal_linker.py.
+
+
+def find_nl_and_fr_tag(tags: List[Tag]) -> Tuple[Tag, Tag]:
+	if len(tags) == 0:
+		raise Exception("no tags {}", tags)
+	if len(tags) < 2:
+		raise Exception("only 1 tag", tags)
+
+	if 'NormalNL' in get_class(tags[0]) or 'NormalFR' in get_class(tags[1]):
+		return tags[0], tags[1]
+
+	return tags[1], tags[0]
 
 
 def find_voting_numbers(motion_tags):
@@ -595,7 +609,7 @@ def _extract_motion_report_items(ctx: PlenaryExtractionContext) -> List[ReportIt
 	return _extract_report_items(ctx.report_path, naamstemmingen_title.find_next_siblings())
 
 
-def _extract_report_items(report_path: str, elements: List[PageElement]) -> List[ReportItem]:
+def _extract_report_items(report_path: str, elements: List[Tag]) -> List[ReportItem]:
 	if not elements:
 		return []
 
@@ -611,7 +625,7 @@ def _extract_report_items(report_path: str, elements: List[PageElement]) -> List
 	return [item for item in report_items if (item.nl_title.strip() != "" or item.fr_title.strip() != "")]
 
 
-def is_report_item_title(el):
+def is_report_item_title(el: Tag):
 	if el.name == "h2":
 		return True
 	if el.name == "p" and any([clazz in ["Titre2NL", "Titre2FR"] for clazz in ((el and el.get("class")) or [])]):
@@ -644,6 +658,7 @@ def get_class(el):
 	classes = el.get("class")
 	if not classes:
 		return []
+	return classes
 
 
 def create_level2_tag_groups(tags):

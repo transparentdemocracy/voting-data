@@ -91,8 +91,8 @@ class MotionExtractionTest(unittest.TestCase):
 
 		self.assertEqual(39, len(motions))
 		self.assertEqual("55_298_mg_10_m0", motions[0].id)
-		self.assertEqual("Deze interpellaties werden gehouden in de plenaire vergadering van heden.", 
-                         motions[0].title_nl)
+		self.assertEqual("Deze interpellaties werden gehouden in de plenaire vergadering van heden.",
+						 motions[0].title_nl)
 		self.assertEqual("Ces interpellations ont été développées en séance plénière de ce jour.", motions[0].title_fr)
 		# skipping test for doc_ref and description on this case for now
 		self.assertEqual(False, motions[0].cancelled)
@@ -133,7 +133,7 @@ class MotionExtractionTest(unittest.TestCase):
 								"Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. Bijgevolg is het amendement verworpen.",
 								# There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
 								None),
-						motion_groups[4].motions[0])
+						 motion_groups[4].motions[0])
 
 		# Outcomes with current implementation:
 		motions = plenary.motions
@@ -225,12 +225,12 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
 		self.assertEqual(0, len(exceptions))
-		self.assertEqual(300, len(plenaries))
+		self.assertEqual(309, len(plenaries))
 
 		all_motions = [motion for plenary in plenaries for motion in plenary.motions]
-		self.assertEqual(3557, len(all_motions))
+		self.assertEqual(3873, len(all_motions))
 
-		self.assertEqual(257, len(problems))
+		self.assertEqual(266, len(problems))
 
 	def test_extract_from_html_plenary_report__ip298x_html__go_to_example_report(self):
 		# Plenary report 298 has long been our first go-to example plenary report to test our extraction against.
@@ -309,17 +309,28 @@ class PlenaryExtractionTest(unittest.TestCase):
 		self.assertEqual(4, count_abstention)
 		self.assertEqual(['Arens Josy', 'Daems Greet'], abstention_voters[:2])
 
-	# def test_extract_from_html_plenary_report__ip010x_html(self):
-	# 	report_path = CONFIG.plenary_html_input_path("ip010x.html")
-	# 	plenary, votes, problems = extract_from_html_plenary_report(report_path)
-	#
-	# 	### In 27, a vote is cancelled
-	# 	self.assertIsNotNone(plenary)
-	# 	self.assertIsNotNone(votes)
-	# 	self.assertIsNotNone(problems)
-	#
-	# 	motion_groups = plenary.motion_groups
-	# 	self.assertEqual(99, len(motion_groups))
+	def test_extract_from_html_plenary_report__ip010x_html(self):
+		report_path = CONFIG.plenary_html_input_path("ip010x.html")
+		plenary, votes, problems = extract_from_html_plenary_report(report_path)
+
+		self.assertIsNotNone(plenary)
+		self.assertIsNotNone(votes)
+		self.assertIsNotNone(problems)
+
+		motion_groups = plenary.motion_groups
+		self.assertEqual(9, len(motion_groups))
+
+		motions = plenary.motions
+		motion = next(m for m in motions if m.id == "55_010_mg_27_m0")
+		self.assertTrue(motion.cancelled)
+
+	def test_motion_title_language(self):
+		report_path = CONFIG.plenary_html_input_path("ip160x.html")
+		plenary, votes, problems = extract_from_html_plenary_report(report_path)
+
+		motion = next(m for m in plenary.motions if m.id == "55_160_mg_20_m0")
+
+		self.assertStartsWith("Deze interpellatie werd gehouden in de openbare", motion.title_nl)
 
 	def test_extract_from_html_plenary_report__ip285x_html(self):
 		# This report has no proposal discussions.

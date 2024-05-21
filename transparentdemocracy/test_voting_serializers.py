@@ -16,17 +16,23 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
 		root_folder = os.path.dirname(os.path.dirname(__file__))
 		CONFIG.data_dir = os.path.join(root_folder, "testdata")
 
-	@unittest.skip("broken because proposal parsing fails")
 	def test_serialize(self):
 		tmp_markdown_output_dir = tempfile.mkdtemp("plenary-markdown-")
 		with open(os.path.join(os.path.dirname(__file__), 'fixtures', 'plenary 298.md'), 'r') as md_file:
 			expected_markdown = md_file.read()
+
 		plenary, votes, problems = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip298x.html'))
+		link_motions_with_proposals([plenary])
 
 		MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries([plenary], votes)
 
+		print(tmp_markdown_output_dir)
 		with open(os.path.join(tmp_markdown_output_dir, 'plenary 298.md')) as plenary_file:
-			self.assertEqual(expected_markdown, plenary_file.read())
+			actual_markdown = plenary_file.read()
+
+		print(actual_markdown)
+		print("FIN")
+		self.assertEqual(expected_markdown, actual_markdown)
 
 
 class TestPlenaryJsonSerializer(unittest.TestCase):
