@@ -26,8 +26,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         plenaries, link_problems = link_motions_with_proposals(plenaries)
 
         # Assert
-        plenary262 = [plenary for plenary in plenaries if plenary.number == 262][0]
-        motion_group12 = plenary262.motion_groups[4]
+        self.assertEqual(550, len(link_problems))
 
     def test_link_motions_with_proposals__ip_262x_html__links_to_correct_proposals(self):
         # Checking first and foremost whether ip262x.html, the example report we used for agreeing on how to implement

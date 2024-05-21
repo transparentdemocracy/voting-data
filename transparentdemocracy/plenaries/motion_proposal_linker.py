@@ -156,7 +156,7 @@ def find_matching_proposal(
 					LinkProblemType.MULTIPLE_PROPOSALS_FOUND
 				))
 
-		matching_proposal = matching_proposals[0]
+			matching_proposal = matching_proposals[0]
 
 	return matching_proposal
 
