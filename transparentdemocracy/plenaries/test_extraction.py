@@ -218,7 +218,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		self.assertEqual(len(plenary_nrs), len(plenaries))
 
-	# @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
+	@unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
 	def test_extract_from_all_plenary_reports_does_not_throw(self):
 		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
 		plenaries, all_votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
