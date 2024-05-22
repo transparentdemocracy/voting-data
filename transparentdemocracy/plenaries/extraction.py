@@ -306,51 +306,65 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 	motion_group_number = int(item.label, 10) if item.label is not None else (- index)
 	motion_group_id = f"{plenary_id}_mg_{motion_group_number}"
 
-	motions = []
-	motion_tag_groups = split_motion_group_item(ctx, item)
-	for index, motion_tag_group in enumerate(motion_tag_groups):
-		# TODO: detect cancellation (there should be a failing test)
-		motion_id = f"{motion_group_id}_m{index}"
-		voting_numbers = find_voting_numbers(motion_tag_group)
-		voting_numbers = list(dict.fromkeys(voting_numbers))
-
-		if len(voting_numbers) > 1:
-			ctx.add_problem("MOTION_HAS_MULTIPLE_VOTING_IDS", motion_id)
-
-		voting_number = voting_numbers[-1] if voting_numbers else None
-		voting_id = f"{plenary_id}_v{voting_number}" if voting_number else None
-
-		cancelled = any("wordt geannuleerd" in normalize_whitespace(tag.text).lower() for tag in motion_tag_group)
-
-		title_tag_nl, title_tag_fr = find_nl_and_fr_tag(motion_tag_group[:2])
-
-		title_fr = normalize_whitespace(title_tag_fr.text)
-		title_nl = normalize_whitespace(title_tag_nl.text)
-
-		label_nl, title_nl, doc_ref_fr = __split_number_title_doc_ref(title_nl)
-		label_fr, title_fr, doc_ref_nl = __split_number_title_doc_ref(title_fr)
-
-		if doc_ref_fr != doc_ref_nl:
-			ctx.add_problem("MOTION_DOC_REF_DIFFERENCE_NL_FR", motion_id)
-
-		description = normalize_whitespace("\n".join([t.text for t in motion_tag_group[2:]]))
-		motions.append(Motion(motion_id, str(index), title_nl, title_fr, doc_ref_nl, voting_id, cancelled, description,
-							  None))
-
-	_, nl_title, doc_ref_nl = __split_number_title_doc_ref(normalize_whitespace(item.nl_title))
-	_, fr_title, doc_ref_fr = __split_number_title_doc_ref(normalize_whitespace(item.fr_title))
+	_, motion_group_title_nl, doc_ref_nl = __split_number_title_doc_ref(normalize_whitespace(item.nl_title))
+	_, motion_group_title_fr, doc_ref_fr = __split_number_title_doc_ref(normalize_whitespace(item.fr_title))
 
 	if doc_ref_nl != doc_ref_fr:
 		ctx.add_problem("DOC_REF_NL_FR_DIFFERENT", motion_group_id)
 
+	motions = []
+	motion_tag_groups = split_motion_group_item(ctx, item)
+	for index, motion_tag_group in enumerate(motion_tag_groups):
+		motion = construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_group_title_nl,
+								  motion_tag_group, plenary_id, doc_ref_nl)
+		motions.append(motion)
+
 	return MotionGroup(
 		motion_group_id,
 		motion_group_number,
-		nl_title,
-		fr_title,
+		motion_group_title_nl,
+		motion_group_title_fr,
 		doc_ref_nl,
 		motions,
 		None)  # The link with a proposal will be filled in later, by the motion_proposal_linker.py.
+
+
+def construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_group_title_nl,
+					 motion_tag_group, plenary_id, motion_group_doc_ref) -> Motion:
+	motion_id = f"{motion_group_id}_m{index}"
+	voting_numbers = find_voting_numbers(motion_tag_group)
+	voting_numbers = list(dict.fromkeys(voting_numbers))
+	if len(voting_numbers) > 1:
+		ctx.add_problem("MOTION_HAS_MULTIPLE_VOTING_IDS", motion_id)
+	voting_number = voting_numbers[-1] if voting_numbers else None
+	voting_id = f"{plenary_id}_v{voting_number}" if voting_number else None
+	cancelled = any("wordt geannuleerd" in normalize_whitespace(tag.text).lower() for tag in motion_tag_group)
+
+	# Often, within motion groups, each motion starts with 2 HTML tags that are "Vote sur..." / "Stemming over...",
+	# this occurs particularly often when motion groups contain multiple amendments:
+	title_tag_nl, title_tag_fr = find_nl_and_fr_tag(motion_tag_group[:2])
+	title_fr = normalize_whitespace(title_tag_fr.text)
+	title_nl = normalize_whitespace(title_tag_nl.text)
+	label_nl, title_nl, doc_ref_fr = __split_number_title_doc_ref(title_nl)
+	label_fr, title_fr, doc_ref_nl = __split_number_title_doc_ref(title_fr)
+	if doc_ref_fr != doc_ref_nl:
+		ctx.add_problem("MOTION_DOC_REF_DIFFERENCE_NL_FR", motion_id)
+
+	# However, sometimes, the first two HTML tags within the motion group are NOT Dutch and French titles for the
+	# motion. They simply are the start of the textual description of the motion.
+	# Then we can use the already extracted title
+	# This is particularly often the case when a motion group contains only one motion, but not always: even if a
+	# motion group contains only one motion, it sometimes still starts with "Vote sur...", which is the actual
+	# motion title.
+	# It is safer to look for the absense of "Vote sur..." / "Stemming over..." than to count the motion elements.
+	if not title_fr.startswith("Vote sur") and not title_nl.startswith("Stemming over"):
+		title_nl, title_fr = motion_group_title_nl, motion_group_title_fr
+		doc_ref_nl = motion_group_doc_ref
+
+	description = normalize_whitespace("\n".join([t.text for t in motion_tag_group[2:]]))
+	motion = Motion(motion_id, str(index), title_nl, title_fr, doc_ref_nl, voting_id, cancelled, description, None)
+
+	return motion
 
 
 def find_nl_and_fr_tag(tags: List[Tag]) -> Tuple[Tag, Tag]:

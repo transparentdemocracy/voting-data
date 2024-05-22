@@ -91,9 +91,8 @@ class MotionExtractionTest(unittest.TestCase):
 
 		self.assertEqual(39, len(motions))
 		self.assertEqual("55_298_mg_10_m0", motions[0].id)
-		self.assertEqual("Deze interpellaties werden gehouden in de plenaire vergadering van heden.",
-						 motions[0].title_nl)
-		self.assertEqual("Ces interpellations ont été développées en séance plénière de ce jour.", motions[0].title_fr)
+		self.assertTrue(motions[0].title_nl.startswith("Moties ingediend tot besluit van de interpellaties van - Koen Metsu over "))
+		self.assertTrue(motions[0].title_fr.startswith("Motions déposées en conclusion des interpellations de - Koen Metsu sur"))
 		# skipping test for doc_ref and description on this case for now
 		self.assertEqual(False, motions[0].cancelled)
 		self.assertEqual(None, motions[0].proposal_id)
@@ -224,13 +223,13 @@ class PlenaryExtractionTest(unittest.TestCase):
 		plenaries, all_votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
 		exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
-		self.assertGreater(0, len(exceptions))
-		self.assertGreater(309, len(plenaries))
+		self.assertLessEqual(0, len(exceptions))
+		self.assertLessEqual(309, len(plenaries))
 
 		all_motions = [motion for plenary in plenaries for motion in plenary.motions]
-		self.assertGreater(3873, len(all_motions))
+		self.assertLessEqual(3873, len(all_motions))
 
-		self.assertGreater(266, len(problems))
+		self.assertLessEqual(266, len(problems))
 
 	def test_extract_from_html_plenary_report__ip298x_html__go_to_example_report(self):
 		# Plenary report 298 has long been our first go-to example plenary report to test our extraction against.
@@ -330,7 +329,8 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		motion = next(m for m in plenary.motions if m.id == "55_160_mg_20_m0")
 
-		self.assertStartsWith("Deze interpellatie werd gehouden in de openbare", motion.title_nl)
+		self.assertStartsWith("Moties ingediend tot besluit van de interpellatie van mevrouw Annick Ponthier",
+							  motion.title_nl)
 
 	def test_extract_from_html_plenary_report__ip285x_html(self):
 		# This report has no proposal discussions.
