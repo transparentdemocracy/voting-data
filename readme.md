@@ -82,7 +82,9 @@ Run `./test.sh` to run unit tests.
 
 Note: one of the tests is rather slow, you can skip it by setting the SKIP_SLOW environment variable: `SKIP_SLOW=1 ./test.sh`
 
-## Generating data
+## Downloading and generating data
 
-Run `./run-all.sh` to generate all the data in data/output/...
+First, run `./download-reports.sh` and `./download-actors.sh` to download plenary html reports and json information about politicians
+
+Next, run  `./run-all.sh` to generate all the data used the downstream projects (data is written to `data/output/...`)
 

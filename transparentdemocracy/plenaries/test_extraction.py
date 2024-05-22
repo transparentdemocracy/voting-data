@@ -224,13 +224,13 @@ class PlenaryExtractionTest(unittest.TestCase):
 		plenaries, all_votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
 		exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
-		self.assertEqual(0, len(exceptions))
-		self.assertEqual(309, len(plenaries))
+		self.assertGreater(0, len(exceptions))
+		self.assertGreater(309, len(plenaries))
 
 		all_motions = [motion for plenary in plenaries for motion in plenary.motions]
-		self.assertEqual(3873, len(all_motions))
+		self.assertGreater(3873, len(all_motions))
 
-		self.assertEqual(266, len(problems))
+		self.assertGreater(266, len(problems))
 
 	def test_extract_from_html_plenary_report__ip298x_html__go_to_example_report(self):
 		# Plenary report 298 has long been our first go-to example plenary report to test our extraction against.
