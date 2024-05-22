@@ -64,7 +64,7 @@ Note that you should run `. venv/bin/activate` (or equivalent) whenever you want
 
 ### Install the project in developer mode
 
-    python setup.py develop --user
+    pip install -e .
 
 ### Set up OpenAI
 
@@ -81,4 +81,8 @@ Set the OPENAI_API_KEY environment variable to the secret key you just created.
 Run `./test.sh` to run unit tests.
 
 Note: one of the tests is rather slow, you can skip it by setting the SKIP_SLOW environment variable: `SKIP_SLOW=1 ./test.sh`
+
+## Generating data
+
+Run `./run-all.sh` to generate all the data in data/output/...
 
