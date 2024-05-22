@@ -28,7 +28,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         # Assert
         # The exact amount doesn't matter. We just want to make sure it doesn't crash.
         # Ideally, less is better
-        self.assertLessEqual(len(link_problems), 597)  # Detect if much more problems started to appear than before.
+        self.assertLessEqual(len(link_problems), 79)  # Detect if much more problems started to appear than before.
         self.assertGreater(len(link_problems), 0)  # 0 problems could also indicate a problem with the data
 
     def test_link_motions_with_proposals__ip_298x_html__links_to_correct_proposals(self):

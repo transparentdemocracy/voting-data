@@ -94,25 +94,26 @@ def find_matching_proposal_discussion(
 	The _first-mentioned proposal_ will also mention the full reference to the main document _and_ all sub-documents
 	that will be discussed.
 	"""
-	matching_proposal_discussions = [
-		proposal_discussion
-		for plenary in plenaries
-		for proposal_discussion in plenary.proposal_discussions
-	# link proposal discussions and proposals with same main document number, but different sub-documents:
-		if get_main_document_reference(proposal_discussion.proposals[0].documents_reference) \
-		   == get_main_document_reference(motion_group.documents_reference)
-	]
-
 	matching_proposal_discussion = None
 
-	if len(matching_proposal_discussions) > 0:
-		if len(matching_proposal_discussions) > 1:
-			linking_problems.append(LinkProblem(
-				report_file_name,
-				LinkProblemType.MULTIPLE_PROPOSAL_DISCUSSIONS_FOUND
-			))
+	if motion_group.documents_reference:
+		matching_proposal_discussions = [
+			proposal_discussion
+			for plenary in plenaries
+			for proposal_discussion in plenary.proposal_discussions
+			# link proposal discussions and proposals with same main document number, but different sub-documents:
+			if get_main_document_reference(proposal_discussion.proposals[0].documents_reference) \
+			   == get_main_document_reference(motion_group.documents_reference)
+		]
 
-		matching_proposal_discussion = matching_proposal_discussions[0]
+		if len(matching_proposal_discussions) > 0:
+			if len(matching_proposal_discussions) > 1:
+				linking_problems.append(LinkProblem(
+					report_file_name,
+					LinkProblemType.MULTIPLE_PROPOSAL_DISCUSSIONS_FOUND
+				))
+
+			matching_proposal_discussion = matching_proposal_discussions[0]
 
 	return matching_proposal_discussion
 
