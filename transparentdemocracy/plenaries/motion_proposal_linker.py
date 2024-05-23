@@ -26,8 +26,7 @@ from transparentdemocracy.model import Plenary, ProposalDiscussion, MotionGroup,
 
 
 class LinkProblemType(enum.Enum):
-	MULTIPLE_PROPOSAL_DISCUSSIONS_FOUND = "MULTIPLE_PROPOSAL_DISCUSSIONS_FOUND"
-	MULTIPLE_PROPOSALS_FOUND = "MULTIPLE_PROPOSALS_FOUND"
+	pass # 2 existing problem types resolved.
 
 
 @dataclass
@@ -61,32 +60,31 @@ def link_motions_with_proposals(plenaries: List[Plenary]) -> Tuple[List[Plenary]
 		# Motion groups bundles votes cast on an idea proposed in a document and potentially sub-documents.
 		# These documents, as a whole, are also presented and discussed during a proposal discussion.
 		for motion_group in plenary.motion_groups:
-			matching_proposal_discussion = find_matching_proposal_discussion(motion_group,
-																			 plenaries,
-																			 os.path.basename(plenary.html_report_url),
-																			 problems)
-			if matching_proposal_discussion:
-				motion_group.proposal_discussion_id = matching_proposal_discussion.id
+			matching_proposal_discussions = find_matching_proposal_discussions(motion_group,
+																			   plenaries,
+																			   os.path.basename(plenary.html_report_url),
+																			   problems)
+			if matching_proposal_discussions:
+				motion_group.proposal_discussion_ids = sorted([pd.id for pd in matching_proposal_discussions])
 
 				for motion in motion_group.motions:
-					matching_proposal = find_matching_proposal(motion,
-															   matching_proposal_discussion,
-															   os.path.basename(plenary.html_report_url),
-															   problems,
-															   exact_match=False)
-					if matching_proposal:
-						motion.proposal_id = matching_proposal.id
+					matching_proposals = find_matching_proposals(motion,
+																matching_proposal_discussions,
+																os.path.basename(plenary.html_report_url),
+																problems,
+																exact_match=False)
+					motion.proposal_ids = sorted([p.id for p in matching_proposals])
 
 	return plenaries, problems
 
 
-def find_matching_proposal_discussion(
+def find_matching_proposal_discussions(
 		motion_group: MotionGroup,
 		plenaries: List[Plenary],
 		report_file_name: str,
-		linking_problems: List[LinkProblem]) -> ProposalDiscussion:
+		linking_problems: List[LinkProblem]) -> List[ProposalDiscussion]:
 	"""
-	Find a proposal discussion that matches (on documents reference) with the given motion group.
+	Find one or more proposal discussions that match (on documents reference) with the given motion group.
 
 	A motion group contains a reference to the main document and the series of sub-documents that contain all ideas
 	that will be voted on, for example: "3495/1-5".
@@ -94,7 +92,7 @@ def find_matching_proposal_discussion(
 	The _first-mentioned proposal_ will also mention the full reference to the main document _and_ all sub-documents
 	that will be discussed.
 	"""
-	matching_proposal_discussion = None
+	matching_proposal_discussions = []
 
 	if motion_group.documents_reference:
 		matching_proposal_discussions = [
@@ -106,27 +104,18 @@ def find_matching_proposal_discussion(
 			   == get_main_document_reference(motion_group.documents_reference)
 		]
 
-		if len(matching_proposal_discussions) > 0:
-			if len(matching_proposal_discussions) > 1:
-				linking_problems.append(LinkProblem(
-					report_file_name,
-					LinkProblemType.MULTIPLE_PROPOSAL_DISCUSSIONS_FOUND
-				))
-
-			matching_proposal_discussion = matching_proposal_discussions[0]
-
-	return matching_proposal_discussion
+	return matching_proposal_discussions
 
 
-def find_matching_proposal(
+def find_matching_proposals(
 		motion: Motion,
-		proposal_discussion: ProposalDiscussion,
+		proposal_discussions: List[ProposalDiscussion],
 		report_file_name: str,
 		linking_problems: List[LinkProblem],
-		exact_match: bool = True) -> Proposal:
+		exact_match: bool = True) -> List[Proposal]:
 	"""
-	Find a proposal that matches (on documents reference) with the given motion.
-	The proposal is searched within an already found proposal discussion.
+	Find one or more proposals that match (on documents reference) with the given motion.
+	The proposal is searched within already found proposal discussions.
 
 	The proposal must either share an exactly matching documents reference with the given motion (for example,
 	"3495/1-5"), or a match just on the main document reference instead ("3495").
@@ -138,11 +127,12 @@ def find_matching_proposal(
 	These sub-documents are often amendments, presented during the plenary and have a written trace in the plenary
 	report as a specific proposal, with the same document reference.
 	"""
-	matching_proposal = None
+	matching_proposals = []
 
 	if motion.documents_reference:
 		matching_proposals = [
 			proposal
+			for proposal_discussion in proposal_discussions
 			for proposal in proposal_discussion.proposals
 			if proposal.documents_reference and
 			   (
@@ -152,16 +142,7 @@ def find_matching_proposal(
 			   )
 		]
 
-		if len(matching_proposals) > 0:
-			if len(matching_proposals) > 1:
-				linking_problems.append(LinkProblem(
-					report_file_name,
-					LinkProblemType.MULTIPLE_PROPOSALS_FOUND
-				))
-
-			matching_proposal = matching_proposals[0]
-
-	return matching_proposal
+	return matching_proposals
 
 
 def get_main_document_reference(documents_reference: str):

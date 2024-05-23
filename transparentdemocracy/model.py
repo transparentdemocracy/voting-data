@@ -75,7 +75,7 @@ class Motion:
 	voting_id: Optional[str]
 	cancelled: bool
 	description: str
-	proposal_id: Optional[str]
+	proposal_ids: List[str]
 
 
 @dataclass
@@ -86,7 +86,7 @@ class MotionGroup:
 	title_fr: str
 	documents_reference: str  # example: 3495/1-5
 	motions: List[Motion]
-	proposal_discussion_id: Optional[str]
+	proposal_discussion_ids: List[str]
 
 
 @dataclass

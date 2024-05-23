@@ -13,7 +13,6 @@ def main():
 	plenaries, votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"), num_reports_to_process=None)
 	plenaries, link_problems = link_motions_with_proposals(plenaries)
 	serialize(plenaries, votes)
-	# enrich_plenaries()
 
 
 if __name__ == "__main__":

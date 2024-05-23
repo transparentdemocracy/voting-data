@@ -95,7 +95,7 @@ class MotionExtractionTest(unittest.TestCase):
 		self.assertTrue(motions[0].title_fr.startswith("Motions déposées en conclusion des interpellations de - Koen Metsu sur"))
 		# skipping test for doc_ref and description on this case for now
 		self.assertEqual(False, motions[0].cancelled)
-		self.assertEqual(None, motions[0].proposal_id)
+		self.assertEqual([], motions[0].proposal_ids)
 
 	def test_extract_motions__ip262x_html__go_to_example_report(self):
 		# The example report we used for agreeing on how to implement extraction of motions.
@@ -377,7 +377,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		motions = plenary.motions
 		self.assertEqual(19, len(motions))
 		self.assertEqual("55_262_mg_8_m0", motions[0].id)
-		self.assertEqual(None, motions[0].proposal_id)
+		self.assertEqual([], motions[0].proposal_ids)
 
 	def test_extract_from_html_plenary_report__ip261x_html__different_proposals_header(self):
 		# This example proposal has "Projets de loi et propositions" as proposals header, rather than "Projets de loi".

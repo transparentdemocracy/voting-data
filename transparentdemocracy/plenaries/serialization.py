@@ -109,7 +109,7 @@ class JsonSerializer:
 		# Verify that post-processing of the plenaries (linking motions and proposals) has been run as well:
 		if not any(
 				motion_group for plenary in plenaries for motion_group in plenary.motion_groups
-				if motion_group.proposal_discussion_id
+				if len(motion_group.proposal_discussion_ids) > 0
 		):
 			raise ValueError("No plenaries occur with motion-proposal links. Run the motion_proposal_linker.py before "
 							 "serializing plenaries.")
@@ -227,7 +227,7 @@ def _json_to_motion_group(data):
 		title_fr=data['title_fr'],
 		documents_reference=data['documents_reference'],
 		motions=[_json_to_motion(m) for m in data['motions']],
-		proposal_discussion_id=data['proposal_discussion_id'],
+		proposal_discussion_ids=data['proposal_discussion_ids'],
 	)
 
 
@@ -241,7 +241,7 @@ def _json_to_motion(data):
 		voting_id=data['voting_id'],
 		cancelled=data['cancelled'],
 		description=data['description'],
-		proposal_id=data['proposal_id'],
+		proposal_ids=data['proposal_ids'],
 	)
 
 
