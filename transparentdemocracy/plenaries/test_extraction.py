@@ -131,7 +131,7 @@ class MotionExtractionTest(unittest.TestCase):
 								# actually preserving the original html might not be the worst idea
 								"Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. Bijgevolg is het amendement verworpen.",
 								# There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
-								None),
+								[]),
 						 motion_groups[4].motions[0])
 
 		# Outcomes with current implementation:
