@@ -18,7 +18,7 @@ Therefore, we solve this problem here, in a post-processing task immediately aft
 import enum
 import os
 from dataclasses import dataclass
-from typing import List
+from typing import List, Tuple
 
 from tqdm.auto import tqdm
 
@@ -36,7 +36,7 @@ class LinkProblem:
 	problem_type: LinkProblemType
 
 
-def link_motions_with_proposals(plenaries: List[Plenary]):
+def link_motions_with_proposals(plenaries: List[Plenary]) -> Tuple[List[Plenary], List[LinkProblem]]:
 	"""
 	Link motion groups and motions with proposal discussions and proposals, using the document references mentioned on
 	each of these objects.

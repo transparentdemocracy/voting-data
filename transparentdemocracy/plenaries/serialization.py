@@ -158,7 +158,7 @@ def write_markdown(plenaries=None, votes=None):
 def write_plenaries_json(plenaries=None):
 	if plenaries is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
-	link_motions_with_proposals(plenaries)
+	plenaries, link_problems = link_motions_with_proposals(plenaries)
 	JsonSerializer().serialize_plenaries(plenaries)
 
 

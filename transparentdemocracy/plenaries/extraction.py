@@ -65,6 +65,10 @@ def extract_from_html_plenary_reports(
 	else:
 		report_filenames = [path for pattern in report_file_pattern for path in glob.glob(pattern)]
 
+	if len(report_filenames) == 0:
+		raise ValueError("No plenary reports are present in the input folder. Cannot extract any plenaries. "
+						 "Check https://github.com/transparentdemocracy/voting-data/tree/main?tab=readme-ov-file#downloading-and-generating-data.")
+
 	# deduplication
 	report_filenames = list(dict.fromkeys(report_filenames))
 
