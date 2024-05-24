@@ -22,7 +22,8 @@ from typing import List, Tuple
 
 from tqdm.auto import tqdm
 
-from transparentdemocracy.model import Plenary, ProposalDiscussion, MotionGroup, Proposal, Motion
+from transparentdemocracy.documents.references import parse_document_reference
+from transparentdemocracy.model import Plenary, ProposalDiscussion, MotionGroup, Proposal, Motion, DocumentsReference
 
 
 class LinkProblemType(enum.Enum):
@@ -35,7 +36,7 @@ class LinkProblem:
 	problem_type: LinkProblemType
 
 
-def link_motions_with_proposals(plenaries: List[Plenary]) -> Tuple[List[Plenary], List[LinkProblem]]:
+def link_motions_with_proposals(plenaries: List[Plenary]) -> Tuple[List[Plenary], List[DocumentsReference], List[LinkProblem]]:
 	"""
 	Link motion groups and motions with proposal discussions and proposals, using the document references mentioned on
 	each of these objects.
@@ -50,6 +51,7 @@ def link_motions_with_proposals(plenaries: List[Plenary]) -> Tuple[List[Plenary]
 	So, we can link between motion groups, motions, proposal discussions and proposals by matching on these documents
 	references.
 	"""
+	documents_reference_objects = []
 	problems = []
 
 	# Process plenaries in order of occurrence through time, as proposals are not voted for if they have not been
@@ -60,12 +62,15 @@ def link_motions_with_proposals(plenaries: List[Plenary]) -> Tuple[List[Plenary]
 		# Motion groups bundles votes cast on an idea proposed in a document and potentially sub-documents.
 		# These documents, as a whole, are also presented and discussed during a proposal discussion.
 		for motion_group in plenary.motion_groups:
-			matching_proposal_discussions = find_matching_proposal_discussions(motion_group,
-																			   plenaries,
-																			   os.path.basename(plenary.html_report_url),
-																			   problems)
-			if matching_proposal_discussions:
-				motion_group.proposal_discussion_ids = sorted([pd.id for pd in matching_proposal_discussions])
+			if motion_group.documents_reference:
+				documents_reference_object = get_or_create_documents_reference_object(documents_reference_objects,
+																					  motion_group)
+
+				matching_proposal_discussions = find_matching_proposal_discussions(motion_group,
+																				   plenaries,
+																				   os.path.basename(plenary.html_report_url),
+																				   problems)
+				documents_reference_object.proposal_discussion_ids = sorted([pd.id for pd in matching_proposal_discussions])
 
 				for motion in motion_group.motions:
 					matching_proposals = find_matching_proposals(motion,
@@ -73,9 +78,11 @@ def link_motions_with_proposals(plenaries: List[Plenary]) -> Tuple[List[Plenary]
 																os.path.basename(plenary.html_report_url),
 																problems,
 																exact_match=False)
-					motion.proposal_ids = sorted([p.id for p in matching_proposals])
+					documents_reference_object.proposal_ids = sorted([p.id for p in matching_proposals])
 
-	return plenaries, problems
+				documents_reference_objects.append(documents_reference_object)
+
+	return plenaries, documents_reference_objects, problems
 
 
 def find_matching_proposal_discussions(
@@ -143,6 +150,22 @@ def find_matching_proposals(
 		]
 
 	return matching_proposals
+
+
+def get_or_create_documents_reference_object(documents_reference_objects, motion_group):
+	# Find out if a documents reference object has already been created, because the document has been
+	# discussed in an earlier plenary, or in an earlier motion group in this plenary.
+	# If this document is discussed for the first time, create documents reference object.
+	existing_documents_reference_objects = [
+		documents_reference_object
+		for documents_reference_object in documents_reference_objects
+		if documents_reference_object.all_documents_reference == motion_group.documents_reference
+	]
+	if len(existing_documents_reference_objects) > 0:
+		documents_reference_object = existing_documents_reference_objects[0]
+	else:
+		documents_reference_object = parse_document_reference(motion_group.documents_reference)
+	return documents_reference_object
 
 
 def get_main_document_reference(documents_reference: str):

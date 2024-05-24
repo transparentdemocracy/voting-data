@@ -4,9 +4,12 @@ import requests
 import tqdm
 
 from transparentdemocracy import CONFIG
-from transparentdemocracy.documents.references import get_document_references
+from transparentdemocracy.documents.analyze_references import collect_document_references
+from transparentdemocracy.documents.references import get_document_references, parse_document_reference
 
 import logging
+
+from transparentdemocracy.plenaries.serialization import load_plenaries
 
 logger = logging.getLogger(__name__)
 
@@ -47,6 +50,25 @@ def _download(url, local_path):
 
 	with open(local_path, 'wb') as file:
 		file.write(response.content)
+
+def print_subdocument_pdf_urls():
+	pdf_urls = get_referenced_document_pdf_urls()
+
+	for url in pdf_urls:
+		print(url)
+
+
+def get_referenced_document_pdf_urls():
+	document_references = get_document_references()
+	pdf_urls = [url for document_reference in document_references for url in document_reference.sub_document_pdf_urls]
+	return pdf_urls
+
+
+def get_document_references():
+	plenaries = load_plenaries()
+	specs = set([ref for ref, loc in collect_document_references(plenaries)])
+	document_references = [parse_document_reference(spec) for spec in specs]
+	return document_references
 
 
 def main():

@@ -10,7 +10,7 @@ from transparentdemocracy import CONFIG
 from transparentdemocracy.json_serde import PlenaryEncoder
 from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType, MotionGroup
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
-from transparentdemocracy.plenaries.motion_proposal_linker import link_motions_with_proposals
+from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 
 
 class MarkdownSerializer:
@@ -106,14 +106,6 @@ class JsonSerializer:
 			in votes], "votes.json")
 
 	def _serialize_plenaries(self, plenaries: List[Plenary], output_file: str) -> None:
-		# Verify that post-processing of the plenaries (linking motions and proposals) has been run as well:
-		if not any(
-				motion_group for plenary in plenaries for motion_group in plenary.motion_groups
-				if len(motion_group.proposal_discussion_ids) > 0
-		):
-			raise ValueError("No plenaries occur with motion-proposal links. Run the motion_proposal_linker.py before "
-							 "serializing plenaries.")
-
 		print(self._plenary_to_dict(plenaries[0]))
 
 		list_json = json.dumps([self._plenary_to_dict(p) for p in plenaries],
@@ -158,7 +150,7 @@ def write_markdown(plenaries=None, votes=None):
 def write_plenaries_json(plenaries=None):
 	if plenaries is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
-	plenaries, link_problems = link_motions_with_proposals(plenaries)
+	plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(plenaries)
 	JsonSerializer().serialize_plenaries(plenaries)
 
 

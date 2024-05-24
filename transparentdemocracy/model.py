@@ -20,14 +20,18 @@ from bs4 import PageElement, Tag
 # str-typing them.
 @dataclass
 class DocumentsReference:
-	document_reference: Optional[int]  # example: 3495 (optional, for unparseable documents references
 	all_documents_reference: str  # example: 3495/1-5, or 3495/5
+	document_reference: Optional[int]  # example: 3495 (optional, for unparseable documents references
 	main_document_reference: Optional[int]  # example: 1
 	sub_document_references: List[int]  # example: 1 until 5 inclusive.
+	proposal_discussion_ids: List[str]
+	proposal_ids: List[str]
+	summary_nl: str
+	summary_fr: str
 
 	@property
 	def info_url(self):
-		if not document_reference:
+		if not self.document_reference:
 			return None
 		return "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&cfm=/site/wwwcfm/flwb/flwbn.cfm?legislat=55&dossierID=%04d" % (
 			self.document_reference)
@@ -75,7 +79,6 @@ class Motion:
 	voting_id: Optional[str]
 	cancelled: bool
 	description: str
-	proposal_ids: List[str]
 
 
 @dataclass
@@ -86,7 +89,6 @@ class MotionGroup:
 	title_fr: str
 	documents_reference: str  # example: 3495/1-5
 	motions: List[Motion]
-	proposal_discussion_ids: List[str]
 
 
 @dataclass

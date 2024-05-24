@@ -95,7 +95,6 @@ class MotionExtractionTest(unittest.TestCase):
 		self.assertTrue(motions[0].title_fr.startswith("Motions déposées en conclusion des interpellations de - Koen Metsu sur"))
 		# skipping test for doc_ref and description on this case for now
 		self.assertEqual(False, motions[0].cancelled)
-		self.assertEqual([], motions[0].proposal_ids)
 
 	def test_extract_motions__ip262x_html__go_to_example_report(self):
 		# The example report we used for agreeing on how to implement extraction of motions.
@@ -131,7 +130,7 @@ class MotionExtractionTest(unittest.TestCase):
 								# actually preserving the original html might not be the worst idea
 								"Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. Bijgevolg is het amendement verworpen.",
 								# There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
-								[]),
+								),
 						 motion_groups[4].motions[0])
 
 		# Outcomes with current implementation:
@@ -377,7 +376,6 @@ class PlenaryExtractionTest(unittest.TestCase):
 		motions = plenary.motions
 		self.assertEqual(19, len(motions))
 		self.assertEqual("55_262_mg_8_m0", motions[0].id)
-		self.assertEqual([], motions[0].proposal_ids)
 
 	def test_extract_from_html_plenary_report__ip261x_html__different_proposals_header(self):
 		# This example proposal has "Projets de loi et propositions" as proposals header, rather than "Projets de loi".
