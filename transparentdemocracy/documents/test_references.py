@@ -12,7 +12,11 @@ class DocumentReferencesTest(unittest.TestCase):
 			document_reference=1234,
 			all_documents_reference="1234",
 			main_document_reference=1,
-			sub_document_references=[1]
+			sub_document_references=[1],
+			proposal_discussion_ids=[],
+			proposal_ids=[],
+			summary_nl="",
+			summary_fr=""
 		), actual)
 
 		self.assertEqual(actual.sub_document_pdf_urls, [
@@ -26,7 +30,11 @@ class DocumentReferencesTest(unittest.TestCase):
 			document_reference=1234,
 			all_documents_reference="1234/5",
 			main_document_reference=5,
-			sub_document_references=[5]
+			sub_document_references=[5],
+			proposal_discussion_ids=[],
+			proposal_ids=[],
+			summary_nl="",
+			summary_fr=""
 		), actual)
 
 		self.assertEqual(actual.sub_document_pdf_urls, [
@@ -40,7 +48,11 @@ class DocumentReferencesTest(unittest.TestCase):
 			document_reference=1234,
 			all_documents_reference="1234/2-5",
 			main_document_reference=2,
-			sub_document_references=[2, 3, 4, 5]
+			sub_document_references=[2, 3, 4, 5],
+			proposal_discussion_ids=[],
+			proposal_ids=[],
+			summary_nl="",
+			summary_fr=""
 		), actual)
 
 		self.assertEqual(actual.sub_document_pdf_urls, [
@@ -53,4 +65,13 @@ class DocumentReferencesTest(unittest.TestCase):
 	def test_parse_bad_doc_reference(self):
 		actual = parse_document_reference("1234-2345")
 
-		self.assertEqual(DocumentsReference(None, "1234-2345", None, []), actual)
+		self.assertEqual(DocumentsReference(
+				document_reference=None,
+				all_documents_reference="1234-2345",
+				main_document_reference=None,
+				sub_document_references=[],
+				proposal_discussion_ids=[],
+				proposal_ids=[],
+				summary_nl="",
+				summary_fr=""),
+			actual)

@@ -51,7 +51,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         documents_reference_object_3515 = [
             documents_reference_object
             for documents_reference_object in documents_reference_objects
-            if documents_reference_object.main_document_reference == 3515
+            if documents_reference_object.document_reference == 3515
         ][0]
         self.assertEqual(["55_296_d26"],
                          documents_reference_object_3515.proposal_discussion_ids)
@@ -91,7 +91,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         documents_reference_object_3515 = [
             documents_reference_object
             for documents_reference_object in documents_reference_objects
-            if documents_reference_object.main_document_reference == 3515
+            if documents_reference_object.document_reference == 3515
         ][0]
         self.assertEqual(["55_296_d26"],
                          documents_reference_object_3515.proposal_discussion_ids)
@@ -127,7 +127,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         documents_reference_object_3495 = [
             documents_reference_object
             for documents_reference_object in documents_reference_objects
-            if documents_reference_object.main_document_reference == 3495
+            if documents_reference_object.document_reference == 3495
         ][0]
         self.assertEqual(["55_261_d22"],
                          documents_reference_object_3495.proposal_discussion_ids)
@@ -161,7 +161,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         documents_reference_object_2931 = [
             documents_reference_object
             for documents_reference_object in documents_reference_objects
-            if documents_reference_object.main_document_reference == 2931
+            if documents_reference_object.document_reference == 2931
         ][0]
         self.assertEqual(["55_222_d03", "55_223_d01", "55_224_d01"], documents_reference_object_2931.proposal_discussion_ids)
 
