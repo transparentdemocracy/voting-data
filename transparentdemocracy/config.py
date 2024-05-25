@@ -28,8 +28,11 @@ class Config:
 	def politicians_json_output_path(self, *path):
 		return self.resolve(self.data_dir, "output", "politician", *path)
 
-	def documents_path(self, *path):
+	def documents_input_path(self, *path):
 		return self.resolve(self.data_dir, "input", "documents", *path)
+
+	def documents_txt_output_path(self, *path):
+		return self.resolve(self.data_dir, "output", "documents", "txt", *path)
 
 
 def _create_config():

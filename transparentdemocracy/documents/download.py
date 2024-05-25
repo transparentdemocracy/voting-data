@@ -15,21 +15,21 @@ logger = logging.getLogger(__name__)
 
 def download_referenced_documents():
 	doc_refs = get_document_references()
-	os.makedirs(CONFIG.documents_path(), exist_ok=True)
+	os.makedirs(CONFIG.documents_input_path(), exist_ok=True)
 
 	download_tasks = []
 	for doc_ref in doc_refs:
 		if not doc_ref.document_reference:
 			continue
 		doc_id_str = "%04d" % doc_ref.document_reference
-		dirname = CONFIG.documents_path(doc_id_str[:2], doc_id_str[2:])
+		dirname = CONFIG.documents_input_path(doc_id_str[:2], doc_id_str[2:])
 		urls = doc_ref.sub_document_pdf_urls
 		if urls:
 			os.makedirs(dirname, exist_ok=True)
 
 		for url in urls:
 			filename = os.path.basename(url)
-			document_path = CONFIG.documents_path(dirname, filename)
+			document_path = CONFIG.documents_input_path(dirname, filename)
 			download_tasks.append((url, document_path))
 
 	download_tasks = list(sorted(dict.fromkeys(download_tasks)))

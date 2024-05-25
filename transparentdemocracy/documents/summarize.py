@@ -1,48 +1,171 @@
 import glob
 import logging
 import os
+import re
 
-import tqdm
+from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
 from langchain_community.chat_models import ChatOllama
 from langchain_community.document_loaders import TextLoader
+from langchain_core.prompts import PromptTemplate
+from langchain_text_splitters import CharacterTextSplitter
 
 from transparentdemocracy import CONFIG
 
 logger = logging.getLogger("__name__")
 logger.setLevel(logging.INFO)
 
+# Config for llama3
+OLLAMA_MODEL = "llama3"  # 7b parameters
+CONTEXT_WINDOW = 8912  # must match model, see https://en.wikipedia.org/wiki/Llama_(language_model)
+
+#
+SUMMARY_SIZE = 400  # number of tokens for each summary
+# A word is +- 1.3 tokens
+WORDS_PER_DOCUMENT = int((CONTEXT_WINDOW - SUMMARY_SIZE) / 1.3)
+
+PROMPT_BRIEFNESS = "Be brief, stick to the essence. Don't introduce your answer. Don't include a conclusion."
+PROMPT_VOCAB = "Use vocabulary that's suitable for laypeople."
+
 
 class DocumentSummarizer():
 	def __init__(self):
-		self.llm = ChatOllama(model="llama3")
-		self.chain = load_summarize_chain(self.llm, chain_type="stuff")
+		self.llm = ChatOllama(model=OLLAMA_MODEL)
 
-	def summarize_documents(self, num_documents=None):
-		document_paths = glob.glob(os.path.join(CONFIG.documents_path(), "??", "??", "*.txt"))
-		if num_documents is not None:
-			document_paths = document_paths[:num_documents]
+		# Used for documents that fit in the context window
+		self.stuff_chain: BaseCombineDocumentsChain = self.create_stuff_chain()
 
-		for document_path in tqdm.tqdm(document_paths, "Summarizing documents..."):
-			print(f"Summarizing {document_path}")
-			dirname = os.path.dirname(document_path)
-			summary_filename = os.path.basename(document_path)[:-4] + ".summary"
-			summary_path = os.path.join(dirname, summary_filename)
+		# Used for documents that do not fit in the context window
+		self.map_reduce_chain: BaseCombineDocumentsChain = self.create_map_reduce_chain()
+		self.text_splitter = CharacterTextSplitter.from_tiktoken_encoder(
+			chunk_size=WORDS_PER_DOCUMENT, chunk_overlap=100
+		)
 
-			summary = self.summarize_document(document_path)
-			with open(summary_path, 'w') as fp:
-				fp.write(summary)
+	def summarize_documents(self, document_paths):
+		small_bucket = []
+		large_bucket = []
 
-	def summarize_document(self, document_path):
-		logger.info(f"Summarizing {document_path}")
-		loader = TextLoader(document_path)
-		docs = loader.load()
-		return self.chain.invoke(docs)['output_text']
+		# TODO: evaluate performance with vs without tqdm here
+		for document_path in document_paths:
+			docs = TextLoader(CONFIG.resolve("..", document_path)).load()
+			split_documents = self.text_splitter.split_documents(docs)
+
+			if len(split_documents) == 0:
+				logger.info(f"Empty document? {document_path}")
+				continue
+
+			if len(split_documents) == 1:
+				small_bucket.append((document_path, split_documents))
+			else:
+				large_bucket.append((document_path, split_documents))
+
+			if len(small_bucket) == 10:
+				self.batch_stuff(small_bucket)
+				small_bucket = []
+			if len(large_bucket) == 10:
+				self.batch_map_reduce(large_bucket)
+				large_bucket = []
+
+		if small_bucket:
+			self.batch_stuff(small_bucket)
+		if large_bucket:
+			self.batch_map_reduce(large_bucket)
+
+	def batch_stuff(self, small_bucket):
+		print(f"Summarizing {len(small_bucket)} small documents")
+		for doc in small_bucket:
+			print(doc[0])
+		result = self.stuff_chain.batch([doc[1] for doc in small_bucket])
+		self.write_summaries(result)
+
+	def batch_map_reduce(self, large_bucket):
+		print(f"Summarizing {len(large_bucket)} large documents")
+		result = self.map_reduce_chain.batch([doc[1] for doc in large_bucket])
+		self.write_summaries(result)
+
+	@staticmethod
+	def write_summaries(result):
+		for r in result:
+			input_docs = r['input_documents']
+			output_text = r['output_text']
+			if len(input_docs) > 1:
+				logger.warn("multiple input docs")
+				for doc in input_docs:
+					print(doc.metadata['source'])
+			input_path = input_docs[0].metadata['source']
+			output_filename = os.path.basename(input_path)[:-4] + ".summary"
+			output_path = os.path.join(os.path.dirname(input_path), output_filename)
+
+			print(f"Writing {output_path}")
+			with open(output_path, 'w') as fp:
+				fp.write(output_text)
+
+	def create_stuff_chain(self):
+		prompt = PromptTemplate.from_template(
+			f"""Summarize the following law proposal or amendment in Dutch. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}.
+		{{text}}
+		CONCISE SUMMARY:""")
+
+		return load_summarize_chain(self.llm, chain_type="stuff", prompt=prompt, document_variable_name="text")
+
+	def create_map_reduce_chain(self):
+		map_prompt = PromptTemplate.from_template(
+			f"""Summarize the following part of a law proposal or amendment in Dutch. {PROMPT_BRIEFNESS} 
+		{{text}}
+		CONCISE SUMMARY:
+		""")
+
+		reduce_prompt = PromptTemplate.from_template(f"""The following is set of summaries:
+		{{text}}
+		Take these and distill it into a final, consolidated summary of the main themes in Dutch. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}
+		Helpful Answer:""")
+
+		return load_summarize_chain(
+			self.llm,
+			chain_type="map_reduce",
+			map_prompt=map_prompt,
+			combine_prompt=reduce_prompt,
+			combine_document_variable_name="text",
+			map_reduce_document_variable_name="text",
+		)
 
 
 def main():
 	summarizer = DocumentSummarizer()
-	summarizer.summarize_documents()
+
+	# docs = all_input_documents()
+	word_count_path = CONFIG.documents_txt_output_path("..", "word_counts.info")
+	small_docs = documents_from_word_count(word_count_path, None, WORDS_PER_DOCUMENT)
+	large_docs = documents_from_word_count(word_count_path, WORDS_PER_DOCUMENT + 1, None)
+
+	print(len(small_docs))
+	summarizer.summarize_documents(small_docs)
+
+	# print(len(large_docs))
+	# summarizer.summarize_documents(large_docs)
+
+
+def all_input_documents():
+	return glob.glob(CONFIG.documents_input_path("**/*.pdf"), recursive=True)
+
+
+def documents_from_word_count(word_count_path, min_words, max_words):
+	with open(word_count_path, 'r') as fp:
+		lines = fp.readlines()[:-1]
+
+	pattern = re.compile("\\s*(\\d+)\\s+(.*)")
+	result = []
+	for line in lines:
+		match = pattern.match(line)
+		if not match:
+			continue
+		word_count = int(match.group(1))
+		if (min_words is not None and min_words >= word_count) or (max_words is not None and word_count > max_words):
+			continue
+
+		result.append(match.group(2))
+
+	return result
 
 
 if __name__ == "__main__":
