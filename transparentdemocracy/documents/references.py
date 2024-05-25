@@ -28,7 +28,7 @@ def parse_document_reference(doc_ref_spec: str) -> Optional[DocumentsReference]:
 	return DocumentsReference(
 		document_reference=doc_nr,
 		all_documents_reference=doc_ref_spec,
-		main_document_reference=sub_doc_refs[0] if sub_doc_refs else None,
+		main_sub_document_reference=sub_doc_refs[0] if sub_doc_refs else None,
 		sub_document_references=sub_doc_refs,
 		proposal_discussion_ids=[],
 		proposal_ids=[],
@@ -41,7 +41,7 @@ def _unparsed(spec):
 	return DocumentsReference(
 		document_reference=None,
 		all_documents_reference=spec,
-		main_document_reference=None,
+		main_sub_document_reference=None,
 		sub_document_references=[],
 		proposal_discussion_ids=[],
 		proposal_ids=[],

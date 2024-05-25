@@ -22,9 +22,9 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
 			expected_markdown = md_file.read()
 
 		plenary, votes, problems = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip298x.html'))
-		link_motions_with_proposals([plenary])
+		plenaries, documents_reference_objects, link_problems =link_motions_with_proposals([plenary])
 
-		MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries([plenary], votes)
+		MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries([plenary], votes, documents_reference_objects)
 
 		with open(os.path.join(tmp_markdown_output_dir, 'plenary 298.md')) as plenary_file:
 			actual_markdown = plenary_file.read()

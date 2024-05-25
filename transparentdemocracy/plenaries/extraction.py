@@ -10,13 +10,12 @@ import re
 from dataclasses import dataclass
 from typing import Tuple, List, Optional, Union
 
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
 from transparentdemocracy import CONFIG
-from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, ReportItem, \
-	BodyTextPart, MotionGroup
+from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, MotionGroup
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
 logger = logging.getLogger(__name__)
@@ -26,6 +25,23 @@ WHITESPACE = re.compile("\\s+")
 
 DAYS_NL = "maandag,dinsdag,woensdag,donderdag,vrijdag,zaterdag,zondag".split(",")
 MONTHS_NL = "januari,februari,maart,april,mei,juni,juli,augustus,september,oktober,november,december".split(",")
+
+
+@dataclass
+class BodyTextPart:
+	lang: str
+	text: str
+
+
+@dataclass
+class ReportItem:
+	label: str
+	nl_title: str
+	nl_title_tags: List[PageElement]
+	fr_title: str
+	fr_title_tags: List[PageElement]
+	body_text_parts: List[BodyTextPart]
+	body: List[PageElement]
 
 
 @dataclass

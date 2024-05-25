@@ -2,6 +2,7 @@
 The data model behind the voting-data repository.
 
 It is split into two parts, which in the end result in two datasets:
+- documents: ideas proposed in plenaries for voting.
 - plenaries and their topics: proposals, motions, interpellations.
 - votes cast during plenaries: by which politician, on which motion, which vote (yes/no/abstention).
 """
@@ -11,18 +12,16 @@ from datetime import date
 from enum import Enum
 from typing import List, Optional
 
-from bs4 import PageElement, Tag
+from bs4 import Tag
 
 
 # Classes related to the plenaries and their "topics": proposals, motions (and later: interpellations).
 
-# not using this yet, but might be an interesting type for the documents_reference attributes below, instead of
-# str-typing them.
 @dataclass
 class DocumentsReference:
 	all_documents_reference: str  # example: 3495/1-5, or 3495/5
 	document_reference: Optional[int]  # example: 3495 (optional, for unparseable documents references
-	main_document_reference: Optional[int]  # example: 1
+	main_sub_document_reference: Optional[int]  # example: 1
 	sub_document_references: List[int]  # example: 1 until 5 inclusive.
 	proposal_discussion_ids: List[str]
 	proposal_ids: List[str]
@@ -89,23 +88,6 @@ class MotionGroup:
 	title_fr: str
 	documents_reference: str  # example: 3495/1-5
 	motions: List[Motion]
-
-
-@dataclass
-class BodyTextPart:
-	lang: str
-	text: str
-
-
-@dataclass
-class ReportItem:
-	label: str
-	nl_title: str
-	nl_title_tags: List[PageElement]
-	fr_title: str
-	fr_title_tags: List[PageElement]
-	body_text_parts: List[BodyTextPart]
-	body: List[PageElement]
 
 
 @dataclass

@@ -11,7 +11,7 @@ class DocumentReferencesTest(unittest.TestCase):
 		self.assertEqual(DocumentsReference(
 			document_reference=1234,
 			all_documents_reference="1234",
-			main_document_reference=1,
+			main_sub_document_reference=1,
 			sub_document_references=[1],
 			proposal_discussion_ids=[],
 			proposal_ids=[],
@@ -29,7 +29,7 @@ class DocumentReferencesTest(unittest.TestCase):
 		self.assertEqual(DocumentsReference(
 			document_reference=1234,
 			all_documents_reference="1234/5",
-			main_document_reference=5,
+			main_sub_document_reference=5,
 			sub_document_references=[5],
 			proposal_discussion_ids=[],
 			proposal_ids=[],
@@ -47,7 +47,7 @@ class DocumentReferencesTest(unittest.TestCase):
 		self.assertEqual(DocumentsReference(
 			document_reference=1234,
 			all_documents_reference="1234/2-5",
-			main_document_reference=2,
+			main_sub_document_reference=2,
 			sub_document_references=[2, 3, 4, 5],
 			proposal_discussion_ids=[],
 			proposal_ids=[],
@@ -68,7 +68,7 @@ class DocumentReferencesTest(unittest.TestCase):
 		self.assertEqual(DocumentsReference(
 				document_reference=None,
 				all_documents_reference="1234-2345",
-				main_document_reference=None,
+				main_sub_document_reference=None,
 				sub_document_references=[],
 				proposal_discussion_ids=[],
 				proposal_ids=[],

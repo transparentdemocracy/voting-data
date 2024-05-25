@@ -5,10 +5,10 @@ from datetime import date
 
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
-from transparentdemocracy.model import ReportItem, Motion, Vote
+from transparentdemocracy.model import Motion, Vote
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
 	extract_from_html_plenary_report, _get_plenary_date, _extract_motion_report_items, \
-	_extract_motion_groups, _extract_votes, create_plenary_extraction_context
+	_extract_motion_groups, _extract_votes, create_plenary_extraction_context, ReportItem
 from transparentdemocracy.politicians.extraction import load_politicians
 
 logger = logging.getLogger(__name__)
@@ -222,13 +222,13 @@ class PlenaryExtractionTest(unittest.TestCase):
 		plenaries, all_votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
 
 		exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
-		self.assertLessEqual(0, len(exceptions))
+		self.assertGreaterEqual(0, len(exceptions))
 		self.assertLessEqual(309, len(plenaries))
 
 		all_motions = [motion for plenary in plenaries for motion in plenary.motions]
 		self.assertLessEqual(3873, len(all_motions))
 
-		self.assertLessEqual(266, len(problems))
+		self.assertGreaterEqual(266, len(problems))
 
 	def test_extract_from_html_plenary_report__ip298x_html__go_to_example_report(self):
 		# Plenary report 298 has long been our first go-to example plenary report to test our extraction against.

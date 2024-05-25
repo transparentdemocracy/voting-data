@@ -7,8 +7,9 @@ import bs4
 from bs4 import Tag
 
 from transparentdemocracy import CONFIG
-from transparentdemocracy.json_serde import PlenaryEncoder
-from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType, MotionGroup
+from transparentdemocracy.plenaries.json_serde import PlenaryEncoder
+from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType, MotionGroup, \
+	DocumentsReference
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 
@@ -18,7 +19,7 @@ class MarkdownSerializer:
 		self.output_path = output_path
 		os.makedirs(output_path, exist_ok=True)
 
-	def serialize_plenaries(self, plenaries: List[Plenary], votes: List[Vote]) -> None:
+	def serialize_plenaries(self, plenaries: List[Plenary], votes: List[Vote], documents_reference_objects: List[DocumentsReference]) -> None:
 		votes_by_voting_id = dict([(k, list(v)) for k, v in itertools.groupby(votes, lambda v: v.voting_id)])
 		for plenary in plenaries:
 			markdown_result = ""
@@ -69,6 +70,11 @@ class MarkdownSerializer:
 			markdown_result += " (cancelled)"
 		markdown_result += "\n\n"
 
+		# Note: not serializing documents reference objects linked to the motion, and proposal discussions and proposals
+		# linked to that on their turn.
+		# So the Markdown output folder soon is not entirely up to date anymore with the latest data model changes, the
+		# website front-end will replace this.
+
 		markdown_result += self._serialize_votes(votes)
 
 		markdown_result += "\n"
@@ -105,9 +111,24 @@ class JsonSerializer:
 			politician_id=v.politician.id) for v
 			in votes], "votes.json")
 
-	def _serialize_plenaries(self, plenaries: List[Plenary], output_file: str) -> None:
-		print(self._plenary_to_dict(plenaries[0]))
+	def serialize_documents_reference_objects(self, documents_reference_objects):
+		self._serialize_list([
+			dict(
+				all_documents_reference=document.all_documents_reference,
+				document_reference=document.document_reference,
+				main_sub_document_reference=document.main_sub_document_reference,
+				sub_document_references=document.sub_document_references,
+				proposal_discussion_ids=document.proposal_discussion_ids,
+				proposal_ids=document.proposal_ids,
+				summary_nl=document.summary_nl,
+				summary_fr=document.summary_fr,
+				info_url=document.info_url,
+				sub_document_pdf_urls=document.sub_document_pdf_urls
+			)
+			for document in documents_reference_objects
+		], "documents.json")
 
+	def _serialize_plenaries(self, plenaries: List[Plenary], output_file: str) -> None:
 		list_json = json.dumps([self._plenary_to_dict(p) for p in plenaries],
 							   indent=2,
 							   cls=PlenaryEncoder)
@@ -134,23 +155,27 @@ class JsonSerializer:
 		)
 
 
-def serialize(plenaries: List[Plenary], votes: List[Vote]) -> None:
-	write_markdown(plenaries, votes)
+def serialize(plenaries: List[Plenary], votes: List[Vote], documents_reference_objects: List[DocumentsReference]) -> None:
+	# Became deprecated: the Markdown output folder soon is not entirely up to date anymore with the latest data model
+	# changes, the [website front-end](https://github.com/transparentdemocracy/website) will replace this.
+	# write_markdown(plenaries, votes, documents_reference_objects)
 
 	write_plenaries_json(plenaries)
 	write_votes_json(votes)
+	write_documents_json(documents_reference_objects)
 
 
-def write_markdown(plenaries=None, votes=None):
-	if plenaries is None and votes is None:
+def write_markdown(plenaries=None, votes=None, documents_reference_objects=None):
+	if plenaries is None and votes is None and documents_reference_objects is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
-	MarkdownSerializer().serialize_plenaries(plenaries, votes)
+		plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(plenaries)
+	MarkdownSerializer().serialize_plenaries(plenaries, votes, documents_reference_objects)
 
 
 def write_plenaries_json(plenaries=None):
 	if plenaries is None:
 		plenaries, votes, problems = extract_from_html_plenary_reports()
-	plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(plenaries)
+		plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(plenaries)
 	JsonSerializer().serialize_plenaries(plenaries)
 
 
@@ -160,6 +185,15 @@ def write_votes_json(votes=None):
 	JsonSerializer().serialize_votes(votes)
 
 
+def write_documents_json(documents_reference_objects=None):
+	if documents_reference_objects is None:
+		plenaries, votes, problems = extract_from_html_plenary_reports()
+		plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(plenaries)
+	JsonSerializer().serialize_documents_reference_objects(documents_reference_objects)
+
+
+# JSON to object serialization:
+# -----------------------------
 def load_plenaries():
 	path = os.path.join(CONFIG.plenary_json_output_path(), "plenaries.json")
 	with open(path, 'r') as fp:
