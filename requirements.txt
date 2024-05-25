@@ -9,3 +9,5 @@ langchain-openai==0.1.7
 langchainhub==0.1.15
 tiktoken==0.7.0
 chromadb==0.5.0
+transformers==4.41.1
+torch==2.3.0
