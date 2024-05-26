@@ -177,3 +177,5 @@ out/
 documents.txt
 data/output/documents/
 data/output/documents.zip
+/terraform/summarizer/karel.auto.tfvars
+/terraform/summarizer/.terraform/

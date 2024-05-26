@@ -25,6 +25,7 @@ setuptools.setup(
 			'td-politicians-json=transparentdemocracy.politicians.serialization:create_json',
 			'td-print-politicians-by-fraction=transparentdemocracy.politicians.serialization:print_politicians_by_party',
 			'td-download-referenced-documents=transparentdemocracy.documents.download:download_referenced_documents',
+			'td-summarize=transparentdemocracy.documents.summarize:main',
 		],
 	}
 )

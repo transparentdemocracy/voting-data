@@ -1,6 +1,7 @@
 import glob
 import logging
 import os
+import sys
 
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
@@ -8,8 +9,6 @@ from langchain_community.chat_models import ChatOllama
 from langchain_community.document_loaders import TextLoader
 from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import CharacterTextSplitter
-
-from transparentdemocracy import CONFIG
 
 logger = logging.getLogger("__name__")
 logger.setLevel(logging.INFO)
@@ -46,11 +45,12 @@ class DocumentSummarizer():
 
 		# TODO: evaluate performance with vs without tqdm here
 		for document_path in document_paths:
-			output_path = os.path.join(os.path.dirname(document_path), os.path.basename(document_path)[:-4] + ".summary")
+			output_path = os.path.join(os.path.dirname(document_path),
+									   os.path.basename(document_path)[:-4] + ".summary")
 			if os.path.exists(output_path):
 				continue
 
-			docs = TextLoader(CONFIG.resolve("..", document_path)).load()
+			docs = TextLoader(document_path).load()
 			split_documents = self.text_splitter.split_documents(docs)
 
 			if len(split_documents) == 0:
@@ -135,9 +135,10 @@ class DocumentSummarizer():
 
 
 def main():
-	summarizer = DocumentSummarizer()
+	dirname = sys.argv[1]
 
-	docs = glob.glob(CONFIG.resolve("output", "documents", "by-size", "txt-group-00", "**/*.txt"), recursive=True)
+	summarizer = DocumentSummarizer()
+	docs = glob.glob(os.path.join(dirname, "**/*.txt"), recursive=True)
 	print(len(docs))
 	summarizer.summarize_documents(docs)
 
