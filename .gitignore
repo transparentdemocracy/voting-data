@@ -175,3 +175,5 @@ data/input/actors/
 data/input/documents/
 out/
 documents.txt
+data/output/documents/
+data/output/documents.zip

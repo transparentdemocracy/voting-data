@@ -12,7 +12,7 @@ function convert_documents() {
 
 }
 
-convert_documents
+#convert_documents
 
 echo "Counting words (output in data/output/documents/word_counts.info)"
 wc -w $(find data/output/documents/txt -name "*.txt" -type f) > data/output/documents/word_counts.info

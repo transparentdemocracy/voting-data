@@ -1,7 +1,6 @@
 import glob
 import logging
 import os
-import re
 
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
@@ -24,7 +23,7 @@ SUMMARY_SIZE = 400  # number of tokens for each summary
 # A word is +- 1.3 tokens
 WORDS_PER_DOCUMENT = int((CONTEXT_WINDOW - SUMMARY_SIZE) / 1.3)
 
-PROMPT_BRIEFNESS = "Be brief, stick to the essence. Don't introduce your answer. Don't include a conclusion."
+PROMPT_BRIEFNESS = "What is the summary of the following document in Dutch? Do not introduce your answer and to not write a conclusion at the end."
 PROMPT_VOCAB = "Use vocabulary that's suitable for laypeople."
 
 
@@ -47,6 +46,10 @@ class DocumentSummarizer():
 
 		# TODO: evaluate performance with vs without tqdm here
 		for document_path in document_paths:
+			output_path = os.path.join(os.path.dirname(document_path), os.path.basename(document_path)[:-4] + ".summary")
+			if os.path.exists(output_path):
+				continue
+
 			docs = TextLoader(CONFIG.resolve("..", document_path)).load()
 			split_documents = self.text_splitter.split_documents(docs)
 
@@ -85,6 +88,7 @@ class DocumentSummarizer():
 
 	@staticmethod
 	def write_summaries(result):
+
 		for r in result:
 			input_docs = r['input_documents']
 			output_text = r['output_text']
@@ -133,39 +137,9 @@ class DocumentSummarizer():
 def main():
 	summarizer = DocumentSummarizer()
 
-	# docs = all_input_documents()
-	word_count_path = CONFIG.documents_txt_output_path("..", "word_counts.info")
-	small_docs = documents_from_word_count(word_count_path, None, WORDS_PER_DOCUMENT)
-	large_docs = documents_from_word_count(word_count_path, WORDS_PER_DOCUMENT + 1, None)
-
-	print(len(small_docs))
-	summarizer.summarize_documents(small_docs)
-
-	# print(len(large_docs))
-	# summarizer.summarize_documents(large_docs)
-
-
-def all_input_documents():
-	return glob.glob(CONFIG.documents_input_path("**/*.pdf"), recursive=True)
-
-
-def documents_from_word_count(word_count_path, min_words, max_words):
-	with open(word_count_path, 'r') as fp:
-		lines = fp.readlines()[:-1]
-
-	pattern = re.compile("\\s*(\\d+)\\s+(.*)")
-	result = []
-	for line in lines:
-		match = pattern.match(line)
-		if not match:
-			continue
-		word_count = int(match.group(1))
-		if (min_words is not None and min_words >= word_count) or (max_words is not None and word_count > max_words):
-			continue
-
-		result.append(match.group(2))
-
-	return result
+	docs = glob.glob(CONFIG.resolve("output", "documents", "by-size", "txt-group-00", "**/*.txt"), recursive=True)
+	print(len(docs))
+	summarizer.summarize_documents(docs)
 
 
 if __name__ == "__main__":
