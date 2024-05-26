@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "summarizer" {
   ami           = "ami-0ac67a26390dc374d"
-  instance_type = "t2.micro"
+  instance_type = "g4dn.12xlarge"
   key_name      = "${var.ec2_keypair_name}"
   iam_instance_profile = aws_iam_instance_profile.summarizer.name
 
@@ -20,6 +20,11 @@ resource "aws_instance" "summarizer" {
 
 resource "aws_network_interface" "summarizer" {
   subnet_id   = var.subnet_id
+}
+
+resource "aws_network_interface_sg_attachment" "sg_attachment" {
+  security_group_id    = aws_security_group.summarizer.id
+  network_interface_id = aws_instance.summarizer.primary_network_interface_id
 }
 
 resource "aws_iam_instance_profile" "summarizer" {

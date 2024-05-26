@@ -1,13 +1,13 @@
 resource "aws_security_group" "summarizer" {
   name        = "summarizer"
-  description = "Allow SSH and HTTP access"
-  vpc_id      = var.vpc_id  # Replace with your VPC ID
+  description = "Allow SSH access from my current ip"
+  vpc_id      = var.vpc_id
 
   ingress {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["${chomp(data.http.ip.body)}/32"]
   }
 
   egress {
@@ -21,5 +21,4 @@ resource "aws_security_group" "summarizer" {
     Name = "summarizer"
   }
 }
-
 
