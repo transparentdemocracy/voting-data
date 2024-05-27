@@ -10,6 +10,8 @@ from langchain_community.document_loaders import TextLoader
 from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import CharacterTextSplitter
 
+from transparentdemocracy import CONFIG
+
 logger = logging.getLogger("__name__")
 logger.setLevel(logging.INFO)
 
@@ -135,13 +137,31 @@ class DocumentSummarizer():
 
 
 def main():
-	dirname = sys.argv[1]
+	if len(sys.argv) < 3:
+		print(f"Usage: {sys.argv[0]} <min-size> <max-size>")
+		sys.exit(1)
+
+	min_size_inclusive = int(sys.argv[1])
+	max_size_exclusive = int(sys.argv[2])
+
+	docs = glob.glob(CONFIG.documents_txt_output_path("**/*.txt"), recursive=True)
+	docs = [path
+			for path in docs
+			if (os.path.getsize(path) >= min_size_inclusive) and (os.path.getsize(path) < max_size_exclusive)
+			]
+
+	docs.sort(key=lambda path: os.path.getsize(path))
+
+	not_summarized = [
+		path
+		for path in docs
+		if not os.path.exists(os.path.join(os.path.dirname(path), os.path.basename(path)[:-4] + ".summary"))
+	]
+	print(f"Documents matching size criteria: {len(docs)}")
+	print(f"Documents not yet summarized matching criteria: {len(not_summarized)}")
 
 	summarizer = DocumentSummarizer()
-	docs = glob.glob(os.path.join(dirname, "**/*.txt"), recursive=True)
-	print(len(docs))
 	summarizer.summarize_documents(docs)
 
-
-if __name__ == "__main__":
-	main()
+	if __name__ == "__main__":
+		main()
