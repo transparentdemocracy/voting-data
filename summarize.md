@@ -4,9 +4,23 @@
 
 Hint: you should rerun `pip install -e .`
 
+## Prepare data
+
+Make sure you have the documents as pdfs files in data/input/documents/pdf/
+(You can skip this step if you already have the documents in txt format)
+Run `td-download-referenced-documents`
+
+Make sure you have the documents as txt files in data/output/documents/txt/
+Run `brew install poppler`. This should install the `pdftotext` command line tool.
+Run `convert-documents-to-text.sh`
+
 ## Install Ollama
 
 Follow installation here: https://ollama.com/download/mac
+
+## Pull llama3 model
+
+ollama pull llama3
 
 ## Run summarizer:
 
