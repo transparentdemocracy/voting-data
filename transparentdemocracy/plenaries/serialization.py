@@ -89,7 +89,7 @@ class MarkdownSerializer:
 		return markdown_result
 
 	def _serialize_votes_for_type(self, votes: List[Vote], vote_type: VoteType, title: str):
-		filtered_votes = [v for v in votes if v.vote_type == vote_type]
+		filtered_votes = [v for v in votes if v.vote_type is vote_type]
 		markdown_result = f"#### {title} ({len(filtered_votes)})\n\n"
 		markdown_result += ", ".join([vote.politician.full_name for vote in filtered_votes])
 		markdown_result += "\n\n"

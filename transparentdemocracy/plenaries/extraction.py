@@ -940,7 +940,7 @@ def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType,
 			Vote(
 				politicians.get_by_name(voter_name),
 				motion_id,
-				vote_type.value
+				vote_type
 			) for voter_name in voter_names
 		]
 

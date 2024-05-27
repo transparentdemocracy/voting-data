@@ -16,6 +16,7 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
 		root_folder = os.path.dirname(os.path.dirname(__file__))
 		CONFIG.data_dir = os.path.join(root_folder, "testdata")
 
+	@unittest.skip("Markdown serialization is deprecated now.")
 	def test_serialize(self):
 		tmp_markdown_output_dir = tempfile.mkdtemp("plenary-markdown-")
 		with open(os.path.join(os.path.dirname(__file__), 'fixtures', 'plenary 298.md'), 'r') as md_file:

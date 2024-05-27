@@ -5,7 +5,7 @@ from datetime import date
 
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
-from transparentdemocracy.model import Motion, Vote
+from transparentdemocracy.model import Motion, Vote, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
 	extract_from_html_plenary_report, _get_plenary_date, _extract_motion_report_items, \
 	_extract_motion_groups, _extract_votes, create_plenary_extraction_context, ReportItem
@@ -84,17 +84,68 @@ class MotionExtractionTest(unittest.TestCase):
 
 	def test_extract_motions__ip298x_html__go_to_example_report(self):
 		# The example report we used for implementing extraction of other sub-objects of a plenary object.
+		# Arrange
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
 		ctx = create_plenary_extraction_context(report_path, load_politicians())
-		report_items, motion_groups = _extract_motion_groups("55_298", ctx)
-		motions = [m for mg in motion_groups for m in mg.motions]
 
+		# Act
+		report_items, motion_groups = _extract_motion_groups("55_298", ctx)
+
+		# Assert
+		motions = [m for mg in motion_groups for m in mg.motions]
 		self.assertEqual(39, len(motions))
-		self.assertEqual("55_298_mg_10_m0", motions[0].id)
-		self.assertTrue(motions[0].title_nl.startswith("Moties ingediend tot besluit van de interpellaties van - Koen Metsu over "))
-		self.assertTrue(motions[0].title_fr.startswith("Motions déposées en conclusion des interpellations de - Koen Metsu sur"))
-		# skipping test for doc_ref and description on this case for now
-		self.assertEqual(False, motions[0].cancelled)
+
+		motion_group10 = motion_groups[0]
+		self.assertEqual("55_298_mg_10", motion_group10.id)
+		self.assertEqual(10, motion_group10.plenary_agenda_item_number)
+		self.assertTrue(motion_group10.title_nl.startswith("Moties ingediend tot besluit van de interpellaties van - Koen Metsu over "))
+		self.assertTrue(motion_group10.title_nl.endswith('Comité P over de aanslag van 16 oktober 2023" (nr. 486)'))
+		self.assertTrue(motion_group10.title_fr.startswith("Motions déposées en conclusion des interpellations de - Koen Metsu sur"))
+		self.assertTrue(motion_group10.title_fr.endswith(' sur l\'attentat du 16 octobre 2023" (n° 486)'))
+		self.assertEqual(None, motion_group10.documents_reference)
+		self.assertEqual(1, len(motion_group10.motions))
+
+		self.assertEqual("55_298_mg_10_m0", motion_group10.motions[0].id)
+		self.assertEqual("0", motion_group10.motions[0].sequence_number)
+		self.assertTrue(motion_group10.motions[0].title_nl.startswith(
+			"Moties ingediend tot besluit van de interpellaties van - Koen Metsu over "))
+		self.assertTrue(motion_group10.motions[0].title_nl.endswith('Comité P over de aanslag van 16 oktober 2023" (nr. 486)'))
+		self.assertTrue(motion_group10.motions[0].title_fr.startswith(
+			"Motions déposées en conclusion des interpellations de - Koen Metsu sur"))
+		self.assertTrue(motion_group10.motions[0].title_fr.endswith(' sur l\'attentat du 16 octobre 2023" (n° 486)'))
+		self.assertEqual(None, motion_group10.motions[0].documents_reference)
+		self.assertEqual("55_298_v1", motion_group10.motions[0].voting_id)
+		self.assertEqual(False, motion_group10.motions[0].cancelled)
+		# self.assertTrue(motion_group10.motions[0].description.startswith("Ces interpellations ont été développées en séance plénière de ce jour."))
+		self.assertTrue(motion_group10.motions[0].description.endswith("De eenvoudige motie is aangenomen. Bijgevolg vervallen de moties van aanbeveling."))
+
+		motion_group14 = motion_groups[4]
+		self.assertEqual("55_298_mg_14", motion_group14.id)
+		self.assertEqual(14, motion_group14.plenary_agenda_item_number)
+		self.assertTrue("Aangehouden amendementen en artikelen van het wetsontwerp houdende de hervorming van de pensioenen",
+						motion_group10.title_nl)
+		self.assertTrue("Amendements et articles réservés du projet de loi portant la réforme des pensions",
+						motion_group10.title_fr)
+		self.assertEqual("3808/1-10", motion_group14.documents_reference)
+		self.assertEqual("Aangehouden amendementen en artikelen van het wetsontwerp houdende de hervorming van de pensioenen",
+						 motion_group14.title_nl)
+		self.assertEqual("Amendements et articles réservés du projet de loi portant la réforme des pensions",
+						 motion_group14.title_fr)
+		self.assertEqual("3808/1-10", motion_group14.documents_reference)
+		self.assertEqual(22, len(motion_group14.motions))
+
+		self.assertEqual("55_298_mg_14_m0", motion_group14.motions[0].id)
+		self.assertTrue("0", motion_group14.motions[0].sequence_number)
+		self.assertEqual("Stemming over amendement nr. 35 van Ellen Samyn op artikel 2.",
+						 motion_group14.motions[0].title_nl)
+		self.assertEqual("Vote sur l'amendement n° 35 de Ellen Samyn à l'article 2.",
+						 motion_group14.motions[0].title_fr)
+		self.assertEqual("3808/10", motion_group14.motions[0].documents_reference)
+		self.assertEqual("55_298_v5", motion_group14.motions[0].voting_id)
+		self.assertEqual(False, motion_group14.motions[0].cancelled)
+		# self.assertEqual("", motion_group14.motions[0].description)
+
+		# Also interesting to test: motion group 22 and 24.
 
 	def test_extract_motions__ip262x_html__go_to_example_report(self):
 		# The example report we used for agreeing on how to implement extraction of motions.
@@ -110,15 +161,16 @@ class MotionExtractionTest(unittest.TestCase):
 		self.assertEqual(8, motion_groups[0].plenary_agenda_item_number)
 		self.assertEqual(22, motion_groups[-1].plenary_agenda_item_number)
 
-		self.assertEqual("55_262_mg_12", motion_groups[4].id)
-		self.assertEqual(12, motion_groups[4].plenary_agenda_item_number)
+		motion_group12 = motion_groups[4]
+		self.assertEqual("55_262_mg_12", motion_group12.id)
+		self.assertEqual(12, motion_group12.plenary_agenda_item_number)
 		self.assertEqual("Aangehouden amendementen op het wetsontwerp houdende diverse bepalingen inzake sociale zaken",
-						 motion_groups[4].title_nl)
+						 motion_group12.title_nl)
 		self.assertEqual("Amendements réservés au projet de loi portant des dispositions diverses en matière sociale",
-						 motion_groups[4].title_fr)
-		self.assertEqual("3495/1-5", motion_groups[4].documents_reference)
+						 motion_group12.title_fr)
+		self.assertEqual("3495/1-5", motion_group12.documents_reference)
 
-		self.assertEqual(3, len(motion_groups[4].motions))
+		self.assertEqual(3, len(motion_group12.motions))
 
 		self.assertEqual(Motion("55_262_mg_12_m0", "0",
 								"Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
@@ -131,7 +183,7 @@ class MotionExtractionTest(unittest.TestCase):
 								"Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. Bijgevolg is het amendement verworpen.",
 								# There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...
 								),
-						 motion_groups[4].motions[0])
+						 motion_group12.motions[0])
 
 		# Outcomes with current implementation:
 		motions = plenary.motions
@@ -176,21 +228,44 @@ class VoteExtractionTest(unittest.TestCase):
 	def setUpClass(cls):
 		CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
 
-	def test_extract_votes_ip298x(self):
-		# TODO: create helper function for creating a PlenaryExtractionContext with html
+	def test_extract_votes_ip298x__go_to_example_report(self):
+		# Arrange
 		report_path = CONFIG.plenary_html_input_path("ip298x.html")
 		politicians = load_politicians()
 		ctx = create_plenary_extraction_context(report_path, politicians)
+
+		# Act
 		votes = _extract_votes(ctx, "55_298")
 
-		# I Honestly didn't count this. This is just to make sure we notice if parsing changes
-		self.assertEqual(3732, len(votes))
-		self.assertEqual(133, len([v for v in votes if v.voting_id == "55_298_v1"]))
-		self.assertEqual(134, len([v for v in votes if v.voting_id == "55_298_v2"]))
-		self.assertEqual(132, len([v for v in votes if v.voting_id == "55_298_v3"]))
+		# Assert
+		voting1_votes = [vote for vote in votes if vote.voting_id == "55_298_v1"]
 
-		expected_vote = Vote(politicians[7124], voting_id="55_298_v1", vote_type="YES")
-		self.assertEqual(expected_vote, votes[0])
+		voting1_votes_yes = [vote for vote in voting1_votes if vote.vote_type is VoteType.YES]
+		self.assertEqual(79, len(voting1_votes_yes))
+		self.assertEqual("Aouasti Khalil", voting1_votes_yes[0].politician.full_name)
+		self.assertEqual("Bacquelaine Daniel", voting1_votes_yes[1].politician.full_name)
+		self.assertEqual("Wilmès Sophie", voting1_votes_yes[-2].politician.full_name)
+		self.assertEqual("Zanchetta Laurence", voting1_votes_yes[-1].politician.full_name)
+
+		voting1_votes_no = [vote for vote in voting1_votes if vote.vote_type is VoteType.NO]
+		self.assertEqual(50, len(voting1_votes_no))
+		self.assertEqual("Anseeuw Björn", voting1_votes_no[0].politician.full_name)
+		self.assertEqual("Bruyère Robin", voting1_votes_no[1].politician.full_name)
+		self.assertEqual("Verreyt Hans", voting1_votes_no[-2].politician.full_name)
+		self.assertEqual("Wollants Bert", voting1_votes_no[-1].politician.full_name)
+
+		voting1_votes_abstention = [vote for vote in voting1_votes if vote.vote_type is VoteType.ABSTENTION]
+		self.assertEqual(4, len(voting1_votes_abstention))
+		self.assertEqual("Arens Josy", voting1_votes_abstention[0].politician.full_name)
+		self.assertEqual("Daems Greet", voting1_votes_abstention[1].politician.full_name)
+		self.assertEqual("Rohonyi Sophie", voting1_votes_abstention[-2].politician.full_name)
+		self.assertEqual("Vindevoghel Maria", voting1_votes_abstention[-1].politician.full_name)
+
+		self.assertEqual(133, len(voting1_votes))
+
+		self.assertEqual(134, len([v for v in votes if v.voting_id == "55_298_v2"]))
+
+		self.assertEqual(132, len([v for v in votes if v.voting_id == "55_298_v3"]))
 
 
 # More like integration tests, testing the outcome of the execution of all puzzle pieces tested separately above:
@@ -288,11 +363,11 @@ class PlenaryExtractionTest(unittest.TestCase):
 
 		# The votes are extracted correctly:
 		yes_voters = [vote.politician.full_name for vote in votes if
-					  vote.vote_type == "YES" and vote.voting_id == "55_298_v1"]
+					  vote.vote_type is VoteType.YES and vote.voting_id == "55_298_v1"]
 		no_voters = [vote.politician.full_name for vote in votes if
-					 vote.vote_type == "NO" and vote.voting_id == "55_298_v1"]
+					 vote.vote_type is VoteType.NO and vote.voting_id == "55_298_v1"]
 		abstention_voters = [vote.politician.full_name for vote in votes if
-							 vote.vote_type == "ABSTENTION" and vote.voting_id == "55_298_v1"]
+							 vote.vote_type is VoteType.ABSTENTION and vote.voting_id == "55_298_v1"]
 
 		count_yes = len(yes_voters)
 		count_no = len(no_voters)
@@ -718,7 +793,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 		actual, votes, problems = extract_from_html_plenary_report(CONFIG.plenary_html_input_path('ip067x.html'))
 
 		vote_types_motion_1 = set([v.vote_type for v in votes if v.motion_id == "55_067_1"])
-		self.assertTrue("NO" in vote_types_motion_1)
+		self.assertTrue(VoteType.NO in vote_types_motion_1)
 
 	@unittest.skip(
 		"todo - broke since the refactoring of proposal description extraction"
