@@ -7,6 +7,7 @@ import tqdm
 from transparentdemocracy import CONFIG
 from transparentdemocracy.documents.analyze_references import collect_document_references
 from transparentdemocracy.documents.references import parse_document_reference
+from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 from transparentdemocracy.plenaries.serialization import load_plenaries
 
 logger = logging.getLogger(__name__)
@@ -63,7 +64,7 @@ def get_referenced_document_pdf_urls():
 
 
 def get_document_references():
-	plenaries = load_plenaries()
+	plenaries, votes, problems = extract_from_html_plenary_reports()
 	specs = set([ref for ref, loc in collect_document_references(plenaries)])
 	document_references = [parse_document_reference(spec) for spec in specs]
 	return document_references
