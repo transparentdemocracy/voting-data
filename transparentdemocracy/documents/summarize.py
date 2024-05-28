@@ -102,6 +102,7 @@ class DocumentSummarizer():
 			output_path = os.path.join(os.path.dirname(input_path), output_filename)
 
 			print(f"Writing {output_path}")
+			os.makedirs(os.path.dirname(output_path), exist_ok=True)
 			with open(output_path, 'w') as fp:
 				fp.write(output_text)
 
