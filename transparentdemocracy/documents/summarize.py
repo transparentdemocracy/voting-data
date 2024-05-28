@@ -47,8 +47,7 @@ class DocumentSummarizer():
 
 		# TODO: evaluate performance with vs without tqdm here
 		for document_path in document_paths:
-			output_path = os.path.join(os.path.dirname(document_path),
-									   os.path.basename(document_path)[:-4] + ".summary")
+			output_path = txt_path_to_summary_path(document_path)
 			if os.path.exists(output_path):
 				continue
 
@@ -99,7 +98,7 @@ class DocumentSummarizer():
 				for doc in input_docs:
 					print(doc.metadata['source'])
 			input_path = input_docs[0].metadata['source']
-			output_filename = os.path.basename(input_path)[:-4] + ".summary"
+			output_filename = txt_path_to_summary_path(input_path)
 			output_path = os.path.join(os.path.dirname(input_path), output_filename)
 
 			print(f"Writing {output_path}")
@@ -136,6 +135,18 @@ class DocumentSummarizer():
 		)
 
 
+def txt_path_to_summary_path(doc_txt_path):
+	abs_document_path = os.path.abspath(doc_txt_path)
+	abs_txt_path = os.path.abspath(CONFIG.documents_txt_output_path())
+
+	if not abs_document_path.startswith(abs_txt_path):
+		raise Exception(f"Documents must be under {abs_txt_path}")
+
+	txt_relative = abs_document_path[len(abs_txt_path)+1:]
+	summary_relative = os.path.join(os.path.dirname(txt_relative), os.path.join(os.path.basename(txt_relative)[:-4]) + ".summary")
+	return CONFIG.documents_summary_output_path(summary_relative)
+
+
 def main():
 	if len(sys.argv) < 3:
 		print(f"Usage: {sys.argv[0]} <min-size> <max-size>")
@@ -155,7 +166,7 @@ def main():
 	not_summarized = [
 		path
 		for path in docs
-		if not os.path.exists(os.path.join(os.path.dirname(path), os.path.basename(path)[:-4] + ".summary"))
+		if not os.path.exists(txt_path_to_summary_path(path))
 	]
 	print(f"Documents matching size criteria: {len(docs)}")
 	print(f"Documents not yet summarized matching criteria: {len(not_summarized)}")

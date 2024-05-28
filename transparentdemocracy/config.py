@@ -34,6 +34,9 @@ class Config:
 	def documents_txt_output_path(self, *path):
 		return self.resolve(self.data_dir, "output", "documents", "txt", *path)
 
+	def documents_summary_output_path(self, *path):
+		return self.resolve(self.data_dir, "output", "documents", "summary", *path)
+
 
 def _create_config():
 	root_folder = os.path.dirname(os.path.dirname(__file__))
