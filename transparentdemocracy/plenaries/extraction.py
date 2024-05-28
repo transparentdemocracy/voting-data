@@ -381,7 +381,7 @@ def construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_
 		doc_ref_nl = motion_group_doc_ref
 
 	description = normalize_whitespace("\n".join([t.text for t in motion_tag_group[2:]]))
-	motion = Motion(motion_id, str(index), title_nl, title_fr, doc_ref_nl, voting_id, cancelled, description)
+	motion = Motion(motion_id, str(index), title_nl, title_fr, doc_ref_nl, voting_id, cancelled, description, [])
 
 	return motion
 

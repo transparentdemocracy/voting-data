@@ -1,3 +1,4 @@
+import logging
 import os.path
 
 import requests
@@ -5,10 +6,7 @@ import tqdm
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.documents.analyze_references import collect_document_references
-from transparentdemocracy.documents.references import get_document_references, parse_document_reference
-
-import logging
-
+from transparentdemocracy.documents.references import parse_document_reference
 from transparentdemocracy.plenaries.serialization import load_plenaries
 
 logger = logging.getLogger(__name__)
