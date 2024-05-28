@@ -117,7 +117,7 @@ class DocumentSummarizer():
 
 	def create_stuff_chain(self):
 		prompt = PromptTemplate.from_template(
-			f"""Summarize the following law proposal or amendment in Dutch. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}.
+			f"""Summarize the following law proposal or amendment. Your summary must be in Dutch only. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}.
 		{{text}}
 		CONCISE SUMMARY:""")
 
@@ -125,14 +125,14 @@ class DocumentSummarizer():
 
 	def create_map_reduce_chain(self):
 		map_prompt = PromptTemplate.from_template(
-			f"""Summarize the following part of a law proposal or amendment in Dutch. {PROMPT_BRIEFNESS} 
+			f"""Summarize the following part of a law proposal or amendment. Your summary must be in Dutch only. {PROMPT_BRIEFNESS} 
 		{{text}}
 		CONCISE SUMMARY:
 		""")
 
 		reduce_prompt = PromptTemplate.from_template(f"""The following is set of summaries:
 		{{text}}
-		Take these and distill it into a final, consolidated summary of the main themes in Dutch. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}
+		Take these and distill it into a final, consolidated summary of the main themes. Your summary must be in Dutch only. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}
 		Helpful Answer:""")
 
 		return load_summarize_chain(
