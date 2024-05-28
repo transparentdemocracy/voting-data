@@ -45,9 +45,13 @@ class DocumentSummarizer():
 		small_bucket = []
 		large_bucket = []
 
+		summarized = 0
+
 		# TODO: evaluate performance with vs without tqdm here
 		for document_path in document_paths:
 			output_path = txt_path_to_summary_path(document_path)
+
+			summarized += 1
 			if os.path.exists(output_path):
 				continue
 
@@ -65,10 +69,15 @@ class DocumentSummarizer():
 
 			if len(small_bucket) == 10:
 				self.batch_stuff(small_bucket)
+				remaining = len(document_paths) - summarized
+				print(f"{remaining} docs still need to be summarized")
 				small_bucket = []
 			if len(large_bucket) == 10:
 				self.batch_map_reduce(large_bucket)
+				remaining = len(document_paths) - summarized
+				print(f"{remaining} docs still need to be summarized")
 				large_bucket = []
+
 
 		if small_bucket:
 			self.batch_stuff(small_bucket)
