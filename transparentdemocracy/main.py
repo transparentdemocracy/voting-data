@@ -10,10 +10,12 @@ logging.basicConfig(level=logging.INFO)
 
 
 def main():
-	plenaries, votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"), num_reports_to_process=None)
-	plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(plenaries)
-	serialize(plenaries, votes, documents_reference_objects)
+    plenaries, votes, problems = extract_from_html_plenary_reports(
+        CONFIG.plenary_html_input_path("*.html"), num_reports_to_process=None)
+    plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(
+        plenaries)
+    serialize(plenaries, votes, documents_reference_objects)
 
 
 if __name__ == "__main__":
-	main()
+    main()

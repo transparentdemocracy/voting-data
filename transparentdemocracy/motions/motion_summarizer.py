@@ -1,5 +1,6 @@
 from openai import OpenAI
 
+
 class MotionSummarizer:
     def __init__(self):
         self.client = OpenAI()
