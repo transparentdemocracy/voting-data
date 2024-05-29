@@ -400,8 +400,8 @@ def construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_
     # Often, within motion groups, each motion starts with 2 HTML tags that are "Vote sur..." / "Stemming over...",
     # this occurs particularly often when motion groups contain multiple amendments:
     title_tag_nl, title_tag_fr = find_nl_and_fr_tag(motion_tag_group[:2])
-    title_fr = normalize_whitespace(title_tag_fr.text)
-    title_nl = normalize_whitespace(title_tag_nl.text)
+    title_fr = title_tag_fr.text.strip()
+    title_nl = title_tag_nl.text.strip()
     label_nl, title_nl, doc_ref_fr = __split_number_title_doc_ref(title_nl)
     label_fr, title_fr, doc_ref_nl = __split_number_title_doc_ref(title_fr)
     if doc_ref_fr != doc_ref_nl:
@@ -630,7 +630,7 @@ def __split_number_title_doc_ref(proposal_title) -> Tuple[Optional[int], str, st
 
     # TODO: detect multiple document references and report as problems
 
-    return number, normalize_whitespace(title), doc_ref
+    return number, title.strip(), doc_ref
 
 
 def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]:
