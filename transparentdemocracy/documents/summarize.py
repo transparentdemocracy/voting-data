@@ -1,9 +1,9 @@
 import glob
+import json
 import logging
 import os
 import re
 import sys
-import json
 
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
@@ -27,13 +27,47 @@ SUMMARY_SIZE = 400  # number of tokens for each summary
 # A word is +- 1.3 tokens
 WORDS_PER_DOCUMENT = int((CONTEXT_WINDOW - SUMMARY_SIZE) / 1.3)
 
-PROMPT_BRIEFNESS = "What is the summary of the following document in Dutch? Do not introduce your answer and to not write a conclusion at the end."
-PROMPT_VOCAB = "Use vocabulary that's suitable for laypeople."
+PROMPT_BRIEFNESS_NL = "Introduceer het antwoord niet, maar schrijf enkel de samenvatting"
+PROMPT_VOCAB_NL = "Gebruik woordenschat die geschikt is voor leken"
+
+PROMPT_BRIEFNESS_FR = "N'introduisez pas la réponse, rédigez simplement le résumé"
+PROMPT_VOCAB_FR = "Utilisez un vocabulaire adapté aux novices"
+
+PROMPT_STUFF_NL = f""""Vat de volgende tekst samen in het Nederlands. {PROMPT_BRIEFNESS_NL}. {PROMPT_VOCAB_NL}.
+                 {{text}}
+                 BONDIGE SAMENVATTING:"""
+PROMPT_MAP_NL = f"""Vat de volgende tekst samen in het Nederlands. {PROMPT_BRIEFNESS_NL}.
+                 {{text}}
+                 BONDIGE SAMENVATTING:"""
+PROMPT_REDUCE_NL = f"""Hierna volgen enkele samenvattingen. Maak een geconsolideerde samenvatting in het Nederlands.  {PROMPT_BRIEFNESS_NL}. {PROMPT_VOCAB_NL}.
+                {{text}}
+                BONDIGE SAMENVATTING:"""
+
+PROMPT_STUFF_FR = f""""Résumez le texte suivant en français. {PROMPT_BRIEFNESS_FR}. {PROMPT_VOCAB_FR}.
+                 {{text}}
+                 Résumé concis:"""
+PROMPT_MAP_FR = f"""Résumez le texte suivant en français. {PROMPT_BRIEFNESS_FR}.
+                 {{text}}
+                 Résumé concis:"""
+PROMPT_REDUCE_FR = f"""Ci-dessous quelques résumés. Créez un résumé consolidé en français.  {PROMPT_BRIEFNESS_FR}. {PROMPT_VOCAB_FR}.
+                {{text}}
+                Résumé concis:"""
+
+PROMPTS = dict(
+    nl=(PROMPT_STUFF_NL, PROMPT_MAP_NL, PROMPT_REDUCE_NL),
+    fr=(PROMPT_STUFF_FR, PROMPT_MAP_FR, PROMPT_REDUCE_FR)
+)
 
 
 class DocumentSummarizer():
-    def __init__(self):
+    def __init__(self, language="nl"):
         self.llm = ChatOllama(model=OLLAMA_MODEL)
+        self.language = language
+
+        # Get prompt for selected language
+        self.stuff_prompt_template = PROMPTS[language][0]
+        self.map_prompt_template = PROMPTS[language][1]
+        self.reduce_prompt_template = PROMPTS[language][2]
 
         # Used for documents that fit in the context window
         self.stuff_chain: BaseCombineDocumentsChain = self.create_stuff_chain()
@@ -52,7 +86,7 @@ class DocumentSummarizer():
 
         # TODO: evaluate performance with vs without tqdm here
         for document_path in document_paths:
-            output_path = txt_path_to_summary_path(document_path)
+            output_path = self.txt_path_to_summary_path(document_path)
 
             summarized += 1
             if os.path.exists(output_path):
@@ -100,8 +134,7 @@ class DocumentSummarizer():
         result = self.map_reduce_chain.batch([doc[1] for doc in large_bucket])
         self.write_summaries(result)
 
-    @staticmethod
-    def write_summaries(result):
+    def write_summaries(self, result):
 
         for r in result:
             input_docs = r['input_documents']
@@ -111,7 +144,7 @@ class DocumentSummarizer():
                 for doc in input_docs:
                     print(doc.metadata['source'])
             input_path = input_docs[0].metadata['source']
-            output_filename = txt_path_to_summary_path(input_path)
+            output_filename = self.txt_path_to_summary_path(input_path)
             output_path = os.path.join(
                 os.path.dirname(input_path), output_filename)
 
@@ -120,25 +153,31 @@ class DocumentSummarizer():
             with open(output_path, 'w') as fp:
                 fp.write(output_text)
 
-    def create_stuff_chain(self):
-        prompt = PromptTemplate.from_template(
-            f"""Summarize the following law proposal or amendment. Your summary must be in Dutch only. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}.
-		{{text}}
-		CONCISE SUMMARY:""")
+    def determine_documents_to_summarize(self, min_size_inclusive, max_size_exclusive):
+        docs = glob.glob(CONFIG.documents_txt_output_path(
+            "**/*.txt"), recursive=True)
+        docs = [path
+                for path in docs
+                if (os.path.getsize(path) >= min_size_inclusive) and (os.path.getsize(path) < max_size_exclusive)
+                ]
+        docs.sort(key=lambda path: os.path.getsize(path))
+        not_summarized = [
+            path
+            for path in docs
+            if not os.path.exists(self.txt_path_to_summary_path(path))
+        ]
+        print(f"Documents matching size criteria: {len(docs)}")
+        print(
+            f"Documents not yet summarized matching criteria: {len(not_summarized)}")
+        return docs
 
+    def create_stuff_chain(self):
+        prompt = PromptTemplate.from_template(self.stuff_prompt_template)
         return load_summarize_chain(self.llm, chain_type="stuff", prompt=prompt, document_variable_name="text")
 
     def create_map_reduce_chain(self):
-        map_prompt = PromptTemplate.from_template(
-            f"""Summarize the following part of a law proposal or amendment. Your summary must be in Dutch only. {PROMPT_BRIEFNESS}
-		{{text}}
-		CONCISE SUMMARY:
-		""")
-
-        reduce_prompt = PromptTemplate.from_template(f"""The following is set of summaries:
-		{{text}}
-		Take these and distill it into a final, consolidated summary of the main themes. Your summary must be in Dutch only. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}
-		Helpful Answer:""")
+        map_prompt = PromptTemplate.from_template(self.map_prompt_template)
+        reduce_prompt = PromptTemplate.from_template(self.reduce_prompt_template)
 
         return load_summarize_chain(
             self.llm,
@@ -149,18 +188,16 @@ class DocumentSummarizer():
             map_reduce_document_variable_name="text",
         )
 
+    def txt_path_to_summary_path(self, doc_txt_path):
+        abs_document_path = os.path.abspath(doc_txt_path)
+        abs_txt_path = os.path.abspath(CONFIG.documents_txt_output_path())
 
-def txt_path_to_summary_path(doc_txt_path):
-    abs_document_path = os.path.abspath(doc_txt_path)
-    abs_txt_path = os.path.abspath(CONFIG.documents_txt_output_path())
+        if not abs_document_path.startswith(abs_txt_path):
+            raise Exception(f"Documents must be under {abs_txt_path}")
 
-    if not abs_document_path.startswith(abs_txt_path):
-        raise Exception(f"Documents must be under {abs_txt_path}")
-
-    txt_relative = abs_document_path[len(abs_txt_path) + 1:]
-    summary_relative = os.path.join(os.path.dirname(txt_relative), os.path.join(
-        os.path.basename(txt_relative)[:-4]) + ".summary")
-    return CONFIG.documents_summary_output_path(summary_relative)
+        txt_relative = abs_document_path[len(abs_txt_path) + 1:]
+        summary_relative = os.path.join(os.path.dirname(txt_relative), os.path.join(os.path.basename(txt_relative)[:-4]) + ".summary")
+        return CONFIG.documents_summary_output_path(self.language, summary_relative)
 
 
 def write_json():
@@ -180,39 +217,25 @@ def write_json():
             summary_nl = fp.read()
         summaries.append(dict(
             document_id=document_id,
-            summary_nl=summary_nl
+            summary_nl=summary_nl,
+            summary_fr=None
         ))
     with open(CONFIG.documents_summaries_json_output_path(), 'w') as fp:
         json.dump(summaries, fp)
 
 
 def main():
-    if len(sys.argv) < 3:
-        print(f"Usage: {sys.argv[0]} <min-size> <max-size>")
+    if len(sys.argv) < 4:
+        print(f"Usage: {sys.argv[0]} <language> <min-size> <max-size>")
         sys.exit(1)
 
-    min_size_inclusive = int(sys.argv[1])
-    max_size_exclusive = int(sys.argv[2])
+    language = sys.argv[1]
+    min_size = int(sys.argv[2], 10)
+    max_size = int(sys.argv[3], 10)
 
-    docs = glob.glob(CONFIG.documents_txt_output_path(
-        "**/*.txt"), recursive=True)
-    docs = [path
-            for path in docs
-            if (os.path.getsize(path) >= min_size_inclusive) and (os.path.getsize(path) < max_size_exclusive)
-            ]
+    summarizer = DocumentSummarizer(language)
 
-    docs.sort(key=lambda path: os.path.getsize(path))
-
-    not_summarized = [
-        path
-        for path in docs
-        if not os.path.exists(txt_path_to_summary_path(path))
-    ]
-    print(f"Documents matching size criteria: {len(docs)}")
-    print(
-        f"Documents not yet summarized matching criteria: {len(not_summarized)}")
-
-    summarizer = DocumentSummarizer()
+    docs = summarizer.determine_documents_to_summarize(min_size, max_size)
     summarizer.summarize_documents(docs)
 
     if __name__ == "__main__":
