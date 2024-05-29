@@ -2,11 +2,13 @@ import glob
 import logging
 import os
 import sys
+from io import StringIO
 
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
 from langchain_community.chat_models import ChatOllama
 from langchain_community.document_loaders import TextLoader
+from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import CharacterTextSplitter
 
@@ -56,7 +58,9 @@ class DocumentSummarizer():
             if os.path.exists(output_path):
                 continue
 
-            docs = TextLoader(document_path).load()
+            with open(document_path, 'r') as fp:
+                doc_part = fp.read(12_000)
+            docs = [Document(page_content=doc_part, metadata={"source": document_path})]
             split_documents = self.text_splitter.split_documents(docs)
 
             if len(split_documents) == 0:
