@@ -148,9 +148,9 @@ class MotionExtractionTest(unittest.TestCase):
 
         self.assertEqual("55_298_mg_14_m0", motion_group14.motions[0].id)
         self.assertTrue("0", motion_group14.motions[0].sequence_number)
-        self.assertEqual("Stemming over amendement nr. 35 van Ellen Samyn op artikel 2.",
+        self.assertEqual("Stemming over amendement nr. 35 van Ellen\nSamyn op artikel 2.",
                          motion_group14.motions[0].title_nl)
-        self.assertEqual("Vote sur l'amendement n° 35 de Ellen Samyn à l'article 2.",
+        self.assertEqual("Vote sur l'amendement n° 35 de Ellen Samyn à\nl'article 2.",
                          motion_group14.motions[0].title_fr)
         self.assertEqual(
             "3808/10", motion_group14.motions[0].documents_reference)
@@ -187,8 +187,8 @@ class MotionExtractionTest(unittest.TestCase):
         self.assertEqual(3, len(motion_group12.motions))
 
         self.assertEqual(Motion("55_262_mg_12_m0", "0",
-                                "Stemming over amendement nr. 4 van Catherine Fonck tot invoeging van een artikel 2/1(n).",
-                                "Vote sur l'amendement n° 4 de Catherine Fonck tendant à insérer un article 2/1(n).",
+                                "Stemming over amendement nr.\xa04 van\nCatherine Fonck tot invoeging van een artikel 2/1(n).",
+                                "Vote sur l'amendement n°\xa04 de Catherine\nFonck tendant à insérer un article 2/1(n).",
                                 "3495/5",
                                 "55_262_v5",
                                 False,
