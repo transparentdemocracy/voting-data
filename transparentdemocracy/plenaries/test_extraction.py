@@ -5,7 +5,7 @@ from datetime import date
 
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
-from transparentdemocracy.model import Motion, Vote, VoteType
+from transparentdemocracy.model import Motion, VoteType
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
     extract_from_html_plenary_report, _get_plenary_date, _extract_motion_report_items, \
     _extract_motion_groups, _extract_votes, create_plenary_extraction_context, ReportItem
@@ -36,8 +36,10 @@ class ReportItemExtractionTest(unittest.TestCase):
 
         self.assert_report_item(report_items[1],
                                 "11",
-                                "11 Wetsontwerp\nhoudende diverse wijzigingen van het Wetboek van strafvordering II, zoals\ngeamendeerd tijdens de plenaire vergadering van 28 maart 2024 (3515/10)",
-                                "11 Projet de loi portant diverses modifications du Code d'instruction\ncriminelle II, tel qu'amendé lors de la séance plénière du 28 mars 2024\n(3515/10)")
+                                "11 Wetsontwerp\nhoudende diverse wijzigingen van het Wetboek van strafvordering II, zoals\ngeamendeerd tijdens de plenaire "
+                                "vergadering van 28 maart 2024 (3515/10)",
+                                "11 Projet de loi portant diverses modifications du Code d'instruction\ncriminelle II, tel qu'amendé lors de la séance "
+                                "plénière du 28 mars 2024\n(3515/10)")
 
     def test_extract_ip280_has_1_naamstemming_but_no_identifiable_motion_title(self):
         report_items = self.extract_motion_report_items('ip280x.html')
@@ -192,8 +194,15 @@ class MotionExtractionTest(unittest.TestCase):
                                 False,
                                 # TODO: formatting is completely lost, should be fixed somehow
                                 # actually preserving the original html might not be the worst idea
-                                "Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. Bijgevolg is het amendement verworpen.",
-                                # There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...,
+                                "Begin van de stemming / Début du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié "
+                                "son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il voté et vérifié son vote? Einde van de "
+                                "stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / Résultat du vote. Uitslag van de "
+                                "stemming / Résultat du vote. (Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total ("
+                                "Stemming/vote 5) Ja 6 Oui Nee 100 Non Onthoudingen 28 Abstentions Totaal 134 Total En conséquence, l'amendement est rejeté. "
+                                "Bijgevolg is het amendement verworpen.",
+                                # There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has
+                                # as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (
+                                # subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...,
                                 []
                                 ),
                          motion_group12.motions[0])
@@ -378,10 +387,12 @@ class PlenaryExtractionTest(unittest.TestCase):
             "La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement."))
 
         self.assertEqual(
-            "Wetsontwerp houdende optimalisatie van de werking van het Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en het Overlegorgaan voor de coördinatie van de invordering van niet-fiscale schulden in strafzaken en houdende wijziging van de Wapenwet",
+            "Wetsontwerp houdende optimalisatie van de werking van het Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en het Overlegorgaan "
+            "voor de coördinatie van de invordering van niet-fiscale schulden in strafzaken en houdende wijziging van de Wapenwet",
             plenary.proposal_discussions[0].proposals[0].title_nl)
         self.assertEqual(
-            "Projet de loi optimisant le fonctionnement de l'Organe central pour la Saisie et la Confiscation et de l'Organe de concertation pour la coordination du recouvrement des créances non fiscales en matière pénale et modifiant la loi sur les armes",
+            "Projet de loi optimisant le fonctionnement de l'Organe central pour la Saisie et la Confiscation et de l'Organe de concertation pour la "
+            "coordination du recouvrement des créances non fiscales en matière pénale et modifiant la loi sur les armes",
             plenary.proposal_discussions[0].proposals[0].title_fr)
         self.assertEqual(
             "3849/1-4", plenary.proposal_discussions[0].proposals[0].documents_reference)

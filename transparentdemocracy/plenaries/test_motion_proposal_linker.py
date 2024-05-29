@@ -6,7 +6,6 @@ from transparentdemocracy import CONFIG
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 
-
 ROOT_FOLDER = os.path.dirname(os.path.dirname(transparentdemocracy.__file__))
 
 

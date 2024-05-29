@@ -24,3 +24,6 @@ jobs:
       - name: Run unit tests
         run: |
           SKIP_SLOW=1 python -m unittest
+      - name: Linting
+        run: |
+          pylint --fail-under 6 transparentdemocracy

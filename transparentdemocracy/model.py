@@ -62,7 +62,8 @@ class Proposal:
 class ProposalDiscussion:
     id: str
     plenary_id: str
-    # item number on the agenda in the plenary session during which the proposal was discussed. This is the number surrounded with a black border seen in all plenary reports.
+    # item number on the agenda in the plenary session during which the proposal was discussed. This is the number surrounded with a black border seen in all
+    # plenary reports.
     plenary_agenda_item_number: int
     description_nl: str
     description_nl_tags: List[Tag]

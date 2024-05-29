@@ -1,8 +1,8 @@
 import os
 import unittest
 
-from transparentdemocracy.motions.motion_summarizer import MotionSummarizer
 from transparentdemocracy import CONFIG
+from transparentdemocracy.motions.motion_summarizer import MotionSummarizer
 
 
 class TestMotionSummarizer(unittest.TestCase):

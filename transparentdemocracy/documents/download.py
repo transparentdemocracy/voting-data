@@ -8,7 +8,6 @@ from transparentdemocracy import CONFIG
 from transparentdemocracy.documents.analyze_references import collect_document_references
 from transparentdemocracy.documents.references import parse_document_reference
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
-from transparentdemocracy.plenaries.serialization import load_plenaries
 
 logger = logging.getLogger(__name__)
 

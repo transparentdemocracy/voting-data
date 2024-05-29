@@ -71,9 +71,9 @@ def create_plenary_extraction_context(report_path: str, politicians) -> PlenaryE
 
 
 def extract_from_html_plenary_reports(
-        report_file_pattern: Union[str, List[str]
-                                   ] = CONFIG.plenary_html_input_path("*.html"),
-        num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
+    report_file_pattern: Union[str, List[str]
+    ] = CONFIG.plenary_html_input_path("*.html"),
+    num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
     politicians = load_politicians()
     all_problems = []
     plenaries = []
@@ -122,7 +122,7 @@ def extract_from_html_plenary_reports(
 
 
 def extract_from_html_plenary_report(report_path: str, politicians: Politicians = None) \
-        -> Tuple[Plenary, List[Vote], List[ParseProblem]]:
+    -> Tuple[Plenary, List[Vote], List[ParseProblem]]:
     politicians = politicians or load_politicians()
     ctx = create_plenary_extraction_context(report_path, politicians)
     plenary, votes = _extract_plenary(ctx)
@@ -138,7 +138,7 @@ def _read_plenary_html(report_filename):
 
 def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]]:
     plenary_number = os.path.split(ctx.report_path)[
-        1][2:5]  # example: ip078x.html -> 078
+                         1][2:5]  # example: ip078x.html -> 078
     # We currently only process plenary reports from legislature 55 with our download script.
     legislature = 55
     # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
@@ -164,7 +164,7 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]
 
 
 def _extract_motion_groups(plenary_id: str, ctx: PlenaryExtractionContext) \
-        -> Tuple[List[ReportItem], List[MotionGroup]]:
+    -> Tuple[List[ReportItem], List[MotionGroup]]:
     motion_report_items = _extract_motion_report_items(ctx)
     motion_groups = _report_items_to_motion_groups(
         ctx, plenary_id, motion_report_items)
@@ -181,7 +181,7 @@ def normalize_whitespace(text) -> str:
 
 
 def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: str) -> List[
-        ProposalDiscussion]:
+    ProposalDiscussion]:
     proposal_discussions = []
 
     # We'll be able to extract the proposals after the header of the proposals section in the plenary report:
@@ -199,12 +199,12 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
     proposal_section_headers = [
         el for el in level1_headers
         if "wetsontwerp" in el.text.strip().lower()
-        or "voorstel" in el.text.strip().lower()
-        or el.text.strip().lower() in ["projets de loi",
-                                       # "Begrotingen" (= financial cost estimates) for the coming year are the replacement
-                                       # for normal proposal discussions, but are in fact just another title for what are
-                                       # still proposals:
-                                       "begrotingen"]
+           or "voorstel" in el.text.strip().lower()
+           or el.text.strip().lower() in ["projets de loi",
+                                          # "Begrotingen" (= financial cost estimates) for the coming year are the replacement
+                                          # for normal proposal discussions, but are in fact just another title for what are
+                                          # still proposals:
+                                          "begrotingen"]
     ]
 
     if not proposal_section_headers:
@@ -297,7 +297,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
             # TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
             proposal_id = f"{proposal_discussion_id}_p{proposal_idx}"
             proposals.append(Proposal(proposal_id, nl_doc_ref,
-                             nl_text.strip(), fr_text.strip()))
+                                      nl_text.strip(), fr_text.strip()))
 
         if "verzoek om advies van de raad van state" in nl_proposal_text.lower():
             description_nl_tags = [
@@ -350,7 +350,7 @@ def determine_discussion_body_language(el: Tag) -> Optional[str]:
 
 
 def _report_items_to_motion_groups(ctx: PlenaryExtractionContext, plenary_id: str, report_items: List[ReportItem]) \
-        -> List[MotionGroup]:
+    -> List[MotionGroup]:
     # get motions for each report item and flatten
     return [_report_item_to_motion_group(ctx, plenary_id, item, index) for index, item in enumerate(report_items)]
 
@@ -560,10 +560,10 @@ def split_motion_group_item(ctx: PlenaryExtractionContext, item):
 
 
 def __find_siblings_between_elements(
-        start_element,
-        stop_element_name: str,
-        filter_tag_name: str = None,
-        filter_class_name: str = None):
+    start_element,
+    stop_element_name: str,
+    filter_tag_name: str = None,
+    filter_class_name: str = None):
     """
     Find all sibling elements (tags) between two elements (tags), or until no siblings remain within the parent element.
     The start and stop elements are not included in the results.
@@ -589,7 +589,7 @@ def __find_siblings_between_elements(
             siblings.append(next_sibling_element)
 
         if filter_class_name and type(next_sibling_element) is not NavigableString \
-                and "class" in next_sibling_element.attrs and filter_class_name in next_sibling_element.attrs["class"]:
+            and "class" in next_sibling_element.attrs and filter_class_name in next_sibling_element.attrs["class"]:
             siblings.append(next_sibling_element)
 
         if not filter_tag_name and not filter_class_name:
@@ -607,7 +607,7 @@ def __get_next_sibling_tag_name(element):
     if next_element is None:  # There just is no next element anymore.
         next_element_name = None
     elif type(
-            next_element) is not NavigableString:  # = Text in the HTML that is not enclosed within tags, it has no .name.
+        next_element) is not NavigableString:  # = Text in the HTML that is not enclosed within tags, it has no .name.
         next_element_name = next_element.name
     return next_element, next_element_name
 

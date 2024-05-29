@@ -7,10 +7,10 @@ import bs4
 from bs4 import Tag
 
 from transparentdemocracy import CONFIG
-from transparentdemocracy.plenaries.json_serde import PlenaryEncoder
 from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, VoteType, MotionGroup, \
     DocumentsReference
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
+from transparentdemocracy.plenaries.json_serde import PlenaryEncoder
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 
 

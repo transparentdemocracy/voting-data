@@ -25,7 +25,7 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
         plenary, votes, problems = extract_from_html_plenary_report(
             CONFIG.plenary_html_input_path('ip298x.html'))
         plenaries, documents_reference_objects, link_problems = link_motions_with_proposals([
-                                                                                            plenary])
+            plenary])
 
         MarkdownSerializer(tmp_markdown_output_dir).serialize_plenaries(
             [plenary], votes, documents_reference_objects)

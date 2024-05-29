@@ -2,8 +2,8 @@ import logging
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
-from transparentdemocracy.plenaries.serialization import serialize
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
+from transparentdemocracy.plenaries.serialization import serialize
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)

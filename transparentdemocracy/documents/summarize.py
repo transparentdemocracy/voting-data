@@ -118,7 +118,7 @@ class DocumentSummarizer():
 
     def create_stuff_chain(self):
         prompt = PromptTemplate.from_template(
-                f"""Summarize the following law proposal or amendment. Your summary must be in Dutch only. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}.
+            f"""Summarize the following law proposal or amendment. Your summary must be in Dutch only. {PROMPT_BRIEFNESS} {PROMPT_VOCAB}.
 		{{text}}
 		CONCISE SUMMARY:""")
 
@@ -126,7 +126,7 @@ class DocumentSummarizer():
 
     def create_map_reduce_chain(self):
         map_prompt = PromptTemplate.from_template(
-                f"""Summarize the following part of a law proposal or amendment. Your summary must be in Dutch only. {PROMPT_BRIEFNESS} 
+            f"""Summarize the following part of a law proposal or amendment. Your summary must be in Dutch only. {PROMPT_BRIEFNESS}
 		{{text}}
 		CONCISE SUMMARY:
 		""")
@@ -153,7 +153,7 @@ def txt_path_to_summary_path(doc_txt_path):
     if not abs_document_path.startswith(abs_txt_path):
         raise Exception(f"Documents must be under {abs_txt_path}")
 
-    txt_relative = abs_document_path[len(abs_txt_path)+1:]
+    txt_relative = abs_document_path[len(abs_txt_path) + 1:]
     summary_relative = os.path.join(os.path.dirname(txt_relative), os.path.join(
         os.path.basename(txt_relative)[:-4]) + ".summary")
     return CONFIG.documents_summary_output_path(summary_relative)
