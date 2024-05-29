@@ -203,7 +203,6 @@ class MotionExtractionTest(unittest.TestCase):
                                 # There is no separate proposal mentioned in plenary report 261 for subdocument 3495/5 only. But the proposal discussion has
                                 # as first title line (and therefore as first proposal) the documents reference 3495/1-5, which _encompasses_ 3495/5 (
                                 # subdocument 5 is in the range of subdocuments), therefore we can link to proposal 1 of 55_261_d22...,
-                                []
                                 ),
                          motion_group12.motions[0])
 

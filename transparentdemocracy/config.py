@@ -37,6 +37,9 @@ class Config:
     def documents_summary_output_path(self, *path):
         return self.resolve(self.data_dir, "output", "documents", "summary", *path)
 
+    def documents_summaries_json_output_path(self):
+        return self.resolve(self.data_dir, "output", "documents", "summaries.json")
+
 
 def _create_config():
     root_folder = os.path.dirname(os.path.dirname(__file__))

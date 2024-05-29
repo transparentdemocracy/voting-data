@@ -1,13 +1,13 @@
 import glob
 import logging
 import os
+import re
 import sys
-from io import StringIO
+import json
 
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
 from langchain_community.chat_models import ChatOllama
-from langchain_community.document_loaders import TextLoader
 from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import CharacterTextSplitter
@@ -161,6 +161,29 @@ def txt_path_to_summary_path(doc_txt_path):
     summary_relative = os.path.join(os.path.dirname(txt_relative), os.path.join(
         os.path.basename(txt_relative)[:-4]) + ".summary")
     return CONFIG.documents_summary_output_path(summary_relative)
+
+
+def write_json():
+    summaries = []
+    len_suffix = len(".summary")
+    pattern = re.compile("55K(\\d{4})(\\d{3})")
+    for path in glob.glob(CONFIG.documents_summary_output_path("**/*.summary"), recursive=True):
+        basename = os.path.basename(path)[:-len_suffix]
+        match = pattern.match(basename)
+        if not match:
+            continue
+
+        doc_nr = int(match.group(1))
+        sub_nr = int(match.group(2))
+        document_id = f"{doc_nr}/{sub_nr}"
+        with open(path) as fp:
+            summary_nl = fp.read()
+        summaries.append(dict(
+            document_id=document_id,
+            summary_nl=summary_nl
+        ))
+    with open(CONFIG.documents_summaries_json_output_path(), 'w') as fp:
+        json.dump(summaries, fp)
 
 
 def main():
