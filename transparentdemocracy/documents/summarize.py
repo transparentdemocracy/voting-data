@@ -238,5 +238,5 @@ def main():
     docs = summarizer.determine_documents_to_summarize(min_size, max_size)
     summarizer.summarize_documents(docs)
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
