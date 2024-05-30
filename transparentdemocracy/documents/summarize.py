@@ -4,6 +4,7 @@ import logging
 import os
 import re
 import sys
+from dataclasses import dataclass
 
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
@@ -16,6 +17,8 @@ from transparentdemocracy import CONFIG
 
 logger = logging.getLogger("__name__")
 logger.setLevel(logging.INFO)
+
+SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile("^.*/55K(\\d{4})(\\d{3}).summary$")
 
 # Config for llama3
 OLLAMA_MODEL = "llama3"  # 7b parameters
@@ -201,27 +204,49 @@ class DocumentSummarizer():
 
 
 def write_json():
-    summaries = []
-    len_suffix = len(".summary")
-    pattern = re.compile("55K(\\d{4})(\\d{3})")
-    for path in glob.glob(CONFIG.documents_summary_output_path("**/*.summary"), recursive=True):
-        basename = os.path.basename(path)[:-len_suffix]
-        match = pattern.match(basename)
-        if not match:
-            continue
-
-        doc_nr = int(match.group(1))
-        sub_nr = int(match.group(2))
-        document_id = f"{doc_nr}/{sub_nr}"
-        with open(path) as fp:
-            summary_nl = fp.read()
-        summaries.append(dict(
-            document_id=document_id,
-            summary_nl=summary_nl,
-            summary_fr=None
-        ))
+    summary_paths = glob.glob(CONFIG.documents_summary_output_path("**/*.summary"), recursive=True)
+    summary_pairs = get_summary_pairs(summary_paths)
+    summary_jsons = [dict(
+        document_id=s[0],
+        summary_nl=s[1].text,
+        summary_fr=s[2].text) for s in summary_pairs]
     with open(CONFIG.documents_summaries_json_output_path(), 'w') as fp:
-        json.dump(summaries, fp)
+        json.dump(summary_jsons, fp, indent=2)
+
+
+@dataclass
+class Summary:
+    document_id: str
+    text: str
+
+
+def get_summary_pairs(summary_paths):
+    nl_files = [to_summary(path) for path in summary_paths if "/nl/" in path]
+    fr_files = [to_summary(path) for path in summary_paths if "/fr/" in path]
+
+    nl_by_id = dict((summary.document_id, summary) for summary in nl_files if summary is not None)
+    fr_by_id = dict((summary.document_id, summary) for summary in fr_files if summary is not None)
+
+    missing_fr = nl_by_id.keys() - fr_by_id.keys()
+    missing_nl = fr_by_id.keys() - nl_by_id.keys()
+    if missing_fr:
+        print(f"{len(missing_fr)} fr summaries are missing")
+    if missing_nl:
+        print(f"{len(missing_nl)} nl summaries are missing")
+
+    return [(s.document_id, s, fr_by_id.get(s.document_id)) for s in nl_by_id.values() if s.document_id in fr_by_id.keys()]
+
+
+def to_summary(path):
+    match = SUMMARY_DOCUMENT_FILENAME_PATTERN.match(path)
+    if not match:
+        print("no match", path)
+        return None
+    doc_id = int(match.group(1), 10)
+    sub_doc_id = int(match.group(2), 10)
+    with open(path) as fp:
+        text = fp.read()
+    return Summary(f"{doc_id}/{sub_doc_id}", text)
 
 
 def main():
@@ -237,6 +262,7 @@ def main():
 
     docs = summarizer.determine_documents_to_summarize(min_size, max_size)
     summarizer.summarize_documents(docs)
+
 
 if __name__ == "__main__":
     main()
