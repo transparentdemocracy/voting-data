@@ -172,7 +172,7 @@ class DocumentSummarizer():
         print(f"Documents matching size criteria: {len(docs)}")
         print(
             f"Documents not yet summarized matching criteria: {len(not_summarized)}")
-        return docs
+        return not_summarized
 
     def create_stuff_chain(self):
         prompt = PromptTemplate.from_template(self.stuff_prompt_template)
