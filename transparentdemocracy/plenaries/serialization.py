@@ -116,7 +116,7 @@ class JsonSerializer:
     def serialize_votes(self, votes: List[Vote]) -> None:
         self._serialize_list([dict(
             voting_id=v.voting_id,
-            vote_type=v.vote_type,
+            vote_type=v.vote_type.value,
             politician_id=v.politician.id) for v
             in votes], "votes.json")
 
