@@ -1,4 +1,5 @@
 import glob
+import itertools
 import json
 import logging
 import os
@@ -36,7 +37,11 @@ PROMPT_VOCAB_NL = "Gebruik woordenschat die geschikt is voor leken"
 PROMPT_BRIEFNESS_FR = "N'introduisez pas la réponse, rédigez simplement le résumé"
 PROMPT_VOCAB_FR = "Utilisez un vocabulaire adapté aux novices"
 
-PROMPT_STUFF_NL = """Schrijf een samenvatting van de onderstaande tekst in het Nederlands. Geen introductie, alleen de samenvatting.\nDit is de tekst:\n{text}\nDit is de samenvatting in het Nederlands:\n"""
+PROMPT_STUFF_NL = """Schrijf een samenvatting van de onderstaande tekst in het Nederlands. Geen introductie, alleen de samenvatting. Dit is de tekst:
+
+{text}
+
+Dit is de samenvatting in het Nederlands:"""
 
 PROMPT_MAP_NL = f"""Vat de volgende tekst samen in het Nederlands. {PROMPT_BRIEFNESS_NL}.
                  {{text}}
@@ -260,6 +265,91 @@ def main():
     docs = DocumentSummarizer(language).determine_documents_to_summarize(min_size, max_size)
     summarizer = DocumentSummarizer(language)
     summarizer.summarize_documents(docs)
+
+
+def fixup_summaries():
+    known_actions = load_known_actions()
+    save_known_actions(known_actions)
+
+    print("known actions", known_actions)
+
+    files_to_check = []
+    glob_path = CONFIG.documents_summary_output_path("**/*.summary")
+    print(f"summaries to process: {len(glob.glob(glob_path, recursive=True))}")
+    for path in glob.glob(glob_path, recursive=True):
+        with open(path, 'r') as fp:
+            lines = fp.readlines()
+
+        if len(lines) < 3 or lines[1].strip() != '' or lines[2].strip() == '':
+            continue
+
+        if lines[0].strip() in known_actions:
+            action = known_actions[lines[0].strip()]
+            apply_action(action, path)
+            continue
+
+        print("adding", lines[0].strip())
+        files_to_check.append((path, lines[0].strip()))
+
+    files_by_first_line = dict((k, [pair[0] for pair in v]) for k, v in itertools.groupby(files_to_check, lambda pair: pair[1]))
+
+    print(f"{len(files_by_first_line)} phrases")
+    phrases = [k for k in files_by_first_line.keys()]
+    phrases.sort(key = lambda k: -len(files_by_first_line[k]))
+    for phrase in phrases:
+        if not ("summary" in phrase or "résumé" in phrase or "samenvatting" in phrase):
+            continue
+
+        print(f"Phrase: {phrase}")
+        paths = files_by_first_line[phrase]
+        print("Paths:", paths)
+
+        while True:
+            action = input("Choose an action; (S)kip, (I)gnore, (D)elete, (F)ixup, (Q)uit").strip().upper()
+            if action in "SIDF":
+                break
+
+            if action in "IDF":
+                known_actions[phrase] = action
+            if action == "S":
+                continue
+            if action == "Q":
+                save_known_actions(known_actions)
+                sys.exit(0)
+            for path in paths:
+                apply_action(action, path)
+
+    save_known_actions(known_actions)
+
+
+def load_known_actions():
+    if not os.path.exists('known-actions.json'):
+        return dict()
+    with open('known-actions.json', 'r') as fp:
+        return json.load(fp)
+
+
+def save_known_actions(known_actions):
+    with open('known-actions.json', 'w') as fp:
+        json.dump(known_actions, fp, indent=2)
+
+
+def apply_action(action, path):
+    if action == "I":
+        pass
+    elif action == "D":
+        os.remove(path)
+        return
+    elif action == "F":
+        with open(path, 'r') as fp:
+            lines = fp.readlines()
+
+        lines = lines[2:]
+        with open(path, 'w') as fp:
+            fp.writelines(lines)
+
+    else:
+        raise Exception(f"Unknown action {action}")
 
 
 if __name__ == "__main__":
