@@ -30,19 +30,18 @@ SUMMARY_SIZE = 400  # number of tokens for each summary
 # A word is +- 1.3 tokens
 WORDS_PER_DOCUMENT = int((CONTEXT_WINDOW - SUMMARY_SIZE) / 1.3)
 
-PROMPT_BRIEFNESS_NL = "Introduceer het antwoord niet, maar schrijf enkel de samenvatting"
+PROMPT_BRIEFNESS_NL = "Begin direct, zonder introductie."
 PROMPT_VOCAB_NL = "Gebruik woordenschat die geschikt is voor leken"
 
 PROMPT_BRIEFNESS_FR = "N'introduisez pas la réponse, rédigez simplement le résumé"
 PROMPT_VOCAB_FR = "Utilisez un vocabulaire adapté aux novices"
 
-PROMPT_STUFF_NL = f""""Vat de volgende tekst samen in het Nederlands. {PROMPT_BRIEFNESS_NL}. {PROMPT_VOCAB_NL}.
-                 {{text}}
-                 BONDIGE SAMENVATTING:"""
+PROMPT_STUFF_NL = """Schrijf een samenvatting van de onderstaande tekst in het Nederlands. Geen introductie, alleen de samenvatting.\nDit is de tekst:\n{text}\nDit is de samenvatting in het Nederlands:\n"""
+
 PROMPT_MAP_NL = f"""Vat de volgende tekst samen in het Nederlands. {PROMPT_BRIEFNESS_NL}.
                  {{text}}
                  BONDIGE SAMENVATTING:"""
-PROMPT_REDUCE_NL = f"""Hierna volgen enkele samenvattingen. Maak een geconsolideerde samenvatting in het Nederlands.  {PROMPT_BRIEFNESS_NL}. {PROMPT_VOCAB_NL}.
+PROMPT_REDUCE_NL = f"""Hierna volgen enkele samenvattingen. Maak een geconsolideerde samenvatting.  {PROMPT_BRIEFNESS_NL}. {PROMPT_VOCAB_NL}.
                 {{text}}
                 BONDIGE SAMENVATTING:"""
 
@@ -63,12 +62,14 @@ PROMPTS = dict(
 
 
 class DocumentSummarizer():
-    def __init__(self, language="nl"):
+    def __init__(self, language="nl", custom_prompt=None, target_dir=None):
         self.llm = ChatOllama(model=OLLAMA_MODEL)
+        self.target_dir = target_dir
         self.language = language
 
-        # Get prompt for selected language
         self.stuff_prompt_template = PROMPTS[language][0]
+        if custom_prompt is not None:
+            self.stuff_prompt_template = custom_prompt
         self.map_prompt_template = PROMPTS[language][1]
         self.reduce_prompt_template = PROMPTS[language][2]
 
@@ -147,9 +148,7 @@ class DocumentSummarizer():
                 for doc in input_docs:
                     print(doc.metadata['source'])
             input_path = input_docs[0].metadata['source']
-            output_filename = self.txt_path_to_summary_path(input_path)
-            output_path = os.path.join(
-                os.path.dirname(input_path), output_filename)
+            output_path = self.txt_path_to_summary_path(input_path)
 
             print(f"Writing {output_path}")
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -170,8 +169,8 @@ class DocumentSummarizer():
             if not os.path.exists(self.txt_path_to_summary_path(path))
         ]
         print(f"Documents matching size criteria: {len(docs)}")
-        print(
-            f"Documents not yet summarized matching criteria: {len(not_summarized)}")
+        print(f"Documents not yet summarized matching criteria: {len(not_summarized)}")
+
         return not_summarized
 
     def create_stuff_chain(self):
@@ -258,9 +257,8 @@ def main():
     min_size = int(sys.argv[2], 10)
     max_size = int(sys.argv[3], 10)
 
+    docs = DocumentSummarizer(language).determine_documents_to_summarize(min_size, max_size)
     summarizer = DocumentSummarizer(language)
-
-    docs = summarizer.determine_documents_to_summarize(min_size, max_size)
     summarizer.summarize_documents(docs)
 
 
