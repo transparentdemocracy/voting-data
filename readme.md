@@ -2,7 +2,7 @@
 
 We believe that in a democracy, it should be transparent and easily understandable what politicians, who represent the people, voted for.
 
-This project currently visualizes the voting behavior of the politicians in the Belgian federal parliament (Chamber) in 2024.
+This project currently visualizes the voting behavior of the politicians in the Belgian federal parliament (Chamber) in the past 5 years.
 
 ## The data
 
