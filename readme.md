@@ -6,9 +6,9 @@ This project currently visualizes the voting behavior of the politicians in the 
 
 ## The data
 
-You can check out the data extracted in [data/output](https://github.com/transparentdemocracy/voting-data/tree/main/data/output).
+We built [watdoetdepolitiek.be](http://watdoetdepolitiek.be) to let you browse the data we extracted freely, according to your interests.
 
-We built watdoetdepolitiek.be to let you browse the data freely.
+You can also check out the data yourself in [data/output](https://github.com/transparentdemocracy/voting-data/tree/main/data/output).
 
 ## Convinced of this project's potential?
 
