@@ -22,78 +22,33 @@ from transparentdemocracy import CONFIG
 logger = logging.getLogger("__name__")
 logger.setLevel(logging.INFO)
 
+# Batch size doesn't really matter when using OLLAMA locally, it gets executed sequentially anyway
 BATCH_SIZE = 1
 SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile("^.*/55K(\\d{4})(\\d{3}).summary$")
 
-# Config for llama3
-OLLAMA_MODEL = "llama3"  # 7b parameters
-# must match model, see https://en.wikipedia.org/wiki/Llama_(language_model)
-CONTEXT_WINDOW = 8912
-
-#
-SUMMARY_SIZE = 400  # number of tokens for each summary
-# A word is +- 1.3 tokens
-WORDS_PER_DOCUMENT = int((CONTEXT_WINDOW - SUMMARY_SIZE) / 1.3)
-
-PROMPT_BRIEFNESS_NL = "Begin direct, zonder introductie."
-PROMPT_VOCAB_NL = "Gebruik woordenschat die geschikt is voor leken"
-
-PROMPT_BRIEFNESS_FR = "N'introduisez pas la réponse, rédigez simplement le résumé"
-PROMPT_VOCAB_FR = "Utilisez un vocabulaire adapté aux novices"
-
-PROMPT_STUFF_NL = """Summarize the text in Dutch and in French. Here is the text:
+OLLAMA_MODEL = "llama3"
+PROMPT_STUFF = """Summarize the text in Dutch and in French. Here is the text:
 
 {text}
 
 Answer with a single json object. The dutch summary should be in a property called nl and the french summary should be in a property called fr."""
 
-PROMPT_MAP_NL = f"""Vat de volgende tekst samen in het Nederlands. {PROMPT_BRIEFNESS_NL}.
-                 {{text}}
-                 BONDIGE SAMENVATTING:"""
-PROMPT_REDUCE_NL = f"""Hierna volgen enkele samenvattingen. Maak een geconsolideerde samenvatting.  {PROMPT_BRIEFNESS_NL}. {PROMPT_VOCAB_NL}.
-                {{text}}
-                BONDIGE SAMENVATTING:"""
 
-PROMPT_STUFF_FR = f""""Résumez le texte suivant en français. {PROMPT_BRIEFNESS_FR}. {PROMPT_VOCAB_FR}.
-                 {{text}}
-                 Résumé concis:"""
-PROMPT_MAP_FR = f"""Résumez le texte suivant en français. {PROMPT_BRIEFNESS_FR}.
-                 {{text}}
-                 Résumé concis:"""
-PROMPT_REDUCE_FR = f"""Ci-dessous quelques résumés. Créez un résumé consolidé en français.  {PROMPT_BRIEFNESS_FR}. {PROMPT_VOCAB_FR}.
-                {{text}}
-                Résumé concis:"""
-
-PROMPTS = dict(
-    nl=(PROMPT_STUFF_NL, PROMPT_MAP_NL, PROMPT_REDUCE_NL),
-    fr=(PROMPT_STUFF_FR, PROMPT_MAP_FR, PROMPT_REDUCE_FR)
-)
-
-
-class DocumentSummarizer():
-    def __init__(self, language="nl", custom_prompt=None, target_dir=None):
+class DocumentSummarizer:
+    def __init__(self, custom_prompt=None, target_dir=None):
         self.llm = ChatOllama(model=OLLAMA_MODEL)
         self.target_dir = target_dir
-        self.language = language
 
-        self.stuff_prompt_template = PROMPTS[language][0]
+        self.stuff_prompt_template = PROMPT_STUFF
         if custom_prompt is not None:
             self.stuff_prompt_template = custom_prompt
-        self.map_prompt_template = PROMPTS[language][1]
-        self.reduce_prompt_template = PROMPTS[language][2]
 
-        # Used for documents that fit in the context window
         self.stuff_chain: BaseCombineDocumentsChain = self.create_stuff_chain()
 
-        # Used for documents that do not fit in the context window
-        self.map_reduce_chain: BaseCombineDocumentsChain = self.create_map_reduce_chain()
-        self.text_splitter = CharacterTextSplitter.from_tiktoken_encoder(
-            chunk_size=WORDS_PER_DOCUMENT, chunk_overlap=100
-        )
+        self.text_splitter = CharacterTextSplitter.from_tiktoken_encoder(chunk_size=40_000, chunk_overlap=100)
 
     def summarize_documents(self, document_paths):
-        small_bucket = []
-        large_bucket = []
+        batch = []
 
         summarized = 0
 
@@ -114,37 +69,26 @@ class DocumentSummarizer():
                 logger.info(f"Empty document? {document_path}")
                 continue
 
-            if len(split_documents) == 1:
-                small_bucket.append((document_path, split_documents))
-            else:
-                large_bucket.append((document_path, split_documents))
+            if len(split_documents) > 1:
+                logger.info(f"Document was split into multiple pieces - We don't handle this right now")
+                continue
 
-            if len(small_bucket) == BATCH_SIZE:
-                self.batch_stuff(small_bucket)
+            batch.append((document_path, split_documents))
+
+            if len(batch) == BATCH_SIZE:
+                self.batch_stuff(batch)
                 remaining = len(document_paths) - summarized
                 print(f"{remaining} docs still need to be summarized")
-                small_bucket = []
-            if len(large_bucket) == BATCH_SIZE:
-                self.batch_map_reduce(large_bucket)
-                remaining = len(document_paths) - summarized
-                print(f"{remaining} docs still need to be summarized")
-                large_bucket = []
+                batch = []
 
-        if small_bucket:
-            self.batch_stuff(small_bucket)
-        if large_bucket:
-            self.batch_map_reduce(large_bucket)
+        if batch:
+            self.batch_stuff(batch)
 
     def batch_stuff(self, small_bucket):
         print(f"Summarizing {len(small_bucket)} small documents")
         for doc in small_bucket:
             print(doc[0])
         result = self.stuff_chain.batch([doc[1] for doc in small_bucket])
-        self.write_summaries(result)
-
-    def batch_map_reduce(self, large_bucket):
-        print(f"Summarizing {len(large_bucket)} large documents")
-        result = self.map_reduce_chain.batch([doc[1] for doc in large_bucket])
         self.write_summaries(result)
 
     def write_summaries(self, result):
@@ -186,19 +130,6 @@ class DocumentSummarizer():
         prompt = PromptTemplate.from_template(self.stuff_prompt_template)
         return load_summarize_chain(self.llm, chain_type="stuff", prompt=prompt, document_variable_name="text")
 
-    def create_map_reduce_chain(self):
-        map_prompt = PromptTemplate.from_template(self.map_prompt_template)
-        reduce_prompt = PromptTemplate.from_template(self.reduce_prompt_template)
-
-        return load_summarize_chain(
-            self.llm,
-            chain_type="map_reduce",
-            map_prompt=map_prompt,
-            combine_prompt=reduce_prompt,
-            combine_document_variable_name="text",
-            map_reduce_document_variable_name="text",
-        )
-
     def txt_path_to_summary_path(self, doc_txt_path):
         abs_document_path = os.path.abspath(doc_txt_path)
         abs_txt_path = os.path.abspath(CONFIG.documents_txt_output_path())
@@ -208,7 +139,7 @@ class DocumentSummarizer():
 
         txt_relative = abs_document_path[len(abs_txt_path) + 1:]
         summary_relative = os.path.join(os.path.dirname(txt_relative), os.path.join(os.path.basename(txt_relative)[:-4]) + ".summary")
-        return CONFIG.documents_summary_output_path(self.language, summary_relative)
+        return CONFIG.documents_summary_output_path(summary_relative)
 
 
 def write_json():
@@ -329,16 +260,15 @@ def to_summary(path):
 
 
 def main():
-    if len(sys.argv) < 4:
-        print(f"Usage: {sys.argv[0]} <language> <min-size> <max-size>")
+    if len(sys.argv) < 3:
+        print(f"Usage: {sys.argv[0]} <min-size> <max-size>")
         sys.exit(1)
 
-    language = sys.argv[1]
-    min_size = int(sys.argv[2], 10)
-    max_size = int(sys.argv[3], 10)
+    min_size = int(sys.argv[1], 10)
+    max_size = int(sys.argv[2], 10)
 
-    docs = DocumentSummarizer(language).determine_documents_to_summarize(min_size, max_size)
-    summarizer = DocumentSummarizer(language)
+    summarizer = DocumentSummarizer()
+    docs = summarizer.determine_documents_to_summarize(min_size, max_size)
     summarizer.summarize_documents(docs)
 
 
