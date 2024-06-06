@@ -6,7 +6,10 @@ import os
 import re
 import sys
 from dataclasses import dataclass
+from json import JSONDecodeError
 
+import jsonpath
+from jsonpath import JSONPathFindError
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
 from langchain_community.chat_models import ChatOllama
@@ -19,6 +22,7 @@ from transparentdemocracy import CONFIG
 logger = logging.getLogger("__name__")
 logger.setLevel(logging.INFO)
 
+BATCH_SIZE = 1
 SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile("^.*/55K(\\d{4})(\\d{3}).summary$")
 
 # Config for llama3
@@ -37,11 +41,11 @@ PROMPT_VOCAB_NL = "Gebruik woordenschat die geschikt is voor leken"
 PROMPT_BRIEFNESS_FR = "N'introduisez pas la réponse, rédigez simplement le résumé"
 PROMPT_VOCAB_FR = "Utilisez un vocabulaire adapté aux novices"
 
-PROMPT_STUFF_NL = """Schrijf een samenvatting van de onderstaande tekst in het Nederlands. Geen introductie, alleen de samenvatting. Dit is de tekst:
+PROMPT_STUFF_NL = """Summarize the text in Dutch and in French. Here is the text:
 
 {text}
 
-Dit is de samenvatting in het Nederlands:"""
+Answer with a single json object. The dutch summary should be in a property called nl and the french summary should be in a property called fr."""
 
 PROMPT_MAP_NL = f"""Vat de volgende tekst samen in het Nederlands. {PROMPT_BRIEFNESS_NL}.
                  {{text}}
@@ -115,12 +119,12 @@ class DocumentSummarizer():
             else:
                 large_bucket.append((document_path, split_documents))
 
-            if len(small_bucket) == 10:
+            if len(small_bucket) == BATCH_SIZE:
                 self.batch_stuff(small_bucket)
                 remaining = len(document_paths) - summarized
                 print(f"{remaining} docs still need to be summarized")
                 small_bucket = []
-            if len(large_bucket) == 10:
+            if len(large_bucket) == BATCH_SIZE:
                 self.batch_map_reduce(large_bucket)
                 remaining = len(document_paths) - summarized
                 print(f"{remaining} docs still need to be summarized")
@@ -209,13 +213,17 @@ class DocumentSummarizer():
 
 def write_json():
     summary_paths = glob.glob(CONFIG.documents_summary_output_path("**/*.summary"), recursive=True)
-    summary_pairs = get_summary_pairs(summary_paths)
-    summary_jsons = [dict(
-        document_id=s[0],
-        summary_nl=s[1].text,
-        summary_fr=s[2].text) for s in summary_pairs]
+
+    summaries, bad_files = get_summary_pairs(summary_paths)
+
+    if bad_files:
+        print("Could not detect json summaries in the following files:")
+        for path in bad_files:
+            print(f"  {path}")
+
+    summaries.sort(key=lambda s: s['document_id'])
     with open(CONFIG.documents_summaries_json_output_path(), 'w') as fp:
-        json.dump(summary_jsons, fp, indent=2)
+        json.dump(summaries, fp, indent=2)
 
 
 @dataclass
@@ -225,20 +233,87 @@ class Summary:
 
 
 def get_summary_pairs(summary_paths):
-    nl_files = [to_summary(path) for path in summary_paths if "/nl/" in path]
-    fr_files = [to_summary(path) for path in summary_paths if "/fr/" in path]
+    result = []
+    bad_files = []
 
-    nl_by_id = dict((summary.document_id, summary) for summary in nl_files if summary is not None)
-    fr_by_id = dict((summary.document_id, summary) for summary in fr_files if summary is not None)
+    for path in summary_paths:
+        filename_match = SUMMARY_DOCUMENT_FILENAME_PATTERN.match(path)
+        if not filename_match:
+            bad_files.append(path)
 
-    missing_fr = nl_by_id.keys() - fr_by_id.keys()
-    missing_nl = fr_by_id.keys() - nl_by_id.keys()
-    if missing_fr:
-        print(f"{len(missing_fr)} fr summaries are missing")
-    if missing_nl:
-        print(f"{len(missing_nl)} nl summaries are missing")
+        document_id = f"{filename_match.group(1)}/{filename_match.group(2)}"
 
-    return [(s.document_id, s, fr_by_id.get(s.document_id)) for s in nl_by_id.values() if s.document_id in fr_by_id.keys()]
+        summary_data = parse_summary_file(document_id, path)
+        if summary_data is None:
+            bad_files.append(path)
+        else:
+            result.append(summary_data)
+
+    return result, bad_files
+
+
+def parse_summary_file(document_id, path):
+    with open(path, 'r') as fp:
+        lines = fp.readlines()
+
+    marker_lines = [
+        i for i in range(len(lines))
+        if lines[i].startswith("```")
+    ]
+
+    if len(marker_lines) == 2:
+        json_str = "".join(lines[marker_lines[0] + 1:marker_lines[1]])
+    else:
+        full_text = "".join(lines)
+        start = full_text.find("{")
+        end = full_text.rfind("}")
+        if start == -1 or end == -1:
+            return None
+        json_str = full_text[start:end + 1]
+
+    try:
+        data = json.loads(json_str)
+        summary_nl = get_text(data, 'nl', 'dutch', 'Dutch', 'Nederlands', 'summary_nl')
+        summary_fr = get_text(data, 'fr', 'french', 'French', 'francais', 'Francais', 'summary_fr', 'summary.dutch.text')
+        if summary_nl is not None and summary_fr is not None:
+            return dict(document_id=document_id, summary_nl=summary_nl, summary_fr=summary_fr)
+        return None
+    except JSONDecodeError:
+        return None
+
+
+def get_text(data, *keys):
+    for key in keys:
+        summary = get_summary(data, f"$.{key}")
+        if summary is not None:
+            return summary
+        summary = get_summary(data, f"$.{key}.summary")
+        if summary is not None:
+            return summary
+        summary = get_summary(data, f"$.text.{key}")
+        if summary is not None:
+            return summary
+        summary = get_summary(data, f"$.{key}.text")
+        if summary is not None:
+            return summary
+        summary = get_summary(data, f"$.{key}.summary.text")
+        if summary is not None:
+            return summary
+        summary = get_summary(data, f"$.summary.{key}")
+        if summary is not None:
+            return summary
+
+    return None
+
+
+def get_summary(data, json_path):
+    try:
+        result = jsonpath.parse(json_path).find(data)
+        if len(result) == 1:
+            return result
+    except JSONPathFindError:
+        return None
+    return None
 
 
 def to_summary(path):
@@ -295,7 +370,7 @@ def fixup_summaries():
 
     print(f"{len(files_by_first_line)} phrases")
     phrases = [k for k in files_by_first_line.keys()]
-    phrases.sort(key = lambda k: -len(files_by_first_line[k]))
+    phrases.sort(key=lambda k: -len(files_by_first_line[k]))
     for phrase in phrases:
         if not ("summary" in phrase or "résumé" in phrase or "samenvatting" in phrase):
             continue
