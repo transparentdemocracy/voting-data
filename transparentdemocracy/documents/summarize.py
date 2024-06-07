@@ -31,7 +31,8 @@ PROMPT_STUFF = """Summarize the text in Dutch and in French. Here is the text:
 
 {text}
 
-Answer with a single json object. The dutch summary should be in a property called nl and the french summary should be in a property called fr."""
+Answer with a single json object. The dutch summary should be in string typed property called nl and the french summary should be in a string typed property
+called fr."""
 
 
 class DocumentSummarizer:
@@ -130,7 +131,8 @@ class DocumentSummarizer:
         prompt = PromptTemplate.from_template(self.stuff_prompt_template)
         return load_summarize_chain(self.llm, chain_type="stuff", prompt=prompt, document_variable_name="text")
 
-    def txt_path_to_summary_path(self, doc_txt_path):
+    @staticmethod
+    def txt_path_to_summary_path(doc_txt_path):
         abs_document_path = os.path.abspath(doc_txt_path)
         abs_txt_path = os.path.abspath(CONFIG.documents_txt_output_path())
 
@@ -183,6 +185,19 @@ def get_summary_pairs(summary_paths):
     return result, bad_files
 
 
+NL_IDENTIFIERS = ['nl', 'dutch', 'Dutch', 'Nederlands', 'summary_nl']
+FR_IDENTIFIERS = ['french', 'French', 'francais', 'Francais', 'summary_fr']
+
+PATTERNS = ["$.%s",
+            "$.%s.summary",
+            "$.text.%s",
+            "$.%s.text",
+            "$.%s.summary.text",
+            "$.summary.%s"]
+
+NL_EXPRESSIONS = [jsonpath.parse(pattern % identifier) for identifier in NL_IDENTIFIERS for pattern in PATTERNS]
+FR_EXPRESSIONS = [jsonpath.parse(pattern % identifier) for identifier in FR_IDENTIFIERS for pattern in PATTERNS]
+
 def parse_summary_file(document_id, path):
     with open(path, 'r') as fp:
         lines = fp.readlines()
@@ -204,8 +219,8 @@ def parse_summary_file(document_id, path):
 
     try:
         data = json.loads(json_str)
-        summary_nl = get_text(data, 'nl', 'dutch', 'Dutch', 'Nederlands', 'summary_nl')
-        summary_fr = get_text(data, 'fr', 'french', 'French', 'francais', 'Francais', 'summary_fr')
+        summary_nl = get_text(data, NL_EXPRESSIONS)
+        summary_fr = get_text(data, NL_EXPRESSIONS)
         if summary_nl is not None and summary_fr is not None:
             return dict(document_id=document_id, summary_nl=summary_nl, summary_fr=summary_fr)
         return None
@@ -213,29 +228,12 @@ def parse_summary_file(document_id, path):
         return None
 
 
-def get_text(data, *keys):
-    for key in keys:
-        summary = get_summary(data, f"$.{key}")
-        if summary is not None:
-            return summary
-        summary = get_summary(data, f"$.{key}.summary")
-        if summary is not None:
-            return summary
-        summary = get_summary(data, f"$.text.{key}")
-        if summary is not None:
-            return summary
-        summary = get_summary(data, f"$.{key}.text")
-        if summary is not None:
-            return summary
-        summary = get_summary(data, f"$.{key}.summary.text")
-        if summary is not None:
-            return summary
-        summary = get_summary(data, f"$.summary.{key}")
-        if summary is not None:
-            return summary
-
+def get_text(data, expressions):
+    for expr in expressions:
+        result = expr.find(data)
+        if len(result) == 1 and isinstance(result[0], str):
+            return result
     return None
-
 
 def get_summary(data, json_path):
     try:
