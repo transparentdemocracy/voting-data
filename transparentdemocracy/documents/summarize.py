@@ -27,12 +27,19 @@ BATCH_SIZE = 1
 SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile("^.*/55K(\\d{4})(\\d{3}).summary$")
 
 OLLAMA_MODEL = "llama3"
-PROMPT_STUFF = """Summarize the text in Dutch and in French. Here is the text:
+PROMPT_STUFF = """Return a JSON object, containing a Dutch summary (let's refer to this with the variable [DUTCH_SUMMARY]) and French summary (let's refer to this as [FRENCH_SUMMARY]) of the following text:
 
 {text}
 
-Answer with a single json object. The dutch summary should be in string typed property called nl and the french summary should be in a string typed property
-called fr."""
+The returned JSON object must look like this:
+
+{{
+  "nl": "[DUTCH_SUMMARY]",
+  "fr": "[FRENCH_SUMMARY]"
+}}
+
+The summary must not be longer than 5 sentences.
+It should be written in layman terms, rather than using very judicial or political vocabulary."""
 
 
 class DocumentSummarizer:
