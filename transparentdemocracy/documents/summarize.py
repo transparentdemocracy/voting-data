@@ -205,7 +205,7 @@ def parse_summary_file(document_id, path):
     try:
         data = json.loads(json_str)
         summary_nl = get_text(data, 'nl', 'dutch', 'Dutch', 'Nederlands', 'summary_nl')
-        summary_fr = get_text(data, 'fr', 'french', 'French', 'francais', 'Francais', 'summary_fr', 'summary.dutch.text')
+        summary_fr = get_text(data, 'fr', 'french', 'French', 'francais', 'Francais', 'summary_fr')
         if summary_nl is not None and summary_fr is not None:
             return dict(document_id=document_id, summary_nl=summary_nl, summary_fr=summary_fr)
         return None
@@ -240,7 +240,7 @@ def get_text(data, *keys):
 def get_summary(data, json_path):
     try:
         result = jsonpath.parse(json_path).find(data)
-        if len(result) == 1:
+        if len(result) == 1 and isinstance(result[0], str):
             return result
     except JSONPathFindError:
         return None
