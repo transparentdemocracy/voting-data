@@ -9,7 +9,6 @@ from dataclasses import dataclass
 from json import JSONDecodeError
 
 import jsonpath
-from jsonpath import JSONPathFindError
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
 from langchain_community.chat_models import ChatOllama
@@ -27,7 +26,8 @@ BATCH_SIZE = 1
 SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile("^.*/55K(\\d{4})(\\d{3}).summary$")
 
 OLLAMA_MODEL = "llama3"
-PROMPT_STUFF = """Return a JSON object, containing a Dutch summary (let's refer to this with the variable [DUTCH_SUMMARY]) and French summary (let's refer to this as [FRENCH_SUMMARY]) of the following text:
+PROMPT_STUFF = """Return a JSON object, containing a Dutch summary (let's refer to this with the variable [DUTCH_SUMMARY]) and French summary (let's refer to
+this as [FRENCH_SUMMARY]) of the following text:
 
 {text}
 
@@ -193,7 +193,7 @@ def get_summary_pairs(summary_paths):
 
 
 NL_IDENTIFIERS = ['nl', 'dutch', 'Dutch', 'Nederlands', 'summary_nl']
-FR_IDENTIFIERS = ['french', 'French', 'francais', 'Francais', 'summary_fr']
+FR_IDENTIFIERS = ['fr', 'french', 'French', 'francais', 'Francais', 'summary_fr']
 
 PATTERNS = ["$.%s",
             "$.%s.summary",
@@ -204,6 +204,7 @@ PATTERNS = ["$.%s",
 
 NL_EXPRESSIONS = [jsonpath.parse(pattern % identifier) for identifier in NL_IDENTIFIERS for pattern in PATTERNS]
 FR_EXPRESSIONS = [jsonpath.parse(pattern % identifier) for identifier in FR_IDENTIFIERS for pattern in PATTERNS]
+
 
 def parse_summary_file(document_id, path):
     with open(path, 'r') as fp:
@@ -227,7 +228,7 @@ def parse_summary_file(document_id, path):
     try:
         data = json.loads(json_str)
         summary_nl = get_text(data, NL_EXPRESSIONS)
-        summary_fr = get_text(data, NL_EXPRESSIONS)
+        summary_fr = get_text(data, FR_EXPRESSIONS)
         if summary_nl is not None and summary_fr is not None:
             return dict(document_id=document_id, summary_nl=summary_nl, summary_fr=summary_fr)
         return None
@@ -240,15 +241,6 @@ def get_text(data, expressions):
         result = expr.find(data)
         if len(result) == 1 and isinstance(result[0], str):
             return result
-    return None
-
-def get_summary(data, json_path):
-    try:
-        result = jsonpath.parse(json_path).find(data)
-        if len(result) == 1 and isinstance(result[0], str):
-            return result
-    except JSONPathFindError:
-        return None
     return None
 
 
