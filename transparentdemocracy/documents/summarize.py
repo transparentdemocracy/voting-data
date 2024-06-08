@@ -232,7 +232,7 @@ def get_text(data, expressions):
     for expr in expressions:
         result = expr.find(data)
         if len(result) == 1 and isinstance(result[0], str) and len(result[0]) > 3:
-            return result
+            return result[0]
     return None
 
 
