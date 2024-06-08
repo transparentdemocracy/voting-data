@@ -239,7 +239,7 @@ def parse_summary_file(document_id, path):
 def get_text(data, expressions):
     for expr in expressions:
         result = expr.find(data)
-        if len(result) == 1 and isinstance(result[0], str):
+        if len(result) == 1 and isinstance(result[0], str) and len(result[0]) > 3:
             return result
     return None
 
