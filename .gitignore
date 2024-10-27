@@ -179,3 +179,5 @@ data/output/documents/
 data/output/documents.zip
 /terraform/summarizer/karel.auto.tfvars
 /terraform/summarizer/.terraform/
+
+wddp-local-infra/esdata
