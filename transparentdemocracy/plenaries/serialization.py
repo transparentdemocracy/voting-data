@@ -117,7 +117,7 @@ class JsonSerializer:
         self._serialize_list([dict(
             voting_id=v.voting_id,
             vote_type=v.vote_type.value,
-            politician_id=v.politician.id) for v
+            politician_id=str(v.politician.id)) for v
             in votes], "votes.json")
 
     def serialize_documents_reference_objects(self, documents_reference_objects):
