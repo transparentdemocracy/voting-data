@@ -1,10 +1,25 @@
 import json
 from collections import defaultdict
 
+from elasticsearch import Elasticsearch
+
 from transparentdemocracy.config import CONFIG
 
 
+class ElasticRepo:
+    def __init__(self):
+        # local dev doesn't use authentication
+        API_KEY = "a0ZfajFKSUJfcXpZQ0Z2aksySHc6ZWNXNGZJSElRWHkzTTJiNXVSbHhkdw=="
+        self.es = Elasticsearch("http://localhost:9200")
+        #self.es = self.es.options(api_key=API_KEY)
+
+    def publish_motion(self, doc):
+        response = self.es.index(index="motions", id=doc["id"], body=doc)
+        print(response)
+
+
 def publish():
+    repo = ElasticRepo()
     with open(CONFIG.plenary_json_output_path("plenaries.json")) as plenary_file:
         plenaries = json.load(plenary_file)
 
@@ -34,10 +49,7 @@ def publish():
             doc["motions"] = [m for m in motions if m is not None]
             doc["votingDate"] = plenary["date"]
 
-            publish_motion(doc)
-
-def publish_motion(doc):
-    pass # TODO
+            repo.publish_motion(doc)
 
 
 def to_motion_read_model(p, mg, m, votes_by_id, politicians_by_id):
@@ -89,7 +101,7 @@ def to_votes(votes, vote_type, politicians_by_id):
 
 
 def to_doc_reference(spec):
-    return None # TODO
+    return None  # TODO
     if spec is None:
         refdoc = dict()
         refdoc["spec"] = spec
