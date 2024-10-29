@@ -79,12 +79,13 @@ def to_votes(votes, vote_type, politicians_by_id):
         raise Exception("I don't expect to be called without votes")
     vdoc = dict()
 
-    count_votes_with_type = len([v for v in votes if v["vote_type"] == vote_type])
+    votes_with_type = [v for v in votes if v["vote_type"] == vote_type]
+    count_votes_with_type = len(votes_with_type)
     vdoc["nrOfVotes"] = count_votes_with_type
     vdoc["votePercentage"] = 0 if len(votes) == 0 else 100.0 * vdoc["nrOfVotes"] / len(votes)
 
     votes_by_party = defaultdict(int)
-    for v in votes:
+    for v in votes_with_type:
         voter = politicians_by_id[v["politician_id"]]
         party = voter["party"]
         votes_by_party[party] += 1
