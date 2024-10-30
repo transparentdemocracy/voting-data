@@ -40,6 +40,8 @@ class Publisher():
                     continue
                 doc = dict()
                 doc["id"] = mg["id"]
+                doc["legislature"] = plenary["legislature"]
+                doc["plenaryNr"] = plenary["number"]
                 doc["titleNL"] = mg["title_nl"]
                 doc["titleFR"] = mg["title_fr"]
                 doc["motions"] = [m for m in motions if m is not None]
