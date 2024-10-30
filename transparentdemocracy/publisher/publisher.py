@@ -22,60 +22,51 @@ class ElasticRepo:
         print(response)
 
 
-def publish():
-    repo = ElasticRepo()
-    with open(CONFIG.plenary_json_output_path("plenaries.json")) as plenary_file:
-        plenaries = json.load(plenary_file)
+class Publisher():
+    def __init__(self, repo, plenaries, votes_by_id, politicians_by_id, summaries_by_id):
+        self.repo = repo
+        self.plenaries = plenaries
+        self.votes_by_id = votes_by_id
+        self.politicians_by_id = politicians_by_id
+        self.summaries_by_id = summaries_by_id
 
-    with open(CONFIG.plenary_json_output_path("votes.json")) as votes_file:
-        votes = json.load(votes_file)
+    def publish(self):
+        for plenary in self.plenaries:
+            for mg in plenary["motion_groups"]:
+                motions = [self.to_motion_read_model(plenary, mg, m) for m in mg["motions"]]
+                motions = [m for m in motions if m is not None]
+                if len(motions) == 0:
+                    # TODO logging
+                    continue
+                doc = dict()
+                doc["id"] = mg["id"]
+                doc["titleNL"] = mg["title_nl"]
+                doc["titleFR"] = mg["title_fr"]
+                doc["motions"] = [m for m in motions if m is not None]
+                doc["votingDate"] = plenary["date"]
 
-    with open(CONFIG.resolve("output", "politician", "politicians.json")) as politicians_file:
-        politicians = json.load(politicians_file)
+                self.repo.publish_motion(doc)
 
-    politicians_by_id = dict([(p["id"], p) for p in politicians])
+    def to_motion_read_model(self, p, mg, m):
+        if m["voting_id"] is None:
+            return None  # TODO log a warning
+        votes = self.votes_by_id[m["voting_id"]]
+        if len(votes) == 0:
+            return None  # TODO log a warning
 
-    votes_by_id = defaultdict(list)
-    for vote in votes:
-        votes_by_id[vote["voting_id"]].append(vote)
-
-    for plenary in plenaries:
-        for mg in plenary["motion_groups"]:
-            motions = [to_motion_read_model(plenary, mg, m, votes_by_id, politicians_by_id) for m in mg["motions"]]
-            motions = [m for m in motions if m is not None]
-            if len(motions) == 0:
-                # TODO logging
-                continue
-            doc = dict()
-            doc["id"] = mg["id"]
-            doc["titleNL"] = mg["title_nl"]
-            doc["titleFR"] = mg["title_fr"]
-            doc["motions"] = [m for m in motions if m is not None]
-            doc["votingDate"] = plenary["date"]
-
-            repo.publish_motion(doc)
-
-
-def to_motion_read_model(p, mg, m, votes_by_id, politicians_by_id):
-    if m["voting_id"] is None:
-        return None  # TODO log a warning
-    votes = votes_by_id[m["voting_id"]]
-    if len(votes) == 0:
-        return None  # TODO log a warning
-
-    mdoc = dict()
-    mdoc["id"] = m["id"]
-    mdoc["titleNL"] = m["title_nl"]
-    mdoc["titleFR"] = m["title_fr"]
-    yes_votes = to_votes(votes, "YES", politicians_by_id)
-    mdoc["yesVotes"] = yes_votes
-    no_votes = to_votes(votes, "NO", politicians_by_id)
-    mdoc["noVotes"] = no_votes
-    mdoc["absVotes"] = to_votes(votes, "ABSTENTION", politicians_by_id)
-    mdoc["newDocumentReference"] = to_doc_reference(m["documents_reference"])
-    mdoc["votingDate"] = p["date"]
-    mdoc["votingResult"] = vote_passed(yes_votes, no_votes)
-    return mdoc
+        mdoc = dict()
+        mdoc["id"] = m["id"]
+        mdoc["titleNL"] = m["title_nl"]
+        mdoc["titleFR"] = m["title_fr"]
+        yes_votes = to_votes(votes, "YES", self.politicians_by_id)
+        mdoc["yesVotes"] = yes_votes
+        no_votes = to_votes(votes, "NO", self.politicians_by_id)
+        mdoc["noVotes"] = no_votes
+        mdoc["absVotes"] = to_votes(votes, "ABSTENTION", self.politicians_by_id)
+        mdoc["newDocumentReference"] = to_doc_reference(m["documents_reference"], self.summaries_by_id)
+        mdoc["votingDate"] = p["date"]
+        mdoc["votingResult"] = vote_passed(yes_votes, no_votes)
+        return mdoc
 
 
 def to_votes(votes, vote_type, politicians_by_id):
@@ -105,7 +96,7 @@ def to_votes(votes, vote_type, politicians_by_id):
     return vdoc
 
 
-def to_doc_reference(spec):
+def to_doc_reference(spec, summaries_by_id={}):
     if not spec:
         return None
 
@@ -115,7 +106,7 @@ def to_doc_reference(spec):
 
     if match is None:
         # TODO: handle these
-        #raise Exception("unknown ref spec", spec)
+        # raise Exception("unknown ref spec", spec)
         return None
 
     docMainNr = int(match.group(1))
@@ -129,22 +120,53 @@ def to_doc_reference(spec):
 
     refdoc = dict()
     refdoc["spec"] = spec
-    refdoc[
-        "documentMainUrl"] = ("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat=55"
-                              "&dossierID=%04d") % (
-                                 docMainNr)
+    refdoc["documentMainUrl"] = (
+        ("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat=55&dossierID=%04d") % (docMainNr))
 
     # TODO: previous solutions somewhere filtered out motions with multiple subdocuments because
     # we didn't know how to render them. Figure out where that was and apply here
     refdoc["subDocuments"] = [
-        dict(documentNr=docMainNr,
-             documentSubNr=docSubNr,
-             documentPdfUrl="https://www.dekamer.be/FLWB/PDF/55/0001/55K%04d%03d.pdf" % (docMainNr, docSubNr),
-             summaryNL=None,
-             summaryFR=None)
+        to_subdoc(docMainNr, docSubNr, summaries_by_id)
         for docSubNr in range(rangeMin, rangeMax + 1)
     ]
     return refdoc
+
+
+def to_subdoc(docMainNr, docSubNr, summaries_by_id={}):
+    document_id = "%04d/%03d" % (docMainNr, docSubNr)
+    summary = summaries_by_id.get(document_id, None)
+    return dict(documentNr=docMainNr,
+                documentSubNr=docSubNr,
+                documentPdfUrl="https://www.dekamer.be/FLWB/PDF/55/%04d/55K%04d%03d.pdf" % (docMainNr, docMainNr, docSubNr),
+                summaryNL=summary["summary_nl"] if summary else None,
+                summaryFR=summary["summary_fr"] if summary else None)
+
+
+def publish():
+    repo = ElasticRepo()
+
+    with open(CONFIG.plenary_json_output_path("plenaries.json")) as plenary_file:
+        plenaries = json.load(plenary_file)
+
+    with open(CONFIG.plenary_json_output_path("votes.json")) as votes_file:
+        votes = json.load(votes_file)
+
+    with open(CONFIG.resolve("output", "politician", "politicians.json")) as politicians_file:
+        politicians = json.load(politicians_file)
+
+    politicians_by_id = dict([(p["id"], p) for p in politicians])
+
+    votes_by_id = defaultdict(list)
+    for vote in votes:
+        votes_by_id[vote["voting_id"]].append(vote)
+
+    with open(CONFIG.documents_summaries_json_output_path()) as summaries_file:
+        summaries = json.load(summaries_file)
+        summaries_by_id = dict([(s["document_id"], s) for s in summaries])
+
+    publisher = Publisher(repo, plenaries, votes_by_id, politicians_by_id, summaries_by_id)
+
+    publisher.publish()
 
 
 def vote_passed(yes_votes, no_votes):
