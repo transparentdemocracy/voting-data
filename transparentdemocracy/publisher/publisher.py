@@ -1,6 +1,7 @@
 import json
 import logging
 import re
+import os
 from collections import defaultdict
 
 from elasticsearch import Elasticsearch
@@ -12,10 +13,25 @@ LOGGER = logging.getLogger(__name__)
 
 class ElasticRepo:
     def __init__(self):
-        # local dev doesn't use authentication
-        API_KEY = "a0ZfajFKSUJfcXpZQ0Z2aksySHc6ZWNXNGZJSElRWHkzTTJiNXVSbHhkdw=="
+        # Local, no auth required
         self.es = Elasticsearch("http://localhost:9200")
-        # self.es = self.es.options(api_key=API_KEY)
+
+        # Bonsai
+        # auth = os.environ["BONSAI_AUTH"]
+        # self.es = Elasticsearch("https://%s@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443" % (auth))
+
+        self.create_indices()
+
+    def create_indices(self):
+        self.create_index("motions")
+        self.create_index("plenaries")
+
+    def create_index(self, index_name):
+        response = self.es.indices.create(
+            index=index_name,
+            ignore=400  # ignore 400 already exists response
+        )
+        print(response)
 
     def publish_motion(self, doc):
         response = self.es.index(index="motions", id=doc["id"], body=doc)
@@ -35,7 +51,7 @@ class Publisher():
         self.summaries_by_id = summaries_by_id
 
     def publish(self):
-        # self.publish_motions()
+        self.publish_motions()
         self.publish_plenaries()
 
     def publish_motions(self):

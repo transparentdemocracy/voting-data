@@ -13,4 +13,4 @@ transformers==4.46.*
 torch==2.5.*
 langchain-community==0.3.*
 jsonpath-extractor==0.9.*
-elasticsearch==8.15.*
+elasticsearch==7.10.*
