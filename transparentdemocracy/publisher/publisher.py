@@ -1,9 +1,13 @@
 import json
+import logging
+import re
 from collections import defaultdict
 
 from elasticsearch import Elasticsearch
 
 from transparentdemocracy.config import CONFIG
+
+LOGGER = logging.getLogger(__name__)
 
 
 class ElasticRepo:
@@ -11,7 +15,7 @@ class ElasticRepo:
         # local dev doesn't use authentication
         API_KEY = "a0ZfajFKSUJfcXpZQ0Z2aksySHc6ZWNXNGZJSElRWHkzTTJiNXVSbHhkdw=="
         self.es = Elasticsearch("http://localhost:9200")
-        #self.es = self.es.options(api_key=API_KEY)
+        # self.es = self.es.options(api_key=API_KEY)
 
     def publish_motion(self, doc):
         response = self.es.index(index="motions", id=doc["id"], body=doc)
@@ -102,14 +106,45 @@ def to_votes(votes, vote_type, politicians_by_id):
 
 
 def to_doc_reference(spec):
-    return None  # TODO
-    if spec is None:
-        refdoc = dict()
-        refdoc["spec"] = spec
-        refdoc["documentMainUrl"] = "TODO"
-        refdoc["subDocuments"] = []  # TODO
-        return refdoc
-    return None
+    if not spec:
+        return None
+
+    pattern = re.compile("^(\\d+)/(\\d+)(-\\d+)?$")
+
+    match = pattern.match(spec)
+
+    if match is None:
+        # TODO: handle these
+        #raise Exception("unknown ref spec", spec)
+        return None
+
+    docMainNr = int(match.group(1))
+    rangeMin = int(match.group(2))
+    rangeMax = int(match.group(3)[1:]) if match.group(3) else rangeMin
+
+    if rangeMin > rangeMax:
+        raise Exception("Invalid range in spec %s" % (spec))
+    if rangeMax - rangeMin > 20:
+        raise Exception("Range size over 20. Could be a typo")
+
+    refdoc = dict()
+    refdoc["spec"] = spec
+    refdoc[
+        "documentMainUrl"] = ("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat=55"
+                              "&dossierID=%04d") % (
+                                 docMainNr)
+
+    # TODO: previous solutions somewhere filtered out motions with multiple subdocuments because
+    # we didn't know how to render them. Figure out where that was and apply here
+    refdoc["subDocuments"] = [
+        dict(documentNr=docMainNr,
+             documentSubNr=docSubNr,
+             documentPdfUrl="https://www.dekamer.be/FLWB/PDF/55/0001/55K%04d%03d.pdf" % (docMainNr, docSubNr),
+             summaryNL=None,
+             summaryFR=None)
+        for docSubNr in range(rangeMin, rangeMax + 1)
+    ]
+    return refdoc
 
 
 def vote_passed(yes_votes, no_votes):

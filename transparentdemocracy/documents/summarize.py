@@ -18,7 +18,7 @@ from langchain_text_splitters import CharacterTextSplitter
 
 from transparentdemocracy import CONFIG
 
-logger = logging.getLogger("__name__")
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # Batch size doesn't really matter when using OLLAMA locally, it gets executed sequentially anyway
