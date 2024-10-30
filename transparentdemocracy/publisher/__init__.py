@@ -1,1 +1,1 @@
-from publisher import to_doc_reference
+from .publisher import to_doc_reference
