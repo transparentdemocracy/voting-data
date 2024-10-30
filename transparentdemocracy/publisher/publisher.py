@@ -21,6 +21,10 @@ class ElasticRepo:
         response = self.es.index(index="motions", id=doc["id"], body=doc)
         print(response)
 
+    def publish_plenary(self, doc):
+        response = self.es.index(index="plenaries", id=doc["id"], body=doc)
+        print(response)
+
 
 class Publisher():
     def __init__(self, repo, plenaries, votes_by_id, politicians_by_id, summaries_by_id):
@@ -31,6 +35,10 @@ class Publisher():
         self.summaries_by_id = summaries_by_id
 
     def publish(self):
+        # self.publish_motions()
+        self.publish_plenaries()
+
+    def publish_motions(self):
         for plenary in self.plenaries:
             for mg in plenary["motion_groups"]:
                 motions = [self.to_motion_read_model(plenary, mg, m) for m in mg["motions"]]
@@ -48,6 +56,41 @@ class Publisher():
                 doc["votingDate"] = plenary["date"]
 
                 self.repo.publish_motion(doc)
+
+    def publish_plenaries(self):
+        for plenary in self.plenaries:
+            doc = dict(
+                id=plenary["id"],
+                title=plenary["date"],
+                legislature=plenary["legislature"],
+                date=plenary["date"],
+                pdfReportUrl=plenary["pdf_report_url"],
+                htmlReportUrl=plenary["html_report_url"],
+                motionGroups=self.to_motion_groups_doc(plenary["motion_groups"])
+            )
+
+            self.repo.publish_plenary(doc)
+
+    def to_motion_groups_doc(self, motion_groups):
+        return [self.to_motion_group_doc(m) for m in motion_groups]
+
+    def to_motion_group_doc(self, motion_group):
+        return dict(
+            motionGroupId=motion_group["id"],
+            titleNL=motion_group["title_nl"],
+            titleFR=motion_group["title_fr"],
+            motionLinks=[self.to_motion_link_doc(m) for m in motion_group["motions"]]
+        )
+
+    def to_motion_link_doc(self, motion):
+        voting_id = motion["voting_id"]
+        return dict(
+            motionId=motion["id"],
+            agendaSeqNr=motion["sequence_number"],
+            voteSeqNr=None if voting_id is None else voting_id.rsplit('_', 1)[-1],  # TODO: put voting_sequence_number in plenaries.json so we don't need to parse here
+            titleNL=motion["title_nl"],
+            titleFR=motion["title_fr"]
+        )
 
     def to_motion_read_model(self, p, mg, m):
         if m["voting_id"] is None:
