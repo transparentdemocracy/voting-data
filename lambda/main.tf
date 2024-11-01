@@ -7,18 +7,24 @@ terraform {
   }
 }
 
+locals {
+  functions = [
+    { name: "search_motions", handler:"wddp.search_motions" },
+    { name: "get_motion", handler:"wddp.get_motion" },
+    { name: "search_plenaries", handler:"wddp.search_plenaries" },
+  ]
+}
+
 provider "aws" {
   region = var.aws_region
 }
 
-# Create ZIP file for Lambda function
 data "archive_file" "lambda_zip" {
   type        = "zip"
   source_dir  = "${path.module}/src"
   output_path = "${path.module}/lambda_function.zip"
 }
 
-# IAM role for Lambda
 resource "aws_iam_role" "lambda_role" {
   name = "${var.function_name}-role"
 
@@ -36,20 +42,21 @@ resource "aws_iam_role" "lambda_role" {
   })
 }
 
-# Attach basic Lambda execution policy
 resource "aws_iam_role_policy_attachment" "lambda_basic" {
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
   role       = aws_iam_role.lambda_role.name
 }
 
-# Lambda function
+
 resource "aws_lambda_function" "function" {
+  for_each = { for func in local.functions : func.name => func }
+
   filename         = data.archive_file.lambda_zip.output_path
-  function_name    = var.function_name
+  function_name    = each.key
   role            = aws_iam_role.lambda_role.arn
-  handler         = "search_motions.search_motions"
+  handler         = each.value.handler
   source_code_hash = data.archive_file.lambda_zip.output_base64sha256
-  runtime         = "python3.9"
+  runtime         = "python3.11"
   layers = [aws_lambda_layer_version.requests_layer.arn]
 
   environment {
@@ -59,22 +66,35 @@ resource "aws_lambda_function" "function" {
   }
 }
 
-# Create a temporary directory for pip installations
-#resource "null_resource" "pip_install" {
-#  triggers = {
-#    requirements_md5 = filemd5("${path.module}/requirements.txt")
-#  }
-#
-#  provisioner "local-exec" {
-#    command = <<EOF
-#      rm -rf ${path.module}/python
-#      mkdir -p ${path.module}/python/lib/python3.9/site-packages
-#      pip install -r ${path.module}/requirements.txt -t ${path.module}/python/lib/python3.9/site-packages/
-#    EOF
-#  }
-#}
+resource "aws_lambda_function_url" "function_url" {
+  for_each = { for func in local.functions : func.name => func }
+  function_name      = aws_lambda_function.function[each.key].function_name
+  authorization_type = "NONE"
+  cors {
+    allow_credentials = true
+    allow_origins     = ["*"]
+    allow_methods     = ["GET"]
+    allow_headers     = ["date", "keep-alive"]
+    expose_headers    = ["keep-alive", "date"]
+    max_age           = 3600
+  }
+}
 
-# Create ZIP file for Lambda Layer
+
+resource "null_resource" "pip_install" {
+  triggers = {
+    requirements_md5 = filemd5("${path.module}/requirements.txt")
+  }
+
+  provisioner "local-exec" {
+    command = <<EOF
+      rm -rf ${path.module}/python
+      mkdir -p ${path.module}/python/lib/python3.11/site-packages
+      pip install -r ${path.module}/requirements.txt -t ${path.module}/python/lib/python3.11/site-packages/
+    EOF
+  }
+}
+
 data "archive_file" "lambda_layer" {
   type        = "zip"
   source_dir  = "${path.module}/package"
@@ -83,12 +103,11 @@ data "archive_file" "lambda_layer" {
   #depends_on = [null_resource.pip_install]
 }
 
-# Create Lambda Layer
 resource "aws_lambda_layer_version" "requests_layer" {
   filename            = data.archive_file.lambda_layer.output_path
   layer_name         = "requests-layer"
   description        = "Python Requests Library"
-  compatible_runtimes = ["python3.9"]
+  compatible_runtimes = ["python3.11"]
   
   depends_on = [data.archive_file.lambda_layer]
 }
