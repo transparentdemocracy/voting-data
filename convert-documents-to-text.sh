@@ -1,14 +1,21 @@
 #!/bin/bash
 
+if [ -z "$LEGISLATURE" ]; then
+    echo "Missing env var LEGISLATURE (set to 55, 56, ...)"
+    exit 1
+fi
+
 function convert_documents() {
     if ! which pdftotext > /dev/null; then
         echo "pdftotext is missing; try running brew install poppler"
     fi
 
-    find data/input/documents -name "*.pdf" | xargs -P 8 -I {} ./convert-single.sh {}
+    IN_DIR="data/input/documents/leg-${LEGISLATURE}"
+    OUT_DIR="data/output/documents/txt/leg-${LEGISLATURE}"
+    find "$IN_DIR" -name "*.pdf" | xargs -P 8 -I {} ./convert-single.sh {}
 
-    rsync -av --include="*/" --include="*.txt" --exclude="*" data/input/documents/ data/output/documents/txt/
-    find data/input/documents -name "*.txt" -delete
+    rsync -av --include="*/" --include="*.txt" --exclude="*" "${IN_DIR}/" "$OUT_DIR"
+    find "${IN_DIR}" -name "*.txt" -delete
 
 }
 

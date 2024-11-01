@@ -32,7 +32,7 @@ class Config:
         return self.resolve("output", "plenary", "markdown", self.leg_dir)
 
     def plenary_json_output_path(self, *args):
-        return self.resolve("output", "plenary", "json", self.leg_dir, "*args")
+        return self.resolve("output", "plenary", "json", self.leg_dir, *args)
 
     def politicians_json_output_path(self, *path):
         return self.resolve(self.data_dir, "output", "politician", self.leg_dir, *path)
