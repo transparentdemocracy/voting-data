@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 def analyse_parsing_problems():
-    proposals, votes, problems = extract_from_html_plenary_reports()
+    _, _, problems = extract_from_html_plenary_reports()
     problems.sort(key=lambda p: p.problem_type)
     problems_by_type = itertools.groupby(problems, lambda p: p.problem_type)
     print("Most common parsing problems:")

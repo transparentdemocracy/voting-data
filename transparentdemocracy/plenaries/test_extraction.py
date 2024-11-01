@@ -94,7 +94,7 @@ class MotionExtractionTest(unittest.TestCase):
             report_path, load_politicians())
 
         # Act
-        report_items, motion_groups = _extract_motion_groups("55_298", ctx)
+        _, motion_groups = _extract_motion_groups("55_298", ctx)
 
         # Assert
         motions = [m for mg in motion_groups for m in mg.motions]
@@ -134,10 +134,10 @@ class MotionExtractionTest(unittest.TestCase):
         motion_group14 = motion_groups[4]
         self.assertEqual("55_298_mg_14", motion_group14.id)
         self.assertEqual(14, motion_group14.plenary_agenda_item_number)
-        self.assertTrue("Aangehouden amendementen en artikelen van het wetsontwerp houdende de hervorming van de pensioenen",
-                        motion_group10.title_nl)
-        self.assertTrue("Amendements et articles réservés du projet de loi portant la réforme des pensions",
-                        motion_group10.title_fr)
+        self.assertEqual("Aangehouden amendementen en artikelen van het wetsontwerp houdende de hervorming van de pensioenen",
+                         motion_group10.title_nl)
+        self.assertEqual("Amendements et articles réservés du projet de loi portant la réforme des pensions",
+                         motion_group10.title_fr)
         self.assertEqual("3808/1-10", motion_group14.documents_reference)
         self.assertEqual("Aangehouden amendementen en artikelen van het wetsontwerp houdende de hervorming van de pensioenen",
                          motion_group14.title_nl)
@@ -147,7 +147,7 @@ class MotionExtractionTest(unittest.TestCase):
         self.assertEqual(22, len(motion_group14.motions))
 
         self.assertEqual("55_298_mg_14_m0", motion_group14.motions[0].id)
-        self.assertTrue("0", motion_group14.motions[0].sequence_number)
+        self.assertEqual("0", motion_group14.motions[0].sequence_number)
         self.assertEqual("Stemming over amendement nr. 35 van Ellen\nSamyn op artikel 2.",
                          motion_group14.motions[0].title_nl)
         self.assertEqual("Vote sur l'amendement n° 35 de Ellen Samyn à\nl'article 2.",
@@ -166,8 +166,7 @@ class MotionExtractionTest(unittest.TestCase):
         report_path = CONFIG.plenary_html_input_path("ip262x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
-            report_path, load_politicians())
+        plenary, _, _ = extract_from_html_plenary_report(report_path, load_politicians())
         motion_groups = plenary.motion_groups
 
         # Assert
@@ -321,8 +320,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         patterns = [CONFIG.plenary_html_input_path(
             f"ip{plenary_nr}x.html") for plenary_nr in plenary_nrs]
 
-        plenaries, all_votes, problems = extract_from_html_plenary_reports(
-            patterns)
+        plenaries, _all_votes, problems = extract_from_html_plenary_reports(patterns)
 
         exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
         for p in exceptions:
@@ -334,7 +332,7 @@ class PlenaryExtractionTest(unittest.TestCase):
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
     def test_extract_from_all_plenary_reports_does_not_throw(self):
         CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
-        plenaries, all_votes, problems = extract_from_html_plenary_reports(
+        plenaries, _all_votes, problems = extract_from_html_plenary_reports(
             CONFIG.plenary_html_input_path("*.html"))
 
         exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
@@ -353,7 +351,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip298x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert
@@ -374,12 +372,12 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertEqual(
             1, plenary.proposal_discussions[0].plenary_agenda_item_number)
 
-        self.assertStartsWith("Wij vatten de bespreking van de artikelen aan.",
-                              plenary.proposal_discussions[0].description_nl)
+        self.assert_starts_with("Wij vatten de bespreking van de artikelen aan.",
+                                plenary.proposal_discussions[0].description_nl)
         self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
             "De bespreking van de artikelen is gesloten. De stemming over het geheel zal later plaatsvinden."))
 
-        self.assertStartsWith(
+        self.assert_starts_with(
             "Nous passons à la discussion des articles.", plenary.proposal_discussions[0].description_fr)
         self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
             "La discussion des articles est close. Le vote sur l'ensemble aura lieu ultérieurement."))
@@ -450,13 +448,13 @@ class PlenaryExtractionTest(unittest.TestCase):
 
     def test_motion_title_language(self):
         report_path = CONFIG.plenary_html_input_path("ip160x.html")
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_path)
 
         motion = next(m for m in plenary.motions if m.id == "55_160_mg_20_m0")
 
-        self.assertStartsWith("Moties ingediend tot besluit van de interpellatie van mevrouw Annick Ponthier",
-                              motion.title_nl)
+        self.assert_starts_with("Moties ingediend tot besluit van de interpellatie van mevrouw Annick Ponthier",
+                                motion.title_nl)
 
     def test_extract_from_html_plenary_report__ip285x_html(self):
         # This report has no proposal discussions.
@@ -464,7 +462,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip285x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -476,7 +474,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip281x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -488,7 +486,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip263x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -500,7 +498,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip262x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -517,7 +515,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip261x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert
@@ -539,13 +537,13 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertEqual(
             20, plenary.proposal_discussions[0].plenary_agenda_item_number)
 
-        self.assertStartsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
-                              plenary.proposal_discussions[0].description_nl)
+        self.assert_starts_with("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
+                                plenary.proposal_discussions[0].description_nl)
         self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
             "Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
 
-        self.assertStartsWith("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
-                              plenary.proposal_discussions[0].description_fr)
+        self.assert_starts_with("20.01 Peter De Roover (N-VA): Mevrouw de voorzitster,",
+                                plenary.proposal_discussions[0].description_fr)
         self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
             "Bijgevolg zal de voorzitster het advies van de Raad van State vragen met toepassing van artikel 98.3 van het Reglement."))
 
@@ -562,7 +560,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip226x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -574,7 +572,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip224x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert
@@ -597,13 +595,13 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertEqual(
             1, plenary.proposal_discussions[0].plenary_agenda_item_number)
 
-        self.assertStartsWith(
+        self.assert_starts_with(
             "Wij vatten de bespreking van de artikelen aan van het wetsontwerp houdende de Middelenbegroting voor het begrotingsjaar 2023.",
             plenary.proposal_discussions[0].description_nl)
         self.assertTrue(plenary.proposal_discussions[0].description_nl.endswith(
             "en over het geheel van het wetsontwerp houdende de Algemene uitgavenbegroting voor het begrotingsjaar 2023 zal later plaatsvinden."))
 
-        self.assertStartsWith(
+        self.assert_starts_with(
             "Nous passons à la discussion des articles du projet de loi contenant le budget des Voies et Moyens pour l'année budgétaire 2023.",
             plenary.proposal_discussions[0].description_fr)
         self.assertTrue(plenary.proposal_discussions[0].description_fr.endswith(
@@ -631,12 +629,12 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertEqual(
             4, plenary.proposal_discussions[3].plenary_agenda_item_number)
 
-        self.assertStartsWith(
+        self.assert_starts_with(
             "Discussion", plenary.proposal_discussions[3].description_nl)
         self.assertTrue(plenary.proposal_discussions[3].description_nl.endswith(
             "CRIV 55 PLEN 224 bijlage."))
 
-        self.assertStartsWith(
+        self.assert_starts_with(
             "Discussion", plenary.proposal_discussions[3].description_fr)
         self.assertTrue(plenary.proposal_discussions[3].description_fr.endswith(
             "CRIV 55 PLEN 224 bijlage."))
@@ -655,7 +653,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip245x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -671,7 +669,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip219x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -688,7 +686,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip206x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -698,7 +696,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip200x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert
@@ -714,14 +712,14 @@ class PlenaryExtractionTest(unittest.TestCase):
 
         # The proposals are extracted correctly:
         self.assertEqual(2, len(plenary.proposal_discussions))
-        self.assertStartsWith("Projet de loi portant assentiment aux actes internationaux suivants",
-                              plenary.proposal_discussions[0].proposals[0].title_fr)
-        self.assertStartsWith("Wetsontwerp houdende instemming met volgende internationale akten",
-                              plenary.proposal_discussions[0].proposals[0].title_nl)
-        self.assertStartsWith("Projet de loi portant assentiment aux actes internationaux suivants",
-                              plenary.proposal_discussions[0].proposals[0].title_fr)
-        self.assertStartsWith("Wetsontwerp houdende instemming met volgende internationale akten",
-                              plenary.proposal_discussions[0].proposals[0].title_nl)
+        self.assert_starts_with("Projet de loi portant assentiment aux actes internationaux suivants",
+                                plenary.proposal_discussions[0].proposals[0].title_fr)
+        self.assert_starts_with("Wetsontwerp houdende instemming met volgende internationale akten",
+                                plenary.proposal_discussions[0].proposals[0].title_nl)
+        self.assert_starts_with("Projet de loi portant assentiment aux actes internationaux suivants",
+                                plenary.proposal_discussions[0].proposals[0].title_fr)
+        self.assert_starts_with("Wetsontwerp houdende instemming met volgende internationale akten",
+                                plenary.proposal_discussions[0].proposals[0].title_nl)
 
         # The motions are extracted correctly:
         self.assertEqual(0, len(plenary.motions))
@@ -732,7 +730,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip184x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -751,7 +749,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip162x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -767,7 +765,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip160x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -782,7 +780,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip144x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -798,7 +796,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip125x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -814,7 +812,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip099x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -831,7 +829,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip059x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -843,7 +841,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip038x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -859,7 +857,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip021x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -875,7 +873,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip007x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -887,7 +885,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         report_file_name = CONFIG.plenary_html_input_path("ip005x.html")
 
         # Act
-        plenary, votes, problems = extract_from_html_plenary_report(
+        plenary, _votes, _ = extract_from_html_plenary_report(
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -900,11 +898,10 @@ class PlenaryExtractionTest(unittest.TestCase):
     @unittest.skip(
         "suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
     def test_extract_ip67(self):
-        actual, votes, problems = extract_from_html_plenary_report(
+        _actual, votes, _problems = extract_from_html_plenary_report(
             CONFIG.plenary_html_input_path('ip067x.html'))
 
-        vote_types_motion_1 = set(
-            [v.vote_type for v in votes if v.motion_id == "55_067_1"])
+        vote_types_motion_1 = {v.vote_type for v in votes if v.voting_id == "55_067_1"}
         self.assertTrue(VoteType.NO in vote_types_motion_1)
 
     @unittest.skip(
@@ -912,13 +909,13 @@ class PlenaryExtractionTest(unittest.TestCase):
     )
     def test_extract_ip72(self):
         """vote 2 has an extra '(' in the vote result indicator"""
-        actual, votes, problems = extract_from_html_plenary_report(
+        actual, _votes, _problems = extract_from_html_plenary_report(
             CONFIG.plenary_html_input_path('ip072x.html'))
 
-        self.assertEqual(5, len(actual.get_motions()))
+        self.assertEqual(5, len(actual.motions))
 
     def test_voter_dots_are_removed_from_voter_names(self):
-        actual, votes, problems = extract_from_html_plenary_report(
+        _actual, votes, _problems = extract_from_html_plenary_report(
             CONFIG.plenary_html_input_path('ip182x.html'))
 
         names = [v.politician.full_name for v in votes]
@@ -929,7 +926,7 @@ class PlenaryExtractionTest(unittest.TestCase):
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
     def test_votes_must_have_politician(self):
         CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
-        actual, votes, problems = extract_from_html_plenary_reports()
+        _actual, votes, _problems = extract_from_html_plenary_reports()
 
         for vote in votes:
             self.assertIsNotNone(vote.politician)
@@ -950,5 +947,5 @@ class PlenaryExtractionTest(unittest.TestCase):
         ctx = create_plenary_extraction_context(path, None)
         return _get_plenary_date(ctx)
 
-    def assertStartsWith(self, expected, actual):
+    def assert_starts_with(self, expected, actual):
         self.assertEqual(expected, actual[:len(expected)])

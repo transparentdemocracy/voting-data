@@ -71,13 +71,13 @@ def create_plenary_extraction_context(report_path: str, politicians) -> PlenaryE
 
 
 def extract_from_html_plenary_reports(
-        report_file_pattern: Union[str, List[str]] = CONFIG.plenary_html_input_path("*.html"),
-        num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
+    report_file_pattern: Union[str, List[str]] = CONFIG.plenary_html_input_path("*.html"),
+    num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
     politicians = load_politicians()
     all_problems = []
     plenaries = []
     all_votes = []
-    logging.info(f"Report files must be found at: {report_file_pattern}.")
+    logging.info("Report files must be found at: %s.", report_file_pattern)
 
     if isinstance(report_file_pattern, str):
         report_filenames = glob.glob(report_file_pattern)
@@ -121,7 +121,7 @@ def extract_from_html_plenary_reports(
 
 
 def extract_from_html_plenary_report(report_path: str, politicians: Politicians = None) \
-        -> Tuple[Plenary, List[Vote], List[ParseProblem]]:
+    -> Tuple[Plenary, List[Vote], List[ParseProblem]]:
     politicians = politicians or load_politicians()
     ctx = create_plenary_extraction_context(report_path, politicians)
     plenary, votes = _extract_plenary(ctx)
@@ -161,7 +161,7 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]
 
 
 def _extract_motion_groups(plenary_id: str, ctx: PlenaryExtractionContext) \
-        -> Tuple[List[ReportItem], List[MotionGroup]]:
+    -> Tuple[List[ReportItem], List[MotionGroup]]:
     motion_report_items = _extract_motion_report_items(ctx)
     motion_groups = _report_items_to_motion_groups(
         ctx, plenary_id, motion_report_items)
@@ -178,7 +178,7 @@ def normalize_whitespace(text) -> str:
 
 
 def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: str) -> List[
-        ProposalDiscussion]:
+    ProposalDiscussion]:
     proposal_discussions = []
 
     # We'll be able to extract the proposals after the header of the proposals section in the plenary report:
@@ -287,9 +287,9 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
         for proposal_idx, (nl, fr) in enumerate(zip(nl_proposal_titles, fr_proposal_titles)):
             nl_proposal_text = normalize_whitespace(nl.text)
             fr_proposal_text = normalize_whitespace(fr.text)
-            nl_label, nl_text, nl_doc_ref = __split_number_title_doc_ref(
+            _nl_label, nl_text, nl_doc_ref = __split_number_title_doc_ref(
                 nl_proposal_text)
-            fr_label, fr_text, fr_doc_ref = __split_number_title_doc_ref(
+            _fr_label, fr_text, _fr_doc_ref = __split_number_title_doc_ref(
                 fr_proposal_text)
             # TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
             proposal_id = f"{proposal_discussion_id}_p{proposal_idx}"
@@ -347,7 +347,7 @@ def determine_discussion_body_language(el: Tag) -> Optional[str]:
 
 
 def _report_items_to_motion_groups(ctx: PlenaryExtractionContext, plenary_id: str, report_items: List[ReportItem]) \
-        -> List[MotionGroup]:
+    -> List[MotionGroup]:
     # get motions for each report item and flatten
     return [_report_item_to_motion_group(ctx, plenary_id, item, index) for index, item in enumerate(report_items)]
 
@@ -557,10 +557,10 @@ def split_motion_group_item(ctx: PlenaryExtractionContext, item):
 
 
 def __find_siblings_between_elements(
-        start_element,
-        stop_element_name: str,
-        filter_tag_name: str = None,
-        filter_class_name: str = None):
+    start_element,
+    stop_element_name: str,
+    filter_tag_name: str = None,
+    filter_class_name: str = None):
     """
     Find all sibling elements (tags) between two elements (tags), or until no siblings remain within the parent element.
     The start and stop elements are not included in the results.
@@ -586,7 +586,7 @@ def __find_siblings_between_elements(
             siblings.append(next_sibling_element)
 
         if filter_class_name and type(next_sibling_element) is not NavigableString \
-                and "class" in next_sibling_element.attrs and filter_class_name in next_sibling_element.attrs["class"]:
+            and "class" in next_sibling_element.attrs and filter_class_name in next_sibling_element.attrs["class"]:
             siblings.append(next_sibling_element)
 
         if not filter_tag_name and not filter_class_name:
@@ -604,7 +604,7 @@ def __get_next_sibling_tag_name(element):
     if next_element is None:  # There just is no next element anymore.
         next_element_name = None
     elif type(
-            next_element) is not NavigableString:  # = Text in the HTML that is not enclosed within tags, it has no .name.
+        next_element) is not NavigableString:  # = Text in the HTML that is not enclosed within tags, it has no .name.
         next_element_name = next_element.name
     return next_element, next_element_name
 
@@ -659,7 +659,7 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
         if abstention_start is None:
             ctx.add_problem("ABSTENTION_PART_NOT_FOUND", voting_id)
             continue
-        if not (yes_start < no_start < abstention_start):
+        if not yes_start < no_start < abstention_start:
             ctx.add_problem("VOTES_YES_NO_ABSTENTION_OUT_OF_ORDER", voting_id)
             continue
 
