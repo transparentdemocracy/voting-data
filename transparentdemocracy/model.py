@@ -14,6 +14,8 @@ from typing import List, Optional
 
 from bs4 import Tag
 
+from transparentdemocracy import CONFIG
+
 
 # Classes related to the plenaries and their "topics": proposals, motions (and later: interpellations).
 
@@ -33,8 +35,8 @@ class DocumentsReference:
     def info_url(self):
         if not self.document_reference:
             return None
-        return "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&cfm=/site/wwwcfm/flwb/flwbn.cfm?legislat=55&dossierID=%04d" % (
-            self.document_reference)
+        return "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&cfm=/site/wwwcfm/flwb/flwbn.cfm?legislat=%s&dossierID=%04d" % (
+            CONFIG.legislature, self.document_reference)
 
     @property
     def sub_document_pdf_urls(self):
@@ -45,8 +47,8 @@ class DocumentsReference:
     def _sub_document_pdf_url(self, sub_doc_reference):
         if not self.document_reference:
             return None
-        return f"https://www.dekamer.be/FLWB/PDF/55/%04d/55K%04d%03d.pdf" % (
-            self.document_reference, self.document_reference, sub_doc_reference)
+        return f"https://www.dekamer.be/FLWB/PDF/%s/%04d/55K%04d%03d.pdf" % (
+            CONFIG.legislature, self.document_reference, self.document_reference, sub_doc_reference)
 
 
 @dataclass

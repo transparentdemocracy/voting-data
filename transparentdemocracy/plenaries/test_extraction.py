@@ -22,7 +22,7 @@ class ReportItemExtractionTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
 
     def test_extract_ip298_happy_case(self):
         report_items = self.extract_motion_report_items('ip298x.html')
@@ -84,7 +84,7 @@ class ReportItemExtractionTest(unittest.TestCase):
 class MotionExtractionTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
 
     def test_extract_motions__ip298x_html__go_to_example_report(self):
         # The example report we used for implementing extraction of other sub-objects of a plenary object.
@@ -247,7 +247,7 @@ class MotionExtractionTest(unittest.TestCase):
 class VoteExtractionTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
 
     def test_extract_votes_ip298x__go_to_example_report(self):
         # Arrange
@@ -259,8 +259,7 @@ class VoteExtractionTest(unittest.TestCase):
         votes = _extract_votes(ctx, "55_298")
 
         # Assert
-        voting1_votes = [
-            vote for vote in votes if vote.voting_id == "55_298_v1"]
+        voting1_votes = [vote for vote in votes if vote.voting_id == "55_298_v1"]
 
         voting1_votes_yes = [
             vote for vote in voting1_votes if vote.vote_type is VoteType.YES]
@@ -313,11 +312,11 @@ class PlenaryExtractionTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
 
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "This test isn't really slow but requires data")
     def test_currently_failing(self):
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
         plenary_nrs = "162,161,280,052,111,153,010".split(",")
         patterns = [CONFIG.plenary_html_input_path(
             f"ip{plenary_nr}x.html") for plenary_nr in plenary_nrs]
@@ -334,7 +333,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
     def test_extract_from_all_plenary_reports_does_not_throw(self):
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
         plenaries, all_votes, problems = extract_from_html_plenary_reports(
             CONFIG.plenary_html_input_path("*.html"))
 
@@ -929,7 +928,7 @@ class PlenaryExtractionTest(unittest.TestCase):
 
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
     def test_votes_must_have_politician(self):
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
         actual, votes, problems = extract_from_html_plenary_reports()
 
         for vote in votes:

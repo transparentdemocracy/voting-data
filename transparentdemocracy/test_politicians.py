@@ -12,7 +12,7 @@ class TestPoliticians(unittest.TestCase):
     def setUpClass(cls):
         root_folder = os.path.dirname(
             os.path.dirname(transparentdemocracy.__file__))
-        CONFIG.data_dir = os.path.join(root_folder, "testdata")
+        CONFIG.enable_testing(os.path.join(root_folder, "testdata"), "55")
 
     def test_extract(self):
         politicians = PoliticianExtractor().extract_politicians(pattern="7???.json")

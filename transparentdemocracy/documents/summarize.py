@@ -23,7 +23,7 @@ logger.setLevel(logging.INFO)
 
 # Batch size doesn't really matter when using OLLAMA locally, it gets executed sequentially anyway
 BATCH_SIZE = 1
-SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile("^.*/55K(\\d{4})(\\d{3}).summary$")
+SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile("^.*/%s/K(\\d{4})(\\d{3}).summary$" % (CONFIG.legislature))
 
 OLLAMA_MODEL = "llama3"
 PROMPT_STUFF = """Summarize the text in Dutch and in French. Here is the text:

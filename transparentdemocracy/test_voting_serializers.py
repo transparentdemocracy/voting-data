@@ -14,7 +14,7 @@ class TestPlenaryMarkdownSerializer(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         root_folder = os.path.dirname(os.path.dirname(__file__))
-        CONFIG.data_dir = os.path.join(root_folder, "testdata")
+        CONFIG.enable_testing(os.path.join(root_folder, "testdata"), "55")
 
     @unittest.skip("Markdown serialization is deprecated now.")
     def test_serialize(self):

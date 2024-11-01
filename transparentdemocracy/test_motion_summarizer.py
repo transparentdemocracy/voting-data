@@ -9,7 +9,7 @@ class TestMotionSummarizer(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         root_folder = os.path.dirname(os.path.dirname(__file__))
-        CONFIG.data_dir = os.path.join(root_folder, "testdata")
+        CONFIG.enable_testing(os.path.join(root_folder, "testdata"), "55")
 
     @unittest.skipIf("OPENAI_API_KEY" not in os.environ, "test needs an openapi key")
     def test_summarize(self):

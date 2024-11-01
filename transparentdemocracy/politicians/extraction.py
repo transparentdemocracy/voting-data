@@ -72,11 +72,11 @@ def get_party(actor):
         return role['functionSummary'][
             'fullNameNL'] == "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid"
 
-    def is_leg_55(role):
-        return "Leg 55" in role["ouSummary"]["fullNameNL"]
+    def is_current_leg(role):
+        leg = "Leg %s" % (CONFIG.legislature)
+        return leg in role["ouSummary"]["fullNameNL"]
 
-    membership_roles = list(filter(lambda r: is_leg_55(
-        r) and is_party_member(r), actor['role']))
+    membership_roles = list(filter(lambda r: is_current_leg(r) and is_party_member(r), actor['role']))
 
     if len(membership_roles) == 0:
         logger.info(
@@ -84,8 +84,8 @@ def get_party(actor):
         return "unknown"
 
     faction_full = membership_roles[-1]["ouSummary"]["fullNameNL"]
-    recognized_prefix = "/Wetgevende macht/Kvvcr/Leg 55/Politieke fracties/Erkende/"
-    non_recognized_prefix = "/Wetgevende macht/Kvvcr/Leg 55/Politieke fracties/Niet erkende/"
+    recognized_prefix = "/Wetgevende macht/Kvvcr/Leg %s/Politieke fracties/Erkende/"%(CONFIG.legislature)
+    non_recognized_prefix = "/Wetgevende macht/Kvvcr/Leg %s/Politieke fracties/Niet erkende/"%(CONFIG.legislature)
 
     if faction_full.startswith(recognized_prefix):
         return faction_full[len(recognized_prefix):]
@@ -109,7 +109,7 @@ def get_relevant_actors(actors_path=(CONFIG.actor_json_input_path()), pattern="*
 
         actor = actor_json['items'][0]
 
-        role = get_leg55_role(actor)
+        role = get_current_leg_role(actor)
         if role is None:
             continue
         actors.append(actor)
@@ -132,13 +132,13 @@ def json_dict_to_politician(data):
     )
 
 
-def get_leg55_role(actor):
-    plenum_fullname = '/Wetgevende macht/Kvvcr/Leg 55/Plenum/PLENUMVERGADERING'
+def get_current_leg_role(actor):
+    plenum_fullname = '/Wetgevende macht/Kvvcr/Leg %s/Plenum/PLENUMVERGADERING'%(CONFIG.legislature)
 
-    def has_leg55_plenum(r):
+    def has_current_leg_plenum(r):
         return r['ouSummary']['fullNameNL'] == plenum_fullname
 
-    roles = list(filter(has_leg55_plenum, actor['role']))
+    roles = list(filter(has_current_leg_plenum, actor['role']))
 
     if len(roles) == 0:
         return None

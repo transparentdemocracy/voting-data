@@ -182,7 +182,7 @@ def to_doc_reference(spec, summaries_by_id={}):
     refdoc = dict()
     refdoc["spec"] = spec
     refdoc["documentMainUrl"] = (
-        ("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat=55&dossierID=%04d") % (docMainNr))
+        ("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat=%s&dossierID=%04d") % (CONFIG.legislature, docMainNr))
 
     # TODO: previous solutions somewhere filtered out motions with multiple subdocuments because
     # we didn't know how to render them. Figure out where that was and apply here
@@ -198,7 +198,7 @@ def to_subdoc(docMainNr, docSubNr, summaries_by_id={}):
     summary = summaries_by_id.get(document_id, None)
     return dict(documentNr=docMainNr,
                 documentSubNr=docSubNr,
-                documentPdfUrl="https://www.dekamer.be/FLWB/PDF/55/%04d/55K%04d%03d.pdf" % (docMainNr, docMainNr, docSubNr),
+                documentPdfUrl="https://www.dekamer.be/FLWB/PDF/%s/%04d/55K%04d%03d.pdf" % (CONFIG.legislature, docMainNr, docMainNr, docSubNr),
                 summaryNL=summary["summary_nl"] if summary else None,
                 summaryFR=summary["summary_fr"] if summary else None)
 

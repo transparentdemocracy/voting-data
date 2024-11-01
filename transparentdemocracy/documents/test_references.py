@@ -1,11 +1,14 @@
 import unittest
 
+from transparentdemocracy import CONFIG
 from transparentdemocracy.documents.references import parse_document_reference
 from transparentdemocracy.model import DocumentsReference
+from transparentdemocracy.plenaries.test_extraction import ROOT_FOLDER
 
 
 class DocumentReferencesTest(unittest.TestCase):
     def test_parse_document_reference_without_subdocs(self):
+        CONFIG.enable_testing(ROOT_FOLDER, "55")
         actual = parse_document_reference("1234")
 
         self.assertEqual(DocumentsReference(
@@ -24,6 +27,7 @@ class DocumentReferencesTest(unittest.TestCase):
         ])
 
     def test_parse_document_reference_with_single_subdoc(self):
+        CONFIG.enable_testing(ROOT_FOLDER, "55")
         actual = parse_document_reference("1234/5")
 
         self.assertEqual(DocumentsReference(
@@ -42,6 +46,7 @@ class DocumentReferencesTest(unittest.TestCase):
         ])
 
     def test_parse_document_reference_with_subdoc_range(self):
+        CONFIG.enable_testing(ROOT_FOLDER, "55")
         actual = parse_document_reference("1234/2-5")
 
         self.assertEqual(DocumentsReference(

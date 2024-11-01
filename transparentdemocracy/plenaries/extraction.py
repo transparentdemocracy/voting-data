@@ -71,8 +71,7 @@ def create_plenary_extraction_context(report_path: str, politicians) -> PlenaryE
 
 
 def extract_from_html_plenary_reports(
-    report_file_pattern: Union[str, List[str]
-    ] = CONFIG.plenary_html_input_path("*.html"),
+    report_file_pattern: Union[str, List[str]] = CONFIG.plenary_html_input_path("*.html"),
     num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
     politicians = load_politicians()
     all_problems = []
@@ -139,8 +138,7 @@ def _read_plenary_html(report_filename):
 def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]]:
     plenary_number = os.path.split(ctx.report_path)[
                          1][2:5]  # example: ip078x.html -> 078
-    # We currently only process plenary reports from legislature 55 with our download script.
-    legislature = 55
+    legislature = int(CONFIG.legislature)
     # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
     plenary_id = f"{legislature}_{plenary_number}"
     proposals = __extract_proposal_discussions(ctx, plenary_id)
@@ -154,8 +152,8 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]
             int(plenary_number),
             _get_plenary_date(ctx),
             legislature,
-            f"https://www.dekamer.be/doc/PCRI/pdf/55/ip{plenary_number}.pdf",
-            f"https://www.dekamer.be/doc/PCRI/html/55/ip{plenary_number}x.html",
+            f"https://www.dekamer.be/doc/PCRI/pdf/{legislature}/ip{plenary_number}.pdf",
+            f"https://www.dekamer.be/doc/PCRI/html/{legislature}/ip{plenary_number}x.html",
             proposals,
             motion_groups
         ),

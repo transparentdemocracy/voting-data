@@ -12,18 +12,16 @@ ROOT_FOLDER = os.path.dirname(os.path.dirname(transparentdemocracy.__file__))
 class MotionProposalLinkerTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "testdata")
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
 
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "This test isn't really slow but requires data")
     def test_link_motions_with_proposals__all_plenaries__not_throwing(self):
         # Arrange
-        CONFIG.data_dir = os.path.join(ROOT_FOLDER, "data")
-        plenaries, votes, problems = extract_from_html_plenary_reports(
-            CONFIG.plenary_html_input_path("ip*x.html"))
+        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
+        plenaries, votes, problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("ip*x.html"))
 
         # Act
-        plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(
-            plenaries)
+        plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(plenaries)
 
         # Assert
         # The exact amount doesn't matter. We just want to make sure it doesn't crash.
