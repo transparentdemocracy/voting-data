@@ -99,8 +99,8 @@ data "archive_file" "lambda_layer" {
   type        = "zip"
   source_dir  = "${path.module}/package"
   output_path = "${path.module}/lambda_layer.zip"
-  
-  #depends_on = [null_resource.pip_install]
+
+  depends_on = [null_resource.pip_install]
 }
 
 resource "aws_lambda_layer_version" "requests_layer" {
@@ -108,7 +108,7 @@ resource "aws_lambda_layer_version" "requests_layer" {
   layer_name         = "requests-layer"
   description        = "Python Requests Library"
   compatible_runtimes = ["python3.11"]
-  
+
   depends_on = [data.archive_file.lambda_layer]
 }
 

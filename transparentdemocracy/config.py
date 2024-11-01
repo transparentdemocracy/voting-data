@@ -9,6 +9,8 @@ class Config:
     leg_dir: str
 
     def __init__(self, data_dir, legislature="55"):
+        if legislature is None:
+            raise Exception("please set LEGISLATURE")
         self.data_dir = data_dir
         self.set_legislature(legislature)
 
