@@ -103,7 +103,8 @@ class Publisher():
         return dict(
             motionId=motion["id"],
             agendaSeqNr=motion["sequence_number"],
-            voteSeqNr=None if voting_id is None else voting_id.rsplit('_', 1)[-1],  # TODO: put voting_sequence_number in plenaries.json so we don't need to parse here
+            # TODO: put voting_sequence_number in plenaries.json so we don't need to parse here
+            voteSeqNr=None if voting_id is None else voting_id.rsplit('_', 1)[-1],
             titleNL=motion["title_nl"],
             titleFR=motion["title_fr"]
         )

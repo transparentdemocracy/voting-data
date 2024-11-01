@@ -84,8 +84,8 @@ def get_party(actor):
         return "unknown"
 
     faction_full = membership_roles[-1]["ouSummary"]["fullNameNL"]
-    recognized_prefix = "/Wetgevende macht/Kvvcr/Leg %s/Politieke fracties/Erkende/"%(CONFIG.legislature)
-    non_recognized_prefix = "/Wetgevende macht/Kvvcr/Leg %s/Politieke fracties/Niet erkende/"%(CONFIG.legislature)
+    recognized_prefix = "/Wetgevende macht/Kvvcr/Leg %s/Politieke fracties/Erkende/" % (CONFIG.legislature)
+    non_recognized_prefix = "/Wetgevende macht/Kvvcr/Leg %s/Politieke fracties/Niet erkende/" % (CONFIG.legislature)
 
     if faction_full.startswith(recognized_prefix):
         return faction_full[len(recognized_prefix):]
@@ -133,7 +133,7 @@ def json_dict_to_politician(data):
 
 
 def get_current_leg_role(actor):
-    plenum_fullname = '/Wetgevende macht/Kvvcr/Leg %s/Plenum/PLENUMVERGADERING'%(CONFIG.legislature)
+    plenum_fullname = '/Wetgevende macht/Kvvcr/Leg %s/Plenum/PLENUMVERGADERING' % (CONFIG.legislature)
 
     def has_current_leg_plenum(r):
         return r['ouSummary']['fullNameNL'] == plenum_fullname

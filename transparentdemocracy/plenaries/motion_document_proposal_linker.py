@@ -90,10 +90,10 @@ def link_motions_with_proposals(plenaries: List[Plenary]) -> Tuple[List[Plenary]
 
 
 def find_matching_proposal_discussions(
-    motion_group: MotionGroup,
-    plenaries: List[Plenary],
-    report_file_name: str,
-    linking_problems: List[LinkProblem]) -> List[ProposalDiscussion]:
+        motion_group: MotionGroup,
+        plenaries: List[Plenary],
+        report_file_name: str,
+        linking_problems: List[LinkProblem]) -> List[ProposalDiscussion]:
     """
     Find one or more proposal discussions that match (on documents reference) with the given motion group.
 
@@ -111,19 +111,19 @@ def find_matching_proposal_discussions(
             for plenary in plenaries
             for proposal_discussion in plenary.proposal_discussions
             # link proposal discussions and proposals with same main document number, but different sub-documents:
-            if get_main_document_reference(proposal_discussion.proposals[0].documents_reference) \
-               == get_main_document_reference(motion_group.documents_reference)
+            if get_main_document_reference(proposal_discussion.proposals[0].documents_reference)
+            == get_main_document_reference(motion_group.documents_reference)
         ]
 
     return matching_proposal_discussions
 
 
 def find_matching_proposals(
-    motion: Motion,
-    proposal_discussions: List[ProposalDiscussion],
-    report_file_name: str,
-    linking_problems: List[LinkProblem],
-    exact_match: bool = True) -> List[Proposal]:
+        motion: Motion,
+        proposal_discussions: List[ProposalDiscussion],
+        report_file_name: str,
+        linking_problems: List[LinkProblem],
+        exact_match: bool = True) -> List[Proposal]:
     """
     Find one or more proposals that match (on documents reference) with the given motion.
     The proposal is searched within already found proposal discussions.
@@ -146,11 +146,11 @@ def find_matching_proposals(
             for proposal_discussion in proposal_discussions
             for proposal in proposal_discussion.proposals
             if proposal.documents_reference and
-               (
-                   (exact_match and proposal.documents_reference == motion.documents_reference) or
-                   get_main_document_reference(proposal.documents_reference) == get_main_document_reference(
-                   motion.documents_reference)
-               )
+            (
+                (exact_match and proposal.documents_reference == motion.documents_reference) or
+                get_main_document_reference(proposal.documents_reference) == get_main_document_reference(
+                    motion.documents_reference)
+            )
         ]
 
     return matching_proposals

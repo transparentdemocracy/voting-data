@@ -56,4 +56,3 @@ def _create_config():
 
 
 CONFIG = _create_config()
-
