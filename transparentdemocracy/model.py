@@ -35,8 +35,8 @@ class DocumentsReference:
     def info_url(self):
         if not self.document_reference:
             return None
-        return "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&cfm=/site/wwwcfm/flwb/flwbn.cfm?legislat=%s&dossierID=%04d" % (
-            CONFIG.legislature, self.document_reference)
+        return ("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&cfm=/site/wwwcfm/flwb/flwbn.cfm?legislat="
+                f"{CONFIG.legislature}&dossierID={self.document_reference:04d}")
 
     @property
     def sub_document_pdf_urls(self):
@@ -47,8 +47,8 @@ class DocumentsReference:
     def _sub_document_pdf_url(self, sub_doc_reference):
         if not self.document_reference:
             return None
-        return f"https://www.dekamer.be/FLWB/PDF/%s/%04d/55K%04d%03d.pdf" % (
-            CONFIG.legislature, self.document_reference, self.document_reference, sub_doc_reference)
+        return (f"https://www.dekamer.be/FLWB/PDF/{CONFIG.legislature}/{self.document_reference:04d}/"
+                f"{CONFIG.legislature}K{self.document_reference:04d}{sub_doc_reference:03d}.pdf")
 
 
 @dataclass

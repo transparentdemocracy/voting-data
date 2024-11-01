@@ -70,7 +70,7 @@ class DocumentSummarizer:
                 continue
 
             if len(split_documents) > 1:
-                logger.info(f"Document was split into multiple pieces - We don't handle this right now")
+                logger.info("Document was split into multiple pieces - We don't handle this right now")
                 continue
 
             batch.append((document_path, split_documents))

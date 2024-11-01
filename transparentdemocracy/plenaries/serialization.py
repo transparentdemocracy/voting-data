@@ -48,13 +48,13 @@ class MarkdownSerializer:
 
     def _serialize_proposal_discussions(self, proposal_discussion: ProposalDiscussion) -> None:
         markdown_result = f"## Proposal discussion (agenda item {proposal_discussion.plenary_agenda_item_number})\n\n"
-        markdown_result += f"### Description in Dutch:\n\n"
+        markdown_result += "### Description in Dutch:\n\n"
         markdown_result += f"{proposal_discussion.description_nl}\n\n"
-        markdown_result += f"### Description in French:\n\n"
+        markdown_result += "### Description in French:\n\n"
         markdown_result += f"{proposal_discussion.description_fr}\n\n"
         markdown_result += "\n\n"
 
-        markdown_result += f"### Discussed proposals:"
+        markdown_result += "### Discussed proposals:"
         for proposal in proposal_discussion.proposals:
             self._serialize_proposal(proposal)
         markdown_result += "\n\n"

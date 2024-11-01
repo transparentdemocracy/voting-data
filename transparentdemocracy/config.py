@@ -5,6 +5,8 @@ from dataclasses import dataclass
 @dataclass
 class Config:
     data_dir: str
+    legislature: str
+    leg_dir: str
 
     def __init__(self, data_dir, legislature="55"):
         self.data_dir = data_dir
@@ -16,7 +18,7 @@ class Config:
 
     def set_legislature(self, value):
         self.legislature = value
-        self.leg_dir = "leg-%s" % self.legislature
+        self.leg_dir = f"leg-{self.legislature}"
 
     def resolve(self, *path):
         return os.path.join(self.data_dir, *path)

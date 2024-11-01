@@ -927,7 +927,7 @@ def get_motion_blocks_by_nr(report, html):
     for block in get_motion_blocks(html):
         match = vote_re.search(block[0].strip())
         if match is not None:
-            logger.debug("%s: found stemming %s" % (report, match.group(1)))
+            logger.debug(f"{report}: found stemming {match.group(1)}")
             nr = int(match.group(1), 10)
             result[nr] = block[1:]
 
@@ -977,7 +977,7 @@ def get_names(sequence, count, log_type, location="unknown location"):
 
     if len(names) != count:
         logging.warning(
-            "vote count (%d) ./does not match voters %s (%s) at %s" % (count, str(names), log_type, location))
+            f"vote count ({count:d}) ./does not match voters {str(names)} ({log_type}) at {location}")
 
     return names
 
@@ -1009,7 +1009,7 @@ def _get_plenary_date(ctx):
                 month = MONTHS_NL.index(parts[2].strip()) + 1
                 year = int(parts[3].strip())
                 if month > 0:
-                    return datetime.date.fromisoformat("%d-%02d-%02d" % (year, month, day))
+                    return datetime.date.fromisoformat(f"{year:d}-{month:02d}-{day:02d}")
 
     matches = [re.match("(\\d)+-(\\d+)-(\\d{4})", t.strip())
                for t in first_table_paragraphs]
@@ -1017,7 +1017,7 @@ def _get_plenary_date(ctx):
         day = int(match.group(1), 10)
         month = int(match.group(2), 10)
         year = int(match.group(3), 10)
-        return datetime.date.fromisoformat("%d-%02d-%02d" % (year, month, day))
+        return datetime.date.fromisoformat(f"{year:d}-{month:02d}-{day:02d}")
 
     ctx.add_problem("PLENARY_DATE_PARSING_FAILS")
     return None

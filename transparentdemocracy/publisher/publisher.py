@@ -1,7 +1,6 @@
 import json
 import logging
 import re
-import os
 from collections import defaultdict
 
 from elasticsearch import Elasticsearch
@@ -176,14 +175,15 @@ def to_doc_reference(spec, summaries_by_id={}):
     rangeMax = int(match.group(3)[1:]) if match.group(3) else rangeMin
 
     if rangeMin > rangeMax:
-        raise Exception("Invalid range in spec %s" % (spec))
+        raise Exception(f"Invalid range in spec {spec}")
     if rangeMax - rangeMin > 20:
         raise Exception("Range size over 20. Could be a typo")
 
     refdoc = dict()
     refdoc["spec"] = spec
     refdoc["documentMainUrl"] = (
-        ("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat=%s&dossierID=%04d") % (CONFIG.legislature, docMainNr))
+        "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat="
+        f"{CONFIG.legislature}&dossierID={docMainNr:04d}")
 
     # TODO: previous solutions somewhere filtered out motions with multiple subdocuments because
     # we didn't know how to render them. Figure out where that was and apply here
@@ -195,11 +195,11 @@ def to_doc_reference(spec, summaries_by_id={}):
 
 
 def to_subdoc(docMainNr, docSubNr, summaries_by_id={}):
-    document_id = "%04d/%03d" % (docMainNr, docSubNr)
+    document_id = f"{docMainNr:04d}/{docSubNr:03d}"
     summary = summaries_by_id.get(document_id, None)
     return dict(documentNr=docMainNr,
                 documentSubNr=docSubNr,
-                documentPdfUrl="https://www.dekamer.be/FLWB/PDF/%s/%04d/55K%04d%03d.pdf" % (CONFIG.legislature, docMainNr, docMainNr, docSubNr),
+                documentPdfUrl=f"https://www.dekamer.be/FLWB/PDF/{CONFIG.legislature}/{docMainNr:04d}/55K{docMainNr:04d}{docSubNr:03d}.pdf",
                 summaryNL=summary["summary_nl"] if summary else None,
                 summaryFR=summary["summary_fr"] if summary else None)
 

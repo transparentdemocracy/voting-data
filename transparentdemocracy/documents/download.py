@@ -20,7 +20,7 @@ def download_referenced_documents():
     for doc_ref in doc_refs:
         if not doc_ref.document_reference:
             continue
-        doc_id_str = "%04d" % doc_ref.document_reference
+        doc_id_str = f"{doc_ref.document_reference:04d}"
         dirname = CONFIG.documents_input_path(doc_id_str[:2], doc_id_str[2:])
         urls = doc_ref.sub_document_pdf_urls
         if urls:
