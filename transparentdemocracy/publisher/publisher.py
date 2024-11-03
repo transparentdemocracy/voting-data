@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 import re
 from collections import defaultdict
 
@@ -9,26 +10,55 @@ from transparentdemocracy.config import CONFIG
 
 LOGGER = logging.getLogger(__name__)
 
+MOTIONS_MAPPING = {
+    "mappings": {
+        "properties": {
+            "votingDate": {
+                "type": "date",
+            }
+        }
+    },
+    "settings": {
+        "number_of_shards": 1,
+        "number_of_replicas": 1
+    }
+}
+
+PLENARIES_MAPPING = {
+    "mappings": {
+        "properties": {
+            "date": {
+                "type": "date",
+            }
+        }
+    },
+    "settings": {
+        "number_of_shards": 1,
+        "number_of_replicas": 1
+    }
+}
+
 
 class ElasticRepo:
     def __init__(self):
         # Local, no auth required
-        self.es = Elasticsearch("http://localhost:9200")
+        # self.es = Elasticsearch("http://localhost:9200")
 
         # Bonsai
-        # auth = os.environ["BONSAI_AUTH"]
-        # self.es = Elasticsearch("https://%s@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443" % (auth))
+        auth = os.environ["ES_AUTH"]
+        self.es = Elasticsearch("https://%s@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443" % (auth))
 
         self.create_indices()
 
     def create_indices(self):
-        self.create_index("motions")
-        self.create_index("plenaries")
+        self.create_index("motions", MOTIONS_MAPPING)
+        self.create_index("plenaries", PLENARIES_MAPPING)
 
-    def create_index(self, index_name):
+    def create_index(self, index_name, mapping):
         response = self.es.indices.create(
             index=index_name,
-            ignore=400  # ignore 400 already exists response
+            body=mapping,
+            ignore=400,
         )
         print(response)
 
@@ -214,7 +244,7 @@ def publish():
     with open(CONFIG.plenary_json_output_path("votes.json")) as votes_file:
         votes = json.load(votes_file)
 
-    with open(CONFIG.resolve("output", "politician", "politicians.json")) as politicians_file:
+    with open(CONFIG.politicians_json_output_path("politicians.json")) as politicians_file:
         politicians = json.load(politicians_file)
 
     politicians_by_id = dict([(p["id"], p) for p in politicians])
