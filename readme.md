@@ -2,7 +2,7 @@
 
 We believe that in a democracy, it should be transparent and easily understandable what politicians, who represent the people, voted for.
 
-This project currently visualizes the voting behavior of the politicians in the Belgian federal parliament (Chamber) in the past 5 years.
+This project currently visualizes the voting behavior of the politicians in the Belgian federal parliament (Chamber), starting from [oct 1st, 202](https://nl.wikipedia.org/wiki/Regering-De_Croo).
 
 ## The data
 
@@ -12,7 +12,7 @@ You can also check out the data yourself in [data/output](https://github.com/tra
 
 ## Convinced of this project's potential?
 
-We are looking for software developers, designers, marketeers, translators,...
+We are looking for software developers, designers, marketeers, translators, ...
 
 To get an idea of the **ideas we have planned on a high-level**, have a look at [our board of planned ideas](https://github.com/orgs/transparentdemocracy/projects/1/views/1).
 
@@ -70,7 +70,7 @@ Set the OPENAI_API_KEY environment variable to the secret key you just created.
 
 Run `./test.sh` to run unit tests.
 
-Note: one of the tests is rather slow, you can skip it by setting the SKIP_SLOW environment variable: `SKIP_SLOW=1 ./test.sh`
+Note: some of the tests are rather slow, you can skip these by setting the SKIP_SLOW environment variable: `SKIP_SLOW=1 ./test.sh`
 
 ## Downloading and generating data
 
