@@ -7,10 +7,13 @@ PAGE_SIZE = 10
 
 
 def search_motions(event, _context):
-    q = event.get("queryStringParameters", {}).get('q', "")
-    page = int(event.get("queryStringParameters", {}).get('page', "0"))
+    params = event.get("queryStringParameters", {})
+    q = params.get('q', "")
+    page = int(params.get('page', "0"))
+    min_date = params.get('minDate', None)
+    max_date = params.get('maxDate', None)
 
-    return search("motions", create_query(page, q, "votingDate"))
+    return search("motions", create_query("votingDate", page, q, min_date, max_date))
 
 
 def get_motion(event, _context):
@@ -19,10 +22,13 @@ def get_motion(event, _context):
 
 
 def search_plenaries(event, _context):
-    q = event.get("queryStringParameters", {}).get('q', "")
-    page = int(event.get("queryStringParameters", {}).get('page', "0"))
+    params = event.get("queryStringParameters", {})
+    q = params.get('q', "")
+    page = int(params.get('page', "0"))
+    min_date = params.get('minDate', None)
+    max_date = params.get('maxDate', None)
 
-    return search("plenaries", create_query(page, q, "date"))
+    return search("plenaries", create_query("date", page, q, min_date, max_date))
 
 
 def search(index, query):
@@ -37,22 +43,38 @@ def search(index, query):
     }
 
 
-def create_query(page, q, date_field):
+def create_query(date_field, page, q, min_date=None, max_date=None):
     query = {
         "size": PAGE_SIZE,
         "from": max(0, page) * PAGE_SIZE,
         "sort": [
             {date_field: {"order": "desc"}}
-        ]
-
+        ],
     }
-    if q != "":
-        query["query"] = {
-            "query_string": {
-                "query": q
-            }
-        }
 
+    conditions = []
+    if q != "":
+        conditions.append({"simple_query_string": {"query": q, "fields": ["*"], "default_operator": "and"}})
+        # conditions.append({"multi_match": {
+        #     "query": q,
+        #     "fields": ["*"]
+        # }})
+    if min_date is not None or max_date is not None:
+        date_filter = {}
+        if min_date is not None:
+            date_filter["gte"] = min_date
+        if max_date is not None:
+            date_filter["lte"] = max_date
+
+        conditions.append({"range": {date_field: date_filter}})
+
+    if len(conditions) == 1:
+        query["query"] = conditions[0]
+
+    if len(conditions) > 1:
+        query["query"] = {"bool": {"must": conditions}}
+
+    print(query)
     return query
 
 
