@@ -47,7 +47,6 @@ resource "aws_iam_role_policy_attachment" "lambda_basic" {
   role       = aws_iam_role.lambda_role.name
 }
 
-
 resource "aws_lambda_function" "function" {
   for_each = { for func in local.functions : func.key => func }
 
@@ -105,10 +104,9 @@ data "archive_file" "lambda_layer" {
 
 resource "aws_lambda_layer_version" "requests_layer" {
   filename            = data.archive_file.lambda_layer.output_path
-  layer_name         = "requests-layer"
+  layer_name         = "requests-layer-${var.environment}"
   description        = "Python Requests Library"
   compatible_runtimes = ["python3.11"]
 
   depends_on = [data.archive_file.lambda_layer]
 }
-
