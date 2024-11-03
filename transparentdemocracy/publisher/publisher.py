@@ -61,14 +61,15 @@ class Publisher():
                 if len(motions) == 0:
                     # TODO logging
                     continue
-                doc = dict()
-                doc["id"] = mg["id"]
-                doc["legislature"] = plenary["legislature"]
-                doc["plenaryNr"] = plenary["number"]
-                doc["titleNL"] = mg["title_nl"]
-                doc["titleFR"] = mg["title_fr"]
-                doc["motions"] = [m for m in motions if m is not None]
-                doc["votingDate"] = plenary["date"]
+                doc = dict(
+                    id=mg["id"],
+                    legislature=plenary["legislature"],
+                    plenaryNr=plenary["number"],
+                    titleNL=mg["title_nl"],
+                    titleFR=mg["title_fr"],
+                    motions=[m for m in motions if m is not None],
+                    votingDate=plenary["date"],
+                )
 
                 self.repo.publish_motion(doc)
 
