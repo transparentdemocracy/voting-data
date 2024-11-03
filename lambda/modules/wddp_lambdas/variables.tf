@@ -4,10 +4,9 @@ variable "aws_region" {
   default     = "eu-west-1"
 }
 
-variable "function_name" {
-  description = "Name of the Lambda function"
+variable "environment" {
+  description = "environment"
   type        = string
-  default     = "search_motions"
 }
 
 variable "es_auth" {

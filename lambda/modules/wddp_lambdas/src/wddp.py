@@ -28,9 +28,9 @@ def search(index, q, page):
     query = {
         "size": PAGE_SIZE,
         "from": max(0, page) * PAGE_SIZE,
-        "sort": [
-            {"date": {"order": "desc"}}
-        ]
+        # "sort": [
+        #     {"date": {"order": "desc"}}
+        # ]
 
     }
 

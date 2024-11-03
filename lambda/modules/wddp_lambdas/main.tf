@@ -9,9 +9,9 @@ terraform {
 
 locals {
   functions = [
-    { name: "search_motions", handler:"wddp.search_motions" },
-    { name: "get_motion", handler:"wddp.get_motion" },
-    { name: "search_plenaries", handler:"wddp.search_plenaries" },
+    { key: "search_motions", name: "search-motions-${var.environment}", handler:"wddp.search_motions" },
+    { key: "get_motion", name: "get-motion-${var.environment}", handler:"wddp.get_motion" },
+    { key: "search_plenaries", name: "search-plenaries-${var.environment}", handler:"wddp.search_plenaries" },
   ]
 }
 
@@ -26,7 +26,7 @@ data "archive_file" "lambda_zip" {
 }
 
 resource "aws_iam_role" "lambda_role" {
-  name = "${var.function_name}-role"
+  name = "wddp-lambdas-${var.environment}-role"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
@@ -49,10 +49,10 @@ resource "aws_iam_role_policy_attachment" "lambda_basic" {
 
 
 resource "aws_lambda_function" "function" {
-  for_each = { for func in local.functions : func.name => func }
+  for_each = { for func in local.functions : func.key => func }
 
   filename         = data.archive_file.lambda_zip.output_path
-  function_name    = each.key
+  function_name    = each.value.name
   role            = aws_iam_role.lambda_role.arn
   handler         = each.value.handler
   source_code_hash = data.archive_file.lambda_zip.output_base64sha256
@@ -67,7 +67,7 @@ resource "aws_lambda_function" "function" {
 }
 
 resource "aws_lambda_function_url" "function_url" {
-  for_each = { for func in local.functions : func.name => func }
+  for_each = { for func in local.functions : func.key => func }
   function_name      = aws_lambda_function.function[each.key].function_name
   authorization_type = "NONE"
   cors {
