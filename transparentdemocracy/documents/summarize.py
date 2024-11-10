@@ -15,6 +15,7 @@ from langchain_community.chat_models import ChatOllama
 from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import CharacterTextSplitter
+from nbclient.exceptions import stream_output_msg
 
 from transparentdemocracy import CONFIG
 
@@ -23,7 +24,8 @@ logger.setLevel(logging.INFO)
 
 # Batch size doesn't really matter when using OLLAMA locally, it gets executed sequentially anyway
 BATCH_SIZE = 1
-SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile("^.*/%s/K(\\d{4})(\\d{3}).summary$" % (CONFIG.legislature))
+# TODO: escape CONFIG.legislature because it's used in a regex
+SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile(f"^.*/{CONFIG.legislature}K(\\d{{4}})(\\d{{3}}).summary$")
 
 OLLAMA_MODEL = "llama3"
 PROMPT_STUFF = """Summarize the text in Dutch and in French. Here is the text:
@@ -154,8 +156,12 @@ def write_json():
             print(f"  {path}")
 
     summaries.sort(key=lambda s: s['document_id'])
-    with open(CONFIG.documents_summaries_json_output_path(), 'w') as fp:
+    path = CONFIG.documents_summaries_json_output_path()
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w') as fp:
         json.dump(summaries, fp, indent=2)
+
+    print(f"Wrote {path}")
 
 
 @dataclass
@@ -347,4 +353,5 @@ def apply_action(action, path):
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    write_json()
