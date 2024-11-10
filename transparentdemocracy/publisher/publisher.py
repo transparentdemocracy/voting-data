@@ -239,7 +239,7 @@ def to_subdoc(doc_main_nr, doc_sub_nr, summaries_by_id=None):
     return {
         'documentNr': doc_main_nr,
         'documentSubNr': doc_sub_nr,
-        'documentPdfUrl': f"https://www.dekamer.be/FLWB/PDF/{CONFIG.legislature}/{doc_main_nr:04d}/55K{doc_main_nr:04d}{doc_sub_nr:03d}.pdf",
+        'documentPdfUrl': f"https://www.dekamer.be/FLWB/PDF/{CONFIG.legislature}/{doc_main_nr:04d}/{CONFIG.legislature}K{doc_main_nr:04d}{doc_sub_nr:03d}.pdf",
         'summaryNL': summary["summary_nl"] if summary else None,
         'summaryFR': summary["summary_fr"] if summary else None
     }
