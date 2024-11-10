@@ -46,7 +46,7 @@ class ElasticRepo:
 
         # Bonsai
         auth = os.environ["ES_AUTH"]
-        self.es = Elasticsearch("https://%s@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443" % (auth))
+        self.es = Elasticsearch(f"https://{auth}@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443")
 
         self.create_indices()
 
@@ -105,15 +105,15 @@ class Publisher():
 
     def publish_plenaries(self):
         for plenary in self.plenaries:
-            doc = dict(
-                id=plenary["id"],
-                title=plenary["date"],
-                legislature=plenary["legislature"],
-                date=plenary["date"],
-                pdfReportUrl=plenary["pdf_report_url"],
-                htmlReportUrl=plenary["html_report_url"],
-                motionGroups=self.to_motion_groups_doc(plenary["motion_groups"])
-            )
+            doc = {
+                'id': plenary["id"],
+                'title': plenary["date"],
+                'legislature': plenary["legislature"],
+                'date': plenary["date"],
+                'pdfReportUrl': plenary["pdf_report_url"],
+                'htmlReportUrl': plenary["html_report_url"],
+                'motionGroups': self.to_motion_groups_doc(plenary["motion_groups"])
+            }
 
             self.repo.publish_plenary(doc)
 
@@ -205,9 +205,7 @@ def to_doc_reference(spec, summaries_by_id=None):
     match = pattern.match(spec)
 
     if match is None:
-        # TODO: handle these
-        # raise Exception("unknown ref spec", spec)
-        return None
+        raise Exception("unknown ref spec", spec)
 
     doc_main_nr = int(match.group(1))
     range_min = int(match.group(2))
