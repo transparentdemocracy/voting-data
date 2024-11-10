@@ -83,9 +83,8 @@ def serialize(plenaries: List[Plenary], votes: List[Vote], documents_reference_o
 
 def write_plenaries_json(plenaries=None):
     if plenaries is None:
-        plenaries, _votes, _problems = extract_from_html_plenary_reports()
-        plenaries, _documents_reference_objects, _link_problems = link_motions_with_proposals(
-            plenaries)
+        tmp_plenaries, _votes, _problems = extract_from_html_plenary_reports()
+        plenaries, _documents_reference_objects, _link_problems = link_motions_with_proposals(tmp_plenaries)
     JsonSerializer().serialize_plenaries(plenaries)
 
 
