@@ -94,12 +94,11 @@ def extract_from_html_plenary_reports(
 
     if num_reports_to_process is not None:
         report_filenames = report_filenames[:num_reports_to_process]
-    logging.debug(
-        f"Will process the following input reports: {report_filenames}.")
+    logging.debug("Will process the following input reports: %s.", report_filenames)
 
     for report_filename in tqdm(report_filenames, desc="Processing plenary reports..."):
         try:
-            logging.debug(f"Processing input report {report_filename}...")
+            logging.debug("Processing input report %s...", report_filename)
             if report_filename.endswith(".html"):
                 plenary, votes, problems = extract_from_html_plenary_report(
                     report_filename, politicians)
@@ -111,7 +110,7 @@ def extract_from_html_plenary_reports(
                     report_filename, "NOT_HTML", "filename"))
                 continue
 
-        except Exception as e:
+        except Exception:
             all_problems.append(ParseProblem(
                 report_filename, "EXCEPTION", None))
             logging.warning("Failed to process %s",
@@ -141,8 +140,7 @@ def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]
     # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
     plenary_id = f"{legislature}_{plenary_number}"
     proposals = __extract_proposal_discussions(ctx, plenary_id)
-    motion_report_items, motion_groups = _extract_motion_groups(
-        plenary_id, ctx)
+    _motion_report_items, motion_groups = _extract_motion_groups(plenary_id, ctx)
     votes = _extract_votes(ctx, plenary_id)
 
     return (
@@ -189,8 +187,8 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
     if not level1_headers:
         ctx.add_problem("NO_LEVEL1_TITLE", None)
-        logging.warning(f"No 'level1' (h1) section titles found (Plenary report {os.path.basename(ctx.report_path)}). "
-                        f"No proposal discussions will be added to the data about this plenary.")
+        logging.warning("No 'level1' (h1) section titles found (Plenary report %s). "
+                        "No proposal discussions will be added to the data about this plenary.", os.path.basename(ctx.report_path))
         return proposal_discussions
 
     proposal_section_headers = [
@@ -206,29 +204,26 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
 
     if not proposal_section_headers:
         ctx.add_problem("NO_PROPOSAL_HEADER_FOUND")
-        logging.warning(f"No proposal section title found (Plenary report {os.path.basename(ctx.report_path)}). "
-                        f"No proposal discussions will be added to the data about this plenary.")
+        logging.warning("No proposal section title found (Plenary report %s). "
+                        "No proposal discussions will be added to the data about this plenary.", os.path.basename(ctx.report_path))
         return proposal_discussions
 
     proposal_header_idx = level1_headers.index(proposal_section_headers[-1])
     next_level1_headers = level1_headers[proposal_header_idx + 1:]
 
     if next_level1_headers:
-        proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings(
-        )
+        proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings()
         if next_level1_headers[0] in proposal_discussion_elements:
             next_level1_index = proposal_discussion_elements.index(
                 next_level1_headers[0])
             proposal_discussion_elements = proposal_discussion_elements[:next_level1_index]
     else:
-        proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings(
-        )
+        proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings()
 
-    proposal_discussion_elements = [
-        el for el in proposal_discussion_elements if el.text.strip() != ""]
+    proposal_discussion_elements = [el for el in proposal_discussion_elements if el.text.strip() != ""]
 
     tag_groups = create_level2_tag_groups(proposal_discussion_elements)
-    report_items = find_report_items(ctx.report_path, tag_groups)
+    report_items = find_report_items(tag_groups)
 
     for level2_item in report_items:
         nl_proposal_titles = level2_item.nl_title_tags
@@ -254,13 +249,10 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
                                 level2_item.label)
                 continue
 
-        # TODO: what do we do with nl_proposals and nl_proposals now that we have them?
-
         proposal_discussion_id = f"{plenary_id}_d{level2_item.label}"
 
         level3_groups = create_level3_tag_groups(level2_item.body)
-        level3_items = find_report_items(
-            ctx.report_path, level3_groups, is_level3_title)
+        level3_items = find_report_items(level3_groups, is_level3_title)
 
         discussion_items = [
             item for item in level3_items if is_article_discussion_item(item)]
@@ -291,7 +283,9 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
                 nl_proposal_text)
             _fr_label, fr_text, _fr_doc_ref = __split_number_title_doc_ref(
                 fr_proposal_text)
-            # TODO: additional verification: are nl label and doc ref equal to fr label and doc ref?
+
+            if nl_doc_ref != _fr_doc_ref:
+                ctx.add_problem("nl_doc_ref and fr_doc_ref are different", f"{plenary_id} proposal {proposal_idx}")
             proposal_id = f"{proposal_discussion_id}_p{proposal_idx}"
             proposals.append(Proposal(proposal_id, nl_doc_ref,
                                       nl_text.strip(), fr_text.strip()))
@@ -368,8 +362,8 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
 
     motions = []
     motion_tag_groups = split_motion_group_item(ctx, item)
-    for index, motion_tag_group in enumerate(motion_tag_groups):
-        motion = construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_group_title_nl,
+    for group_index, motion_tag_group in enumerate(motion_tag_groups):
+        motion = construct_motion(ctx, group_index, motion_group_id, motion_group_title_fr, motion_group_title_nl,
                                   motion_tag_group, plenary_id, doc_ref_nl)
         motions.append(motion)
 
@@ -399,8 +393,8 @@ def construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_
     title_tag_nl, title_tag_fr = find_nl_and_fr_tag(motion_tag_group[:2])
     title_fr = title_tag_fr.text.strip()
     title_nl = title_tag_nl.text.strip()
-    label_nl, title_nl, doc_ref_fr = __split_number_title_doc_ref(title_nl)
-    label_fr, title_fr, doc_ref_nl = __split_number_title_doc_ref(title_fr)
+    _label_nl, title_nl, doc_ref_fr = __split_number_title_doc_ref(title_nl)
+    _label_fr, title_fr, doc_ref_nl = __split_number_title_doc_ref(title_fr)
     if doc_ref_fr != doc_ref_nl:
         ctx.add_problem("MOTION_DOC_REF_DIFFERENCE_NL_FR", motion_id)
 
@@ -425,9 +419,9 @@ def construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_
 
 def find_nl_and_fr_tag(tags: List[Tag]) -> Tuple[Tag, Tag]:
     if len(tags) == 0:
-        raise Exception("no tags {}", tags)
+        raise Exception(f"no tags {tags}")
     if len(tags) < 2:
-        raise Exception("only 1 tag", tags)
+        raise Exception("only 1 tag: {tags}")
 
     if 'NormalNL' in get_class(tags[0]) or 'NormalFR' in get_class(tags[1]):
         return tags[0], tags[1]
@@ -452,7 +446,6 @@ def find_voting_numbers(motion_tags):
     return result
 
 
-# TODO: move this state machine used to parse motions to a separate module
 STATE_INTRO = "INTRO"
 STATE_VOTE_STARTED = "STARTED"
 STATE_VOTE_TABLE_FOUND = "VOTE_TABLE_FOUND"
@@ -541,9 +534,9 @@ def split_motion_group_item(ctx: PlenaryExtractionContext, item):
         tag_text = normalize_whitespace(tag.text).lower()
         if "wordt geannuleerd" in tag_text:
             return True
-        elif tag.name == "table" and tag_text.startswith("(stemming/vote "):
+        if tag.name == "table" and tag_text.startswith("(stemming/vote "):
             return True
-        elif tag_text.startswith("(stemming/vote ") or tag_text.startswith("(vote/stemming "):
+        if tag_text.startswith("(stemming/vote ") or tag_text.startswith("(vote/stemming "):
             return True
 
         return False
@@ -585,7 +578,7 @@ def __find_siblings_between_elements(
         if filter_tag_name and next_sibling_element_name == filter_tag_name:
             siblings.append(next_sibling_element)
 
-        if filter_class_name and type(next_sibling_element) is not NavigableString \
+        if filter_class_name and not isinstance(next_sibling_element, NavigableString) \
             and "class" in next_sibling_element.attrs and filter_class_name in next_sibling_element.attrs["class"]:
             siblings.append(next_sibling_element)
 
@@ -603,8 +596,7 @@ def __get_next_sibling_tag_name(element):
     next_element_name = ""
     if next_element is None:  # There just is no next element anymore.
         next_element_name = None
-    elif type(
-        next_element) is not NavigableString:  # = Text in the HTML that is not enclosed within tags, it has no .name.
+    elif not isinstance(next_element, NavigableString):  # = Text in the HTML that is not enclosed within tags, it has no .name.
         next_element_name = next_element.name
     return next_element, next_element_name
 
@@ -698,12 +690,11 @@ def _extract_report_items(report_path: str, elements: List[Tag]) -> List[ReportI
     item_titles = list(filter(is_report_item_title, elements))
 
     if not item_titles:  # this check doesn't feel
-        logger.warning(
-            f"No report item titles after naamstemmingen in {report_path}")
+        logger.warning("No report item titles after naamstemmingen in %s", report_path)
         return []
 
     tag_groups = create_level2_tag_groups(elements)
-    report_items = find_report_items(report_path, tag_groups)
+    report_items = find_report_items(tag_groups)
 
     return [item for item in report_items if (item.nl_title.strip() != "" or item.fr_title.strip() != "")]
 
@@ -711,7 +702,7 @@ def _extract_report_items(report_path: str, elements: List[Tag]) -> List[ReportI
 def is_report_item_title(el: Tag):
     if el.name == "h2":
         return True
-    if el.name == "p" and any([clazz in ["Titre2NL", "Titre2FR"] for clazz in ((el and el.get("class")) or [])]):
+    if el.name == "p" and any(clazz in ["Titre2NL", "Titre2FR"] for clazz in ((el and el.get("class")) or [])):
         return True
 
     return False
@@ -783,20 +774,20 @@ def create_tag_groups(tags, header_condition):
 
 def is_level1_title(tag):
     return (tag.name == "h1") or (
-        tag.name == "p" and any([clazz in ['Titre1FR', 'Titre1NL'] for clazz in tag.get("class")]))
+        tag.name == "p" and any(clazz in ['Titre1FR', 'Titre1NL'] for clazz in tag.get("class")))
 
 
 def is_level2_title(tag) -> bool:
     return (tag.name == "h2") or (
-        tag.name == "p" and any([clazz in ['Titre2FR', 'Titre2NL'] for clazz in tag.get("class")]))
+        tag.name == "p" and any(clazz in ['Titre2FR', 'Titre2NL'] for clazz in tag.get("class")))
 
 
 def is_level3_title(tag) -> bool:
     return (tag.name == "h3") or (
-        tag.name == "p" and any([clazz in ['Titre3FR', 'Titre3NL'] for clazz in tag.get("class")]))
+        tag.name == "p" and any(clazz in ['Titre3FR', 'Titre3NL'] for clazz in tag.get("class")))
 
 
-def find_report_items(report_path, tag_groups, header_condition=is_level2_title):
+def find_report_items(tag_groups, header_condition=is_level2_title):
     result = []
 
     for tag_group in tag_groups:
@@ -921,13 +912,13 @@ def find_sequence(tokens, query, start_pos=0):
 
 
 def get_motion_blocks_by_nr(report, html):
-    result = dict()
+    result = {}
     vote_re = re.compile("\\(Stemming/vote \\(?(.*)\\)")
 
     for block in get_motion_blocks(html):
         match = vote_re.search(block[0].strip())
         if match is not None:
-            logger.debug(f"{report}: found stemming {match.group(1)}")
+            logger.debug("%s: found stemming %s", report, match.group(1))
             nr = int(match.group(1), 10)
             result[nr] = block[1:]
 
@@ -977,7 +968,7 @@ def get_names(sequence, count, log_type, location="unknown location"):
 
     if len(names) != count:
         logging.warning(
-            f"vote count ({count:d}) ./does not match voters {str(names)} ({log_type}) at {location}")
+            "vote count (%d) ./does not match voters %s (%s) at %s", count, str(names), log_type, location)
 
     return names
 
@@ -986,21 +977,20 @@ def create_votes_for_same_vote_type(voter_names: List[str], vote_type: VoteType,
                                     politicians: Politicians) -> List[Vote]:
     if voter_names is None:
         return []
-    else:
-        return [
-            Vote(
-                politicians.get_by_name(voter_name),
-                motion_id,
-                vote_type
-            ) for voter_name in voter_names
-        ]
+
+    return [
+        Vote(
+            politicians.get_by_name(voter_name),
+            motion_id,
+            vote_type
+        ) for voter_name in voter_names
+    ]
 
 
 def _get_plenary_date(ctx):
     first_table_paragraphs = [
         p.text for p in ctx.html.find('table').select('p')]
-    text_containing_weekday = [t.lower() for t in first_table_paragraphs if any([
-        m in t.lower() for m in DAYS_NL])]
+    text_containing_weekday = [t.lower() for t in first_table_paragraphs if any(m in t.lower() for m in DAYS_NL)]
     if len(text_containing_weekday) > 0:
         for candidate in text_containing_weekday:
             parts = re.split("\\s+", candidate)
