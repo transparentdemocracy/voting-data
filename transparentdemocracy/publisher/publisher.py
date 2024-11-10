@@ -89,17 +89,17 @@ class Publisher():
                 motions = [self.to_motion_read_model(plenary, mg, m) for m in mg["motions"]]
                 motions = [m for m in motions if m is not None]
                 if len(motions) == 0:
-                    # TODO logging
+                    logging.warning("no motions in group %s", mg["id"])
                     continue
-                doc = dict(
-                    id=mg["id"],
-                    legislature=plenary["legislature"],
-                    plenaryNr=plenary["number"],
-                    titleNL=mg["title_nl"],
-                    titleFR=mg["title_fr"],
-                    motions=[m for m in motions if m is not None],
-                    votingDate=plenary["date"],
-                )
+                doc = {
+                    'id': mg["id"],
+                    'legislature': plenary["legislature"],
+                    'plenaryNr': plenary["number"],
+                    'titleNL': mg["title_nl"],
+                    'titleFR': mg["title_fr"],
+                    'motions': [m for m in motions if m is not None],
+                    'votingDate': plenary["date"]
+                }
 
                 self.repo.publish_motion(doc)
 
@@ -121,50 +121,56 @@ class Publisher():
         return [self.to_motion_group_doc(m) for m in motion_groups]
 
     def to_motion_group_doc(self, motion_group):
-        return dict(
-            motionGroupId=motion_group["id"],
-            titleNL=motion_group["title_nl"],
-            titleFR=motion_group["title_fr"],
-            motionLinks=[self.to_motion_link_doc(m) for m in motion_group["motions"]]
-        )
+        return {
+            'motionGroupId': motion_group["id"],
+            'titleNL': motion_group["title_nl"],
+            'titleFR': motion_group["title_fr"],
+            'motionLinks': [self.to_motion_link_doc(m) for m in motion_group["motions"]]
+        }
 
     def to_motion_link_doc(self, motion):
         voting_id = motion["voting_id"]
-        return dict(
-            motionId=motion["id"],
-            agendaSeqNr=motion["sequence_number"],
-            # TODO: put voting_sequence_number in plenaries.json so we don't need to parse here
-            voteSeqNr=None if voting_id is None else voting_id.rsplit('_', 1)[-1],
-            titleNL=motion["title_nl"],
-            titleFR=motion["title_fr"]
-        )
+        return {
+            'motionId': motion["id"],
+            'agendaSeqNr': motion["sequence_number"],
+            'voteSeqNr': None if voting_id is None else voting_id.rsplit('_', 1)[-1],
+            'titleNL': motion["title_nl"],
+            'titleFR': motion["title_fr"]
+        }
 
-    def to_motion_read_model(self, p, mg, m):
+    def to_motion_read_model(self, p, _mg, m):
         if m["voting_id"] is None:
-            return None  # TODO log a warning
+            LOGGER.warning("motion without voting_id: %s", m["id"])
+            return None
         votes = self.votes_by_id[m["voting_id"]]
         if len(votes) == 0:
-            return None  # TODO log a warning
+            LOGGER.warning("no votes found in %s", m["id"])
+            return None
 
-        mdoc = dict()
-        mdoc["id"] = m["id"]
-        mdoc["titleNL"] = m["title_nl"]
-        mdoc["titleFR"] = m["title_fr"]
         yes_votes = to_votes(votes, "YES", self.politicians_by_id)
-        mdoc["yesVotes"] = yes_votes
         no_votes = to_votes(votes, "NO", self.politicians_by_id)
-        mdoc["noVotes"] = no_votes
-        mdoc["absVotes"] = to_votes(votes, "ABSTENTION", self.politicians_by_id)
-        mdoc["newDocumentReference"] = to_doc_reference(m["documents_reference"], self.summaries_by_id)
-        mdoc["votingDate"] = p["date"]
-        mdoc["votingResult"] = vote_passed(yes_votes, no_votes)
+        abs_votes = to_votes(votes, "ABSTENTION", self.politicians_by_id)
+        doc_reference = to_doc_reference(m["documents_reference"], self.summaries_by_id)
+        voting_result = vote_passed(yes_votes, no_votes)
+
+        mdoc = {
+            "id": m["id"],
+            "titleNL": m["title_nl"],
+            "titleFR": m["title_fr"],
+            "yesVotes": yes_votes,
+            "noVotes": no_votes,
+            "absVotes": abs_votes,
+            "newDocumentReference": doc_reference,
+            "votingDate": p["date"],
+            "votingResult": voting_result,
+        }
         return mdoc
 
 
 def to_votes(votes, vote_type, politicians_by_id):
     if len(votes) == 0:
         raise Exception("I don't expect to be called without votes")
-    vdoc = dict()
+    vdoc = {}
 
     votes_with_type = [v for v in votes if v["vote_type"] == vote_type]
     count_votes_with_type = len(votes_with_type)
@@ -179,16 +185,18 @@ def to_votes(votes, vote_type, politicians_by_id):
 
     vdoc["partyVotes"] = []
     for party, count in votes_by_party.items():
-        vdoc["partyVotes"].append(dict(
-            partyName=party,
-            numberOfVotes=count,
-            votePercentage=100.0 * count / len(votes)
-        ))
+        vdoc["partyVotes"].append({
+            'partyName': party,
+            'numberOfVotes': count,
+            'votePercentage': 100.0 * count / len(votes)
+        })
 
     return vdoc
 
 
-def to_doc_reference(spec, summaries_by_id={}):
+def to_doc_reference(spec, summaries_by_id=None):
+    if not summaries_by_id:
+        summaries_by_id = {}
     if not spec:
         return None
 
@@ -201,61 +209,65 @@ def to_doc_reference(spec, summaries_by_id={}):
         # raise Exception("unknown ref spec", spec)
         return None
 
-    docMainNr = int(match.group(1))
-    rangeMin = int(match.group(2))
-    rangeMax = int(match.group(3)[1:]) if match.group(3) else rangeMin
+    doc_main_nr = int(match.group(1))
+    range_min = int(match.group(2))
+    range_max = int(match.group(3)[1:]) if match.group(3) else range_min
 
-    if rangeMin > rangeMax:
+    if range_min > range_max:
         raise Exception(f"Invalid range in spec {spec}")
-    if rangeMax - rangeMin > 20:
+    if range_max - range_min > 20:
         raise Exception("Range size over 20. Could be a typo")
 
-    refdoc = dict()
-    refdoc["spec"] = spec
-    refdoc["documentMainUrl"] = (
-        "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat="
-        f"{CONFIG.legislature}&dossierID={docMainNr:04d}")
+    refdoc = {
+        "spec": spec,
+        "documentMainUrl": (
+            "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat="
+            f"{CONFIG.legislature}&dossierID={doc_main_nr:04d}"),
+        "subDocuments": [
+            to_subdoc(doc_main_nr, doc_sub_nr, summaries_by_id)
+            for doc_sub_nr in range(range_min, range_max + 1)
+        ]}
 
     # TODO: previous solutions somewhere filtered out motions with multiple subdocuments because
     # we didn't know how to render them. Figure out where that was and apply here
-    refdoc["subDocuments"] = [
-        to_subdoc(docMainNr, docSubNr, summaries_by_id)
-        for docSubNr in range(rangeMin, rangeMax + 1)
-    ]
     return refdoc
 
 
-def to_subdoc(docMainNr, docSubNr, summaries_by_id={}):
-    document_id = f"{docMainNr:04d}/{docSubNr:03d}"
+def to_subdoc(doc_main_nr, doc_sub_nr, summaries_by_id=None):
+    if summaries_by_id is None:
+        summaries_by_id = {}
+    document_id = f"{doc_main_nr:04d}/{doc_sub_nr:03d}"
     summary = summaries_by_id.get(document_id, None)
-    return dict(documentNr=docMainNr,
-                documentSubNr=docSubNr,
-                documentPdfUrl=f"https://www.dekamer.be/FLWB/PDF/{CONFIG.legislature}/{docMainNr:04d}/55K{docMainNr:04d}{docSubNr:03d}.pdf",
-                summaryNL=summary["summary_nl"] if summary else None,
-                summaryFR=summary["summary_fr"] if summary else None)
+    return {
+        'documentNr': doc_main_nr,
+        'documentSubNr': doc_sub_nr,
+        'documentPdfUrl': f"https://www.dekamer.be/FLWB/PDF/{CONFIG.legislature}/{doc_main_nr:04d}/55K{doc_main_nr:04d}{doc_sub_nr:03d}.pdf",
+        'summaryNL': summary["summary_nl"] if summary else None,
+        'summaryFR': summary["summary_fr"] if summary else None
+    }
 
 
 def publish():
     repo = ElasticRepo()
 
-    with open(CONFIG.plenary_json_output_path("plenaries.json")) as plenary_file:
+    with open(CONFIG.plenary_json_output_path("plenaries.json"), 'r', encoding="utf-8") as plenary_file:
         plenaries = json.load(plenary_file)
 
-    with open(CONFIG.plenary_json_output_path("votes.json")) as votes_file:
+    with open(CONFIG.plenary_json_output_path("votes.json"), 'r', encoding="utf-8") as votes_file:
         votes = json.load(votes_file)
 
-    with open(CONFIG.politicians_json_output_path("politicians.json")) as politicians_file:
+    with open(CONFIG.politicians_json_output_path("politicians.json"), 'r', encoding="utf-8") as politicians_file:
         politicians = json.load(politicians_file)
 
-    politicians_by_id = dict([(p["id"], p) for p in politicians])
+    politicians_by_id = {p["id"]: p for p in politicians}
 
     votes_by_id = defaultdict(list)
     for vote in votes:
         votes_by_id[vote["voting_id"]].append(vote)
 
-    with open(CONFIG.documents_summaries_json_output_path()) as summaries_file:
+    with open(CONFIG.documents_summaries_json_output_path(), 'r', encoding="utf-8") as summaries_file:
         summaries = json.load(summaries_file)
-        summaries_by_id = dict([(s["document_id"], s) for s in summaries])
+        summaries_by_id = {s["document_id"]: s for s in summaries}
 
     publisher = Publisher(repo, plenaries, votes_by_id, politicians_by_id, summaries_by_id)
 

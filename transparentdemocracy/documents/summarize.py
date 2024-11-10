@@ -15,7 +15,6 @@ from langchain_community.chat_models import ChatOllama
 from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import CharacterTextSplitter
-from nbclient.exceptions import stream_output_msg
 
 from transparentdemocracy import CONFIG
 
@@ -24,8 +23,7 @@ logger.setLevel(logging.INFO)
 
 # Batch size doesn't really matter when using OLLAMA locally, it gets executed sequentially anyway
 BATCH_SIZE = 1
-# TODO: escape CONFIG.legislature because it's used in a regex
-SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile(f"^.*/{CONFIG.legislature}K(\\d{{4}})(\\d{{3}}).summary$")
+SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile(f"^.*/{re.escape(CONFIG.legislature)}K(\\d{{4}})(\\d{{3}}).summary$")
 
 OLLAMA_MODEL = "llama3"
 PROMPT_STUFF = """Summarize the text in Dutch and in French. Here is the text:
@@ -54,7 +52,6 @@ class DocumentSummarizer:
 
         summarized = 0
 
-        # TODO: evaluate performance with vs without tqdm here
         for document_path in document_paths:
             output_path = self.txt_path_to_summary_path(document_path)
 
@@ -62,13 +59,13 @@ class DocumentSummarizer:
             if os.path.exists(output_path):
                 continue
 
-            with open(document_path, 'r') as fp:
+            with open(document_path, 'r', encoding="utf-8") as fp:
                 doc_part = fp.read(12_000)
             docs = [Document(page_content=doc_part, metadata={"source": document_path})]
             split_documents = self.text_splitter.split_documents(docs)
 
             if len(split_documents) == 0:
-                logger.info(f"Empty document? {document_path}")
+                logger.info("Empty document? %s", document_path)
                 continue
 
             if len(split_documents) > 1:
@@ -99,7 +96,7 @@ class DocumentSummarizer:
             input_docs = r['input_documents']
             output_text = r['output_text']
             if len(input_docs) > 1:
-                logger.warn("multiple input docs")
+                logger.warning("multiple input docs")
                 for doc in input_docs:
                     print(doc.metadata['source'])
             input_path = input_docs[0].metadata['source']
@@ -107,7 +104,7 @@ class DocumentSummarizer:
 
             print(f"Writing {output_path}")
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            with open(output_path, 'w') as fp:
+            with open(output_path, 'w', encoding="utf-8") as fp:
                 fp.write(output_text)
 
     def determine_documents_to_summarize(self, min_size_inclusive, max_size_exclusive):
@@ -117,7 +114,7 @@ class DocumentSummarizer:
                 for path in docs
                 if (os.path.getsize(path) >= min_size_inclusive) and (os.path.getsize(path) < max_size_exclusive)
                 ]
-        docs.sort(key=lambda path: os.path.getsize(path))
+        docs.sort(key=os.path.getsize)
         not_summarized = [
             path
             for path in docs
@@ -158,7 +155,7 @@ def write_json():
     summaries.sort(key=lambda s: s['document_id'])
     path = CONFIG.documents_summaries_json_output_path()
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'w') as fp:
+    with open(path, 'w', encoding="utf-8") as fp:
         json.dump(summaries, fp, indent=2)
 
     print(f"Wrote {path}")
@@ -205,7 +202,7 @@ FR_EXPRESSIONS = [jsonpath.parse(pattern % identifier) for identifier in FR_IDEN
 
 
 def parse_summary_file(document_id, path):
-    with open(path, 'r') as fp:
+    with open(path, 'r', encoding="utf-8") as fp:
         lines = fp.readlines()
 
     marker_lines = [
@@ -228,7 +225,7 @@ def parse_summary_file(document_id, path):
         summary_nl = get_text(data, NL_EXPRESSIONS)
         summary_fr = get_text(data, FR_EXPRESSIONS)
         if summary_nl is not None and summary_fr is not None:
-            return dict(document_id=document_id, summary_nl=summary_nl, summary_fr=summary_fr)
+            return {'document_id': document_id, 'summary_nl': summary_nl, 'summary_fr': summary_fr}
         return None
     except JSONDecodeError:
         return None
@@ -249,7 +246,7 @@ def to_summary(path):
         return None
     doc_id = int(match.group(1), 10)
     sub_doc_id = int(match.group(2), 10)
-    with open(path) as fp:
+    with open(path, 'r', encoding="utf-8") as fp:
         text = fp.read()
     return Summary(f"{doc_id}/{sub_doc_id}", text)
 
@@ -277,7 +274,7 @@ def fixup_summaries():
     glob_path = CONFIG.documents_summary_output_path("**/*.summary")
     print(f"summaries to process: {len(glob.glob(glob_path, recursive=True))}")
     for path in glob.glob(glob_path, recursive=True):
-        with open(path, 'r') as fp:
+        with open(path, 'r', encoding="utf-8") as fp:
             lines = fp.readlines()
 
         if len(lines) < 3 or lines[1].strip() != '' or lines[2].strip() == '':
@@ -294,7 +291,7 @@ def fixup_summaries():
     files_by_first_line = dict((k, [pair[0] for pair in v]) for k, v in itertools.groupby(files_to_check, lambda pair: pair[1]))
 
     print(f"{len(files_by_first_line)} phrases")
-    phrases = [k for k in files_by_first_line.keys()]
+    phrases = list(k for k in files_by_first_line.keys())
     phrases.sort(key=lambda k: -len(files_by_first_line[k]))
     for phrase in phrases:
         if not ("summary" in phrase or "résumé" in phrase or "samenvatting" in phrase):
@@ -324,13 +321,13 @@ def fixup_summaries():
 
 def load_known_actions():
     if not os.path.exists('known-actions.json'):
-        return dict()
-    with open('known-actions.json', 'r') as fp:
+        return {}
+    with open('known-actions.json', 'r', encoding="utf-8") as fp:
         return json.load(fp)
 
 
 def save_known_actions(known_actions):
-    with open('known-actions.json', 'w') as fp:
+    with open('known-actions.json', 'w', encoding="utf-8") as fp:
         json.dump(known_actions, fp, indent=2)
 
 
@@ -341,11 +338,11 @@ def apply_action(action, path):
         os.remove(path)
         return
     elif action == "F":
-        with open(path, 'r') as fp:
+        with open(path, 'r', encoding="utf-8") as fp:
             lines = fp.readlines()
 
         lines = lines[2:]
-        with open(path, 'w') as fp:
+        with open(path, 'w', encoding="utf-8") as fp:
             fp.writelines(lines)
 
     else:
