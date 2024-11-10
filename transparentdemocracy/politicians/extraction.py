@@ -68,9 +68,12 @@ def simplify_actor(actor):
 
 
 def get_party(actor):
+    # Temproary workaround because https://data.dekamer.be/v0/actr/8051 is not up to date yet
+    if CONFIG.legislature == "56" and actor["id"] == "8051":
+        return "Vooruit"
+
     def is_party_member(role):
-        return role['functionSummary'][
-            'fullNameNL'] == "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid"
+        return role['functionSummary']['fullNameNL'] == "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid"
 
     def is_current_leg(role):
         leg = "Leg %s" % (CONFIG.legislature)
@@ -133,6 +136,9 @@ def json_dict_to_politician(data):
 
 
 def get_current_leg_role(actor):
+    if actor["id"] == "8051":
+        return "Vooruit"
+
     plenum_fullname = '/Wetgevende macht/Kvvcr/Leg %s/Plenum/PLENUMVERGADERING' % (CONFIG.legislature)
 
     def has_current_leg_plenum(r):
