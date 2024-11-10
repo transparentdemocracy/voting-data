@@ -1,5 +1,4 @@
 import json
-import json
 import os
 from datetime import datetime
 from typing import List, Dict
@@ -26,54 +25,54 @@ class JsonSerializer:
         self._serialize_plenaries(plenaries, "plenaries.json")
 
     def serialize_votes(self, votes: List[Vote]) -> None:
-        self._serialize_list([dict(
-            voting_id=v.voting_id,
-            vote_type=v.vote_type.value,
-            politician_id=str(v.politician.id)) for v
-            in votes], "votes.json")
+        self._serialize_list(
+            [
+                {
+                    'voting_id': v.voting_id,
+                    'vote_type': v.vote_type.value,
+                    'politician_id': str(v.politician.id)
+                }
+                for v in votes],
+            "votes.json")
 
     def serialize_documents_reference_objects(self, documents_reference_objects):
         self._serialize_list([
-            dict(
-                all_documents_reference=document.all_documents_reference,
-                document_reference=document.document_reference,
-                main_sub_document_reference=document.main_sub_document_reference,
-                sub_document_references=document.sub_document_references,
-                proposal_discussion_ids=document.proposal_discussion_ids,
-                proposal_ids=document.proposal_ids,
-                summary_nl=document.summary_nl,
-                summary_fr=document.summary_fr,
-                info_url=document.info_url,
-                sub_document_pdf_urls=document.sub_document_pdf_urls
-            )
+            {
+                'all_documents_reference': document.all_documents_reference,
+                'document_reference': document.document_reference,
+                'main_sub_document_reference': document.main_sub_document_reference,
+                'sub_document_references': document.sub_document_references,
+                'proposal_discussion_ids': document.proposal_discussion_ids,
+                'proposal_ids': document.proposal_ids,
+                'summary_nl': document.summary_nl,
+                'summary_fr': document.summary_fr,
+                'info_url': document.info_url,
+                'sub_document_pdf_urls': document.sub_document_pdf_urls
+            }
             for document in documents_reference_objects
         ], "documents.json")
 
-    def _serialize_plenaries(self, plenaries: List[Plenary], output_file: str) -> None:
-        list_json = json.dumps([self._plenary_to_dict(p) for p in plenaries],
-                               indent=2,
-                               cls=PlenaryEncoder)
-        with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
+    def _serialize_plenaries(self, plenaries: List[Plenary], output_path: str) -> None:
+        list_json = json.dumps([self._plenary_to_dict(p) for p in plenaries], indent=2, cls=PlenaryEncoder)
+        with open(os.path.join(self.plenary_output_json_path, output_path), "w", encoding="utf-8") as output_file:
             output_file.write(list_json)
 
-    def _serialize_list(self, some_list: List, output_file: str) -> None:
-        list_json = json.dumps(some_list,
-                               indent=2,
-                               default=lambda o: o.__dict__)
-        with open(os.path.join(self.plenary_output_json_path, output_file), "w") as output_file:
+    def _serialize_list(self, some_list: List, output_path: str) -> None:
+        list_json = json.dumps(some_list, indent=2, default=lambda o: o.__dict__)
+        with open(os.path.join(self.plenary_output_json_path, output_path), "w", encoding="utf-8") as output_file:
             output_file.write(list_json)
 
     def _plenary_to_dict(self, plenary: Plenary) -> Dict:
-        return dict(
-            id=plenary.id,
-            number=plenary.number,
-            date=plenary.date.isoformat(),
-            legislature=plenary.legislature,
-            pdf_report_url=plenary.pdf_report_url,
-            html_report_url=plenary.html_report_url,
-            proposal_discussions=plenary.proposal_discussions,
-            motion_groups=plenary.motion_groups,
-        )
+        return {
+            'id': plenary.id,
+            'number': plenary.number,
+            'date': plenary.date.isoformat(),
+            'legislature': plenary.legislature,
+            'pdf_report_url': plenary.pdf_report_url,
+            'html_report_url': plenary.html_report_url,
+            'proposal_discussions': plenary.proposal_discussions,
+            'motion_groups': plenary.motion_groups
+        }
 
 
 def serialize(plenaries: List[Plenary], votes: List[Vote], documents_reference_objects: List[DocumentsReference]) -> None:
@@ -84,22 +83,22 @@ def serialize(plenaries: List[Plenary], votes: List[Vote], documents_reference_o
 
 def write_plenaries_json(plenaries=None):
     if plenaries is None:
-        plenaries, votes, problems = extract_from_html_plenary_reports()
-        plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(
+        plenaries, _votes, _problems = extract_from_html_plenary_reports()
+        plenaries, _documents_reference_objects, _link_problems = link_motions_with_proposals(
             plenaries)
     JsonSerializer().serialize_plenaries(plenaries)
 
 
 def write_votes_json(votes=None):
     if votes is None:
-        plenaries, votes, problems = extract_from_html_plenary_reports()
+        _plenaries, votes, _problems = extract_from_html_plenary_reports()
     JsonSerializer().serialize_votes(votes)
 
 
 def write_documents_json(documents_reference_objects=None):
     if documents_reference_objects is None:
-        plenaries, votes, problems = extract_from_html_plenary_reports()
-        plenaries, documents_reference_objects, link_problems = link_motions_with_proposals(
+        plenaries, _votes, _problems = extract_from_html_plenary_reports()
+        plenaries, documents_reference_objects, _link_problems = link_motions_with_proposals(
             plenaries)
     JsonSerializer().serialize_documents_reference_objects(documents_reference_objects)
 
@@ -108,7 +107,7 @@ def write_documents_json(documents_reference_objects=None):
 # -----------------------------
 def load_plenaries():
     path = os.path.join(CONFIG.plenary_json_output_path(), "plenaries.json")
-    with open(path, 'r') as fp:
+    with open(path, 'r', encoding="utf-8") as fp:
         data = json.load(fp)
     return [_json_to_plenary(p) for p in data]
 
@@ -167,7 +166,6 @@ def _json_to_motion_group(data):
         title_fr=data['title_fr'],
         documents_reference=data['documents_reference'],
         motions=[_json_to_motion(m) for m in data['motions']],
-        proposal_discussion_ids=data['proposal_discussion_ids'],
     )
 
 
@@ -181,7 +179,6 @@ def _json_to_motion(data):
         voting_id=data['voting_id'],
         cancelled=data['cancelled'],
         description=data['description'],
-        proposal_ids=data['proposal_ids'],
     )
 
 
