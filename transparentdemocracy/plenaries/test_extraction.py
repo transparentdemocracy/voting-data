@@ -135,9 +135,9 @@ class MotionExtractionTest(unittest.TestCase):
         self.assertEqual("55_298_mg_14", motion_group14.id)
         self.assertEqual(14, motion_group14.plenary_agenda_item_number)
         self.assertEqual("Aangehouden amendementen en artikelen van het wetsontwerp houdende de hervorming van de pensioenen",
-                         motion_group10.title_nl)
+                         motion_group14.title_nl)
         self.assertEqual("Amendements et articles réservés du projet de loi portant la réforme des pensions",
-                         motion_group10.title_fr)
+                         motion_group14.title_fr)
         self.assertEqual("3808/1-10", motion_group14.documents_reference)
         self.assertEqual("Aangehouden amendementen en artikelen van het wetsontwerp houdende de hervorming van de pensioenen",
                          motion_group14.title_nl)
