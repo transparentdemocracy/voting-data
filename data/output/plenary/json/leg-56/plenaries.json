@@ -1,1 +1,266 @@
-[]
+[
+  {
+    "id": "56_005",
+    "number": 5,
+    "date": "2024-09-19",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip005.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip005x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_007",
+    "number": 7,
+    "date": "2024-10-03",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip007.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip007x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_003",
+    "number": 3,
+    "date": "2024-07-16",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip003.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip003x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_001",
+    "number": 1,
+    "date": "2024-07-04",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip001.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip001x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_006",
+    "number": 6,
+    "date": "2024-09-26",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip006.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip006x.html",
+    "proposal_discussions": [],
+    "motion_groups": [
+      {
+        "id": "56_006_mg_24",
+        "plenary_agenda_item_number": 24,
+        "title_nl": "Voorstel tot oprichting van een parlementaire onderzoekscommissie belast met het onderzoek naar mogelijke disfuncties in het strafrechtelijk onderzoek \"Operatie Kelk\"",
+        "title_fr": "Proposition visant \u00e0 instituer une commission d'enqu\u00eate parlementaire charg\u00e9e d'enqu\u00eater sur d'\u00e9ventuels dysfonctionnements dans le d\u00e9roulement de l'enqu\u00eate p\u00e9nale baptis\u00e9e \"Op\u00e9ration Calice\"",
+        "documents_reference": "228/3",
+        "motions": [
+          {
+            "id": "56_006_mg_24_m0",
+            "sequence_number": "0",
+            "title_nl": "Voorstel tot oprichting van een parlementaire onderzoekscommissie belast met het onderzoek naar mogelijke disfuncties in het strafrechtelijk onderzoek \"Operatie Kelk\"",
+            "title_fr": "Proposition visant \u00e0 instituer une commission d'enqu\u00eate parlementaire charg\u00e9e d'enqu\u00eater sur d'\u00e9ventuels dysfonctionnements dans le d\u00e9roulement de l'enqu\u00eate p\u00e9nale baptis\u00e9e \"Op\u00e9ration Calice\"",
+            "documents_reference": "228/3",
+            "voting_id": "56_006_v1",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 1) Ja 122 Oui Nee 0 Non Onthoudingen 0 Abstentions Totaal 122 Total (Stemming/vote 1) Ja 122 Oui Nee 0 Non Onthoudingen 0 Abstentions Totaal 122 Total Bijgevolg neemt de Kamer het voorstel aan. En cons\u00e9quence, la Chambre adopte la proposition."
+          }
+        ]
+      },
+      {
+        "id": "56_006_mg_25",
+        "plenary_agenda_item_number": 25,
+        "title_nl": "Oprichting en samenstelling van een parlementaire onderzoekscommissie",
+        "title_fr": "Constitution et composition d\u2019une commission d'enqu\u00eate parlementaire",
+        "documents_reference": null,
+        "motions": [
+          {
+            "id": "56_006_mg_25_m0",
+            "sequence_number": "0",
+            "title_nl": "Oprichting en samenstelling van een parlementaire onderzoekscommissie",
+            "title_fr": "Constitution et composition d\u2019une commission d'enqu\u00eate parlementaire",
+            "documents_reference": null,
+            "voting_id": null,
+            "cancelled": false,
+            "description": "Het voorstel tot oprichting van deze commissie (DOC 56-0228/3) werd zonet aangenomen door de plenaire vergadering. La proposition visant \u00e0 instituer cette commission (DOC 56-0228/3) vient d\u2019\u00eatre adopt\u00e9e par la s\u00e9ance pl\u00e9ni\u00e8re. Artikel 5 van het voorstel tot oprichting bepaalt: \"De commissie bestaat uit dertien leden en evenveel plaatsvervangers, die de Kamer van volksvertegenwoordigers onder haar leden aanwijst volgens de regel van de evenredige vertegenwoordiging van de politieke fracties. De overige politieke fracties kunnen elk een lid aanwijzen dat zal deelnemen, zonder stemrecht, aan de werkzaamheden van de commissie.\" L\u2019article 5 de la proposition dispose que \"La commission se compose de treize membres et d\u2019autant de suppl\u00e9ants, que la Chambre des repr\u00e9sentants d\u00e9signe en son sein conform\u00e9ment \u00e0 la r\u00e8gle de la repr\u00e9sentation proportionnelle des groupes politiques. Chacun des autres groupes politiques peut d\u00e9signer un membre qui participera aux travaux de la commission sans droit de vote.\" Geen bezwaar? (Nee) Aldus wordt besloten. Pas d'observation? (Non) Il en sera ainsi. Ik herinner er u aan dat overeenkomstig artikel 158 van het Reglement de verdeling van deze commissie de volgende is: Je rappelle que conform\u00e9ment \u00e0 l'article 158 du R\u00e8glement la r\u00e9partition de cette commission est la suivante: N-VA 3 effectifs / vaste leden 3 suppl\u00e9ants / plaatsvervangers Vlaams Belang 2 effectifs / vaste leden 2 suppl\u00e9ants / plaatsvervangers MR 2 effectifs / vaste leden 2 suppl\u00e9ants / plaatsvervangers PS 1 effectif / vast lid 1 suppl\u00e9ant / plaatsvervanger PVDA-PTB 1 effectif / vast lid 1 suppl\u00e9ant / plaatsvervanger Les Engag\u00e9s 1 effectif / vast lid 1 suppl\u00e9ant / plaatsvervanger Vooruit 1 effectif / vast lid 1 suppl\u00e9ant / plaatsvervanger cd&v 1 effectif / vast lid 1 suppl\u00e9ant / plaatsvervanger Ecolo-Groen 1 effectif / vast lid 1 suppl\u00e9ant / plaatsvervanger De voorzitters van de politieke fracties hebben mij de kandidaturen bezorgd van de leden van hun fractie die deel zullen uitmaken van deze commissie. Les pr\u00e9sidents des groupes politiques m'ont fait parvenir les candidatures des membres de leur groupe qui composeront cette commission. N-VA effectifs / vaste leden (3) - Sophie De Wit - Christoph D\u2019Haese - Mireille Colson suppl\u00e9ants / plaatsvervangers (3) - Kristien Van Vaerenbergh - Eva Demesmaeker - Lotte Peeters Vlaams Belang effectifs / vaste leden (2) - Werner Somers - Alexander Van Hoecke suppl\u00e9ants / plaatsvervangers (2) - Britt Huybrechts - Katleen Bury MR effectifs / vaste leden (2) - Mathieu Bihet - Pierre Jadoul suppl\u00e9ants / plaatsvervangers (2) - Daniel Bacquelaine - Catherine Delcourt PS effectif / vast lid (1) - Khalil Aouasti suppl\u00e9ant / plaatsvervanger (1) - Pierre-Yves Dermagne PVDA-PTB effectif / vast lid (1) - Greet Daems suppl\u00e9ant / plaatsvervanger (1) - Annik Van Den Bosche Les Engag\u00e9s effectif / vast lid (1) - Ismael Nuino suppl\u00e9ant / plaatsvervanger (1) - Vanessa Matz Vooruit effectif / vast lid (1) - Jinnih Beels suppl\u00e9ant / plaatsvervanger (1) - Joris Vandenbroucke cd&v effectif / vast lid (1) - Leentje Grillaert suppl\u00e9ant / plaatsvervanger (1) - Steven Mathe\u00ef Ecolo-Groen effectif / vast lid (1) - Stefaan Van Hecke suppl\u00e9ant / plaatsvervanger (1) - Sarah Schlitz De overige politieke fracties kunnen dus elk \u00e9\u00e9n lid aanwijzen dat zonder stemrecht deelneemt aan de werkzaamheden van de commissie. Les autres groupes politiques peuvent donc chacun d\u00e9signer un membre qui participera sans droit de vote aux travaux de la commission. Volgende naam werd medegedeeld door de voorzitter van de politieke fractie: Le nom suivant a \u00e9t\u00e9 communiqu\u00e9 par le pr\u00e9sident du groupe politique: Open Vld - Katja Gabri\u00ebls Daar het aantal ontvankelijke kandidaturen overeenstemt met het aantal te begeven plaatsen aan de politieke fracties die kandidaten hebben voorgedragen moet, overeenkomstig artikel 157.6 van het Reglement, niet gestemd worden. \u00c9tant donn\u00e9 que le nombre de candidatures recevables correspond au nombre de places \u00e0 conf\u00e9rer aux groupes politiques ayant pr\u00e9sent\u00e9 des candidats, il n'y a pas lieu \u00e0 scrutin conform\u00e9ment \u00e0 l'article 157.6 du R\u00e8glement. Bijgevolg verklaar ik de voorgedragen kandidaten als verkozen. En cons\u00e9quence, je proclame \u00e9lus les candidats pr\u00e9sent\u00e9s. k stel u ook voor de onderzoekscommissie meteen na het einde van de plenaire vergadering te installeren in de zaal Popelin. Je vous propose \u00e9galement d\u2019installer la commission d\u2019enqu\u00eate en salle Popelin directement apr\u00e8s la fin de la s\u00e9ance pl\u00e9ni\u00e8re. Geen bezwaar? (Nee) Aldus zal geschieden. Pas d'observation? (Non) Il en sera ainsi."
+          }
+        ]
+      },
+      {
+        "id": "56_006_mg_26",
+        "plenary_agenda_item_number": 26,
+        "title_nl": "Goedkeuring van de agenda 26 Adoption de l\u2019ordre du jour",
+        "title_fr": "",
+        "documents_reference": null,
+        "motions": [
+          {
+            "id": "56_006_mg_26_m0",
+            "sequence_number": "0",
+            "title_nl": "Goedkeuring van de agenda 26 Adoption de l\u2019ordre du jour",
+            "title_fr": "",
+            "documents_reference": null,
+            "voting_id": null,
+            "cancelled": false,
+            "description": "Zijn er dienaangaande opmerkingen? (Nee) Y a-t-il une observation \u00e0 ce sujet? (Non) Bijgevolg is de agenda aangenomen. En cons\u00e9quence, l'ordre du jour est adopt\u00e9. De vergadering wordt gesloten. Volgende vergadering donderdag 3 oktober 2024 om 14.15 uur. La s\u00e9ance est lev\u00e9e. Prochaine s\u00e9ance le jeudi 3 octobre 2024 \u00e0 14 h 15. De vergadering wordt gesloten om 17.27 uur. La s\u00e9ance est lev\u00e9e \u00e0 17 h 27. De bijlage is opgenomen in een aparte brochure met nummer CRIV 56 PLEN 006 bijlage. L'annexe est reprise dans une brochure s\u00e9par\u00e9e, portant le num\u00e9ro CRIV 56 PLEN 006 annexe."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "56_004",
+    "number": 4,
+    "date": "2024-07-18",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip004.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip004x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_002",
+    "number": 2,
+    "date": "2024-07-10",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip002.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip002x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_011",
+    "number": 11,
+    "date": "2024-11-07",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip011.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip011x.html",
+    "proposal_discussions": [],
+    "motion_groups": [
+      {
+        "id": "56_011_mg_21",
+        "plenary_agenda_item_number": 21,
+        "title_nl": "Wetsontwerp tot goedkeuring van de algemene rekening van het algemeen bestuur en van de algemene rekeningen van de administratieve openbare instellingen met ministerieel beheer en van de administratieve diensten met boekhoudkundige autonomie van het jaar 2023",
+        "title_fr": "Projet de loi visant \u00e0 approuver le compte g\u00e9n\u00e9ral de l'Administration g\u00e9n\u00e9rale et des comptes g\u00e9n\u00e9raux des organismes administratifs publics \u00e0 gestion minist\u00e9rielle et des services administratifs \u00e0 comptabilit\u00e9 autonome pour l'ann\u00e9e 2023",
+        "documents_reference": "216/3",
+        "motions": [
+          {
+            "id": "56_011_mg_21_m0",
+            "sequence_number": "0",
+            "title_nl": "Wetsontwerp tot goedkeuring van de algemene rekening van het algemeen bestuur en van de algemene rekeningen van de administratieve openbare instellingen met ministerieel beheer en van de administratieve diensten met boekhoudkundige autonomie van het jaar 2023",
+            "title_fr": "Projet de loi visant \u00e0 approuver le compte g\u00e9n\u00e9ral de l'Administration g\u00e9n\u00e9rale et des comptes g\u00e9n\u00e9raux des organismes administratifs publics \u00e0 gestion minist\u00e9rielle et des services administratifs \u00e0 comptabilit\u00e9 autonome pour l'ann\u00e9e 2023",
+            "documents_reference": "216/3",
+            "voting_id": "56_011_v1",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 1) Ja 80 Oui Nee 32 Non Onthoudingen 23 Abstentions Totaal 135 Total (Stemming/vote 1) Ja 80 Oui Nee 32 Non Onthoudingen 23 Abstentions Totaal 135 Total Bijgevolg neemt de Kamer het wetsontwerp en de bijlagen aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte le projet de loi et les annexes. Il sera soumis \u00e0 la sanction royale. Reden van onthouding? (Nee) Raison d'abstention? (Non)"
+          }
+        ]
+      },
+      {
+        "id": "56_011_mg_22",
+        "plenary_agenda_item_number": 22,
+        "title_nl": "Wetsvoorstel tot wijziging van de wet van 9 oktober 2023 tot wijziging van de geco\u00f6rdineerde wet van 10 mei 2015 betreffende de uitoefening van de gezondheidszorgberoepen met het oog op het verlengen van de bevoegdheid van apothekers om het griepvaccin toe te dienen",
+        "title_fr": "Proposition de loi modifiant la loi du 9 octobre 2023 modifiant la loi relative \u00e0 l'exercice des professions des soins de sant\u00e9, coordonn\u00e9e le 10 mai 2015, en vue de prolonger l'habilitation accord\u00e9e aux pharmaciens d'administrer le vaccin contre la grippe",
+        "documents_reference": "168/5",
+        "motions": [
+          {
+            "id": "56_011_mg_22_m0",
+            "sequence_number": "0",
+            "title_nl": "Wetsvoorstel tot wijziging van de wet van 9 oktober 2023 tot wijziging van de geco\u00f6rdineerde wet van 10 mei 2015 betreffende de uitoefening van de gezondheidszorgberoepen met het oog op het verlengen van de bevoegdheid van apothekers om het griepvaccin toe te dienen",
+            "title_fr": "Proposition de loi modifiant la loi du 9 octobre 2023 modifiant la loi relative \u00e0 l'exercice des professions des soins de sant\u00e9, coordonn\u00e9e le 10 mai 2015, en vue de prolonger l'habilitation accord\u00e9e aux pharmaciens d'administrer le vaccin contre la grippe",
+            "documents_reference": "168/5",
+            "voting_id": "56_011_v2",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 2) Ja 135 Oui Nee 0 Non Onthoudingen 0 Abstentions Totaal 135 Total (Stemming/vote 2) Ja 135 Oui Nee 0 Non Onthoudingen 0 Abstentions Totaal 135 Total Bijgevolg neemt de Kamer het wetsvoorstel aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte la proposition de loi. Elle sera soumise en tant que projet de loi \u00e0 la sanction royale."
+          }
+        ]
+      },
+      {
+        "id": "56_011_mg_23",
+        "plenary_agenda_item_number": 23,
+        "title_nl": "Wetsontwerp tot goedkeuring van de zestiende algemene herziening van de quota van de leden van het Internationaal Monetair Fonds, naar aanleiding van de Resolutie 79-1 van 15 december 2023 van de Raad van Gouverneurs van het Internationaal Monetair Fonds",
+        "title_fr": "Projet de loi portant approbation de la seizi\u00e8me r\u00e9vision g\u00e9n\u00e9rale des quotes-parts des membres du Fonds mon\u00e9taire international, suivant la R\u00e9solution 79-1 du 15 d\u00e9cembre 2023 du Conseil des Gouverneurs du Fonds mon\u00e9taire international",
+        "documents_reference": "266/1",
+        "motions": [
+          {
+            "id": "56_011_mg_23_m0",
+            "sequence_number": "0",
+            "title_nl": "Wetsontwerp tot goedkeuring van de zestiende algemene herziening van de quota van de leden van het Internationaal Monetair Fonds, naar aanleiding van de Resolutie 79-1 van 15 december 2023 van de Raad van Gouverneurs van het Internationaal Monetair Fonds",
+            "title_fr": "Projet de loi portant approbation de la seizi\u00e8me r\u00e9vision g\u00e9n\u00e9rale des quotes-parts des membres du Fonds mon\u00e9taire international, suivant la R\u00e9solution 79-1 du 15 d\u00e9cembre 2023 du Conseil des Gouverneurs du Fonds mon\u00e9taire international",
+            "documents_reference": "266/1",
+            "voting_id": "56_011_v3",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 3) Ja 103 Oui Nee 14 Non Onthoudingen 18 Abstentions Totaal 135 Total (Stemming/vote 3) Ja 103 Oui Nee 14 Non Onthoudingen 18 Abstentions Totaal 135 Total Bijgevolg neemt de Kamer het wetsontwerp en de bijlage aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte le projet de loi et l'annexe. Il sera soumis \u00e0 la sanction royale. Reden van onthouding? (Nee) Raison d'abstention? (Non)"
+          }
+        ]
+      },
+      {
+        "id": "56_011_mg_24",
+        "plenary_agenda_item_number": 24,
+        "title_nl": "Voorstel tot verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken van het wetsvoorstel tot wijziging van de wetten van 18 juli 1966 op het gebruik van de talen in bestuurszaken wat betreft het toezicht op de uitvoering van deze wetten",
+        "title_fr": "Proposition de rejet faite par la commission de l'Int\u00e9rieur, de la S\u00e9curit\u00e9, de la Migration et des Mati\u00e8res administratives de la proposition de loi modifiant les lois du 18 juillet 1966 sur l'emploi des langues en mati\u00e8re administrative en ce qui concerne la surveillance de l'ex\u00e9cution de ces lois",
+        "documents_reference": "55/1-2",
+        "motions": [
+          {
+            "id": "56_011_mg_24_m0",
+            "sequence_number": "0",
+            "title_nl": "Voorstel tot verwerping door de commissie voor Binnenlandse Zaken, Veiligheid, Migratie en Bestuurszaken van het wetsvoorstel tot wijziging van de wetten van 18 juli 1966 op het gebruik van de talen in bestuurszaken wat betreft het toezicht op de uitvoering van deze wetten",
+            "title_fr": "Proposition de rejet faite par la commission de l'Int\u00e9rieur, de la S\u00e9curit\u00e9, de la Migration et des Mati\u00e8res administratives de la proposition de loi modifiant les lois du 18 juillet 1966 sur l'emploi des langues en mati\u00e8re administrative en ce qui concerne la surveillance de l'ex\u00e9cution de ces lois",
+            "documents_reference": "55/1-2",
+            "voting_id": "56_011_v4",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 4) Ja 93 Oui Nee 41 Non Onthoudingen 0 Abstentions Totaal 134 Total (Stemming/vote 4) Ja 93 Oui Nee 41 Non Onthoudingen 0 Abstentions Totaal 134 Total Bijgevolg neemt de Kamer het voorstel tot verwerping aan. Het wetsvoorstel nr. 55/1 is dus verworpen. En cons\u00e9quence, la Chambre adopte la proposition de rejet. La proposition de loi n\u00b0 55/1 est donc rejet\u00e9e. De voorzitter: Vooraleer we het halfrond verlaten, wil ik opmerken dat het vandaag het eerste optreden was van mevrouw de griffier. (Applaus) Uit het applaus mag ik opmaken dat zij dat tot ieders goedkeuring heeft gedaan."
+          }
+        ]
+      },
+      {
+        "id": "56_011_mg_25",
+        "plenary_agenda_item_number": 25,
+        "title_nl": "Goedkeuring van de agenda 25 Adoption de l\u2019ordre du jour",
+        "title_fr": "",
+        "documents_reference": null,
+        "motions": [
+          {
+            "id": "56_011_mg_25_m0",
+            "sequence_number": "0",
+            "title_nl": "Goedkeuring van de agenda 25 Adoption de l\u2019ordre du jour",
+            "title_fr": "",
+            "documents_reference": null,
+            "voting_id": null,
+            "cancelled": false,
+            "description": "Zijn er dienaangaande opmerkingen? (Nee) Y a-t-il une observation \u00e0 ce sujet? (Non) Bijgevolg is de agenda aangenomen. En cons\u00e9quence, l'ordre du jour est adopt\u00e9. De vergadering wordt gesloten. Volgende vergadering donderdag 14 november 2024 om 14.15 uur. La s\u00e9ance est lev\u00e9e. Prochaine s\u00e9ance le jeudi 14 novembre 2024 \u00e0 14 h 15. De vergadering wordt gesloten om 18.14 uur. La s\u00e9ance est lev\u00e9e \u00e0 18 h 14. De bijlage is opgenomen in een aparte brochure met nummer CRIV 56 PLEN 011 bijlage. L'annexe est reprise dans une brochure s\u00e9par\u00e9e, portant le num\u00e9ro CRIV 56 PLEN 011 annexe."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "56_008",
+    "number": 8,
+    "date": "2024-10-08",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip008.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip008x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_010",
+    "number": 10,
+    "date": "2024-10-24",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip010.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip010x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_009",
+    "number": 9,
+    "date": "2024-10-17",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip009.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip009x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  }
+]
