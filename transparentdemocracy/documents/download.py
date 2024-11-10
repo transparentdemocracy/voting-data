@@ -34,18 +34,17 @@ def download_referenced_documents():
     download_tasks = list(sorted(dict.fromkeys(download_tasks)))
     for url, path in tqdm.tqdm(download_tasks, "Downloading documents..."):
         if not os.path.exists(path):
-            logger.debug(f"{url} -> {path}")
+            logger.debug('%s -> %s', url, path)
             _download(url, path)
         else:
-            logger.debug(f"{url} -> (already exists) {path}")
+            logger.debug("%s -> (already exists) %s", url, path)
 
 
 def _download(url, local_path):
-    response = requests.get(url)
+    response = requests.get(url, timeout=60)
 
     if response.status_code != 200:
-        logger.info(
-            f"Failed to download document, status code {response.status_code}: {url}")
+        logger.info("Failed to download document, status code %d: %s", response.status_code, url)
         return
 
     with open(local_path, 'wb') as file:
@@ -67,10 +66,9 @@ def get_referenced_document_pdf_urls():
 
 
 def get_document_references():
-    plenaries, votes, problems = extract_from_html_plenary_reports()
-    specs = set([ref for ref, loc in collect_document_references(plenaries)])
-    document_references = [parse_document_reference(spec) for spec in specs]
-    return document_references
+    plenaries, _votes, _problems = extract_from_html_plenary_reports()
+    specs = {ref for ref, loc in collect_document_references(plenaries)}
+    return {parse_document_reference(spec) for spec in specs}
 
 
 def main():
