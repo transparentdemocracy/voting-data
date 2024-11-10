@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 
-from transparentdemocracy.plenaries.serialization import write_markdown, write_plenaries_json, write_votes_json
+from transparentdemocracy.plenaries.serialization import write_plenaries_json, write_votes_json
 from transparentdemocracy.politicians.serialization import create_json, print_politicians_by_party
 
 
@@ -21,9 +21,6 @@ def main():
 def add_plenaries_subcommand(subs):
     parser = subs.add_parser('plenaries', help="Commands to process plenary html files")
     sub_parsers = parser.add_subparsers(title="operations", description="valid operations", help="Plenaries subcommands")
-
-    markdown = sub_parsers.add_parser('markdown', help="Write plenaries markdown")
-    markdown.set_defaults(func=lambda args: write_markdown())
 
     json = sub_parsers.add_parser('json', help="Write plenaries json")
     json.set_defaults(func=lambda args: write_plenaries_json())

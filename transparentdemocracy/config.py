@@ -32,9 +32,6 @@ class Config:
         return self.resolve("input", "actors", "actor")
 
     # output
-    def plenary_markdown_output_path(self):
-        return self.resolve("output", "plenary", "markdown", self.leg_dir)
-
     def plenary_json_output_path(self, *args):
         return self.resolve("output", "plenary", "json", self.leg_dir, *args)
 
