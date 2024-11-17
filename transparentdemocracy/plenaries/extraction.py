@@ -346,8 +346,7 @@ def _report_items_to_motion_groups(ctx: PlenaryExtractionContext, plenary_id: st
 
 def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str, item: ReportItem,
                                  index: int) -> MotionGroup:
-    motion_group_number = int(
-        item.label, 10) if item.label is not None else (- index)
+    motion_group_number = int(item.label, 10) if item.label is not None else (- index)
     motion_group_id = f"{plenary_id}_mg_{motion_group_number}"
 
     _, motion_group_title_nl, doc_ref_nl = __split_number_title_doc_ref(
@@ -361,7 +360,7 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
     motions = []
     motion_tag_groups = split_motion_group_item(ctx, item)
     for group_index, motion_tag_group in enumerate(motion_tag_groups):
-        motion = construct_motion(ctx, group_index, motion_group_id, motion_group_title_fr, motion_group_title_nl,
+        motion = construct_motion(ctx, group_index, motion_group_number, motion_group_id, motion_group_title_fr, motion_group_title_nl,
                                   motion_tag_group, plenary_id, doc_ref_nl)
         motions.append(motion)
 
@@ -374,7 +373,7 @@ def _report_item_to_motion_group(ctx: PlenaryExtractionContext, plenary_id: str,
         motions)  # The link with a proposal will be filled in later, by the motion_document_proposal_linker.py.
 
 
-def construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_group_title_nl,
+def construct_motion(ctx, index, motion_group_number, motion_group_id, motion_group_title_fr, motion_group_title_nl,
                      motion_tag_group, plenary_id, motion_group_doc_ref) -> Motion:
     motion_id = f"{motion_group_id}_m{index}"
     voting_numbers = find_voting_numbers(motion_tag_group)
@@ -409,7 +408,7 @@ def construct_motion(ctx, index, motion_group_id, motion_group_title_fr, motion_
 
     description = normalize_whitespace(
         "\n".join([t.text for t in motion_tag_group[2:]]))
-    motion = Motion(motion_id, str(index), title_nl, title_fr,
+    motion = Motion(motion_id, str(motion_group_number), title_nl, title_fr,
                     doc_ref_nl, voting_id, cancelled, description)
 
     return motion

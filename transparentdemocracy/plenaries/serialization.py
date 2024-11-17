@@ -7,7 +7,6 @@ import bs4
 from bs4 import Tag
 
 from transparentdemocracy import CONFIG
-from transparentdemocracy.documents.summarize import write_json
 from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, MotionGroup, \
     DocumentsReference
 from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
@@ -17,8 +16,7 @@ from transparentdemocracy.plenaries.motion_document_proposal_linker import link_
 
 class JsonSerializer:
     def __init__(self, output_path=None):
-        self.plenary_output_json_path = CONFIG.plenary_json_output_path(
-        ) if output_path is None else output_path
+        self.plenary_output_json_path = CONFIG.plenary_json_output_path() if output_path is None else output_path
         os.makedirs(self.plenary_output_json_path, exist_ok=True)
 
     def serialize_plenaries(self, plenaries: List[Plenary]) -> None:
@@ -182,7 +180,8 @@ def _json_to_motion(data):
 
 
 def main():
-    write_json()
+    write_plenaries_json()
+    # write_votes_json()
 
 
 if __name__ == "__main__":
