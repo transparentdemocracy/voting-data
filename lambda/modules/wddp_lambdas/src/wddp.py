@@ -3,7 +3,7 @@ import os
 import requests
 
 DEFAULT_TIMEOUT = 30
-PAGE_SIZE = 10
+PAGE_SIZE = 100
 
 
 def search_motions(event, _context):
