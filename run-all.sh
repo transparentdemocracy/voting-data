@@ -7,7 +7,6 @@ set -x
 
 mkdir -p out
 td politicians json >out/td-politicians-json 2>&1
-td plenaries markdown >out/td-plenaries-markdown.out 2>&1
 td plenaries json >out/td-plenaries-json 2>&1
 td plenaries votes-json >out/td-votes-json 2>&1
 td politicians print-by-party >out/td-print-politicians-by-party 2>&1
