@@ -350,5 +350,5 @@ def apply_action(action, path):
 
 
 if __name__ == "__main__":
-    # main()
+    main()
     write_json()

@@ -68,7 +68,7 @@ def get_referenced_document_pdf_urls():
 def get_document_references():
     plenaries, _votes, _problems = extract_from_html_plenary_reports()
     specs = {ref for ref, loc in collect_document_references(plenaries)}
-    return {parse_document_reference(spec) for spec in specs}
+    return [parse_document_reference(spec) for spec in specs]
 
 
 def main():
