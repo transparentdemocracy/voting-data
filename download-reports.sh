@@ -22,5 +22,5 @@ download_plenary_reports_html() {
   done
 }
 
-max_plenary_nr=${1:-11}
+max_plenary_nr=${1:-14}
 download_plenary_reports_html ${max_plenary_nr}

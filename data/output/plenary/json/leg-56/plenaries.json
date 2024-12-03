@@ -244,6 +244,229 @@
     "motion_groups": []
   },
   {
+    "id": "56_013",
+    "number": 13,
+    "date": "2024-11-21",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip013.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip013x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
+    "id": "56_014",
+    "number": 14,
+    "date": "2024-11-28",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip014.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip014x.html",
+    "proposal_discussions": [],
+    "motion_groups": [
+      {
+        "id": "56_014_mg_27",
+        "plenary_agenda_item_number": 27,
+        "title_nl": "Wetsontwerp houdende de eerste aanpassing van de Middelenbegroting voor het begrotingsjaar 2024",
+        "title_fr": "Projet de loi contenant le premier ajustement du budget des Voies et Moyens pour l'ann\u00e9e budg\u00e9taire 2024",
+        "documents_reference": "449/3",
+        "motions": [
+          {
+            "id": "56_014_mg_27_m0",
+            "sequence_number": "27",
+            "title_nl": "Wetsontwerp houdende de eerste aanpassing van de Middelenbegroting voor het begrotingsjaar 2024",
+            "title_fr": "Projet de loi contenant le premier ajustement du budget des Voies et Moyens pour l'ann\u00e9e budg\u00e9taire 2024",
+            "documents_reference": "449/3",
+            "voting_id": "56_014_v1",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 1) Ja 75 Oui Nee 29 Non Onthoudingen 23 Abstentions Totaal 127 Total (Stemming/vote 1) Ja 75 Oui Nee 29 Non Onthoudingen 23 Abstentions Totaal 127 Total Bijgevolg neemt de Kamer het wetsontwerp aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte le projet de loi. Il sera soumis \u00e0 la sanction royale. Reden van onthouding? (Nee) Raison d'abstention? (Non)"
+          }
+        ]
+      },
+      {
+        "id": "56_014_mg_28",
+        "plenary_agenda_item_number": 28,
+        "title_nl": "Wetsontwerp houdende de tweede aanpassing van de Algemene Uitgavenbegroting voor het begrotingsjaar 2024",
+        "title_fr": "Projet de loi contenant le deuxi\u00e8me ajustement du Budget g\u00e9n\u00e9ral des d\u00e9penses pour l'ann\u00e9e budg\u00e9taire 2024",
+        "documents_reference": "450/3",
+        "motions": [
+          {
+            "id": "56_014_mg_28_m0",
+            "sequence_number": "28",
+            "title_nl": "Wetsontwerp houdende de tweede aanpassing van de Algemene Uitgavenbegroting voor het begrotingsjaar 2024",
+            "title_fr": "Projet de loi contenant le deuxi\u00e8me ajustement du Budget g\u00e9n\u00e9ral des d\u00e9penses pour l'ann\u00e9e budg\u00e9taire 2024",
+            "documents_reference": "450/3",
+            "voting_id": "56_014_v2",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 2) Ja 75 Oui Nee 29 Non Onthoudingen 23 Abstentions Totaal 127 Total (Stemming/vote 2) Ja 75 Oui Nee 29 Non Onthoudingen 23 Abstentions Totaal 127 Total Bijgevolg neemt de Kamer het wetsontwerp aan en de bijgevoegde tabellen aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte le projet de loi et les tableaux annex\u00e9s. Il sera soumis \u00e0 la sanction royale. Reden van onthouding? (Nee) Raison d'abstention? (Non)"
+          }
+        ]
+      },
+      {
+        "id": "56_014_mg_29",
+        "plenary_agenda_item_number": 29,
+        "title_nl": "Wetsvoorstel tot verlenging van de overgangsregeling voor de toepassing van het verlaagd btw-tarief van 6 % bij afbraak en heropbouw van een woning",
+        "title_fr": "Proposition de loi prorogeant le r\u00e9gime transitoire pour l'application du taux r\u00e9duit de TVA de 6 % \u00e0 la d\u00e9molition et \u00e0 la reconstruction de b\u00e2timents",
+        "documents_reference": "291/3",
+        "motions": [
+          {
+            "id": "56_014_mg_29_m0",
+            "sequence_number": "29",
+            "title_nl": "Wetsvoorstel tot verlenging van de overgangsregeling voor de toepassing van het verlaagd btw-tarief van 6 % bij afbraak en heropbouw van een woning",
+            "title_fr": "Proposition de loi prorogeant le r\u00e9gime transitoire pour l'application du taux r\u00e9duit de TVA de 6 % \u00e0 la d\u00e9molition et \u00e0 la reconstruction de b\u00e2timents",
+            "documents_reference": "291/3",
+            "voting_id": "56_014_v3",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 3) Ja 127 Oui Nee 0 Non Onthoudingen 0 Abstentions Totaal 127 Total (Stemming/vote 3) Ja 127 Oui Nee 0 Non Onthoudingen 0 Abstentions Totaal 127 Total Bijgevolg neemt de Kamer het wetsvoorstel aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte la proposition de loi. Elle sera soumise en tant que projet de loi \u00e0 la sanction royale."
+          }
+        ]
+      },
+      {
+        "id": "56_014_mg_30",
+        "plenary_agenda_item_number": 30,
+        "title_nl": "Aangehouden amendementen en artikelen van het wetsvoorstel houdende diverse wijzigingsbepalingen met het oog op een tijdelijk uitstel van de verplichting tot registratie binnen de \"Federal Learning Account\" (nieuw opschrift)",
+        "title_fr": "Amendements et articles r\u00e9serv\u00e9s de la proposition de loi portant diverses dispositions modificatives en vue d'un report temporaire de l'obligation d'enregistrement dans le \"Federal Learning Account\" (nouvel intitul\u00e9)",
+        "documents_reference": "297/1-10",
+        "motions": [
+          {
+            "id": "56_014_mg_30_m0",
+            "sequence_number": "30",
+            "title_nl": "Stemming over amendement nr.\u00a013 van\nKurt Moons cs op het opschrift.",
+            "title_fr": "Vote sur l'amendement n\u00b0\u00a013 de Kurt Moons\ncs \u00e0 l'intitul\u00e9.",
+            "documents_reference": "297/10",
+            "voting_id": "56_014_v4",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 4) Ja 18 Oui Nee 103 Non Onthoudingen 5 Abstentions Totaal 126 Total (Stemming/vote 4) Ja 18 Oui Nee 103 Non Onthoudingen 5 Abstentions Totaal 126 Total Bijgevolg is het amendement verworpen en is het opschrift aangenomen. En cons\u00e9quence, l'amendement est rejet\u00e9 et l'intitul\u00e9 est adopt\u00e9."
+          },
+          {
+            "id": "56_014_mg_30_m1",
+            "sequence_number": "30",
+            "title_nl": "Stemming over amendement nr.\u00a014 van\nKurt Moons cs op artikel 2.",
+            "title_fr": "Vote sur l'amendement n\u00b0\u00a014 de Kurt Moons\ncs \u00e0 l'article 2.",
+            "documents_reference": "297/10",
+            "voting_id": "56_014_v4",
+            "cancelled": false,
+            "description": "Mag de uitslag van de vorige stemming ook gelden voor deze stemming? (Ja) Peut-on consid\u00e9rer que le r\u00e9sultat du vote pr\u00e9c\u00e9dent est valable pour celui-ci? (Oui) (Stemming/vote 4) Bijgevolg is het amendement verworpen. En cons\u00e9quence, l'amendement est rejet\u00e9."
+          },
+          {
+            "id": "56_014_mg_30_m2",
+            "sequence_number": "30",
+            "title_nl": "Stemming over amendement nr.\u00a016 van\nVincent Van Quickenborne op artikel\u00a02.",
+            "title_fr": "Vote sur l'amendement n\u00b0\u00a016 de Vincent Van\nQuickenborne \u00e0 l'article\u00a02.",
+            "documents_reference": "297/10",
+            "voting_id": "56_014_v5",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 5) Ja 24 Oui Nee 103 Non Onthoudingen 0 Abstentions Totaal 127 Total (Stemming/vote 5) Ja 24 Oui Nee 103 Non Onthoudingen 0 Abstentions Totaal 127 Total Bijgevolg is het amendement verworpen en is artikel 2 aangenomen. En cons\u00e9quence, l'amendement est rejet\u00e9 et l'article 2 est adopt\u00e9."
+          },
+          {
+            "id": "56_014_mg_30_m3",
+            "sequence_number": "30",
+            "title_nl": "Stemming over amendement nr.\u00a015 van\nKurt Moons cs op artikel\u00a03.",
+            "title_fr": "Vote sur l'amendement n\u00b0\u00a015 de Kurt Moons\ncs \u00e0 l'article\u00a03.",
+            "documents_reference": "297/10",
+            "voting_id": "56_014_v6",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 6) Ja 18 Oui Nee 102 Non Onthoudingen 6 Abstentions Totaal 126 Total (Stemming/vote 6) Ja 18 Oui Nee 102 Non Onthoudingen 6 Abstentions Totaal 126 Total Bijgevolg is het amendement verworpen. En cons\u00e9quence, l'amendement est rejet\u00e9."
+          },
+          {
+            "id": "56_014_mg_30_m4",
+            "sequence_number": "30",
+            "title_nl": "Stemming over amendement nr.\u00a017 van\nVincent Van Quickenborne op artikel\u00a03.",
+            "title_fr": "Vote sur l'amendement n\u00b0\u00a017 de Vincent Van\nQuickenborne \u00e0 l'article\u00a03.",
+            "documents_reference": "297/10",
+            "voting_id": "56_014_v7",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 7) Ja 24 Oui Nee 103 Non Onthoudingen 0 Abstentions Totaal 127 Total (Stemming/vote 7) Ja 24 Oui Nee 103 Non Onthoudingen 0 Abstentions Totaal 127 Total Bijgevolg is het amendement verworpen en is artikel 3 aangenomen. En cons\u00e9quence, l'amendement est rejet\u00e9 et l'article 3 est adopt\u00e9."
+          }
+        ]
+      },
+      {
+        "id": "56_014_mg_31",
+        "plenary_agenda_item_number": 31,
+        "title_nl": "Geheel van het wetsvoorstel houdende diverse wijzigingsbepalingen met het oog op een tijdelijk uitstel van de verplichting tot registratie binnen de \"Federal Learning Account\" (nieuw opschrift)",
+        "title_fr": "Ensemble de la proposition de loi portant diverses dispositions modificatives en vue d'un report temporaire de l'obligation d'enregistrement dans le \"Federal Learning Account\" (nouvel intitul\u00e9)",
+        "documents_reference": "297/5",
+        "motions": [
+          {
+            "id": "56_014_mg_31_m0",
+            "sequence_number": "31",
+            "title_nl": "Geheel van het wetsvoorstel houdende diverse wijzigingsbepalingen met het oog op een tijdelijk uitstel van de verplichting tot registratie binnen de \"Federal Learning Account\" (nieuw opschrift)",
+            "title_fr": "Ensemble de la proposition de loi portant diverses dispositions modificatives en vue d'un report temporaire de l'obligation d'enregistrement dans le \"Federal Learning Account\" (nouvel intitul\u00e9)",
+            "documents_reference": "297/5",
+            "voting_id": "56_014_v8",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 8) Ja 75 Oui Nee 27 Non Onthoudingen 25 Abstentions Totaal 127 Total (Stemming/vote 8) Ja 75 Oui Nee 27 Non Onthoudingen 25 Abstentions Totaal 127 Total Bijgevolg neemt de Kamer het wetsvoorstel aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte la proposition de loi. Elle sera soumise en tant que projet de loi \u00e0 la sanction royale. Reden van onthouding? (Nee) Raison d'abstention? (Non)"
+          }
+        ]
+      },
+      {
+        "id": "56_014_mg_32",
+        "plenary_agenda_item_number": 32,
+        "title_nl": "Wetsontwerp betreffende de openbaarmaking van duurzaamheidsinformatie door bepaalde vennootschappen en groepen en de assurance van duurzaamheidsinformatie en houdende diverse bepalingen (nieuw opschrift)",
+        "title_fr": "Projet de loi relatif \u00e0 la publication, par certaines soci\u00e9t\u00e9s et groupes, d'informations en mati\u00e8re de durabilit\u00e9 et \u00e0 l'assurance de l'information en mati\u00e8re de durabilit\u00e9 et portant dispositions diverses (nouvel intitul\u00e9)",
+        "documents_reference": "416/8",
+        "motions": [
+          {
+            "id": "56_014_mg_32_m0",
+            "sequence_number": "32",
+            "title_nl": "Wetsontwerp betreffende de openbaarmaking van duurzaamheidsinformatie door bepaalde vennootschappen en groepen en de assurance van duurzaamheidsinformatie en houdende diverse bepalingen (nieuw opschrift)",
+            "title_fr": "Projet de loi relatif \u00e0 la publication, par certaines soci\u00e9t\u00e9s et groupes, d'informations en mati\u00e8re de durabilit\u00e9 et \u00e0 l'assurance de l'information en mati\u00e8re de durabilit\u00e9 et portant dispositions diverses (nouvel intitul\u00e9)",
+            "documents_reference": "416/8",
+            "voting_id": "56_014_v9",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 9) Ja 80 Oui Nee 18 Non Onthoudingen 29 Abstentions Totaal 127 Total (Stemming/vote 9) Ja 80 Oui Nee 18 Non Onthoudingen 29 Abstentions Totaal 127 Total Bijgevolg neemt de Kamer het wetsontwerp aan. Het zal aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte le projet de loi. Il sera soumis \u00e0 la sanction royale. Reden van onthouding? (Nee) Raison d'abstention? (Non) Ik heb daarnet collega Beels al laten uitwuiven, maar ook collega Mireille Colson is voor de laatste keer onder ons. Volgende week wordt zij vervangen. Ook haar dank ik graag voor haar inzet. (Applaus) (Applaudissements) Ik wens beiden heel veel succes in hun verdere loopbaan. Zij zullen zeker niet opgaan in het niets."
+          }
+        ]
+      },
+      {
+        "id": "56_014_mg_33",
+        "plenary_agenda_item_number": 33,
+        "title_nl": "Wetsvoorstel tot verlenging van bepaalde maatregelen voorzien in de wet van 20 november 2022 houdende maatregelen aangaande de personeelsschaarste in de zorgsector",
+        "title_fr": "Proposition de loi prolongeant certaines mesures pr\u00e9vues par la loi du 20 novembre 2022 concernant la p\u00e9nurie de personnel dans le secteur des soins",
+        "documents_reference": "433/1",
+        "motions": [
+          {
+            "id": "56_014_mg_33_m0",
+            "sequence_number": "33",
+            "title_nl": "Wetsvoorstel tot verlenging van bepaalde maatregelen voorzien in de wet van 20 november 2022 houdende maatregelen aangaande de personeelsschaarste in de zorgsector",
+            "title_fr": "Proposition de loi prolongeant certaines mesures pr\u00e9vues par la loi du 20 novembre 2022 concernant la p\u00e9nurie de personnel dans le secteur des soins",
+            "documents_reference": "433/1",
+            "voting_id": "56_014_v10",
+            "cancelled": false,
+            "description": "Begin van de stemming / D\u00e9but du vote. Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Heeft iedereen gestemd en zijn stem nagekeken? / Tout le monde a-t-il vot\u00e9 et v\u00e9rifi\u00e9 son vote? Einde van de stemming / Fin du vote. Einde van de stemming / Fin du vote. Uitslag van de stemming / R\u00e9sultat du vote. Uitslag van de stemming / R\u00e9sultat du vote. (Stemming/vote 10) Ja 107 Oui Nee 0 Non Onthoudingen 20 Abstentions Totaal 127 Total (Stemming/vote 10) Ja 107 Oui Nee 0 Non Onthoudingen 20 Abstentions Totaal 127 Total Bijgevolg neemt de Kamer het wetsvoorstel aan. Het zal als wetsontwerp aan de Koning ter bekrachtiging worden voorgelegd. En cons\u00e9quence, la Chambre adopte la proposition de loi. Elle sera soumise en tant que projet de loi \u00e0 la sanction royale. Reden van onthouding? (Nee) Raison d'abstention? (Non)"
+          }
+        ]
+      },
+      {
+        "id": "56_014_mg_34",
+        "plenary_agenda_item_number": 34,
+        "title_nl": "",
+        "title_fr": "Goedkeuring van de agenda 34 Adoption de l\u2019ordre du jour",
+        "documents_reference": null,
+        "motions": [
+          {
+            "id": "56_014_mg_34_m0",
+            "sequence_number": "34",
+            "title_nl": "",
+            "title_fr": "Goedkeuring van de agenda 34 Adoption de l\u2019ordre du jour",
+            "documents_reference": null,
+            "voting_id": null,
+            "cancelled": false,
+            "description": "Zijn er dienaangaande opmerkingen? (Nee) Y a-t-il une observation \u00e0 ce sujet? (Non) Bijgevolg is de agenda aangenomen. En cons\u00e9quence, l'ordre du jour est adopt\u00e9. De vergadering wordt gesloten. Volgende vergadering donderdag 5 december 2024 om 14.15 uur. La s\u00e9ance est lev\u00e9e. Prochaine s\u00e9ance le jeudi 5 d\u00e9cembre 2024 \u00e0 14 h 15. De vergadering wordt gesloten om 19.56 uur. La s\u00e9ance est lev\u00e9e \u00e0 19 h 56. De bijlage is opgenomen in een aparte brochure met nummer CRIV 56 PLEN 014 bijlage. L'annexe est reprise dans une brochure s\u00e9par\u00e9e, portant le num\u00e9ro CRIV 56 PLEN 014 annexe."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "56_012",
+    "number": 12,
+    "date": "2024-11-14",
+    "legislature": 56,
+    "pdf_report_url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip012.pdf",
+    "html_report_url": "https://www.dekamer.be/doc/PCRI/html/56/ip012x.html",
+    "proposal_discussions": [],
+    "motion_groups": []
+  },
+  {
     "id": "56_010",
     "number": 10,
     "date": "2024-10-24",

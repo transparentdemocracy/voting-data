@@ -205,6 +205,8 @@ def to_doc_reference(spec, summaries_by_id=None):
     match = pattern.match(spec)
 
     if match is None:
+        return None
+        # TODO: look into this scenario
         raise Exception("unknown ref spec", spec)
 
     doc_main_nr = int(match.group(1))
