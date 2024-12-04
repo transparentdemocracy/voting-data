@@ -31,6 +31,9 @@ class Config:
     def actor_json_input_path(self):
         return self.resolve("input", "actors", "actor")
 
+    def actor_json_pages_input_path(self, *args):
+        return self.resolve("input", "actors", "pages", *args)
+
     # output
     def plenary_json_output_path(self, *args):
         return self.resolve("output", "plenary", "json", self.leg_dir, *args)

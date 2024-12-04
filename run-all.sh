@@ -10,8 +10,10 @@ set -x
 # so you see the output just printed on the terminal.
 # All td scripts used below are defined in setup.py.
 mkdir -p out
+
 ./download-actors.sh
 td politicians json >out/td-politicians-json 2>&1
+
 ./download-plenaries.sh
 td plenaries json >out/td-plenaries-json 2>&1
 td plenaries votes-json >out/td-votes-json 2>&1
