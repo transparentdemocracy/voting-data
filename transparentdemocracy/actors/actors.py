@@ -32,9 +32,7 @@ class ActorHttpGateway:
                 print("put timed out")
                 continue
             page_nr = page_nr + 1
-        print("producer stopping")
-        stop_event.set()
-        print("producer stopped")
+        await queue.put(None)
 
     async def download_page_worker(self, session, queue: asyncio.Queue, stop_event: asyncio.Event):
         """Asynchronous function to download the content of a URL."""
@@ -46,6 +44,9 @@ class ActorHttpGateway:
             except asyncio.TimeoutError:
                 continue
 
+            if page_number is None:
+                stop_event.set()
+                return
             url = f"{self.base_url}?start={page_number * page_size}"
             async with session.get(url, headers={'Accept': 'application/json'}) as response:
                 response.raise_for_status()
@@ -61,8 +62,6 @@ class ActorHttpGateway:
                     await json_file.write(json_text)
                     # print(f"written {path}")
 
-        print("consumer stopped (stop event set)")
-
     async def download_actors(self, max_concurrent_requests=5):
         os.makedirs(self.config.actor_json_input_path(), exist_ok=True)
         queue = asyncio.Queue(min(max_concurrent_requests, max_concurrent_requests))
@@ -73,6 +72,7 @@ class ActorHttpGateway:
             consumers = [self.download_actor_worker(queue, session, stop_event) for i in range(max_concurrent_requests)]
             await asyncio.gather(producer, *consumers)
 
+
     async def schedule_actors(self, queue, stop_event):
         pages = os.listdir(self.config.actor_json_pages_input_path())
         for page in pages:
@@ -80,33 +80,51 @@ class ActorHttpGateway:
             for item in json_data["items"]:
                 if stop_event.is_set():
                     return
-                try:
-                    await queue.put(item["gaabId"])
-                except KeyError as e:
-                    # print(f"Actor without 'gaabId' property on page {page}: {item}")
+                if "gaabId" not in item:
                     continue
+
+                queued = False
+                while not queued:
+                    try:
+                        await asyncio.wait_for(queue.put(item["gaabId"]), timeout=1)
+                        queued = True
+                    except asyncio.TimeoutError:
+                        continue
+
+        await queue.put(None)
 
     async def download_actor_worker(self, queue, session, stop_event):
         while not stop_event.is_set():
-            actor_id = await queue.get()
+            try:
+                actor_id = await asyncio.wait_for(queue.get(), timeout=1)
+            except asyncio.TimeoutError:
+                continue
+            if actor_id is None:
+                stop_event.set()
+                return
+            path = self.config.actor_json_pages_input_path(f"{actor_id}.json")
+
+            if os.path.exists(path):
+                continue
+
             url = f"{self.base_url}/{actor_id}"
-            # print(f"Downloading: {url}")
+            print(f"Downloading: {url}")
             try:
                 async with session.get(url, headers={'Accept': 'application/json'}) as response:
                     response.raise_for_status()
 
-                    path = self.config.actor_json_pages_input_path(f"{actor_id}.json")
                     async with aiofiles.open(path, 'w') as json_file:
+                        print(f"writing {path}")
                         await json_file.write(await response.text())
-                        # print(f"written {path}")
             except Exception:
+                print("exception! setting stop event")
                 stop_event.set()
 
 
 if __name__ == "__main__":
     gateway = ActorHttpGateway(CONFIG)
     print("download pages started")
-    asyncio.run(gateway.download_pages(max_pages=5000))
+    asyncio.run(gateway.download_pages(max_pages=100))
     print("download actors started")
     asyncio.run(gateway.download_actors())
     print("done")
