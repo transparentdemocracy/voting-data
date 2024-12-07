@@ -3,7 +3,7 @@ import unittest
 from transparentdemocracy import CONFIG
 from transparentdemocracy.documents.references import parse_document_reference
 from transparentdemocracy.model import DocumentsReference
-from transparentdemocracy.plenaries.test_extraction import ROOT_FOLDER
+from tests.plenaries.test_extraction import ROOT_FOLDER
 
 
 class DocumentReferencesTest(unittest.TestCase):

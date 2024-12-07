@@ -28,33 +28,37 @@ You can create [Github issues](https://github.com/transparentdemocracy/voting-da
 We also have a public [discussion channel](https://github.com/orgs/transparentdemocracy/discussions) here on Github and a private discussion channel on Slack.
 
 ## Local development
+# Development Setup
 
-Execute these three steps to get started as a developer (details below):
+## Prerequisites
+- Make sure you have Poetry installed. If not, install it via:
+  ```bash
+  curl -sSL https://install.python-poetry.org | python3 -
+    ```
+  
+## Installation
 
-- Create virtual environment
-- Install requirements
-- Install the project in developer mode
+1. Clone the repository: 
 
-This will install the python modules so you can import them in your own projects and install command-line tools (see setup.py, look for td-...).
+```bash
+git clone <repository-url>
+cd <project-directory>
+```
 
-### Create virtual environment
+2. Install dependencies and create virtual environment:
 
-Create a virtual environment and install the project in development mode. Note:
-if you're familiar with it you can also use conda or other environment management tools.
+```bash
+poetry install
+```
+3. Activate the virtual environment:
+    
+```bash
+poetry shell
+```
+_Note_: Run `poetry shell` whenever you want to work in a new terminal session. Alternatively, you can run commands in the virtual environment without activation using `poetry run <command>`.
 
-    python -mvenv venv
-    . venv/bin/activate
-
-Note that you should run `. venv/bin/activate` (or equivalent) whenever you want to work in a new shell.
-
-### Install requirements
-
-    pip install -r requirements.txt
-    pip install setuptools
-
-### Install the project in developer mode
-
-    pip install -e .
+## Development Installation
+Poetry automatically installs the project in development mode when you run poetry install, so no additional steps are needed.
 
 ### Set up OpenAI
 

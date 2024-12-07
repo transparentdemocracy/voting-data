@@ -1,0 +1,112 @@
+[tool.poetry]
+name = "voting-data"
+version = "0.1.0"
+description = "Transparent Democracy"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+repository = "https://github.com/transparentdemocracy/voting-data"
+
+[tool.poetry.dependencies]
+python = "3.13"
+beautifulsoup4 = "^4.12.3"
+nltk = "^3.9.1"
+python-levenshtein = "^0.26.1"
+openai = "^1.52.0"
+requests = "^2.32.3"
+langchain = "^0.3.10"
+langchain-openai = "^0.2.11"
+langchainhub = "^0.1.21"
+tiktoken = "^0.8.0"
+transformers = "^4.47.0"
+langchain-community = "^0.3.10"
+jsonpath-extractor = "^0.9.2"
+elasticsearch = "^8.16.0"
+numpy = "^2.1.3"
+aiofiles = "^24.1.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.4"
+
+[tool.poetry.scripts]
+td = "transparentdemocracy.cli:main"
+td-download-referenced-documents = "transparentdemocracy.documents.download:download_referenced_documents"
+td-summarize = "transparentdemocracy.documents.summarize:main"
+td-fixup-summaries = "transparentdemocracy.documents.summarize:fixup_summaries"
+td-summaries-json = "transparentdemocracy.documents.summarize:write_json"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+[tool.ruff]
+# Enable all rules by default, then selectively disable
+select = ["ALL"]
+ignore = [
+    "D", # Ignore all docstring rules (equivalent to no-docstring-rgx=.*)
+    "ANN", # Ignore type annotation rules
+]
+
+# Maximum line length
+line-length = 160
+
+# Assume Python 3.13
+target-version = "py313"
+
+# Files to exclude from linting
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+# Ignore `E402` (import violations) in all `__init__.py` files
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["E402"]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided
+fixable = ["ALL"]
+unfixable = []
+
+# Example configuration for the pylint plugin
+[tool.ruff.lint.pylint]
+max-args = 5
+max-branches = 12
+max-returns = 6
+max-statements = 50
+
+[tool.ruff.format]
+indent-style = "space"
+line-ending = "auto"
+quote-style = "double"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
