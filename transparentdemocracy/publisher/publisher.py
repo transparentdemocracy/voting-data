@@ -1,10 +1,10 @@
-import json
 import logging
-import os
 import re
 from collections import defaultdict
+from dataclasses import dataclass
+from typing import List
 
-from elasticsearch import Elasticsearch
+from elasticsearch.client import Elasticsearch
 
 from transparentdemocracy.config import CONFIG
 
@@ -39,132 +39,159 @@ PLENARIES_MAPPING = {
 }
 
 
-class ElasticRepo:
-    def __init__(self):
-        # Local, no auth required
-        # self.es = Elasticsearch("http://localhost:9200")
+class MotionsElasticRepository:
+    def __init__(self, elastic_client):
+        self.es = elastic_client
+        self.create_index()
 
-        # Bonsai
-        auth = os.environ["ES_AUTH"]
-        self.es = Elasticsearch(f"https://{auth}@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443")
-
-        self.create_indices()
-
-    def create_indices(self):
-        self.create_index("motions", MOTIONS_MAPPING)
-        self.create_index("plenaries", PLENARIES_MAPPING)
-
-    def create_index(self, index_name, mapping):
+    def create_index(self):
         response = self.es.indices.create(
-            index=index_name,
-            body=mapping,
+            index="motions",
+            body=MOTIONS_MAPPING,
             ignore=400,
         )
         print(response)
 
-    def publish_motion(self, doc):
+    def upsert_motion_group(self, publishing_data, plenary, mg):
+        # TODO: parameter object 'PublishData'
+        motions = [_to_motion_read_model(publishing_data, plenary, mg, m) for m in mg["motions"]]
+        motions = [m for m in motions if m is not None]
+        if len(motions) == 0:
+            logging.warning("no motions in group %s", mg["id"])
+            return
+
+        doc = {
+            'id': mg["id"],
+            'legislature': plenary["legislature"],
+            'plenaryNr': plenary["number"],
+            'titleNL': mg["title_nl"],
+            'titleFR': mg["title_fr"],
+            'motions': [m for m in motions if m is not None],
+            'votingDate': plenary["date"]
+        }
+
         response = self.es.index(index="motions", id=doc["id"], body=doc)
         print(response)
 
-    def publish_plenary(self, doc):
+
+class PlenariesElasticRepository:
+    def __init__(self, elastic_client: Elasticsearch):
+        self.es = elastic_client
+        self.create_index()
+
+    def create_index(self):
+        response = self.es.indices.create(
+            index="plenaries",
+            body=PLENARIES_MAPPING,
+            ignore=400,
+        )
+        print(response)
+
+    def upsert_plenary(self, plenary):
+        doc = {
+            'id': plenary["id"],
+            'title': plenary["date"],
+            'legislature': plenary["legislature"],
+            'date': plenary["date"],
+            'pdfReportUrl': plenary["pdf_report_url"],
+            'htmlReportUrl': plenary["html_report_url"],
+            'motionGroups': _to_motion_groups_doc(plenary["motion_groups"]),
+            'is_final': False  # TODO: make sure this has the correct value
+        }
+
         response = self.es.index(index="plenaries", id=doc["id"], body=doc)
         print(response)
 
+    def get_statuses(self, plenary_ids: List[tuple[str, bool]]):
+        query = {
+            "_source": ["is_final"],
+            "query": {
+                "terms": {
+                    "_id": plenary_ids
+                }
+            }
+        }
+
+        if len(plenary_ids) > 1000:
+            # there are no legislatures with this many plenaries, I figure it's safe for now.
+            raise Exception("too many plenary ids")
+
+        es_result = self.es.search(index="plenaries", body=query, size=1000)
+        es_status = dict([(hit["_id"], hit["_source"]["is_final"]) for hit in es_result["hits"]["hits"]])
+        return dict([(plenary_id, es_status.get(plenary_id, None)) for plenary_id in plenary_ids])
+
 
 class Publisher():
-    def __init__(self, repo, plenaries, votes_by_id, politicians_by_id, summaries_by_id):
-        self.repo = repo
-        self.plenaries = plenaries
-        self.votes_by_id = votes_by_id
-        self.politicians_by_id = politicians_by_id
-        self.summaries_by_id = summaries_by_id
+    def __init__(self, plenary_repo, motions_repo, politicians_by_id, summaries_by_id, votes_by_id):
+        self.plenary_repo = plenary_repo
+        self.motions_repo = motions_repo
+        self.publishing_data = PublishingData(politicians_by_id, summaries_by_id, votes_by_id)
 
-    def publish(self):
-        self.publish_motions()
-        self.publish_plenaries()
+    def publish(self, plenaries):
+        self._publish_motions(plenaries)
+        self._publish_plenaries(plenaries)
 
-    def publish_motions(self):
-        for plenary in self.plenaries:
+    def _publish_motions(self, plenaries):
+        for plenary in plenaries:
             for mg in plenary["motion_groups"]:
-                motions = [self.to_motion_read_model(plenary, mg, m) for m in mg["motions"]]
-                motions = [m for m in motions if m is not None]
-                if len(motions) == 0:
-                    logging.warning("no motions in group %s", mg["id"])
-                    continue
-                doc = {
-                    'id': mg["id"],
-                    'legislature': plenary["legislature"],
-                    'plenaryNr': plenary["number"],
-                    'titleNL': mg["title_nl"],
-                    'titleFR': mg["title_fr"],
-                    'motions': [m for m in motions if m is not None],
-                    'votingDate': plenary["date"]
-                }
+                self.motions_repo.upsert_motion_group(self.publishing_data, plenary, mg)
 
-                self.repo.publish_motion(doc)
+    def _publish_plenaries(self, plenaries):
+        for plenary in plenaries:
+            self.plenary_repo.upsert_plenary(plenary)
 
-    def publish_plenaries(self):
-        for plenary in self.plenaries:
-            doc = {
-                'id': plenary["id"],
-                'title': plenary["date"],
-                'legislature': plenary["legislature"],
-                'date': plenary["date"],
-                'pdfReportUrl': plenary["pdf_report_url"],
-                'htmlReportUrl': plenary["html_report_url"],
-                'motionGroups': self.to_motion_groups_doc(plenary["motion_groups"])
-            }
 
-            self.repo.publish_plenary(doc)
+def _to_motion_groups_doc(motion_groups):
+    return [_to_motion_group_doc(m) for m in motion_groups]
 
-    def to_motion_groups_doc(self, motion_groups):
-        return [self.to_motion_group_doc(m) for m in motion_groups]
 
-    def to_motion_group_doc(self, motion_group):
-        return {
-            'motionGroupId': motion_group["id"],
-            'titleNL': motion_group["title_nl"],
-            'titleFR': motion_group["title_fr"],
-            'motionLinks': [self.to_motion_link_doc(m) for m in motion_group["motions"]]
-        }
+def _to_motion_group_doc(motion_group):
+    return {
+        'motionGroupId': motion_group["id"],
+        'titleNL': motion_group["title_nl"],
+        'titleFR': motion_group["title_fr"],
+        'motionLinks': [_to_motion_link_doc(m) for m in motion_group["motions"]]
+    }
 
-    def to_motion_link_doc(self, motion):
-        voting_id = motion["voting_id"]
-        return {
-            'motionId': motion["id"],
-            'agendaSeqNr': motion["sequence_number"],
-            'voteSeqNr': None if voting_id is None else voting_id.rsplit('_', 1)[-1],
-            'titleNL': motion["title_nl"],
-            'titleFR': motion["title_fr"]
-        }
 
-    def to_motion_read_model(self, p, _mg, m):
-        if m["voting_id"] is None:
-            LOGGER.warning("motion without voting_id: %s", m["id"])
-            return None
-        votes = self.votes_by_id[m["voting_id"]]
-        if len(votes) == 0:
-            LOGGER.warning("no votes found in %s", m["id"])
-            return None
+def _to_motion_link_doc(motion):
+    voting_id = motion["voting_id"]
+    return {
+        'motionId': motion["id"],
+        'agendaSeqNr': motion["sequence_number"],
+        'voteSeqNr': None if voting_id is None else voting_id.rsplit('_', 1)[-1],
+        'titleNL': motion["title_nl"],
+        'titleFR': motion["title_fr"]
+    }
 
-        yes_votes = to_votes(votes, "YES", self.politicians_by_id)
-        no_votes = to_votes(votes, "NO", self.politicians_by_id)
-        abs_votes = to_votes(votes, "ABSTENTION", self.politicians_by_id)
-        doc_reference = to_doc_reference(m["documents_reference"], self.summaries_by_id)
-        voting_result = vote_passed(yes_votes, no_votes)
 
-        mdoc = {
-            "id": m["id"],
-            "titleNL": m["title_nl"],
-            "titleFR": m["title_fr"],
-            "yesVotes": yes_votes,
-            "noVotes": no_votes,
-            "absVotes": abs_votes,
-            "newDocumentReference": doc_reference,
-            "votingDate": p["date"],
-            "votingResult": voting_result,
-        }
-        return mdoc
+def _to_motion_read_model(publishing_data, p, _mg, m):
+    if m["voting_id"] is None:
+        LOGGER.warning("motion without voting_id: %s", m["id"])
+        return None
+    votes = publishing_data.votes_by_id[m["voting_id"]]
+    if len(votes) == 0:
+        LOGGER.warning("no votes found in %s", m["id"])
+        return None
+
+    yes_votes = to_votes(votes, "YES", publishing_data.politicians_by_id)
+    no_votes = to_votes(votes, "NO", publishing_data.politicians_by_id)
+    abs_votes = to_votes(votes, "ABSTENTION", publishing_data.politicians_by_id)
+    doc_reference = to_doc_reference(m["documents_reference"], publishing_data.summaries_by_id)
+    voting_result = vote_passed(yes_votes, no_votes)
+
+    mdoc = {
+        "id": m["id"],
+        "titleNL": m["title_nl"],
+        "titleFR": m["title_fr"],
+        "yesVotes": yes_votes,
+        "noVotes": no_votes,
+        "absVotes": abs_votes,
+        "newDocumentReference": doc_reference,
+        "votingDate": p["date"],
+        "votingResult": voting_result,
+    }
+    return mdoc
 
 
 def to_votes(votes, vote_type, politicians_by_id):
@@ -247,37 +274,14 @@ def to_subdoc(doc_main_nr, doc_sub_nr, summaries_by_id=None):
     }
 
 
-def publish():
-    repo = ElasticRepo()
-
-    with open(CONFIG.plenary_json_output_path("plenaries.json"), 'r', encoding="utf-8") as plenary_file:
-        plenaries = json.load(plenary_file)
-
-    with open(CONFIG.plenary_json_output_path("votes.json"), 'r', encoding="utf-8") as votes_file:
-        votes = json.load(votes_file)
-
-    with open(CONFIG.politicians_json_output_path("politicians.json"), 'r', encoding="utf-8") as politicians_file:
-        politicians = json.load(politicians_file)
-
-    politicians_by_id = {p["id"]: p for p in politicians}
-
-    votes_by_id = defaultdict(list)
-    for vote in votes:
-        votes_by_id[vote["voting_id"]].append(vote)
-
-    with open(CONFIG.documents_summaries_json_output_path(), 'r', encoding="utf-8") as summaries_file:
-        summaries = json.load(summaries_file)
-        summaries_by_id = {s["document_id"]: s for s in summaries}
-
-    publisher = Publisher(repo, plenaries, votes_by_id, politicians_by_id, summaries_by_id)
-
-    publisher.publish()
-
-
 def vote_passed(yes_votes, no_votes):
     # TODO: is a simple majority always enough; Cross check this against result found in plenary reports
     return yes_votes["nrOfVotes"] > no_votes["nrOfVotes"]
 
 
-if __name__ == "__main__":
-    publish()
+@dataclass
+class PublishingData:
+    # TODO typing info
+    politicians_by_id: dict
+    summaries_by_id: dict
+    votes_by_id: dict

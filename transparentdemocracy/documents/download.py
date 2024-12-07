@@ -72,9 +72,11 @@ def get_document_references():
 
 
 def main():
-    # analyse_document_references()
-    # print_subdocument_pdf_urls()
-    download_referenced_documents()
+    from transparentdemocracy import CONFIG
+    from transparentdemocracy.application import Application
+    
+    app = Application(CONFIG)
+    app.download_documents()
 
 
 if __name__ == "__main__":
