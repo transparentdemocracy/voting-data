@@ -22,8 +22,6 @@ class ActorHttpGateway:
 
     async def download_actors(self, max_pages: int, max_concurrent_requests: int = 5):
         ssl_context = ssl.create_default_context()
-        ssl_context.check_hostname = False
-        ssl_context.verify_mode = ssl.CERT_NONE
 
         async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=ssl_context)) as session:
             actor_queue = asyncio.Queue(maxsize=max_concurrent_requests)
