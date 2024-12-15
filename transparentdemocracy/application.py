@@ -119,23 +119,23 @@ def create_elastic_client():
 def main():
     app = create_application(CONFIG)
 
-    # print("figuring out which plenaries we need to process")
-    # plenary_ids_to_process = app.determine_plenaries_to_process()
-    # print("to process: ", plenary_ids_to_process)
-    #
-    # print("downloading plenaries")
-    # app.download_plenaries(plenary_ids_to_process, False)
-    #
-    # # td plenaries json
-    # write_plenaries_json()
-    #
-    # # td plenaries votes-json
-    # write_votes_json()
-    #
-    # # TODO: re-download documents that weren't final in previous runs
-    # download_referenced_documents()
-    #
-    # convert_to_text()
+    print("figuring out which plenaries we need to process")
+    plenary_ids_to_process = app.determine_plenaries_to_process()
+    print("to process: ", plenary_ids_to_process)
+
+    print("downloading plenaries")
+    app.download_plenaries(plenary_ids_to_process, False)
+
+    # td plenaries json
+    write_plenaries_json()
+
+    # td plenaries votes-json
+    write_votes_json()
+
+    # TODO: re-download documents that weren't final in previous runs
+    download_referenced_documents()
+
+    convert_to_text()
 
     summarize_documents()
     write_summaries_json()
