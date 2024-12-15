@@ -117,7 +117,7 @@ class PlenariesElasticRepository:
             raise Exception("too many plenary ids")
 
         es_result = self.es.search(index="plenaries", body=query, size=1000)
-        es_status = dict([(hit["_id"], hit["_source"]["is_final"]) for hit in es_result["hits"]["hits"]])
+        es_status = dict([(hit["_id"], hit["_source"].get("is_final", False)) for hit in es_result["hits"]["hits"]])
         return dict([(plenary_id, es_status.get(plenary_id, None)) for plenary_id in plenary_ids])
 
 

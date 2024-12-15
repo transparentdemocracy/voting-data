@@ -36,7 +36,7 @@ class DeKamerGateway:
                 print(f"skipping download of {plenary_id} because {path} exists")
                 continue
 
-            response = requests.get(f"https://www.dekamer.be/doc/PCRI/html/{self.config.legislature}/ip{plenary_id:03d}x.html")
+            response = requests.get(f"https://www.dekamer.be/doc/PCRI/html/{self.config.legislature}/ip{plenary_nr}x.html")
             response.raise_for_status()
             with open(path, 'w') as f:
                 print(f"writing {path}")

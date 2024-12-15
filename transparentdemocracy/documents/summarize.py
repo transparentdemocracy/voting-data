@@ -110,10 +110,8 @@ class DocumentSummarizer:
     def determine_documents_to_summarize(self, min_size_inclusive, max_size_exclusive):
         docs = glob.glob(CONFIG.documents_txt_output_path(
             "**/*.txt"), recursive=True)
-        docs = [path
-                for path in docs
-                if (os.path.getsize(path) >= min_size_inclusive) and (os.path.getsize(path) < max_size_exclusive)
-                ]
+        docs = [path for path in docs
+                if (os.path.getsize(path) >= min_size_inclusive) and (os.path.getsize(path) < max_size_exclusive)]
         docs.sort(key=os.path.getsize)
         not_summarized = [
             path
@@ -259,6 +257,10 @@ def main():
     min_size = int(sys.argv[1], 10)
     max_size = int(sys.argv[2], 10)
 
+    summarize_documents(max_size, min_size)
+
+
+def summarize_documents(max_size=0, min_size=5_000_000):
     summarizer = DocumentSummarizer()
     docs = summarizer.determine_documents_to_summarize(min_size, max_size)
     summarizer.summarize_documents(docs)
