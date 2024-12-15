@@ -140,7 +140,7 @@ class DocumentSummarizer:
         return CONFIG.documents_summary_output_path(summary_relative)
 
 
-def write_json():
+def write_summaries_json():
     summary_paths = glob.glob(CONFIG.documents_summary_output_path("**/*.summary"), recursive=True)
 
     summaries, bad_files = get_summary_pairs(summary_paths)
@@ -353,4 +353,4 @@ def apply_action(action, path):
 
 if __name__ == "__main__":
     main()
-    write_json()
+    write_summaries_json()

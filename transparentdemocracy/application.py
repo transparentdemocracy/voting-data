@@ -8,8 +8,9 @@ from elasticsearch.client import Elasticsearch
 
 from transparentdemocracy import CONFIG
 from transparentdemocracy.config import Config
+from transparentdemocracy.documents.convert_to_text import convert_to_text
 from transparentdemocracy.documents.download import download_referenced_documents
-from transparentdemocracy.documents.summarize import summarize_documents
+from transparentdemocracy.documents.summarize import summarize_documents, write_summaries_json
 from transparentdemocracy.infra.dekamer import DeKamerGateway
 from transparentdemocracy.plenaries.serialization import write_plenaries_json, write_votes_json
 from transparentdemocracy.publisher.publisher import PlenariesElasticRepository, Publisher, MotionsElasticRepository
@@ -118,23 +119,26 @@ def create_elastic_client():
 def main():
     app = create_application(CONFIG)
 
-    print("figuring out which plenaries we need to process")
-    plenary_ids_to_process = app.determine_plenaries_to_process()
-    print("to process: ", plenary_ids_to_process)
-
-    print("downloading plenaries")
-    app.download_plenaries(plenary_ids_to_process, False)
-
-    # td plenaries json
-    write_plenaries_json()
-
-    # td plenaries votes-json
-    write_votes_json()
-
-    # TODO: re-download documents that weren't final in previous runs
-    download_referenced_documents()
+    # print("figuring out which plenaries we need to process")
+    # plenary_ids_to_process = app.determine_plenaries_to_process()
+    # print("to process: ", plenary_ids_to_process)
+    #
+    # print("downloading plenaries")
+    # app.download_plenaries(plenary_ids_to_process, False)
+    #
+    # # td plenaries json
+    # write_plenaries_json()
+    #
+    # # td plenaries votes-json
+    # write_votes_json()
+    #
+    # # TODO: re-download documents that weren't final in previous runs
+    # download_referenced_documents()
+    #
+    # convert_to_text()
 
     summarize_documents()
+    write_summaries_json()
 
     app.publish_to_elastic()
 
