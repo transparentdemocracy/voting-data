@@ -74,7 +74,7 @@ def get_document_references():
 def main():
     from transparentdemocracy import CONFIG
     from transparentdemocracy.application import Application
-    
+
     app = Application(CONFIG)
     app.download_documents()
 

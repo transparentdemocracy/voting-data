@@ -38,6 +38,6 @@ class DeKamerGateway:
 
             response = requests.get(f"https://www.dekamer.be/doc/PCRI/html/{self.config.legislature}/ip{plenary_nr}x.html")
             response.raise_for_status()
-            with open(path, 'w') as f:
+            with open(path, 'wb') as f:
                 print(f"writing {path}")
-                f.write(response.text)
+                f.write(response.content)
