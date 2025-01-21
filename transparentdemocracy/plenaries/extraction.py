@@ -191,15 +191,21 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
                         "No proposal discussions will be added to the data about this plenary.", os.path.basename(ctx.report_path))
         return proposal_discussions
 
+    """
+    Find the headers on top of the section containing proposals and their discussion.
+    These headers are almost always named "Wetsontwerpen", "Wetsontwerp", "Wetsvoorstellen", "Wetsvoorstel",
+    "Propositions de loi", "Proposition de loi", etc.
+    We allow for variations like "Propositions\nde loi", which sometimes also occur.
+    "Begrotingen" or "Begroting" (= spendings to agree on) for the coming year are, if they occur, the replacement
+    for normal proposal discussions, but are in fact also a proposal to be discussed and voted on.
+    """
     proposal_section_headers = [
         el for el in level1_headers
-        if "wetsontwerp" in el.text.strip().lower()
-           or "voorstel" in el.text.strip().lower()
-           or el.text.strip().lower() in ["projets de loi",
-                                          # "Begrotingen" (= financial cost estimates) for the coming year are the replacement
-                                          # for normal proposal discussions, but are in fact just another title for what are
-                                          # still proposals:
-                                          "begrotingen"]
+        if "wetsontwerp" in el.text.lower()
+           or "voorstel" in el.text.lower()
+           or "projet" in el.text.lower()
+           or "proposition" in el.text.lower()
+           or "begroting" in el.text.lower()
     ]
 
     if not proposal_section_headers:
@@ -214,8 +220,7 @@ def __extract_proposal_discussions(ctx: PlenaryExtractionContext, plenary_id: st
     if next_level1_headers:
         proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings()
         if next_level1_headers[0] in proposal_discussion_elements:
-            next_level1_index = proposal_discussion_elements.index(
-                next_level1_headers[0])
+            next_level1_index = proposal_discussion_elements.index(next_level1_headers[0])
             proposal_discussion_elements = proposal_discussion_elements[:next_level1_index]
     else:
         proposal_discussion_elements = proposal_section_headers[-1].find_next_siblings()
@@ -706,24 +711,25 @@ def is_report_item_title(el: Tag):
 
 
 def find_naamstemmingen_title(ctx: PlenaryExtractionContext):
+    """
+    The section aggregating the votes of individual politicians on motions is recognized by a title that is almost
+    always a <h1> or <p class="Titre1NL"> tag containing the text "Naamstemmingen", "Naamstemming", "Vote nominatif".
+    """
     def is_start_naamstemmingen(el):
-        if el.name == "h1" and ("naamstemmingen" == el.text.lower().strip()):
-            return True
-        if el.name == "p" and ("naamstemmingen" == el.text.lower().strip()) and ("Titre1NL" in el.get("class")):
-            return True
-        return False
+        return (
+            (el.name == "h1" and "naamstemming" in el.text.lower())
+            or (el.name == "h1" and "vote nominatif" in el.text.lower())
+            or (el.name == "p" and "Titre1NL" in el.get("class") and "naamstemming" in el.text.lower())
+        ) and "detail" not in el.text.lower() # "DETAIL VAN DE NAAMSTEMMINGEN" is not the aggregated individual votes
 
-    start_naamstemmingen = list(
-        filter(is_start_naamstemmingen, ctx.html.find_all()))
+    start_naamstemmingen = list(filter(is_start_naamstemmingen, ctx.html.find_all()))
+
+    # "Naamstemmingen" titles don't occur in every plenary report. If they don't, there simply were no individual votes.
     if not start_naamstemmingen:
-        # Not a problem, naamstemmingen doesn't happen in every plenary
         return None
 
-    if len(start_naamstemmingen) > 1:
-        ctx.add_problem("MULTIPLE_START_NAAMSTEMMINGEN")
-        return None
-
-    return start_naamstemmingen[0]
+    # Sometimes, two "naamstemmingen" titles occur immediately after each other. Then, the votes start after the second.
+    return start_naamstemmingen[-1]
 
 
 def get_class(el):

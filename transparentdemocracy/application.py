@@ -27,6 +27,12 @@ class Application:
         self.motions_repository = motions_repository
 
     def determine_plenaries_to_process(self):
+        """
+        Process any plenary that has not yet been imported from dekamer.be into our plenary repository,
+        or has been imported already, but not yet with its final version.
+        Dekamer.be publishes plenary reports in a preliminary version first, and it may take a few weeks until the
+        preliminary version is replaced by a final version.
+        """
         recent_reports = self.de_kamer.find_recent_reports()
 
         ids = [report[0] for report in recent_reports]

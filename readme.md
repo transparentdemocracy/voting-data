@@ -78,3 +78,4 @@ First, run `./download-reports.sh` and `./download-actors.sh` to download plenar
 
 Next, run  `./run-all.sh` to generate all the data used the downstream projects (data is written to `data/output/...`)
 
+New orchestration: application.py, ES_AUTH=username:password (see our password database) and LEGISLATURE=56 env vars to set.

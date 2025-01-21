@@ -14,7 +14,7 @@ mkdir -p out
 #./download-actors.sh
 #td politicians json >out/td-politicians-json 2>&1
 
-./download-plenaries.sh
+./download-reports.sh
 td plenaries json >out/td-plenaries-json 2>&1
 td plenaries votes-json >out/td-votes-json 2>&1
 td politicians print-by-party >out/td-print-politicians-by-party 2>&1

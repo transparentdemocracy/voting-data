@@ -260,7 +260,7 @@ def main():
     summarize_documents(max_size, min_size)
 
 
-def summarize_documents(max_size=0, min_size=5_000_000):
+def summarize_documents(max_size=5_000_000, min_size=0):
     summarizer = DocumentSummarizer()
     docs = summarizer.determine_documents_to_summarize(min_size, max_size)
     summarizer.summarize_documents(docs)

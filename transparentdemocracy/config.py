@@ -56,7 +56,7 @@ class Config:
 
 def _create_config():
     root_folder = os.path.dirname(os.path.dirname(__file__))
-    return Config(os.path.join(root_folder, "data"), legislature=os.environ.get("LEGISLATURE", "55"))
+    return Config(os.path.join(root_folder, "data"), legislature=os.environ.get("LEGISLATURE", "56"))
 
 
 CONFIG = _create_config()
