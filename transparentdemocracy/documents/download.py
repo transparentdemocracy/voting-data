@@ -13,6 +13,10 @@ logger = logging.getLogger(__name__)
 
 
 def download_referenced_documents():
+    """
+    Download any documents referenced from the motions in the plenary report that the politicians voted on.
+    # TODO: re-download documents that weren't final in previous runs
+    """
     doc_refs = get_document_references()
     os.makedirs(CONFIG.documents_input_path(), exist_ok=True)
 
@@ -73,7 +77,7 @@ def get_document_references():
 
 def main():
     from transparentdemocracy import CONFIG
-    from transparentdemocracy.application import Application
+    from transparentdemocracy.main import Application
 
     app = Application(CONFIG)
     app.download_documents()

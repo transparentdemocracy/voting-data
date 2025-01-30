@@ -73,13 +73,12 @@ class JsonSerializer:
         }
 
 
-def serialize(plenaries: List[Plenary], votes: List[Vote], documents_reference_objects: List[DocumentsReference]) -> None:
-    write_plenaries_json(plenaries)
-    write_votes_json(votes)
-    write_documents_json(documents_reference_objects)
-
-
 def write_plenaries_json(plenaries=None):
+    """
+    Extract general plenary info, voting behavior of the politicians during the plenary and references to documents
+    from the plenary report and write it to a JSON output format.
+    This can also be run with the command `td plenaries json`.
+    """
     if plenaries is None:
         tmp_plenaries, _votes, _problems = extract_from_html_plenary_reports()
         plenaries, _documents_reference_objects, _link_problems = link_motions_with_proposals(tmp_plenaries)
@@ -87,17 +86,13 @@ def write_plenaries_json(plenaries=None):
 
 
 def write_votes_json(votes=None):
+    """
+    Extract voting behavior of the politicians from the plenary report and write it to a JSON output format.
+    This can also be run with the command `td plenaries votes-json`.
+    """
     if votes is None:
         _plenaries, votes, _problems = extract_from_html_plenary_reports()
     JsonSerializer().serialize_votes(votes)
-
-
-def write_documents_json(documents_reference_objects=None):
-    if documents_reference_objects is None:
-        plenaries, _votes, _problems = extract_from_html_plenary_reports()
-        plenaries, documents_reference_objects, _link_problems = link_motions_with_proposals(
-            plenaries)
-    JsonSerializer().serialize_documents_reference_objects(documents_reference_objects)
 
 
 # JSON to object serialization:
