@@ -6,7 +6,7 @@ from datetime import date
 import transparentdemocracy
 from transparentdemocracy.config import CONFIG
 from transparentdemocracy.model import Motion, VoteType
-from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports, \
+from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports_old, \
     extract_from_html_plenary_report, _get_plenary_date, _extract_motion_report_items, \
     _extract_motion_groups, _extract_votes, create_plenary_extraction_context, ReportItem
 from transparentdemocracy.politicians.extraction import load_politicians
@@ -320,7 +320,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         patterns = [CONFIG.plenary_html_input_path(
             f"ip{plenary_nr}x.html") for plenary_nr in plenary_nrs]
 
-        plenaries, _all_votes, problems = extract_from_html_plenary_reports(patterns)
+        plenaries, _all_votes, problems = extract_from_html_plenary_reports_old(patterns)
 
         exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
         for p in exceptions:
@@ -332,7 +332,7 @@ class PlenaryExtractionTest(unittest.TestCase):
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
     def test_extract_from_all_plenary_reports_does_not_throw(self):
         CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
-        plenaries, _all_votes, problems = extract_from_html_plenary_reports(
+        plenaries, _all_votes, problems = extract_from_html_plenary_reports_old(
             CONFIG.plenary_html_input_path("*.html"))
 
         exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
@@ -926,7 +926,7 @@ class PlenaryExtractionTest(unittest.TestCase):
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
     def test_votes_must_have_politician(self):
         CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
-        _actual, votes, _problems = extract_from_html_plenary_reports()
+        _actual, votes, _problems = extract_from_html_plenary_reports_old()
 
         for vote in votes:
             self.assertIsNotNone(vote.politician)

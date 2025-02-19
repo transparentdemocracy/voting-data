@@ -70,31 +70,21 @@ def create_plenary_extraction_context(report_path: str, politicians) -> PlenaryE
     return PlenaryExtractionContext(report_path, politicians, html)
 
 
-def extract_from_html_plenary_reports(
+def extract_from_html_plenary_reports_old(
     report_file_pattern: Union[str, List[str]] = CONFIG.plenary_html_input_path("*.html"),
     num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
+    logging.info("Report files must be found at: %s.", report_file_pattern)
+
+    report_filenames = get_available_report_filenames(num_reports_to_process, report_file_pattern)
+
+    return extract_plenary_reports(report_filenames)
+
+
+def extract_plenary_reports(report_filenames):
     politicians = load_politicians()
     all_problems = []
     plenaries = []
     all_votes = []
-    logging.info("Report files must be found at: %s.", report_file_pattern)
-
-    if isinstance(report_file_pattern, str):
-        report_filenames = glob.glob(report_file_pattern)
-    else:
-        report_filenames = [
-            path for pattern in report_file_pattern for path in glob.glob(pattern)]
-
-    if len(report_filenames) == 0:
-        raise ValueError("No plenary reports are present in the input folder. Cannot extract any plenaries. "
-                         "Check https://github.com/transparentdemocracy/voting-data/tree/main?tab=readme-ov-file#downloading-and-generating-data.")
-
-    # deduplication
-    report_filenames = list(dict.fromkeys(report_filenames))
-
-    if num_reports_to_process is not None:
-        report_filenames = report_filenames[:num_reports_to_process]
-    logging.debug("Will process the following input reports: %s.", report_filenames)
 
     for report_filename in tqdm(report_filenames, desc="Processing plenary reports..."):
         try:
@@ -117,6 +107,23 @@ def extract_from_html_plenary_reports(
                             report_filename, exc_info=True)
 
     return plenaries, all_votes, all_problems
+
+
+def get_available_report_filenames(num_reports_to_process, report_file_pattern):
+    if isinstance(report_file_pattern, str):
+        report_filenames = glob.glob(report_file_pattern)
+    else:
+        report_filenames = [
+            path for pattern in report_file_pattern for path in glob.glob(pattern)]
+    if len(report_filenames) == 0:
+        raise ValueError("No plenary reports are present in the input folder. Cannot extract any plenaries. "
+                         "Check https://github.com/transparentdemocracy/voting-data/tree/main?tab=readme-ov-file#downloading-and-generating-data.")
+    # deduplication
+    report_filenames = list(dict.fromkeys(report_filenames))
+    if num_reports_to_process is not None:
+        report_filenames = report_filenames[:num_reports_to_process]
+    logging.debug("Will process the following input reports: %s.", report_filenames)
+    return report_filenames
 
 
 def extract_from_html_plenary_report(report_path: str, politicians: Politicians = None) \
@@ -715,12 +722,13 @@ def find_naamstemmingen_title(ctx: PlenaryExtractionContext):
     The section aggregating the votes of individual politicians on motions is recognized by a title that is almost
     always a <h1> or <p class="Titre1NL"> tag containing the text "Naamstemmingen", "Naamstemming", "Vote nominatif".
     """
+
     def is_start_naamstemmingen(el):
         return (
             (el.name == "h1" and "naamstemming" in el.text.lower())
             or (el.name == "h1" and "vote nominatif" in el.text.lower())
             or (el.name == "p" and "Titre1NL" in el.get("class") and "naamstemming" in el.text.lower())
-        ) and "detail" not in el.text.lower() # "DETAIL VAN DE NAAMSTEMMINGEN" is not the aggregated individual votes
+        ) and "detail" not in el.text.lower()  # "DETAIL VAN DE NAAMSTEMMINGEN" is not the aggregated individual votes
 
     start_naamstemmingen = list(filter(is_start_naamstemmingen, ctx.html.find_all()))
 
@@ -1017,7 +1025,7 @@ def _get_plenary_date(ctx):
 
 
 def main():
-    extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("*.html"))
+    extract_from_html_plenary_reports_old(CONFIG.plenary_html_input_path("*.html"))
 
 
 if __name__ == "__main__":

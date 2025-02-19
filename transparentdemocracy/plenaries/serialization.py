@@ -7,11 +7,9 @@ import bs4
 from bs4 import Tag
 
 from transparentdemocracy import CONFIG
-from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, MotionGroup, \
-    DocumentsReference
-from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
+from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, MotionGroup
+from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports_old
 from transparentdemocracy.plenaries.json_serde import PlenaryEncoder
-from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 
 
 class JsonSerializer:
@@ -73,25 +71,18 @@ class JsonSerializer:
         }
 
 
-def write_plenaries_json(plenaries=None):
+def write_plenaries_json(plenaries: List[Plenary]):
     """
-    Extract general plenary info, voting behavior of the politicians during the plenary and references to documents
-    from the plenary report and write it to a JSON output format.
-    This can also be run with the command `td plenaries json`.
+    Write the plenaries as json files
     """
-    if plenaries is None:
-        tmp_plenaries, _votes, _problems = extract_from_html_plenary_reports()
-        plenaries, _documents_reference_objects, _link_problems = link_motions_with_proposals(tmp_plenaries)
     JsonSerializer().serialize_plenaries(plenaries)
 
 
-def write_votes_json(votes=None):
+def write_votes_json(votes: List[Vote]):
     """
     Extract voting behavior of the politicians from the plenary report and write it to a JSON output format.
     This can also be run with the command `td plenaries votes-json`.
     """
-    if votes is None:
-        _plenaries, votes, _problems = extract_from_html_plenary_reports()
     JsonSerializer().serialize_votes(votes)
 
 

@@ -5,14 +5,14 @@ see https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb/recent&language=nl&c
 import itertools
 import logging
 
-from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
+from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports_old
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
 
 def analyse_parsing_problems():
-    _, _, problems = extract_from_html_plenary_reports()
+    _, _, problems = extract_from_html_plenary_reports_old()
     problems.sort(key=lambda p: p.problem_type)
     problems_by_type = itertools.groupby(problems, lambda p: p.problem_type)
     print("Most common parsing problems:")
@@ -20,8 +20,7 @@ def analyse_parsing_problems():
         problems = list(problems)
         print(f"{problem_type} -> {len(problems)}:")
         for example_problem in problems:
-            print(
-                f"    {example_problem.report_path} - {example_problem.location}")
+            print(f"    {example_problem.report_path} - {example_problem.location}")
 
 
 def main():

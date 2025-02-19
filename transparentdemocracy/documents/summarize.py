@@ -1,5 +1,4 @@
 import glob
-import itertools
 import json
 import logging
 import os
@@ -7,13 +6,14 @@ import re
 import sys
 from dataclasses import dataclass
 from json import JSONDecodeError
+from typing import Optional
 
 import jsonpath
 from langchain.chains.combine_documents.base import BaseCombineDocumentsChain
 from langchain.chains.summarize import load_summarize_chain
-from langchain_community.chat_models import ChatOllama
 from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
+from langchain_ollama import ChatOllama
 from langchain_text_splitters import CharacterTextSplitter
 
 from transparentdemocracy import CONFIG
@@ -33,6 +33,11 @@ PROMPT_STUFF = """Summarize the text in Dutch and in French. Here is the text:
 Answer with a  single json object. The dutch summary should be in string typed property called nl and the french summary should be in a string typed property
 called fr. Each summary must not be longer than 5 sentences. They should be written in layman terms, rather than using very judicial or political vocabulary."""
 
+PROMPT_DUTCH = """Summarize the text in Dutch. Your answer must be a single sentence. Respond with a single sentence that contains only the essential
+information, without any prefatory language or extraneous words. Here is the text: {text}"""
+PROMPT_FRENCH = """Summarize the text in French. Your answer must be a single sentence. Respond with a single sentence that contains only the essential
+information, without any prefatory language or extraneous words. Here is the text: {text}"""
+
 NL_IDENTIFIERS = ['nl', 'dutch', 'Dutch', 'Nederlands', 'summary_nl']
 FR_IDENTIFIERS = ['fr', 'french', 'French', 'francais', 'Francais', 'summary_fr']
 
@@ -46,10 +51,19 @@ PATTERNS = ["$.%s",
 NL_EXPRESSIONS = [jsonpath.parse(pattern % identifier) for identifier in NL_IDENTIFIERS for pattern in PATTERNS]
 FR_EXPRESSIONS = [jsonpath.parse(pattern % identifier) for identifier in FR_IDENTIFIERS for pattern in PATTERNS]
 
+
+@dataclass
+class Summary:
+    id: str
+    nl: str
+    fr: str
+
+
 class DocumentSummarizer:
     """
     Summarizes simple text documents.
     """
+
     def __init__(self, custom_prompt=None, target_dir=None):
         self.llm = ChatOllama(model=OLLAMA_MODEL)
         self.target_dir = target_dir
@@ -58,7 +72,7 @@ class DocumentSummarizer:
         if custom_prompt is not None:
             self.stuff_prompt_template = custom_prompt
 
-        self.stuff_chain: BaseCombineDocumentsChain = self.create_stuff_chain()
+        self.llm_chain: BaseCombineDocumentsChain = self.create_stuff_chain()
         self.text_splitter = CharacterTextSplitter.from_tiktoken_encoder(chunk_size=40_000, chunk_overlap=100)
 
     def summarize_documents(self, document_paths):
@@ -86,59 +100,54 @@ class DocumentSummarizer:
                 logger.info("Empty document? %s", document_path)
                 continue
 
-            # TODO If multiple chunks were made, we skip summarizing, until we support this.
             if len(doc_splits) > 1:
-                logger.info("Document was split into multiple pieces - We don't handle this right now")
+                logger.info("Document was split into multiple pieces - We don't support documents this large right now")
                 continue
 
             # Summarize the chunked documents in one batch:
             batch_to_process.append((document_path, doc_splits))
-            # TODO pass summary_path too, so it must not be recomputed in write_summaries()?
 
             # -> If by now in this for loop iteration, we haven't yet continued to the next iteration already,
             # then just one document is ready to be summarized, which corresponds with the BATCH_SIZE of 1.
-            # We can summarize this already.
-            # TODO: can this not be discarded, in favour of the next if block below? Since it executes batch_stuff() also only on each item in batch_to_process one by one...
             if len(batch_to_process) == BATCH_SIZE:
-                self.batch_stuff(batch_to_process)
+                self.summarize_batch(batch_to_process)
                 remaining = len(document_paths) - num_docs_summarized
                 print(f"{remaining} docs still need to be summarized")
                 batch_to_process = []
 
         # -> If documents remain in the batch to process, they can be summarized too:
         if batch_to_process:
-            self.batch_stuff(batch_to_process)
+            self.summarize_batch(batch_to_process)
 
-    def batch_stuff(self, batch_to_process):
+    def summarize_batch(self, batch_to_process):
         print(f"Summarizing {len(batch_to_process)} small documents")
-        summarization_results = []
+
         for doc in batch_to_process:
             path, doc_splits = doc
             print(path)
-            summarization_results = self.stuff_chain.batch(doc_splits)
-        self.write_summaries(summarization_results)
+            llm_result = self.llm_chain.invoke(doc_splits)
+            source = llm_result['input_documents'][0].metadata['source']
+            doc_id = os.path.basename(source)[:-4]  # removing the .txt extension
+            output_text = llm_result['output_text']
 
-    def write_summaries(self, summarization_results):
-        """Write the summary texts to a file."""
-        for summarization_result in summarization_results:
-            input_document = summarization_result['input_documents']
-            if len(input_document) > 1:
-                logger.warning("multiple input docs")
-                for doc in input_document:
-                    print(doc.metadata['source'])
-            input_path = input_document[0].metadata['source']
+            summary = parse_json_summary(doc_id, output_text)
+            if summary is None:
+                logger.warning("Failed to parse json response from LLM")
+                continue
 
-            output_path = self.txt_path_to_summary_path(input_path)
-            output_summary = summarization_result['output_text']
+            self.write_summary(summary)
 
-            print(f"Writing {output_path}")
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            with open(output_path, 'w', encoding="utf-8") as fp:
-                fp.write(output_summary)
+    def write_summary(self, summary: Summary):
+        doc_id = summary.id
+        output_path = CONFIG.documents_summary_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.summary")
+        output_summary = json.dumps({'nl': summary.nl, 'fr': summary.fr}, indent=4, ensure_ascii=False)
 
-    def determine_documents_to_summarize(self, min_size_inclusive, max_size_exclusive):
-        docs = glob.glob(CONFIG.documents_txt_output_path(
-            "**/*.txt"), recursive=True)
+        print(f"Writing {output_path}")
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, 'w', encoding="utf-8") as fp:
+            fp.write(output_summary)
+
+    def determine_documents_to_summarize(self, docs, min_size_inclusive, max_size_exclusive):
         docs = [path for path in docs
                 if (os.path.getsize(path) >= min_size_inclusive) and (os.path.getsize(path) < max_size_exclusive)]
         docs.sort(key=os.path.getsize)
@@ -189,12 +198,6 @@ def write_summaries_json():
     print(f"Wrote {path}")
 
 
-@dataclass
-class Summary:
-    document_id: str
-    text: str
-
-
 def get_summary_pairs(summary_paths):
     result = []
     bad_files = []
@@ -206,7 +209,7 @@ def get_summary_pairs(summary_paths):
 
         document_id = f"{filename_match.group(1)}/{filename_match.group(2)}"
 
-        summary_data = parse_summary_file(document_id, path)
+        summary_data = parse_json_summary(document_id, path)
         if summary_data is None:
             bad_files.append(path)
         else:
@@ -215,9 +218,8 @@ def get_summary_pairs(summary_paths):
     return result, bad_files
 
 
-def parse_summary_file(document_id, path):
-    with open(path, 'r', encoding="utf-8") as fp:
-        lines = fp.readlines()
+def parse_json_summary(doc_id, text) -> Optional[Summary]:
+    lines = text.split("\n")
 
     marker_lines = [
         i for i in range(len(lines))
@@ -239,7 +241,7 @@ def parse_summary_file(document_id, path):
         summary_nl = get_text(data, NL_EXPRESSIONS)
         summary_fr = get_text(data, FR_EXPRESSIONS)
         if summary_nl is not None and summary_fr is not None:
-            return {'document_id': document_id, 'summary_nl': summary_nl, 'summary_fr': summary_fr}
+            return Summary(doc_id, summary_nl, summary_fr)
         return None
     except JSONDecodeError:
         return None
@@ -253,11 +255,11 @@ def get_text(data, expressions):
     return None
 
 
-def summarize_document_texts(max_size=5_000_000, min_size=0):
+def summarize_document_texts(documents, max_size=5_000_000, min_size=0):
     """Summarize the text extracted from the documents referenced in the plenary PDF reports."""
     summarizer = DocumentSummarizer()
-    docs = summarizer.determine_documents_to_summarize(min_size, max_size)
-    summarizer.summarize_documents(docs)
+    docs_to_summarize = summarizer.determine_documents_to_summarize(documents, min_size, max_size)
+    summarizer.summarize_documents(docs_to_summarize)
 
 
 def main():
@@ -269,8 +271,6 @@ def main():
     max_size = int(sys.argv[2], 10)
 
     summarize_document_texts(max_size, min_size)
-    write_summaries_json()
-
 
 if __name__ == "__main__":
     main()

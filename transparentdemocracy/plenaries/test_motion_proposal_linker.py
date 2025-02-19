@@ -3,7 +3,7 @@ import unittest
 
 import transparentdemocracy
 from transparentdemocracy import CONFIG
-from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports
+from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports_old
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 
 ROOT_FOLDER = os.path.dirname(os.path.dirname(transparentdemocracy.__file__))
@@ -18,7 +18,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
     def test_link_motions_with_proposals__all_plenaries__not_throwing(self):
         # Arrange
         CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
-        plenaries, _votes, _problems = extract_from_html_plenary_reports(CONFIG.plenary_html_input_path("ip*x.html"))
+        plenaries, _votes, _problems = extract_from_html_plenary_reports_old(CONFIG.plenary_html_input_path("ip*x.html"))
 
         # Act
         plenaries, _documents_reference_objects, link_problems = link_motions_with_proposals(plenaries)
@@ -34,7 +34,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         # Checking first and foremost whether ip298x.html, a first example report we used for agreeing on how to
         # implement extraction of motions, can be processed correctly by our linker task.
         # Arrange
-        plenaries, _votes, _problems = extract_from_html_plenary_reports(
+        plenaries, _votes, _problems = extract_from_html_plenary_reports_old(
             CONFIG.plenary_html_input_path("ip29*x.html"))  # Linking of motions in report 298 with discussion from 296.
 
         # Act
@@ -80,7 +80,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
     def test_link_motions_with_proposals__ip_296x_html(self):
         # Next to report 298, report 296 ALSO already included motions on document 3515.
         # Arrange
-        plenaries, _votes, _problems = extract_from_html_plenary_reports(
+        plenaries, _votes, _problems = extract_from_html_plenary_reports_old(
             CONFIG.plenary_html_input_path("ip296x.html"))
 
         # Act
@@ -122,7 +122,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         # Checking first and foremost whether ip262x.html, the example report we used for agreeing on how to implement
         # extraction of motions, can be processed correctly by our linker task.
         # Arrange
-        plenaries, _votes, _problems = extract_from_html_plenary_reports(
+        plenaries, _votes, _problems = extract_from_html_plenary_reports_old(
             CONFIG.plenary_html_input_path("ip26*x.html"))  # Linking of motions in report 262 with discussion from 261.
 
         # Act
@@ -160,7 +160,7 @@ class MotionProposalLinkerTest(unittest.TestCase):
         # proposal discussions.
 
         # Arrange
-        plenaries, _votes, _problems = extract_from_html_plenary_reports(
+        plenaries, _votes, _problems = extract_from_html_plenary_reports_old(
             CONFIG.plenary_html_input_path("ip22*x.html"))
 
         # Act

@@ -5,14 +5,18 @@ python-Levenshtein==0.25.*
 openai==1.52.*
 requests==2.32.*
 langchain==0.3.*
+ langchain-ollama==0.2.3
 langchain-openai==0.2.*
 langchainhub==0.1.*
 tiktoken==0.8.*
 chromadb==0.5.*
-transformers==4.46.*
+transformers==4.49.*
 torch==2.5.*
 langchain-community==0.3.*
 jsonpath-extractor==0.9.*
 elasticsearch==7.10.*
 numpy==1.26.4
 pymupdf==1.25.1
+google-api-python-client==2.161.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1

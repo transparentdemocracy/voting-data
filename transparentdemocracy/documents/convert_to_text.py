@@ -12,11 +12,10 @@ logger.setLevel(logging.INFO)
 
 # TODO: selected PyMuPDF based on this, but maybe we should run the comparison on our documents
 # https://medium.com/social-impact-analytics/comparing-4-methods-for-pdf-text-extraction-in-python-fd34531034f
-def extract_text_from_documents():
+def extract_text_from_documents(downloaded_documents):
     """Extract the text from the documents referenced in plenary PDF reports."""
-    docs = glob.glob(CONFIG.documents_input_path("**/*.pdf"), recursive=True)
 
-    for doc_path in docs:
+    for doc_path in downloaded_documents:
         txt_path = pdf_path_to_txt_path(doc_path)
 
         if os.path.exists(txt_path):

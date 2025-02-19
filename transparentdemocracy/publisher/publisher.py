@@ -39,7 +39,7 @@ PLENARIES_MAPPING = {
 }
 
 
-class MotionsElasticRepository:
+class MotionElasticRepository:
     def __init__(self, elastic_client):
         self.es = elastic_client
         self.create_index()
@@ -53,7 +53,6 @@ class MotionsElasticRepository:
         print(response)
 
     def upsert_motion_group(self, publishing_data, plenary, mg):
-        # TODO: parameter object 'PublishData'
         motions = [_to_motion_read_model(publishing_data, plenary, mg, m) for m in mg["motions"]]
         motions = [m for m in motions if m is not None]
         if len(motions) == 0:
@@ -74,7 +73,7 @@ class MotionsElasticRepository:
         print(response)
 
 
-class PlenariesElasticRepository:
+class PlenaryElasticRepository:
     def __init__(self, elastic_client: Elasticsearch):
         self.es = elastic_client
         self.create_index()
