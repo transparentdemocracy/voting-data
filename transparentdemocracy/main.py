@@ -158,8 +158,8 @@ def main():
     """Extract interesting insights from any plenary reports that have not yet been processed."""
     app = create_application(CONFIG, Environment.LOCAL)
 
-    # plenary_ids_to_process = app.determine_plenaries_to_process()
-    plenary_ids_to_process = ["56_031"]
+    plenary_ids_to_process = app.determine_plenaries_to_process()
+    # plenary_ids_to_process = ["56_031"]
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
 
     app.download_plenary_reports(plenary_ids_to_process, False)
@@ -175,11 +175,11 @@ def main():
     document_references = get_document_references(plenaries)
 
     # # download pdfs
-    # app.download_document_pdfs(document_references)
+    app.download_document_pdfs(document_references)
     # # reads pdfs and writes text files locally
-    # app.extract_text_from_documents(document_references)
+    app.extract_text_from_documents(document_references)
     # # uploads text files
-    # app.save_document_texts(document_references)
+    app.save_document_texts(document_references)
     # # generates and writes summaries
     app.save_document_summaries(document_references)
 
