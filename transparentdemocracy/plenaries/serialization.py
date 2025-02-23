@@ -6,15 +6,14 @@ from typing import List, Dict
 import bs4
 from bs4 import Tag
 
-from transparentdemocracy import CONFIG
+from transparentdemocracy.config import Config
 from transparentdemocracy.model import Motion, Plenary, ProposalDiscussion, Proposal, Vote, MotionGroup
-from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports_old
 from transparentdemocracy.plenaries.json_serde import PlenaryEncoder
 
 
 class JsonSerializer:
-    def __init__(self, output_path=None):
-        self.plenary_output_json_path = CONFIG.plenary_json_output_path() if output_path is None else output_path
+    def __init__(self, config: Config, output_path=None):
+        self.plenary_output_json_path = config.plenary_json_output_path() if output_path is None else output_path
         os.makedirs(self.plenary_output_json_path, exist_ok=True)
 
     def serialize_plenaries(self, plenaries: List[Plenary]) -> None:
@@ -31,21 +30,21 @@ class JsonSerializer:
                 for v in votes],
             "votes.json")
 
-    def serialize_documents_reference_objects(self, documents_reference_objects):
+    def serialize_documents_reference_objects(self, legislature, documents_references):
         self._serialize_list([
             {
-                'all_documents_reference': document.all_documents_reference,
-                'document_reference': document.document_reference,
-                'main_sub_document_reference': document.main_sub_document_reference,
-                'sub_document_references': document.sub_document_references,
-                'proposal_discussion_ids': document.proposal_discussion_ids,
-                'proposal_ids': document.proposal_ids,
-                'summary_nl': document.summary_nl,
-                'summary_fr': document.summary_fr,
-                'info_url': document.info_url,
-                'sub_document_pdf_urls': document.sub_document_pdf_urls
+                'all_documents_reference': doc_ref.all_documents_reference,
+                'document_reference': doc_ref.document_reference,
+                'main_sub_document_reference': doc_ref.main_sub_document_reference,
+                'sub_document_references': doc_ref.sub_document_references,
+                'proposal_discussion_ids': doc_ref.proposal_discussion_ids,
+                'proposal_ids': doc_ref.proposal_ids,
+                'summary_nl': doc_ref.summary_nl,
+                'summary_fr': doc_ref.summary_fr,
+                'info_url': doc_ref.info_url(legislature),
+                'sub_document_pdf_urls': doc_ref.sub_document_pdf_urls(legislature)
             }
-            for document in documents_reference_objects
+            for doc_ref in documents_references
         ], "documents.json")
 
     def _serialize_plenaries(self, plenaries: List[Plenary], output_path: str) -> None:
@@ -71,25 +70,25 @@ class JsonSerializer:
         }
 
 
-def write_plenaries_json(plenaries: List[Plenary]):
+def write_plenaries_json(config: Config, plenaries: List[Plenary]):
     """
     Write the plenaries as json files
     """
-    JsonSerializer().serialize_plenaries(plenaries)
+    JsonSerializer(config).serialize_plenaries(plenaries)
 
 
-def write_votes_json(votes: List[Vote]):
+def write_votes_json(config: Config, votes: List[Vote]):
     """
     Extract voting behavior of the politicians from the plenary report and write it to a JSON output format.
     This can also be run with the command `td plenaries votes-json`.
     """
-    JsonSerializer().serialize_votes(votes)
+    JsonSerializer(config).serialize_votes(votes)
 
 
 # JSON to object serialization:
 # -----------------------------
-def load_plenaries():
-    path = os.path.join(CONFIG.plenary_json_output_path(), "plenaries.json")
+def load_plenaries(config):
+    path = os.path.join(config.plenary_json_output_path(), "plenaries.json")
     with open(path, 'r', encoding="utf-8") as fp:
         data = json.load(fp)
     return [_json_to_plenary(p) for p in data]
@@ -103,10 +102,8 @@ def _json_to_plenary(data):
         legislature=data['legislature'],
         pdf_report_url=data['pdf_report_url'],
         html_report_url=data['html_report_url'],
-        proposal_discussions=[_json_to_proposal_discussion(
-            pd) for pd in data['proposal_discussions']],
-        motion_groups=[_json_to_motion_group(
-            mg) for mg in data['motion_groups']],
+        proposal_discussions=[_json_to_proposal_discussion(pd) for pd in data['proposal_discussions']],
+        motion_groups=[_json_to_motion_group(mg) for mg in data['motion_groups']],
     )
 
 
@@ -163,12 +160,3 @@ def _json_to_motion(data):
         cancelled=data['cancelled'],
         description=data['description'],
     )
-
-
-def main():
-    write_plenaries_json()
-    # write_votes_json()
-
-
-if __name__ == "__main__":
-    main()

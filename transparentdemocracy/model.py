@@ -14,8 +14,6 @@ from typing import List, Optional
 
 from bs4 import Tag
 
-from transparentdemocracy import CONFIG
-
 
 # Classes related to the plenaries and their "topics": proposals, motions (and later: interpellations).
 
@@ -31,24 +29,22 @@ class DocumentsReference:
     summary_nl: str
     summary_fr: str
 
-    @property
-    def info_url(self):
+    def info_url(self, legislature):
         if not self.document_reference:
             return None
         return ("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&cfm=/site/wwwcfm/flwb/flwbn.cfm?legislat="
-                f"{CONFIG.legislature}&dossierID={self.document_reference:04d}")
+                f"{legislature}&dossierID={self.document_reference:04d}")
 
-    @property
-    def sub_document_pdf_urls(self):
+    def sub_document_pdf_urls(self, legislature):
         if not self.document_reference:
             return []
-        return [self._sub_document_pdf_url(sub_doc_ref) for sub_doc_ref in self.sub_document_references]
+        return [self._sub_document_pdf_url(legislature, sub_doc_ref) for sub_doc_ref in self.sub_document_references]
 
-    def _sub_document_pdf_url(self, sub_doc_reference):
+    def _sub_document_pdf_url(self, legislature, sub_doc_reference):
         if not self.document_reference:
             return None
-        return (f"https://www.dekamer.be/FLWB/PDF/{CONFIG.legislature}/{self.document_reference:04d}/"
-                f"{CONFIG.legislature}K{self.document_reference:04d}{sub_doc_reference:03d}.pdf")
+        return (f"https://www.dekamer.be/FLWB/PDF/{legislature}/{self.document_reference:04d}/"
+                f"{legislature}K{self.document_reference:04d}{sub_doc_reference:03d}.pdf")
 
 
 @dataclass

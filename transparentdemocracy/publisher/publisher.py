@@ -6,7 +6,7 @@ from typing import List
 
 from elasticsearch.client import Elasticsearch
 
-from transparentdemocracy.config import CONFIG
+from transparentdemocracy.config import Config
 
 LOGGER = logging.getLogger(__name__)
 
@@ -121,7 +121,15 @@ class PlenaryElasticRepository:
 
 
 class Publisher():
-    def __init__(self, plenary_repo, motions_repo, politicians_by_id, summaries_by_id, votes_by_id):
+    # TODO find constructor usages (pass config)
+    def __init__(self,
+                 config: Config,
+                 plenary_repo: PlenaryElasticRepository,
+                 motions_repo: MotionElasticRepository,
+                 politicians_by_id,
+                 summaries_by_id,
+                 votes_by_id):
+        self.config = config
         self.plenary_repo = plenary_repo
         self.motions_repo = motions_repo
         self.publishing_data = PublishingData(politicians_by_id, summaries_by_id, votes_by_id)
@@ -164,7 +172,7 @@ def _to_motion_link_doc(motion):
     }
 
 
-def _to_motion_read_model(publishing_data, p, _mg, m):
+def _to_motion_read_model(config, publishing_data, p, _mg, m):
     if m["voting_id"] is None:
         LOGGER.warning("motion without voting_id: %s", m["id"])
         return None
@@ -176,7 +184,7 @@ def _to_motion_read_model(publishing_data, p, _mg, m):
     yes_votes = to_votes(votes, "YES", publishing_data.politicians_by_id)
     no_votes = to_votes(votes, "NO", publishing_data.politicians_by_id)
     abs_votes = to_votes(votes, "ABSTENTION", publishing_data.politicians_by_id)
-    doc_reference = to_doc_reference(m["documents_reference"], publishing_data.summaries_by_id)
+    doc_reference = to_doc_reference(config, m["documents_reference"], publishing_data.summaries_by_id)
     voting_result = vote_passed(yes_votes, no_votes)
 
     mdoc = {
@@ -220,7 +228,7 @@ def to_votes(votes, vote_type, politicians_by_id):
     return vdoc
 
 
-def to_doc_reference(spec, summaries_by_id=None):
+def to_doc_reference(config, spec, summaries_by_id=None):
     if not summaries_by_id:
         summaries_by_id = {}
     if not spec:
@@ -248,9 +256,9 @@ def to_doc_reference(spec, summaries_by_id=None):
         "spec": spec,
         "documentMainUrl": (
             "https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm?lang=N&legislat="
-            f"{CONFIG.legislature}&dossierID={doc_main_nr:04d}"),
+            f"{config.legislature}&dossierID={doc_main_nr:04d}"),
         "subDocuments": [
-            to_subdoc(doc_main_nr, doc_sub_nr, summaries_by_id)
+            to_subdoc(config, doc_main_nr, doc_sub_nr, summaries_by_id)
             for doc_sub_nr in range(range_min, range_max + 1)
         ]}
 
@@ -259,7 +267,7 @@ def to_doc_reference(spec, summaries_by_id=None):
     return refdoc
 
 
-def to_subdoc(doc_main_nr, doc_sub_nr, summaries_by_id=None):
+def to_subdoc(config, doc_main_nr, doc_sub_nr, summaries_by_id=None):
     if summaries_by_id is None:
         summaries_by_id = {}
     document_id = f"{doc_main_nr:04d}/{doc_sub_nr:03d}"
@@ -267,7 +275,8 @@ def to_subdoc(doc_main_nr, doc_sub_nr, summaries_by_id=None):
     return {
         'documentNr': doc_main_nr,
         'documentSubNr': doc_sub_nr,
-        'documentPdfUrl': f"https://www.dekamer.be/FLWB/PDF/{CONFIG.legislature}/{doc_main_nr:04d}/{CONFIG.legislature}K{doc_main_nr:04d}{doc_sub_nr:03d}.pdf",
+        # TODO: various places construct this url. Merge to 1 code path
+        'documentPdfUrl': f"https://www.dekamer.be/FLWB/PDF/{config.legislature}/{doc_main_nr:04d}/{config.legislature}K{doc_main_nr:04d}{doc_sub_nr:03d}.pdf",
         'summaryNL': summary["summary_nl"] if summary else None,
         'summaryFR': summary["summary_fr"] if summary else None
     }

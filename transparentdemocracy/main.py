@@ -6,8 +6,7 @@ from typing import List
 
 from elasticsearch.client import Elasticsearch
 
-from transparentdemocracy import CONFIG
-from transparentdemocracy.config import Config
+from transparentdemocracy.config import Config, _create_config, Environments
 from transparentdemocracy.documents.convert_to_text import extract_text_from_documents
 from transparentdemocracy.documents.document_repository import DocumentGoogleDriveRepository
 from transparentdemocracy.documents.download import download_referenced_documents, get_document_references
@@ -82,7 +81,7 @@ class Application:
         self.document_repository.upsert_document_texts(missing_document_ids)
 
     def download_document_pdfs(self, document_references):
-        return download_referenced_documents(document_references)
+        return download_referenced_documents(self.config, document_references)
 
     def get_document_ids_from_references(self, document_references):
         urls = [url for ref in document_references for url in ref.sub_document_pdf_urls]
@@ -109,54 +108,64 @@ class Application:
     def extract_text_from_documents(self, document_references):
         document_ids = self.get_document_ids_from_references(document_references)
         pdf_documents = self.document_ids_to_pdf_path(document_ids)
-        extract_text_from_documents(pdf_documents)
+        extract_text_from_documents(self.config, pdf_documents)
 
     def document_ids_to_pdf_path(self, document_ids):
-        return [CONFIG.documents_input_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.pdf") for doc_id in document_ids]
+        return [self.config.documents_input_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.pdf") for doc_id in document_ids]
 
     def document_ids_to_txt_path(self, document_ids):
-        return [CONFIG.documents_txt_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.txt") for doc_id in document_ids]
+        return [self.config.documents_txt_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.txt") for doc_id in document_ids]
 
     def save_document_summaries(self, document_references):
         document_ids = self.get_document_ids_from_references(document_references)
         text_files = self.document_ids_to_txt_path(document_ids)
         summarize_document_texts(text_files)
 
+        existing_document_summary_ids = self.document_repository.get_all_document_summary_ids()
+        missing_document_ids = set(document_ids) - set(existing_document_summary_ids)
+        for document_id in missing_document_ids:
+            self.document_repository.upsert_document_summary(document_id)
 
-class Environment(Enum):
-    LOCAL = 'local'
-    DEV = 'dev'
-    PROD = 'prod'
+    def generate_summaries(self, document_references):
+        # TODO: rewrite this to avoid unnecessary work
+        self.download_document_pdfs(document_references)
+        self.extract_text_from_documents(document_references)
+        self.save_document_texts(document_references)
+        self.save_document_summaries(document_references)
 
 
-def create_application(config: Config, env: Environment):
-    es_client = create_elastic_client(Environment.LOCAL)
+def create_application(config: Config, env: Environments):
+    es_client = create_elastic_client(env)
     return Application(
         config,
         DeKamerGateway(config),
         PlenaryElasticRepository(es_client),
         MotionElasticRepository(es_client),
-        DocumentGoogleDriveRepository(config.legislature, config.documents_txt_output_path())
+        DocumentGoogleDriveRepository(config, config.documents_txt_output_path())
     )
 
 
-def create_elastic_client(env: Environment):
-    if env == Environment.LOCAL:
+def create_elastic_client(env: Environments):
+    if env == Environments.LOCAL:
         return Elasticsearch("http://localhost:9200")
 
-    if env == Environment.DEV:
+    if env == Environments.DEV:
         raise Exception("TODO: setup dev environment")
 
-    if env == Environment.PROD:
+    if env == Environments.PROD:
         auth = os.environ["ES_AUTH"]
         if auth is None:
             raise Exception("Missing ES_AUTH environment variable")
         return Elasticsearch(f"https://{auth}@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443")
 
+    raise Exception(f"missing elasticsearch configuration for env {env}")
 
 def main():
     """Extract interesting insights from any plenary reports that have not yet been processed."""
-    app = create_application(CONFIG, Environment.LOCAL)
+
+    env = Environments(os.environ.get('WDDP_ENVIRONMENT', 'local'))
+    config = _create_config(env)
+    app = create_application(config, env)
 
     plenary_ids_to_process = app.determine_plenaries_to_process()
     # plenary_ids_to_process = ["56_031"]
@@ -164,37 +173,32 @@ def main():
 
     app.download_plenary_reports(plenary_ids_to_process, False)
 
-    report_filenames = [CONFIG.plenary_html_input_path("ip%03sx.html" % id[id.index("_") + 1:]) for id in plenary_ids_to_process]
-    plenaries, votes, _problems = extract_plenary_reports(report_filenames)
+    report_filenames = [config.plenary_html_input_path("ip%03sx.html" % id[id.index("_") + 1:]) for id in plenary_ids_to_process]
+
+    plenaries, votes, _problems = extract_plenary_reports(config, report_filenames)
     link_motions_with_proposals(plenaries)
 
-    # TODO: remove these steps when we don't need them anymore
-    write_plenaries_json(plenaries)
-    write_votes_json(votes)
+    # TODO this writes just the plenaries as one big json file (no document summaries)
+    # is this what we want to publish or an external repository?
+    write_plenaries_json(config, plenaries)
+    # TODO: same for votes
+    write_votes_json(config, votes)
 
     document_references = get_document_references(plenaries)
 
-    # # download pdfs
-    app.download_document_pdfs(document_references)
-    # # reads pdfs and writes text files locally
-    app.extract_text_from_documents(document_references)
-    # # uploads text files
-    app.save_document_texts(document_references)
-    # # generates and writes summaries
-    app.save_document_summaries(document_references)
-
-
+    # The end result of this is summary json files (one per document)
+    # It won't do any re-summarization and checks local disk and google drive to avoid rework
+    app.generate_summaries(document_references)
 
     # TODO: we already loaded politicians before. Only do it once.
-    #with open(app.config.politicians_json_output_path("politicians.json"), 'r', encoding="utf-8") as f:
+    # with open(app.config.politicians_json_output_path("politicians.json"), 'r', encoding="utf-8") as f:
     #    politicians = json.load(f)
 
-
     # TODO: only load relevant summaries based on the list of documents
-    #with open(app.config.documents_summaries_json_output_path(), 'r', encoding="utf-8") as f:
+    # with open(app.config.documents_summaries_json_output_path(), 'r', encoding="utf-8") as f:
     #    summaries = json.load(f)
 
-    #app.publish_to_bonsai(plenaries, votes, politicians, summaries)
+    # app.publish_to_bonsai(plenaries, votes, politicians, summaries)
 
 
 if __name__ == "__main__":

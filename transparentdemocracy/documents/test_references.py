@@ -1,14 +1,15 @@
 import unittest
 
-from transparentdemocracy import CONFIG
+from transparentdemocracy.config import _create_config
 from transparentdemocracy.documents.references import parse_document_reference
+from transparentdemocracy.main import Environments
 from transparentdemocracy.model import DocumentsReference
-from transparentdemocracy.plenaries.test_extraction import ROOT_FOLDER
 
 
 class DocumentReferencesTest(unittest.TestCase):
+    config = _create_config(Environments.TEST, '55')
+
     def test_parse_document_reference_without_subdocs(self):
-        CONFIG.enable_testing(ROOT_FOLDER, "55")
         actual = parse_document_reference("1234")
 
         self.assertEqual(DocumentsReference(
@@ -22,12 +23,11 @@ class DocumentReferencesTest(unittest.TestCase):
             summary_fr=""
         ), actual)
 
-        self.assertEqual(actual.sub_document_pdf_urls, [
+        self.assertEqual(actual.sub_document_pdf_urls(self.config.legislature), [
             "https://www.dekamer.be/FLWB/PDF/55/1234/55K1234001.pdf"
         ])
 
     def test_parse_document_reference_with_single_subdoc(self):
-        CONFIG.enable_testing(ROOT_FOLDER, "55")
         actual = parse_document_reference("1234/5")
 
         self.assertEqual(DocumentsReference(
@@ -41,12 +41,11 @@ class DocumentReferencesTest(unittest.TestCase):
             summary_fr=""
         ), actual)
 
-        self.assertEqual(actual.sub_document_pdf_urls, [
+        self.assertEqual(actual.sub_document_pdf_urls(self.config.legislature), [
             "https://www.dekamer.be/FLWB/PDF/55/1234/55K1234005.pdf"
         ])
 
     def test_parse_document_reference_with_subdoc_range(self):
-        CONFIG.enable_testing(ROOT_FOLDER, "55")
         actual = parse_document_reference("1234/2-5")
 
         self.assertEqual(DocumentsReference(
@@ -60,7 +59,7 @@ class DocumentReferencesTest(unittest.TestCase):
             summary_fr=""
         ), actual)
 
-        self.assertEqual(actual.sub_document_pdf_urls, [
+        self.assertEqual(actual.sub_document_pdf_urls(self.config.legislature), [
             "https://www.dekamer.be/FLWB/PDF/55/1234/55K1234002.pdf",
             "https://www.dekamer.be/FLWB/PDF/55/1234/55K1234003.pdf",
             "https://www.dekamer.be/FLWB/PDF/55/1234/55K1234004.pdf",

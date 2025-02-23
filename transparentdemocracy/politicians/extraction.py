@@ -7,7 +7,7 @@ import os
 import Levenshtein
 from tqdm.asyncio import tqdm
 
-from transparentdemocracy import CONFIG
+from transparentdemocracy.config import Config
 from transparentdemocracy.model import Politician
 
 logger = logging.getLogger(__name__)
@@ -49,17 +49,18 @@ class Politicians:
 
 
 class PoliticianExtractor:
-    def __init__(self):
-        self.actors_path = CONFIG.actor_json_input_path()
+    def __init__(self, config: Config):
+        self.config = config
+        self.actors_path = config.actor_json_input_path()
 
     def extract_politicians(self, pattern="*.json") -> Politicians:
-        return Politicians([simplify_actor(a) for a in get_relevant_actors(self.actors_path, pattern)])
+        return Politicians([simplify_actor(self.config, a) for a in get_relevant_actors(self.config, self.actors_path, pattern)])
 
 
-def simplify_actor(actor):
+def simplify_actor(config, actor):
     actor_id = actor['id']
     full_name = f"{actor['name']} {actor['fName']}"
-    party = get_party(actor)
+    party = get_party(config, actor)
     return Politician(
         id=actor_id,
         full_name=full_name,
@@ -67,16 +68,16 @@ def simplify_actor(actor):
     )
 
 
-def get_party(actor):
+def get_party(config, actor):
     # Temproary workaround because https://data.dekamer.be/v0/actr/8051 is not up to date yet
-    if CONFIG.legislature == "56" and actor["id"] == "8051":
+    if config.legislature == "56" and actor["id"] == "8051":
         return "Vooruit"
 
     def is_party_member(role):
         return role['functionSummary']['fullNameNL'] == "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid"
 
     def is_current_leg(role):
-        leg = f"Leg {CONFIG.legislature}"
+        leg = f"Leg {config.legislature}"
         return leg in role["ouSummary"]["fullNameNL"]
 
     membership_roles = list(filter(lambda r: is_current_leg(r) and is_party_member(r), actor['role']))
@@ -86,8 +87,8 @@ def get_party(actor):
         return "unknown"
 
     faction_full = membership_roles[-1]["ouSummary"]["fullNameNL"]
-    recognized_prefix = f"/Wetgevende macht/Kvvcr/Leg {CONFIG.legislature}/Politieke fracties/Erkende/"
-    non_recognized_prefix = f"/Wetgevende macht/Kvvcr/Leg {CONFIG.legislature}/Politieke fracties/Niet erkende/"
+    recognized_prefix = f"/Wetgevende macht/Kvvcr/Leg {config.legislature}/Politieke fracties/Erkende/"
+    non_recognized_prefix = f"/Wetgevende macht/Kvvcr/Leg {config.legislature}/Politieke fracties/Niet erkende/"
 
     if faction_full.startswith(recognized_prefix):
         return faction_full[len(recognized_prefix):]
@@ -98,7 +99,7 @@ def get_party(actor):
     raise Exception(f"could not determine faction for {actor['name']} {actor['fName']}")
 
 
-def get_relevant_actors(actors_path=(CONFIG.actor_json_input_path()), pattern="*.json"):
+def get_relevant_actors(config, actors_path, pattern="*.json"):
     actor_files = glob.glob(os.path.join(actors_path, pattern))
     actors = []
 
@@ -110,7 +111,7 @@ def get_relevant_actors(actors_path=(CONFIG.actor_json_input_path()), pattern="*
 
         actor = actor_json['items'][0]
 
-        role = get_current_leg_role(actor)
+        role = get_current_leg_role(config, actor)
         if role is None:
             continue
         actors.append(actor)
@@ -119,8 +120,8 @@ def get_relevant_actors(actors_path=(CONFIG.actor_json_input_path()), pattern="*
     return actors
 
 
-def load_politicians() -> Politicians:
-    with open(CONFIG.politicians_json_output_path("politicians.json"), 'r', encoding="utf-8") as fp:
+def load_politicians(config: Config) -> Politicians:
+    with open(config.politicians_json_output_path("politicians.json"), 'r', encoding="utf-8") as fp:
         return Politicians([json_dict_to_politician(data) for data in json.load(fp)])
 
 
@@ -132,11 +133,11 @@ def json_dict_to_politician(data):
     )
 
 
-def get_current_leg_role(actor):
+def get_current_leg_role(config, actor):
     if actor["id"] == "8051":
         return "Vooruit"
 
-    plenum_fullname = f'/Wetgevende macht/Kvvcr/Leg {CONFIG.legislature}/Plenum/PLENUMVERGADERING'
+    plenum_fullname = f'/Wetgevende macht/Kvvcr/Leg {config.legislature}/Plenum/PLENUMVERGADERING'
 
     def has_current_leg_plenum(r):
         return r['ouSummary']['fullNameNL'] == plenum_fullname

@@ -1,11 +1,15 @@
 from unittest import TestCase
 
+from transparentdemocracy.config import _create_config
+from transparentdemocracy.main import Environments
 from transparentdemocracy.publisher import to_doc_reference
 
 
 class Test(TestCase):
+    config = _create_config(Environments.TEST, '55')
+
     def test_to_doc_reference_single(self):
-        ref = to_doc_reference("0001/2")
+        ref = to_doc_reference(self.config, "0001/2")
         self.assertEqual("0001/2", ref["spec"])
         self.assertEqual(("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm"
                           "?lang=N&legislat=55&dossierID=0001"),
@@ -21,7 +25,7 @@ class Test(TestCase):
         ], ref["subDocuments"])
 
     def test_to_doc_reference_range(self):
-        ref = to_doc_reference("0001/2-4")
+        ref = to_doc_reference(self.config, "0001/2-4")
         self.assertEqual("0001/2-4", ref["spec"])
         self.assertEqual(("https://www.dekamer.be/kvvcr/showpage.cfm?section=/flwb&language=nl&cfm=/site/wwwcfm/flwb/flwbn.cfm"
                           "?lang=N&legislat=55&dossierID=0001"),

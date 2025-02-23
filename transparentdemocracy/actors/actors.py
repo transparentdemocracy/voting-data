@@ -7,8 +7,6 @@ import aiofiles
 import aiohttp
 from aiohttp import ClientSession
 
-from transparentdemocracy import CONFIG
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -81,9 +79,3 @@ class ActorHttpGateway:
                 logger.error(f"Error downloading actor {actor_id}: {e}")
             finally:
                 queue.task_done()
-
-
-if __name__ == "__main__":
-    gateway = ActorHttpGateway(CONFIG)
-    asyncio.run(gateway.download_actors(max_pages=100))
-    logger.info("Done")

@@ -16,14 +16,13 @@ from langchain_core.prompts import PromptTemplate
 from langchain_ollama import ChatOllama
 from langchain_text_splitters import CharacterTextSplitter
 
-from transparentdemocracy import CONFIG
+from transparentdemocracy.config import Config
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # Batch size doesn't really matter when using OLLAMA locally, it gets executed sequentially anyway
 BATCH_SIZE = 1
-SUMMARY_DOCUMENT_FILENAME_PATTERN = re.compile(f"^.*/{re.escape(CONFIG.legislature)}K(\\d{{4}})(\\d{{3}}).summary$")
 
 OLLAMA_MODEL = "llama3"
 PROMPT_STUFF = """Summarize the text in Dutch and in French. Here is the text:
@@ -64,7 +63,10 @@ class DocumentSummarizer:
     Summarizes simple text documents.
     """
 
-    def __init__(self, custom_prompt=None, target_dir=None):
+    def __init__(self, config: Config, custom_prompt=None, target_dir=None):
+        self.config = config
+        self.summary_document_filename_pattern = re.compile(f"^.*/{re.escape(config.legislature)}K(\\d{{4}})(\\d{{3}}).summary$")
+
         self.llm = ChatOllama(model=OLLAMA_MODEL)
         self.target_dir = target_dir
 
@@ -139,7 +141,7 @@ class DocumentSummarizer:
 
     def write_summary(self, summary: Summary):
         doc_id = summary.id
-        output_path = CONFIG.documents_summary_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.summary")
+        output_path = self.config.documents_summary_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.summary")
         output_summary = json.dumps({'nl': summary.nl, 'fr': summary.fr}, indent=4, ensure_ascii=False)
 
         print(f"Writing {output_path}")
@@ -165,57 +167,54 @@ class DocumentSummarizer:
         prompt = PromptTemplate.from_template(self.stuff_prompt_template)
         return load_summarize_chain(self.llm, chain_type="stuff", prompt=prompt, document_variable_name="text")
 
-    @staticmethod
-    def txt_path_to_summary_path(doc_txt_path):
+    def txt_path_to_summary_path(self, doc_txt_path):
         abs_document_path = os.path.abspath(doc_txt_path)
-        abs_txt_path = os.path.abspath(CONFIG.documents_txt_output_path())
+        abs_txt_path = os.path.abspath(self.config.documents_txt_output_path())
 
         if not abs_document_path.startswith(abs_txt_path):
             raise Exception(f"Documents must be under {abs_txt_path}")
 
         txt_relative = abs_document_path[len(abs_txt_path) + 1:]
         summary_relative = os.path.join(os.path.dirname(txt_relative), os.path.join(os.path.basename(txt_relative)[:-4]) + ".summary")
-        return CONFIG.documents_summary_output_path(summary_relative)
+        return self.config.documents_summary_output_path(summary_relative)
 
+    def write_summaries_json(self):
+        """Write the plenary report summaries to a JSON output format."""
+        summary_paths = glob.glob(config.documents_summary_output_path("**/*.summary"), recursive=True)
 
-def write_summaries_json():
-    """Write the plenary report summaries to a JSON output format."""
-    summary_paths = glob.glob(CONFIG.documents_summary_output_path("**/*.summary"), recursive=True)
+        summaries, bad_files = self.get_summary_pairs(summary_paths)
 
-    summaries, bad_files = get_summary_pairs(summary_paths)
+        if bad_files:
+            print("Could not detect json summaries in the following files:")
+            for path in bad_files:
+                print(f"  {path}")
 
-    if bad_files:
-        print("Could not detect json summaries in the following files:")
-        for path in bad_files:
-            print(f"  {path}")
+        summaries.sort(key=lambda s: s['document_id'])
+        path = self.config.documents_summaries_json_output_path()
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, 'w', encoding="utf-8") as fp:
+            json.dump(summaries, fp, indent=2)
 
-    summaries.sort(key=lambda s: s['document_id'])
-    path = CONFIG.documents_summaries_json_output_path()
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'w', encoding="utf-8") as fp:
-        json.dump(summaries, fp, indent=2)
+        print(f"Wrote {path}")
 
-    print(f"Wrote {path}")
+    def get_summary_pairs(self, summary_paths):
+        result = []
+        bad_files = []
 
+        for path in summary_paths:
+            filename_match = self.summary_document_filename_pattern.match(path)
+            if not filename_match:
+                bad_files.append(path)
 
-def get_summary_pairs(summary_paths):
-    result = []
-    bad_files = []
+            document_id = f"{filename_match.group(1)}/{filename_match.group(2)}"
 
-    for path in summary_paths:
-        filename_match = SUMMARY_DOCUMENT_FILENAME_PATTERN.match(path)
-        if not filename_match:
-            bad_files.append(path)
+            summary_data = parse_json_summary(document_id, path)
+            if summary_data is None:
+                bad_files.append(path)
+            else:
+                result.append(summary_data)
 
-        document_id = f"{filename_match.group(1)}/{filename_match.group(2)}"
-
-        summary_data = parse_json_summary(document_id, path)
-        if summary_data is None:
-            bad_files.append(path)
-        else:
-            result.append(summary_data)
-
-    return result, bad_files
+        return result, bad_files
 
 
 def parse_json_summary(doc_id, text) -> Optional[Summary]:
@@ -271,6 +270,7 @@ def main():
     max_size = int(sys.argv[2], 10)
 
     summarize_document_texts(max_size, min_size)
+
 
 if __name__ == "__main__":
     main()

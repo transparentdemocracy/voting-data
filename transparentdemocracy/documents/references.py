@@ -49,12 +49,3 @@ def _unparsed(spec):
         summary_fr=""
     )
 
-
-def main():
-    # analyse_document_references()
-    # print_subdocument_pdf_urls()
-    download_referenced_documents()
-
-
-if __name__ == "__main__":
-    main()

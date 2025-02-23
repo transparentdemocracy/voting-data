@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag, PageElement
 from nltk.tokenize import WhitespaceTokenizer
 from tqdm.auto import tqdm
 
-from transparentdemocracy import CONFIG
+from transparentdemocracy.config import Config
 from transparentdemocracy.model import Motion, Plenary, Proposal, ProposalDiscussion, Vote, VoteType, MotionGroup
 from transparentdemocracy.politicians.extraction import Politicians, load_politicians
 
@@ -54,7 +54,8 @@ class ParseProblem:
 
 
 class PlenaryExtractionContext:
-    def __init__(self, report_path, politicians: Politicians, html=None):
+    def __init__(self, legislature, report_path, politicians: Politicians, html=None):
+        self.legislature = legislature
         self.report_path = report_path
         self.politicians = politicians
         self.html = html
@@ -65,23 +66,25 @@ class PlenaryExtractionContext:
             self.report_path, problem_type, location))
 
 
-def create_plenary_extraction_context(report_path: str, politicians) -> PlenaryExtractionContext:
+def create_plenary_extraction_context(legislature, report_path: str, politicians) -> PlenaryExtractionContext:
     html = _read_plenary_html(report_path)
-    return PlenaryExtractionContext(report_path, politicians, html)
+    return PlenaryExtractionContext(legislature, report_path, politicians, html)
 
 
+# TODO karel: replace with 'new' usages
 def extract_from_html_plenary_reports_old(
-    report_file_pattern: Union[str, List[str]] = CONFIG.plenary_html_input_path("*.html"),
+    config: Config,
+    report_file_pattern: Union[str, List[str]],
     num_reports_to_process: int = None) -> Tuple[List[Plenary], List[Vote], List[ParseProblem]]:
     logging.info("Report files must be found at: %s.", report_file_pattern)
 
     report_filenames = get_available_report_filenames(num_reports_to_process, report_file_pattern)
 
-    return extract_plenary_reports(report_filenames)
+    return extract_plenary_reports(config, report_filenames)
 
 
-def extract_plenary_reports(report_filenames):
-    politicians = load_politicians()
+def extract_plenary_reports(config, report_filenames):
+    politicians = load_politicians(config)
     all_problems = []
     plenaries = []
     all_votes = []
@@ -91,6 +94,7 @@ def extract_plenary_reports(report_filenames):
             logging.debug("Processing input report %s...", report_filename)
             if report_filename.endswith(".html"):
                 plenary, votes, problems = extract_from_html_plenary_report(
+                    config,
                     report_filename, politicians)
                 plenaries.append(plenary)
                 all_votes.extend(votes)
@@ -126,10 +130,10 @@ def get_available_report_filenames(num_reports_to_process, report_file_pattern):
     return report_filenames
 
 
-def extract_from_html_plenary_report(report_path: str, politicians: Politicians = None) \
+def extract_from_html_plenary_report(config: Config, report_path: str, politicians: Politicians = None) \
     -> Tuple[Plenary, List[Vote], List[ParseProblem]]:
-    politicians = politicians or load_politicians()
-    ctx = create_plenary_extraction_context(report_path, politicians)
+    politicians = politicians or load_politicians(config)
+    ctx = create_plenary_extraction_context(config.legislature, report_path, politicians)
     plenary, votes = _extract_plenary(ctx)
 
     return plenary, votes, ctx.problems
@@ -143,7 +147,7 @@ def _read_plenary_html(report_filename):
 
 def _extract_plenary(ctx: PlenaryExtractionContext) -> Tuple[Plenary, List[Vote]]:
     plenary_number = os.path.split(ctx.report_path)[1][2:5]  # example: ip078x.html -> 078
-    legislature = int(CONFIG.legislature)
+    legislature = int(ctx.legislature)
     # Concatenating legislature and plenary number to construct a unique identifier for this plenary.
     plenary_id = f"{legislature}_{plenary_number}"
     proposals = __extract_proposal_discussions(ctx, plenary_id)
@@ -1022,11 +1026,3 @@ def _get_plenary_date(ctx):
 
     ctx.add_problem("PLENARY_DATE_PARSING_FAILS")
     return None
-
-
-def main():
-    extract_from_html_plenary_reports_old(CONFIG.plenary_html_input_path("*.html"))
-
-
-if __name__ == "__main__":
-    main()

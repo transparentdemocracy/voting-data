@@ -1,62 +1,87 @@
 import os
 from dataclasses import dataclass
+from enum import Enum
+
+import yaml
+
+import transparentdemocracy
+
+
+class Environments(Enum):
+    TEST = 'test'
+    LOCAL = 'local'
+    DEV = 'dev'
+    PROD = 'prod'
 
 
 @dataclass
 class Config:
-    data_dir: str
     legislature: str
-    leg_dir: str
 
-    def __init__(self, data_dir, legislature="55"):
-        if legislature is None:
-            raise Exception("please set LEGISLATURE")
-        self.data_dir = data_dir
-        self.set_legislature(legislature)
+    actors_input_dir: str
+    politician_output_dir: str
 
-    def enable_testing(self, data_dir, legislature):
-        self.data_dir = data_dir
-        self.set_legislature(legislature)
+    plenary_html_dir: str
+    plenary_json_dir: str
 
-    def set_legislature(self, value):
-        self.legislature = value
-        self.leg_dir = f"leg-{self.legislature}"
+    document_pdf_dir: str
+    document_text_dir: str
+    document_summary_dir: str
 
-    def resolve(self, *path):
-        return os.path.join(self.data_dir, *path)
+    google_service_credentials_json: str
+
+    def __init__(self, conf_data, legislature):
+        self.legislature = legislature
+        local_paths = conf_data['local']
+        self.actors_input_dir = self._config_relative_file(local_paths['actors_input_dir'])
+        self.politician_output_dir = self._config_relative_file(local_paths['politician_output_dir'])
+        self.plenary_html_dir = self._config_relative_file(local_paths['plenary_html_dir'])
+        self.plenary_json_dir = self._config_relative_file(local_paths['plenary_json_dir'])
+        self.document_pdf_dir = self._config_relative_file(local_paths['document_pdf_dir'])
+        self.document_text_dir = self._config_relative_file(local_paths['document_text_dir'])
+        self.document_summary_dir = self._config_relative_file(local_paths['document_summary_dir'])
+
+        self.google_service_account_credentials_json = self._config_relative_file(conf_data['gdrive']['service_account_credentials_json'])
+        self.google_drive_text_dir = conf_data['gdrive']['document_text_dir']
+        self.google_drive_summary_dir = conf_data['gdrive']['document_summary_dir']
+
+    @property
+    def leg_dir(self):
+        return f"leg-{self.legislature}"
 
     def plenary_html_input_path(self, *path):
-        return self.resolve("input", "plenary", "html", self.leg_dir, *path)
+        return os.path.join(self.plenary_html_dir, self.leg_dir, *path)
 
     def actor_json_input_path(self):
-        return self.resolve("input", "actors", "actor")
+        return os.path.join(self.actors_input_dir, "actor")
 
     def actor_json_pages_input_path(self, *args):
-        return self.resolve("input", "actors", "pages", *args)
+        return os.path.join(self.actors_input_dir, "pages", *args)
 
-    # output
     def plenary_json_output_path(self, *args):
-        return self.resolve("output", "plenary", "json", self.leg_dir, *args)
+        return os.path.join(self.plenary_json_dir, self.leg_dir, *args)
 
     def politicians_json_output_path(self, *path):
-        return self.resolve(self.data_dir, "output", "politician", self.leg_dir, *path)
+        return os.path.join(self.politician_output_dir, self.leg_dir, *path)
 
     def documents_input_path(self, *path):
-        return self.resolve(self.data_dir, "input", "documents", self.leg_dir, *path)
+        return os.path.join(self.document_pdf_dir, self.leg_dir, *path)
 
     def documents_txt_output_path(self, *path):
-        return self.resolve(self.data_dir, "output", "documents", "txt", self.leg_dir, *path)
+        return os.path.join(self.document_text_dir, "txt", self.leg_dir, *path)
 
     def documents_summary_output_path(self, *path):
-        return self.resolve(self.data_dir, "output", "documents", "summary", self.leg_dir, *path)
+        return os.path.join(self.document_summary_dir, self.leg_dir, *path)
 
     def documents_summaries_json_output_path(self):
-        return self.resolve(self.data_dir, "output", "documents", self.leg_dir, "summaries.json")
+        return os.path.join(self.document_summary_dir, self.leg_dir, "summaries.json")
 
+    def _config_relative_file(self, path):
+        return os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", path)
 
-def _create_config():
-    root_folder = os.path.dirname(os.path.dirname(__file__))
-    return Config(os.path.join(root_folder, "data"), legislature=os.environ.get("LEGISLATURE", "56"))
+def _create_config(environment: Environments, legislature: str):
+    env_yaml = os.path.join(os.path.dirname(transparentdemocracy.__file__), f"../environments/{environment.value}.yaml")
+    with open(env_yaml, 'r', encoding='utf-8') as fp:
+        conf_data = yaml.safe_load(fp)
 
-
-CONFIG = _create_config()
+    return Config(conf_data, legislature=legislature)

@@ -4,11 +4,13 @@ import unittest
 from datetime import date
 
 import transparentdemocracy
-from transparentdemocracy.config import CONFIG
+from transparentdemocracy.config import _create_config
+from transparentdemocracy.main import Environments
 from transparentdemocracy.model import Motion, VoteType
-from transparentdemocracy.plenaries.extraction import extract_from_html_plenary_reports_old, \
-    extract_from_html_plenary_report, _get_plenary_date, _extract_motion_report_items, \
-    _extract_motion_groups, _extract_votes, create_plenary_extraction_context, ReportItem
+from transparentdemocracy.plenaries.extraction import (extract_from_html_plenary_reports_old, \
+                                                       extract_from_html_plenary_report,
+                                                       create_plenary_extraction_context, _extract_motion_groups, _extract_votes, _get_plenary_date, ReportItem,
+                                                       _extract_motion_report_items)
 from transparentdemocracy.politicians.extraction import load_politicians
 
 logger = logging.getLogger(__name__)
@@ -19,10 +21,7 @@ ROOT_FOLDER = os.path.dirname(os.path.dirname(transparentdemocracy.__file__))
 
 
 class ReportItemExtractionTest(unittest.TestCase):
-
-    @classmethod
-    def setUpClass(cls):
-        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
+    config = _create_config(Environments.TEST, '55')
 
     def test_extract_ip298_happy_case(self):
         report_items = self.extract_motion_report_items('ip298x.html')
@@ -76,22 +75,19 @@ class ReportItemExtractionTest(unittest.TestCase):
                          report_item.fr_title[:len(expected_fr_title_prefix)])
 
     def extract_motion_report_items(self, report_path):
-        path = CONFIG.plenary_html_input_path(report_path)
-        ctx = create_plenary_extraction_context(path, load_politicians())
+        path = self.config.plenary_html_input_path(report_path)
+        ctx = create_plenary_extraction_context(self.config.legislature, path, load_politicians(self.config))
         return _extract_motion_report_items(ctx)
 
 
 class MotionExtractionTest(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
+    config = _create_config(Environments.TEST, '55')
 
     def test_extract_motions__ip298x_html__go_to_example_report(self):
         # The example report we used for implementing extraction of other sub-objects of a plenary object.
         # Arrange
-        report_path = CONFIG.plenary_html_input_path("ip298x.html")
-        ctx = create_plenary_extraction_context(
-            report_path, load_politicians())
+        report_path = self.config.plenary_html_input_path("ip298x.html")
+        ctx = create_plenary_extraction_context(self.config.legislature, report_path, load_politicians(self.config))
 
         # Act
         _, motion_groups = _extract_motion_groups("55_298", ctx)
@@ -163,10 +159,11 @@ class MotionExtractionTest(unittest.TestCase):
     def test_extract_motions__ip262x_html__go_to_example_report(self):
         # The example report we used for agreeing on how to implement extraction of motions.
         # Arrange
-        report_path = CONFIG.plenary_html_input_path("ip262x.html")
+        report_path = self.config.plenary_html_input_path("ip262x.html")
 
         # Act
-        plenary, _, _ = extract_from_html_plenary_report(report_path, load_politicians())
+        plenary, _, _ = extract_from_html_plenary_report(
+            self.config, report_path, load_politicians(self.config))
         motion_groups = plenary.motion_groups
 
         # Assert
@@ -244,15 +241,13 @@ class MotionExtractionTest(unittest.TestCase):
 
 
 class VoteExtractionTest(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
+    config = _create_config(Environments.TEST, '55')
 
     def test_extract_votes_ip298x__go_to_example_report(self):
         # Arrange
-        report_path = CONFIG.plenary_html_input_path("ip298x.html")
-        politicians = load_politicians()
-        ctx = create_plenary_extraction_context(report_path, politicians)
+        report_path = self.config.plenary_html_input_path("ip298x.html")
+        politicians = load_politicians(self.config)
+        ctx = create_plenary_extraction_context(self.config.legislature, report_path, politicians)
 
         # Act
         votes = _extract_votes(ctx, "55_298")
@@ -308,19 +303,15 @@ class VoteExtractionTest(unittest.TestCase):
 # More like integration tests, testing the outcome of the execution of all puzzle pieces tested separately above:
 # (Maybe at some point I should extract unit tests for __extract_proposal_discussion() from the below tests.)
 class PlenaryExtractionTest(unittest.TestCase):
-
-    @classmethod
-    def setUpClass(cls):
-        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "testdata"), "55")
+    config = _create_config(Environments.TEST, '55')
 
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "This test isn't really slow but requires data")
     def test_currently_failing(self):
-        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
         plenary_nrs = "162,161,280,052,111,153,010".split(",")
-        patterns = [CONFIG.plenary_html_input_path(
+        patterns = [self.config.plenary_html_input_path(
             f"ip{plenary_nr}x.html") for plenary_nr in plenary_nrs]
 
-        plenaries, _all_votes, problems = extract_from_html_plenary_reports_old(patterns)
+        plenaries, _all_votes, problems = extract_from_html_plenary_reports_old(self.config, patterns)
 
         exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
         for p in exceptions:
@@ -331,9 +322,9 @@ class PlenaryExtractionTest(unittest.TestCase):
 
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
     def test_extract_from_all_plenary_reports_does_not_throw(self):
-        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
         plenaries, _all_votes, problems = extract_from_html_plenary_reports_old(
-            CONFIG.plenary_html_input_path("*.html"))
+            self.config,
+            self.config.plenary_html_input_path("*.html"))
 
         exceptions = [p for p in problems if p.problem_type == "EXCEPTION"]
         self.assertGreaterEqual(0, len(exceptions))
@@ -348,10 +339,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip298x_html__go_to_example_report(self):
         # Plenary report 298 has long been our first go-to example plenary report to test our extraction against.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip298x.html")
+        report_file_name = self.config.plenary_html_input_path("ip298x.html")
 
         # Act
         plenary, votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert
@@ -431,8 +423,9 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertEqual(['Arens Josy', 'Daems Greet'], abstention_voters[:2])
 
     def test_extract_from_html_plenary_report__ip010x_html(self):
-        report_path = CONFIG.plenary_html_input_path("ip010x.html")
+        report_path = self.config.plenary_html_input_path("ip010x.html")
         plenary, votes, problems = extract_from_html_plenary_report(
+            self.config,
             report_path)
 
         self.assertIsNotNone(plenary)
@@ -447,8 +440,9 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertTrue(motion.cancelled)
 
     def test_motion_title_language(self):
-        report_path = CONFIG.plenary_html_input_path("ip160x.html")
+        report_path = self.config.plenary_html_input_path("ip160x.html")
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config.legislature,
             report_path)
 
         motion = next(m for m in plenary.motions if m.id == "55_160_mg_20_m0")
@@ -459,10 +453,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip285x_html(self):
         # This report has no proposal discussions.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip285x.html")
+        report_file_name = self.config.plenary_html_input_path("ip285x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -471,10 +466,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip281x_html(self):
         # This report has no proposal discussion section.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip281x.html")
+        report_file_name = self.config.plenary_html_input_path("ip281x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -483,10 +479,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip263x_html(self):
         # This report has no proposal discussion section.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip263x.html")
+        report_file_name = self.config.plenary_html_input_path("ip263x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -495,10 +492,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip262x_html_motion_proposal_id(self):
         # Test case for motions
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip262x.html")
+        report_file_name = self.config.plenary_html_input_path("ip262x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -512,10 +510,11 @@ class PlenaryExtractionTest(unittest.TestCase):
         # taking the entire text after the proposal header in a best-effort as the description, both for Dutch and
         # French.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip261x.html")
+        report_file_name = self.config.plenary_html_input_path("ip261x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert
@@ -557,10 +556,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip226x_html(self):
         # This report has no proposal discussion section.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip226x.html")
+        report_file_name = self.config.plenary_html_input_path("ip226x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -569,10 +569,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip224x_html__different_proposals_header(self):
         # This example plenary report has "Begrotingen" as proposals header, rather than "Projets de loi".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip224x.html")
+        report_file_name = self.config.plenary_html_input_path("ip224x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert
@@ -650,10 +651,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip245x_html(self):
         # This report has a different proposals section title: "Wetsontwerpen en voorstel".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip245x.html")
+        report_file_name = self.config.plenary_html_input_path("ip245x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -666,10 +668,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip219x_html(self):
         # This report has a different proposals section title: "Wetsontwerpen en -voorstellen".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip219x.html")
+        report_file_name = self.config.plenary_html_input_path("ip219x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -683,20 +686,22 @@ class PlenaryExtractionTest(unittest.TestCase):
         # This report has no proposal discussion section.
         # Also no level 1 headers. It should not fail.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip206x.html")
+        report_file_name = self.config.plenary_html_input_path("ip206x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
         self.assertEqual(0, len(plenary.proposal_discussions))
 
     def test_extract_from_html_plenary_report__ip200x_html(self):
-        report_file_name = CONFIG.plenary_html_input_path("ip200x.html")
+        report_file_name = self.config.plenary_html_input_path("ip200x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert
@@ -727,10 +732,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip184x_html(self):
         # This report has a different proposals section title: "Voorstellen".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip184x.html")
+        report_file_name = self.config.plenary_html_input_path("ip184x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -746,10 +752,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip162x_html(self):
         # 2 proposal discussion sections in one plenary report.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip162x.html")
+        report_file_name = self.config.plenary_html_input_path("ip162x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -762,10 +769,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip160x_html(self):
         # This report has a different proposals section title: "Wetsontwerp en -voorstellen".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip160x.html")
+        report_file_name = self.config.plenary_html_input_path("ip160x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -777,10 +785,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip144x_html(self):
         # This report has a different proposals section title: "Voorstellen en wetsontwerp".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip144x.html")
+        report_file_name = self.config.plenary_html_input_path("ip144x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -793,10 +802,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip125x_html(self):
         # This report has a different proposals section title: "Voorstellen en wetsontwerp".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip125x.html")
+        report_file_name = self.config.plenary_html_input_path("ip125x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -809,10 +819,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip099x_html(self):
         # This report has a different proposals section title: "Wetsontwerp en voorstellen".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip099x.html")
+        report_file_name = self.config.plenary_html_input_path("ip099x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -826,10 +837,11 @@ class PlenaryExtractionTest(unittest.TestCase):
         # This report has no proposal discussions.
         # Also no level 1 headers. It should not fail.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip059x.html")
+        report_file_name = self.config.plenary_html_input_path("ip059x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -838,10 +850,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip038x_html(self):
         # This report has a different proposals section title: "Wetsvoorstellen".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip038x.html")
+        report_file_name = self.config.plenary_html_input_path("ip038x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -854,10 +867,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip021x_html(self):
         # This report has a different proposals section title: "Wetsvoorstel".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip021x.html")
+        report_file_name = self.config.plenary_html_input_path("ip021x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -870,10 +884,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip007x_html(self):
         # This report has no proposal discussions section.
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip007x.html")
+        report_file_name = self.config.plenary_html_input_path("ip007x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -882,10 +897,11 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_from_html_plenary_report__ip005x_html(self):
         # This report has a different proposals section title: "Voorstel van resolutie".
         # Arrange
-        report_file_name = CONFIG.plenary_html_input_path("ip005x.html")
+        report_file_name = self.config.plenary_html_input_path("ip005x.html")
 
         # Act
         plenary, _votes, _ = extract_from_html_plenary_report(
+            self.config,
             report_file_name)
 
         # Assert: Regardless of the different proposals section title, the proposal discussions are extracted correctly:
@@ -899,7 +915,8 @@ class PlenaryExtractionTest(unittest.TestCase):
         "suppressed for now - we can't make the distinction between 'does not match voters' problem and actually having 0 votes right now")
     def test_extract_ip67(self):
         _actual, votes, _problems = extract_from_html_plenary_report(
-            CONFIG.plenary_html_input_path('ip067x.html'))
+            self.config.legislature,
+            self.config.plenary_html_input_path('ip067x.html'))
 
         vote_types_motion_1 = {v.vote_type for v in votes if v.voting_id == "55_067_1"}
         self.assertTrue(VoteType.NO in vote_types_motion_1)
@@ -910,13 +927,15 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_ip72(self):
         """vote 2 has an extra '(' in the vote result indicator"""
         actual, _votes, _problems = extract_from_html_plenary_report(
-            CONFIG.plenary_html_input_path('ip072x.html'))
+            self.config.legislature,
+            self.config.plenary_html_input_path('ip072x.html'))
 
         self.assertEqual(5, len(actual.motions))
 
     def test_voter_dots_are_removed_from_voter_names(self):
         _actual, votes, _problems = extract_from_html_plenary_report(
-            CONFIG.plenary_html_input_path('ip182x.html'))
+            self.config.legislature,
+            self.config.plenary_html_input_path('ip182x.html'))
 
         names = [v.politician.full_name for v in votes]
 
@@ -925,8 +944,10 @@ class PlenaryExtractionTest(unittest.TestCase):
 
     @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "skipping slow tests")
     def test_votes_must_have_politician(self):
-        CONFIG.enable_testing(os.path.join(ROOT_FOLDER, "data"), "55")
-        _actual, votes, _problems = extract_from_html_plenary_reports_old()
+        _actual, votes, _problems = extract_from_html_plenary_reports_old(
+            self.config,
+            os.path.join(self.config.plenary_html_dir, ".html")
+        )
 
         for vote in votes:
             self.assertIsNotNone(vote.politician)
@@ -942,9 +963,9 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertEqual(date.fromisoformat("2019-10-03"), plenary_date)
 
     def get_plenary_date(self, filename):
-        path = CONFIG.plenary_html_input_path(filename)
+        path = self.config.plenary_html_input_path(filename)
         # Politicians not needed for this test
-        ctx = create_plenary_extraction_context(path, None)
+        ctx = create_plenary_extraction_context(self.config.legislature, path, None)
         return _get_plenary_date(ctx)
 
     def assert_starts_with(self, expected, actual):
