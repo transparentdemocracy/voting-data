@@ -68,7 +68,7 @@ class Config:
         return os.path.join(self.document_pdf_dir, self.leg_dir, *path)
 
     def documents_txt_output_path(self, *path):
-        return os.path.join(self.document_text_dir, "txt", self.leg_dir, *path)
+        return os.path.join(self.document_text_dir, self.leg_dir, *path)
 
     def documents_summary_output_path(self, *path):
         return os.path.join(self.document_summary_dir, self.leg_dir, *path)

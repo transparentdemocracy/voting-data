@@ -42,7 +42,8 @@ PLENARIES_MAPPING = {
 class MotionElasticRepository:
     def __init__(self, elastic_client):
         self.es = elastic_client
-        self.create_index()
+        # TODO: put this back, disabled temporarily to avoid repetitively calling bonsai
+        # self.create_index()
 
     def create_index(self):
         response = self.es.indices.create(
@@ -76,7 +77,8 @@ class MotionElasticRepository:
 class PlenaryElasticRepository:
     def __init__(self, elastic_client: Elasticsearch):
         self.es = elastic_client
-        self.create_index()
+        # TODO: put this back, disabled temporarily to avoid repetitively calling bonsai
+        # self.create_index()
 
     def create_index(self):
         response = self.es.indices.create(

@@ -77,11 +77,11 @@ class DocumentSummarizer:
         self.llm_chain: BaseCombineDocumentsChain = self.create_stuff_chain()
         self.text_splitter = CharacterTextSplitter.from_tiktoken_encoder(chunk_size=40_000, chunk_overlap=100)
 
-    def summarize_documents(self, document_paths):
+    def summarize_documents(self, document_txt_paths):
         batch_to_process = []
         num_docs_summarized = 0
 
-        for document_path in document_paths:
+        for document_path in document_txt_paths:
             num_docs_summarized += 1
             summary_path = self.txt_path_to_summary_path(document_path)
 
@@ -113,7 +113,7 @@ class DocumentSummarizer:
             # then just one document is ready to be summarized, which corresponds with the BATCH_SIZE of 1.
             if len(batch_to_process) == BATCH_SIZE:
                 self.summarize_batch(batch_to_process)
-                remaining = len(document_paths) - num_docs_summarized
+                remaining = len(document_txt_paths) - num_docs_summarized
                 print(f"{remaining} docs still need to be summarized")
                 batch_to_process = []
 
@@ -121,8 +121,10 @@ class DocumentSummarizer:
         if batch_to_process:
             self.summarize_batch(batch_to_process)
 
-    def summarize_batch(self, batch_to_process):
+    def summarize_batch(self, batch_to_process, tries = 3):
         print(f"Summarizing {len(batch_to_process)} small documents")
+
+        failures = []
 
         for doc in batch_to_process:
             path, doc_splits = doc
@@ -132,12 +134,21 @@ class DocumentSummarizer:
             doc_id = os.path.basename(source)[:-4]  # removing the .txt extension
             output_text = llm_result['output_text']
 
-            summary = parse_json_summary(doc_id, output_text)
+            summary = self.parse_llm_output(doc_id, output_text)
+            # TODO: add retry mechanism?
             if summary is None:
                 logger.warning("Failed to parse json response from LLM")
+                print("summary:", output_text)
+                failures.append(doc)
                 continue
 
             self.write_summary(summary)
+
+        if failures and tries > 1:
+            self.summarize_batch(failures, tries - 1)
+
+    def parse_llm_output(self, doc_id, output:str):
+        return parse_json_summary(doc_id, output)
 
     def write_summary(self, summary: Summary):
         doc_id = summary.id
@@ -242,7 +253,7 @@ def parse_json_summary(doc_id, text) -> Optional[Summary]:
         if summary_nl is not None and summary_fr is not None:
             return Summary(doc_id, summary_nl, summary_fr)
         return None
-    except JSONDecodeError:
+    except JSONDecodeError as e:
         return None
 
 

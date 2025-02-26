@@ -41,3 +41,24 @@ class DeKamerGateway:
             with open(path, 'wb') as f:
                 print(f"writing {path}")
                 f.write(response.content)
+
+    def download_document_pdf(self, document_id: str, force_overwrite: bool = False):
+        local_path = self.config.documents_input_path(document_id[3:5], document_id[5:7], f"{document_id}.pdf")
+        url = f"https://www.dekamer.be/FLWB/PDF/{self.config.legislature}/{document_id[3:7]}/{document_id}.pdf"
+        if os.path.exists(local_path) and not force_overwrite:
+            print(f"{local_path} already exists, not downloading again")
+        else:
+            print(f"downloading {url} to {local_path}")
+
+    def _download_file(url, local_path):
+        try:
+            response = requests.get(url, stream=True)
+            response.raise_for_status()  # Raise an exception for HTTP errors
+            with open(local_path, 'wb') as file:
+                for chunk in response.iter_content(chunk_size=8192):
+                    file.write(chunk)
+            print(f"PDF downloaded successfully to {local_path}")
+        except requests.exceptions.HTTPError as http_err:
+            print(f"HTTP error occurred: {http_err}")
+        except Exception as err:
+            print(f"An error occurred: {err}")

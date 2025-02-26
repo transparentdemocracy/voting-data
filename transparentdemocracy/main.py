@@ -1,16 +1,15 @@
 import logging
 import os
 from collections import defaultdict
-from enum import Enum
 from typing import List
 
 from elasticsearch.client import Elasticsearch
 
 from transparentdemocracy.config import Config, _create_config, Environments
 from transparentdemocracy.documents.convert_to_text import extract_text_from_documents
-from transparentdemocracy.documents.document_repository import DocumentGoogleDriveRepository
+from transparentdemocracy.documents.document_repository import GoogleDriveDocumentRepository
 from transparentdemocracy.documents.download import download_referenced_documents, get_document_references
-from transparentdemocracy.documents.summarize import summarize_document_texts
+from transparentdemocracy.documents.summarize import summarize_document_texts, DocumentSummarizer
 from transparentdemocracy.infra.dekamer import DeKamerGateway
 from transparentdemocracy.plenaries.extraction import extract_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
@@ -28,7 +27,7 @@ class Application:
                  de_kamer: DeKamerGateway,
                  plenary_repository: PlenaryElasticRepository,
                  motion_repository: MotionElasticRepository,
-                 document_repository: DocumentGoogleDriveRepository):
+                 document_repository: GoogleDriveDocumentRepository):
         self.config = config
         self.de_kamer = de_kamer
         self.plenary_repository = plenary_repository
@@ -42,6 +41,7 @@ class Application:
         Dekamer.be publishes plenary reports in a preliminary version first, and it may take a few weeks until the
         preliminary version is replaced by a final version.
         """
+        ### TODO: this returns too much, all plenaries are returned instead of only the ones that aren't final
         recent_reports = self.de_kamer.find_recent_reports()
 
         ids = [report[0] for report in recent_reports]
@@ -65,7 +65,7 @@ class Application:
         print("to process: ", to_process)
         return sorted(to_process)
 
-    def download_plenary_reports(self, plenary_ids: List[int], force_overwrite=True):
+    def download_plenary_reports(self, plenary_ids: List[str], force_overwrite=True):
         self.de_kamer.download_plenary_reports(plenary_ids, force_overwrite)
 
     def save_document_texts(self, document_references):
@@ -76,7 +76,7 @@ class Application:
 
         # ensure local files exist
         pdfs_to_extract = self.document_ids_to_pdf_path(missing_document_ids)
-        extract_text_from_documents(pdfs_to_extract)
+        extract_text_from_documents(self.config, pdfs_to_extract)
 
         self.document_repository.upsert_document_texts(missing_document_ids)
 
@@ -84,7 +84,7 @@ class Application:
         return download_referenced_documents(self.config, document_references)
 
     def get_document_ids_from_references(self, document_references):
-        urls = [url for ref in document_references for url in ref.sub_document_pdf_urls]
+        urls = set([url for ref in document_references for url in ref.sub_document_pdf_urls(self.config.legislature)])
         return [os.path.basename(url)[:-4] for url in urls]
 
     def publish_to_bonsai(self, plenaries, votes, politicians, summaries) -> None:
@@ -127,11 +127,95 @@ class Application:
             self.document_repository.upsert_document_summary(document_id)
 
     def generate_summaries(self, document_references):
-        # TODO: rewrite this to avoid unnecessary work
-        self.download_document_pdfs(document_references)
-        self.extract_text_from_documents(document_references)
-        self.save_document_texts(document_references)
-        self.save_document_summaries(document_references)
+        document_ids = self.get_document_ids_from_references(document_references)
+        print("document ids:", document_ids)
+
+        local_summaries = self._find_local_document_summary_ids(document_ids)
+        remote_summaries = self.document_repository.find_document_summary_ids(document_ids)
+
+        local_texts = self._find_local_document_text_ids(document_ids)
+        remote_texts = self.document_repository.find_document_text_ids(document_ids)
+
+        for document_id in document_ids:
+            summary_state = "".join([('1' if document_id in local_summaries else '0'), ('1' if document_id in remote_summaries else '0')])
+            if summary_state == '11':
+                print(f"document {document_id} has summary local and remote. No actions needed.")
+            elif summary_state == '01':
+                print(f"document {document_id} has summary remote. Downloading...")
+                self._download_summary(document_id)
+            elif summary_state == '10':
+                print(f"document {document_id} has summary local. Uploading...")
+                self._upload_summary(document_id)
+            else:
+                text_state = "".join([('1' if document_id in local_texts else '0'), ('1' if document_id in remote_texts else '0')])
+                if text_state == '11':
+                    print(f"document {document_id} has text local and remote. Summarizing and uploading")
+                    print(f"document {document_id} summarizing")
+                    self._generate_summary(document_id)
+                    print(f"document {document_id} uploading summary")
+                    self._upload_summary(document_id)
+                elif text_state == '10':
+                    print(f"document {document_id} has text local. Will upload, summarize and upload summary")
+                    print(f"document {document_id} uploading text")
+                    self._upload_text(document_id)
+                    print(f"document {document_id} summarizing")
+                    self._generate_summary(document_id)
+                    print(f"document {document_id} uploading summary")
+                    self._upload_summary(document_id)
+                elif text_state == '01':
+                    print(f"document {document_id} has text remote. Will download text, summarize and upload summary")
+                    print(f"document {document_id} downloading text")
+                    self._download_text(document_id)
+                    print(f"document {document_id} summarizing")
+                    self._generate_summary(document_id)
+                    print(f"document {document_id} uploading summary")
+                    self._upload_summary(document_id)
+                else:
+                    print(f"document {document_id} has no text or summary. Will download pdf, extract text, upload text, generate summary and upload summmary")
+                    print(f"document {document_id} downloading pdf")
+                    self._download_document_pdf(document_id)
+                    print(f"document {document_id} extracting text from pdf")
+                    self._extract_text_from_document(document_id)
+                    print(f"document {document_id} uploading text")
+                    self._upload_text(document_id)
+                    print(f"document {document_id} summarizing")
+                    self._generate_summary(document_id)
+                    print(f"document {document_id} uploading summary")
+                    self._upload_summary(document_id)
+
+    def _download_document_pdf(self, document_id):
+        self.de_kamer.download_document_pdf(document_id)
+
+    def _extract_text_from_document(self, document_id):
+        pdf_documents = self.document_ids_to_pdf_path([document_id])
+        extract_text_from_documents(self.config, pdf_documents)
+
+    def _generate_summary(self, document_id):
+        DocumentSummarizer(self.config).summarize_documents(self.document_ids_to_txt_path([document_id]))
+
+    def _find_local_document_summary_ids(self, document_ids):
+        def exists(doc_id):
+            return os.path.exists(self.config.documents_summary_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.summary"))
+
+        return [doc_id for doc_id in document_ids if exists(doc_id)]
+
+    def _find_local_document_text_ids(self, document_ids):
+        def exists(doc_id):
+            return os.path.exists(self.config.documents_txt_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.txt"))
+
+        return [doc_id for doc_id in document_ids if exists(doc_id)]
+
+    def _download_summary(self, document_id):
+        self.document_repository.download_document_summary(document_id)
+
+    def _upload_summary(self, document_id):
+        self.document_repository.upsert_document_summary(document_id)
+
+    def _download_text(self, document_id):
+        self.document_repository.download_document_summary(document_id)
+
+    def _upload_text(self, document_id):
+        self.document_repository.upsert_document_texts([document_id])
 
 
 def create_application(config: Config, env: Environments):
@@ -141,7 +225,7 @@ def create_application(config: Config, env: Environments):
         DeKamerGateway(config),
         PlenaryElasticRepository(es_client),
         MotionElasticRepository(es_client),
-        DocumentGoogleDriveRepository(config, config.documents_txt_output_path())
+        GoogleDriveDocumentRepository(config)
     )
 
 
@@ -160,15 +244,15 @@ def create_elastic_client(env: Environments):
 
     raise Exception(f"missing elasticsearch configuration for env {env}")
 
+
 def main():
     """Extract interesting insights from any plenary reports that have not yet been processed."""
 
     env = Environments(os.environ.get('WDDP_ENVIRONMENT', 'local'))
-    config = _create_config(env)
+    config = _create_config(env, os.environ.get('LEGISLATURE', '56'))
     app = create_application(config, env)
 
     plenary_ids_to_process = app.determine_plenaries_to_process()
-    # plenary_ids_to_process = ["56_031"]
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
 
     app.download_plenary_reports(plenary_ids_to_process, False)
@@ -180,9 +264,9 @@ def main():
 
     # TODO this writes just the plenaries as one big json file (no document summaries)
     # is this what we want to publish or an external repository?
-    write_plenaries_json(config, plenaries)
+    # write_plenaries_json(config, plenaries)
     # TODO: same for votes
-    write_votes_json(config, votes)
+    # write_votes_json(config, votes)
 
     document_references = get_document_references(plenaries)
 
