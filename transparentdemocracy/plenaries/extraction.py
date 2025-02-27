@@ -690,13 +690,21 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
 
 
 def _extract_motion_report_items(ctx: PlenaryExtractionContext) -> List[ReportItem]:
-    naamstemmingen_title = find_naamstemmingen_title(ctx)
-    if naamstemmingen_title is None:
+    naamstemmingen_titles = find_naamstemmingen_titles(ctx)
+    if not naamstemmingen_titles:
         return []
-    return _extract_report_items(ctx.report_path, naamstemmingen_title.find_next_siblings())
+    return _extract_report_items(ctx.report_path, naamstemmingen_titles)
 
 
-def _extract_report_items(report_path: str, elements: List[Tag]) -> List[ReportItem]:
+def _extract_report_items(report_path: str, naamstemmingen_titles: List[Tag]) -> List[ReportItem]:
+    elements = []
+    if len(naamstemmingen_titles) == 1:
+        elements = naamstemmingen_titles[0].find_next_siblings()
+    else:
+        for i in range(len(naamstemmingen_titles)):
+            end_element = naamstemmingen_titles[i+1] if i < len(naamstemmingen_titles) - 1 else None
+            elements.extend(_get_elements_between(naamstemmingen_titles[i], end_element))
+
     if not elements:
         return []
 
@@ -712,6 +720,19 @@ def _extract_report_items(report_path: str, elements: List[Tag]) -> List[ReportI
     return [item for item in report_items if (item.nl_title.strip() != "" or item.fr_title.strip() != "")]
 
 
+def _get_elements_between(start_element, end_element):
+    if end_element is None:
+        return start_element.find_next_siblings()
+
+    elements_between = []
+    current_element = start_element.find_next_sibling()
+
+    while current_element and current_element != end_element:
+        elements_between.append(current_element)
+        current_element = current_element.find_next_sibling()
+
+    return elements_between
+
 def is_report_item_title(el: Tag):
     if el.name == "h2":
         return True
@@ -721,7 +742,7 @@ def is_report_item_title(el: Tag):
     return False
 
 
-def find_naamstemmingen_title(ctx: PlenaryExtractionContext):
+def find_naamstemmingen_titles(ctx: PlenaryExtractionContext):
     """
     The section aggregating the votes of individual politicians on motions is recognized by a title that is almost
     always a <h1> or <p class="Titre1NL"> tag containing the text "Naamstemmingen", "Naamstemming", "Vote nominatif".
@@ -740,8 +761,7 @@ def find_naamstemmingen_title(ctx: PlenaryExtractionContext):
     if not start_naamstemmingen:
         return None
 
-    # Sometimes, two "naamstemmingen" titles occur immediately after each other. Then, the votes start after the second.
-    return start_naamstemmingen[-1]
+    return start_naamstemmingen
 
 
 def get_class(el):

@@ -423,6 +423,7 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertEqual(['Arens Josy', 'Daems Greet'], abstention_voters[:2])
 
     def test_extract_from_html_plenary_report__ip010x_html(self):
+        """ ip010x contains 2 sections called 'naamstemmingen'. We should consider both. """
         report_path = self.config.plenary_html_input_path("ip010x.html")
         plenary, votes, problems = extract_from_html_plenary_report(
             self.config,
@@ -433,6 +434,8 @@ class PlenaryExtractionTest(unittest.TestCase):
         self.assertIsNotNone(problems)
 
         motion_groups = plenary.motion_groups
+        for mg in motion_groups:
+            print(mg.title_nl)
         self.assertEqual(9, len(motion_groups))
 
         motions = plenary.motions
