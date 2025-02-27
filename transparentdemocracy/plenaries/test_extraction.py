@@ -930,14 +930,14 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_extract_ip72(self):
         """vote 2 has an extra '(' in the vote result indicator"""
         actual, _votes, _problems = extract_from_html_plenary_report(
-            self.config.legislature,
+            self.config,
             self.config.plenary_html_input_path('ip072x.html'))
 
         self.assertEqual(5, len(actual.motions))
 
     def test_voter_dots_are_removed_from_voter_names(self):
         _actual, votes, _problems = extract_from_html_plenary_report(
-            self.config.legislature,
+            self.config,
             self.config.plenary_html_input_path('ip182x.html'))
 
         names = [v.politician.full_name for v in votes]
