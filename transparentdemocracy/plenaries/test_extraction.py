@@ -41,9 +41,25 @@ class ReportItemExtractionTest(unittest.TestCase):
                                 "plénière du 28 mars 2024\n(3515/10)")
 
     def test_extract_ip280_has_1_naamstemming_but_no_identifiable_motion_title(self):
+        """
+            There is one voting and one secret voting. The voting doesn't have an identifiable title.
+            Currently we expect not to have a motion that points to the voting.
+            Maybe we should create a motion without a title or with a placeholder title?
+        """
         report_items = self.extract_motion_report_items('ip280x.html')
 
-        self.assertEqual(0, len(report_items))
+        self.assertEqual(6, len(report_items))
+
+        plenary, votes, _ = extract_from_html_plenary_report(self.config, self.config.plenary_html_input_path('ip280x.html'))
+
+        motion_groups = plenary.motion_groups
+        motions = plenary.motions
+        self.assertEqual(6, len(motion_groups))
+        self.assertEqual(6, len(motions))
+        self.assertEqual(96, len(votes))
+
+        voting_ids_from_motions = set([m.voting_id for m in motions])
+        self.assertFalse(votes[0].voting_id in voting_ids_from_motions)
 
     def test_extract_ip271(self):
         report_items = self.extract_motion_report_items('ip271x.html')
