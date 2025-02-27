@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
       - name: Install dependencies
         run: |
-          apt install ninja-build
+          sudo apt install ninja-build
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
       - name: Run unit tests
