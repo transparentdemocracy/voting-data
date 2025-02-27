@@ -445,7 +445,7 @@ class PlenaryExtractionTest(unittest.TestCase):
     def test_motion_title_language(self):
         report_path = self.config.plenary_html_input_path("ip160x.html")
         plenary, _votes, _ = extract_from_html_plenary_report(
-            self.config.legislature,
+            self.config,
             report_path)
 
         motion = next(m for m in plenary.motions if m.id == "55_160_mg_20_m0")
