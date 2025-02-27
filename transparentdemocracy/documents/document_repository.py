@@ -53,11 +53,11 @@ class GoogleDriveDocumentRepository:
 
     def get_all_document_summary_ids(self):
         filenames = self.get_file_id(self.summary_dir_id)
-        return [ f[:-8] for f in filenames if f[:-8] == ".summary" ]
+        return [ f[:-8] for f in filenames if f[-8:] == ".summary" ]
 
     def get_all_document_text_ids(self):
-        filenames = self.get_file_id(self.text_dir_id)
-        return [ f[:-4] for f in filenames if f[:-4] == ".summary" ]
+        filenames = self._get_filenames(self.text_dir_id)
+        return [ f[:-4] for f in filenames if f[-4:] == ".txt" ]
 
     def upsert_document_texts(self, document_ids):
         for document_id in document_ids:
@@ -68,12 +68,12 @@ class GoogleDriveDocumentRepository:
         self._upsert_file(local_path, self.text_dir_id, 'text/plain')
 
     def existing_remote_text_document(self, document_id):
-        existing_files = self.service.files().list(q=f"name='{document_id}' and parents in '{self.text_dir_id}' and trashed=false").execute()['files']
+        existing_files = self.service.files().list(q=f"name='{document_id}.txt' and parents in '{self.text_dir_id}' and trashed=false").execute()['files']
         file_id = existing_files[0]['id'] if existing_files else None
         return file_id
 
     def existing_remote_summary_document(self, document_id):
-        existing_files = self.service.files().list(q=f"name='{document_id}' and parents in '{self.summary_dir_id}' and trashed=false").execute()['files']
+        existing_files = self.service.files().list(q=f"name='{document_id}.summary' and parents in '{self.summary_dir_id}' and trashed=false").execute()['files']
         file_id = existing_files[0]['id'] if existing_files else None
         return file_id
 
