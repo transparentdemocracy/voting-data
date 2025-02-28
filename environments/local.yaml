@@ -1,4 +1,4 @@
-name: dev
+name: local
 
 # local paths are relative to the project's root dir
 
@@ -14,7 +14,6 @@ local:
     document_summary_dir: data/output/documents/summary
 
 gdrive:
-    service_account_credentials_json: ../secrets/wddp-storage-service-local.json
     document_text_dir: storage-local/documents/text
     document_summary_dir: storage-local/documents/summary
 

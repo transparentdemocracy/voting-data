@@ -1,4 +1,5 @@
 import io
+import json
 import os
 import os.path
 
@@ -16,8 +17,6 @@ class GoogleDriveDocumentRepository:
         self.local_document_text_dir = self.config.documents_txt_output_path()
         self.local_document_summary_dir = self.config.documents_summary_output_path()
 
-        # TODO use a secret manager with an api (use keepass python library?)
-        self.storage_service_secrets_json_file = os.path.join(os.path.dirname(transparentdemocracy.__file__), config.google_service_account_credentials_json)
         self.service = self._create_service()
 
         self.text_dir_id = self._ensure_text_dir_exists()
@@ -28,7 +27,7 @@ class GoogleDriveDocumentRepository:
 
     def _create_service(self):
         scopes = ['https://www.googleapis.com/auth/drive']
-        creds = service_account.Credentials.from_service_account_file(self.storage_service_secrets_json_file, scopes=scopes)
+        creds = service_account.Credentials.from_service_account_info(json.loads(self.config.google_service_account_credentials), scopes=scopes)
         return build('drive', 'v3', credentials=creds)
 
     def create_folder(self, parent_id, folder_name):
