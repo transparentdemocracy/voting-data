@@ -34,6 +34,15 @@ class Politicians:
         best_name = min((Levenshtein.distance(name, compare_name), compare_name)
                         for compare_name in
                         self.politicians_by_name.keys())[1]
+
+        exceptions = {"Mutyebele Ngoi": "Mutyebele Ngoi Lydia"}
+
+        if Levenshtein.distance(name, best_name) > 3:
+            if name in exceptions:
+                best_name = exceptions[name]
+            else:
+                raise Exception(f"Got a suspicious match. Add manual rule to procede with this. name: {name}, best match: {best_name}")
+
         return self.politicians_by_name[best_name]
 
     def __getitem__(self, item):

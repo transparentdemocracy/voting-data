@@ -13,6 +13,10 @@ def extract_text_from_documents(config, downloaded_documents):
     """Extract the text from the documents referenced in plenary PDF reports."""
 
     for doc_path in downloaded_documents:
+        # TODO: this implies that there was a download problem earlier. Collect that as a problem
+        if not os.path.exists(doc_path):
+            logger.error(f"document {doc_path} does not exist. Skipping text extraction")
+            continue
         txt_path = pdf_path_to_txt_path(config, doc_path)
 
         if os.path.exists(txt_path):

@@ -51,6 +51,7 @@ class ParseProblem:
     report_path: str
     problem_type: str
     location: Optional[str]
+    message: Optional[str] = None
 
 
 class PlenaryExtractionContext:
@@ -104,9 +105,9 @@ def extract_plenary_reports(config, report_filenames):
                     report_filename, "NOT_HTML", "filename"))
                 continue
 
-        except Exception:
+        except Exception as e:
             all_problems.append(ParseProblem(
-                report_filename, "EXCEPTION", None))
+                report_filename, "EXCEPTION", None, str(e)))
             logging.warning("Failed to process %s",
                             report_filename, exc_info=True)
 
@@ -682,8 +683,7 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
         votes.extend(
             create_votes_for_same_vote_type(yes_voter_names, VoteType.YES, voting_id, ctx.politicians) +
             create_votes_for_same_vote_type(no_voter_names, VoteType.NO, voting_id, ctx.politicians) +
-            create_votes_for_same_vote_type(
-                abstention_voter_names, VoteType.ABSTENTION, voting_id, ctx.politicians)
+            create_votes_for_same_vote_type(abstention_voter_names, VoteType.ABSTENTION, voting_id, ctx.politicians)
         )
 
     return votes
@@ -702,7 +702,7 @@ def _extract_report_items(report_path: str, naamstemmingen_titles: List[Tag]) ->
         elements = naamstemmingen_titles[0].find_next_siblings()
     else:
         for i in range(len(naamstemmingen_titles)):
-            end_element = naamstemmingen_titles[i+1] if i < len(naamstemmingen_titles) - 1 else None
+            end_element = naamstemmingen_titles[i + 1] if i < len(naamstemmingen_titles) - 1 else None
             elements.extend(_get_elements_between(naamstemmingen_titles[i], end_element))
 
     if not elements:
@@ -732,6 +732,7 @@ def _get_elements_between(start_element, end_element):
         current_element = current_element.find_next_sibling()
 
     return elements_between
+
 
 def is_report_item_title(el: Tag):
     if el.name == "h2":

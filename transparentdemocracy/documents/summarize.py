@@ -81,25 +81,25 @@ class DocumentSummarizer:
         batch_to_process = []
         num_docs_summarized = 0
 
-        for document_path in document_txt_paths:
+        for text_path in document_txt_paths:
             num_docs_summarized += 1
-            summary_path = self.txt_path_to_summary_path(document_path)
+            summary_path = self.txt_path_to_summary_path(text_path)
 
             # Skip summarizing a document, if it has already been summarized before:
             if os.path.exists(summary_path):
                 continue
 
             # Transform the document into an input the Langchain framework can use:
-            with open(document_path, 'r', encoding="utf-8") as fp:
+            with open(text_path, 'r', encoding="utf-8") as fp:
                 doc_part = fp.read(12_000)
-            docs = [Document(page_content=doc_part, metadata={"source": document_path})]
+            docs = [Document(page_content=doc_part, metadata={"source": text_path})]
 
             # Split the document into smaller chunks, if necessary:
             doc_splits = self.text_splitter.split_documents(docs)
 
             # If no chunks were made at all, the document might be empty and we don't need to summarize:
             if len(doc_splits) == 0:
-                logger.info("Empty document? %s", document_path)
+                logger.info("Empty document? %s", text_path)
                 continue
 
             if len(doc_splits) > 1:
@@ -107,7 +107,7 @@ class DocumentSummarizer:
                 continue
 
             # Summarize the chunked documents in one batch:
-            batch_to_process.append((document_path, doc_splits))
+            batch_to_process.append((text_path, doc_splits))
 
             # -> If by now in this for loop iteration, we haven't yet continued to the next iteration already,
             # then just one document is ready to be summarized, which corresponds with the BATCH_SIZE of 1.

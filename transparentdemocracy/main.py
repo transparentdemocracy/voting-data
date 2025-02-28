@@ -1,3 +1,4 @@
+import asyncio
 import logging
 import os
 from collections import defaultdict
@@ -5,6 +6,7 @@ from typing import List
 
 from elasticsearch.client import Elasticsearch
 
+from transparentdemocracy.actors.actors import ActorHttpGateway
 from transparentdemocracy.config import Config, _create_config, Environments
 from transparentdemocracy.documents.convert_to_text import extract_text_from_documents
 from transparentdemocracy.documents.document_repository import GoogleDriveDocumentRepository
@@ -13,7 +15,8 @@ from transparentdemocracy.documents.summarize import summarize_document_texts, D
 from transparentdemocracy.infra.dekamer import DeKamerGateway
 from transparentdemocracy.plenaries.extraction import extract_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
-from transparentdemocracy.plenaries.serialization import write_plenaries_json, write_votes_json
+from transparentdemocracy.politicians.extraction import PoliticianExtractor
+from transparentdemocracy.politicians.serialization import PoliticianJsonSerializer
 from transparentdemocracy.publisher.publisher import PlenaryElasticRepository, Publisher, MotionElasticRepository
 
 logger = logging.getLogger(__name__)
@@ -24,11 +27,13 @@ class Application:
 
     def __init__(self,
                  config: Config,
+                 actor_gateway: ActorHttpGateway,
                  de_kamer: DeKamerGateway,
                  plenary_repository: PlenaryElasticRepository,
                  motion_repository: MotionElasticRepository,
                  document_repository: GoogleDriveDocumentRepository):
         self.config = config
+        self.actor_gateway = actor_gateway
         self.de_kamer = de_kamer
         self.plenary_repository = plenary_repository
         self.motions_repository = motion_repository
@@ -176,6 +181,12 @@ class Application:
                     self._download_document_pdf(document_id)
                     print(f"document {document_id} extracting text from pdf")
                     self._extract_text_from_document(document_id)
+
+                    text_path = self.document_ids_to_txt_path([document_id])[0]
+                    if not os.path.exists(text_path):
+                        print(f"Text extraction failed on {document_id}.")
+                        continue
+
                     print(f"document {document_id} uploading text")
                     self._upload_text(document_id)
                     print(f"document {document_id} summarizing")
@@ -215,13 +226,36 @@ class Application:
         self.document_repository.download_document_summary(document_id)
 
     def _upload_text(self, document_id):
-        self.document_repository.upsert_document_texts([document_id])
+        text_path = self.document_ids_to_txt_path(['56K0742003'])[0]
+        if os.path.exists(text_path):
+            self.document_repository._upload_text_file(text_path)
+        else:
+            # TODO collect problem
+            print(f"Missing text file: {text_path}")
+
+    def update_politicians(self, force_overwrite=False):
+        politicians_json = self.config.politicians_json_output_path()
+        if os.path.exists(politicians_json) and not force_overwrite:
+            print(f"{politicians_json} already exists. Cowardly refusing to overwrite")
+            return
+
+        if os.path.exists(politicians_json):
+            print(f"{politicians_json} doesn't exist. Creating it now.")
+
+        asyncio.run(self.actor_gateway.download_actors(max_pages=1000))
+
+        serializer = PoliticianJsonSerializer(politicians_json)
+        extractor = PoliticianExtractor(self.config)
+
+        politicians = extractor.extract_politicians()
+        serializer.serialize_politicians(politicians.politicians)
 
 
 def create_application(config: Config, env: Environments):
     es_client = create_elastic_client(env)
     return Application(
         config,
+        ActorHttpGateway(config),
         DeKamerGateway(config),
         PlenaryElasticRepository(es_client),
         MotionElasticRepository(es_client),
@@ -252,14 +286,20 @@ def main():
     config = _create_config(env, os.environ.get('LEGISLATURE', '56'))
     app = create_application(config, env)
 
-    plenary_ids_to_process = app.determine_plenaries_to_process()
+    # this is only needed when there are changes to the voters.
+    # in the github pipeline we can just always run it?
+    app.update_politicians()
+    # return
+
+    # plenary_ids_to_process = app.determine_plenaries_to_process()
+    plenary_ids_to_process = ['%s_%03d' % (config.legislature, i) for i in range(1, 32)]
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
 
     app.download_plenary_reports(plenary_ids_to_process, False)
 
     report_filenames = [config.plenary_html_input_path("ip%03sx.html" % id[id.index("_") + 1:]) for id in plenary_ids_to_process]
 
-    plenaries, votes, _problems = extract_plenary_reports(config, report_filenames)
+    plenaries, votes, problems = extract_plenary_reports(config, report_filenames)
     link_motions_with_proposals(plenaries)
 
     # TODO this writes just the plenaries as one big json file (no document summaries)
@@ -274,11 +314,11 @@ def main():
     # It won't do any re-summarization and checks local disk and google drive to avoid rework
     app.generate_summaries(document_references)
 
-    # TODO: we already loaded politicians before. Only do it once.
-    # with open(app.config.politicians_json_output_path("politicians.json"), 'r', encoding="utf-8") as f:
-    #    politicians = json.load(f)
+    print("### PROBLEMS ###")
+    for p in problems:
+        print(p)
 
-    # TODO: only load relevant summaries based on the list of documents
+    # TODO: is this 'combined document summaries' file useful for anyone?
     # with open(app.config.documents_summaries_json_output_path(), 'r', encoding="utf-8") as f:
     #    summaries = json.load(f)
 

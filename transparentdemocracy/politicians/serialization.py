@@ -2,12 +2,12 @@ import json
 import os
 from typing import List
 
-from transparentdemocracy import Config
+from transparentdemocracy.config import Config
 from transparentdemocracy.model import Politician
 from transparentdemocracy.politicians.extraction import PoliticianExtractor
 
 
-class JsonSerializer:
+class PoliticianJsonSerializer:
     def __init__(self, output_path):
         self.output_path = output_path
         os.makedirs(self.output_path, exist_ok=True)
@@ -22,12 +22,6 @@ class JsonSerializer:
             indent=2)
         with open(os.path.join(self.output_path, output_file), "w") as output_file:
             output_file.write(list_json)
-
-
-# TODO check callers
-def create_json(config: Config):
-    JsonSerializer(config.plenary_json_output_path()).serialize_politicians(
-        PoliticianExtractor(config).extract_politicians().politicians)
 
 
 def print_politicians_by_party():
