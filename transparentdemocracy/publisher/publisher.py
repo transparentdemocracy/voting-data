@@ -7,6 +7,8 @@ from typing import List
 from elasticsearch.client import Elasticsearch
 
 from transparentdemocracy.config import Config
+from transparentdemocracy.model import VoteType, Motion, MotionGroup, Plenary, Vote
+from transparentdemocracy.politicians.extraction import Politicians
 
 LOGGER = logging.getLogger(__name__)
 
@@ -38,9 +40,16 @@ PLENARIES_MAPPING = {
     }
 }
 
+@dataclass
+class PublishingData:
+    politicians: Politicians
+    summaries_by_id: dict
+    votes_by_id: dict
+
 
 class MotionElasticRepository:
-    def __init__(self, elastic_client):
+    def __init__(self, config, elastic_client):
+        self.config = config
         self.es = elastic_client
         # TODO: put this back, disabled temporarily to avoid repetitively calling bonsai
         # self.create_index()
@@ -54,20 +63,20 @@ class MotionElasticRepository:
         print(response)
 
     def upsert_motion_group(self, publishing_data, plenary, mg):
-        motions = [_to_motion_read_model(publishing_data, plenary, mg, m) for m in mg["motions"]]
+        motions = [_to_motion_read_model(self.config, publishing_data, plenary, mg, m) for m in mg.motions]
         motions = [m for m in motions if m is not None]
         if len(motions) == 0:
-            logging.warning("no motions in group %s", mg["id"])
+            logging.warning("no motions in group %s", mg.id)
             return
 
         doc = {
-            'id': mg["id"],
-            'legislature': plenary["legislature"],
-            'plenaryNr': plenary["number"],
-            'titleNL': mg["title_nl"],
-            'titleFR': mg["title_fr"],
+            'id': mg.id,
+            'legislature': plenary.legislature,
+            'plenaryNr': plenary.number,
+            'titleNL': mg.title_nl,
+            'titleFR': mg.title_fr,
             'motions': [m for m in motions if m is not None],
-            'votingDate': plenary["date"]
+            'votingDate': plenary.date.isoformat()
         }
 
         response = self.es.index(index="motions", id=doc["id"], body=doc)
@@ -75,8 +84,9 @@ class MotionElasticRepository:
 
 
 class PlenaryElasticRepository:
-    def __init__(self, elastic_client: Elasticsearch):
+    def __init__(self, config, elastic_client: Elasticsearch):
         self.es = elastic_client
+        self.config = config
         # TODO: put this back, disabled temporarily to avoid repetitively calling bonsai
         # self.create_index()
 
@@ -88,15 +98,15 @@ class PlenaryElasticRepository:
         )
         print(response)
 
-    def upsert_plenary(self, plenary):
+    def upsert_plenary(self, plenary: Plenary):
         doc = {
-            'id': plenary["id"],
-            'title': plenary["date"],
-            'legislature': plenary["legislature"],
-            'date': plenary["date"],
-            'pdfReportUrl': plenary["pdf_report_url"],
-            'htmlReportUrl': plenary["html_report_url"],
-            'motionGroups': _to_motion_groups_doc(plenary["motion_groups"]),
+            'id': plenary.id,
+            'title': plenary.date.isoformat(),
+            'legislature': plenary.legislature,
+            'date': plenary.date.isoformat(),
+            'pdfReportUrl': plenary.pdf_report_url,
+            'htmlReportUrl': plenary.html_report_url,
+            'motionGroups': _to_motion_groups_doc(plenary.motion_groups),
             'is_final': False  # TODO: make sure this has the correct value
         }
 
@@ -128,13 +138,13 @@ class Publisher():
                  config: Config,
                  plenary_repo: PlenaryElasticRepository,
                  motions_repo: MotionElasticRepository,
-                 politicians_by_id,
+                 politicians: Politicians,
                  summaries_by_id,
                  votes_by_id):
         self.config = config
         self.plenary_repo = plenary_repo
         self.motions_repo = motions_repo
-        self.publishing_data = PublishingData(politicians_by_id, summaries_by_id, votes_by_id)
+        self.publishing_data = PublishingData(politicians, summaries_by_id, votes_by_id)
 
     def publish(self, plenaries):
         self._publish_motions(plenaries)
@@ -142,10 +152,11 @@ class Publisher():
 
     def _publish_motions(self, plenaries):
         for plenary in plenaries:
-            for mg in plenary["motion_groups"]:
+            for mg in plenary.motion_groups:
                 self.motions_repo.upsert_motion_group(self.publishing_data, plenary, mg)
 
     def _publish_plenaries(self, plenaries):
+        # TODO: document structure in elastic
         for plenary in plenaries:
             self.plenary_repo.upsert_plenary(plenary)
 
@@ -156,68 +167,66 @@ def _to_motion_groups_doc(motion_groups):
 
 def _to_motion_group_doc(motion_group):
     return {
-        'motionGroupId': motion_group["id"],
-        'titleNL': motion_group["title_nl"],
-        'titleFR': motion_group["title_fr"],
-        'motionLinks': [_to_motion_link_doc(m) for m in motion_group["motions"]]
+        'motionGroupId': motion_group.id,
+        'titleNL': motion_group.title_nl,
+        'titleFR': motion_group.title_fr,
+        'motionLinks': [_to_motion_link_doc(m) for m in motion_group.motions]
     }
 
 
 def _to_motion_link_doc(motion):
-    voting_id = motion["voting_id"]
+    voting_id = motion.voting_id
     return {
-        'motionId': motion["id"],
-        'agendaSeqNr': motion["sequence_number"],
+        'motionId': motion.id,
+        'agendaSeqNr': motion.sequence_number,
         'voteSeqNr': None if voting_id is None else voting_id.rsplit('_', 1)[-1],
-        'titleNL': motion["title_nl"],
-        'titleFR': motion["title_fr"]
+        'titleNL': motion.title_nl,
+        'titleFR': motion.title_fr
     }
 
 
-def _to_motion_read_model(config, publishing_data, p, _mg, m):
-    if m["voting_id"] is None:
-        LOGGER.warning("motion without voting_id: %s", m["id"])
+def _to_motion_read_model(config, publishing_data: PublishingData, p: Plenary, _mg: MotionGroup, m: Motion):
+    if m.voting_id is None:
+        LOGGER.warning("motion without voting_id: %s", m.id)
         return None
-    votes = publishing_data.votes_by_id[m["voting_id"]]
+    votes = publishing_data.votes_by_id[m.voting_id]
     if len(votes) == 0:
-        LOGGER.warning("no votes found in %s", m["id"])
+        LOGGER.warning("no votes found in %s", m.id)
         return None
 
-    yes_votes = to_votes(votes, "YES", publishing_data.politicians_by_id)
-    no_votes = to_votes(votes, "NO", publishing_data.politicians_by_id)
-    abs_votes = to_votes(votes, "ABSTENTION", publishing_data.politicians_by_id)
-    doc_reference = to_doc_reference(config, m["documents_reference"], publishing_data.summaries_by_id)
+    yes_votes = to_votes(votes, VoteType.YES, publishing_data.politicians)
+    no_votes = to_votes(votes, VoteType.NO, publishing_data.politicians)
+    abs_votes = to_votes(votes, VoteType.ABSTENTION, publishing_data.politicians)
+    doc_reference = to_doc_reference(config, m.documents_reference, publishing_data.summaries_by_id)
     voting_result = vote_passed(yes_votes, no_votes)
 
     mdoc = {
-        "id": m["id"],
-        "titleNL": m["title_nl"],
-        "titleFR": m["title_fr"],
+        "id": m.id,
+        "titleNL": m.title_nl,
+        "titleFR": m.title_fr,
         "yesVotes": yes_votes,
         "noVotes": no_votes,
         "absVotes": abs_votes,
         "newDocumentReference": doc_reference,
-        "votingDate": p["date"],
+        "votingDate": p.date,
         "votingResult": voting_result,
     }
     return mdoc
 
 
-def to_votes(votes, vote_type, politicians_by_id):
+def to_votes(votes: List[Vote], vote_type: VoteType, politicians: Politicians):
     if len(votes) == 0:
         raise Exception("I don't expect to be called without votes")
     vdoc = {}
 
-    votes_with_type = [v for v in votes if v["vote_type"] == vote_type]
+    votes_with_type = [v for v in votes if v.vote_type == vote_type]
     count_votes_with_type = len(votes_with_type)
     vdoc["nrOfVotes"] = count_votes_with_type
     vdoc["votePercentage"] = 0 if len(votes) == 0 else 100.0 * vdoc["nrOfVotes"] / len(votes)
 
     votes_by_party = defaultdict(int)
-    for v in votes_with_type:
-        voter = politicians_by_id[v["politician_id"]]
-        party = voter["party"]
-        votes_by_party[party] += 1
+    for vote in votes_with_type:
+        votes_by_party[vote.politician.party] += 1
 
     vdoc["partyVotes"] = []
     for party, count in votes_by_party.items():
@@ -230,9 +239,7 @@ def to_votes(votes, vote_type, politicians_by_id):
     return vdoc
 
 
-def to_doc_reference(config, spec, summaries_by_id=None):
-    if not summaries_by_id:
-        summaries_by_id = {}
+def to_doc_reference(config, spec, summaries_by_id):
     if not spec:
         return None
 
@@ -269,29 +276,21 @@ def to_doc_reference(config, spec, summaries_by_id=None):
     return refdoc
 
 
-def to_subdoc(config, doc_main_nr, doc_sub_nr, summaries_by_id=None):
+def to_subdoc(config, doc_main_nr, doc_sub_nr, summaries_by_id):
     if summaries_by_id is None:
         summaries_by_id = {}
-    document_id = f"{doc_main_nr:04d}/{doc_sub_nr:03d}"
+    document_id = f"{config.legislature}K{doc_main_nr:04d}{doc_sub_nr:03d}"
     summary = summaries_by_id.get(document_id, None)
     return {
         'documentNr': doc_main_nr,
         'documentSubNr': doc_sub_nr,
         # TODO: various places construct this url. Merge to 1 code path
         'documentPdfUrl': f"https://www.dekamer.be/FLWB/PDF/{config.legislature}/{doc_main_nr:04d}/{config.legislature}K{doc_main_nr:04d}{doc_sub_nr:03d}.pdf",
-        'summaryNL': summary["summary_nl"] if summary else None,
-        'summaryFR': summary["summary_fr"] if summary else None
+        'summaryNL': summary["nl"] if summary else None,
+        'summaryFR': summary["fr"] if summary else None
     }
 
 
 def vote_passed(yes_votes, no_votes):
     # TODO: is a simple majority always enough; Cross check this against result found in plenary reports
     return yes_votes["nrOfVotes"] > no_votes["nrOfVotes"]
-
-
-@dataclass
-class PublishingData:
-    # TODO typing info
-    politicians_by_id: dict
-    summaries_by_id: dict
-    votes_by_id: dict

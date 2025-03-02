@@ -17,3 +17,5 @@ gdrive:
     document_text_dir: storage-test/documents/text
     document_summary_dir: storage-test/documents/summary
 
+elastic:
+    host: localhost

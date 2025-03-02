@@ -23,14 +23,14 @@ def extract_text_from_documents(config, downloaded_documents):
             logger.info(f"Skipping {doc_path} because {txt_path} already exists")
             continue
 
-        print("Reading", doc_path)
+        logger.info(f"Reading {doc_path}")
         with fitz.open(doc_path) as pdf_doc:
             text = ''
             for page in pdf_doc:
                 text += page.get_text()
 
             os.makedirs(os.path.dirname(txt_path), exist_ok=True)
-            print("Writing", txt_path)
+            logger.info(f"Writing {txt_path}")
             with open(txt_path, 'w', encoding="utf-8") as f:
                 f.write(text)
 

@@ -45,6 +45,8 @@ class Config:
         self.google_drive_text_dir = conf_data['gdrive']['document_text_dir']
         self.google_drive_summary_dir = conf_data['gdrive']['document_summary_dir']
 
+        self.elastic_host = conf_data['elastic']['host']
+
     @property
     def leg_dir(self):
         return f"leg-{self.legislature}"

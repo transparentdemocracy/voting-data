@@ -44,6 +44,7 @@ class ActorHttpGateway:
         for page_number in range(max_pages):
             url = f"{self.base_url}?start={page_number * page_size}"
 
+            logger.info(f"Fetching actors page {page_number}")
             async with session.get(url, headers={'Accept': 'application/json'}) as response:
                 response.raise_for_status()
                 page_data = await response.json()

@@ -18,4 +18,4 @@ gdrive:
     document_summary_dir: storage-local/documents/summary
 
 elastic:
-    host: TODO
+    host: transparent-democrac-6644447145.eu-west-1.bonsaisearch.net

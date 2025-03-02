@@ -3,7 +3,9 @@ from typing import List, Generator
 from transparentdemocracy.documents.references import parse_document_reference
 from transparentdemocracy.model import Plenary
 from transparentdemocracy.plenaries.serialization import load_plenaries
+import logging
 
+logger = logging.getLogger(__name__)
 
 def analyse_document_references():
     plenaries = load_plenaries()
@@ -19,9 +21,9 @@ def analyse_document_references():
         doc_refs.append(result)
 
     bad_refs = [d for d in doc_refs if d.document_reference is None]
-    print("Bad references:")
-    for bad_ref in bad_refs:
-        print(f"   {bad_ref.all_documents_reference}")
+    if bad_refs:
+        for bad_ref in bad_refs:
+            logger.warning(f"   Bad reference: {bad_ref.all_documents_reference}")
 
 
 def collect_document_references(plenaries: List[Plenary]) -> Generator[str, str, None]:
