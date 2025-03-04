@@ -305,8 +305,7 @@ def main():
     app.update_politicians()
     # return
 
-    # plenary_ids_to_process = app.determine_plenaries_to_process()
-    plenary_ids_to_process = ['56_033']
+    plenary_ids_to_process = app.determine_plenaries_to_process()
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
 
     app.download_plenary_reports(plenary_ids_to_process, False)
