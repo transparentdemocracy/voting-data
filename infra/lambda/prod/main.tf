@@ -5,6 +5,12 @@ terraform {
       version = "~> 5.73"
     }
   }
+  backend "s3" {
+    bucket         = "wddp-terraform-prod"
+    key            = "lambdas/terraform.tfstate"
+    region         = "eu-west-1"
+    encrypt        = true
+  }
 }
 
 provider "aws" {

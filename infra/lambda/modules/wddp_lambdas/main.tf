@@ -9,8 +9,8 @@ terraform {
 
 locals {
   functions = [
-    { key: "search_motions", name: "search-motions-${var.environment}", handler:"wddp.search_motions" },
     { key: "get_motion", name: "get-motion-${var.environment}", handler:"wddp.get_motion" },
+    { key: "search_motions", name: "search-motions-${var.environment}", handler:"wddp.search_motions" },
     { key: "search_plenaries", name: "search-plenaries-${var.environment}", handler:"wddp.search_plenaries" },
   ]
 }

@@ -1,0 +1,5 @@
+# source me!
+
+source ../../../venv/bin/activate
+export AWS_PROFILE=wddp
+eval $(cat env.template | op inject)
