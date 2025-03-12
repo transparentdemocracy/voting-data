@@ -89,7 +89,7 @@ resource "null_resource" "pip_install" {
     command = <<EOF
       rm -rf ${path.module}/python
       mkdir -p ${path.module}/python/lib/python3.11/site-packages
-      pip install -r ${path.module}/requirements.txt -t ${path.module}/python/lib/python3.11/site-packages/
+      pip3.11 install -r ${path.module}/requirements.txt -t ${path.module}/python/lib/python3.11/site-packages/
     EOF
   }
 }

@@ -2,7 +2,4 @@
 
 source ../../../venv/bin/activate
 export AWS_PROFILE=wddp
-eval $(cat env.template | op inject) 
-
-echo "Python version should match lambda config (3.11). Please double check before proceding"
-python -V
+eval $(cat env.template | op inject)
