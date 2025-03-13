@@ -79,6 +79,14 @@ resource "aws_lambda_function_url" "function_url" {
   }
 }
 
+resource "aws_lambda_permission" "url" {
+  for_each = { for func in local.functions : func.key => func }
+  statement_id = "FunctionURLAllowPublicAccess"
+  action        = "lambda:InvokeFunctionUrl"
+  function_name = aws_lambda_function.function[each.key].function_name
+  principal     = "*"
+  function_url_auth_type = "NONE"
+}
 
 resource "null_resource" "pip_install" {
   triggers = {
