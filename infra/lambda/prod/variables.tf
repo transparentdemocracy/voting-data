@@ -14,3 +14,9 @@ variable "wddp_prod_es_auth" {
   type        = string
 }
 
+variable "cors_allow_origins" {
+  description = "CORS allow origins"
+  type        = list(string)
+}
+
+
