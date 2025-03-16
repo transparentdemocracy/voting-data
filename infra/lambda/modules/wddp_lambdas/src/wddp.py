@@ -6,6 +6,18 @@ DEFAULT_TIMEOUT = 30
 PAGE_SIZE = 100
 
 
+def get_motion(event, _context):
+    motion_id = event.get("requestContext", {}).get("http", {})["path"][1:]
+    secret = os.environ['ES_AUTH']
+    url = f"https://{secret}@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443/motions/_doc/{motion_id}"
+    response = requests.get(url, timeout=DEFAULT_TIMEOUT)
+    body = response.text
+    return {
+        'statusCode': 200,
+        'body': body
+    }
+
+
 def search_motions(event, _context):
     params = event.get("queryStringParameters", {})
     q = params.get('q', "")
@@ -13,25 +25,23 @@ def search_motions(event, _context):
     min_date = params.get('minDate', None)
     max_date = params.get('maxDate', None)
 
-    return search("motions", create_query("votingDate", page, q, min_date, max_date))
-
-
-def get_motion(event, _context):
-    motion_id = event.get("requestContext", {}).get("http", {})["path"][1:]
-    return get("motions", motion_id)
+    return search("motions", "votingDate", min_date, max_date, q, page)
 
 
 def search_plenaries(event, _context):
     params = event.get("queryStringParameters", {})
     q = params.get('q', "")
+
     page = int(params.get('page', "0"))
     min_date = params.get('minDate', None)
     max_date = params.get('maxDate', None)
 
-    return search("plenaries", create_query("date", page, q, min_date, max_date))
+    return search("plenaries", "date", min_date, max_date, q, page)
 
 
-def search(index, query):
+def search(index, date_field, min_date, max_date, q, page=0):
+    query = create_query(date_field, page, q, min_date, max_date)
+
     secret = os.environ['ES_AUTH']
     url = f"https://{secret}@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443/{index}/_search"
     response = requests.post(url, json=query, timeout=DEFAULT_TIMEOUT)
@@ -74,17 +84,5 @@ def create_query(date_field, page, q, min_date=None, max_date=None):
     if len(conditions) > 1:
         query["query"] = {"bool": {"must": conditions}}
 
-    print(query)
     return query
 
-
-def get(index, doc_id):
-    secret = os.environ['ES_AUTH']
-    url = f"https://{secret}@transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443/{index}/_doc/{doc_id}"
-    response = requests.get(url, timeout=DEFAULT_TIMEOUT)
-    body = response.text
-
-    return {
-        'statusCode': 200,
-        'body': body
-    }
