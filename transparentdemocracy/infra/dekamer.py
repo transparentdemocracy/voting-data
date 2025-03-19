@@ -1,12 +1,20 @@
+import dataclasses
+import logging
 import os.path
 from typing import List
 
 import bs4
 import requests
 
-import logging
-
 logger = logging.getLogger(__name__)
+
+
+@dataclasses.dataclass
+class PlenaryEntry:
+    id: str
+    url: str
+    is_final: bool
+
 
 class DeKamerGateway:
     def __init__(self, config):
@@ -30,7 +38,7 @@ class DeKamerGateway:
             html_link = row.find_all("td")[3].find("a", title="Kopieervriendelijke HTML versie")
             is_final = "definitieve versie" in row.find_all("td")[4].text
 
-            found_plenaries.append((f"{self.config.legislature}_{plenary_nr:03d}", html_link.get("href"), is_final))
+            found_plenaries.append(PlenaryEntry(f"{self.config.legislature}_{plenary_nr:03d}", html_link.get("href"), is_final))
 
         return found_plenaries
 

@@ -98,7 +98,7 @@ class PlenaryElasticRepository:
         )
         print(response)
 
-    def upsert_plenary(self, plenary: Plenary):
+    def upsert_plenary(self, plenary: Plenary, final_plenary_ids):
         doc = {
             'id': plenary.id,
             'title': plenary.date.isoformat(),
@@ -107,7 +107,7 @@ class PlenaryElasticRepository:
             'pdfReportUrl': plenary.pdf_report_url,
             'htmlReportUrl': plenary.html_report_url,
             'motionGroups': _to_motion_groups_doc(plenary.motion_groups),
-            'is_final': False  # TODO: make sure this has the correct value
+            'is_final': plenary.id in final_plenary_ids
         }
 
         response = self.es.index(index="plenaries", id=doc["id"], body=doc)
@@ -146,19 +146,19 @@ class Publisher():
         self.motions_repo = motions_repo
         self.publishing_data = PublishingData(politicians, summaries_by_id, votes_by_id)
 
-    def publish(self, plenaries):
+    def publish(self, plenaries, final_plenary_ids):
         self._publish_motions(plenaries)
-        self._publish_plenaries(plenaries)
+        self._publish_plenaries(plenaries, final_plenary_ids)
 
     def _publish_motions(self, plenaries):
         for plenary in plenaries:
             for mg in plenary.motion_groups:
                 self.motions_repo.upsert_motion_group(self.publishing_data, plenary, mg)
 
-    def _publish_plenaries(self, plenaries):
+    def _publish_plenaries(self, plenaries, final_plenary_ids):
         # TODO: document structure in elastic
         for plenary in plenaries:
-            self.plenary_repo.upsert_plenary(plenary)
+            self.plenary_repo.upsert_plenary(plenary, final_plenary_ids)
 
 
 def _to_motion_groups_doc(motion_groups):

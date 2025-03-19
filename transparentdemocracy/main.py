@@ -50,29 +50,22 @@ class Application:
         Dekamer.be publishes plenary reports in a preliminary version first, and it may take a few weeks until the
         preliminary version is replaced by a final version.
         """
-        ### TODO: this returns too much, all plenaries are returned instead of only the ones that aren't final
         recent_reports = self.de_kamer.find_recent_reports()
-
-        ids = [report[0] for report in recent_reports]
-
+        ids = [report.id for report in recent_reports]
         status_by_id = self.plenary_repository.get_statuses(ids)
-
         to_process = []
-
         for report in recent_reports:
-            plenary_id, href, is_final = report
-
-            if plenary_id not in status_by_id:
+            if report.id not in status_by_id:
                 raise Exception("status wasn't returned by plenary_repository")
 
-            if status_by_id[plenary_id]:
-                logger.info(f"{plenary_id} is already final in elastic")
+            if status_by_id[report.id]:
+                logger.info(f"{report.id} is already final in elastic")
                 continue
 
-            to_process.append(plenary_id)
+            to_process.append(report)
 
         logger.info(f"plenaries to process: {to_process}")
-        return sorted(to_process)
+        return sorted(to_process, key=lambda p: p.id)
 
     def download_plenary_reports(self, plenary_ids: List[str], force_overwrite=True):
         self.de_kamer.download_plenary_reports(plenary_ids, force_overwrite)
@@ -96,7 +89,7 @@ class Application:
         urls = set([url for ref in document_references for url in ref.sub_document_pdf_urls(self.config.legislature)])
         return [os.path.basename(url)[:-4] for url in urls]
 
-    def publish_to_bonsai(self, plenaries, votes) -> None:
+    def publish_to_bonsai(self, plenaries, votes, final_plenary_ids) -> None:
         document_references = self.get_document_references(plenaries)
         document_ids = self.get_document_ids_from_references(document_references)
 
@@ -112,7 +105,7 @@ class Application:
 
         # Create and run publisher
         publisher = Publisher(self.config, self.plenary_repository, self.motions_repository, politicians, summaries_by_id, votes_by_id)
-        publisher.publish(plenaries)
+        publisher.publish(plenaries, final_plenary_ids)
 
     def extract_text_from_documents(self, document_references):
         document_ids = self.get_document_ids_from_references(document_references)
@@ -185,7 +178,8 @@ class Application:
                     logger.info(f"document {document_id} uploading summary")
                     self._upload_summary(document_id)
                 else:
-                    logger.info(f"document {document_id} has no text or summary. Will download pdf, extract text, upload text, generate summary and upload summmary")
+                    logger.info(
+                        f"document {document_id} has no text or summary. Will download pdf, extract text, upload text, generate summary and upload summmary")
                     logger.info(f"document {document_id} downloading pdf")
                     self._download_document_pdf(document_id)
                     logger.info(f"document {document_id} extracting text from pdf")
@@ -302,17 +296,24 @@ def main():
 
     # this is only needed when there are changes to the voters.
     # in the github pipeline we can just always run it?
-    app.update_politicians()
+    # app.update_politicians()
     # return
 
-    plenary_ids_to_process = app.determine_plenaries_to_process()
+    plenaries_to_process = app.determine_plenaries_to_process()
+    final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
+    plenary_ids_to_process = [p.id for p in plenaries_to_process]
+
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
+
+    if os.environ.get("INTERACTIVE", "true") == "true":
+        input("Press enter to continue")
 
     app.download_plenary_reports(plenary_ids_to_process, False)
 
     report_filenames = [config.plenary_html_input_path("ip%03sx.html" % id[id.index("_") + 1:]) for id in plenary_ids_to_process]
 
     plenaries, votes, problems = extract_plenary_reports(config, report_filenames)
+
     link_motions_with_proposals(plenaries)
 
     # TODO this writes just the plenaries as one big json file (no document summaries)
@@ -333,7 +334,11 @@ def main():
     # with open(app.config.documents_summaries_json_output_path(), 'r', encoding="utf-8") as f:
     #    summaries = json.load(f)
 
-    app.publish_to_bonsai(plenaries, votes)
+    if os.environ.get("INTERACTIVE", "true") == "true":
+        print([p.id for p in plenaries])
+        input("Press enter to publish these plenaries to Bonsai")
+
+    app.publish_to_bonsai(plenaries, votes, final_plenary_ids)
 
 
 if __name__ == "__main__":
