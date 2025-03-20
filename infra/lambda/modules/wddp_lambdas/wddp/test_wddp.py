@@ -26,23 +26,6 @@ class WddpTest(unittest.TestCase):
         self.assertEqual(response['statusCode'], 200)
         self.assertEqual('motions found using , None, 2025-01-18, 0', response['body'])
 
-    def test_search_motions_no_params_with_auth(self):
-        """ without authentication you don't get back the most recent results. Results are minimum 2 weeks old. """
-        setup_test()
-
-        event = {
-            'headers': {
-                'Authorization': 'Bearer valid_id_token'
-            },
-            'httpMethod': 'POST',
-            "queryStringParameters": {
-            },
-            'body': json.dumps({'page': 9})
-        }
-        response = search_motions(event, None)
-        self.assertEqual(response['statusCode'], 200)
-        self.assertEqual('motions found using , None, 2025-02-01, 0', response['body'])
-
     def test_search_motions_without_auth(self):
         """ without authentication you don't get back the most recent results. Results are minimum 2 weeks old. """
         setup_test()
@@ -62,13 +45,30 @@ class WddpTest(unittest.TestCase):
         self.assertEqual(response['statusCode'], 200)
         self.assertEqual('motions found using somequery, 2025-01-02, 2025-01-18, 9', response['body'])
 
+    def test_search_motions_no_params_with_auth(self):
+        """ without authentication you don't get back the most recent results. Results are minimum 2 weeks old. """
+        setup_test()
+
+        event = {
+            'headers': {
+                'authorization': 'Bearer valid_id_token'
+            },
+            'httpMethod': 'POST',
+            "queryStringParameters": {
+            },
+            'body': json.dumps({'page': 9})
+        }
+        response = search_motions(event, None)
+        self.assertEqual(response['statusCode'], 200)
+        self.assertEqual('motions found using , None, 2025-02-01, 0', response['body'])
+
     def test_search_motions_with_valid_auth(self):
         """ with valid authentication there is no restriction on how recent your data can be """
         setup_test()
 
         event = {
             "headers": {
-                "Authorization": "Bearer valid_id_token"
+                "authorization": "Bearer valid_id_token"
             },
             "queryStringParameters": {
                 "q": "somequery",
@@ -89,7 +89,7 @@ class WddpTest(unittest.TestCase):
 
         event = {
             "headers": {
-                "Authorization": "Bearer THIS_TOKEN_IS_INVALID"
+                "authorization": "Bearer THIS_TOKEN_IS_INVALID"
             },
             "queryStringParameters": {
                 "q": "somequery",

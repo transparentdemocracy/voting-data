@@ -7,6 +7,11 @@ from firebase_admin.auth import InvalidIdTokenError
 
 from auth import TokenVerifier
 
+import logging
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
 DEFAULT_TIMEOUT = 30
 PAGE_SIZE = 100
 
@@ -48,6 +53,7 @@ class Rest:
 
     def handle_search_motions(self, event, context):
         authenticated, response = self.check_token(event)
+        logger.info("authenticated: %s", authenticated)
         if response is not None:
             return response
 
@@ -60,13 +66,15 @@ class Rest:
         max_date = None if max_date_param is None else datetime.date.fromisoformat(max_date_param)
         page = int(params.get('page', "0"))
 
+        logger.info("params: %s/%s/%s/%s", q, page, min_date, max_date)
+
         return {
             'statusCode': 200,
             'body': self.app.search_motions(q, min_date, max_date, page, authenticated)
         }
 
     def check_token(self, event):
-        authz_header = event['headers'].get('Authorization', None)
+        authz_header = event['headers'].get('authorization', None)
         if authz_header is None:
             return False, None
         if not authz_header.startswith("Bearer "):
@@ -78,7 +86,7 @@ class Rest:
         token = authz_header.split(" ", 1)[1]
         try:
             self.token_verifier.verify(token)
-        except InvalidIdTokenError:
+        except InvalidIdTokenError as err:
             return False, {
                 'statusCode': 403,
                 'body': "invalid id token"
@@ -102,6 +110,7 @@ def create_rest(
     host=os.environ.get("ES_HOST", "transparent-democrac-6644447145.eu-west-1.bonsaisearch.net:443"),
     secret=os.environ.get("ES_AUTH", None),
     service_account_info=os.environ.get("FIREBASE_SERVICE_ACCOUNT_INFO", None)):
+
     token_verifier = None if service_account_info is None else TokenVerifier(json.loads(service_account_info))
     time_provider = TimeProvider()
     repo = ElasticRepo(host, secret)
@@ -152,6 +161,7 @@ def create_query(date_field, page, q, min_date=None, max_date=None):
     }
 
     conditions = []
+    q = q.strip() if q else ""
     if q != "":
         conditions.append({"simple_query_string": {"query": q, "fields": ["*"], "default_operator": "and"}})
         # conditions.append({"multi_match": {
