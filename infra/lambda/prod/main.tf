@@ -23,4 +23,6 @@ module "wddp_lambdas" {
     environment = var.environment
     es_auth = var.wddp_prod_es_auth
     cors_allow_origins = var.cors_allow_origins
+    wddp_firebase_service_account_base64 = var.wddp_firebase_service_account_base64
+
 }
