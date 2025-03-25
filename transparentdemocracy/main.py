@@ -1,7 +1,9 @@
 import asyncio
+import dataclasses
 import json
 import logging
 import os
+from collections import Counter
 from collections import defaultdict
 from typing import List
 
@@ -16,6 +18,7 @@ from transparentdemocracy.documents.download import download_referenced_document
 from transparentdemocracy.documents.references import parse_document_reference
 from transparentdemocracy.documents.summarize import summarize_document_texts, DocumentSummarizer
 from transparentdemocracy.infra.dekamer import DeKamerGateway
+from transparentdemocracy.model import Vote, VoteType, Plenary
 from transparentdemocracy.plenaries.extraction import extract_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 from transparentdemocracy.plenaries.serialization import write_votes_json
@@ -257,6 +260,37 @@ class Application:
         specs = {ref for ref, loc in collect_document_references(plenaries)}
         return [parse_document_reference(spec) for spec in specs]
 
+    def create_voting_reports(self, votes):
+        votes_by_voting_id = defaultdict(list)
+
+        for vote in votes:
+            votes_by_voting_id[vote.voting_id].append(vote)
+
+        # for each group of votes, create a report that counts votes by politician party and by vote type
+        for voting_id, votes in votes_by_voting_id.items():
+            report = self.create_voting_report(voting_id, votes)
+
+        return {voting_id: self.create_voting_report(voting_id, vote_group) for voting_id, vote_group in votes_by_voting_id.items()}
+
+    def create_voting_report(self, voting_id, votes):
+        """ creates a report that counts votes by politician party and by vote type """
+        # group votes by party and vote type
+        votes_by_party = defaultdict(list)
+        for vote in votes:
+            votes_by_party[vote.politician.party].append(vote)
+
+        return VotingReport(voting_id, votes_by_party)
+
+
+@dataclasses.dataclass
+class VotingReport:
+    voting_id: str
+    parties: dict[str, list[Vote]]
+
+    def get_count_by_party(self) -> dict[str, Counter[VoteType]]:
+        return {party: Counter([vote.vote_type for vote in party_votes])
+                for party, party_votes in self.parties.items()}
+
 
 def create_application(config: Config, env: Environments):
     es_client = create_elastic_client(env, config)
@@ -301,7 +335,12 @@ def main():
 
     plenaries_to_process = app.determine_plenaries_to_process()
     final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
+    print("Final:", final_plenary_ids)
+    print("Non-final:", [p.id for p in plenaries_to_process if not p.is_final])
     plenary_ids_to_process = [p.id for p in plenaries_to_process]
+
+    # final_plenary_ids = []
+    # plenary_ids_to_process = ['55_019']
 
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
 
@@ -334,11 +373,31 @@ def main():
     # with open(app.config.documents_summaries_json_output_path(), 'r', encoding="utf-8") as f:
     #    summaries = json.load(f)
 
+    voting_reports = app.create_voting_reports(votes)
+    print_interesting_votes(plenaries, voting_reports)
+
     if os.environ.get("INTERACTIVE", "true") == "true":
         print([p.id for p in plenaries])
         input("Press enter to publish these plenaries to Bonsai")
-
     app.publish_to_bonsai(plenaries, votes, final_plenary_ids)
+
+
+def print_interesting_votes(plenaries: List[Plenary], voting_reports: dict[str, VotingReport]):
+    # TODO: we should also print the deep link to the motion on wddp website
+    print("Interesting votes are votes where at least one party has different vote types")
+    all_motion_groups = [mg for plenary in plenaries for mg in plenary.motion_groups]
+
+    # TODO: group this output by plenary id so we can easily identify interesting votes for the most recent plenaries
+    for voting_id, report in voting_reports.items():
+        counts = report.get_count_by_party()
+        interesting_counts = {party: counter for party, counter in counts.items() if len(counter) > 1}
+        if interesting_counts:
+            motion_group = next((mg for mg in all_motion_groups if next((m for m in mg.motions if m.voting_id == voting_id), None)), None)
+            print(f"# voting report for {voting_id}")
+            if motion_group is not None:
+                print("# Motion group: " + f"https://wddp-dev.pages.dev/motions/{motion_group.id}")
+            for party, counter in interesting_counts.items():
+                print(party, counter)
 
 
 if __name__ == "__main__":
