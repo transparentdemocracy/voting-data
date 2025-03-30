@@ -155,7 +155,7 @@ class VotingReport:
         return {party: Counter([vote.vote_type for vote in party_votes])
                 for party, party_votes in self.parties.items()}
 
-    def total_votes(self):
+    def total_votes(self) -> float:
         return sum([len(party_votes) for party_votes in self.parties.values()])
 
     def total_yes_votes(self):

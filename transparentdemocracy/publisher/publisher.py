@@ -64,6 +64,11 @@ class MotionElasticRepository:
         print(response)
 
     def upsert_motion_group(self, publishing_data, plenary, mg):
+        doc = self._motion_group_to_dict(publishing_data, plenary, mg)
+        response = self.es.index(index="motions", id=doc["id"], body=doc)
+        print(response)
+
+    def _motion_group_to_dict(self, publishing_data, plenary, mg):
         motions = [_to_motion_read_model(self.config, publishing_data, plenary, mg, m) for m in mg.motions]
         motions = [m for m in motions if m is not None]
         if len(motions) == 0:
@@ -80,9 +85,7 @@ class MotionElasticRepository:
             'votingDate': plenary.date.isoformat()
         }
 
-        response = self.es.index(index="motions", id=doc["id"], body=doc)
-        print(response)
-
+        return doc
 
 class PlenaryElasticRepository:
     def __init__(self, config, elastic_client: Elasticsearch):
@@ -210,7 +213,7 @@ def _to_motion_read_model(config, publishing_data: PublishingData, p: Plenary, _
         "noVotes": no_votes,
         "absVotes": abs_votes,
         "newDocumentReference": doc_reference,
-        "votingDate": p.date,
+        "votingDate": p.date.isoformat(),
         "votingResult": voting_result,
     }
     return mdoc
@@ -221,7 +224,7 @@ def to_votes(voting_report: VotingReport, vote_type: VoteType):
 
     number_of_votes = voting_report.count_votes_by_type(vote_type)
     vdoc["nrOfVotes"] = number_of_votes
-    vdoc["votePercentage"] = 0 if voting_report.total_votes() == 0 else 100.0 * number_of_votes / voting_report.total_votes()
+    vdoc["votePercentage"] = 0 if voting_report.total_votes() == 0 else (100.0 * number_of_votes / voting_report.total_votes())
 
     votes_by_party = defaultdict(int)
     for party, votes in voting_report.parties.items():
@@ -232,7 +235,7 @@ def to_votes(voting_report: VotingReport, vote_type: VoteType):
         vdoc["partyVotes"].append({
             'partyName': party,
             'numberOfVotes': votes_by_party[party],
-            'votePercentage': 100.0 * votes_by_party[party] / len(votes)
+            'votePercentage': 100.0 * votes_by_party[party] / voting_report.total_votes()
         })
 
     return vdoc

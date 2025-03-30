@@ -13,6 +13,7 @@ from transparentdemocracy.model import Politician
 
 logger = logging.getLogger(__name__)
 
+
 class Politicians:
     def __init__(self, politicians):
         if not politicians:
@@ -78,12 +79,6 @@ def simplify_actor(config, actor):
 
 
 def get_party(config, actor):
-    # Temproary workaround because https://data.dekamer.be/v0/actr/8051 is not up to date yet
-    if config.legislature == "56" and actor["id"] == "8051":
-        return "Vooruit"
-    if config.legislature == "56" and actor["id"] == "7921": # Niels Tas doesn't have the role we're looking for
-        return "Vooruit"
-
     def is_party_member(role):
         return role['functionSummary']['fullNameNL'] == "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid"
 
@@ -95,19 +90,43 @@ def get_party(config, actor):
     leg_roles = get_current_leg_roles(config, actor)
     roles = membership_roles + leg_roles
 
-    party = next(map(lambda role: get_party_from_role(config, role), roles), None)
+    parties = [get_party_from_role(config, role) for role in roles]
+    parties = [party for party in parties if party is not None]
 
-    if party is None:
-        logger.info("could not determine party for %s %s %s", actor["id"], actor["name"], actor["fName"])
-        return "unknown"
+    if parties[0] == "PVDA-PTB":
+        return "PTB-PVDA"
 
-    return party
+    if parties[0] == "CD&V":
+        return "cd&v"
+
+    if len(parties) == 0:
+        raise Exception(f"no party name found for {actor['id']}, {actor['name']}, {actor['fName']}")
+
+    return parties[0]
 
 def get_party_from_role(config, role):
-    match = opvolger_role_pattern(config.legislature).match(role['ouSummary']['fullNameNL'])
+    # TODO: Sometimes the different patterns yield different results.
+    # For now we'll just assume going over the patterns in order will be sufficient
+    # but some normalization is still needed
+
+    # case: Open VLD & MR
+
+    role_name = role['ouSummary']['fullNameNL']
+
+    match = opvolger_role_pattern(config.legislature).match(role_name)
     if match:
         return match.group(1)
+
+    match = fractie_role_pattern(config.legislature).match(role_name)
+    if match:
+        return match.group(1)
+
+    match = bxl_role_pattern(config.legislature).match(role_name)
+    if match:
+        return match.group(1)
+
     return None
+
 
 def get_relevant_actors(config, actors_path, pattern="*.json"):
     actor_files = glob.glob(os.path.join(actors_path, pattern))
@@ -150,13 +169,24 @@ def get_current_leg_roles(config, actor):
 
     roles = actor['role']
     plenum_roles = [role for role in roles if role_matches(role, plenum_role_pattern(config.legislature))]
+    fractie_roles = [role for role in roles if role_matches(role, fractie_role_pattern(config.legislature))]
+    bxl_roles = [role for role in roles if role_matches(role, bxl_role_pattern(config.legislature))]
     opvolger_roles = [role for role in roles if role_matches(role, opvolger_role_pattern(config.legislature))]
 
-    return plenum_roles + opvolger_roles
+    return plenum_roles + fractie_roles + bxl_roles + opvolger_roles
 
 
 def plenum_role_pattern(legislature):
     return re.compile(f'/Wetgevende macht/Kvvcr/Leg {re.escape(legislature)}/Plenum/PLENUMVERGADERING')
+
+
+def fractie_role_pattern(legislature):
+    return re.compile(f'/Wetgevende macht/Kvvcr/Leg {re.escape(legislature)}/Politieke fracties/Erkende/(.*)')
+
+
+def bxl_role_pattern(legislature):
+    return re.compile(f'/Verkiezing/Kamer - Leg {re.escape(legislature)} \\(.*\\)/Brussel-Hoofdstad/(.*)/Titelvoerenden')
+
 
 def opvolger_role_pattern(legislature):
     return re.compile(f'/Verkiezing/Kamer - Leg {re.escape(legislature)} \\(.*\\).*/([^/]*)/Opvolgers')

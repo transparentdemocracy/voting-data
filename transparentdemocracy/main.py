@@ -255,7 +255,7 @@ class Application:
         else:
             logger.warning(f"Missing text file: {text_path}")
 
-    def update_politicians(self, force_overwrite=False):
+    def update_politicians(self, force_overwrite=False, download_actors=True):
         politicians_json = self.config.politicians_json_output_path("politicians.json")
         if os.path.exists(politicians_json) and not force_overwrite:
             logger.info(f"{politicians_json} already exists and force_overwrite is False")
@@ -264,12 +264,18 @@ class Application:
         if os.path.exists(politicians_json):
             logger.info(f"{politicians_json} doesn't exist. Creating it now.")
 
-        asyncio.run(self.actor_gateway.download_actors(max_pages=1000))
+        if download_actors:
+            asyncio.run(self.actor_gateway.download_actors(max_pages=1000))
 
         serializer = PoliticianJsonSerializer(politicians_json)
         extractor = PoliticianExtractor(self.config)
 
         politicians = extractor.extract_politicians()
+
+        print("Parties:")
+        parties = sorted(set([p.party for p in politicians.politicians]))
+        for party in parties:
+            print(f" - {party}")
 
         serializer.serialize_politicians(politicians.politicians)
 
@@ -322,6 +328,9 @@ def create_application(config: Config, env: Environments):
 
 
 def create_elastic_client(env: Environments, config: Config):
+    if env == Environments.TEST:
+        return Elasticsearch("http://test.does.not.exist:9200")
+
     if env == Environments.LOCAL:
         return Elasticsearch("http://localhost:9200")
 
@@ -341,13 +350,13 @@ def create_elastic_client(env: Environments, config: Config):
 def main():
     """Extract interesting insights from any plenary reports that have not yet been processed."""
 
-    env = Environments(os.environ.get('WDDP_ENVIRONMENT', 'prod'))
+    env = Environments(os.environ.get('WDDP_ENVIRONMENT', 'local'))
     config = _create_config(env, os.environ.get('LEGISLATURE', '56'))
     app = create_application(config, env)
 
     # this is only needed when there are changes to the voters.
     # in the github pipeline we can just always run it?
-    #app.update_politicians(True)
+    app.update_politicians(True, False)
 
     # plenaries_to_process = app.determine_plenaries_to_process()
     # final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
@@ -355,11 +364,12 @@ def main():
     # print("Non-final:", [p.id for p in plenaries_to_process if not p.is_final])
     # plenary_ids_to_process = [p.id for p in plenaries_to_process]
 
-    # final_plenary_ids = []
-    # plenary_ids_to_process = [f"56_{i:03}" for i in range(1, 34)]
+    #plenaries_to_process = app.determine_plenaries_to_process()
+    #final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
+    #plenary_ids_to_process = [p.id for p in plenaries_to_process]
 
     final_plenary_ids = []
-    plenary_ids_to_process = [f"56_037"]
+    plenary_ids_to_process = ["56_037"]
 
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
 

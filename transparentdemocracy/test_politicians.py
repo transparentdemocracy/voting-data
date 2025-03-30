@@ -65,3 +65,25 @@ class TestPoliticians(unittest.TestCase):
         self.assertEqual("Leybaert Joppe", actual.full_name)
         self.assertEqual("PVDA", actual.party)
 
+    def test_party_names_not_null_for_christophe_bombled(self):
+        politicians = PoliticianExtractor(self.config56).extract_politicians(pattern="6934.json")
+
+        actual = politicians.get_by_name("Bombled Christophe")
+
+        self.assertEqual("Bombled Christophe", actual.full_name)
+        self.assertEqual("MR", actual.party)
+
+    # TODO: test for Philippe Close (bxl)
+    # TODO: test for 7133, Boukili, Nabil: {'PVDA-PTB', 'PTB-PVDA'}
+    def test_politicians_leg_56_no_unknown_parties(self):
+        politicians = PoliticianExtractor(self.config56).extract_politicians(pattern="????.json")
+
+        for politician in politicians.politicians_by_name.values():
+            self.assertIsNotNone(politician.party, f"Politician {politician.full_name} has no party")
+            self.assertNotEquals("unknown", politician.party)
+
+    def test_party_names(self):
+        politicians = PoliticianExtractor(self.config56).extract_politicians(pattern="????.json")
+        party_names = sorted(set([p.party for p in politicians.politicians_by_id.values()]))
+
+        self.assertEqual(['MR', 'PVDA', 'Vooruit'], party_names)
