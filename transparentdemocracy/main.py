@@ -372,8 +372,6 @@ def main():
 
     plenaries, votes, problems = extract_plenary_reports(config, report_filenames)
 
-    app.check_summaries(plenaries)
-
     voting_reports = app.create_voting_reports(votes)
 
     link_motions_with_proposals(plenaries)
@@ -387,6 +385,8 @@ def main():
     # The end result of this is summary json files (one per document)
     # It won't do any re-summarization and checks local disk and google drive to avoid rework
     app.generate_summaries(plenaries)
+
+    app.check_summaries(plenaries)
 
     logger.info("### PROBLEMS ###")
     for p in problems:
