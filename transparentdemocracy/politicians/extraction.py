@@ -3,6 +3,7 @@ import itertools
 import json
 import logging
 import os
+import re
 
 import Levenshtein
 from tqdm.asyncio import tqdm
@@ -11,7 +12,6 @@ from transparentdemocracy.config import Config
 from transparentdemocracy.model import Politician
 
 logger = logging.getLogger(__name__)
-
 
 class Politicians:
     def __init__(self, politicians):
@@ -81,6 +81,8 @@ def get_party(config, actor):
     # Temproary workaround because https://data.dekamer.be/v0/actr/8051 is not up to date yet
     if config.legislature == "56" and actor["id"] == "8051":
         return "Vooruit"
+    if config.legislature == "56" and actor["id"] == "7921": # Niels Tas doesn't have the role we're looking for
+        return "Vooruit"
 
     def is_party_member(role):
         return role['functionSummary']['fullNameNL'] == "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid"
@@ -90,23 +92,22 @@ def get_party(config, actor):
         return leg in role["ouSummary"]["fullNameNL"]
 
     membership_roles = list(filter(lambda r: is_current_leg(r) and is_party_member(r), actor['role']))
+    leg_roles = get_current_leg_roles(config, actor)
+    roles = membership_roles + leg_roles
 
-    if len(membership_roles) == 0:
+    party = next(map(lambda role: get_party_from_role(config, role), roles), None)
+
+    if party is None:
         logger.info("could not determine party for %s %s %s", actor["id"], actor["name"], actor["fName"])
         return "unknown"
 
-    faction_full = membership_roles[-1]["ouSummary"]["fullNameNL"]
-    recognized_prefix = f"/Wetgevende macht/Kvvcr/Leg {config.legislature}/Politieke fracties/Erkende/"
-    non_recognized_prefix = f"/Wetgevende macht/Kvvcr/Leg {config.legislature}/Politieke fracties/Niet erkende/"
+    return party
 
-    if faction_full.startswith(recognized_prefix):
-        return faction_full[len(recognized_prefix):]
-
-    if faction_full.startswith(non_recognized_prefix):
-        return faction_full[len(non_recognized_prefix):]
-
-    raise Exception(f"could not determine faction for {actor['name']} {actor['fName']}")
-
+def get_party_from_role(config, role):
+    match = opvolger_role_pattern(config.legislature).match(role['ouSummary']['fullNameNL'])
+    if match:
+        return match.group(1)
+    return None
 
 def get_relevant_actors(config, actors_path, pattern="*.json"):
     actor_files = glob.glob(os.path.join(actors_path, pattern))
@@ -120,9 +121,10 @@ def get_relevant_actors(config, actors_path, pattern="*.json"):
 
         actor = actor_json['items'][0]
 
-        role = get_current_leg_role(config, actor)
-        if role is None:
+        roles = get_current_leg_roles(config, actor)
+        if not roles:
             continue
+
         actors.append(actor)
 
     logger.info("Returning %d relevant actors out of %d", len(actors), len(actor_files))
@@ -142,18 +144,19 @@ def json_dict_to_politician(data):
     )
 
 
-def get_current_leg_role(config, actor):
-    if actor["id"] == "8051":
-        return "Vooruit"
+def get_current_leg_roles(config, actor):
+    def role_matches(r, role_pattern: re.Pattern):
+        return re.match(role_pattern, r['ouSummary']['fullNameNL'])
 
-    plenum_fullname = f'/Wetgevende macht/Kvvcr/Leg {config.legislature}/Plenum/PLENUMVERGADERING'
+    roles = actor['role']
+    plenum_roles = [role for role in roles if role_matches(role, plenum_role_pattern(config.legislature))]
+    opvolger_roles = [role for role in roles if role_matches(role, opvolger_role_pattern(config.legislature))]
 
-    def has_current_leg_plenum(r):
-        return r['ouSummary']['fullNameNL'] == plenum_fullname
+    return plenum_roles + opvolger_roles
 
-    roles = list(filter(has_current_leg_plenum, actor['role']))
 
-    if len(roles) == 0:
-        return None
+def plenum_role_pattern(legislature):
+    return re.compile(f'/Wetgevende macht/Kvvcr/Leg {re.escape(legislature)}/Plenum/PLENUMVERGADERING')
 
-    return roles[-1]
+def opvolger_role_pattern(legislature):
+    return re.compile(f'/Verkiezing/Kamer - Leg {re.escape(legislature)} \\(.*\\).*/([^/]*)/Opvolgers')

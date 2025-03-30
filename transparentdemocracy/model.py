@@ -6,7 +6,7 @@ It is split into two parts, which in the end result in two datasets:
 - plenaries and their topics: proposals, motions, interpellations.
 - votes cast during plenaries: by which politician, on which motion, which vote (yes/no/abstention).
 """
-
+from collections import Counter
 from dataclasses import dataclass
 from datetime import date
 from enum import Enum
@@ -144,3 +144,26 @@ class Vote:
     politician: Politician
     voting_id: str
     vote_type: VoteType
+
+
+@dataclass
+class VotingReport:
+    voting_id: str
+    parties: dict[str, list[Vote]]
+
+    def get_count_by_party(self) -> dict[str, Counter[VoteType]]:
+        return {party: Counter([vote.vote_type for vote in party_votes])
+                for party, party_votes in self.parties.items()}
+
+    def total_votes(self):
+        return sum([len(party_votes) for party_votes in self.parties.values()])
+
+    def total_yes_votes(self):
+        return self.count_votes_by_type(VoteType.YES)
+
+    def total_no_votes(self):
+        return self.count_votes_by_type(VoteType.NO)
+
+    def count_votes_by_type(self, type):
+        return sum([len([vote for vote in party_votes if vote.vote_type == type])
+                    for party_votes in self.parties.values()])

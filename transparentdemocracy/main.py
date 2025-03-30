@@ -1,13 +1,12 @@
 import asyncio
-import dataclasses
 import json
 import logging
 import os
-from collections import Counter
 from collections import defaultdict
 from typing import List
 
 from elasticsearch.client import Elasticsearch
+from torchgen.native_function_generation import self_to_out_signature
 
 from transparentdemocracy.actors.actors import ActorHttpGateway
 from transparentdemocracy.config import Config, _create_config, Environments
@@ -18,7 +17,7 @@ from transparentdemocracy.documents.download import download_referenced_document
 from transparentdemocracy.documents.references import parse_document_reference
 from transparentdemocracy.documents.summarize import summarize_document_texts, DocumentSummarizer
 from transparentdemocracy.infra.dekamer import DeKamerGateway
-from transparentdemocracy.model import Vote, VoteType, Plenary
+from transparentdemocracy.model import VoteType, Plenary, VotingReport
 from transparentdemocracy.plenaries.extraction import extract_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 from transparentdemocracy.plenaries.serialization import write_votes_json
@@ -92,23 +91,41 @@ class Application:
         urls = set([url for ref in document_references for url in ref.sub_document_pdf_urls(self.config.legislature)])
         return [os.path.basename(url)[:-4] for url in urls]
 
-    def publish_to_bonsai(self, plenaries, votes, final_plenary_ids) -> None:
+    def publish_to_bonsai(self, plenaries, voting_reports, final_plenary_ids) -> None:
         document_references = self.get_document_references(plenaries)
         document_ids = self.get_document_ids_from_references(document_references)
 
         politicians = load_politicians(self.config)
 
-        # Prepare data structures
-        votes_by_id = defaultdict(list)
-        for vote in votes:
-            votes_by_id[vote.voting_id].append(vote)
+        summaries_by_id = {}
+        for doc_id in document_ids:
+            aummary_path = self.document_id_to_local_summary_file(doc_id)
+            if os.path.exists(aummary_path):
+                print("reading summary from ", aummary_path)
+                summaries_by_id[doc_id] = json.load(open(aummary_path, 'r'))
 
-        summaries_by_id = {doc_id: json.load(open(self.document_id_to_local_summary_file(doc_id), 'r')) for doc_id in document_ids if
-                           os.path.exists(self.document_id_to_local_summary_file(doc_id))}
 
         # Create and run publisher
-        publisher = Publisher(self.config, self.plenary_repository, self.motions_repository, politicians, summaries_by_id, votes_by_id)
+        publisher = Publisher(self.config, self.plenary_repository, self.motions_repository, politicians, summaries_by_id, voting_reports)
         publisher.publish(plenaries, final_plenary_ids)
+
+    def print_interesting_votes(self, plenaries: List[Plenary], voting_reports: dict[str, VotingReport]):
+        print("Interesting votes are votes where at least one party has different vote types")
+        all_motion_groups = [mg for plenary in plenaries for mg in plenary.motion_groups]
+
+        # TODO: group this output by plenary id so we can easily identify interesting votes for the most recent plenaries
+        for voting_id, report in voting_reports.items():
+            counts = report.get_count_by_party()
+            interesting_counts = {party: counter for party, counter in counts.items() if counter.get(VoteType.NO, 0) > 0 and counter.get(VoteType.YES, 0) > 0}
+            if interesting_counts:
+                motion_group = next((mg for mg in all_motion_groups if next((m for m in mg.motions if m.voting_id == voting_id), None)), None)
+                print(f"# voting report for {voting_id}")
+                if motion_group is not None:
+                    print("# Motion group: " + f"https://wddp-dev.pages.dev/motions/{motion_group.id}")
+                for party, counter in interesting_counts.items():
+                    print("       -", party, counter)
+                    for vote in sorted(report.parties[party], key=lambda v: (str(v.vote_type), v.politician.full_name)):
+                        print(vote.vote_type, vote.politician.full_name)
 
     def extract_text_from_documents(self, document_references):
         document_ids = self.get_document_ids_from_references(document_references)
@@ -281,15 +298,15 @@ class Application:
 
         return VotingReport(voting_id, votes_by_party)
 
+    def check_summaries(self, plenaries):
+        doc_refs = self.get_document_references(plenaries)
+        document_ids = self.get_document_ids_from_references(doc_refs)
 
-@dataclasses.dataclass
-class VotingReport:
-    voting_id: str
-    parties: dict[str, list[Vote]]
-
-    def get_count_by_party(self) -> dict[str, Counter[VoteType]]:
-        return {party: Counter([vote.vote_type for vote in party_votes])
-                for party, party_votes in self.parties.items()}
+        for doc_id in document_ids:
+            summary_path = self.document_id_to_local_summary_file(doc_id)
+            print(f"checking {summary_path}")
+            with open(summary_path, 'r') as summary_file:
+                json.load(summary_file)
 
 
 def create_application(config: Config, env: Environments):
@@ -330,17 +347,19 @@ def main():
 
     # this is only needed when there are changes to the voters.
     # in the github pipeline we can just always run it?
-    # app.update_politicians()
-    # return
+    #app.update_politicians(True)
 
-    plenaries_to_process = app.determine_plenaries_to_process()
-    final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
-    print("Final:", final_plenary_ids)
-    print("Non-final:", [p.id for p in plenaries_to_process if not p.is_final])
-    plenary_ids_to_process = [p.id for p in plenaries_to_process]
+    # plenaries_to_process = app.determine_plenaries_to_process()
+    # final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
+    # print("Final:", final_plenary_ids)
+    # print("Non-final:", [p.id for p in plenaries_to_process if not p.is_final])
+    # plenary_ids_to_process = [p.id for p in plenaries_to_process]
 
     # final_plenary_ids = []
-    # plenary_ids_to_process = ['55_019']
+    # plenary_ids_to_process = [f"56_{i:03}" for i in range(1, 34)]
+
+    final_plenary_ids = []
+    plenary_ids_to_process = [f"56_037"]
 
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
 
@@ -352,6 +371,10 @@ def main():
     report_filenames = [config.plenary_html_input_path("ip%03sx.html" % id[id.index("_") + 1:]) for id in plenary_ids_to_process]
 
     plenaries, votes, problems = extract_plenary_reports(config, report_filenames)
+
+    app.check_summaries(plenaries)
+
+    voting_reports = app.create_voting_reports(votes)
 
     link_motions_with_proposals(plenaries)
 
@@ -373,31 +396,12 @@ def main():
     # with open(app.config.documents_summaries_json_output_path(), 'r', encoding="utf-8") as f:
     #    summaries = json.load(f)
 
-    voting_reports = app.create_voting_reports(votes)
-    print_interesting_votes(plenaries, voting_reports)
+    app.print_interesting_votes(plenaries, voting_reports)
 
     if os.environ.get("INTERACTIVE", "true") == "true":
         print([p.id for p in plenaries])
         input("Press enter to publish these plenaries to Bonsai")
-    app.publish_to_bonsai(plenaries, votes, final_plenary_ids)
-
-
-def print_interesting_votes(plenaries: List[Plenary], voting_reports: dict[str, VotingReport]):
-    # TODO: we should also print the deep link to the motion on wddp website
-    print("Interesting votes are votes where at least one party has different vote types")
-    all_motion_groups = [mg for plenary in plenaries for mg in plenary.motion_groups]
-
-    # TODO: group this output by plenary id so we can easily identify interesting votes for the most recent plenaries
-    for voting_id, report in voting_reports.items():
-        counts = report.get_count_by_party()
-        interesting_counts = {party: counter for party, counter in counts.items() if len(counter) > 1}
-        if interesting_counts:
-            motion_group = next((mg for mg in all_motion_groups if next((m for m in mg.motions if m.voting_id == voting_id), None)), None)
-            print(f"# voting report for {voting_id}")
-            if motion_group is not None:
-                print("# Motion group: " + f"https://wddp-dev.pages.dev/motions/{motion_group.id}")
-            for party, counter in interesting_counts.items():
-                print(party, counter)
+    app.publish_to_bonsai(plenaries, voting_reports, final_plenary_ids)
 
 
 if __name__ == "__main__":
