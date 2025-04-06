@@ -1,4 +1,3 @@
-import asyncio
 import json
 import logging
 import os
@@ -20,10 +19,10 @@ from transparentdemocracy.model import VoteType, Plenary, VotingReport
 from transparentdemocracy.plenaries.extraction import extract_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 from transparentdemocracy.plenaries.serialization import write_votes_json
-from transparentdemocracy.politicians.extraction import PoliticianExtractor, load_politicians
-from transparentdemocracy.politicians.serialization import PoliticianJsonSerializer
+from transparentdemocracy.politicians.extraction import load_politicians
 from transparentdemocracy.publisher.publisher import PlenaryElasticRepository, Publisher, MotionElasticRepository
 from transparentdemocracy.usecases.determine_plenaries_to_process import DeterminePlenariesToProcess, PlenaryStatus
+from transparentdemocracy.usecases.update_politicians import UpdatePoliticians
 
 logger = logging.getLogger(__name__)
 
@@ -38,6 +37,7 @@ class Application:
                  plenary_repository: PlenaryElasticRepository,
                  motion_repository: MotionElasticRepository,
                  document_repository: GoogleDriveDocumentRepository,
+                 _update_politicians: UpdatePoliticians,
                  _determine_plenaries_to_process: DeterminePlenariesToProcess):
         self.config = config
         self.actor_gateway = actor_gateway
@@ -45,7 +45,11 @@ class Application:
         self.plenary_repository = plenary_repository
         self.motions_repository = motion_repository
         self.document_repository = document_repository
+        self._update_politicians = _update_politicians
         self._determine_plenaries_to_process = _determine_plenaries_to_process
+
+    def update_politicians(self, force_overwrite=False, download_actors=True):
+        self._update_politicians.update_politicians(force_overwrite, download_actors)
 
     def determine_plenaries_to_process(self) -> List[PlenaryStatus]:
         return self._determine_plenaries_to_process.determine_plenaries_to_process()
@@ -187,7 +191,7 @@ class Application:
 
                     text_path = self.document_ids_to_local_txt_path([document_id])[0]
                     if not os.path.exists(text_path):
-                        logger.warn(f"Text extraction failed on {document_id}.")
+                        logger.warning(f"Text extraction failed on {document_id}.")
                         continue
 
                     logger.info(f"document {document_id} uploading text")
@@ -229,35 +233,11 @@ class Application:
         self.document_repository.download_document_summary(document_id)
 
     def _upload_text(self, document_id):
-        text_path = self.document_ids_to_local_txt_path(['56K0742003'])[0]
+        text_path = self.document_ids_to_local_txt_path(document_id)
         if os.path.exists(text_path):
             self.document_repository._upload_text_file(text_path)
         else:
             logger.warning(f"Missing text file: {text_path}")
-
-    def update_politicians(self, force_overwrite=False, download_actors=True):
-        politicians_json = self.config.politicians_json_output_path("politicians.json")
-        if os.path.exists(politicians_json) and not force_overwrite:
-            logger.info(f"{politicians_json} already exists and force_overwrite is False")
-            return
-
-        if not os.path.exists(politicians_json):
-            logger.info(f"{politicians_json} doesn't exist. Creating it now.")
-
-        if download_actors:
-            asyncio.run(self.actor_gateway.download_actors(max_pages=1000))
-
-        serializer = PoliticianJsonSerializer(politicians_json)
-        extractor = PoliticianExtractor(self.config)
-
-        politicians = extractor.extract_politicians()
-
-        print("Parties:")
-        parties = sorted(set([p.party for p in politicians.politicians]))
-        for party in parties:
-            print(f" - {party}")
-
-        serializer.serialize_politicians(politicians.politicians)
 
     def get_document_references(self, plenaries):
         specs = {ref for ref, loc in collect_document_references(plenaries)}
@@ -297,15 +277,18 @@ class Application:
 
 def create_application(config: Config, env: Environments):
     es_client = create_elastic_client(env, config)
+    actor_gateway = ActorHttpGateway(config)
     de_kamer = DeKamerGateway(config)
     plenary_repository = PlenaryElasticRepository(config, es_client)
+
     return Application(
         config,
-        ActorHttpGateway(config),
+        actor_gateway,
         de_kamer,
         plenary_repository,
         MotionElasticRepository(config, es_client),
         GoogleDriveDocumentRepository(config),
+        UpdatePoliticians(config, actor_gateway),
         DeterminePlenariesToProcess(de_kamer, plenary_repository)
     )
 
