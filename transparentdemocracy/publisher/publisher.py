@@ -65,6 +65,8 @@ class MotionElasticRepository:
 
     def upsert_motion_group(self, publishing_data, plenary, mg):
         doc = self._motion_group_to_dict(publishing_data, plenary, mg)
+        if doc is None:
+            return
         response = self.es.index(index="motions", id=doc["id"], body=doc)
         print(response)
 
@@ -73,7 +75,7 @@ class MotionElasticRepository:
         motions = [m for m in motions if m is not None]
         if len(motions) == 0:
             logging.warning("no motions in group %s", mg.id)
-            return
+            return None
 
         doc = {
             'id': mg.id,

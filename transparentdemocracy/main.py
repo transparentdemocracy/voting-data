@@ -261,7 +261,7 @@ class Application:
             logger.info(f"{politicians_json} already exists and force_overwrite is False")
             return
 
-        if os.path.exists(politicians_json):
+        if not os.path.exists(politicians_json):
             logger.info(f"{politicians_json} doesn't exist. Creating it now.")
 
         if download_actors:
@@ -350,7 +350,7 @@ def create_elastic_client(env: Environments, config: Config):
 def main():
     """Extract interesting insights from any plenary reports that have not yet been processed."""
 
-    env = Environments(os.environ.get('WDDP_ENVIRONMENT', 'local'))
+    env = Environments(os.environ.get('WDDP_ENVIRONMENT', Environments.PROD))
     config = _create_config(env, os.environ.get('LEGISLATURE', '56'))
     app = create_application(config, env)
 
@@ -358,18 +358,14 @@ def main():
     # in the github pipeline we can just always run it?
     app.update_politicians(True, False)
 
-    # plenaries_to_process = app.determine_plenaries_to_process()
-    # final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
-    # print("Final:", final_plenary_ids)
-    # print("Non-final:", [p.id for p in plenaries_to_process if not p.is_final])
-    # plenary_ids_to_process = [p.id for p in plenaries_to_process]
+    plenaries_to_process = app.determine_plenaries_to_process()
+    final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
+    print("Final:", final_plenary_ids)
+    print("Non-final:", [p.id for p in plenaries_to_process if not p.is_final])
+    plenary_ids_to_process = [p.id for p in plenaries_to_process]
 
-    #plenaries_to_process = app.determine_plenaries_to_process()
-    #final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
-    #plenary_ids_to_process = [p.id for p in plenaries_to_process]
-
-    final_plenary_ids = []
-    plenary_ids_to_process = ["56_037"]
+    # final_plenary_ids = []
+    # plenary_ids_to_process = ["56_034"]
 
     logging.info("Plenaries to process: %s", plenary_ids_to_process)
 
