@@ -6,7 +6,6 @@ from collections import defaultdict
 from typing import List
 
 from elasticsearch.client import Elasticsearch
-from torchgen.native_function_generation import self_to_out_signature
 
 from transparentdemocracy.actors.actors import ActorHttpGateway
 from transparentdemocracy.config import Config, _create_config, Environments
@@ -103,7 +102,6 @@ class Application:
             if os.path.exists(aummary_path):
                 print("reading summary from ", aummary_path)
                 summaries_by_id[doc_id] = json.load(open(aummary_path, 'r'))
-
 
         # Create and run publisher
         publisher = Publisher(self.config, self.plenary_repository, self.motions_repository, politicians, summaries_by_id, voting_reports)
@@ -402,12 +400,12 @@ def main():
     # with open(app.config.documents_summaries_json_output_path(), 'r', encoding="utf-8") as f:
     #    summaries = json.load(f)
 
-    app.print_interesting_votes(plenaries, voting_reports)
-
     if os.environ.get("INTERACTIVE", "true") == "true":
         print([p.id for p in plenaries])
         input("Press enter to publish these plenaries to Bonsai")
     app.publish_to_bonsai(plenaries, voting_reports, final_plenary_ids)
+
+    app.print_interesting_votes(plenaries, voting_reports)
 
 
 if __name__ == "__main__":
