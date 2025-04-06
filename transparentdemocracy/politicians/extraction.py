@@ -93,16 +93,25 @@ def get_party(config, actor):
     parties = [get_party_from_role(config, role) for role in roles]
     parties = [party for party in parties if party is not None]
 
-    if parties[0] == "PVDA-PTB":
-        return "PTB-PVDA"
-
-    if parties[0] == "CD&V":
-        return "cd&v"
+    if config.legislature == '55' or config.legislature == '56':
+        simple_mappings = {
+            "ECOLO": "Ecolo-Groen",
+            "Groen": "Ecolo-Groen",
+            "Ecolo - Groen": "Ecolo-Groen",
+            "PTB": "PVDA-PTB",
+            "PVDA": "PVDA-PTB",
+            "PTB-PVDA": "PVDA-PTB",
+            "CD&V": "cd&v",
+            "VLAAMS BELANG": "VB",
+        }
 
     if len(parties) == 0:
         raise Exception(f"no party name found for {actor['id']}, {actor['name']}, {actor['fName']}")
 
-    return parties[0]
+    party = parties[0]
+
+    return simple_mappings.get(party, party)
+
 
 def get_party_from_role(config, role):
     # TODO: Sometimes the different patterns yield different results.

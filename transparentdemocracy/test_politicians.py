@@ -1,3 +1,4 @@
+import os
 import unittest
 
 from transparentdemocracy.config import _create_config
@@ -8,6 +9,7 @@ from transparentdemocracy.politicians.extraction import PoliticianExtractor
 class TestPoliticians(unittest.TestCase):
     config55 = _create_config(Environments.TEST, '55')
     config56 = _create_config(Environments.TEST, '56')
+    config56_local = _create_config(Environments.LOCAL, '56')
 
     def test_extract(self):
         politicians = PoliticianExtractor(self.config55).extract_politicians(pattern="7???.json")
@@ -57,13 +59,13 @@ class TestPoliticians(unittest.TestCase):
         self.assertEqual("Vooruit", actual.party)
 
     def test_extraction_joppe_leybaert(self):
-        """ Check party for Axel Weydts in leg 56 """
+        """ Check party for Leybaert Joppe in leg 56 """
         politicians = PoliticianExtractor(self.config56).extract_politicians(pattern="7920.json")
 
         actual = politicians.get_by_name("Leybaert Joppe")
 
         self.assertEqual("Leybaert Joppe", actual.full_name)
-        self.assertEqual("PVDA", actual.party)
+        self.assertEqual("PVDA-PTB", actual.party)
 
     def test_party_names_not_null_for_christophe_bombled(self):
         politicians = PoliticianExtractor(self.config56).extract_politicians(pattern="6934.json")
@@ -86,4 +88,31 @@ class TestPoliticians(unittest.TestCase):
         politicians = PoliticianExtractor(self.config56).extract_politicians(pattern="????.json")
         party_names = sorted(set([p.party for p in politicians.politicians_by_id.values()]))
 
-        self.assertEqual(['MR', 'PVDA', 'Vooruit'], party_names)
+        self.assertEqual(['MR', 'PVDA-PTB', 'Vooruit'], party_names)
+
+    @unittest.skipIf(os.environ.get("SKIP_SLOW", None) is not None, "This test isn't really slow but requires data")
+    def test_parties_leg_56(self):
+        #politicians = load_politicians(self.config56_local)
+        politicians = PoliticianExtractor(self.config56_local).extract_politicians(pattern="????.json")
+
+        # read kamer56_leden.csv
+        with open(os.path.join(os.path.dirname(__file__), "kamer56_leden.csv"), "r") as f:
+            reference = [ f.strip().split("\t", 2) for f in f.readlines() ]
+            reference = { r[0]: r[1] for r in reference }
+
+        accepted_parties = set(reference.values())
+
+        mismatches = []
+        bad_parties = []
+        for politician in politicians.politicians:
+            if politician.party not in accepted_parties:
+                bad_parties.append((politician.id, politician.full_name, politician.party))
+            if politician.full_name not in reference:
+                # 'opvolgers' are not in the reference list
+                continue
+            if reference[politician.full_name] != politician.party:
+                mismatches.append((politician.full_name, reference[politician.full_name], politician.party))
+
+        self.assertEquals(150, len(reference))
+        self.assertListEqual(mismatches, [])
+        self.assertListEqual(bad_parties, [])
