@@ -23,6 +23,7 @@ from transparentdemocracy.plenaries.serialization import write_votes_json
 from transparentdemocracy.politicians.extraction import PoliticianExtractor, load_politicians
 from transparentdemocracy.politicians.serialization import PoliticianJsonSerializer
 from transparentdemocracy.publisher.publisher import PlenaryElasticRepository, Publisher, MotionElasticRepository
+from transparentdemocracy.usecases.determine_plenaries_to_process import DeterminePlenariesToProcess, PlenaryStatus
 
 logger = logging.getLogger(__name__)
 
@@ -36,37 +37,18 @@ class Application:
                  de_kamer: DeKamerGateway,
                  plenary_repository: PlenaryElasticRepository,
                  motion_repository: MotionElasticRepository,
-                 document_repository: GoogleDriveDocumentRepository):
+                 document_repository: GoogleDriveDocumentRepository,
+                 _determine_plenaries_to_process: DeterminePlenariesToProcess):
         self.config = config
         self.actor_gateway = actor_gateway
         self.de_kamer = de_kamer
         self.plenary_repository = plenary_repository
         self.motions_repository = motion_repository
         self.document_repository = document_repository
+        self._determine_plenaries_to_process = _determine_plenaries_to_process
 
-    def determine_plenaries_to_process(self):
-        """
-        Process any plenary that has not yet been imported from dekamer.be into our plenary repository,
-        or has been imported already, but not yet with its final version.
-        Dekamer.be publishes plenary reports in a preliminary version first, and it may take a few weeks until the
-        preliminary version is replaced by a final version.
-        """
-        recent_reports = self.de_kamer.find_recent_reports()
-        ids = [report.id for report in recent_reports]
-        status_by_id = self.plenary_repository.get_statuses(ids)
-        to_process = []
-        for report in recent_reports:
-            if report.id not in status_by_id:
-                raise Exception("status wasn't returned by plenary_repository")
-
-            if status_by_id[report.id]:
-                logger.info(f"{report.id} is already final in elastic")
-                continue
-
-            to_process.append(report)
-
-        logger.info(f"plenaries to process: {to_process}")
-        return sorted(to_process, key=lambda p: p.id)
+    def determine_plenaries_to_process(self) -> List[PlenaryStatus]:
+        return self._determine_plenaries_to_process.determine_plenaries_to_process()
 
     def download_plenary_reports(self, plenary_ids: List[str], force_overwrite=True):
         self.de_kamer.download_plenary_reports(plenary_ids, force_overwrite)
@@ -315,13 +297,16 @@ class Application:
 
 def create_application(config: Config, env: Environments):
     es_client = create_elastic_client(env, config)
+    de_kamer = DeKamerGateway(config)
+    plenary_repository = PlenaryElasticRepository(config, es_client)
     return Application(
         config,
         ActorHttpGateway(config),
-        DeKamerGateway(config),
-        PlenaryElasticRepository(config, es_client),
+        de_kamer,
+        plenary_repository,
         MotionElasticRepository(config, es_client),
-        GoogleDriveDocumentRepository(config)
+        GoogleDriveDocumentRepository(config),
+        DeterminePlenariesToProcess(de_kamer, plenary_repository)
     )
 
 
@@ -357,9 +342,9 @@ def main():
     app.update_politicians(True, False)
 
     plenaries_to_process = app.determine_plenaries_to_process()
-    final_plenary_ids = [p.id for p in plenaries_to_process if p.is_final]
+    final_plenary_ids = [p.id for p in plenaries_to_process if p.dekamer_final]
     print("Final:", final_plenary_ids)
-    print("Non-final:", [p.id for p in plenaries_to_process if not p.is_final])
+    print("Non-final:", [p.id for p in plenaries_to_process if not p.dekamer_final])
     plenary_ids_to_process = [p.id for p in plenaries_to_process]
 
     # final_plenary_ids = []
