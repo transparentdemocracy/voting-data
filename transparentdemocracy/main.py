@@ -233,7 +233,7 @@ class Application:
         self.document_repository.download_document_summary(document_id)
 
     def _upload_text(self, document_id):
-        text_path = self.document_ids_to_local_txt_path(document_id)
+        text_path = self.document_ids_to_local_txt_path([document_id])[0]
         if os.path.exists(text_path):
             self.document_repository._upload_text_file(text_path)
         else:
