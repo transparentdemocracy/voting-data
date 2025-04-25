@@ -1,12 +1,21 @@
+"""
+Interfacing with ElasticSearch, our backend towards the watdoetdepolitiek.be frontend application.
+This includes connecting with ElasticSearch, writing data to it, reading data from it, and viewmodels for the data
+exchange.
+On longer term, the view models might be moved elsewhere, so they can be reused when publishing to another type of
+backend.
+"""
 import logging
+import os
 import re
 from collections import defaultdict
 from dataclasses import dataclass
+from datetime import datetime
 from typing import List
 
 from elasticsearch.client import Elasticsearch
 
-from transparentdemocracy.config import Config
+from transparentdemocracy.config import Config, Environments
 from transparentdemocracy.model import VoteType, Motion, MotionGroup, Plenary, Vote
 from transparentdemocracy.politicians.extraction import Politicians
 
@@ -48,50 +57,76 @@ class PublishingData:
 
 
 class MotionElasticRepository:
-    def __init__(self, config, elastic_client):
+    """
+    A repository for CRUD actions against our ElasticSearch backend for motion groups and motions.
+    The ElasticSearch index we query against here is called `motions` but stores motion groups *and* within each of
+    those, all motions within that motion group.
+    """
+    def __init__(self, config: Config, env: Environments):
         self.config = config
-        self.es = elastic_client
+        self.elastic_search = create_elastic_client(config, env)
         # TODO: put this back, disabled temporarily to avoid repetitively calling bonsai
         # self.create_index()
 
     def create_index(self):
-        response = self.es.indices.create(
+        response = self.elastic_search.indices.create(
             index="motions",
             body=MOTIONS_MAPPING,
             ignore=400,
         )
         print(response)
 
-    def upsert_motion_group(self, publishing_data, plenary, mg):
-        motions = [_to_motion_read_model(self.config, publishing_data, plenary, mg, m) for m in mg.motions]
-        motions = [m for m in motions if m is not None]
+    def upsert_motion_group(self, publishing_data, plenary, motion_group):
+        motions = [
+            _to_motion_read_model(self.config, publishing_data, plenary, motion_group, motion)
+            for motion in motion_group.motions
+            if motion is not None
+        ]
         if len(motions) == 0:
-            logging.warning("no motions in group %s", mg.id)
+            logging.warning("No motions in motion group with ID %s.", motion_group.id)
             return
 
-        doc = {
-            'id': mg.id,
+        motion_group_doc = {
+            'id': motion_group.id,
             'legislature': plenary.legislature,
             'plenaryNr': plenary.number,
-            'titleNL': mg.title_nl,
-            'titleFR': mg.title_fr,
-            'motions': [m for m in motions if m is not None],
+            'titleNL': motion_group.title_nl,
+            'titleFR': motion_group.title_fr,
+            'motions': motions,
             'votingDate': plenary.date.isoformat()
         }
-
-        response = self.es.index(index="motions", id=doc["id"], body=doc)
+        response = self.elastic_search.index(index="motions", id=motion_group_doc["id"], body=motion_group_doc)
         print(response)
+
+    def get_motion_groups(self, from_date_incl: datetime, until_date_incl: datetime):
+        """Get all motion groups in a (voting) date range, both ends of the range included."""
+        return self.elastic_search.search(index="motions", body={
+            "query": {
+                "bool": {
+                    "filter": [
+                        {
+                            "range": {
+                                "votingDate": {
+                                    "gte": from_date_incl.isoformat(),
+                                    "lte": until_date_incl.isoformat()
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        })
 
 
 class PlenaryElasticRepository:
-    def __init__(self, config, elastic_client: Elasticsearch):
-        self.es = elastic_client
+    def __init__(self, config: Config, env: Environments):
+        self.elastic_search = create_elastic_client(config, env)
         self.config = config
         # TODO: put this back, disabled temporarily to avoid repetitively calling bonsai
         # self.create_index()
 
     def create_index(self):
-        response = self.es.indices.create(
+        response = self.elastic_search.indices.create(
             index="plenaries",
             body=PLENARIES_MAPPING,
             ignore=400,
@@ -110,7 +145,7 @@ class PlenaryElasticRepository:
             'is_final': plenary.id in final_plenary_ids
         }
 
-        response = self.es.index(index="plenaries", id=doc["id"], body=doc)
+        response = self.elastic_search.index(index="plenaries", id=doc["id"], body=doc)
         print(response)
 
     def get_statuses(self, plenary_ids: List[tuple[str, bool]]):
@@ -127,7 +162,7 @@ class PlenaryElasticRepository:
             # there are no legislatures with this many plenaries, I figure it's safe for now.
             raise Exception("too many plenary ids")
 
-        es_result = self.es.search(index="plenaries", body=query, size=1000)
+        es_result = self.elastic_search.search(index="plenaries", body=query, size=1000)
         es_status = dict([(hit["_id"], hit["_source"].get("is_final", False)) for hit in es_result["hits"]["hits"]])
         return dict([(plenary_id, es_status.get(plenary_id, None)) for plenary_id in plenary_ids])
 
@@ -294,3 +329,20 @@ def to_subdoc(config, doc_main_nr, doc_sub_nr, summaries_by_id):
 def vote_passed(yes_votes, no_votes):
     # TODO: is a simple majority always enough; Cross check this against result found in plenary reports
     return yes_votes["nrOfVotes"] > no_votes["nrOfVotes"]
+
+
+def create_elastic_client(config: Config, env: Environments):
+    if env == Environments.LOCAL:
+        return Elasticsearch("http://localhost:9200")
+
+    if env == Environments.DEV:
+        raise Exception("TODO: setup dev environment")
+
+    if env == Environments.PROD:
+        auth = os.environ.get("WDDP_PROD_ES_AUTH", None)
+        if auth is None:
+            raise Exception("Missing WDDP_PROD_ES_AUTH environment variable")
+        host = config.elastic_host
+        return Elasticsearch(f"https://{auth}@{host}:443")
+
+    raise Exception(f"missing elasticsearch configuration for env {env}")

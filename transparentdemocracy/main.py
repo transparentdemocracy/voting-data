@@ -5,8 +5,6 @@ import os
 from collections import defaultdict
 from typing import List
 
-from elasticsearch.client import Elasticsearch
-
 from transparentdemocracy.actors.actors import ActorHttpGateway
 from transparentdemocracy.config import Config, _create_config, Environments
 from transparentdemocracy.documents.analyze_references import collect_document_references
@@ -21,7 +19,8 @@ from transparentdemocracy.plenaries.motion_document_proposal_linker import link_
 from transparentdemocracy.plenaries.serialization import write_votes_json
 from transparentdemocracy.politicians.extraction import PoliticianExtractor, load_politicians
 from transparentdemocracy.politicians.serialization import PoliticianJsonSerializer
-from transparentdemocracy.publisher.publisher import PlenaryElasticRepository, Publisher, MotionElasticRepository
+from transparentdemocracy.publisher.elastic_search import PlenaryElasticRepository, Publisher, MotionElasticRepository, \
+    create_elastic_client
 
 logger = logging.getLogger(__name__)
 
@@ -89,7 +88,10 @@ class Application:
         urls = set([url for ref in document_references for url in ref.sub_document_pdf_urls(self.config.legislature)])
         return [os.path.basename(url)[:-4] for url in urls]
 
-    def publish_to_bonsai(self, plenaries, votes, final_plenary_ids) -> None:
+    def publish_to_elastic_search_backend(self, plenaries, votes, final_plenary_ids) -> None:
+        """
+        Publish to our ElasticSearch back-end, so our watdoetdepolitiek.be Angular frontend can query all voting data.
+        """
         document_references = self.get_document_references(plenaries)
         document_ids = self.get_document_ids_from_references(document_references)
 
@@ -259,32 +261,14 @@ class Application:
 
 
 def create_application(config: Config, env: Environments):
-    es_client = create_elastic_client(env, config)
     return Application(
         config,
         ActorHttpGateway(config),
         DeKamerGateway(config),
-        PlenaryElasticRepository(config, es_client),
-        MotionElasticRepository(config, es_client),
+        PlenaryElasticRepository(config, env),
+        MotionElasticRepository(config, env),
         GoogleDriveDocumentRepository(config)
     )
-
-
-def create_elastic_client(env: Environments, config: Config):
-    if env == Environments.LOCAL:
-        return Elasticsearch("http://localhost:9200")
-
-    if env == Environments.DEV:
-        raise Exception("TODO: setup dev environment")
-
-    if env == Environments.PROD:
-        auth = os.environ.get("WDDP_PROD_ES_AUTH", None)
-        if auth is None:
-            raise Exception("Missing WDDP_PROD_ES_AUTH environment variable")
-        host = config.elastic_host
-        return Elasticsearch(f"https://{auth}@{host}:443")
-
-    raise Exception(f"missing elasticsearch configuration for env {env}")
 
 
 def main():
@@ -338,7 +322,7 @@ def main():
         print([p.id for p in plenaries])
         input("Press enter to publish these plenaries to Bonsai")
 
-    app.publish_to_bonsai(plenaries, votes, final_plenary_ids)
+    app.publish_to_elastic_search_backend(plenaries, votes, final_plenary_ids)
 
 
 if __name__ == "__main__":

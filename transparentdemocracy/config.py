@@ -81,6 +81,7 @@ class Config:
     def _config_relative_file(self, path):
         return os.path.join(os.path.dirname(transparentdemocracy.__file__), "..", path)
 
+
 def _create_config(environment: Environments, legislature: str):
     env_yaml = os.path.join(os.path.dirname(transparentdemocracy.__file__), f"../environments/{environment.value}.yaml")
     with open(env_yaml, 'r', encoding='utf-8') as fp:
