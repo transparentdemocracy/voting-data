@@ -2,23 +2,23 @@
     "disclaimer": "De beschikbare gegevens zijn niet noodzakelijk up-to-date en compleet. De gegevens die in de huidige fase op deze site gepubliceerd worden, zijn test-gegevens.",
     "items": [
         {
-            "id": "7441",
+            "id": "7920",
             "link": {
-                "href": "http://data.dekamer.be/v0/actr/7441",
+                "href": "http://data.dekamer.be/v0/actr/7920",
                 "rel": "self"
             },
-            "name": "De Winter",
-            "fName": "Mich",
-            "initOtherForeName": "J.F.",
-            "otherForeName": "Jozef Franciscus",
+            "name": "Leybaert",
+            "fName": "Joppe",
+            "initOtherForeName": "",
+            "otherForeName": "",
             "languageCode": "N",
             "titleNl": "de heer",
             "titleFr": "Monsieur",
             "role": [
                 {
-                    "id": 66590,
+                    "id": 70520,
                     "rangNr": null,
-                    "beginDate": "20190526",
+                    "beginDate": "20240609",
                     "endDate": null,
                     "isActive": null,
                     "description_NL": null,
@@ -36,10 +36,18 @@
                     "functionCode": null,
                     "mandateCode": "C",
                     "personSummary": {
-                        "id": "7441",
-                        "shortName": "De Winter, Mich (J.F.)"
+                        "id": "7920",
+                        "shortName": "Leybaert, Joppe ()"
                     },
                     "status": "active",
+                    "ouSummary": {
+                        "id": 10483,
+                        "code": "03.1.56.08.08.02",
+                        "fullNameNL": "/Verkiezing/Kamer - Leg 56 (9 juni 2024)/Oost-Vlaanderen/PVDA/Opvolgers",
+                        "fullNameFR": "/Election/Chambre - Leg 56 (9 juin 2024)/Flandre orientale/PVDA/Suppléants",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
                     "functionSummary": {
                         "id": null,
                         "code": null,
@@ -47,20 +55,12 @@
                         "fullNameFR": "/null",
                         "longFullNameNL": "/null",
                         "longFullNameFR": "/null"
-                    },
-                    "ouSummary": {
-                        "id": 9842,
-                        "code": "03.1.55.09.09.02",
-                        "fullNameNL": "/Verkiezing/Kamer - Leg 55 (26 mei 2019)/Vlaams-Brabant/sp.a/Opvolgers",
-                        "fullNameFR": "/Election/Chambre - Leg 55 (26 mai 2019)/Brabant flamand/sp.a/Suppléants",
-                        "longFullNameNL": "/null",
-                        "longFullNameFR": "/null"
                     }
                 }
             ],
             "summary": {
-                "id": "7441",
-                "shortName": "De Winter, Mich (J.F.)"
+                "id": "7920",
+                "shortName": "Leybaert, Joppe ()"
             }
         }
     ]

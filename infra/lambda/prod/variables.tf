@@ -19,4 +19,9 @@ variable "cors_allow_origins" {
   type        = list(string)
 }
 
+variable "wddp_firebase_service_account_base64" {
+  description = "Firebase service account info"
+  type        = string
+}
+
 

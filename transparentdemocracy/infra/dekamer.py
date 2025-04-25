@@ -19,13 +19,16 @@ class PlenaryEntry:
 class DeKamerGateway:
     def __init__(self, config):
         self.config = config
+        self.session = requests.Session()
+        self.session.headers.update(
+            {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/000000000 Safari/537.36'})
 
     def find_recent_reports(self):
         latest_page = (f"https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&language=nl&cfm=dcricra.cfm?type=plen&cricra=CRI&count=all&legislat="
                        f"{self.config.legislature}")
         found_plenaries = []
 
-        response = requests.get(latest_page)
+        response = self.session.get(latest_page)
         response.raise_for_status()
         soup = bs4.BeautifulSoup(response.text, 'html.parser')
         rows = soup.select('div#story table tr')
@@ -53,7 +56,7 @@ class DeKamerGateway:
                 print(f"skipping download of {plenary_id} because {path} exists")
                 continue
 
-            response = requests.get(f"https://www.dekamer.be/doc/PCRI/html/{self.config.legislature}/ip{plenary_nr}x.html")
+            response = self.session.get(f"https://www.dekamer.be/doc/PCRI/html/{self.config.legislature}/ip{plenary_nr}x.html")
             response.raise_for_status()
 
             with open(path, 'wb') as f:
@@ -72,7 +75,7 @@ class DeKamerGateway:
     def _download_file(self, url, local_path):
         try:
             os.makedirs(os.path.dirname(local_path), exist_ok=True)
-            response = requests.get(url, stream=True)
+            response = self.session.get(url, stream=True)
             response.raise_for_status()  # Raise an exception for HTTP errors
             with open(local_path, 'wb') as file:
                 # TODO: use temp files and move them to avoid having half-downloaded files when something is broken

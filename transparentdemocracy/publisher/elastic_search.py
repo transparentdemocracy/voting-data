@@ -16,7 +16,7 @@ from typing import List
 from elasticsearch.client import Elasticsearch
 
 from transparentdemocracy.config import Config, Environments
-from transparentdemocracy.model import VoteType, Motion, MotionGroup, Plenary, Vote
+from transparentdemocracy.model import VoteType, Motion, MotionGroup, Plenary, VotingReport
 from transparentdemocracy.politicians.extraction import Politicians
 
 LOGGER = logging.getLogger(__name__)
@@ -49,11 +49,12 @@ PLENARIES_MAPPING = {
     }
 }
 
+
 @dataclass
 class PublishingData:
     politicians: Politicians
     summaries_by_id: dict
-    votes_by_id: dict
+    voting_reports: dict[str, VotingReport]
 
 
 class MotionElasticRepository:
@@ -77,6 +78,13 @@ class MotionElasticRepository:
         print(response)
 
     def upsert_motion_group(self, publishing_data, plenary, motion_group):
+        doc = self._motion_group_to_dict(publishing_data, plenary, mg)
+        if doc is None:
+            return
+        response = self.es.index(index="motions", id=doc["id"], body=doc)
+        print(response)
+
+    def _motion_group_to_dict(self, publishing_data, plenary, mg):
         motions = [
             _to_motion_read_model(self.config, publishing_data, plenary, motion_group, motion)
             for motion in motion_group.motions
@@ -84,7 +92,7 @@ class MotionElasticRepository:
         ]
         if len(motions) == 0:
             logging.warning("No motions in motion group with ID %s.", motion_group.id)
-            return
+            return None
 
         motion_group_doc = {
             'id': motion_group.id,
@@ -95,8 +103,8 @@ class MotionElasticRepository:
             'motions': motions,
             'votingDate': plenary.date.isoformat()
         }
-        response = self.elastic_search.index(index="motions", id=motion_group_doc["id"], body=motion_group_doc)
-        print(response)
+
+        return motion_group_doc
 
     def get_motion_groups(self, from_date_incl: datetime, until_date_incl: datetime):
         """Get all motion groups in a (voting) date range, both ends of the range included."""
@@ -175,11 +183,11 @@ class Publisher():
                  motions_repo: MotionElasticRepository,
                  politicians: Politicians,
                  summaries_by_id,
-                 votes_by_id):
+                 voting_reports: dict[str, VotingReport]):
         self.config = config
         self.plenary_repo = plenary_repo
         self.motions_repo = motions_repo
-        self.publishing_data = PublishingData(politicians, summaries_by_id, votes_by_id)
+        self.publishing_data = PublishingData(politicians, summaries_by_id, voting_reports)
 
     def publish(self, plenaries, final_plenary_ids):
         self._publish_motions(plenaries)
@@ -224,16 +232,17 @@ def _to_motion_read_model(config, publishing_data: PublishingData, p: Plenary, _
     if m.voting_id is None:
         LOGGER.warning("motion without voting_id: %s", m.id)
         return None
-    votes = publishing_data.votes_by_id[m.voting_id]
-    if len(votes) == 0:
+    voting_report = publishing_data.voting_reports[m.voting_id]
+    if voting_report is None or voting_report.total_votes == 0:
         LOGGER.warning("no votes found in %s", m.id)
         return None
 
-    yes_votes = to_votes(votes, VoteType.YES, publishing_data.politicians)
-    no_votes = to_votes(votes, VoteType.NO, publishing_data.politicians)
-    abs_votes = to_votes(votes, VoteType.ABSTENTION, publishing_data.politicians)
     doc_reference = to_doc_reference(config, m.documents_reference, publishing_data.summaries_by_id)
-    voting_result = vote_passed(yes_votes, no_votes)
+
+    yes_votes = to_votes(voting_report, VoteType.YES)
+    no_votes = to_votes(voting_report, VoteType.NO)
+    abs_votes = to_votes(voting_report, VoteType.ABSTENTION)
+    voting_result = voting_report.total_yes_votes() > voting_report.total_no_votes()
 
     mdoc = {
         "id": m.id,
@@ -243,32 +252,29 @@ def _to_motion_read_model(config, publishing_data: PublishingData, p: Plenary, _
         "noVotes": no_votes,
         "absVotes": abs_votes,
         "newDocumentReference": doc_reference,
-        "votingDate": p.date,
+        "votingDate": p.date.isoformat(),
         "votingResult": voting_result,
     }
     return mdoc
 
 
-def to_votes(votes: List[Vote], vote_type: VoteType, politicians: Politicians):
-    if len(votes) == 0:
-        raise Exception("I don't expect to be called without votes")
+def to_votes(voting_report: VotingReport, vote_type: VoteType):
     vdoc = {}
 
-    votes_with_type = [v for v in votes if v.vote_type == vote_type]
-    count_votes_with_type = len(votes_with_type)
-    vdoc["nrOfVotes"] = count_votes_with_type
-    vdoc["votePercentage"] = 0 if len(votes) == 0 else 100.0 * vdoc["nrOfVotes"] / len(votes)
+    number_of_votes = voting_report.count_votes_by_type(vote_type)
+    vdoc["nrOfVotes"] = number_of_votes
+    vdoc["votePercentage"] = 0 if voting_report.total_votes() == 0 else (100.0 * number_of_votes / voting_report.total_votes())
 
     votes_by_party = defaultdict(int)
-    for vote in votes_with_type:
-        votes_by_party[vote.politician.party] += 1
+    for party, votes in voting_report.parties.items():
+        votes_by_party[party] = len([vote for vote in votes if vote.vote_type == vote_type])
 
     vdoc["partyVotes"] = []
-    for party, count in votes_by_party.items():
+    for party, votes in voting_report.parties.items():
         vdoc["partyVotes"].append({
             'partyName': party,
-            'numberOfVotes': count,
-            'votePercentage': 100.0 * count / len(votes)
+            'numberOfVotes': votes_by_party[party],
+            'votePercentage': 100.0 * votes_by_party[party] / voting_report.total_votes()
         })
 
     return vdoc

@@ -1,1 +1,67 @@
-{"disclaimer":"De beschikbare gegevens zijn niet noodzakelijk up-to-date en compleet. De gegevens die in de huidige fase op deze site gepubliceerd worden, zijn test-gegevens.","items":[{"id":"7445","link":{"href":"http://data.dekamer.be/v0/actr/7445","rel":"self"},"name":"De Martelaere","fName":"Nele","initOtherForeName":"L.I.","otherForeName":"Lucien Irène","languageCode":"N","titleNl":"Mevrouw","titleFr":"Madame","role":[{"id":66594,"rangNr":null,"beginDate":"20190526","endDate":null,"isActive":null,"description_NL":null,"description_FR":null,"comment_NL":null,"comment_FR":null,"languageCode":"N","chairNr":null,"prestationDate":null,"beginSession":null,"endSession":null,"finalMotif":null,"theoreticalEndDate":null,"successorRole":null,"functionCode":null,"mandateCode":"C","personSummary":{"id":"7445","shortName":"De Martelaere, Nele (L.I.)"},"status":"active","functionSummary":{"id":null,"code":null,"fullNameNL":"/null","fullNameFR":"/null","longFullNameNL":"/null","longFullNameFR":"/null"},"ouSummary":{"id":9838,"code":"03.1.55.09.01.02","fullNameNL":"/Verkiezing/Kamer - Leg 55 (26 mei 2019)/Vlaams-Brabant/N-VA/Opvolgers","fullNameFR":"/Election/Chambre - Leg 55 (26 mai 2019)/Brabant flamand/N-VA/Suppléants","longFullNameNL":"/null","longFullNameFR":"/null"}}],"summary":{"id":"7445","shortName":"De Martelaere, Nele (L.I.)"}}]}
+{
+    "disclaimer": "De beschikbare gegevens zijn niet noodzakelijk up-to-date en compleet. De gegevens die in de huidige fase op deze site gepubliceerd worden, zijn test-gegevens.",
+    "items": [
+        {
+            "id": "7445",
+            "link": {
+                "href": "http://data.dekamer.be/v0/actr/7445",
+                "rel": "self"
+            },
+            "name": "De Martelaere",
+            "fName": "Nele",
+            "initOtherForeName": "L.I.",
+            "otherForeName": "Lucien Irène",
+            "languageCode": "N",
+            "titleNl": "Mevrouw",
+            "titleFr": "Madame",
+            "role": [
+                {
+                    "id": 66594,
+                    "rangNr": null,
+                    "beginDate": "20190526",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": "N",
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": null,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "C",
+                    "personSummary": {
+                        "id": "7445",
+                        "shortName": "De Martelaere, Nele (L.I.)"
+                    },
+                    "status": "active",
+                    "functionSummary": {
+                        "id": null,
+                        "code": null,
+                        "fullNameNL": "/null",
+                        "fullNameFR": "/null",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "ouSummary": {
+                        "id": 9838,
+                        "code": "03.1.55.09.01.02",
+                        "fullNameNL": "/Verkiezing/Kamer - Leg 55 (26 mei 2019)/Vlaams-Brabant/N-VA/Opvolgers",
+                        "fullNameFR": "/Election/Chambre - Leg 55 (26 mai 2019)/Brabant flamand/N-VA/Suppléants",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    }
+                }
+            ],
+            "summary": {
+                "id": "7445",
+                "shortName": "De Martelaere, Nele (L.I.)"
+            }
+        }
+    ]
+}

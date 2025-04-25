@@ -1,0 +1,529 @@
+{
+    "disclaimer": "De beschikbare gegevens zijn niet noodzakelijk up-to-date en compleet. De gegevens die in de huidige fase op deze site gepubliceerd worden, zijn test-gegevens.",
+    "items": [
+        {
+            "id": "8051",
+            "link": {
+                "href": "http://data.dekamer.be/v0/actr/8051",
+                "rel": "self"
+            },
+            "name": "Weydts",
+            "fName": "Axel",
+            "initOtherForeName": "J.G.",
+            "otherForeName": "Joel Gilbert",
+            "languageCode": "N",
+            "titleNl": "de heer",
+            "titleFr": "Monsieur",
+            "role": [
+                {
+                    "id": 72817,
+                    "rangNr": null,
+                    "beginDate": "20241210",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10729,
+                        "code": "05.1.56.05.04.236",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Onderzoekscommissies/Parlementaire onderzoekscommissie 'Operatie Kelk'",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Commissions d'enquêtes/Commission d'enquête parlementaire 'Opération Calice'",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 4159,
+                        "code": "M.C.1.2.1",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Vast Lid",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Membre effectif",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Vast Lid - commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Membre effectif - commission"
+                    }
+                },
+                {
+                    "id": 70729,
+                    "rangNr": null,
+                    "beginDate": "20240609",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": "N",
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": null,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "C",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10493,
+                        "code": "03.1.56.11.09.02",
+                        "fullNameNL": "/Verkiezing/Kamer - Leg 56 (9 juni 2024)/West-Vlaanderen/Vooruit/Opvolgers",
+                        "fullNameFR": "/Election/Chambre - Leg 56 (9 juin 2024)/Flandre occidentale/Vooruit/Suppléants",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": null,
+                        "code": null,
+                        "fullNameNL": "/null",
+                        "fullNameFR": "/null",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    }
+                },
+                {
+                    "id": 72672,
+                    "rangNr": null,
+                    "beginDate": "20241003",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": "N",
+                    "chairNr": "74",
+                    "prestationDate": "20241003",
+                    "beginSession": 20241,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10516,
+                        "code": "05.1.56.04.01.990",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Plenum/PLENUMVERGADERING",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Plénière/SEANCE PLENIERE",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 5238,
+                        "code": "M.02",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Plenum lid",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre plenum",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Plenum lid",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre plenum"
+                    }
+                },
+                {
+                    "id": 72671,
+                    "rangNr": null,
+                    "beginDate": "20241003",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": "N",
+                    "chairNr": null,
+                    "prestationDate": "20241003",
+                    "beginSession": 20241,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10572,
+                        "code": "05.1.56.06.1.07",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Politieke fracties/Erkende/Vooruit",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Groupes politiques/Reconnus/Vooruit",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 5492,
+                        "code": "M.11",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Fractie lid",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre groupe",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Fractie lid",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre groupe"
+                    }
+                },
+                {
+                    "id": 72758,
+                    "rangNr": null,
+                    "beginDate": "20241107",
+                    "endDate": "20241212",
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "passive",
+                    "ouSummary": {
+                        "id": 10518,
+                        "code": "05.1.56.05.01.002",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Vaste commissies/Landsverdediging",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Commissions Permanentes/Défense nationale",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 4160,
+                        "code": "M.C.1.2.2",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+                    }
+                },
+                {
+                    "id": 72759,
+                    "rangNr": null,
+                    "beginDate": "20241107",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10523,
+                        "code": "05.1.56.05.01.009",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Vaste commissies/Justitie",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Commissions Permanentes/Justice",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 4160,
+                        "code": "M.C.1.2.2",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+                    }
+                },
+                {
+                    "id": 72760,
+                    "rangNr": null,
+                    "beginDate": "20241107",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10531,
+                        "code": "05.1.56.05.02.157",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Bijzondere commissies/Opvolging van de militaire missies",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Commissions spéciales/Suivi des missions militaires",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 4159,
+                        "code": "M.C.1.2.1",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Vast Lid",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Membre effectif",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Vast Lid - commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Membre effectif - commission"
+                    }
+                },
+                {
+                    "id": 72818,
+                    "rangNr": null,
+                    "beginDate": "20241211",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10531,
+                        "code": "05.1.56.05.02.157",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Bijzondere commissies/Opvolging van de militaire missies",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Commissions spéciales/Suivi des missions militaires",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 5612,
+                        "code": "M.C.1.2.4",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Voorzitter",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Président",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Voorzitter - commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Président - commission"
+                    }
+                },
+                {
+                    "id": 72829,
+                    "rangNr": null,
+                    "beginDate": "20241121",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10555,
+                        "code": "05.1.56.05.10.805",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Internationale afvaardigingen/NAVO-Parlementaire Assemblee",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Délégations internationales/Assemblée parlementaire de l'OTAN",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 4160,
+                        "code": "M.C.1.2.2",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Plaatsvervanger",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Suppléant",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Plaatsvervanger commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Suppléant commission"
+                    }
+                },
+                {
+                    "id": 72833,
+                    "rangNr": null,
+                    "beginDate": "20241212",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10518,
+                        "code": "05.1.56.05.01.002",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Vaste commissies/Landsverdediging",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Commissions Permanentes/Défense nationale",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 4159,
+                        "code": "M.C.1.2.1",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Vast Lid",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Membre effectif",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Vast Lid - commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Membre effectif - commission"
+                    }
+                },
+                {
+                    "id": 72834,
+                    "rangNr": null,
+                    "beginDate": "20241212",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10538,
+                        "code": "05.1.56.05.02.128",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Bijzondere commissies/Legeraankopen en -verkopen",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Commissions spéciales/Achats et ventes militaires",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 4159,
+                        "code": "M.C.1.2.1",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Vast Lid",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Membre effectif",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Vast Lid - commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Membre effectif - commission"
+                    }
+                },
+                {
+                    "id": 72847,
+                    "rangNr": "2",
+                    "beginDate": "20241212",
+                    "endDate": null,
+                    "isActive": null,
+                    "description_NL": null,
+                    "description_FR": null,
+                    "comment_NL": null,
+                    "comment_FR": null,
+                    "languageCode": null,
+                    "chairNr": null,
+                    "prestationDate": null,
+                    "beginSession": null,
+                    "endSession": null,
+                    "finalMotif": 7909,
+                    "theoreticalEndDate": null,
+                    "successorRole": null,
+                    "functionCode": null,
+                    "mandateCode": "M",
+                    "personSummary": {
+                        "id": "8051",
+                        "shortName": "Weydts, Axel (J.G.)"
+                    },
+                    "status": "active",
+                    "ouSummary": {
+                        "id": 10518,
+                        "code": "05.1.56.05.01.002",
+                        "fullNameNL": "/Wetgevende macht/Kvvcr/Leg 56/Commissies/Vaste commissies/Landsverdediging",
+                        "fullNameFR": "/Pouvoir législatif/Kvvcr/Leg 56/Commissions/Commissions Permanentes/Défense nationale",
+                        "longFullNameNL": "/null",
+                        "longFullNameFR": "/null"
+                    },
+                    "functionSummary": {
+                        "id": 5613,
+                        "code": "M.C.1.2.5",
+                        "fullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid-Kamer/Lid/Commissielid/(Com) Ondervoorzitter",
+                        "fullNameFR": "/Gestion des objets/Codes fonctions par mandat/Membre-Chambre/Membre/Membre-commissions/(Com) Vice-président",
+                        "longFullNameNL": "/Beheer objecten/Functiecodes per mandaat/Lid van de Kamer/Lid/Commissielid/Ondervoorzitter - commissie",
+                        "longFullNameFR": "/Objets de gestion/Codes fonctions par mandat/Membre de la Chambre/Membre/Membre-commissions/Vice-président - Commission"
+                    }
+                }
+            ],
+            "summary": {
+                "id": "8051",
+                "shortName": "Weydts, Axel (J.G.)"
+            }
+        }
+    ]
+}
