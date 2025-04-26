@@ -27,9 +27,7 @@ class GoogleDriveDocumentRepository:
 
     def _create_service(self):
         scopes = ['https://www.googleapis.com/auth/drive']
-        with open(self.config.google_service_account_credentials_path, 'r', encoding='utf8') as service_credentials_file:
-            service_credentials = json.loads(service_credentials_file.read())
-        creds = service_account.Credentials.from_service_account_info(service_credentials, scopes=scopes)
+        creds = service_account.Credentials.from_service_account_info(json.loads(self.config.google_service_account_credentials), scopes=scopes)
         return build('drive', 'v3', credentials=creds)
 
     def create_folder(self, parent_id, folder_name):
