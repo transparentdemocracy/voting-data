@@ -68,9 +68,19 @@ Set the OPENAI_API_KEY environment variable to the secret key you just created.
 
 ## Testing
 
-Run `./test.sh` to run unit tests.
+Run `./test.sh` to run unit tests, or configure and save a Run configuration in Pycharm to run all tests in the 
+transparentdemocracy package folder (you can create this easily by right clicking that folder, then selecting "Run 
+python tests in...").
 
-Note: some of the tests are rather slow, you can skip these by setting the SKIP_SLOW environment variable: `SKIP_SLOW=1 ./test.sh`
+Both ways of running the tests will require that you set some secrets in OS environment variables first, either directly
+from the command terminal, or in the created Pycharm run configuration's settings.
+
+The environment variables we currently use are: WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS=...;WDDP_PROD_ES_AUTH=...; SKIP_SLOW=1
+
+To fill WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS, check utils/base64_encode_json_secrets.py.
+WDDP_PROD_ES_AUTH is a username:password pair.
+Copy the actual secrets from our password manager.
+SKIP_SLOW is currently set to 1, because some of the tests are rather slow, we usually skip them.
 
 ## Downloading and generating data
 
