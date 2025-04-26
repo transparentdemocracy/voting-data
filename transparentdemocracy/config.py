@@ -41,7 +41,7 @@ class Config:
         self.document_text_dir = self._config_relative_file(local_paths['document_text_dir'])
         self.document_summary_dir = self._config_relative_file(local_paths['document_summary_dir'])
 
-        self.google_service_account_credentials = os.environ["WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS"]
+        self.google_service_account_credentials_path = os.environ["WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS_PATH"]
         self.google_drive_text_dir = conf_data['gdrive']['document_text_dir']
         self.google_drive_summary_dir = conf_data['gdrive']['document_summary_dir']
 
