@@ -3,7 +3,7 @@ import logging
 from typing import List
 
 from transparentdemocracy.infra.dekamer import DeKamerGateway
-from transparentdemocracy.publisher.publisher import PlenaryElasticRepository
+from transparentdemocracy.publisher.elastic_search import PlenaryElasticRepository
 
 logger = logging.getLogger(__name__)
 

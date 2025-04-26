@@ -82,7 +82,7 @@ class TestPoliticians(unittest.TestCase):
 
         for politician in politicians.politicians_by_name.values():
             self.assertIsNotNone(politician.party, f"Politician {politician.full_name} has no party")
-            self.assertNotEquals("unknown", politician.party)
+            self.assertNotEqual("unknown", politician.party)
 
     def test_party_names(self):
         politicians = PoliticianExtractor(self.config56).extract_politicians(pattern="????.json")
@@ -113,6 +113,6 @@ class TestPoliticians(unittest.TestCase):
             if reference[politician.full_name] != politician.party:
                 mismatches.append((politician.full_name, reference[politician.full_name], politician.party))
 
-        self.assertEquals(150, len(reference))
+        self.assertEqual(150, len(reference))
         self.assertListEqual(mismatches, [])
         self.assertListEqual(bad_parties, [])

@@ -18,7 +18,7 @@ from transparentdemocracy.plenaries.extraction import extract_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
 from transparentdemocracy.plenaries.serialization import write_votes_json
 from transparentdemocracy.politicians.extraction import load_politicians
-from transparentdemocracy.publisher.publisher import PlenaryElasticRepository, Publisher, MotionElasticRepository, \
+from transparentdemocracy.publisher.elastic_search import PlenaryElasticRepository, Publisher, MotionElasticRepository, \
     create_elastic_client
 from transparentdemocracy.usecases.determine_plenaries_to_process import DeterminePlenariesToProcess, PlenaryStatus
 from transparentdemocracy.usecases.update_politicians import UpdatePoliticians
