@@ -45,9 +45,6 @@ class Config:
         # This allows for easy reading this secret json from Github action secrets into our testing Action.
         # See .github/workflows/build.yml and our voting-data project settings > Secrets and variables > Actions on
         # Github to understand this better.
-        # In order to fill the full secret JSON object into the environment variable in Pycharm locally, use the
-        # base64_encode_secrets_json.py script, and run it against the secret JSON file attached to an entry in our
-        # Keepass.
         self.google_service_account_credentials = os.environ["WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS"]
 
         self.google_drive_text_dir = conf_data['gdrive']['document_text_dir']

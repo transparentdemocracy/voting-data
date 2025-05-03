@@ -77,7 +77,7 @@ from the command terminal, or in the created Pycharm run configuration's setting
 
 The environment variables we currently use are: WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS=...;WDDP_PROD_ES_AUTH=...; SKIP_SLOW=1
 
-To fill WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS, check utils/base64_encode_json_secrets.py.
+WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS is a JSON object.
 WDDP_PROD_ES_AUTH is a username:password pair.
 Copy the actual secrets from our password manager.
 SKIP_SLOW is currently set to 1, because some of the tests are rather slow, we usually skip them.
