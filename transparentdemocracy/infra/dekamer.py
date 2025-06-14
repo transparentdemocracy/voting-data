@@ -23,7 +23,7 @@ class DeKamerGateway:
         self.session.headers.update(
             {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/000000000 Safari/537.36'})
 
-    def find_recent_reports(self):
+    def find_recent_reports(self) -> List[PlenaryEntry]:
         latest_page = (f"https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&language=nl&cfm=dcricra.cfm?type=plen&cricra=CRI&count=all&legislat="
                        f"{self.config.legislature}")
         found_plenaries = []
@@ -45,7 +45,7 @@ class DeKamerGateway:
 
         return found_plenaries
 
-    def download_plenary_reports(self, plenary_ids: List[str], force_overwrite: bool):
+    def download_plenary_reports(self, plenary_ids: List[str], force_overwrite: bool) -> None:
         os.makedirs(self.config.plenary_html_input_path(), exist_ok=True)
 
         for plenary_id in plenary_ids:

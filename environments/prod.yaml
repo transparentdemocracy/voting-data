@@ -7,7 +7,7 @@ local:
     politician_output_dir: data/output/politician
 
     plenary_html_dir: data/input/plenary/html
-    plenary_json_dir: data/output/plenary/json
+    plenary_json_dir: ../voting-data-publications
 
     document_pdf_dir: data/input/documents
     document_text_dir: data/output/documents/txt

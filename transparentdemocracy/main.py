@@ -13,10 +13,10 @@ from transparentdemocracy.documents.download import download_referenced_document
 from transparentdemocracy.documents.references import parse_document_reference
 from transparentdemocracy.documents.summarize import summarize_document_texts, DocumentSummarizer
 from transparentdemocracy.infra.dekamer import DeKamerGateway
+from transparentdemocracy.infra.plenary_json import PlenaryJsonStorage
 from transparentdemocracy.model import VoteType, Plenary, VotingReport
 from transparentdemocracy.plenaries.extraction import extract_plenary_reports
 from transparentdemocracy.plenaries.motion_document_proposal_linker import link_motions_with_proposals
-from transparentdemocracy.plenaries.serialization import write_votes_json
 from transparentdemocracy.politicians.extraction import load_politicians
 from transparentdemocracy.publisher.elastic_search import PlenaryElasticRepository, Publisher, MotionElasticRepository, \
     create_elastic_client
@@ -36,6 +36,7 @@ class Application:
                  plenary_repository: PlenaryElasticRepository,
                  motion_repository: MotionElasticRepository,
                  document_repository: GoogleDriveDocumentRepository,
+                 plenary_json_storage: PlenaryJsonStorage,
                  _update_politicians: UpdatePoliticians,
                  _determine_plenaries_to_process: DeterminePlenariesToProcess):
         self.config = config
@@ -44,11 +45,32 @@ class Application:
         self.plenary_repository = plenary_repository
         self.motions_repository = motion_repository
         self.document_repository = document_repository
+        self._plenary_json_storage = plenary_json_storage
         self._update_politicians = _update_politicians
         self._determine_plenaries_to_process = _determine_plenaries_to_process
 
     def update_politicians(self, force_overwrite=False, download_actors=True):
         self._update_politicians.update_politicians(force_overwrite, download_actors)
+
+    def update_voting_data_json_files(self):
+        plenaries_to_update = self._determine_plenaries_to_process.determine_plenaries_to_update()
+
+        self.de_kamer.download_plenary_reports(plenary_ids = list(plenaries_to_update.keys()), force_overwrite=True)
+
+        report_filenames = [self.config.plenary_html_input_path("ip%03sx.html" % plenary_id[3:])
+                            for plenary_id in plenaries_to_update.keys()]
+
+        plenaries, votes, problems = extract_plenary_reports(self.config, report_filenames)
+        voting_reports = self.create_voting_reports(votes)
+        link_motions_with_proposals(plenaries)
+
+        for plenary in plenaries:
+            plenary_votings = [
+                report for voting_id, report in voting_reports.items()
+                if report.voting_id.startswith(plenary.id)
+            ]
+            is_final = plenaries_to_update[plenary.id]
+            self._plenary_json_storage.save(plenary, plenary_votings, is_final)
 
     def determine_plenaries_to_process(self) -> List[PlenaryStatus]:
         return self._determine_plenaries_to_process.determine_plenaries_to_process()
@@ -92,7 +114,8 @@ class Application:
                 summaries_by_id[doc_id] = json.load(open(aummary_path, 'r'))
 
         # Create and run publisher
-        publisher = Publisher(self.config, self.plenary_repository, self.motions_repository, politicians, summaries_by_id, voting_reports)
+        publisher = Publisher(self.config, self.plenary_repository, self.motions_repository, politicians,
+                              summaries_by_id, voting_reports)
         publisher.publish(plenaries, final_plenary_ids)
 
     def print_interesting_votes(self, plenaries: List[Plenary], voting_reports: dict[str, VotingReport]):
@@ -102,9 +125,12 @@ class Application:
         # TODO: group this output by plenary id so we can easily identify interesting votes for the most recent plenaries
         for voting_id, report in voting_reports.items():
             counts = report.get_count_by_party()
-            interesting_counts = {party: counter for party, counter in counts.items() if counter.get(VoteType.NO, 0) > 0 and counter.get(VoteType.YES, 0) > 0}
+            interesting_counts = {party: counter for party, counter in counts.items() if
+                                  counter.get(VoteType.NO, 0) > 0 and counter.get(VoteType.YES, 0) > 0}
             if interesting_counts:
-                motion_group = next((mg for mg in all_motion_groups if next((m for m in mg.motions if m.voting_id == voting_id), None)), None)
+                motion_group = next(
+                    (mg for mg in all_motion_groups if next((m for m in mg.motions if m.voting_id == voting_id), None)),
+                    None)
                 print(f"# voting report for {voting_id}")
                 if motion_group is not None:
                     print("# Motion group: " + f"https://wddp-dev.pages.dev/motions/{motion_group.id}")
@@ -125,7 +151,8 @@ class Application:
         return [self.config.documents_input_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.pdf") for doc_id in document_ids]
 
     def document_ids_to_local_txt_path(self, document_ids):
-        return [self.config.documents_txt_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.txt") for doc_id in document_ids]
+        return [self.config.documents_txt_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.txt") for doc_id in
+                document_ids]
 
     def save_document_summaries(self, document_references):
         document_ids = self.get_document_ids_from_references(document_references)
@@ -150,7 +177,8 @@ class Application:
         remote_texts = self.document_repository.find_document_text_ids(document_ids)
 
         for document_id in document_ids:
-            summary_state = "".join([('1' if document_id in local_summaries else '0'), ('1' if document_id in remote_summaries else '0')])
+            summary_state = "".join(
+                [('1' if document_id in local_summaries else '0'), ('1' if document_id in remote_summaries else '0')])
             if summary_state == '11':
                 logger.info(f"document {document_id} has summary local and remote. No actions needed.")
             elif summary_state == '01':
@@ -160,7 +188,8 @@ class Application:
                 logger.info(f"document {document_id} has summary local. Uploading...")
                 self._upload_summary(document_id)
             else:
-                text_state = "".join([('1' if document_id in local_texts else '0'), ('1' if document_id in remote_texts else '0')])
+                text_state = "".join(
+                    [('1' if document_id in local_texts else '0'), ('1' if document_id in remote_texts else '0')])
                 if text_state == '11':
                     logger.info(f"document {document_id} has text local and remote. Summarizing and uploading")
                     logger.info(f"document {document_id} summarizing")
@@ -176,7 +205,8 @@ class Application:
                     logger.info(f"document {document_id} uploading summary")
                     self._upload_summary(document_id)
                 elif text_state == '01':
-                    logger.info(f"document {document_id} has text remote. Will download text, summarize and upload summary")
+                    logger.info(
+                        f"document {document_id} has text remote. Will download text, summarize and upload summary")
                     logger.info(f"document {document_id} downloading text")
                     self._download_text(document_id)
                     logger.info(f"document {document_id} summarizing")
@@ -215,7 +245,8 @@ class Application:
 
     def _find_local_document_summary_ids(self, document_ids):
         def exists(doc_id):
-            return os.path.exists(self.config.documents_summary_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.summary"))
+            return os.path.exists(
+                self.config.documents_summary_output_path(doc_id[3:5], doc_id[5:7], f"{doc_id}.summary"))
 
         return [doc_id for doc_id in document_ids if exists(doc_id)]
 
@@ -251,7 +282,8 @@ class Application:
         for vote in votes:
             votes_by_voting_id[vote.voting_id].append(vote)
 
-        return {voting_id: self.create_voting_report(voting_id, vote_group) for voting_id, vote_group in votes_by_voting_id.items()}
+        return {voting_id: self.create_voting_report(voting_id, vote_group) for voting_id, vote_group in
+                votes_by_voting_id.items()}
 
     def create_voting_report(self, voting_id, votes):
         """ creates a report that counts votes by politician party and by vote type """
@@ -278,6 +310,7 @@ def create_application(config: Config, env: Environments):
     actor_gateway = ActorHttpGateway(config)
     de_kamer = DeKamerGateway(config)
     plenary_repository = PlenaryElasticRepository(config, es_client)
+    plenary_json_storage = PlenaryJsonStorage(config.plenary_json_output_path())
 
     return Application(
         config,
@@ -286,8 +319,9 @@ def create_application(config: Config, env: Environments):
         plenary_repository,
         MotionElasticRepository(config, es_client),
         GoogleDriveDocumentRepository(config),
+        plenary_json_storage,
         UpdatePoliticians(config, actor_gateway),
-        DeterminePlenariesToProcess(de_kamer, plenary_repository)
+        DeterminePlenariesToProcess(de_kamer, plenary_repository, plenary_json_storage)
     )
 
 
@@ -304,6 +338,9 @@ def main():
     update_politicians = os.environ.get("UPDATE_POLITICIANS", "false") == "true"
     app.update_politicians(update_politicians, download_actors)
 
+    app.update_voting_data_json_files()
+
+    ## create plenaries.json and votes.json from the list of html files
     plenaries_to_process = app.determine_plenaries_to_process()
     final_plenary_ids = [p.id for p in plenaries_to_process if p.dekamer_final]
     print("Final:", final_plenary_ids)
@@ -320,19 +357,14 @@ def main():
 
     app.download_plenary_reports(plenary_ids_to_process, False)
 
-    report_filenames = [config.plenary_html_input_path("ip%03sx.html" % id[id.index("_") + 1:]) for id in plenary_ids_to_process]
+    report_filenames = [config.plenary_html_input_path("ip%03sx.html" % id[id.index("_") + 1:]) for id in
+                        plenary_ids_to_process]
 
     plenaries, votes, problems = extract_plenary_reports(config, report_filenames)
 
     voting_reports = app.create_voting_reports(votes)
 
     link_motions_with_proposals(plenaries)
-
-    # TODO this writes just the plenaries as one big json file (no document summaries)
-    # is this what we want to publish or an external repository?
-    # write_plenaries_json(config, plenaries)
-    # TODO: same for votes
-    write_votes_json(config, votes)
 
     # The end result of this is summary json files (one per document)
     # It won't do any re-summarization and checks local disk and google drive to avoid rework
