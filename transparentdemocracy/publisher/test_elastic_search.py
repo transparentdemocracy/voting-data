@@ -1,12 +1,8 @@
-import json
 from unittest import TestCase
 
 from transparentdemocracy.config import _create_config
-from transparentdemocracy.main import Environments, create_application
-from transparentdemocracy.plenaries.extraction import extract_plenary_reports
-from transparentdemocracy.politicians.extraction import load_politicians
+from transparentdemocracy.main import Environments
 from transparentdemocracy.publisher import to_doc_reference
-from transparentdemocracy.publisher.elastic_search import PublishingData, Publisher
 
 
 class Test(TestCase):

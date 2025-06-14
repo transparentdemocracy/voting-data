@@ -251,10 +251,6 @@ class Application:
         for vote in votes:
             votes_by_voting_id[vote.voting_id].append(vote)
 
-        # for each group of votes, create a report that counts votes by politician party and by vote type
-        for voting_id, votes in votes_by_voting_id.items():
-            report = self.create_voting_report(voting_id, votes)
-
         return {voting_id: self.create_voting_report(voting_id, vote_group) for voting_id, vote_group in votes_by_voting_id.items()}
 
     def create_voting_report(self, voting_id, votes):
@@ -278,7 +274,7 @@ class Application:
 
 
 def create_application(config: Config, env: Environments):
-    es_client = create_elastic_client(env, config)
+    es_client = create_elastic_client(config, env)
     actor_gateway = ActorHttpGateway(config)
     de_kamer = DeKamerGateway(config)
     plenary_repository = PlenaryElasticRepository(config, es_client)
@@ -295,26 +291,6 @@ def create_application(config: Config, env: Environments):
     )
 
 
-def create_elastic_client(env: Environments, config: Config):
-    if env == Environments.TEST:
-        return Elasticsearch("http://test.does.not.exist:9200")
-
-    if env == Environments.LOCAL:
-        return Elasticsearch("http://localhost:9200")
-
-    if env == Environments.DEV:
-        raise Exception("TODO: setup dev environment")
-
-    if env == Environments.PROD:
-        auth = os.environ.get("WDDP_PROD_ES_AUTH", None)
-        if auth is None:
-            raise Exception("Missing WDDP_PROD_ES_AUTH environment variable")
-        host = config.elastic_host
-        return Elasticsearch(f"https://{auth}@{host}:443")
-
-    raise Exception(f"missing elasticsearch configuration for env {env}")
-
-
 def main():
     """Extract interesting insights from any plenary reports that have not yet been processed."""
 
@@ -324,7 +300,9 @@ def main():
 
     # this is only needed when there are changes to the voters.
     # in the github pipeline we can just always run it?
-    app.update_politicians(True, False)
+    download_actors = os.environ.get("DOWNLOAD_ACTORS", "false") == "true"
+    update_politicians = os.environ.get("UPDATE_POLITICIANS", "false") == "true"
+    app.update_politicians(update_politicians, download_actors)
 
     plenaries_to_process = app.determine_plenaries_to_process()
     final_plenary_ids = [p.id for p in plenaries_to_process if p.dekamer_final]
@@ -374,9 +352,9 @@ def main():
         print([p.id for p in plenaries])
         input("Press enter to publish these plenaries to Bonsai")
 
-    app.publish_to_elastic_search_backend(plenaries, votes, final_plenary_ids)
+    app.publish_to_elastic_search_backend(plenaries, voting_reports, final_plenary_ids)
 
-    app.print_interesting_votes(plenaries, votes)
+    app.print_interesting_votes(plenaries, voting_reports)
 
 
 if __name__ == "__main__":

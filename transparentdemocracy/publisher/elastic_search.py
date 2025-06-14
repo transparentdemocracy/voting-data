@@ -63,9 +63,9 @@ class MotionElasticRepository:
     The ElasticSearch index we query against here is called `motions` but stores motion groups *and* within each of
     those, all motions within that motion group.
     """
-    def __init__(self, config: Config, env: Environments):
+    def __init__(self, config: Config, es_client: Elasticsearch):
         self.config = config
-        self.elastic_search = create_elastic_client(config, env)
+        self.elastic_search = es_client
         # TODO: put this back, disabled temporarily to avoid repetitively calling bonsai
         # self.create_index()
 
@@ -78,13 +78,13 @@ class MotionElasticRepository:
         print(response)
 
     def upsert_motion_group(self, publishing_data, plenary, motion_group):
-        doc = self._motion_group_to_dict(publishing_data, plenary, mg)
+        doc = self._motion_group_to_dict(publishing_data, plenary, motion_group)
         if doc is None:
             return
-        response = self.es.index(index="motions", id=doc["id"], body=doc)
+        response = self.elastic_search.index(index="motions", id=doc["id"], body=doc)
         print(response)
 
-    def _motion_group_to_dict(self, publishing_data, plenary, mg):
+    def _motion_group_to_dict(self, publishing_data, plenary, motion_group):
         motions = [
             _to_motion_read_model(self.config, publishing_data, plenary, motion_group, motion)
             for motion in motion_group.motions
@@ -127,8 +127,8 @@ class MotionElasticRepository:
 
 
 class PlenaryElasticRepository:
-    def __init__(self, config: Config, env: Environments):
-        self.elastic_search = create_elastic_client(config, env)
+    def __init__(self, config: Config, elastic_search: Elasticsearch):
+        self.elastic_search = elastic_search
         self.config = config
         # TODO: put this back, disabled temporarily to avoid repetitively calling bonsai
         # self.create_index()
@@ -175,8 +175,7 @@ class PlenaryElasticRepository:
         return dict([(plenary_id, es_status.get(plenary_id, None)) for plenary_id in plenary_ids])
 
 
-class Publisher():
-    # TODO find constructor usages (pass config)
+class Publisher:
     def __init__(self,
                  config: Config,
                  plenary_repo: PlenaryElasticRepository,

@@ -45,7 +45,7 @@ class Config:
         # This allows for easy reading this secret json from Github action secrets into our testing Action.
         # See .github/workflows/build.yml and our voting-data project settings > Secrets and variables > Actions on
         # Github to understand this better.
-        self.google_service_account_credentials = os.environ["WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS"]
+        self.google_service_credentials_json = os.environ["WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS"]
 
         self.google_drive_text_dir = conf_data['gdrive']['document_text_dir']
         self.google_drive_summary_dir = conf_data['gdrive']['document_summary_dir']

@@ -84,8 +84,12 @@ SKIP_SLOW is currently set to 1, because some of the tests are rather slow, we u
 
 ## Downloading and generating data
 
-First, run `./download-reports.sh` and `./download-actors.sh` to download plenary html reports and json information about politicians
+Run:
 
-Next, run  `./run-all.sh` to generate all the data used the downstream projects (data is written to `data/output/...`)
+        export PYTHONUNBUFFERED=1
+        export WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS=...
+        export WDDP_PROD_ES_AUTH=
+        python -m transparentdemocracy.main
+
 
 New orchestration: application.py, ES_AUTH=username:password (see our password database) and LEGISLATURE=56 env vars to set.
