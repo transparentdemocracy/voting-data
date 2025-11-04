@@ -56,16 +56,6 @@ Note that you should run `. venv/bin/activate` (or equivalent) whenever you want
 
     pip install -e .
 
-### Set up OpenAI
-
-Sign up for the OpenAI API at https://openai.com/index/openai-api.
-
-Create a new secret ket at https://platform.openai.com/api-keys
-
-Set the OPENAI_API_KEY environment variable to the secret key you just created.
-
-    export OPENAI_API_KEY=sk-...
-
 ## Testing
 
 Run `./test.sh` to run unit tests, or configure and save a Run configuration in Pycharm to run all tests in the 
