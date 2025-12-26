@@ -1,4 +1,5 @@
 import dataclasses
+import logging
 
 from pykeepass import PyKeePass
 import re
@@ -7,21 +8,26 @@ import os
 KEEPASS_PATH = os.path.expanduser(os.environ['WDDP_KEEPASS'])
 KEEPASS_PASSWORD = os.environ['WDDP_KEEPASS_PASSWORD']
 
+logger = logging.getLogger(__name__)
+
+
 @dataclasses.dataclass
 class WddpSecrets:
     storage_service_account_credentials: str
     es_auth: str
 
 
-def get_wddp_secrets(kdbx_file = KEEPASS_PATH, password = KEEPASS_PASSWORD):
+def get_wddp_secrets(kdbx_file=KEEPASS_PATH, password=KEEPASS_PASSWORD):
     kp = PyKeePass(kdbx_file, password=password)
-    storage_service_account_credentials = kp.find_entries_by_title(title = "wddp storage service account")[0].attachments[0].binary.decode('utf-8')
+    storage_service_account_credentials = kp.find_entries_by_title(title="wddp storage service account")[0].attachments[
+        0].binary.decode('utf-8')
     bonsai_user = kp.find_entries_by_title("bonsai wddp publisher")[0].username
     bonsai_pass = kp.find_entries_by_title("bonsai wddp publisher")[0].password
     return WddpSecrets(
         storage_service_account_credentials,
         f"{bonsai_user}:{bonsai_pass}"
     )
+
 
 def get_keepass_entry(kdbx_file, password, entry, field):
     """Get a specific field from a KeePass entry."""
@@ -40,12 +46,14 @@ def list_keepass_entries(kdbx_file, password):
     return [(entry.title, entry) for entry in kp.entries]
 
 
-def keepass_dotenv(kdbx_file = KEEPASS_PATH, password = KEEPASS_PASSWORD):
+def keepass_dotenv(kdbx_file=KEEPASS_PATH, password=KEEPASS_PASSWORD):
     """Read .env file and set environment variables with KeePass values resolved."""
     if not os.path.exists('.env'):
+        logger.info("No .env file found. Skipping keepass_dotenv."")
         return
 
-    if 'WDDP_KEEPASS' not in os.environ:
+    if not os.path.exists(kdbx_file):
+        logger.warning(f"KeePass database not found at {kdbx_file}. Skipping keepass_dotenv.")
         return
 
     with open('.env', 'r') as f:
