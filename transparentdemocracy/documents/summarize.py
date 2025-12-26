@@ -85,8 +85,11 @@ class DocumentSummarizer:
             num_docs_summarized += 1
             summary_path = self.txt_path_to_summary_path(text_path)
 
-            # Skip summarizing a document, if it has already been summarized before:
             if os.path.exists(summary_path):
+                continue
+
+            if not os.path.exists(text_path):
+                logger.warning("Missing text file: %s. Skipping summary", text_path)
                 continue
 
             # Transform the document into an input the Langchain framework can use:

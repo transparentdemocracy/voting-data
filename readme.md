@@ -72,6 +72,54 @@ WDDP_PROD_ES_AUTH is a username:password pair.
 Copy the actual secrets from our password manager.
 SKIP_SLOW is currently set to 1, because some of the tests are rather slow, we usually skip them.
 
+## Running the Data Processing Pipeline
+
+The data processing pipeline has been redesigned with clear phases and improved logging. You can control the behavior using environment variables:
+
+### Environment Variables
+
+- `LOG_LEVEL`: Controls logging verbosity (DEBUG, INFO, WARNING, ERROR) - default: INFO
+- `INTERACTIVE`: Whether to prompt between phases (true/false) - default: true  
+- `WDDP_ENVIRONMENT`: Environment to run in (test/local/dev/prod) - default: dev
+- `LEGISLATURE`: Legislature number to process - default: 56
+- `DOWNLOAD_ACTORS`: Whether to download actor data (true/false) - default: false
+- `UPDATE_POLITICIANS`: Whether to update politician data (true/false) - default: false
+
+### Processing Phases
+
+The pipeline runs through 7 clear phases:
+
+1. **DETERMINE PLENARIES** - Identify which plenary sessions need processing
+2. **DOWNLOAD REPORTS** - Download HTML plenary reports from dekamer.be
+3. **ANALYZE DOCUMENTS** - Extract voting data and identify referenced documents
+4. **PLAN DOCUMENT WORK** - Determine which documents need downloading/summarizing
+5. **DOWNLOAD DOCUMENTS** - Download PDF documents that need processing
+6. **SUMMARIZE DOCUMENTS** - Generate AI summaries for documents
+7. **PUBLISH RESULTS** - Publish processed data to ElasticSearch backend
+
+### Usage Examples
+
+```bash
+# Run with minimal logging, no prompts (good for CI/CD)
+LOG_LEVEL=WARNING INTERACTIVE=false python -m transparentdemocracy.main
+
+# Run with debug logging and prompts (good for development)
+LOG_LEVEL=DEBUG INTERACTIVE=true python -m transparentdemocracy.main
+
+# Run in production mode
+WDDP_ENVIRONMENT=prod LOG_LEVEL=INFO python -m transparentdemocracy.main
+
+# Use the convenience script
+python run_processing.py
+```
+
+### Logging Improvements
+
+- **Phase-based logging**: Clear separation of processing phases with progress indicators
+- **Appropriate log levels**: Important information at INFO level, detailed operations at DEBUG level
+- **Progress tracking**: Shows progress for long-running operations like document processing
+- **Reduced noise**: Third-party library logging is suppressed to focus on relevant information
+
 ## Downloading and generating data
 
 

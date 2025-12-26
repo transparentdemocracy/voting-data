@@ -53,7 +53,7 @@ class DeKamerGateway:
             path = self.config.plenary_html_input_path(f"ip{plenary_nr}x.html")
 
             if os.path.exists(path) and not force_overwrite:
-                print(f"skipping download of {plenary_id} because {path} exists")
+                print(f"skipping download of {plenary_id} because {path} exists and force_overwrite is false")
                 continue
 
             response = self.session.get(f"https://www.dekamer.be/doc/PCRI/html/{self.config.legislature}/ip{plenary_nr}x.html")

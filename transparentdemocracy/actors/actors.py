@@ -7,9 +7,7 @@ import aiofiles
 import aiohttp
 from aiohttp import ClientSession
 
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
 
 class ActorHttpGateway:
     def __init__(self, config, base_url='https://data.dekamer.be/v0/actr'):

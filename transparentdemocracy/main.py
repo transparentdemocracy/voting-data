@@ -1,10 +1,12 @@
+import dataclasses
 import json
 import logging
 import os
 from collections import defaultdict
+from functools import wraps
 from typing import List
 
-from src.keepass_reader import get_keepass_entry, keepass_dotenv
+from src.keepass_reader import keepass_dotenv
 from transparentdemocracy.actors.actors import ActorHttpGateway
 from transparentdemocracy.config import Config, _create_config, Environments
 from transparentdemocracy.documents.analyze_references import collect_document_references
@@ -24,7 +26,61 @@ from transparentdemocracy.publisher.elastic_search import PlenaryElasticReposito
 from transparentdemocracy.usecases.determine_plenaries_to_process import DeterminePlenariesToProcess, PlenaryStatus
 from transparentdemocracy.usecases.update_politicians import UpdatePoliticians
 
+log_level = os.environ.get("LOG_LEVEL", "WARNING")
+# Setup logging - force configuration
+root_logger = logging.getLogger()
+root_logger.setLevel(getattr(logging, log_level, logging.WARNING))
+# Clear any existing handlers
+for handler in root_logger.handlers[:]:
+    root_logger.removeHandler(handler)
+# Add our handler
+handler = logging.StreamHandler()
+handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s', '%H:%M:%S'))
+root_logger.addHandler(handler)
+
+# Suppress third-party noise
+logging.getLogger('urllib3').setLevel(logging.WARNING)
+logging.getLogger('requests').setLevel(logging.WARNING)
+logging.getLogger('google').setLevel(logging.WARNING)
+
 logger = logging.getLogger(__name__)
+
+
+@dataclasses.dataclass
+class DocumentActions:
+    download_text: List[str] = dataclasses.field(default_factory=list)
+    download_pdf: List[str] = dataclasses.field(default_factory=list)
+    extract_text: List[str] = dataclasses.field(default_factory=list)
+    upload_text: List[str] = dataclasses.field(default_factory=list)
+
+    download_summary: List[str] = dataclasses.field(default_factory=list)
+    generate_summary: List[str] = dataclasses.field(default_factory=list)
+    upload_summary: List[str] = dataclasses.field(default_factory=list)
+
+
+def phase(name, desc=""):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            print(f"\n{'=' * 60}")
+            print(f"PHASE: {name}")
+            if desc: print(f"Description: {desc}")
+            print("=" * 60)
+            try:
+                return func(*args, **kwargs)
+            finally:
+                print(f"✓ PHASE COMPLETED: {name}\n")
+
+        return wrapper
+
+    return decorator
+
+
+def prompt_continue(msg="Press enter to continue", interactive=None):
+    if interactive is None:
+        interactive = os.environ.get("INTERACTIVE", "true") == "true"
+
+    if interactive: input(f"{msg}...")
 
 
 class Application:
@@ -50,13 +106,10 @@ class Application:
         self._update_politicians = _update_politicians
         self._determine_plenaries_to_process = _determine_plenaries_to_process
 
-    def update_politicians(self, force_overwrite=False, download_actors=True):
-        self._update_politicians.update_politicians(force_overwrite, download_actors)
-
     def update_voting_data_json_files(self):
         plenaries_to_update = self._determine_plenaries_to_process.determine_plenaries_to_update()
 
-        self.de_kamer.download_plenary_reports(plenary_ids = list(plenaries_to_update.keys()), force_overwrite=True)
+        self.de_kamer.download_plenary_reports(plenary_ids=list(plenaries_to_update.keys()), force_overwrite=True)
 
         report_filenames = [self.config.plenary_html_input_path("ip%03sx.html" % plenary_id[3:])
                             for plenary_id in plenaries_to_update.keys()]
@@ -75,9 +128,6 @@ class Application:
 
     def determine_plenaries_to_process(self) -> List[PlenaryStatus]:
         return self._determine_plenaries_to_process.determine_plenaries_to_process()
-
-    def download_plenary_reports(self, plenary_ids: List[str], force_overwrite=True):
-        self.de_kamer.download_plenary_reports(plenary_ids, force_overwrite)
 
     def save_document_texts(self, document_references):
         document_ids = self.get_document_ids_from_references(document_references)
@@ -165,75 +215,6 @@ class Application:
         for document_id in missing_document_ids:
             self.document_repository.upsert_document_summary(document_id)
 
-    def generate_summaries(self, plenaries):
-        document_references = self.get_document_references(plenaries)
-        document_ids = self.get_document_ids_from_references(document_references)
-
-        logger.info(f"generating summaries for document ids: {document_ids}")
-
-        local_summaries = self._find_local_document_summary_ids(document_ids)
-        remote_summaries = self.document_repository.find_document_summary_ids(document_ids)
-
-        local_texts = self._find_local_document_text_ids(document_ids)
-        remote_texts = self.document_repository.find_document_text_ids(document_ids)
-
-        for document_id in document_ids:
-            summary_state = "".join(
-                [('1' if document_id in local_summaries else '0'), ('1' if document_id in remote_summaries else '0')])
-            if summary_state == '11':
-                logger.info(f"document {document_id} has summary local and remote. No actions needed.")
-            elif summary_state == '01':
-                logger.info(f"document {document_id} has summary remote. Downloading...")
-                self._download_summary(document_id)
-            elif summary_state == '10':
-                logger.info(f"document {document_id} has summary local. Uploading...")
-                self._upload_summary(document_id)
-            else:
-                text_state = "".join(
-                    [('1' if document_id in local_texts else '0'), ('1' if document_id in remote_texts else '0')])
-                if text_state == '11':
-                    logger.info(f"document {document_id} has text local and remote. Summarizing and uploading")
-                    logger.info(f"document {document_id} summarizing")
-                    self._generate_summary(document_id)
-                    logger.info(f"document {document_id} uploading summary")
-                    self._upload_summary(document_id)
-                elif text_state == '10':
-                    logger.info(f"document {document_id} has text local. Will upload, summarize and upload summary")
-                    logger.info(f"document {document_id} uploading text")
-                    self._upload_text(document_id)
-                    logger.info(f"document {document_id} summarizing")
-                    self._generate_summary(document_id)
-                    logger.info(f"document {document_id} uploading summary")
-                    self._upload_summary(document_id)
-                elif text_state == '01':
-                    logger.info(
-                        f"document {document_id} has text remote. Will download text, summarize and upload summary")
-                    logger.info(f"document {document_id} downloading text")
-                    self._download_text(document_id)
-                    logger.info(f"document {document_id} summarizing")
-                    self._generate_summary(document_id)
-                    logger.info(f"document {document_id} uploading summary")
-                    self._upload_summary(document_id)
-                else:
-                    logger.info(
-                        f"document {document_id} has no text or summary. Will download pdf, extract text, upload text, generate summary and upload summmary")
-                    logger.info(f"document {document_id} downloading pdf")
-                    self._download_document_pdf(document_id)
-                    logger.info(f"document {document_id} extracting text from pdf")
-                    self._extract_text_from_document(document_id)
-
-                    text_path = self.document_ids_to_local_txt_path([document_id])[0]
-                    if not os.path.exists(text_path):
-                        logger.warning(f"Text extraction failed on {document_id}.")
-                        continue
-
-                    logger.info(f"document {document_id} uploading text")
-                    self._upload_text(document_id)
-                    logger.info(f"document {document_id} summarizing")
-                    self._generate_summary(document_id)
-                    logger.info(f"document {document_id} uploading summary")
-                    self._upload_summary(document_id)
-
     def _download_document_pdf(self, document_id):
         self.de_kamer.download_document_pdf(document_id)
 
@@ -241,8 +222,6 @@ class Application:
         pdf_documents = self.document_ids_to_local_pdf_path([document_id])
         extract_text_from_documents(self.config, pdf_documents)
 
-    def _generate_summary(self, document_id):
-        DocumentSummarizer(self.config).summarize_documents(self.document_ids_to_local_txt_path([document_id]))
 
     def _find_local_document_summary_ids(self, document_ids):
         def exists(doc_id):
@@ -295,15 +274,184 @@ class Application:
 
         return VotingReport(voting_id, votes_by_party)
 
-    def check_summaries(self, plenaries):
-        doc_refs = self.get_document_references(plenaries)
-        document_ids = self.get_document_ids_from_references(doc_refs)
+    def check_summaries(self, document_ids):
+        """ TODO: this is a bit vague. Make the intent more clear """
 
         for doc_id in document_ids:
             summary_path = self.document_id_to_local_summary_file(doc_id)
             print(f"checking {summary_path}")
             with open(summary_path, 'r') as summary_file:
                 json.load(summary_file)
+
+    @phase("0. DOWNLOAD ACTORS AND UPDATE POLITICIANS", "Make sure we have up-to-date per-legislation data")
+    def update_politicians(self):
+        download_actors = os.environ.get("DOWNLOAD_ACTORS", "false") == "true"
+        update_politicians = os.environ.get("UPDATE_POLITICIANS", "false") == "true"
+
+        if not update_politicians and not download_actors:
+            logger.info("  (skipped - DOWNLOAD_ACTORS and UPDATE_POLITICIANS both != true)")
+            return
+
+        prompt_continue(
+            f"Press enter to download actors ({download_actors}) and update politicians ({update_politicians})")
+        if update_politicians or download_actors:
+            self._update_politicians.update_politicians(update_politicians, download_actors)
+
+    @phase("1. IDENTIFY PLENARIES TO UPDATE", "Identifying which plenary sessions need processing")
+    def identify_plenaries_to_update(self):
+        prompt_continue("Press enter to start this phase")
+
+        plenaries_to_process = self.determine_plenaries_to_process()
+        final_plenary_ids = [p.id for p in plenaries_to_process if p.dekamer_final]
+        plenary_ids_to_process = [p.id for p in plenaries_to_process]
+
+        logger.info(f"  Found {len(plenary_ids_to_process)} plenaries to process")
+        logger.info(f"  Final: {final_plenary_ids}")
+        logger.info(f"  Non-final: {[p.id for p in plenaries_to_process if not p.dekamer_final]}")
+
+        print(f"Number of plenaries ids to process: {len(plenary_ids_to_process)}")
+        print(f"Number of plenaries that are final (i.e. this should be their last update): {len(final_plenary_ids)}")
+        return plenary_ids_to_process, final_plenary_ids
+
+    @phase("2. DOWNLOAD REPORTS", "Downloading HTML plenary reports from dekamer.be")
+    def download_reports(self, plenary_ids_to_process):
+        print(f"Number of reports to download: {len(plenary_ids_to_process)}")
+        prompt_continue("Press enter to execute phase")
+        self.de_kamer.download_plenary_reports(plenary_ids_to_process, False)
+
+    @phase("3. ANALYZE PLENARY REPORTS",
+           "Extracting voting data and identifying referenced documents from plenary reports")
+    def analyze_plenary_reports(self, plenary_ids_to_process):
+        report_filenames = [self.config.plenary_html_input_path("ip%03sx.html" % plenary_id[plenary_id.index("_") + 1:])
+                            for plenary_id in
+                            plenary_ids_to_process]
+        prompt_continue(f"Will analyse {len(report_filenames)} HTML reports. Press Enter to continue")
+
+        report_filenames = [self.config.plenary_html_input_path("ip%03sx.html" % plenary_id[plenary_id.index("_") + 1:])
+                            for plenary_id in
+                            plenary_ids_to_process]
+        plenaries, votes, problems = extract_plenary_reports(self.config, report_filenames)
+        voting_reports = self.create_voting_reports(votes)
+        link_motions_with_proposals(plenaries)
+        document_references = self.get_document_references(plenaries)
+        document_ids = self.get_document_ids_from_references(document_references)
+
+        logger.info(f"  Found {len(document_ids)} documents to process")
+        logger.info(f"  Extracted {len(votes)} votes from {len(plenaries)} plenaries")
+        if problems:
+            logger.warning(f"  Found {len(problems)} processing problems")
+            for problem in problems[:3]:
+                logger.debug(f"    {problem}")
+
+        return plenaries, votes, voting_reports, document_ids
+
+    @phase("4. SUMMARIZE DOCUMENTS AND SYNC WITH CLOUD STORAGE", "Make sure all documents have summaries both local and in the cloud")
+    def summarize_documents(self, document_ids):
+        actions = self._determine_document_actions(document_ids)
+        prompt_continue("Press enter to perform these actions")
+        self._perform_document_actions(actions)
+
+    def _determine_document_actions(self, document_ids):
+        logger.debug(f"Document IDs to process: {document_ids}")
+
+        local_summaries = self._find_local_document_summary_ids(document_ids)
+        remote_summaries = self.document_repository.find_document_summary_ids(document_ids)
+        local_texts = self._find_local_document_text_ids(document_ids)
+        remote_texts = self.document_repository.find_document_text_ids(document_ids)
+
+        processed = 0
+
+        document_actions = DocumentActions()
+
+        for document_id in document_ids:
+            processed += 1
+
+            summary_state = "".join(
+                [('1' if document_id in local_summaries else '0'),
+                 ('1' if document_id in remote_summaries else '0')])
+
+            if summary_state == '11':
+                # summary is remote and local, no more work needed
+                pass
+            elif summary_state == '01':
+                # summary is remote but not local, download it
+                document_actions.download_summary.append(document_id)
+            elif summary_state == '10':
+                # summary is local but not remote, upload it
+                document_actions.upload_summary.append(document_id)
+            else:
+                # summary needs to be generated
+                document_actions.generate_summary.append(document_id)
+
+                text_state = "".join(
+                    [('1' if document_id in local_texts else '0'), ('1' if document_id in remote_texts else '0')])
+
+                if text_state == '11':
+                    # text is remote and local, create summary and upload it
+                    document_actions.upload_summary.append(document_id)
+                elif text_state == '10':
+                    # text is local but not remote, upload it
+                    document_actions.upload_text.append(document_id)
+                    document_actions.upload_summary.append(document_id)
+                elif text_state == '01':
+                    document_actions.download_text.append(document_id)
+                    document_actions.upload_summary.append(document_id)
+                else:
+                    document_actions.download_pdf.append(document_id)
+                    document_actions.extract_text.append(document_id)
+                    document_actions.upload_text.append(document_id)
+                    document_actions.upload_summary.append(document_id)
+
+        print("Planned document actions:")
+        print(f" - download_pdf: {len(document_actions.download_pdf)}")
+        print(f" - extract_text: {len(document_actions.extract_text)}")
+        print(f" - download_text: {len(document_actions.download_text)}")
+        print(f" - upload_text: {len(document_actions.upload_text)}")
+        print(f" - generate_summary: {len(document_actions.generate_summary)}")
+        print(f" - download_summary: {len(document_actions.download_summary)}")
+        print(f" - upload_summary: {len(document_actions.upload_summary)}")
+        return document_actions
+
+    def _perform_document_actions(self, document_actions: DocumentActions):
+        print(f"Downloading {len(document_actions.download_pdf)} document pdfs")
+        for doc_id in document_actions.download_pdf:
+            self._download_document_pdf(doc_id)
+
+        print(f"Downloading text for {len(document_actions.download_text)} documents")
+        for doc_id in document_actions.download_text:
+            self._download_text(doc_id)
+
+        print(f"Extracting text from {len(document_actions.extract_text)} pdf documents")
+        for doc_id in document_actions.extract_text:
+            self._extract_text_from_document(doc_id)
+
+        print(f"Uploading text for {len(document_actions.upload_text)} documents")
+        for doc_id in document_actions.upload_text:
+            self._upload_text(doc_id)
+
+        print(f"Downloading summaries for {len(document_actions.download_summary)} documents")
+        for doc_id in document_actions.download_summary:
+            self._download_summary(doc_id)
+
+        print(f"Generating {len(document_actions.generate_summary)} summaries")
+        DocumentSummarizer(self.config).summarize_documents(self.document_ids_to_local_txt_path(document_actions.generate_summary))
+
+        print(f"Checking {len(document_actions.upload_summary)} summaries before uploading")
+        self.check_summaries(document_actions.upload_summary)
+
+        print(f"Uploading {len(document_actions.upload_summary)} summaries")
+        for doc_id in document_actions.upload_summary:
+            self._upload_summary(doc_id)
+
+
+    def phase_publish_results_summary(self, plenaries, final_plenary_ids):
+        logger.info(f"  Will publish {len(plenaries)} plenaries to backend")
+        logger.info(f"  Final plenaries being published: {final_plenary_ids}")
+
+    def phase_publish_results_execute(self, plenaries, voting_reports, final_plenary_ids):
+        self.publish_to_elastic_search_backend(plenaries, voting_reports, final_plenary_ids)
+        logger.info("  Analyzing interesting votes...")
+        self.print_interesting_votes(plenaries, voting_reports)
 
 
 def create_application(config: Config, env: Environments):
@@ -326,6 +474,13 @@ def create_application(config: Config, env: Environments):
     )
 
 
+@phase("5. PUBLISH RESULTS", "Publishing processed data to ElasticSearch backend")
+def phase_5_publish_results(app: Application, plenaries, voting_reports, final_plenary_ids):
+    app.phase_publish_results_summary(plenaries, final_plenary_ids)
+    prompt_continue("Press enter to execute phase")
+    app.phase_publish_results_execute(plenaries, voting_reports, final_plenary_ids)
+
+
 def main():
     """Extract interesting insights from any plenary reports that have not yet been processed."""
     keepass_dotenv()
@@ -334,61 +489,26 @@ def main():
     config = _create_config(env, os.environ.get('LEGISLATURE', '56'))
     app = create_application(config, env)
 
-    # this is only needed when there are changes to the voters.
-    # in the github pipeline we can just always run it?
-    download_actors = os.environ.get("DOWNLOAD_ACTORS", "false") == "true"
-    update_politicians = os.environ.get("UPDATE_POLITICIANS", "false") == "true"
-    app.update_politicians(update_politicians, download_actors)
+    # phase 0
+    app.update_politicians()
 
-    app.update_voting_data_json_files()
+    # phase 1
+    plenary_ids_to_process, final_plenary_ids = app.identify_plenaries_to_update()
 
-    ## create plenaries.json and votes.json from the list of html files
-    plenaries_to_process = app.determine_plenaries_to_process()
-    final_plenary_ids = [p.id for p in plenaries_to_process if p.dekamer_final]
-    print("Final:", final_plenary_ids)
-    print("Non-final:", [p.id for p in plenaries_to_process if not p.dekamer_final])
-    plenary_ids_to_process = [p.id for p in plenaries_to_process]
+    # phase 2
+    app.download_reports(plenary_ids_to_process)
 
-    # final_plenary_ids = []
-    # plenary_ids_to_process = ["56_034"]
+    # phase 3
+    plenaries, votes, voting_reports, document_ids = app.analyze_plenary_reports(plenary_ids_to_process)
 
-    logging.info("Plenaries to process: %s", plenary_ids_to_process)
+    # phase 4
+    app.summarize_documents(document_ids)
 
-    if os.environ.get("INTERACTIVE", "true") == "true":
-        input("Press enter to continue")
+    # phase 5
+    # TODO: split this phase up into a generation and upload?
+    phase_5_publish_results(app, plenaries, voting_reports, final_plenary_ids)
 
-    app.download_plenary_reports(plenary_ids_to_process, False)
-
-    report_filenames = [config.plenary_html_input_path("ip%03sx.html" % id[id.index("_") + 1:]) for id in
-                        plenary_ids_to_process]
-
-    plenaries, votes, problems = extract_plenary_reports(config, report_filenames)
-
-    voting_reports = app.create_voting_reports(votes)
-
-    link_motions_with_proposals(plenaries)
-
-    # The end result of this is summary json files (one per document)
-    # It won't do any re-summarization and checks local disk and google drive to avoid rework
-    app.generate_summaries(plenaries)
-
-    app.check_summaries(plenaries)
-
-    logger.info("### PROBLEMS ###")
-    for p in problems:
-        logger.info(p)
-
-    # TODO: is this 'combined document summaries' file useful for anyone?
-    # with open(app.config.documents_summaries_json_output_path(), 'r', encoding="utf-8") as f:
-    #    summaries = json.load(f)
-
-    if os.environ.get("INTERACTIVE", "true") == "true":
-        print([p.id for p in plenaries])
-        input("Press enter to publish these plenaries to Bonsai")
-
-    app.publish_to_elastic_search_backend(plenaries, voting_reports, final_plenary_ids)
-
-    app.print_interesting_votes(plenaries, voting_reports)
+    logger.info("🎉 Processing completed successfully!")
 
 
 if __name__ == "__main__":
