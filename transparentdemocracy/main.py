@@ -4,6 +4,7 @@ import os
 from collections import defaultdict
 from typing import List
 
+from src.keepass_reader import get_keepass_entry, keepass_dotenv
 from transparentdemocracy.actors.actors import ActorHttpGateway
 from transparentdemocracy.config import Config, _create_config, Environments
 from transparentdemocracy.documents.analyze_references import collect_document_references
@@ -327,8 +328,9 @@ def create_application(config: Config, env: Environments):
 
 def main():
     """Extract interesting insights from any plenary reports that have not yet been processed."""
+    keepass_dotenv()
 
-    env = Environments(os.environ.get('WDDP_ENVIRONMENT', Environments.PROD))
+    env = Environments(os.environ.get('WDDP_ENVIRONMENT', Environments.DEV))
     config = _create_config(env, os.environ.get('LEGISLATURE', '56'))
     app = create_application(config, env)
 

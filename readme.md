@@ -74,12 +74,13 @@ SKIP_SLOW is currently set to 1, because some of the tests are rather slow, we u
 
 ## Downloading and generating data
 
+
+Set up the .env file. See `.env.example` to get started.
+You don't need to use the keepass configuration mechanism, but it's generally a good idea not to store secrets in plain text.
+
 Run:
 
-        export PYTHONUNBUFFERED=1
-        export WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS=...
-        export WDDP_PROD_ES_AUTH=
-        python -m transparentdemocracy.main
+    python -m transparentdemocracy.main
 
 
 New orchestration: application.py, ES_AUTH=username:password (see our password database) and LEGISLATURE=56 env vars to set.

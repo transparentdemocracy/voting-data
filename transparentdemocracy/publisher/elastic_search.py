@@ -8,6 +8,7 @@ backend.
 import logging
 import os
 import re
+import urllib
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime
@@ -341,13 +342,27 @@ def create_elastic_client(config: Config, env: Environments):
         return Elasticsearch("http://localhost:9200")
 
     if env == Environments.DEV:
-        raise Exception("TODO: setup dev environment")
+        username = os.environ.get("WDDP_DEV_ES_USERNAME", None)
+        if username is None:
+            raise Exception("Missing WDDP_DEV_ES_USERNAME environment variable")
+        password = os.environ.get("WDDP_DEV_ES_PASSWORD", None)
+        if password is None:
+            raise Exception("Missing WDDP_DEV†_ES_PASSWORD environment variable")
+        host = config.elastic_host
+        quoted_username = urllib.parse.quote(username)
+        quoted_password = urllib.parse.quote(password)
+        return Elasticsearch(f"https://{quoted_username}:{quoted_password}@{host}:443")
 
     if env == Environments.PROD:
-        auth = os.environ.get("WDDP_PROD_ES_AUTH", None)
-        if auth is None:
-            raise Exception("Missing WDDP_PROD_ES_AUTH environment variable")
+        username = os.environ.get("WDDP_PROD_ES_USERNAME", None)
+        if username is None:
+            raise Exception("Missing WDDP_PROD_ES_USERNAME environment variable")
+        password = os.environ.get("WDDP_PROD_ES_PASSWORD", None)
+        if password is None:
+            raise Exception("Missing WDDP_PROD_ES_PASSWORD environment variable")
         host = config.elastic_host
-        return Elasticsearch(f"https://{auth}@{host}:443")
+        quoted_username = urllib.parse.quote(username)
+        quoted_password = urllib.parse.quote(password)
+        return Elasticsearch(f"https://{quoted_username}:{quoted_password}@{host}:443")
 
     raise Exception(f"missing elasticsearch configuration for env {env}")
