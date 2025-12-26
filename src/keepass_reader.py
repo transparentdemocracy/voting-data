@@ -45,12 +45,15 @@ def keepass_dotenv(kdbx_file = KEEPASS_PATH, password = KEEPASS_PASSWORD):
     if not os.path.exists('.env'):
         return
 
+    if 'WDDP_KEEPASS' not in os.environ:
+        return
+
     with open('.env', 'r') as f:
         lines = f.readlines()
 
     def replace_keepass_ref(match):
         entry, field_or_attachment = match.group(1), match.group(2)
-        
+
         if field_or_attachment.startswith('@'):
             # Attachment reference
             attachment_name = field_or_attachment[1:]
