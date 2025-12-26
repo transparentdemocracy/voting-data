@@ -9,25 +9,26 @@ on:
 jobs:
   process-reports:
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-    
+
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
         pip install setuptools
         pip install -e .
-    
+
     - name: Process new reports
       env:
         PYTHONUNBUFFERED: 1
         WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS: ${{ secrets.WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS }}
-        WDDP_PROD_ES_AUTH: ${{ secrets.WDDP_PROD_ES_AUTH }}
+        WDDP_PROD_ES_USERNAME: ${{ secrets.WDDP_PROD_ES_USERNAME }}
+        WDDP_PROD_ES_PASSWORD: ${{ secrets.WDDP_PROD_ES_USERNAME }}
         LEGISLATURE: 56
       run: python -m transparentdemocracy.main
