@@ -49,7 +49,7 @@ def list_keepass_entries(kdbx_file, password):
 def keepass_dotenv(kdbx_file=KEEPASS_PATH, password=KEEPASS_PASSWORD):
     """Read .env file and set environment variables with KeePass values resolved."""
     if not os.path.exists('.env'):
-        logger.info("No .env file found. Skipping keepass_dotenv."")
+        logger.info("No .env file found. Skipping keepass_dotenv.")
         return
 
     if not os.path.exists(kdbx_file):
