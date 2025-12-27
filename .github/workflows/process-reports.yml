@@ -30,5 +30,6 @@ jobs:
         WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS: ${{ secrets.WDDP_STORAGE_SERVICE_ACCOUNT_CREDENTIALS }}
         WDDP_PROD_ES_USERNAME: ${{ secrets.WDDP_PROD_ES_USERNAME }}
         WDDP_PROD_ES_PASSWORD: ${{ secrets.WDDP_PROD_ES_USERNAME }}
+        WDDP_ENVIRONMENT: prod
         LEGISLATURE: 56
       run: python -m transparentdemocracy.main
