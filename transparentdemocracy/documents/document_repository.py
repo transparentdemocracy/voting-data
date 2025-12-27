@@ -155,6 +155,7 @@ class GoogleDriveDocumentRepository:
         if file_id is None:
             raise Exception(f"Can't find file {remote_filename} in parent {parent_id}")
         request = self.service.files().get_media(fileId=file_id)
+        os.makedirs(os.path.dirname(local_path), exist_ok=True)
         fh = io.FileIO(local_path, mode='wb')
         downloader = MediaIoBaseDownload(fh, request)
         done = False
