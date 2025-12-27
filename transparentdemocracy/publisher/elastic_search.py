@@ -347,7 +347,7 @@ def create_elastic_client(config: Config, env: Environments):
             raise Exception("Missing WDDP_DEV_ES_USERNAME environment variable")
         password = os.environ.get("WDDP_DEV_ES_PASSWORD", None)
         if password is None:
-            raise Exception("Missing WDDP_DEV†_ES_PASSWORD environment variable")
+            raise Exception("Missing WDDP_DEV_ES_PASSWORD environment variable")
         host = config.elastic_host
         quoted_username = urllib.parse.quote(username)
         quoted_password = urllib.parse.quote(password)
