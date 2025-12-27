@@ -232,7 +232,7 @@ def _to_motion_read_model(config, publishing_data: PublishingData, p: Plenary, _
     if m.voting_id is None:
         LOGGER.warning("motion without voting_id: %s", m.id)
         return None
-    voting_report = publishing_data.voting_reports[m.voting_id]
+    voting_report = publishing_data.voting_reports.get(m.voting_id, None)
     if voting_report is None or voting_report.total_votes == 0:
         LOGGER.warning("no votes found in %s", m.id)
         return None

@@ -274,12 +274,13 @@ class Application:
 
         return VotingReport(voting_id, votes_by_party)
 
-    def check_summaries(self, document_ids):
-        """ TODO: this is a bit vague. Make the intent more clear """
-
+    def verify_summaries_are_valid_json(self, document_ids):
         for doc_id in document_ids:
             summary_path = self.document_id_to_local_summary_file(doc_id)
             print(f"checking {summary_path}")
+            if not os.path.exists(summary_path):
+                print(f"  !! {summary_path} does not exist")
+                continue
             with open(summary_path, 'r') as summary_file:
                 json.load(summary_file)
 
@@ -353,7 +354,7 @@ class Application:
 
     def _determine_document_actions(self, document_ids):
         logger.debug(f"Document IDs to process: {document_ids}")
-
+        print(f"Analyzing {len(document_ids)} documents...")
         local_summaries = self._find_local_document_summary_ids(document_ids)
         remote_summaries = self.document_repository.find_document_summary_ids(document_ids)
         local_texts = self._find_local_document_text_ids(document_ids)
@@ -437,22 +438,19 @@ class Application:
         DocumentSummarizer(self.config).summarize_documents(self.document_ids_to_local_txt_path(document_actions.generate_summary))
 
         print(f"Checking {len(document_actions.upload_summary)} summaries before uploading")
-        self.check_summaries(document_actions.upload_summary)
+        self.verify_summaries_are_valid_json(document_actions.upload_summary)
 
         print(f"Uploading {len(document_actions.upload_summary)} summaries")
         for doc_id in document_actions.upload_summary:
             self._upload_summary(doc_id)
 
-
-    def phase_publish_results_summary(self, plenaries, final_plenary_ids):
+    @phase("5. PUBLISH RESULTS", "Publishing processed data to ElasticSearch backend")
+    def phase_5_publish_results(self, plenaries, voting_reports, final_plenary_ids):
         logger.info(f"  Will publish {len(plenaries)} plenaries to backend")
         logger.info(f"  Final plenaries being published: {final_plenary_ids}")
 
-    def phase_publish_results_execute(self, plenaries, voting_reports, final_plenary_ids):
+        prompt_continue("Press enter to execute phase")
         self.publish_to_elastic_search_backend(plenaries, voting_reports, final_plenary_ids)
-        logger.info("  Analyzing interesting votes...")
-        self.print_interesting_votes(plenaries, voting_reports)
-
 
 def create_application(config: Config, env: Environments):
     es_client = create_elastic_client(config, env)
@@ -472,13 +470,6 @@ def create_application(config: Config, env: Environments):
         UpdatePoliticians(config, actor_gateway),
         DeterminePlenariesToProcess(de_kamer, plenary_repository, plenary_json_storage)
     )
-
-
-@phase("5. PUBLISH RESULTS", "Publishing processed data to ElasticSearch backend")
-def phase_5_publish_results(app: Application, plenaries, voting_reports, final_plenary_ids):
-    app.phase_publish_results_summary(plenaries, final_plenary_ids)
-    prompt_continue("Press enter to execute phase")
-    app.phase_publish_results_execute(plenaries, voting_reports, final_plenary_ids)
 
 
 def main():
@@ -505,8 +496,9 @@ def main():
     app.summarize_documents(document_ids)
 
     # phase 5
-    # TODO: split this phase up into a generation and upload?
-    phase_5_publish_results(app, plenaries, voting_reports, final_plenary_ids)
+    app.publish_results(plenaries, voting_reports, final_plenary_ids)
+
+    app.print_interesting_votes(plenaries, voting_reports)
 
     logger.info("🎉 Processing completed successfully!")
 

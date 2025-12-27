@@ -1,5 +1,6 @@
 import io
 import json
+import logging
 import os
 import os.path
 
@@ -7,8 +8,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
 
-import transparentdemocracy
-
+logger  = logging.getLogger(__name__)
 
 class GoogleDriveDocumentRepository:
     def __init__(self, config):
@@ -176,7 +176,8 @@ class GoogleDriveDocumentRepository:
     def upsert_document_summary(self, document_id):
         local_path = self.document_id_to_local_summary_path(document_id)
         if not os.path.exists(local_path):
-            raise Exception(f"Can't find summary file for document id {document_id} at {local_path}")
+            logger.warning(f"Can't find summary file for document id {document_id} at {local_path}, so not uploading to storage")
+            return
 
         self._upsert_summary_file(local_path)
 
