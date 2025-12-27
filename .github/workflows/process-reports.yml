@@ -32,4 +32,5 @@ jobs:
         WDDP_PROD_ES_PASSWORD: ${{ secrets.WDDP_PROD_ES_USERNAME }}
         WDDP_ENVIRONMENT: prod
         LEGISLATURE: 56
+        INTERACTIVE: false
       run: python -m transparentdemocracy.main
