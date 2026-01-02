@@ -159,10 +159,10 @@ class Application:
 
         summaries_by_id = {}
         for doc_id in document_ids:
-            aummary_path = self.document_id_to_local_summary_file(doc_id)
-            if os.path.exists(aummary_path):
-                print("reading summary from ", aummary_path)
-                summaries_by_id[doc_id] = json.load(open(aummary_path, 'r'))
+            summary_path = self.document_id_to_local_summary_file(doc_id)
+            if os.path.exists(summary_path):
+                print("reading summary from ", summary_path)
+                summaries_by_id[doc_id] = json.load(open(summary_path, 'r'))
 
         # Create and run publisher
         publisher = Publisher(self.config, self.plenary_repository, self.motions_repository, politicians,
@@ -445,7 +445,7 @@ class Application:
             self._upload_summary(doc_id)
 
     @phase("5. PUBLISH RESULTS", "Publishing processed data to ElasticSearch backend")
-    def phase_5_publish_results(self, plenaries, voting_reports, final_plenary_ids):
+    def publish_results(self, plenaries, voting_reports, final_plenary_ids):
         logger.info(f"  Will publish {len(plenaries)} plenaries to backend")
         logger.info(f"  Final plenaries being published: {final_plenary_ids}")
 
@@ -482,6 +482,7 @@ def main():
 
     # phase 0
     app.update_politicians()
+    app.update_voting_data_json_files()
 
     # phase 1
     plenary_ids_to_process, final_plenary_ids = app.identify_plenaries_to_update()

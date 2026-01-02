@@ -639,8 +639,10 @@ def __split_number_title_doc_ref(proposal_title) -> Tuple[Optional[int], str, st
 def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]:
     tokens = WhitespaceTokenizer().tokenize(ctx.html.text)
 
-    votings = find_occurrences(
-        tokens, "Vote nominatif - Naamstemming:".split(" "))
+    votings1 = find_occurrences(tokens, "Vote nominatif - Naamstemming:".split(" "))
+    votings2 = find_occurrences(tokens, "Naamstemming - Vote nominatif:".split(" "))
+
+    votings = votings1 + votings2
 
     bounds = zip(votings, votings[1:] + [len(tokens)])
     voting_sequences = [tokens[start:end] for start, end in bounds]
@@ -648,13 +650,14 @@ def _extract_votes(ctx: PlenaryExtractionContext, plenary_id: str) -> List[Vote]
     votes = []
 
     for seq in voting_sequences:
-        voting_number = str(int(seq[4], 10))
+        voting_number_part = seq[4]
+        voting_number = str(int(voting_number_part, 10))
         voting_id = f"{plenary_id}_v{voting_number}"
 
         # Extract detailed votes:
-        yes_start = get_sequence(seq, ["Oui"])
-        no_start = get_sequence(seq, ["Non"])
-        abstention_start = get_sequence(seq, ["Abstentions"])
+        yes_start = min(get_sequence(seq, ["Oui"]), get_sequence(seq, ["Ja"]))
+        no_start = min(get_sequence(seq, ["Non"]), get_sequence(seq, ["Nee"]))
+        abstention_start = min(get_sequence(seq, ["Abstentions"]), get_sequence(seq, ["Onthoudingen"]))
 
         if yes_start is None:
             ctx.add_problem("YES_PART_NOT_FOUND", voting_id)

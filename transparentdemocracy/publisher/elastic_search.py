@@ -91,6 +91,9 @@ class MotionElasticRepository:
             for motion in motion_group.motions
             if motion is not None
         ]
+
+        motions = [m for m in motions if m is not None]
+
         if len(motions) == 0:
             logging.warning("No motions in motion group with ID %s.", motion_group.id)
             return None
@@ -299,8 +302,8 @@ def to_doc_reference(config, spec, summaries_by_id):
 
     if range_min > range_max:
         raise Exception(f"Invalid range in spec {spec}")
-    if range_max - range_min > 20:
-        raise Exception("Range size over 20. Could be a typo")
+    if range_max - range_min > 30:
+        raise Exception(f"Range size over 30. Could be a typo while parsing {spec}")
 
     refdoc = {
         "spec": spec,
