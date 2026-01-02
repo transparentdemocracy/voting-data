@@ -29,32 +29,23 @@ We also have a public [discussion channel](https://github.com/orgs/transparentde
 
 ## Local development
 
-Execute these three steps to get started as a developer (details below):
+Execute these steps to get started as a developer:
 
-- Create virtual environment
-- Install requirements
-- Install the project in developer mode
+- Install uv (if not already installed): `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- Create virtual environment and install dependencies: `uv sync`
+- Activate the environment: `source .venv/bin/activate`
 
-This will install the python modules so you can import them in your own projects and install command-line tools (see setup.py, look for td-...).
+This will install the python modules so you can import them in your own projects and install command-line tools (see pyproject.toml, look for td script).
 
-### Create virtual environment
+### Development Dependencies
 
-Create a virtual environment and install the project in development mode. Note:
-if you're familiar with it you can also use conda or other environment management tools.
+To install with development dependencies:
 
-    python -mvenv venv
-    . venv/bin/activate
-
-Note that you should run `. venv/bin/activate` (or equivalent) whenever you want to work in a new shell.
-
-### Install requirements
-
-    pip install -r requirements.txt
-    pip install setuptools
+    uv sync --extra dev
 
 ### Install the project in developer mode
 
-    pip install -e .
+The project is automatically installed in development mode when you run `uv sync`.
 
 ## Testing
 
@@ -97,31 +88,7 @@ The pipeline runs through 7 clear phases:
 6. **SUMMARIZE DOCUMENTS** - Generate AI summaries for documents
 7. **PUBLISH RESULTS** - Publish processed data to ElasticSearch backend
 
-### Usage Examples
-
-```bash
-# Run with minimal logging, no prompts (good for CI/CD)
-LOG_LEVEL=WARNING INTERACTIVE=false python -m transparentdemocracy.main
-
-# Run with debug logging and prompts (good for development)
-LOG_LEVEL=DEBUG INTERACTIVE=true python -m transparentdemocracy.main
-
-# Run in production mode
-WDDP_ENVIRONMENT=prod LOG_LEVEL=INFO python -m transparentdemocracy.main
-
-# Use the convenience script
-python run_processing.py
-```
-
-### Logging Improvements
-
-- **Phase-based logging**: Clear separation of processing phases with progress indicators
-- **Appropriate log levels**: Important information at INFO level, detailed operations at DEBUG level
-- **Progress tracking**: Shows progress for long-running operations like document processing
-- **Reduced noise**: Third-party library logging is suppressed to focus on relevant information
-
 ## Downloading and generating data
-
 
 Set up the .env file. See `.env.example` to get started.
 You don't need to use the keepass configuration mechanism, but it's generally a good idea not to store secrets in plain text.
@@ -129,6 +96,5 @@ You don't need to use the keepass configuration mechanism, but it's generally a 
 Run:
 
     python -m transparentdemocracy.main
-
 
 New orchestration: application.py, ES_AUTH=username:password (see our password database) and LEGISLATURE=56 env vars to set.
