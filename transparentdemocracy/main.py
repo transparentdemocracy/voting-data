@@ -222,7 +222,6 @@ class Application:
         pdf_documents = self.document_ids_to_local_pdf_path([document_id])
         extract_text_from_documents(self.config, pdf_documents)
 
-
     def _find_local_document_summary_ids(self, document_ids):
         def exists(doc_id):
             return os.path.exists(
@@ -346,7 +345,8 @@ class Application:
 
         return plenaries, votes, voting_reports, document_ids
 
-    @phase("4. SUMMARIZE DOCUMENTS AND SYNC WITH CLOUD STORAGE", "Make sure all documents have summaries both local and in the cloud")
+    @phase("4. SUMMARIZE DOCUMENTS AND SYNC WITH CLOUD STORAGE",
+           "Make sure all documents have summaries both local and in the cloud")
     def summarize_documents(self, document_ids):
         actions = self._determine_document_actions(document_ids)
         prompt_continue("Press enter to perform these actions")
@@ -435,7 +435,8 @@ class Application:
             self._download_summary(doc_id)
 
         print(f"Generating {len(document_actions.generate_summary)} summaries")
-        DocumentSummarizer(self.config).summarize_documents(self.document_ids_to_local_txt_path(document_actions.generate_summary))
+        DocumentSummarizer(self.config).summarize_documents(
+            self.document_ids_to_local_txt_path(document_actions.generate_summary))
 
         print(f"Checking {len(document_actions.upload_summary)} summaries before uploading")
         self.verify_summaries_are_valid_json(document_actions.upload_summary)
@@ -451,6 +452,7 @@ class Application:
 
         prompt_continue("Press enter to execute phase")
         self.publish_to_elastic_search_backend(plenaries, voting_reports, final_plenary_ids)
+
 
 def create_application(config: Config, env: Environments):
     es_client = create_elastic_client(config, env)
