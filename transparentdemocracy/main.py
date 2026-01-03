@@ -6,7 +6,7 @@ from collections import defaultdict
 from functools import wraps
 from typing import List
 
-from src.keepass_reader import keepass_dotenv
+from transparentdemocracy.keepass_reader import keepass_dotenv
 from transparentdemocracy.actors.actors import ActorHttpGateway
 from transparentdemocracy.config import Config, _create_config, Environments
 from transparentdemocracy.documents.analyze_references import collect_document_references
