@@ -2965,13 +2965,6 @@ dependencies = [
     { name = "tqdm" },
 ]
 
-[package.optional-dependencies]
-dev = [
-    { name = "jupyterlab" },
-    { name = "pylint" },
-    { name = "pytest" },
-]
-
 [package.dev-dependencies]
 dev = [
     { name = "jupyterlab" },
@@ -2991,7 +2984,6 @@ requires-dist = [
     { name = "google-auth-httplib2", specifier = ">=0.2.0" },
     { name = "google-auth-oauthlib", specifier = ">=1.2.1" },
     { name = "jsonpath-extractor", specifier = ">=0.9.2" },
-    { name = "jupyterlab", marker = "extra == 'dev'", specifier = ">=4.3.4" },
     { name = "langchain", specifier = ">=0.3.19" },
     { name = "langchain-community", specifier = ">=0.3.18" },
     { name = "langchain-core", specifier = ">=0.3.40" },
@@ -3001,9 +2993,7 @@ requires-dist = [
     { name = "nltk", specifier = ">=3.9.1" },
     { name = "pydantic", specifier = ">=2.10.6" },
     { name = "pykeepass", specifier = ">=4.1.0" },
-    { name = "pylint", marker = "extra == 'dev'", specifier = ">=2.15.0" },
     { name = "pymupdf", specifier = ">=1.25.1" },
-    { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.0.0" },
     { name = "pyyaml", specifier = ">=6.0.2" },
     { name = "requests", specifier = ">=2.32.3" },
     { name = "tiktoken", specifier = ">=0.12.0" },
